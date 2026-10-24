@@ -1,4 +1,4 @@
-# Sleuth 2D haunted-mansion remake — development environment
+# Mansion Mystery — Sleuth 2D remake
 
 **Current compact scope:** four ground-floor rooms, two upstairs rooms and one
 basement room, plus a main stair hall and upstairs landing (nine spaces total).

@@ -1,0 +1,172 @@
+{
+  "technical_passed": true,
+  "numbered_designs": 21,
+  "photo_based_identities": 15,
+  "variant_views": 28,
+  "same_person_cards": 7,
+  "identity_merge_checks": 9,
+  "unique_alias_assignments": true,
+  "selected_source_files": {
+    "res://assets/characters/review-v6/sources/selected-party-hm.png": {
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "6631c02f7aa707629b88893aba8d9e797d070703b4831c81032903984ed14037"
+    },
+    "res://assets/characters/review-v2/masters/photo-01-woman-v2.png": {
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "sha256": "51ffbbb0e7c03a5e27a37fc327a5755447840cc3cb3911248db8fc28aa1aee3d"
+    },
+    "res://assets/characters/review-v5/masters/photo-03-f-scruff-v5.png": {
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "sha256": "238cbd4931e178f81e6109e61a1223977186035eae7df7a94b30dc45ba5c8e4c"
+    },
+    "res://assets/characters/review-v3/masters/photo-04-upper-five-v3.png": {
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "55f9f7653d0ef5f1585e64bbaeb3db8f5ee3055e090037b7f05f42142bd20386"
+    },
+    "res://assets/characters/review-v6/sources/selected-party-ag.png": {
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "e103de62ed236b2884d3fd559b01aee8db2f34b538f26bc299c03ddab7f87c36"
+    },
+    "res://assets/characters/review-v6/sources/selected-hat-pair.png": {
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "576854786f8b9a6cb3c37f0aae8639d72e32c15e9a31ec3e33861b6d759ae833"
+    },
+    "res://assets/characters/review-v5/masters/photo-04-k-cheek-scruff-v5.png": {
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "de171491ebadd8b3f7d6d5f41f37a97d9fdbb1e37d8f5ba02bca235e09cab1f4"
+    },
+    "res://assets/characters/review-v7/masters/sarah-jo-short-hair-proportions-v7.png": {
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "4dbb457f8556504d16ec47f3289046b583ab087e1c4177a135e043a7813621c0"
+    },
+    "res://assets/characters/references/protagonist-front.png": {
+      "size": [
+        130,
+        251
+      ],
+      "mode": "RGBA",
+      "sha256": "143203971aa3e7c4fe3c1fa17cbaf7c5e0695de76d841b551777938e3a622938"
+    },
+    "res://assets/characters/review-v2/masters/eleanor-proportion-v2.png": {
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "e9f113acf862334cae01ba6532c012cdb87e4ec92ebf73b32ce48f436eea5594"
+    },
+    "res://assets/characters/references/eleanor-original-front.png": {
+      "size": [
+        313,
+        720
+      ],
+      "mode": "RGBA",
+      "sha256": "24f9d9f4de3abcb5631cf353270e6d644f7424b6fc0b391919c3d0eca809c4be"
+    },
+    "res://assets/characters/masters/01-jonas-investigating-clue.png": {
+      "size": [
+        1230,
+        1278
+      ],
+      "mode": "RGBA",
+      "sha256": "9a38084d6c735c072eb3ffb6a8ee97d63a941cce2dd5975c9ba58465bcec87ba"
+    },
+    "res://assets/characters/masters/02-examining-clock.png": {
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "cd5394972e29e690c37d83bbfdde0486485405918715bd8ee122536acd2e5e52"
+    },
+    "res://assets/characters/masters/03-hiding-under-bed.png": {
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA",
+      "sha256": "38561bf0dd3d6f2adcb9ea4795eef684c08ebdaa0a668d882e04415dfc199bfc"
+    },
+    "res://assets/characters/masters/04-angry.png": {
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "dcc75dcc26fc7e0d329e5bb5c2841abced6b4884565691081c658153ec3bc3c1"
+    },
+    "res://assets/characters/review-v7/masters/20-short-woman-v7.png": {
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "8945cd35160d66e4b863d43052d3601f1161f1f3232228e6530c9f974eeaf2bc"
+    },
+    "res://assets/characters/review-v7/masters/21-glasses-man-v7.png": {
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "d59a06eb1df789b7e22a65d16ec495ca364ffeedc2ce5d95555ce322e9b878ff"
+    }
+  },
+  "review_sheets": {
+    "current-cast-overview.png": {
+      "size": [
+        1500,
+        1865
+      ],
+      "sha256": "dd4aae1b063d4009fc26751f5a6cd95d04b9280868b103523a9af1d7906612fe"
+    },
+    "same-person-variants.png": {
+      "size": [
+        1500,
+        1440
+      ],
+      "sha256": "e156aac87c4b60de31a78db511b59e214e6b4e6791dbe79ac32e1ea266c86d88"
+    }
+  },
+  "archive_master_count": 25,
+  "gallery": "all-character-art.html",
+  "names_pending": true,
+  "named_designs": 13,
+  "photo_based_names_complete": false,
+  "final_cast_approved": false,
+  "new_base_characters": 2,
+  "new_action_pose_sets_generated": false,
+  "gameplay_integration_tested": false
+}

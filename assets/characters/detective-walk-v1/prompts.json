@@ -1,0 +1,9 @@
+{
+  "tool": "built-in image_gen",
+  "selected_geometry": "User-corrected sheet; all generated gait attempts rejected",
+  "selected_generated_use": "Cleanup alpha mask only; user RGB preserved except exterior red fringe",
+  "prompts": {
+    "user_sheet_cleanup": "Precise cleanup edit ONLY of the attached user-corrected game sprite sheet. This is finished user artwork, NOT a prompt to redraw or animate it. Preserve all eight figures, every leg/arm pose, facial features, hairstyle, colors, clothing, pixel clusters, source positions, relative sizes, 4-column x 2-row arrangement, and cell spacing exactly.\nRemove ONLY the thin unwanted red/orange fringe around the OUTSIDE silhouettes. Restore a clean dark colored pixel-art edge matching adjacent existing outline pixels. Keep legitimate reddish brown hair, boots, skin and burgundy vest completely intact. Do not alter internal red/brown pixels. Remove the black backdrop to genuine RGBA transparency while preserving all dark clothing/outline pixels. Preserve small gaps between limbs, do not erase limbs or coat hems.\nCRITICAL: Do not change or 'correct' any leg, boot, hand, arm, head or pose. The user manually corrected the gait and those changes MUST stay. In particular the leg overlap and sleeve overlap in each individual cell must be exactly the supplied artwork. Do not replace it with a prior generated sheet. No new art, no new features, no re-layout, no shadows, no text. Output the same complete sheet with transparent background and clean silhouettes only."
+  },
+  "retention_reason": "Cleanup mask is required by the existing technical extraction tool; failed gait prompts removed. Verify alternating near/far legs and opposite arms in future reviews."
+}

@@ -1,0 +1,58 @@
+{
+  "version": 7,
+  "status": "named-cast-and-new-pair-awaiting-appearance-review",
+  "identity_catalog": "../likeness-identities.json",
+  "cast_catalog": "cast-catalog.json",
+  "numbered_designs": 21,
+  "photo_based_identities": 15,
+  "active_variant_views": 28,
+  "assigned_names": {
+    "10": "Camille",
+    "11": "Carolyn",
+    "12": "Isabelle",
+    "13": "Sarah Jo",
+    "01": "Char",
+    "02": "Justin",
+    "03": "Danny",
+    "04": "Gage",
+    "05": "Robbie",
+    "06": "Chris",
+    "07": "Kwinn",
+    "08": "Chloe",
+    "09": "Matt"
+  },
+  "unnamed_review_numbers": [
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21"
+  ],
+  "new_people": {
+    "20": "Foreground left woman in new photo, short adult about 5 feet tall",
+    "21": "Foreground right man in new photo, rectangular glasses and long goatee"
+  },
+  "new_selected_art": [
+    "masters/sarah-jo-short-hair-proportions-v7.png",
+    "masters/20-short-woman-v7.png",
+    "masters/21-glasses-man-v7.png"
+  ],
+  "intermediate_art": [
+    "masters/sarah-jo-short-hair-v7.png"
+  ],
+  "review_sheets": [
+    "current-cast-overview.png",
+    "same-person-variants.png"
+  ],
+  "gallery": "all-character-art.html",
+  "generation_mode": "Built-in imagegen for three selected character assets; Godot for contact-sheet layout.",
+  "review_height_ratio_20": 0.85,
+  "height_calibration": "Comparison layout only; final in-game world scale pending.",
+  "runtime_replaced": false,
+  "new_base_characters": 2,
+  "new_action_pose_sets_generated": false,
+  "final_cast_approved": false
+}

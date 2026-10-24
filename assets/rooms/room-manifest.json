@@ -1,0 +1,597 @@
+{
+  "version": 1,
+  "status": "original-art-loaded-in-standalone-godot-review; gameplay-integration-pending",
+  "viewport_size": [
+    480,
+    360
+  ],
+  "room_size": [
+    480,
+    320
+  ],
+  "room_offset": [
+    0,
+    24
+  ],
+  "sampling": "nearest",
+  "projection": "fixed elevated three-quarter orthographic",
+  "gameplay_transition_support": false,
+  "collision_data_authored": false,
+  "rooms": [
+    {
+      "id": "guest-bedroom",
+      "number": 1,
+      "name": "Guest Room",
+      "asset": "res://assets/rooms/room-guest-bedroom.png",
+      "master": "res://assets/rooms/masters/room-guest-bedroom.png",
+      "prompt": "res://assets/rooms/prompts/room-guest-bedroom.txt",
+      "reference": "reference/art-direction/wild-arms/batch-03/01-guest-room.png",
+      "purpose": "Private bedroom; bed, dresser, hearth and intimate furnishings.",
+      "interactive_notes": "Bedside candle, dresser and mantel; future inspectable objects need separate props.",
+      "collision_requirements": "Bed base, dresser, fireplace hearth and chair; doorway and approach must be traced after art review.",
+      "comparison_feet": [
+        270,
+        274
+      ],
+      "comparison_position_is_gameplay_spawn": false,
+      "gameplay_ready": false,
+      "layers": [],
+      "variants": [
+        {
+          "id": "guest-bedroom",
+          "layout": "A",
+          "label": "Layout A",
+          "asset": "res://assets/rooms/room-guest-bedroom.png",
+          "master": "res://assets/rooms/masters/room-guest-bedroom.png",
+          "prompt": "res://assets/rooms/prompts/room-guest-bedroom.txt",
+          "entrance_directions": [
+            "east",
+            "south"
+          ],
+          "comparison_feet": [
+            270,
+            245
+          ],
+          "layers": []
+        },
+        {
+          "id": "guest-bedroom-alternate",
+          "layout": "B",
+          "label": "Layout B",
+          "asset": "res://assets/rooms/room-guest-bedroom-alternate.png",
+          "master": "res://assets/rooms/masters/room-guest-bedroom-alternate.png",
+          "prompt": "res://assets/rooms/prompts/room-guest-bedroom-alternate.txt",
+          "entrance_directions": [
+            "east",
+            "south-east"
+          ],
+          "comparison_feet": [
+            270,
+            245
+          ],
+          "layers": []
+        }
+      ],
+      "entrance_directions_are_proposed": false,
+      "entrance_direction_basis": "Visual review of exported art; directions are not collision, trigger or connected-house data."
+    },
+    {
+      "id": "firelit-entry",
+      "number": 2,
+      "name": "Firelit Entry",
+      "asset": "res://assets/rooms/room-firelit-entry.png",
+      "master": "res://assets/rooms/masters/room-firelit-entry.png",
+      "prompt": "res://assets/rooms/prompts/room-firelit-entry.txt",
+      "reference": "reference/art-direction/wild-arms/batch-03/02-firelit-entry.png",
+      "purpose": "Column-framed passage, warm fires and a guiding runner.",
+      "interactive_notes": "Column details and threshold; no magic symbol or teleport mechanic.",
+      "collision_requirements": "Column plinths, hearths and rear doorway threshold; paired destination remains undefined.",
+      "comparison_feet": [
+        240,
+        272
+      ],
+      "comparison_position_is_gameplay_spawn": false,
+      "gameplay_ready": false,
+      "layers": [],
+      "variants": [
+        {
+          "id": "firelit-entry",
+          "layout": "A",
+          "label": "Layout A",
+          "asset": "res://assets/rooms/room-firelit-entry.png",
+          "master": "res://assets/rooms/masters/room-firelit-entry.png",
+          "prompt": "res://assets/rooms/prompts/room-firelit-entry.txt",
+          "entrance_directions": [
+            "west",
+            "east",
+            "south-west"
+          ],
+          "comparison_feet": [
+            240,
+            245
+          ],
+          "layers": []
+        },
+        {
+          "id": "firelit-entry-alternate",
+          "layout": "B",
+          "label": "Layout B",
+          "asset": "res://assets/rooms/room-firelit-entry-alternate.png",
+          "master": "res://assets/rooms/masters/room-firelit-entry-alternate.png",
+          "prompt": "res://assets/rooms/prompts/room-firelit-entry-alternate.txt",
+          "entrance_directions": [
+            "north-west",
+            "east",
+            "south"
+          ],
+          "comparison_feet": [
+            240,
+            245
+          ],
+          "layers": []
+        }
+      ],
+      "entrance_directions_are_proposed": false,
+      "entrance_direction_basis": "Visual review of exported art; directions are not collision, trigger or connected-house data."
+    },
+    {
+      "id": "grand-hall",
+      "number": 3,
+      "name": "Grand Hall",
+      "asset": "res://assets/rooms/room-grand-hall.png",
+      "master": "res://assets/rooms/masters/room-grand-hall.png",
+      "prompt": "res://assets/rooms/prompts/room-grand-hall.txt",
+      "reference": "reference/art-direction/wild-arms/batch-03/03-grand-hall.png",
+      "purpose": "Tall windows, chandelier, statues and a broad central axis.",
+      "interactive_notes": "Statues and side consoles; conversations require open floor.",
+      "collision_requirements": "Statue plinths and side furniture; door/spawn and chandelier occlusion require design.",
+      "comparison_feet": [
+        240,
+        274
+      ],
+      "comparison_position_is_gameplay_spawn": false,
+      "gameplay_ready": false,
+      "layers": [],
+      "variants": [
+        {
+          "id": "grand-hall",
+          "layout": "A",
+          "label": "Layout A",
+          "asset": "res://assets/rooms/room-grand-hall.png",
+          "master": "res://assets/rooms/masters/room-grand-hall.png",
+          "prompt": "res://assets/rooms/prompts/room-grand-hall.txt",
+          "entrance_directions": [
+            "north",
+            "west",
+            "east",
+            "south"
+          ],
+          "comparison_feet": [
+            240,
+            245
+          ],
+          "layers": []
+        },
+        {
+          "id": "grand-hall-alternate",
+          "layout": "B",
+          "label": "Layout B",
+          "asset": "res://assets/rooms/room-grand-hall-alternate.png",
+          "master": "res://assets/rooms/masters/room-grand-hall-alternate.png",
+          "prompt": "res://assets/rooms/prompts/room-grand-hall-alternate.txt",
+          "entrance_directions": [
+            "west",
+            "east",
+            "south-west"
+          ],
+          "comparison_feet": [
+            240,
+            245
+          ],
+          "layers": []
+        }
+      ],
+      "entrance_directions_are_proposed": false,
+      "entrance_direction_basis": "Visual review of exported art; directions are not collision, trigger or connected-house data."
+    },
+    {
+      "id": "torchlit-stone",
+      "number": 4,
+      "name": "Torchlit Stone Chamber",
+      "asset": "res://assets/rooms/room-torchlit-stone.png",
+      "master": "res://assets/rooms/masters/room-torchlit-stone.png",
+      "prompt": "res://assets/rooms/prompts/room-torchlit-stone.txt",
+      "reference": "reference/art-direction/wild-arms/batch-03/04-torchlit-stone.png",
+      "purpose": "Cool masonry, arches and small localized fire pools.",
+      "interactive_notes": "Recesses and masonry details; no authored evidence yet.",
+      "collision_requirements": "Trace piers, side recesses and upper threshold; central floor must remain clear.",
+      "comparison_feet": [
+        240,
+        274
+      ],
+      "comparison_position_is_gameplay_spawn": false,
+      "gameplay_ready": false,
+      "layers": [],
+      "variants": [
+        {
+          "id": "torchlit-stone",
+          "layout": "A",
+          "label": "Layout A",
+          "asset": "res://assets/rooms/room-torchlit-stone.png",
+          "master": "res://assets/rooms/masters/room-torchlit-stone.png",
+          "prompt": "res://assets/rooms/prompts/room-torchlit-stone.txt",
+          "entrance_directions": [
+            "west",
+            "north-east"
+          ],
+          "comparison_feet": [
+            240,
+            245
+          ],
+          "layers": []
+        },
+        {
+          "id": "torchlit-stone-alternate",
+          "layout": "B",
+          "label": "Layout B",
+          "asset": "res://assets/rooms/room-torchlit-stone-alternate.png",
+          "master": "res://assets/rooms/masters/room-torchlit-stone-alternate.png",
+          "prompt": "res://assets/rooms/prompts/room-torchlit-stone-alternate.txt",
+          "entrance_directions": [
+            "east",
+            "south-west"
+          ],
+          "comparison_feet": [
+            240,
+            245
+          ],
+          "layers": []
+        }
+      ],
+      "entrance_directions_are_proposed": false,
+      "entrance_direction_basis": "Visual review of exported art; directions are not collision, trigger or connected-house data."
+    },
+    {
+      "id": "library",
+      "number": 5,
+      "name": "Library",
+      "asset": "res://assets/rooms/room-library.png",
+      "master": "res://assets/rooms/masters/room-library.png",
+      "prompt": "res://assets/rooms/prompts/room-library-revised.txt",
+      "reference": "reference/art-direction/wild-arms/batch-03/05-library.png",
+      "purpose": "Bookshelves, ladder, reading furniture and a separate evidence book.",
+      "interactive_notes": "Separate book prop; static shelf books are decorative, not implemented clues.",
+      "collision_requirements": "Trace desk, chair, ladder and bookcases; split desk foreground for actor occlusion.",
+      "comparison_feet": [
+        290,
+        274
+      ],
+      "comparison_position_is_gameplay_spawn": false,
+      "gameplay_ready": false,
+      "layers": [],
+      "variants": [
+        {
+          "id": "library",
+          "layout": "A",
+          "label": "Layout A",
+          "asset": "res://assets/rooms/room-library.png",
+          "master": "res://assets/rooms/masters/room-library.png",
+          "prompt": "res://assets/rooms/prompts/room-library-revised.txt",
+          "entrance_directions": [
+            "west",
+            "east"
+          ],
+          "comparison_feet": [
+            290,
+            245
+          ],
+          "layers": [
+            {
+              "asset": "res://assets/rooms/props/library-evidence-book.png",
+              "position": [
+                337,
+                111
+              ],
+              "size": [
+                24,
+                16
+              ],
+              "role": "Separate decorative evidence-book candidate; no clue interaction implemented"
+            }
+          ]
+        },
+        {
+          "id": "library-alternate",
+          "layout": "B",
+          "label": "Layout B",
+          "asset": "res://assets/rooms/room-library-alternate.png",
+          "master": "res://assets/rooms/masters/room-library-alternate.png",
+          "prompt": "res://assets/rooms/prompts/room-library-alternate.txt",
+          "entrance_directions": [
+            "north-east",
+            "west",
+            "south"
+          ],
+          "comparison_feet": [
+            290,
+            245
+          ],
+          "layers": [
+            {
+              "asset": "res://assets/rooms/props/library-evidence-book.png",
+              "position": [
+                73,
+                93
+              ],
+              "size": [
+                24,
+                16
+              ],
+              "role": "Separate decorative evidence-book candidate; no clue interaction implemented"
+            }
+          ]
+        }
+      ],
+      "entrance_directions_are_proposed": false,
+      "entrance_direction_basis": "Visual review of exported art; directions are not collision, trigger or connected-house data."
+    },
+    {
+      "id": "reception-hall",
+      "number": 6,
+      "name": "Reception Hall",
+      "asset": "res://assets/rooms/room-reception-hall.png",
+      "master": "res://assets/rooms/masters/room-reception-hall.png",
+      "prompt": "res://assets/rooms/prompts/room-reception-hall.txt",
+      "reference": "reference/art-direction/wild-arms/batch-03/06-reception-hall.png",
+      "purpose": "Formal counter, runner and broad conversation floor.",
+      "interactive_notes": "Counter and guest book area; no additional suspects implemented.",
+      "collision_requirements": "Counter, wall seating and side table; reserve central standing space.",
+      "comparison_feet": [
+        240,
+        274
+      ],
+      "comparison_position_is_gameplay_spawn": false,
+      "gameplay_ready": false,
+      "layers": [],
+      "variants": [
+        {
+          "id": "reception-hall",
+          "layout": "A",
+          "label": "Layout A",
+          "asset": "res://assets/rooms/room-reception-hall.png",
+          "master": "res://assets/rooms/masters/room-reception-hall.png",
+          "prompt": "res://assets/rooms/prompts/room-reception-hall.txt",
+          "entrance_directions": [
+            "east",
+            "south"
+          ],
+          "comparison_feet": [
+            240,
+            245
+          ],
+          "layers": []
+        },
+        {
+          "id": "reception-hall-alternate",
+          "layout": "B",
+          "label": "Layout B",
+          "asset": "res://assets/rooms/room-reception-hall-alternate.png",
+          "master": "res://assets/rooms/masters/room-reception-hall-alternate.png",
+          "prompt": "res://assets/rooms/prompts/room-reception-hall-alternate.txt",
+          "entrance_directions": [
+            "west",
+            "east",
+            "south-east"
+          ],
+          "comparison_feet": [
+            240,
+            245
+          ],
+          "layers": []
+        }
+      ],
+      "entrance_directions_are_proposed": false,
+      "entrance_direction_basis": "Visual review of exported art; directions are not collision, trigger or connected-house data."
+    },
+    {
+      "id": "night-exterior",
+      "number": 7,
+      "name": "Night Exterior",
+      "asset": "res://assets/rooms/room-night-exterior.png",
+      "master": "res://assets/rooms/masters/room-night-exterior.png",
+      "prompt": "res://assets/rooms/prompts/room-night-exterior.txt",
+      "reference": "reference/art-direction/wild-arms/batch-03/07-night-exterior.png",
+      "purpose": "Cool foliage, dark mansion facade and a narrow approach.",
+      "interactive_notes": "Door, steps and small exterior lamps.",
+      "collision_requirements": "Trace path edges, vegetation, stair treads and door threshold; no exterior connection implemented.",
+      "comparison_feet": [
+        240,
+        282
+      ],
+      "comparison_position_is_gameplay_spawn": false,
+      "gameplay_ready": false,
+      "layers": [],
+      "variants": [
+        {
+          "id": "night-exterior",
+          "layout": "A",
+          "label": "Layout A",
+          "asset": "res://assets/rooms/room-night-exterior.png",
+          "master": "res://assets/rooms/masters/room-night-exterior.png",
+          "prompt": "res://assets/rooms/prompts/room-night-exterior-window-correction.txt",
+          "entrance_directions": [
+            "north-east-front-door",
+            "south-west-path",
+            "east-garden"
+          ],
+          "comparison_feet": [
+            135,
+            270
+          ],
+          "layers": [],
+          "guest_comparison_feet": [
+            165,
+            250
+          ],
+          "initial_prompt": "res://assets/rooms/prompts/room-night-exterior.txt"
+        },
+        {
+          "id": "night-exterior-alternate",
+          "layout": "B",
+          "label": "Layout B",
+          "asset": "res://assets/rooms/room-night-exterior-alternate.png",
+          "master": "res://assets/rooms/masters/room-night-exterior-alternate.png",
+          "prompt": "res://assets/rooms/prompts/room-night-exterior-alternate.txt",
+          "entrance_directions": [
+            "north-west-service-door",
+            "east-path",
+            "south-east-path"
+          ],
+          "comparison_feet": [
+            375,
+            264
+          ],
+          "layers": [],
+          "guest_comparison_feet": [
+            388,
+            247
+          ]
+        }
+      ],
+      "entrance_directions_are_proposed": false,
+      "entrance_direction_basis": "Visual review of exported art; directions are not collision, trigger or connected-house data."
+    },
+    {
+      "id": "cold-statue-hall",
+      "number": 8,
+      "name": "Cold Statue Hall",
+      "asset": "res://assets/rooms/room-cold-statue-hall.png",
+      "master": "res://assets/rooms/masters/room-cold-statue-hall.png",
+      "prompt": "res://assets/rooms/prompts/room-cold-statue-hall.txt",
+      "reference": "reference/art-direction/wild-arms/batch-03/08-cold-statue-hall.png",
+      "purpose": "Teal/charcoal stone, paired statues and restrained cold light.",
+      "interactive_notes": "Statues, dark doorway and cold lanterns.",
+      "collision_requirements": "Statue bases, wall piers and doorway threshold; no magic/monster mechanics.",
+      "comparison_feet": [
+        240,
+        274
+      ],
+      "comparison_position_is_gameplay_spawn": false,
+      "gameplay_ready": false,
+      "layers": [],
+      "variants": [
+        {
+          "id": "cold-statue-hall",
+          "layout": "A",
+          "label": "Layout A",
+          "asset": "res://assets/rooms/room-cold-statue-hall.png",
+          "master": "res://assets/rooms/masters/room-cold-statue-hall.png",
+          "prompt": "res://assets/rooms/prompts/room-cold-statue-hall.txt",
+          "entrance_directions": [
+            "west",
+            "east",
+            "south"
+          ],
+          "comparison_feet": [
+            240,
+            245
+          ],
+          "layers": []
+        },
+        {
+          "id": "cold-statue-hall-alternate",
+          "layout": "B",
+          "label": "Layout B",
+          "asset": "res://assets/rooms/room-cold-statue-hall-alternate.png",
+          "master": "res://assets/rooms/masters/room-cold-statue-hall-alternate.png",
+          "prompt": "res://assets/rooms/prompts/room-cold-statue-hall-alternate.txt",
+          "entrance_directions": [
+            "west",
+            "east",
+            "south"
+          ],
+          "comparison_feet": [
+            240,
+            245
+          ],
+          "layers": []
+        }
+      ],
+      "entrance_directions_are_proposed": false,
+      "entrance_direction_basis": "Visual review of exported art; directions are not collision, trigger or connected-house data."
+    },
+    {
+      "id": "dark-stairwell",
+      "number": 9,
+      "name": "Dark Stairwell",
+      "asset": "res://assets/rooms/room-dark-stairwell.png",
+      "master": "res://assets/rooms/masters/room-dark-stairwell.png",
+      "prompt": "res://assets/rooms/prompts/room-dark-stairwell.txt",
+      "reference": "reference/art-direction/wild-arms/batch-03/09-dark-stairwell.png",
+      "purpose": "Readable treads, turning stairs and a dim upper route.",
+      "interactive_notes": "Balustrade, landing and upper doorway.",
+      "collision_requirements": "Separate landings from stair treads; choose ascent logic and paired exits before movement.",
+      "comparison_feet": [
+        240,
+        282
+      ],
+      "comparison_position_is_gameplay_spawn": false,
+      "gameplay_ready": false,
+      "layers": [],
+      "variants": [
+        {
+          "id": "dark-stairwell",
+          "layout": "A",
+          "label": "Upstairs ascent",
+          "asset": "res://assets/rooms/room-dark-stairwell.png",
+          "master": "res://assets/rooms/masters/room-dark-stairwell.png",
+          "prompt": "res://assets/rooms/prompts/room-dark-stairwell.txt",
+          "entrance_directions": [
+            "south",
+            "west",
+            "upstairs"
+          ],
+          "comparison_feet": [
+            240,
+            245
+          ],
+          "layers": []
+        },
+        {
+          "id": "dark-stairwell-basement",
+          "layout": "B",
+          "label": "Basement descent",
+          "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+          "master": "res://assets/rooms/masters/room-dark-stairwell-basement.png",
+          "prompt": "res://assets/rooms/prompts/room-dark-stairwell-basement.txt",
+          "entrance_directions": [
+            "west",
+            "south-west",
+            "basement-down"
+          ],
+          "comparison_feet": [
+            240,
+            245
+          ],
+          "layers": []
+        }
+      ],
+      "entrance_directions_are_proposed": false,
+      "entrance_direction_basis": "Visual review of exported art; directions are not collision, trigger or connected-house data."
+    }
+  ],
+  "expected_backgrounds": 18,
+  "generation_mode": "built-in imagegen",
+  "props": [
+    {
+      "id": "library-evidence-book",
+      "asset": "res://assets/rooms/props/library-evidence-book.png",
+      "master": "res://assets/rooms/masters/library-evidence-book.png",
+      "size": [
+        24,
+        16
+      ],
+      "interactive": false
+    }
+  ]
+}

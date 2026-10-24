@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "job_id": "char_alignment_01_seated_idle_west",
+  "character_id": "likeness-photo01",
+  "pose_id": "seated_idle_west",
+  "variant_id": "neutral",
+  "tool": "built-in image_gen.imagegen",
+  "prompt": "Use case: identity-preserve / game character pose.\nProduce ONE separate transparent PNG for Char, cast #01. Image 1 is her USER-APPROVED likeness-v2 MASTER and the primary identity, art style, costume, adult body proportions, build and hair reference. Preserve this exact character; this is a new pose, not a redesign. Do not use photographs or a realistic portrait face.\n\nLOCKED ART: expressive anime/cartoon brown eyes, tiny simplified nose, friendly stylized smile where the face is visible, softly shaded illustrated skin, long wavy brown hair, cream headband and long hair ribbon; cream lace high-collar blouse and cuffs, cameo, puffed sleeves, burgundy sash/side bow, elaborately folded teal-green floor-length skirt, modest jewelry and brown shoes. Rich deliberate pixel clusters, crisp dark warm outlines, same upper-left neutral key light, detail and flattering cartoon face as approved. Do not shrink the eyes, add portrait realism or detailed teeth, change costume colors, elongate her anatomy or compress her into a tiny chibi body.\n\nGEOMETRY: same elevated three-quarter mansion game camera and grounded adult anatomy. Orient the WHOLE BODY in the requested direction: head/nose, chest, hips, knees and shoes agree. This is a stationary IDLE, not walking or a stride. Author this direction; do not simply mirror the approved picture. Preserve physical costume asymmetry: for this directional review, interpret the approved burgundy side bow and larger ribbon knot as on Char's anatomical RIGHT, which is image-left in a front-facing view. Carry that same physical side into back/profile views; far-side details may be hidden rather than moved.\n\nCOMMON SCALE: use a portrait canvas matching the reference proportions, ideally its 916 x 1716 pixels. Preserve one common drawing scale/head size across all seven poses. Standing figure should fit comfortably inside with crown and shoes clear of edges, about 88â€“90% of canvas height. Do not crop hair, ribbon, sleeves, hem or shoes. No background shadow.\n\nOUTPUT: one complete character only, genuine transparent RGBA, with transparent padding around every extremity. No chair or stool, furniture, floor, scenery, cast shadow, text, labels, border, comparison panel, additional character, held object or modern accessory. All limbs remain complete for later furniture occlusion. This is a review draft, not final runtime art.\n\nSEATED OVERRIDE TO STANDING FRAMING: The following seated geometry and shorter occupied-height instructions take precedence over the standing-framing sentence above. Do NOT enlarge a seated body to standing height.\n\nPOSE seated_idle_west: Char is genuinely SEATED facing WEST / SCREEN LEFT in clear left-facing profile. Pelvis supported by an invisible chair seat, upright relaxed torso, hips and knees naturally bent around 90 degrees, thighs projecting left, lower legs downward and both shoes on the floor. Her hands rest gently together on her lap. Long skirt must drape over bent knees and down to grounded shoes with a believable seated silhouette, not a standing cone or kneeling pose. Gaze/head/nose and chest point left. Do not mechanically mirror an east image or move the anatomical right-side bow onto her left hip; far-side details can be naturally occluded. Image 2 is ONLY FURNITURE GEOMETRY REFERENCE: the large red FOYER ARMCHAIR beside the right window, logical bounds [396,117,57,56] when the foyer image is mapped to 480x320. It is armchair_west; exact target g_foyer::foyer_armchair_01::seat. No chair, room or background may appear in the output. Keep the same head/torso drawing size as standing; seated occupied height about 65â€“72% of standing, leaving more blank space ABOVE. Aim crown around y=430, pelvis/seat around y=1080, shoe floor around y=1600 on a 916x1716 canvas.",
+  "referenced_image_paths_relative": [
+    "assets/characters/poses/char/masters/likeness-review-02/char-likeness-v2.png",
+    "assets/foyer/foyer-background.png"
+  ],
+  "path_resolution": "Resolve each relative input against project root",
+  "inputs": [
+    {
+      "path": "assets/characters/poses/char/masters/likeness-review-02/char-likeness-v2.png",
+      "sha256": "e778ff629db4e58373b2fc0e65edaed63455af21c1e02a721809f5373bb75bb2",
+      "role": "approved_primary_identity_style_costume"
+    },
+    {
+      "path": "assets/foyer/foyer-background.png",
+      "sha256": "bb2cf020f985f06e6a1be1b31627c0d8b324e72442ca34ddeaa45afff51c0d47",
+      "role": "specified_furniture_geometry_only"
+    }
+  ],
+  "transparent_background": true,
+  "returned_file_basename": "exec-6484c5fa-6c2c-41da-b8f4-75e8965609aa.png",
+  "source_master": "assets/characters/poses/char/masters/alignment_01/seated_idle_west.png",
+  "source_sha256": "4174796c3f0b1518032168b714e42334ba23a9998eaeaeda30e52995266ee911",
+  "canvas": [
+    916,
+    1716
+  ],
+  "alpha_bounds": [
+    98,
+    237,
+    868,
+    1585
+  ],
+  "status": "approved_sample",
+  "approval": "approved",
+  "auto_mirrored": false,
+  "artwork_postprocessing": "none; immutable native generated master",
+  "source_landmarks": {
+    "seat": [
+      550,
+      1000
+    ],
+    "feet": [
+      221,
+      1569
+    ],
+    "head_crown": [
+      485,
+      240
+    ],
+    "chin": [
+      440,
+      532
+    ]
+  },
+  "landmark_status": "manual visual estimates; not approved fit measurements",
+  "standing_reference_height": 1673,
+  "logical_standing_height": 64,
+  "source_units_to_logical_scale": 0.03825463239689181,
+  "contact_kind": "seat",
+  "fit_contact": "g_foyer::foyer_armchair_01::seat",
+  "furniture": {
+    "key": "g_foyer::foyer_armchair_01::seat",
+    "room_id": "g_foyer",
+    "room_name": "Foyer",
+    "floor": 0,
+    "background": "res://assets/foyer/foyer-background.png",
+    "layout": "res://assets/furniture/layouts/foyer.json",
+    "instance_id": "foyer_armchair_01",
+    "orientation_id": "armchair_west",
+    "furniture_type": "armchair",
+    "furniture_facing": "west",
+    "bed_axis": null,
+    "headboard": null,
+    "anchor_id": "seat",
+    "enabled": true,
+    "ready_for_staging": false,
+    "declared_render_mode": "baked",
+    "scene_layer_note": "Painted background; no separate foreground mask identified",
+    "status": "provisional",
+    "posture": "seated",
+    "actor_facing": "west",
+    "body_axis": null,
+    "head_toward": null,
+    "contact_kind": "seat",
+    "local_contact": [
+      -8,
+      -20
+    ],
+    "local_approach": [
+      -34,
+      10
+    ],
+    "world_contact": [
+      416.5,
+      177.0
+    ],
+    "world_approach": [
+      390.5,
+      207.0
+    ],
+    "clearance": [
+      -12.214285714285714,
+      -7.466666666666667,
+      24.428571428571427,
+      14.933333333333334
+    ],
+    "approach_clear": true,
+    "path_reachable": "not_tested",
+    "pose_fit": "not_tested",
+    "foreground_mask": "not_supplied",
+    "occupancy_group": null,
+    "target_instance_id": "",
+    "pose_ids": [
+      "seated_idle_west",
+      "seated_talk_west",
+      "seated_read_west"
+    ],
+    "disabled_template_pose_ids": [],
+    "prop_hand_requirements": {
+      "idle": "No mandatory prop; any lens/held item requires a separately reviewed grip",
+      "talk": "No mandatory prop; any lens/held item requires a separately reviewed grip",
+      "read": "Book or paper appropriate to target; hand choice and page contact pending"
+    },
+    "occlusion": "Baked art: author/check front/back mask and draw ordering before placement; no mask inferred from rectangles",
+    "notes": "First traced annotation; contact/approach and occlusion require pose calibration before staging."
+  },
+  "exported_draft": "assets/characters/poses/char/exports/west/char_seated_idle_west_neutral.png",
+  "export_padding": [
+    64,
+    64
+  ],
+  "export_canvas": [
+    1045,
+    1844
+  ],
+  "export_contact": [
+    614,
+    1064
+  ],
+  "checks": {
+    "readable_png": true,
+    "native_rgba_transparency": true,
+    "correct_direction_visual_review": true,
+    "user_pose_approval": true,
+    "runtime_integrated": false,
+    "mask_fit_tested": false,
+    "pixel_preserving_padded_export": true,
+    "native_review_rendered": true
+  },
+  "review_notes": [
+    "Independent generated direction, not programmatically mirrored",
+    "Review head-size/proportion consistency and inferred side-bow/ribbon placement across angles",
+    "Seated common-scale extent is naturally shorter; no per-pose height normalization",
+    "Native top/hair padding is tight on standing samples; padded draft export adds 64 blank pixels without modifying art"
+  ],
+  "export_sha256": "903f10ddcdd454ab6aaa83a3ef134f91459b9db7b9705f703ff2d437f9160be2",
+  "logical_occupied_height": 51.567,
+  "estimated_floor_world": [
+    403.914,
+    198.767
+  ],
+  "skirt_clearance": {
+    "source_lower_body_envelope": [
+      98,
+      850,
+      770,
+      735
+    ],
+    "relative_to_seat_logical": [
+      -17.291,
+      -5.738,
+      29.456,
+      28.117
+    ],
+    "status": "conservative projected lower-body envelope, not a floor collision footprint; armrest/front-edge overlap and occupancy unapproved"
+  },
+  "context_preview": "assets/characters/poses/char/review/alignment_01/seated_idle_west--context.png",
+  "approval_record": {
+    "decision": "approved_pose_samples",
+    "date": "2026-10-23",
+    "source": "Explicit user next-phase planning request",
+    "quote": "The first seven character pose samples have been generated successfully. I am happy with the results",
+    "pose_ids": [
+      "seated_idle_east",
+      "seated_idle_south",
+      "seated_idle_west",
+      "standing_idle_east",
+      "standing_idle_north",
+      "standing_idle_south",
+      "standing_idle_west"
+    ],
+    "scope": "Seven alignment_01 artwork samples and unchanged padded copies only; not runtime integration, calibrated contact landmarks, chair masks or complete character production."
+  }
+}

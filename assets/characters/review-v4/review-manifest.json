@@ -1,0 +1,112 @@
+{
+  "version": 4,
+  "status": "historical-group-review-see-review-v5-for-current-cast",
+  "superseded_by": "../review-v5/review-manifest.json",
+  "generation_mode": "built-in-imagegen",
+  "runtime_replaced": false,
+  "final_cast_approved": false,
+  "identity_catalog": "../likeness-identities.json",
+  "changes": [
+    "Refine first-group C (blue waistcoat) and E (the user) for less exaggerated foreheads and more flattering facial balance.",
+    "Use the user's NEWER fuller-beard photo consistently in standing, hat-worn and head-scratch poses.",
+    "Party C = first-group D; party D = first-group B. Keep variants under shared identities."
+  ],
+  "identity_merges": [
+    {
+      "keep": "likeness-user",
+      "aliases": [
+        "photo-02",
+        "photo-03-E",
+        "photo-05-man-left"
+      ],
+      "note": "User explicitly identifies E as himself; newer beard reference supersedes older photos."
+    },
+    {
+      "keep": "likeness-first-D",
+      "aliases": [
+        "photo-03-D",
+        "photo-04-C",
+        "photo-04-F"
+      ]
+    },
+    {
+      "keep": "likeness-first-B",
+      "aliases": [
+        "photo-03-B",
+        "photo-04-D"
+      ]
+    },
+    {
+      "keep": "likeness-party-H",
+      "aliases": [
+        "photo-04-H",
+        "photo-04-G"
+      ]
+    }
+  ],
+  "active_assets": [
+    {
+      "id": "photo-03",
+      "file": "masters/photo-03-handsome-c-e-current-beard-v4.png",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "purpose": "First-group face refinement; newer E beard"
+    },
+    {
+      "id": "hat-pair",
+      "file": "masters/photo-02-hat-full-beard-v4.png",
+      "purpose": "Same user in cap-worn and cap-removed/head-scratch poses; newer beard"
+    },
+    {
+      "id": "photo-04-upper",
+      "file": "../review-v3/masters/photo-04-upper-five-v3.png",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "purpose": "Unchanged party board; C and D are identity aliases, not extra people"
+    },
+    {
+      "id": "photo-04-lower",
+      "file": "../review-v2/masters/photo-04-lower-six.png",
+      "labels": [
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "purpose": "Unchanged lower party board"
+    }
+  ],
+  "retained_candidates": [
+    "../review-v2/masters/eleanor-proportion-v2.png",
+    "../review-v2/masters/photo-01-woman-v2.png"
+  ],
+  "current_user_reference": "reference/art-direction/likenesses/batch-01/photo-05-current-beard.png",
+  "intermediate_passes": [
+    {
+      "file": "masters/photo-03-handsome-c-e-v4.png",
+      "status": "Superseded: requested before newer beard photograph arrived during generation"
+    },
+    {
+      "file": "masters/photo-02-hat-handsome-v4.png",
+      "status": "Superseded: older beard reference"
+    }
+  ],
+  "limitations": [
+    "Review concepts only, not production sprite sheets or full animation sets.",
+    "Not all cross-photo identities are confirmed; further duplicate matches may remain.",
+    "Final cast approval and common gameplay scale remain pending."
+  ]
+}

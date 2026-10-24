@@ -1,0 +1,591 @@
+{
+  "version": 7,
+  "status": "named-core-cast-and-new-pair-awaiting-appearance-review",
+  "final_cast_approved": false,
+  "new_poses_authorized_after": "Named cast appearance review, including Sarah Jo hairstyle, followed by pose direction.",
+  "comparison_layout_only": true,
+  "description": "15 photo-based people, including two new unnamed people, plus six earlier game designs. Names 01-13 supplied by user; 14-21 remain unnamed.",
+  "entries": [
+    {
+      "number": "01",
+      "identity_id": "likeness-photo01",
+      "name": "Char",
+      "label": "Party I / pink-cardigan identity",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v6/sources/selected-party-hm.png",
+          "crop_grid": [
+            3,
+            2,
+            1
+          ],
+          "caption": "Selected Party I",
+          "panel_crop": [
+            0.2,
+            0,
+            0.68,
+            0.99
+          ]
+        },
+        {
+          "source": "res://assets/characters/review-v2/masters/photo-01-woman-v2.png",
+          "transparent": true,
+          "caption": "Pink cardigan"
+        }
+      ],
+      "user_selected_primary": true
+    },
+    {
+      "number": "02",
+      "identity_id": "likeness-first-A",
+      "name": "Justin",
+      "label": "Party M / first-group A",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v6/sources/selected-party-hm.png",
+          "crop_grid": [
+            3,
+            2,
+            5
+          ],
+          "caption": "Selected Party M",
+          "panel_crop": [
+            0.2,
+            0,
+            0.68,
+            0.99
+          ]
+        },
+        {
+          "source": "res://assets/characters/review-v5/masters/photo-03-f-scruff-v5.png",
+          "crop_grid": [
+            3,
+            2,
+            0
+          ],
+          "caption": "First A",
+          "panel_crop": [
+            0.16,
+            0,
+            0.7,
+            0.99
+          ]
+        }
+      ],
+      "user_selected_primary": true
+    },
+    {
+      "number": "03",
+      "identity_id": "likeness-first-B",
+      "name": "Danny",
+      "label": "First-group B / party D",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v5/masters/photo-03-f-scruff-v5.png",
+          "crop_grid": [
+            3,
+            2,
+            1
+          ],
+          "caption": "First B",
+          "panel_crop": [
+            0.16,
+            0,
+            0.7,
+            0.99
+          ]
+        },
+        {
+          "source": "res://assets/characters/review-v3/masters/photo-04-upper-five-v3.png",
+          "crop_rect": [
+            350,
+            502,
+            417,
+            490
+          ],
+          "caption": "Party D"
+        }
+      ]
+    },
+    {
+      "number": "04",
+      "identity_id": "likeness-first-C",
+      "name": "Gage",
+      "label": "First-group C \u2014 blue waistcoat",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v5/masters/photo-03-f-scruff-v5.png",
+          "crop_grid": [
+            3,
+            2,
+            2
+          ],
+          "caption": "First C",
+          "panel_crop": [
+            0.16,
+            0,
+            0.7,
+            0.99
+          ]
+        }
+      ]
+    },
+    {
+      "number": "05",
+      "identity_id": "likeness-first-D",
+      "name": "Robbie",
+      "label": "Party C / first-group D",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v6/sources/selected-party-ag.png",
+          "crop_rect": [
+            768,
+            0,
+            384,
+            512
+          ],
+          "caption": "Selected Party C"
+        },
+        {
+          "source": "res://assets/characters/review-v5/masters/photo-03-f-scruff-v5.png",
+          "crop_grid": [
+            3,
+            2,
+            3
+          ],
+          "caption": "First D",
+          "panel_crop": [
+            0.16,
+            0,
+            0.7,
+            0.99
+          ]
+        }
+      ],
+      "user_selected_primary": true
+    },
+    {
+      "number": "06",
+      "identity_id": "likeness-user",
+      "name": "Chris",
+      "label": "You / hat-on and head-scratch",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v6/sources/selected-hat-pair.png",
+          "crop_grid": [
+            2,
+            1,
+            0
+          ],
+          "caption": "Selected hat-on",
+          "transparent": true
+        },
+        {
+          "source": "res://assets/characters/review-v6/sources/selected-hat-pair.png",
+          "crop_grid": [
+            2,
+            1,
+            1
+          ],
+          "caption": "Selected head-scratch",
+          "transparent": true
+        }
+      ],
+      "archived_variants": [
+        {
+          "source": "res://assets/characters/review-v5/masters/photo-03-f-scruff-v5.png",
+          "crop_grid": [
+            3,
+            2,
+            4
+          ],
+          "caption": "Cap held",
+          "panel_crop": [
+            0.16,
+            0,
+            0.7,
+            0.99
+          ]
+        },
+        {
+          "source": "res://assets/characters/review-v4/masters/photo-02-hat-full-beard-v4.png",
+          "crop_grid": [
+            2,
+            1,
+            0
+          ],
+          "caption": "Hat on",
+          "transparent": true
+        },
+        {
+          "source": "res://assets/characters/review-v4/masters/photo-02-hat-full-beard-v4.png",
+          "crop_grid": [
+            2,
+            1,
+            1
+          ],
+          "caption": "Head scratch",
+          "transparent": true
+        }
+      ],
+      "overview_variants": [
+        0,
+        1
+      ],
+      "user_selected_primary": true
+    },
+    {
+      "number": "07",
+      "identity_id": "likeness-first-F",
+      "name": "Kwinn",
+      "label": "Party K / first-group F",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v6/sources/selected-party-hm.png",
+          "crop_grid": [
+            3,
+            2,
+            3
+          ],
+          "caption": "Selected Party K",
+          "panel_crop": [
+            0.2,
+            0,
+            0.68,
+            0.99
+          ]
+        },
+        {
+          "source": "res://assets/characters/review-v5/masters/photo-03-f-scruff-v5.png",
+          "crop_grid": [
+            3,
+            2,
+            5
+          ],
+          "caption": "First F / scruff",
+          "panel_crop": [
+            0.16,
+            0,
+            0.7,
+            0.99
+          ]
+        }
+      ],
+      "user_selected_primary": true
+    },
+    {
+      "number": "08",
+      "identity_id": "likeness-party-A",
+      "name": "Chloe",
+      "label": "Party A",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v3/masters/photo-04-upper-five-v3.png",
+          "crop_rect": [
+            160,
+            10,
+            408,
+            488
+          ],
+          "caption": "Party A"
+        }
+      ]
+    },
+    {
+      "number": "09",
+      "identity_id": "likeness-party-B",
+      "name": "Matt",
+      "label": "Party B",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v3/masters/photo-04-upper-five-v3.png",
+          "crop_rect": [
+            568,
+            10,
+            401,
+            488
+          ],
+          "caption": "Party B"
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "identity_id": "likeness-party-E",
+      "name": "Camille",
+      "label": "Party E",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v3/masters/photo-04-upper-five-v3.png",
+          "crop_rect": [
+            768,
+            502,
+            418,
+            490
+          ],
+          "caption": "Party E"
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "identity_id": "likeness-party-H",
+      "name": "Carolyn",
+      "label": "Party H",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v5/masters/photo-04-k-cheek-scruff-v5.png",
+          "crop_grid": [
+            3,
+            2,
+            0
+          ],
+          "caption": "Party H",
+          "panel_crop": [
+            0.2,
+            0,
+            0.68,
+            0.99
+          ]
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "identity_id": "likeness-party-J",
+      "name": "Isabelle",
+      "label": "Party J",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v5/masters/photo-04-k-cheek-scruff-v5.png",
+          "crop_grid": [
+            3,
+            2,
+            2
+          ],
+          "caption": "Party J",
+          "panel_crop": [
+            0.2,
+            0,
+            0.68,
+            0.99
+          ]
+        }
+      ]
+    },
+    {
+      "number": "13",
+      "identity_id": "likeness-party-L",
+      "name": "Sarah Jo",
+      "label": "Sarah Jo / Party L",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v7/masters/sarah-jo-short-hair-proportions-v7.png",
+          "transparent": true,
+          "caption": "Very short cropped hair"
+        }
+      ],
+      "archived_variants": [
+        {
+          "source": "res://assets/characters/review-v5/masters/photo-04-k-cheek-scruff-v5.png",
+          "crop_grid": [
+            3,
+            2,
+            4
+          ],
+          "caption": "Party L",
+          "panel_crop": [
+            0.2,
+            0,
+            0.68,
+            0.99
+          ]
+        }
+      ],
+      "appearance_notes": "Very short cropped dark brown hair with short sides/nape and visible ears; retain established face and navy dress."
+    },
+    {
+      "number": "14",
+      "identity_id": "existing-protagonist",
+      "name": null,
+      "label": "Current protagonist",
+      "group": "earlier-game-design",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/references/protagonist-front.png",
+          "transparent": true,
+          "caption": "Current investigator"
+        }
+      ]
+    },
+    {
+      "number": "15",
+      "identity_id": "existing-eleanor",
+      "name": null,
+      "label": "Eleanor / revised design",
+      "group": "earlier-game-design",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v2/masters/eleanor-proportion-v2.png",
+          "transparent": true,
+          "caption": "Larger-head revision"
+        },
+        {
+          "source": "res://assets/characters/references/eleanor-original-front.png",
+          "transparent": true,
+          "caption": "Original Eleanor"
+        }
+      ]
+    },
+    {
+      "number": "16",
+      "identity_id": "draft-jonas",
+      "name": null,
+      "label": "Earlier kneeling investigator",
+      "group": "earlier-fictional-draft",
+      "height_ratio": 0.7916666666666666,
+      "variants": [
+        {
+          "source": "res://assets/characters/masters/01-jonas-investigating-clue.png",
+          "transparent": true,
+          "caption": "Kneeling pose"
+        }
+      ]
+    },
+    {
+      "number": "17",
+      "identity_id": "draft-ada",
+      "name": null,
+      "label": "Earlier woman looking upward",
+      "group": "earlier-fictional-draft",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/masters/02-examining-clock.png",
+          "transparent": true,
+          "caption": "Looking upward"
+        }
+      ]
+    },
+    {
+      "number": "18",
+      "identity_id": "draft-pip",
+      "name": null,
+      "label": "Earlier crouching boy",
+      "group": "earlier-fictional-draft",
+      "height_ratio": 0.6111111110416666,
+      "variants": [
+        {
+          "source": "res://assets/characters/masters/03-hiding-under-bed.png",
+          "transparent": true,
+          "caption": "Crouching pose"
+        }
+      ]
+    },
+    {
+      "number": "19",
+      "identity_id": "draft-martha",
+      "name": null,
+      "label": "Earlier woman / crossed arms",
+      "group": "earlier-fictional-draft",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/masters/04-angry.png",
+          "transparent": true,
+          "caption": "Crossed arms"
+        }
+      ]
+    },
+    {
+      "number": "20",
+      "identity_id": "likeness-new-left",
+      "name": null,
+      "label": "New pair / woman on left",
+      "group": "photo-based",
+      "height_ratio": 0.85,
+      "overview_slot": 20,
+      "review_note": "Petite adult / approx. 5 ft",
+      "appearance_notes": "Short adult stature with adult proportions, dark brown curls and royal-blue dress. Height approximately 5 feet as supplied by user.",
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v7/masters/20-short-woman-v7.png",
+          "transparent": true,
+          "caption": "New short adult woman"
+        }
+      ]
+    },
+    {
+      "number": "21",
+      "identity_id": "likeness-new-right",
+      "name": null,
+      "label": "New pair / man on right",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "overview_slot": 21,
+      "appearance_notes": "Dark rectangular glasses, receding close-cropped hair, distinctive long dark goatee; navy mansion attire. Taller than left woman; absolute height unspecified.",
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v7/masters/21-glasses-man-v7.png",
+          "transparent": true,
+          "caption": "New glasses/goatee man"
+        }
+      ]
+    }
+  ],
+  "expected_variant_views": 28,
+  "selection_provenance": {
+    "request": "Exact user-provided existing looks selected; no character redraw or new generation.",
+    "number_01": "Image 3 / I",
+    "number_02": "Image 3 / M",
+    "number_05": "Image 4 / C",
+    "number_06": "Image 2 / both poses",
+    "number_07": "Image 3 / K"
+  },
+  "assigned_names": {
+    "01": "Char",
+    "02": "Justin",
+    "03": "Danny",
+    "04": "Gage",
+    "05": "Robbie",
+    "06": "Chris",
+    "07": "Kwinn",
+    "08": "Chloe",
+    "09": "Matt",
+    "10": "Camille",
+    "11": "Carolyn",
+    "12": "Isabelle",
+    "13": "Sarah Jo"
+  },
+  "expected_numbered_designs": 21,
+  "overview_footer": "Sarah Jo (#13): very short hair. New pair #20-21: awaiting names. Other unnamed designs remain unassigned.",
+  "new_base_characters": 2
+}

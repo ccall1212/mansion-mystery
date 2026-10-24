@@ -1,0 +1,543 @@
+{
+  "schema_version": 1,
+  "authoring_only": true,
+  "description": "Semantic requirements supplement exact furniture IDs; no automated personality/guilt assignments or Cartesian pose expansion.",
+  "families": [
+    {
+      "id": "questioned",
+      "purpose": "Attentive response while questioned; turn to the detective without changing truth state",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#4-stories-timeline-alibis-and-questioning",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Reuse talk/listen bases plus face/gaze variant",
+      "character_scope": "all participating suspects",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "conversation_02",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "refuse_questioning",
+      "purpose": "Annoyance, turn-away or closed-off refusal after repeated questions; critical clues retain alternative paths",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#4-stories-timeline-alibis-and-questioning",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression on base; separate folded-arm/turn-away gesture only if needed",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "look_down",
+      "purpose": "Look at a floor location; may be innocent and must not guarantee a murder-room clue",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#7-murder-room-selection-and-floor-investigation",
+      "status": "proposal",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Head/gaze variant plus separately stored floor target",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "investigation_05",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "touch_surface",
+      "purpose": "Plausible contact with bed, wall, lamp, book or carpet before an accidental discovery",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#8-rare-accidental-discoveries-and-difficulty",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "kneeling"
+      ],
+      "representation": "Distinct hand-contact gesture; target-specific wrist landmark",
+      "character_scope": "eligible event participants",
+      "props_and_hands": "Touching hand and actual surface target; no invented residue",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "investigation_05",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "examine_finger",
+      "purpose": "Raise and examine the finger used to touch an actually configured trace",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#8-rare-accidental-discoveries-and-difficulty",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "kneeling"
+      ],
+      "representation": "Distinct hand-to-eye gesture; clean/residue states are conditional",
+      "character_scope": "eligible event participants",
+      "props_and_hands": "Same finger/hand as touch; material visibility follows evidence state",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "investigation_05",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "point_discovery",
+      "purpose": "Direct someone toward an observed clue or object",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "proposal",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Separate pointing hand/arm; reuse grounded base",
+      "character_scope": "optional event participants",
+      "props_and_hands": "Pointing hand and gaze share target; do not require a weapon",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "investigation_05",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "crouch",
+      "purpose": "Low crouch with believable joints and long-skirt handling",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "user_requested_planning",
+      "postures": [
+        "crouching"
+      ],
+      "representation": "New body silhouette; not compressed standing artwork",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "investigation_05",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "hide_under_furniture",
+      "purpose": "Optional hiding/peeking context from historical art production; removed boy design is not active cast",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "proposal",
+      "postures": [
+        "crouching"
+      ],
+      "representation": "New crouch and real foreground mask; verify physical capacity",
+      "character_scope": "only if future hiding mechanic is approved",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "later_optional_07",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "shock",
+      "purpose": "Startled shock at a discovery or reveal",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Eyes/brows/mouth first; raised-hands or recoil silhouette if needed",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "fear",
+      "purpose": "Frightened response to danger or a threatening reveal",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression; guarded body or recoil if scene needs it",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "suspicion",
+      "purpose": "Skeptical appraisal without implying guilt",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "user_requested_planning",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression on listening base; gaze target",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "anger",
+      "purpose": "Anger at questioning, a false accusation or exposure",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression; clenched/crossed-arm variant only if approved",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "sadness",
+      "purpose": "Grief or sadness appropriate to knowledge and relationships",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "user_requested_planning",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression/head tilt on existing base",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "embarrassment",
+      "purpose": "Embarrassment without treating it as proof of guilt",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "user_requested_planning",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression; lowered gaze optional",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "relief",
+      "purpose": "Relief after danger or an accusation is resolved",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "user_requested_planning",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression and relaxed shoulders on base",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "confidence",
+      "purpose": "Composed/confident response for innocent or guilty roles",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "user_requested_planning",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression and posture adjustment on base",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "annoyance",
+      "purpose": "Escalating annoyance from repeated questions",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression on talk/listen base",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "nervousness",
+      "purpose": "Anxiety for innocent and guilty suspects alike",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression; fidget gesture optional",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "confusion",
+      "purpose": "Confused reaction to information or accusation",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression/head tilt; no automatic head scratch for everyone",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "disbelief",
+      "purpose": "Witness or accused person processing a reveal",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression; small backward lean optional",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "innocent_accused",
+      "purpose": "Innocent target responds to a wrong accusation; unresolved danger remains",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#10-accusations-reveals-and-endings",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Reuse anger/confusion/shock/confidence plus optional denial gesture",
+      "character_scope": "mystery role and case knowledge determine applicability",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reveal_06",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "culprit_exposed",
+      "purpose": "Actual murderer realizes identification/evidence has exposed them",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#10-accusations-reveals-and-endings",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Recognition beat; pose selected from personality/ending branch",
+      "character_scope": "mystery role and case knowledge determine applicability",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reveal_06",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "remorseful_confession",
+      "purpose": "Remorse, explanation and acceptance of responsibility",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#10-accusations-reveals-and-endings",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Sadness/remorse expression; optional lowered-head/open-hands silhouette",
+      "character_scope": "mystery role and case knowledge determine applicability",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reveal_06",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "hostile_confession",
+      "purpose": "Furious or threatening exposure response",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#10-accusations-reveals-and-endings",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Anger plus threat gesture; no automatic attack or restraint",
+      "character_scope": "mystery role and case knowledge determine applicability",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reveal_06",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "deceptive_reveal",
+      "purpose": "Denial/manipulation or a controlled broader-plan reveal",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#10-accusations-reveals-and-endings",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Composed talk base and deceptive expression; state-justified branch",
+      "character_scope": "mystery role and case knowledge determine applicability",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reveal_06",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "panicked_reveal",
+      "purpose": "Culprit panic or desperate escape attempt",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#10-accusations-reveals-and-endings",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Distinct guarded/panic silhouette; escape movement is external dependency",
+      "character_scope": "mystery role and case knowledge determine applicability",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reveal_06",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "voluntary_reveal",
+      "purpose": "True culprit interrupts or follows another person being accused",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#10-accusations-reveals-and-endings",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Talk/interrupt gesture; preserve innocent target and witness reactions",
+      "character_scope": "mystery role and case knowledge determine applicability",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reveal_06",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "witness_reveal",
+      "purpose": "Witnesses react individually with shock, fear, anger or disbelief",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#10-accusations-reveals-and-endings",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Select shared reaction variants without identical group poses",
+      "character_scope": "mystery role and case knowledge determine applicability",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reveal_06",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "stalk",
+      "purpose": "Danger escalation and stalking; timing/eligibility unresolved",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#11-suspicion-stalking-and-capture",
+      "status": "confirmed_future",
+      "postures": [
+        "standing"
+      ],
+      "representation": "Threat/guarded idle optional; locomotion remains separate external animation dependency",
+      "character_scope": "culprit in eligible case",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "danger_07",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "lock_door",
+      "purpose": "Door-locking action during the proposed trap sequence",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#11-suspicion-stalking-and-capture",
+      "status": "proposal",
+      "postures": [
+        "standing"
+      ],
+      "representation": "New hand/lock contact gesture; choose actual door and side first",
+      "character_scope": "eligible culprit; excludes treating the sealed front door as a playable exit",
+      "props_and_hands": "Lock/handle contact; any key and handedness are undecided",
+      "orientation_policy": "Resolve actual doorway actor facing; do not produce all four without selecting trap doors",
+      "batch": "danger_07",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "trap_threat",
+      "purpose": "Personality-specific threat after a valid trap",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#11-suspicion-stalking-and-capture",
+      "status": "proposal",
+      "postures": [
+        "standing"
+      ],
+      "representation": "Reuse hostile/composed reveal where compatible; new threat silhouette if needed",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "danger_07",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "detective_capture",
+      "purpose": "Detective fear/guard and capture/loss presentation",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#11-suspicion-stalking-and-capture",
+      "status": "confirmed_future",
+      "postures": [
+        "standing"
+      ],
+      "representation": "Separate detective requirements, not mandatory Char poses; attack/contact mechanics unresolved",
+      "character_scope": "detective and eligible culprit, not the entire cast",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "danger_07",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "restrain_culprit",
+      "purpose": "Possible witness restraint during hostile exposure",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#10-accusations-reveals-and-endings",
+      "status": "proposal",
+      "postures": [
+        "standing"
+      ],
+      "representation": "Paired participant art and contact anchors; not a solo pose",
+      "character_scope": "only specifically assigned helpers; not yet required",
+      "props_and_hands": "Two-character hand/body contacts; partner capacity and safe spacing",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "later_optional_07",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "chris_hat_scratch",
+      "purpose": "Chris removes his hat and scratches his head; one identity, two looks",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "confirmed_future",
+      "postures": [
+        "standing"
+      ],
+      "representation": "Selected existing hat-on/head-scratch masters; no Char requirement",
+      "character_scope": "Chris only; selected master exists, runtime pose binding absent",
+      "props_and_hands": "Hat held in a consistent hand; other hand scratches head",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "signature_conditional",
+      "art_status": "not_produced_for_char"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "technical_passed": true,
+  "numbered_designs": 19,
+  "photo_based_identities": 13,
+  "variant_views": 27,
+  "same_person_cards": 7,
+  "identity_merge_checks": 9,
+  "unique_alias_assignments": true,
+  "selected_source_files": {
+    "res://assets/characters/review-v2/masters/photo-01-woman-v2.png": {
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "sha256": "51ffbbb0e7c03a5e27a37fc327a5755447840cc3cb3911248db8fc28aa1aee3d"
+    },
+    "res://assets/characters/review-v5/masters/photo-04-k-cheek-scruff-v5.png": {
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "de171491ebadd8b3f7d6d5f41f37a97d9fdbb1e37d8f5ba02bca235e09cab1f4"
+    },
+    "res://assets/characters/review-v5/masters/photo-03-f-scruff-v5.png": {
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "sha256": "238cbd4931e178f81e6109e61a1223977186035eae7df7a94b30dc45ba5c8e4c"
+    },
+    "res://assets/characters/review-v3/masters/photo-04-upper-five-v3.png": {
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "55f9f7653d0ef5f1585e64bbaeb3db8f5ee3055e090037b7f05f42142bd20386"
+    },
+    "res://assets/characters/review-v4/masters/photo-02-hat-full-beard-v4.png": {
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "490336687341d427f0e37226c1d7a8b6ee8be0e19037292bd23b84c1f62b280b"
+    },
+    "res://assets/characters/references/protagonist-front.png": {
+      "size": [
+        130,
+        251
+      ],
+      "mode": "RGBA",
+      "sha256": "143203971aa3e7c4fe3c1fa17cbaf7c5e0695de76d841b551777938e3a622938"
+    },
+    "res://assets/characters/review-v2/masters/eleanor-proportion-v2.png": {
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "e9f113acf862334cae01ba6532c012cdb87e4ec92ebf73b32ce48f436eea5594"
+    },
+    "res://assets/characters/references/eleanor-original-front.png": {
+      "size": [
+        313,
+        720
+      ],
+      "mode": "RGBA",
+      "sha256": "24f9d9f4de3abcb5631cf353270e6d644f7424b6fc0b391919c3d0eca809c4be"
+    },
+    "res://assets/characters/masters/01-jonas-investigating-clue.png": {
+      "size": [
+        1230,
+        1278
+      ],
+      "mode": "RGBA",
+      "sha256": "9a38084d6c735c072eb3ffb6a8ee97d63a941cce2dd5975c9ba58465bcec87ba"
+    },
+    "res://assets/characters/masters/02-examining-clock.png": {
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "cd5394972e29e690c37d83bbfdde0486485405918715bd8ee122536acd2e5e52"
+    },
+    "res://assets/characters/masters/03-hiding-under-bed.png": {
+      "size": [
+        1312,
+        1199
+      ],
+      "mode": "RGBA",
+      "sha256": "38561bf0dd3d6f2adcb9ea4795eef684c08ebdaa0a668d882e04415dfc199bfc"
+    },
+    "res://assets/characters/masters/04-angry.png": {
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "dcc75dcc26fc7e0d329e5bb5c2841abced6b4884565691081c658153ec3bc3c1"
+    }
+  },
+  "review_sheets": {
+    "current-cast-overview.png": {
+      "size": [
+        1500,
+        1515
+      ],
+      "sha256": "a1c0186d9f2c47ab2f099e172a2b33cb1e49acb896aa1cff085c0333b05ea9db"
+    },
+    "same-person-variants.png": {
+      "size": [
+        1500,
+        1440
+      ],
+      "sha256": "ad5ad12e7818bcdae39cfcc31c76c144c59965b8784709becbf54468d8f72864"
+    }
+  },
+  "archive_master_count": 21,
+  "gallery": "all-character-art.html",
+  "names_pending": true,
+  "final_cast_approved": false,
+  "new_poses_generated": false,
+  "gameplay_integration_tested": false
+}

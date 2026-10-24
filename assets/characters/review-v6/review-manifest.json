@@ -1,0 +1,35 @@
+{
+  "version": 6,
+  "status": "historical-see-review-v7-for-names-short-hair-and-new-pair",
+  "superseded_by": "../review-v7/review-manifest.json",
+  "identity_catalog": "../likeness-identities.json",
+  "cast_catalog": "cast-catalog.json",
+  "numbered_designs": 19,
+  "photo_based_identities": 13,
+  "variant_views": 26,
+  "selected_numbers": [
+    "01",
+    "02",
+    "05",
+    "06",
+    "07"
+  ],
+  "selections": {
+    "01": "Image 3 / I",
+    "02": "Image 3 / M",
+    "05": "Image 4 / C",
+    "06": "Image 2 / hat-on and head-scratch",
+    "07": "Image 3 / K"
+  },
+  "review_sheets": [
+    "current-cast-overview.png",
+    "same-person-variants.png"
+  ],
+  "gallery": "all-character-art.html",
+  "method": "Reused user-selected existing artwork; Godot contact-sheet layout only.",
+  "new_art_generated": false,
+  "new_poses_generated": false,
+  "names_pending": true,
+  "final_cast_approved": false,
+  "runtime_replaced": false
+}

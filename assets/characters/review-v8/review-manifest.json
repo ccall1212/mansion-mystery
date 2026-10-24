@@ -1,0 +1,60 @@
+{
+  "version": 8,
+  "status": "Jessica-and-John-cartoon-revisions-awaiting-review",
+  "identity_catalog": "../likeness-identities.json",
+  "cast_catalog": "cast-catalog.json",
+  "numbered_designs": 17,
+  "photo_based_identities": 15,
+  "active_variant_views": 24,
+  "assigned_names": {
+    "01": "Char",
+    "02": "Justin",
+    "03": "Danny",
+    "04": "Gage",
+    "05": "Robbie",
+    "06": "Chris",
+    "07": "Kwinn",
+    "08": "Chloe",
+    "09": "Matt",
+    "10": "Camille",
+    "11": "Carolyn",
+    "12": "Isabelle",
+    "13": "Sarah Jo",
+    "20": "Jessica",
+    "21": "John"
+  },
+  "unnamed_review_numbers": [
+    "14",
+    "15"
+  ],
+  "removed_review_numbers": [
+    "16",
+    "17",
+    "18",
+    "19"
+  ],
+  "numbering_preserved": true,
+  "new_selected_art": [
+    "masters/jessica-cartoon-v8.png",
+    "masters/john-cartoon-v8.png"
+  ],
+  "review_sheets": [
+    "current-cast-overview.png",
+    "same-person-variants.png"
+  ],
+  "gallery": "all-character-art.html",
+  "prompts": [
+    "prompts/jessica-cartoon-v8.txt",
+    "prompts/john-cartoon-v8.txt"
+  ],
+  "generation_mode": "Built-in imagegen for Jessica and John face style edits; Godot for contact sheet composition.",
+  "appearance_approved_review_numbers": [
+    "13"
+  ],
+  "proposed_opening_maid_review_number": "15",
+  "review_height_ratio_20": 0.85,
+  "runtime_replaced": false,
+  "new_base_characters": 0,
+  "new_action_pose_sets_generated": false,
+  "final_cast_approved": false
+}

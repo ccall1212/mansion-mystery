@@ -1,0 +1,75 @@
+{
+  "characters": [
+    {
+      "appearance_status": "temporary-test-use; not final approval",
+      "height_ratio": 1.0,
+      "id": "likeness-photo01",
+      "name": "Char",
+      "pose": "existing_standing",
+      "review_number": "01",
+      "source": "res://assets/characters/review-v6/sources/selected-party-hm.png",
+      "sprite": "res://assets/characters/prototype/cast-01.png"
+    },
+    {
+      "appearance_status": "temporary-test-use; not final approval",
+      "height_ratio": 1.0,
+      "id": "likeness-first-A",
+      "name": "Justin",
+      "pose": "existing_standing",
+      "review_number": "02",
+      "source": "res://assets/characters/review-v6/sources/selected-party-hm.png",
+      "sprite": "res://assets/characters/prototype/cast-02.png"
+    },
+    {
+      "appearance_status": "temporary-test-use; not final approval",
+      "height_ratio": 1.0,
+      "id": "likeness-first-C",
+      "name": "Gage",
+      "pose": "existing_standing",
+      "review_number": "04",
+      "source": "res://assets/characters/review-v5/masters/photo-03-f-scruff-v5.png",
+      "sprite": "res://assets/characters/prototype/cast-04.png"
+    },
+    {
+      "appearance_status": "temporary-test-use; not final approval",
+      "height_ratio": 1.0,
+      "id": "likeness-user",
+      "name": "Chris",
+      "pose": "existing_standing",
+      "review_number": "06",
+      "source": "res://assets/characters/review-v6/sources/selected-hat-pair.png",
+      "sprite": "res://assets/characters/prototype/cast-06.png"
+    },
+    {
+      "appearance_status": "temporary-test-use; not final approval",
+      "height_ratio": 1.0,
+      "id": "likeness-party-L",
+      "name": "Sarah Jo",
+      "pose": "existing_standing",
+      "review_number": "13",
+      "source": "res://assets/characters/review-v7/masters/sarah-jo-short-hair-proportions-v7.png",
+      "sprite": "res://assets/characters/prototype/cast-13.png"
+    },
+    {
+      "appearance_status": "temporary-test-use; not final approval",
+      "height_ratio": 0.85,
+      "id": "likeness-new-left",
+      "name": "Jessica",
+      "pose": "existing_standing",
+      "review_number": "20",
+      "source": "res://assets/characters/review-v8/masters/jessica-cartoon-v8.png",
+      "sprite": "res://assets/characters/prototype/cast-20.png"
+    },
+    {
+      "appearance_status": "temporary-test-use; not final approval",
+      "height_ratio": 1.0,
+      "id": "likeness-new-right",
+      "name": "John",
+      "pose": "existing_standing",
+      "review_number": "21",
+      "source": "res://assets/characters/review-v8/masters/john-cartoon-v8.png",
+      "sprite": "res://assets/characters/prototype/cast-21.png"
+    }
+  ],
+  "schema_version": 1
+}

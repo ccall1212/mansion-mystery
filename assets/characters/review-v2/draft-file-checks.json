@@ -1,0 +1,102 @@
+{
+  "status": "draft-review-only",
+  "technical_files_passed": true,
+  "unique_files": 6,
+  "checks": [
+    {
+      "file": "eleanor-proportion-v2.png",
+      "size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "sha256": "e9f113acf862334cae01ba6532c012cdb87e4ec92ebf73b32ce48f436eea5594",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "nonempty": true,
+      "expected_transparent": true,
+      "passed": true
+    },
+    {
+      "file": "photo-01-woman-v2.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "sha256": "51ffbbb0e7c03a5e27a37fc327a5755447840cc3cb3911248db8fc28aa1aee3d",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "nonempty": true,
+      "expected_transparent": true,
+      "passed": true
+    },
+    {
+      "file": "photo-02-hat-pair.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "73b40084cb2f1926ffcc0c2e4d0020177f0a6111d44a371dddf75cd9afe23f59",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "nonempty": true,
+      "expected_transparent": true,
+      "passed": true
+    },
+    {
+      "file": "photo-03-six-adults.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "cd3d2f3b98690ef1aa62ed21125a6368e2848fc561629a06e6b7a334479212b5",
+      "alpha_extrema": null,
+      "nonempty": true,
+      "expected_transparent": false,
+      "passed": true
+    },
+    {
+      "file": "photo-04-upper-seven.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "f472220c46c892561d1681117a1db593a4e9cb5584af2ff35f3442acf90eac69",
+      "alpha_extrema": null,
+      "nonempty": true,
+      "expected_transparent": false,
+      "passed": true
+    },
+    {
+      "file": "photo-04-lower-six.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "29c737e6a2e58690cff995ccaea8c9bf816b347488d4d8195b19f332033f0560",
+      "alpha_extrema": null,
+      "nonempty": true,
+      "expected_transparent": false,
+      "passed": true
+    }
+  ],
+  "visual_review": {
+    "six_person_board": "A-F present",
+    "party_boards": "A-G and H-M present; blurred people excluded",
+    "proportions": "Individual review candidates improved; group concepts need further uniform proportion passes",
+    "hat_pose": "cap removed and held, other hand scratches visible bald head"
+  },
+  "production_sprite_qa_complete": false,
+  "user_approval": "pending"
+}

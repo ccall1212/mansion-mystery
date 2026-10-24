@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "status": "preview_pending_user_review",
+  "coordinate_space": "background_local_480x320",
+  "notes": "Runtime placement calibration only. Approved character images and shared stature are unchanged. Polygons redraw existing background pixels as chair foregrounds; no generated chair art.",
+  "contacts": {
+    "g_kitchen::kitchen_lower_chair_01::seat": {
+      "seat_offset": [2, -5],
+      "foreground_polygons": [[[6, 187], [11, 185], [15, 190], [14, 201], [8, 204], [5, 199]]]
+    },
+    "g_library::library_armchair_01::seat": {
+      "seat_offset": [0, -3],
+      "foreground_polygons": [[[117, 111], [122, 110], [126, 114], [125, 124], [120, 128], [116, 123]], [[150, 111], [155, 110], [159, 115], [156, 126], [151, 129], [149, 122]]]
+    },
+    "g_foyer::foyer_armchair_01::seat": {
+      "seat_offset": [-2, -2],
+      "foreground_polygons": [[[395, 140], [400, 139], [404, 143], [403, 156], [398, 163], [394, 158]]]
+    }
+  }
+}

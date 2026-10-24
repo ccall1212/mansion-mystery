@@ -1,0 +1,770 @@
+{
+  "schema_version": 1,
+  "id": "upper_gallery",
+  "background": "res://assets/rooms/room-grand-hall.png",
+  "coordinate_space": "background_local",
+  "coordinate_size": [
+    480,
+    320
+  ],
+  "instances": [
+    {
+      "id": "upper_gallery_west_bench_01",
+      "variant_id": "bench_south",
+      "position": [
+        99.0,
+        136
+      ],
+      "bounds": [
+        -22.0,
+        -25,
+        44,
+        25
+      ],
+      "footprint": [
+        -22.0,
+        -8.333333333333332,
+        44.0,
+        8.333333333333332
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -9.5
+          ],
+          "approach": [
+            0.0,
+            16.67
+          ],
+          "actor_facing": "south",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "upper_gallery_east_bench_01",
+      "variant_id": "bench_south",
+      "position": [
+        386.5,
+        136
+      ],
+      "bounds": [
+        -17.5,
+        -25,
+        35,
+        25
+      ],
+      "footprint": [
+        -17.5,
+        -8.333333333333332,
+        35.0,
+        8.333333333333332
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -9.5
+          ],
+          "approach": [
+            0.0,
+            16.67
+          ],
+          "actor_facing": "south",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "upper_gallery_west_statue_01",
+      "variant_id": "statue_south",
+      "position": [
+        147.5,
+        133
+      ],
+      "bounds": [
+        -15.5,
+        -107,
+        31,
+        107
+      ],
+      "footprint": [
+        -15.5,
+        -12.84,
+        31.0,
+        12.84
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            32
+          ],
+          "approach": [
+            0.0,
+            48
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "upper_gallery_east_statue_01",
+      "variant_id": "statue_south",
+      "position": [
+        336.5,
+        133
+      ],
+      "bounds": [
+        -15.5,
+        -107,
+        31,
+        107
+      ],
+      "footprint": [
+        -15.5,
+        -12.84,
+        31.0,
+        12.84
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            32
+          ],
+          "approach": [
+            0.0,
+            48
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "upper_gallery_west_window_01",
+      "variant_id": "window_south",
+      "position": [
+        101.0,
+        111
+      ],
+      "bounds": [
+        -20.0,
+        -101,
+        40,
+        101
+      ],
+      "footprint": [
+        -20.0,
+        -12.120000000000001,
+        40.0,
+        12.120000000000001
+      ],
+      "anchors": [
+        {
+          "id": "look_out",
+          "enabled": true,
+          "contact": [
+            0.0,
+            54
+          ],
+          "approach": [
+            0.0,
+            70
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "look_out",
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "gaze_target": [
+            0.0,
+            -65.65
+          ]
+        },
+        {
+          "id": "view_from_west",
+          "enabled": true,
+          "contact": [
+            -36.0,
+            54
+          ],
+          "approach": [
+            -48.0,
+            70
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "west",
+          "gaze_target": [
+            0.0,
+            -65.65
+          ],
+          "visual_review": "pending",
+          "notes": "Draft side viewing position; review access, gaze, skirt and occlusion. Outside-image contacts stay disabled."
+        },
+        {
+          "id": "view_from_east",
+          "enabled": true,
+          "contact": [
+            36.0,
+            54
+          ],
+          "approach": [
+            48.0,
+            70
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "east",
+          "gaze_target": [
+            0.0,
+            -65.65
+          ],
+          "visual_review": "pending",
+          "notes": "Draft side viewing position; review access, gaze, skirt and occlusion. Outside-image contacts stay disabled."
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "upper_gallery_east_window_01",
+      "variant_id": "window_south",
+      "position": [
+        382.0,
+        110
+      ],
+      "bounds": [
+        -20.0,
+        -101,
+        40,
+        101
+      ],
+      "footprint": [
+        -20.0,
+        -12.120000000000001,
+        40.0,
+        12.120000000000001
+      ],
+      "anchors": [
+        {
+          "id": "look_out",
+          "enabled": true,
+          "contact": [
+            0.0,
+            55
+          ],
+          "approach": [
+            0.0,
+            71
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "look_out",
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "gaze_target": [
+            0.0,
+            -65.65
+          ]
+        },
+        {
+          "id": "view_from_west",
+          "enabled": true,
+          "contact": [
+            -36.0,
+            55
+          ],
+          "approach": [
+            -48.0,
+            71
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "west",
+          "gaze_target": [
+            0.0,
+            -65.65
+          ],
+          "visual_review": "pending",
+          "notes": "Draft side viewing position; review access, gaze, skirt and occlusion. Outside-image contacts stay disabled."
+        },
+        {
+          "id": "view_from_east",
+          "enabled": true,
+          "contact": [
+            36.0,
+            55
+          ],
+          "approach": [
+            48.0,
+            71
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "east",
+          "gaze_target": [
+            0.0,
+            -65.65
+          ],
+          "visual_review": "pending",
+          "notes": "Draft side viewing position; review access, gaze, skirt and occlusion. Outside-image contacts stay disabled."
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "upper_gallery_north_door_01",
+      "variant_id": "doorway_south",
+      "position": [
+        242.5,
+        128
+      ],
+      "bounds": [
+        -30.5,
+        -85,
+        61,
+        85
+      ],
+      "footprint": [
+        -30.5,
+        -10.2,
+        61.0,
+        10.2
+      ],
+      "anchors": [
+        {
+          "id": "inside",
+          "enabled": true,
+          "contact": [
+            0.0,
+            12
+          ],
+          "approach": [
+            0.0,
+            27
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "outside",
+          "enabled": false,
+          "contact": [
+            0.0,
+            12
+          ],
+          "approach": [
+            0.0,
+            27
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging. Visual opening tag only; actual traversable exits remain defined by mansion portals."
+    },
+    {
+      "id": "upper_gallery_west_door_01",
+      "variant_id": "doorway_east",
+      "position": [
+        22.0,
+        182
+      ],
+      "bounds": [
+        -14.0,
+        -89,
+        28,
+        89
+      ],
+      "footprint": [
+        -14.0,
+        -10.68,
+        28.0,
+        10.68
+      ],
+      "anchors": [
+        {
+          "id": "inside",
+          "enabled": true,
+          "contact": [
+            28.0,
+            -3
+          ],
+          "approach": [
+            43.0,
+            -3
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "outside",
+          "enabled": false,
+          "contact": [
+            28.0,
+            -3
+          ],
+          "approach": [
+            43.0,
+            -3
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging. Visual opening tag only; actual traversable exits remain defined by mansion portals."
+    },
+    {
+      "id": "upper_gallery_east_door_01",
+      "variant_id": "doorway_west",
+      "position": [
+        460.0,
+        182
+      ],
+      "bounds": [
+        -16.0,
+        -88,
+        32,
+        88
+      ],
+      "footprint": [
+        -16.0,
+        -10.56,
+        32.0,
+        10.56
+      ],
+      "anchors": [
+        {
+          "id": "inside",
+          "enabled": true,
+          "contact": [
+            -30.0,
+            -3
+          ],
+          "approach": [
+            -45.0,
+            -3
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "outside",
+          "enabled": false,
+          "contact": [
+            -30.0,
+            -3
+          ],
+          "approach": [
+            -45.0,
+            -3
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging. Visual opening tag only; actual traversable exits remain defined by mansion portals."
+    },
+    {
+      "id": "upper_gallery_south_threshold_01",
+      "variant_id": "doorway_north",
+      "position": [
+        237.5,
+        320
+      ],
+      "bounds": [
+        -44.5,
+        -35,
+        89,
+        35
+      ],
+      "footprint": [
+        -44.5,
+        -4.199999999999999,
+        89.0,
+        4.199999999999999
+      ],
+      "anchors": [
+        {
+          "id": "inside",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -47
+          ],
+          "approach": [
+            0.0,
+            -62
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "outside",
+          "enabled": false,
+          "contact": [
+            0.0,
+            -47
+          ],
+          "approach": [
+            0.0,
+            -62
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging. Visual opening tag only; actual traversable exits remain defined by mansion portals."
+    }
+  ]
+}

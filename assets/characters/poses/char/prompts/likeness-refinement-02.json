@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "job_id": "char_likeness_refinement_02",
+  "character_id": "likeness-photo01",
+  "task": "anime_cartoon_likeness_correction",
+  "user_authorization": "User rejected first draft as too realistic and requested original anime/cartoon style.",
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit",
+  "prompt": "Use case: style-transfer / stylized character likeness refinement.\nCreate ONE revised Char character design. The user rejected the previous attempt because its face was too realistic. Their preferred look is the ANIME/CARTOONISH PIXEL-ART JRPG character in images 1 and 2. Keep that look decisively.\n\nREFERENCE ROLES:\nImage 1: ORIGINAL CHAR. PRIMARY EDIT TARGET. Preserve its cute expressive illustrated face language, large eyes, head/body proportions, full-body standing pose, clasped hands, historical clothing, silhouette, palette and deliberate pixel-art treatment.\nImage 2: SARAH JO. Strong supporting STYLE reference: anime-inspired cartoon face, big expressive eyes, tiny simplified nose/mouth, soft flattering skin shading, clear pixel-art clusters, detailed historical clothes. Do not copy her identity, short hair or blue dress.\nImages 3â€“5: photographs of the same adult woman for subtle IDENTITY CUES ONLY. Image 3 is the clearest face reference. These photos are not rendering or facial-anatomy style references.\n\nPRIMARY CHANGE:\nStarting from the ORIGINAL CHAR in image 1, gently improve resemblance through the woman's recognizable brown hairstyle, eyebrow character, warm friendly smile, cheek impression and overall expression. Keep Char looking like an anime/cartoon game character illustrated by the same artist as images 1 and 2. A stylized likeness is the goal. Do not reconstruct the photographic face or paste it onto the sprite.\n\nFACE STYLE â€” TOP PRIORITY:\nLarge, bright, expressive anime/cartoon eyes just like original Char; small simplified nose; clean stylized smile; soft rounded cheek shapes; smooth softly shaded illustrated skin; friendly appealing adult character. Keep facial details simplified and drawn with deliberate pixel clusters. If smiling with teeth, use one simple stylized light shape, not individually rendered realistic teeth. Keep original expressive head scale and adult stylized proportions. NO portrait-realistic eyes, nose, lips, teeth, skin texture, anatomical facial planes, pores, photographic shading, detailed smile lines or nasolabial creases. Do not make her face narrower/longer or more realistically proportioned than image 1. Do not shrink the eyes for realism. Do not turn her into a child.\n\nLOCKED CLOTHING AND BODY:\nRetain the cream lace high-collar blouse, cameo, puffed/gathered sleeves and cuffs, burgundy waist sash and side bow, cream headband and long ribbon, rich teal-green floor-length skirt with its elaborate folds, modest jewelry and brown shoes. Natural long brown hair with soft waves, arranged as in image 1 and informed by the photos. Keep original body build and head-to-body proportion; no elongation, stretching or tiny compressed chibi body. Same standing three-quarter presentation and gently clasped hands.\n\nRENDERING:\nCohesive richly shaded anime-inspired pixel art, visibly deliberate pixel clusters and crisp warm-dark outlines, detailed cloth, soft cartoon face, matching image 1 and image 2. This must look like an illustrated RPG sprite, not a realistically painted woman wearing a costume.\n\nOUTPUT:\nSingle complete character from ribbon/hair crown to both shoes, centered with transparent margins on a genuinely transparent RGBA background. No text, labels, panels, room, furniture, floor, shadow or extra character. No glasses, modern hat, headset, controller, photo clothing or filter effects. This is a new review draft only.",
+  "referenced_image_paths_relative": [
+    "assets/characters/prototype/cast-01.png",
+    "assets/characters/review-v7/masters/sarah-jo-short-hair-proportions-v7.png",
+    "reference/art-direction/char-likeness-20261023/char-photo-03.png",
+    "reference/art-direction/char-likeness-20261023/char-photo-01.png",
+    "reference/art-direction/char-likeness-20261023/char-photo-04.png"
+  ],
+  "path_resolution": "Resolve ordered relative paths against project root for referenced_image_paths.",
+  "references": [
+    {
+      "path": "assets/characters/prototype/cast-01.png",
+      "sha256": "a955455d968cdb191cafaef2a5392969ffae2a4b398e920594b154553ae27bf4",
+      "role": "edit_target_style_costume_pose",
+      "primary_face": false
+    },
+    {
+      "path": "assets/characters/review-v7/masters/sarah-jo-short-hair-proportions-v7.png",
+      "sha256": "4dbb457f8556504d16ec47f3289046b583ab087e1c4177a135e043a7813621c0",
+      "role": "strong_cartoon_art_style_reference",
+      "primary_face": false
+    },
+    {
+      "path": "reference/art-direction/char-likeness-20261023/char-photo-03.png",
+      "sha256": "5eb92cc42b18c015c4cc6b950cd522a231ddc2f1fa2c247037a355449abf3de8",
+      "role": "subtle_likeness_cues_only",
+      "primary_face": true
+    },
+    {
+      "path": "reference/art-direction/char-likeness-20261023/char-photo-01.png",
+      "sha256": "948049f1ea1ebf5f56b7ea731836eb2a4e061bcbf73849a6626b6f875a592938",
+      "role": "subtle_likeness_cues_only",
+      "primary_face": false
+    },
+    {
+      "path": "reference/art-direction/char-likeness-20261023/char-photo-04.png",
+      "sha256": "eaf89de28499eac85bec0aa22b11e744179faddf4c490e1312a1eaa429f9a561",
+      "role": "subtle_likeness_cues_only",
+      "primary_face": false
+    }
+  ],
+  "transparent_background": true,
+  "tool_output_basename": "exec-1cc08463-5ea2-457b-bafe-a92dd7ddd23a.png",
+  "output": {
+    "path": "assets/characters/poses/char/masters/likeness-review-02/char-likeness-v2.png",
+    "sha256": "e778ff629db4e58373b2fc0e65edaed63455af21c1e02a721809f5373bb75bb2",
+    "size": [
+      916,
+      1716
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "opaque_bounds": [
+      15,
+      0,
+      901,
+      1673
+    ]
+  },
+  "status": "user_approved_design",
+  "approval": "approved",
+  "runtime_replaced": false,
+  "technical_checks": [
+    "PNG readable",
+    "RGBA alpha contains transparent and opaque pixels",
+    "Current runtime source preserved"
+  ],
+  "visual_checks": [
+    "Large expressive cartoon eyes and simplified nose/mouth restored",
+    "Soft illustrated face; no portrait skin texture",
+    "Historical outfit, clasped hands, ribbon and full shoes retained"
+  ],
+  "limitations": [
+    "No directional/furniture-fit approval",
+    "Common-scale exports not produced"
+  ],
+  "revision_of": "char_likeness_refinement_01",
+  "excluded_photo": "Hat/glasses photo retained locally but omitted from this call to make room for the strong cartoon style reference within five-input limit",
+  "approval_record": {
+    "artifact": "assets/characters/poses/char/masters/likeness-review-02/char-likeness-v2.png",
+    "sha256": "e778ff629db4e58373b2fc0e65edaed63455af21c1e02a721809f5373bb75bb2",
+    "decision": "approved_design",
+    "date": "2026-10-23",
+    "source": "Explicit user message",
+    "quote": "I approve the new look",
+    "scope": "Character appearance/likeness only; new directional poses and furniture-fit approval remain pending"
+  },
+  "prompt_retention_reason": "User requested reusable likeness prompt; canonical exact text is embedded in this record"
+}

@@ -1,0 +1,68 @@
+{
+  "blueprints": 4,
+  "floors_per_blueprint": 3,
+  "room_counts": [
+    18,
+    18,
+    18,
+    18
+  ],
+  "engine_checks_passed": 180,
+  "engine_failures": [],
+  "captures": [
+    {
+      "path": "manor-1-floor--1.png",
+      "sha256": "40fefc986af3524a8da9f10ca11aa8ff399fb521019ab447c250944a002947d0"
+    },
+    {
+      "path": "manor-1-floor-0.png",
+      "sha256": "f1dd94e8df6e9cdd6a0e2dc88d82d139adaf6c8b67ddaf0371e6a1fbc9efa615"
+    },
+    {
+      "path": "manor-1-floor-1.png",
+      "sha256": "377d4c17e64ca70a2830dac71fc5a13cef62560b5580fb4079c59bb2b3b3fac4"
+    },
+    {
+      "path": "manor-2-floor--1.png",
+      "sha256": "5f1bafa9b97920aff863f0cbeea7453ea4589fddeec854dd92a85a1e7fd48a08"
+    },
+    {
+      "path": "manor-2-floor-0.png",
+      "sha256": "6e90d4c27080d51898db5143ef31b53dd28609a1d5e209464d22f295d88e444f"
+    },
+    {
+      "path": "manor-2-floor-1.png",
+      "sha256": "3bc153c206ecd768faa15f8812f2a2cb1e8fb11ab2190bf79b65dbb8cb0a982d"
+    },
+    {
+      "path": "manor-3-floor--1.png",
+      "sha256": "776bcc12f12926cea3547b424f2a2ecd0ce3e08fea1d1b81bf8d147da95ea4b0"
+    },
+    {
+      "path": "manor-3-floor-0.png",
+      "sha256": "d4d1c9883310746bf6e65887c177bcc3185da5983b082c89c7ee4e9a948e8ae1"
+    },
+    {
+      "path": "manor-3-floor-1.png",
+      "sha256": "ddce9348bd6c1cd31a57036f0f0931b470acee2bef38d2c35ab00cf0193d62df"
+    },
+    {
+      "path": "manor-4-floor--1.png",
+      "sha256": "474deb1998f301383b6cc9417fb5b5ebbc2a0bc4ec404a3590652de42719c8a8"
+    },
+    {
+      "path": "manor-4-floor-0.png",
+      "sha256": "c76c82a22b60d3527beb1e4ea93becc450470ebe00f0b21733efd5ea6d9663c6"
+    },
+    {
+      "path": "manor-4-floor-1.png",
+      "sha256": "3843972ef6521b09a3bce4d48272dcbd91e14bc2867d38856d9d29881ff9ddd9"
+    }
+  ],
+  "paired_shafts": [
+    "main",
+    "service"
+  ],
+  "playable_room_transitions": false,
+  "asset_references_are_provisional": true
+}

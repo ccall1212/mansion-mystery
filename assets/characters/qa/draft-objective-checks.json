@@ -1,0 +1,59 @@
+{
+  "draft_count": 4,
+  "files": [
+    {
+      "name": "Dr Jonas Reed",
+      "path": "assets\\characters\\drafts\\character-investigating-clue.png",
+      "size": [
+        122,
+        138
+      ],
+      "rgba": true,
+      "transparent_border": true,
+      "binary_alpha": true,
+      "sha256": "8680d3f391ffdf5973b4b871fe4b7c6a78b1ba85b91ef740b8ac03f9542076d6",
+      "status": "draft-not-approved"
+    },
+    {
+      "name": "Ada Whitcombe",
+      "path": "assets\\characters\\drafts\\character-examining-clock.png",
+      "size": [
+        87,
+        169
+      ],
+      "rgba": true,
+      "transparent_border": true,
+      "binary_alpha": true,
+      "sha256": "556d3e64caa9ba9861bd8f10cb6207eedf7fd107a5219321085232d3f97001e8",
+      "status": "draft-not-approved"
+    },
+    {
+      "name": "Pip Harrow",
+      "path": "assets\\characters\\drafts\\character-hiding-under-bed.png",
+      "size": [
+        102,
+        112
+      ],
+      "rgba": true,
+      "transparent_border": true,
+      "binary_alpha": true,
+      "sha256": "82b5204893a86335a3d61691235bdd44e97f467564158209312e422a632e7b97",
+      "status": "draft-not-approved"
+    },
+    {
+      "name": "Martha Bell",
+      "path": "assets\\characters\\drafts\\character-angry.png",
+      "size": [
+        82,
+        165
+      ],
+      "rgba": true,
+      "transparent_border": true,
+      "binary_alpha": true,
+      "sha256": "adc10fbbed259ccaeed517a80aad9ae483df8589c9db6a7af59be56fddcd8ed7",
+      "status": "draft-not-approved"
+    }
+  ],
+  "final_cast_complete": false,
+  "user_approval": "pending"
+}

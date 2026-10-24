@@ -1,0 +1,520 @@
+{
+  "schema_version": 1,
+  "id": "basement_storage",
+  "background": "res://assets/rooms/room-torchlit-stone-alternate.png",
+  "coordinate_space": "background_local",
+  "coordinate_size": [
+    480,
+    320
+  ],
+  "instances": [
+    {
+      "id": "basement_storage_front_barrel_01",
+      "variant_id": "barrel_south",
+      "position": [
+        112.5,
+        125
+      ],
+      "bounds": [
+        -15.5,
+        -37,
+        31,
+        37
+      ],
+      "footprint": [
+        -15.5,
+        -10.571428571428571,
+        31.0,
+        10.571428571428571
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            12
+          ],
+          "approach": [
+            0.0,
+            27
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "basement_storage_back_barrel_01",
+      "variant_id": "barrel_south",
+      "position": [
+        129.5,
+        108
+      ],
+      "bounds": [
+        -13.5,
+        -44,
+        27,
+        44
+      ],
+      "footprint": [
+        -13.5,
+        -12.571428571428573,
+        27.0,
+        12.571428571428573
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            12
+          ],
+          "approach": [
+            0.0,
+            27
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "basement_storage_west_crate_01",
+      "variant_id": "crate_south",
+      "position": [
+        159.0,
+        116
+      ],
+      "bounds": [
+        -10.0,
+        -22,
+        20,
+        22
+      ],
+      "footprint": [
+        -10.0,
+        -6.6000000000000005,
+        20.0,
+        6.6000000000000005
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            12
+          ],
+          "approach": [
+            0.0,
+            27
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "basement_storage_back_crates_01",
+      "variant_id": "crate_south",
+      "position": [
+        266.0,
+        121
+      ],
+      "bounds": [
+        -32.0,
+        -51,
+        64,
+        51
+      ],
+      "footprint": [
+        -32.0,
+        -15.299999999999999,
+        64.0,
+        15.299999999999999
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            12
+          ],
+          "approach": [
+            0.0,
+            27
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "basement_storage_east_crate_01",
+      "variant_id": "crate_south",
+      "position": [
+        296.0,
+        118
+      ],
+      "bounds": [
+        -14.0,
+        -22,
+        28,
+        22
+      ],
+      "footprint": [
+        -14.0,
+        -6.6000000000000005,
+        28.0,
+        6.6000000000000005
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            12
+          ],
+          "approach": [
+            0.0,
+            27
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "basement_storage_west_rack_01",
+      "variant_id": "cabinet_south",
+      "position": [
+        142.5,
+        95
+      ],
+      "bounds": [
+        -29.5,
+        -58,
+        59,
+        58
+      ],
+      "footprint": [
+        -29.5,
+        -9.942857142857143,
+        59.0,
+        9.942857142857143
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            71
+          ],
+          "approach": [
+            0.0,
+            87
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "reach"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "basement_storage_east_rack_01",
+      "variant_id": "cabinet_south",
+      "position": [
+        275.5,
+        98
+      ],
+      "bounds": [
+        -43.5,
+        -59,
+        87,
+        59
+      ],
+      "footprint": [
+        -43.5,
+        -10.114285714285714,
+        87.0,
+        10.114285714285714
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            68
+          ],
+          "approach": [
+            0.0,
+            84
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "reach"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "basement_storage_north_arch_01",
+      "variant_id": "doorway_south",
+      "position": [
+        419.0,
+        121
+      ],
+      "bounds": [
+        -27.0,
+        -104,
+        54,
+        104
+      ],
+      "footprint": [
+        -27.0,
+        -12.48,
+        54.0,
+        12.48
+      ],
+      "anchors": [
+        {
+          "id": "inside",
+          "enabled": true,
+          "contact": [
+            0.0,
+            12
+          ],
+          "approach": [
+            0.0,
+            27
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "outside",
+          "enabled": false,
+          "contact": [
+            0.0,
+            12
+          ],
+          "approach": [
+            0.0,
+            27
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging. Visual opening tag only; actual traversable exits remain defined by mansion portals."
+    },
+    {
+      "id": "basement_storage_west_door_01",
+      "variant_id": "doorway_east",
+      "position": [
+        19.5,
+        177
+      ],
+      "bounds": [
+        -13.5,
+        -89,
+        27,
+        89
+      ],
+      "footprint": [
+        -13.5,
+        -10.68,
+        27.0,
+        10.68
+      ],
+      "anchors": [
+        {
+          "id": "inside",
+          "enabled": true,
+          "contact": [
+            27.5,
+            -3
+          ],
+          "approach": [
+            42.5,
+            -3
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "outside",
+          "enabled": false,
+          "contact": [
+            27.5,
+            -3
+          ],
+          "approach": [
+            42.5,
+            -3
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging. Visual opening tag only; actual traversable exits remain defined by mansion portals."
+    }
+  ]
+}

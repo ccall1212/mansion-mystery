@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://dfjl4giqepnrk"]
+
+[ext_resource type="Script" uid="uid://dvgb0ed66ebo2" path="res://src/foyer/foyer.gd" id="1"]
+[ext_resource type="Texture2D" uid="uid://der5sdcsv4ykg" path="res://assets/foyer/foyer-background.png" id="2"]
+
+[node name="Foyer" type="Node2D" unique_id=2040727933]
+script = ExtResource("1")
+
+[node name="Background" type="Sprite2D" parent="." unique_id=446172095]
+texture_filter = 1
+position = Vector2(0, 24)
+scale = Vector2(4.614583, 4.039062)
+texture = ExtResource("2")
+centered = false

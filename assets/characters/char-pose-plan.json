@@ -1,0 +1,2258 @@
+{
+  "schema_version": 1,
+  "character_id": "char",
+  "cast_number": "01",
+  "name": "Char",
+  "status": "original_furniture_requirement_subset",
+  "scope": "original furniture-only subset; not the full action/reaction audit",
+  "full_pose_audit": "res://assets/characters/poses/pose-requirements.json",
+  "production_manifest": "res://assets/characters/poses/char/production-manifest.json",
+  "identity_reference": "res://assets/characters/prototype/cast-01.png",
+  "preserve": [
+    "cream high-collar blouse",
+    "teal-green long skirt",
+    "burgundy sash",
+    "cream hair ribbon",
+    "long brown wavy hair",
+    "approved face and adult proportions"
+  ],
+  "contact_contract": {
+    "standing": "feet",
+    "seated": "seat",
+    "kneeling": "knees",
+    "lying": "pelvis; north-south body axis, head north"
+  },
+  "animation_scope": "Walking animation is handled separately; no animation generation is authorized by this room-tagging task.",
+  "poses": [
+    {
+      "id": "kneeling_inspect_east",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_upper_brazier_01::kneel"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_lower_brazier_01::kneel"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "kneeling_inspect_north",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_fireplace_01::kneel"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_fireplace_01::kneel"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_guest::guest_fireplace_01::kneel"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_study::study_archive_fireplace_01::kneel"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_archive::study_archive_fireplace_01::kneel"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "lying_idle_north_south_head_north",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_bed_01::lie"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_guest::guest_bed_01::lie"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "seated_idle_east",
+      "status": "planned",
+      "phase": 1,
+      "contacts": [
+        {
+          "approach_clear": false,
+          "contact": "g_dining::dining_west_sofa_01::seat_left"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_dining::dining_west_sofa_01::seat_right"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_kitchen::kitchen_upper_chair_01::seat"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_lower_chair_01::seat"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_west_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_guest::guest_bed_01::sit_east"
+        }
+      ],
+      "notes": "Base facing pose also supports conversation planning."
+    },
+    {
+      "id": "seated_idle_south",
+      "status": "planned",
+      "phase": 1,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_main_stair::main_stair_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_library::library_desk_01::seated_work"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_armchair_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_main_stair::upper_gallery_west_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_main_stair::upper_gallery_east_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_window_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_guest::guest_bedroom_back_chair_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_study::study_archive_desk_01::seated_work"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_bath::washroom_placeholder_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_main_stair::basement_stone_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_archive::study_archive_desk_01::seated_work"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_utility::basement_stone_bench_01::seat"
+        }
+      ],
+      "notes": "Base facing pose also supports conversation planning."
+    },
+    {
+      "id": "seated_idle_west",
+      "status": "planned",
+      "phase": 1,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_armchair_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_dining::dining_east_sofa_01::seat_left"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_east_sofa_01::seat_right"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_east_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_bed_01::sit_west"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_bedside_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_vanity_01::seated_work"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_vanity_chair_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_guest::guest_armchair_01::seat"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_study::study_archive_armchair_01::seat"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_archive::study_archive_armchair_01::seat"
+        }
+      ],
+      "notes": "Base facing pose also supports conversation planning."
+    },
+    {
+      "id": "seated_read_east",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": false,
+          "contact": "g_dining::dining_west_sofa_01::seat_left"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_dining::dining_west_sofa_01::seat_right"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_kitchen::kitchen_upper_chair_01::seat"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_lower_chair_01::seat"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_west_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_guest::guest_bed_01::sit_east"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "seated_read_south",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_main_stair::main_stair_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_library::library_desk_01::seated_work"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_armchair_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_main_stair::upper_gallery_west_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_main_stair::upper_gallery_east_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_window_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_guest::guest_bedroom_back_chair_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_study::study_archive_desk_01::seated_work"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_bath::washroom_placeholder_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_main_stair::basement_stone_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_archive::study_archive_desk_01::seated_work"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_utility::basement_stone_bench_01::seat"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "seated_read_west",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_armchair_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_dining::dining_east_sofa_01::seat_left"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_east_sofa_01::seat_right"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_east_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_bed_01::sit_west"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_bedside_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_vanity_01::seated_work"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_vanity_chair_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_guest::guest_armchair_01::seat"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_study::study_archive_armchair_01::seat"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_archive::study_archive_armchair_01::seat"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "seated_talk_east",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": false,
+          "contact": "g_dining::dining_west_sofa_01::seat_left"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_dining::dining_west_sofa_01::seat_right"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_kitchen::kitchen_upper_chair_01::seat"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_lower_chair_01::seat"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_west_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_guest::guest_bed_01::sit_east"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "seated_talk_south",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_main_stair::main_stair_bench_01::seat"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_armchair_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_main_stair::upper_gallery_west_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_main_stair::upper_gallery_east_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_window_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_guest::guest_bedroom_back_chair_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_bath::washroom_placeholder_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_main_stair::basement_stone_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_utility::basement_stone_bench_01::seat"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "seated_talk_west",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_armchair_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_dining::dining_east_sofa_01::seat_left"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_east_sofa_01::seat_right"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_east_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_bed_01::sit_west"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_bedside_bench_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_vanity_chair_01::seat"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_guest::guest_armchair_01::seat"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_study::study_archive_armchair_01::seat"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_archive::study_archive_armchair_01::seat"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "seated_write_south",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": false,
+          "contact": "g_library::library_desk_01::seated_work"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_study::study_archive_desk_01::seated_work"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_archive::study_archive_desk_01::seated_work"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "seated_write_west",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_vanity_01::seated_work"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_vanity_chair_01::seat"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_drink_north",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_counter_01::use"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_idle_east",
+      "status": "planned",
+      "phase": 1,
+      "contacts": [],
+      "notes": "Base facing pose also supports conversation planning."
+    },
+    {
+      "id": "standing_idle_north",
+      "status": "planned",
+      "phase": 1,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_main_stair::main_stair_stairs_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_counter_01::use"
+        }
+      ],
+      "notes": "Base facing pose also supports conversation planning."
+    },
+    {
+      "id": "standing_idle_south",
+      "status": "planned",
+      "phase": 1,
+      "contacts": [
+        {
+          "approach_clear": false,
+          "contact": "g_service_stair::service_stair_descending_stairs_01::inspect"
+        }
+      ],
+      "notes": "Base facing pose also supports conversation planning."
+    },
+    {
+      "id": "standing_idle_west",
+      "status": "planned",
+      "phase": 1,
+      "contacts": [],
+      "notes": "Base facing pose also supports conversation planning."
+    },
+    {
+      "id": "standing_inspect_east",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_west_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_clock_01::view_from_west"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_foyer::foyer_portrait_01::view_from_west"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_main_stair::main_stair_window_01::view_from_west"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_library::library_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_east_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_portrait_01::view_from_west"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_dining::dining_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_east_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_portrait_01::view_from_west"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_kitchen::kitchen_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_east_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_service_stair::service_stair_window_01::view_from_west"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_service_stair::service_stair_east_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_west_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_east_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_east_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_east_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_master::master_bedroom_nightstand_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_master::master_bedroom_window_01::view_from_west"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_east_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_guest::guest_window_01::view_from_west"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_guest::guest_bedroom_side_table_01::use"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_guest::guest_bedroom_east_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_study::study_archive_side_table_01::use"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_west_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_east_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_portrait_01::view_from_west"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_bath::washroom_placeholder_upper_brazier_01::stand"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_lower_brazier_01::stand"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_bath::washroom_placeholder_east_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_main_stair::basement_stone_crate_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_archive::study_archive_side_table_01::use"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_utility::basement_stone_crate_01::inspect"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_inspect_north",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_reading_stand_01::use"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_front_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_west_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_clock_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_console_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_portrait_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_main_stair::main_stair_window_01::look_out"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_main_stair::main_stair_upper_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_desk_01::standing_work"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_bookshelf_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_foreground_cabinet_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_window_01::look_out"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_library::library_side_table_01::use"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_cabinet_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_fireplace_01::stand"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_portrait_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_dining::dining_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_back_cabinet_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_portrait_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_window_01::look_out"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_service_stair::service_stair_shelves_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_service_stair::service_stair_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_west_statue_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_east_statue_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_west_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_east_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_north_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_west_statue_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_east_statue_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_north_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_window_01::look_out"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_fireplace_01::stand"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_master::master_bedroom_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_guest::guest_fireplace_01::stand"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_guest::guest_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_guest::guest_bedroom_cabinet_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_study::study_archive_back_shelves_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_study::study_archive_desk_01::standing_work"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_study::study_archive_foreground_shelves_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_study::study_archive_fireplace_01::stand"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_study::study_archive_north_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_west_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_east_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_portrait_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_main_stair::basement_stone_north_arch_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_service_stair::basement_storage_front_barrel_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_service_stair::basement_storage_back_barrel_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_service_stair::basement_storage_west_crate_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_service_stair::basement_storage_back_crates_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_service_stair::basement_storage_east_crate_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_service_stair::basement_storage_west_rack_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_service_stair::basement_storage_east_rack_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_service_stair::basement_storage_north_arch_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_wine::basement_storage_front_barrel_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_wine::basement_storage_back_barrel_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_wine::basement_storage_west_crate_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_wine::basement_storage_back_crates_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_wine::basement_storage_east_crate_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_wine::basement_storage_west_rack_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_wine::basement_storage_east_rack_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_wine::basement_storage_north_arch_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_archive::study_archive_back_shelves_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_archive::study_archive_desk_01::standing_work"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_archive::study_archive_foreground_shelves_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_archive::study_archive_fireplace_01::stand"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_archive::study_archive_north_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_utility::basement_stone_north_arch_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_store::basement_storage_front_barrel_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_store::basement_storage_back_barrel_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_store::basement_storage_west_crate_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_store::basement_storage_back_crates_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_store::basement_storage_east_crate_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_store::basement_storage_west_rack_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_store::basement_storage_east_rack_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_store::basement_storage_north_arch_01::inside"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_inspect_south",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_south_threshold_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_south_threshold_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_south_threshold_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_guest::guest_bedroom_south_threshold_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_study::study_archive_south_threshold_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_archive::study_archive_south_threshold_01::inside"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_inspect_west",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_west_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_clock_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_portrait_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_main_stair::main_stair_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_main_stair::main_stair_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_west_shelves_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_west_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_dining::dining_side_table_01::use"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_portrait_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_side_table_01::use"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_portrait_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_window_01::view_from_east"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_kitchen::kitchen_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_service_stair::service_stair_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_service_stair::service_stair_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_west_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_east_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_window_01::view_from_east"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_vanity_01::standing_work"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_master::master_bedroom_mirror_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_master::master_bedroom_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_master::master_bedroom_west_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_guest::guest_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_guest::guest_bedroom_nightstand_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_guest::guest_bedroom_west_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_study::study_archive_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_west_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_east_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_portrait_01::view_from_east"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_bath::washroom_placeholder_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_main_stair::basement_stone_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_service_stair::basement_storage_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_wine::basement_storage_west_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_archive::study_archive_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_utility::basement_stone_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_store::basement_storage_west_door_01::inside"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_listen_east",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_east_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_east_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_east_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_service_stair::service_stair_east_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_east_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_east_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_east_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_guest::guest_bedroom_east_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_bath::washroom_placeholder_east_door_01::inside"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_listen_north",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_front_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_main_stair::main_stair_stairs_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_main_stair::main_stair_upper_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_north_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_north_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_study::study_archive_north_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_main_stair::basement_stone_north_arch_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_service_stair::basement_storage_north_arch_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_wine::basement_storage_north_arch_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_archive::study_archive_north_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_utility::basement_stone_north_arch_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_store::basement_storage_north_arch_01::inside"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_listen_south",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_south_threshold_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_south_threshold_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_service_stair::service_stair_descending_stairs_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_south_threshold_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_guest::guest_bedroom_south_threshold_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_study::study_archive_south_threshold_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_archive::study_archive_south_threshold_01::inside"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_listen_west",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_main_stair::main_stair_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_west_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_kitchen::kitchen_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_service_stair::service_stair_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_master::master_bedroom_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_guest::guest_bedroom_west_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_study::study_archive_west_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_bath::washroom_placeholder_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_main_stair::basement_stone_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_service_stair::basement_storage_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_wine::basement_storage_west_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_archive::study_archive_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_utility::basement_stone_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_store::basement_storage_west_door_01::inside"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_look_out_north",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_west_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_main_stair::main_stair_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_window_01::look_out"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_dining::dining_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_service_stair::service_stair_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_west_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_east_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_master::master_bedroom_window_01::look_out"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_guest::guest_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_west_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_east_window_01::look_out"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_look_up_east",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_west_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_clock_01::view_from_west"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_foyer::foyer_portrait_01::view_from_west"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_main_stair::main_stair_window_01::view_from_west"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_library::library_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_portrait_01::view_from_west"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_dining::dining_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_portrait_01::view_from_west"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_kitchen::kitchen_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_service_stair::service_stair_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_west_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_east_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_master::master_bedroom_window_01::view_from_west"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_guest::guest_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_west_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_east_window_01::view_from_west"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_portrait_01::view_from_west"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_look_up_north",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_west_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_clock_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_portrait_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_main_stair::main_stair_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_portrait_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_dining::dining_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_portrait_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_service_stair::service_stair_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_west_statue_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_east_statue_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_west_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_east_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_west_statue_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_east_statue_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_master::master_bedroom_window_01::look_out"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_guest::guest_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_west_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_east_window_01::look_out"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_portrait_01::inspect"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_look_up_west",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_west_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_clock_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_portrait_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_main_stair::main_stair_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_portrait_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_portrait_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_service_stair::service_stair_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_west_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_east_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_master::master_bedroom_window_01::view_from_east"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_guest::guest_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_west_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_east_window_01::view_from_east"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_portrait_01::view_from_east"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_peek_east",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_east_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_east_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_east_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_service_stair::service_stair_east_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_east_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_east_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_east_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_guest::guest_bedroom_east_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_bath::washroom_placeholder_east_door_01::inside"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_peek_north",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_front_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_main_stair::main_stair_upper_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_north_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_north_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_study::study_archive_north_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_main_stair::basement_stone_north_arch_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_service_stair::basement_storage_north_arch_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_wine::basement_storage_north_arch_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_archive::study_archive_north_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_utility::basement_stone_north_arch_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_store::basement_storage_north_arch_01::inside"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_peek_south",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_south_threshold_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_south_threshold_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_south_threshold_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_guest::guest_bedroom_south_threshold_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_study::study_archive_south_threshold_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_archive::study_archive_south_threshold_01::inside"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_peek_west",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_main_stair::main_stair_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_west_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_kitchen::kitchen_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_service_stair::service_stair_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_main_stair::upper_gallery_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_service_stair::upper_service_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_master::master_bedroom_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_guest::guest_bedroom_west_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_study::study_archive_west_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_bath::washroom_placeholder_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_main_stair::basement_stone_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_service_stair::basement_storage_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_wine::basement_storage_west_door_01::inside"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_archive::study_archive_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_utility::basement_stone_west_door_01::inside"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_store::basement_storage_west_door_01::inside"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_reach_east",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "u_master::master_bedroom_nightstand_01::inspect"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_reach_north",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_console_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_bookshelf_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_foreground_cabinet_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_cabinet_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_back_cabinet_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_service_stair::service_stair_shelves_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_guest::guest_bedroom_cabinet_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_study::study_archive_back_shelves_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_study::study_archive_foreground_shelves_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_service_stair::basement_storage_west_rack_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_service_stair::basement_storage_east_rack_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_wine::basement_storage_west_rack_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_wine::basement_storage_east_rack_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_archive::study_archive_back_shelves_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_archive::study_archive_foreground_shelves_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_store::basement_storage_west_rack_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_store::basement_storage_east_rack_01::inspect"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_reach_west",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_west_shelves_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_guest::guest_bedroom_nightstand_01::inspect"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_read_east",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": false,
+          "contact": "u_guest::guest_bedroom_side_table_01::use"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_study::study_archive_side_table_01::use"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_archive::study_archive_side_table_01::use"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_read_north",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_foyer::foyer_reading_stand_01::use"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_desk_01::standing_work"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_bookshelf_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_library::library_side_table_01::use"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_service_stair::service_stair_shelves_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_study::study_archive_back_shelves_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_study::study_archive_desk_01::standing_work"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_study::study_archive_foreground_shelves_01::inspect"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_archive::study_archive_back_shelves_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_archive::study_archive_desk_01::standing_work"
+        },
+        {
+          "approach_clear": true,
+          "contact": "b_archive::study_archive_foreground_shelves_01::inspect"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_read_west",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_library::library_west_shelves_01::inspect"
+        },
+        {
+          "approach_clear": false,
+          "contact": "g_dining::dining_side_table_01::use"
+        },
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_side_table_01::use"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_vanity_01::standing_work"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_talk_north",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_kitchen::kitchen_counter_01::use"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_warm_hands_east",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": false,
+          "contact": "u_bath::washroom_placeholder_upper_brazier_01::stand"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_bath::washroom_placeholder_lower_brazier_01::stand"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    },
+    {
+      "id": "standing_warm_hands_north",
+      "status": "planned",
+      "phase": 2,
+      "contacts": [
+        {
+          "approach_clear": true,
+          "contact": "g_dining::dining_fireplace_01::stand"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_master::master_bedroom_fireplace_01::stand"
+        },
+        {
+          "approach_clear": true,
+          "contact": "u_guest::guest_fireplace_01::stand"
+        },
+        {
+          "approach_clear": false,
+          "contact": "u_study::study_archive_fireplace_01::stand"
+        },
+        {
+          "approach_clear": false,
+          "contact": "b_archive::study_archive_fireplace_01::stand"
+        }
+      ],
+      "notes": "Required action/facing; artwork reuse must be reviewed, not assumed."
+    }
+  ]
+}

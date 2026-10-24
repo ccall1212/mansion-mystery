@@ -1,0 +1,811 @@
+{
+  "object_placements": {
+    "foyer-knife": [
+      "g_library",
+      244,
+      252
+    ],
+    "review-bust": [
+      "g_library",
+      206,
+      211
+    ],
+    "review-bottle": [
+      "g_dining",
+      311,
+      258
+    ],
+    "review-hammer": [
+      "g_kitchen",
+      288,
+      241
+    ],
+    "review-stool": [
+      "g_kitchen",
+      365,
+      275
+    ],
+    "review-poker": [
+      "u_master",
+      173,
+      237
+    ],
+    "review-mallet": [
+      "b_store",
+      270,
+      263
+    ],
+    "review-decanter": [
+      "g_dining",
+      213,
+      249
+    ],
+    "review-book": [
+      "u_study",
+      269,
+      234
+    ],
+    "review-safe": [
+      "b_store",
+      365,
+      245
+    ]
+  },
+  "schema_version": 1,
+  "id": "fixed-manor-compact-1",
+  "start_room": "g_foyer",
+  "rooms": {
+    "g_foyer": {
+      "id": "g_foyer",
+      "name": "Foyer",
+      "floor": 0,
+      "role": "room",
+      "asset": "res://assets/foyer/foyer-background.png",
+      "walk_regions": [
+        [
+          16,
+          160,
+          448,
+          171
+        ]
+      ],
+      "obstacles": [
+        [
+          0,
+          316,
+          209,
+          44
+        ],
+        [
+          273,
+          316,
+          207,
+          44
+        ],
+        [
+          166,
+          155,
+          148,
+          24
+        ],
+        [
+          68,
+          162,
+          28,
+          20
+        ],
+        [
+          17,
+          160,
+          49,
+          18
+        ],
+        [
+          396,
+          174,
+          57,
+          23
+        ],
+        [
+          339,
+          184,
+          14,
+          8
+        ],
+        [
+          354,
+          237,
+          24,
+          10
+        ]
+      ],
+      "portals": [
+        {
+          "id": "g_foyer--g_main_stair",
+          "at": [
+            240,
+            326
+          ],
+          "target": "g_main_stair",
+          "arrival": [
+            240,
+            295
+          ],
+          "facing": [
+            0,
+            -1
+          ],
+          "kind": "door",
+          "passage_note": "Bent passage between south thresholds; foyer side-door art remains a future option."
+        }
+      ],
+      "spawn": [
+        240,
+        280
+      ],
+      "art_note": ""
+    },
+    "g_main_stair": {
+      "id": "g_main_stair",
+      "name": "Main Stair Hall",
+      "floor": 0,
+      "role": "passage",
+      "asset": "res://assets/rooms/room-dark-stairwell.png",
+      "walk_regions": [
+        [
+          16,
+          190,
+          448,
+          142
+        ],
+        [
+          18,
+          165,
+          294,
+          40
+        ],
+        [
+          328,
+          128,
+          108,
+          80
+        ]
+      ],
+      "obstacles": [
+        [
+          65,
+          164,
+          75,
+          28
+        ],
+        [
+          252,
+          180,
+          47,
+          33
+        ],
+        [
+          310,
+          212,
+          14,
+          26
+        ]
+      ],
+      "portals": [
+        {
+          "id": "g_foyer--g_main_stair",
+          "at": [
+            240,
+            326
+          ],
+          "target": "g_foyer",
+          "arrival": [
+            240,
+            299
+          ],
+          "facing": [
+            0,
+            -1
+          ],
+          "kind": "door",
+          "passage_note": "Bent passage between south thresholds; foyer side-door art remains a future option."
+        },
+        {
+          "id": "g_main_stair--g_library",
+          "at": [
+            20,
+            202
+          ],
+          "target": "g_library",
+          "arrival": [
+            431,
+            205
+          ],
+          "facing": [
+            -1,
+            0
+          ],
+          "kind": "door",
+          "passage_note": ""
+        },
+        {
+          "id": "g_main_stair--u_main_stair",
+          "at": [
+            374,
+            139
+          ],
+          "target": "u_main_stair",
+          "arrival": [
+            240,
+            292
+          ],
+          "facing": [
+            0,
+            -1
+          ],
+          "kind": "stairs",
+          "passage_note": ""
+        }
+      ],
+      "spawn": [
+        240,
+        280
+      ],
+      "art_note": ""
+    },
+    "g_library": {
+      "id": "g_library",
+      "name": "Library",
+      "floor": 0,
+      "role": "room",
+      "asset": "res://assets/rooms/room-library.png",
+      "walk_regions": [
+        [
+          16,
+          121,
+          448,
+          211
+        ]
+      ],
+      "obstacles": [
+        [
+          49,
+          104,
+          68,
+          86
+        ],
+        [
+          305,
+          115,
+          101,
+          44
+        ],
+        [
+          0,
+          226,
+          148,
+          72
+        ]
+      ],
+      "portals": [
+        {
+          "id": "g_main_stair--g_library",
+          "at": [
+            460,
+            193
+          ],
+          "target": "g_main_stair",
+          "arrival": [
+            49,
+            210
+          ],
+          "facing": [
+            1,
+            0
+          ],
+          "kind": "door",
+          "passage_note": ""
+        },
+        {
+          "id": "g_library--g_dining",
+          "at": [
+            20,
+            195
+          ],
+          "target": "g_dining",
+          "arrival": [
+            430,
+            209
+          ],
+          "facing": [
+            -1,
+            0
+          ],
+          "kind": "door",
+          "passage_note": ""
+        }
+      ],
+      "spawn": [
+        240,
+        280
+      ],
+      "art_note": ""
+    },
+    "g_dining": {
+      "id": "g_dining",
+      "name": "Dining Room",
+      "floor": 0,
+      "role": "room",
+      "asset": "res://assets/rooms/room-reception-hall-alternate.png",
+      "walk_regions": [
+        [
+          16,
+          143,
+          448,
+          189
+        ]
+      ],
+      "obstacles": [
+        [
+          30,
+          137,
+          75,
+          39
+        ],
+        [
+          389,
+          137,
+          63,
+          43
+        ],
+        [
+          0,
+          266,
+          61,
+          66
+        ],
+        [
+          358,
+          292,
+          24,
+          40
+        ],
+        [
+          445,
+          292,
+          35,
+          40
+        ]
+      ],
+      "portals": [
+        {
+          "id": "g_library--g_dining",
+          "at": [
+            460,
+            194
+          ],
+          "target": "g_library",
+          "arrival": [
+            48,
+            209
+          ],
+          "facing": [
+            1,
+            0
+          ],
+          "kind": "door",
+          "passage_note": ""
+        },
+        {
+          "id": "g_dining--g_kitchen",
+          "at": [
+            20,
+            194
+          ],
+          "target": "g_kitchen",
+          "arrival": [
+            430,
+            217
+          ],
+          "facing": [
+            -1,
+            0
+          ],
+          "kind": "door",
+          "passage_note": ""
+        }
+      ],
+      "spawn": [
+        240,
+        280
+      ],
+      "art_note": "Reception-room placeholder; dining table and food-service furnishings need a later art pass."
+    },
+    "g_kitchen": {
+      "id": "g_kitchen",
+      "name": "Kitchen",
+      "floor": 0,
+      "role": "room",
+      "asset": "res://assets/rooms/room-reception-hall.png",
+      "walk_regions": [
+        [
+          16,
+          126,
+          448,
+          206
+        ]
+      ],
+      "obstacles": [
+        [
+          0,
+          123,
+          247,
+          46
+        ],
+        [
+          0,
+          174,
+          66,
+          67
+        ],
+        [
+          159,
+          290,
+          34,
+          42
+        ],
+        [
+          287,
+          290,
+          27,
+          42
+        ]
+      ],
+      "portals": [
+        {
+          "id": "g_dining--g_kitchen",
+          "at": [
+            460,
+            202
+          ],
+          "target": "g_dining",
+          "arrival": [
+            48,
+            210
+          ],
+          "facing": [
+            1,
+            0
+          ],
+          "kind": "door",
+          "passage_note": ""
+        },
+        {
+          "id": "g_kitchen--b_store",
+          "at": [
+            240,
+            326
+          ],
+          "target": "b_store",
+          "arrival": [
+            421,
+            183
+          ],
+          "facing": [
+            0,
+            1
+          ],
+          "kind": "stairs",
+          "passage_note": "Kitchen south threshold leads through an offscreen descending stair. Basement return is the rear doorway; matching stair artwork is still required."
+        }
+      ],
+      "spawn": [
+        240,
+        280
+      ],
+      "art_note": "Existing counter-room placeholder; shelves/bar are not a finished kitchen."
+    },
+    "u_main_stair": {
+      "id": "u_main_stair",
+      "name": "Upstairs Landing",
+      "floor": 1,
+      "role": "passage",
+      "asset": "res://assets/rooms/room-grand-hall.png",
+      "walk_regions": [
+        [
+          16,
+          174,
+          448,
+          158
+        ],
+        [
+          213,
+          151,
+          55,
+          45
+        ]
+      ],
+      "obstacles": [
+        [
+          0,
+          299,
+          187,
+          33
+        ],
+        [
+          294,
+          299,
+          186,
+          33
+        ]
+      ],
+      "portals": [
+        {
+          "id": "g_main_stair--u_main_stair",
+          "at": [
+            240,
+            326
+          ],
+          "target": "g_main_stair",
+          "arrival": [
+            374,
+            174
+          ],
+          "facing": [
+            0,
+            1
+          ],
+          "kind": "stairs",
+          "passage_note": ""
+        },
+        {
+          "id": "u_main_stair--u_master",
+          "at": [
+            20,
+            195
+          ],
+          "target": "u_master",
+          "arrival": [
+            431,
+            282
+          ],
+          "facing": [
+            -1,
+            0
+          ],
+          "kind": "door",
+          "passage_note": ""
+        },
+        {
+          "id": "u_main_stair--u_study",
+          "at": [
+            460,
+            195
+          ],
+          "target": "u_study",
+          "arrival": [
+            48,
+            220
+          ],
+          "facing": [
+            1,
+            0
+          ],
+          "kind": "door",
+          "passage_note": ""
+        }
+      ],
+      "spawn": [
+        240,
+        280
+      ],
+      "art_note": ""
+    },
+    "u_master": {
+      "id": "u_master",
+      "name": "Main Bedroom",
+      "floor": 1,
+      "role": "room",
+      "asset": "res://assets/rooms/room-guest-bedroom-alternate.png",
+      "walk_regions": [
+        [
+          16,
+          176,
+          448,
+          156
+        ]
+      ],
+      "obstacles": [
+        [
+          0,
+          142,
+          114,
+          54
+        ],
+        [
+          318,
+          145,
+          146,
+          48
+        ]
+      ],
+      "portals": [
+        {
+          "id": "u_main_stair--u_master",
+          "at": [
+            460,
+            279
+          ],
+          "target": "u_main_stair",
+          "arrival": [
+            49,
+            211
+          ],
+          "facing": [
+            1,
+            0
+          ],
+          "kind": "door",
+          "passage_note": ""
+        }
+      ],
+      "spawn": [
+        240,
+        280
+      ],
+      "art_note": ""
+    },
+    "u_study": {
+      "id": "u_study",
+      "name": "Study",
+      "floor": 1,
+      "role": "room",
+      "asset": "res://assets/rooms/room-library-alternate.png",
+      "walk_regions": [
+        [
+          16,
+          126,
+          448,
+          206
+        ],
+        [
+          405,
+          109,
+          39,
+          45
+        ]
+      ],
+      "obstacles": [
+        [
+          43,
+          139,
+          147,
+          63
+        ],
+        [
+          0,
+          285,
+          193,
+          47
+        ],
+        [
+          284,
+          285,
+          196,
+          47
+        ]
+      ],
+      "portals": [
+        {
+          "id": "u_main_stair--u_study",
+          "at": [
+            20,
+            203
+          ],
+          "target": "u_main_stair",
+          "arrival": [
+            431,
+            212
+          ],
+          "facing": [
+            -1,
+            0
+          ],
+          "kind": "door",
+          "passage_note": ""
+        }
+      ],
+      "spawn": [
+        240,
+        280
+      ],
+      "art_note": ""
+    },
+    "b_store": {
+      "id": "b_store",
+      "name": "Basement Storage",
+      "floor": -1,
+      "role": "room",
+      "asset": "res://assets/rooms/room-torchlit-stone-alternate.png",
+      "walk_regions": [
+        [
+          16,
+          174,
+          448,
+          158
+        ],
+        [
+          388,
+          126,
+          63,
+          65
+        ]
+      ],
+      "obstacles": [],
+      "portals": [
+        {
+          "id": "g_kitchen--b_store",
+          "at": [
+            421,
+            140
+          ],
+          "target": "g_kitchen",
+          "arrival": [
+            240,
+            285
+          ],
+          "facing": [
+            0,
+            -1
+          ],
+          "kind": "stairs",
+          "passage_note": "Kitchen south threshold leads through an offscreen descending stair. Basement return is the rear doorway; matching stair artwork is still required."
+        }
+      ],
+      "spawn": [
+        240,
+        280
+      ],
+      "art_note": ""
+    }
+  },
+  "deferred_rooms": {
+    "g_service_stair": {
+      "name": "Service Stair Hall",
+      "asset": "res://assets/rooms/room-dark-stairwell-basement.png"
+    },
+    "u_service_stair": {
+      "name": "Upper Service Landing",
+      "asset": "res://assets/rooms/room-cold-statue-hall-alternate.png"
+    },
+    "u_guest": {
+      "name": "Guest Bedroom",
+      "asset": "res://assets/rooms/room-guest-bedroom.png"
+    },
+    "u_bath": {
+      "name": "Washroom",
+      "asset": "res://assets/rooms/room-firelit-entry.png"
+    },
+    "b_main_stair": {
+      "name": "Basement Main Landing",
+      "asset": "res://assets/rooms/room-torchlit-stone.png"
+    },
+    "b_service_stair": {
+      "name": "Basement Service Landing",
+      "asset": "res://assets/rooms/room-torchlit-stone-alternate.png"
+    },
+    "b_wine": {
+      "name": "Wine Cellar",
+      "asset": "res://assets/rooms/room-torchlit-stone-alternate.png"
+    },
+    "b_archive": {
+      "name": "Estate Archive",
+      "asset": "res://assets/rooms/room-library-alternate.png"
+    },
+    "b_utility": {
+      "name": "Utility Room",
+      "asset": "res://assets/rooms/room-torchlit-stone.png"
+    }
+  },
+  "description": "Compact first mansion: four ground-floor rooms, two upstairs, one basement; stair hall and upper landing are circulation. Unique active backgrounds; two passage art gaps remain."
+}

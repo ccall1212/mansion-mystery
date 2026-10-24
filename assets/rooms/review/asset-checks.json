@@ -1,0 +1,507 @@
+{
+  "technical_passed": true,
+  "rooms": 9,
+  "layouts": 18,
+  "runtime_size": [
+    480,
+    320
+  ],
+  "engine_capture_size": [
+    480,
+    360
+  ],
+  "engine_captures": 36,
+  "source_and_runtime_paths_verified": true,
+  "unique_backgrounds": true,
+  "gameplay_navigation_tested": false,
+  "generated_with": "built-in imagegen",
+  "technical_export": "Godot nearest sampling",
+  "assets": [
+    {
+      "id": "guest-bedroom",
+      "asset": "assets/rooms/room-guest-bedroom.png",
+      "runtime_size": [
+        480,
+        320
+      ],
+      "master_size": [
+        1536,
+        1024
+      ],
+      "opaque": true,
+      "asset_sha256": "705f936bd44755c8a9c5ca283fb30c188765ca4b83d0004a85d544dd2c66646e",
+      "master_sha256": "62b487fbfe47fe62803729c46076e0c7d3cf97b673cddeed77ece301f00ea6bd",
+      "captures": [
+        {
+          "zoom": 1,
+          "path": "test-results/environments/guest-bedroom-1x.png",
+          "sha256": "d0e6bc1472d2ea9a2730e413cfddd0e1ab89330b16b2cc2aca932d055d3d0d43"
+        },
+        {
+          "zoom": 2,
+          "path": "test-results/environments/guest-bedroom-2x.png",
+          "sha256": "5ef1dcb5391304298487bdc55467f3bf5ef7ba21d0c6a42ad57badd8d023d72a"
+        }
+      ]
+    },
+    {
+      "id": "guest-bedroom-alternate",
+      "asset": "assets/rooms/room-guest-bedroom-alternate.png",
+      "runtime_size": [
+        480,
+        320
+      ],
+      "master_size": [
+        1536,
+        1024
+      ],
+      "opaque": true,
+      "asset_sha256": "4dcdd5c5afde0da4bff2e1446fea9625b6a75169ec58718775a5e0d1ca7f4f3b",
+      "master_sha256": "7959b8b3149122d233dd2fcc92ce43663912f02be23e06b61e274c85dd4b6e79",
+      "captures": [
+        {
+          "zoom": 1,
+          "path": "test-results/environments/guest-bedroom-alternate-1x.png",
+          "sha256": "70d20c063a36be91618a73d8c565634cfeff2f43d19ab79ff95f79ec8829daf6"
+        },
+        {
+          "zoom": 2,
+          "path": "test-results/environments/guest-bedroom-alternate-2x.png",
+          "sha256": "51d1feb1bae5d494bf44f4214ab6b717ea73a3a89b8d21f38a9d14e3b89f3efd"
+        }
+      ]
+    },
+    {
+      "id": "firelit-entry",
+      "asset": "assets/rooms/room-firelit-entry.png",
+      "runtime_size": [
+        480,
+        320
+      ],
+      "master_size": [
+        1536,
+        1024
+      ],
+      "opaque": true,
+      "asset_sha256": "54e32d0ec24c2998bd57070852b246b9adbf96de1910faf45ac029cc595954a9",
+      "master_sha256": "5593b00bcb9303be028ec76789b56b0fc561bc7f56cfa9bae884bc7a50039b72",
+      "captures": [
+        {
+          "zoom": 1,
+          "path": "test-results/environments/firelit-entry-1x.png",
+          "sha256": "47561979584203ff4d22406a5ee96a60bba3305c7a3befcac90d8cd450d36481"
+        },
+        {
+          "zoom": 2,
+          "path": "test-results/environments/firelit-entry-2x.png",
+          "sha256": "1f7f96806dc0759b4884080bbc002de7c533b4b845d55dbe56601083910602b5"
+        }
+      ]
+    },
+    {
+      "id": "firelit-entry-alternate",
+      "asset": "assets/rooms/room-firelit-entry-alternate.png",
+      "runtime_size": [
+        480,
+        320
+      ],
+      "master_size": [
+        1536,
+        1024
+      ],
+      "opaque": true,
+      "asset_sha256": "77310a3d7905ff7a8bd979698ee8855e2824515a28540bbeb653beccb69eee2b",
+      "master_sha256": "85a8f015f8126e560cffce53129dc10847f891dc6cf22710e39fb105544e6880",
+      "captures": [
+        {
+          "zoom": 1,
+          "path": "test-results/environments/firelit-entry-alternate-1x.png",
+          "sha256": "62b01d30b7409d583dd942428bf165344de082b62490ba1593315c80b5827f09"
+        },
+        {
+          "zoom": 2,
+          "path": "test-results/environments/firelit-entry-alternate-2x.png",
+          "sha256": "2c7bb0ab864a8975886c1c5ce9f24c04e2f665afb7b95c3e878082367269ce64"
+        }
+      ]
+    },
+    {
+      "id": "grand-hall",
+      "asset": "assets/rooms/room-grand-hall.png",
+      "runtime_size": [
+        480,
+        320
+      ],
+      "master_size": [
+        1536,
+        1024
+      ],
+      "opaque": true,
+      "asset_sha256": "f079a1629e04416e58a03da31cbdc9b7267b8b36b59f9e3f1e58c74974f027db",
+      "master_sha256": "0f700cbe32a86a42d564bd6ace551d4971af9ee9101f8722de7045d440a6ac5e",
+      "captures": [
+        {
+          "zoom": 1,
+          "path": "test-results/environments/grand-hall-1x.png",
+          "sha256": "65742ab586b13a792078eff37439986a4c7f0b34334ee9d3c8b68b7e011eaf94"
+        },
+        {
+          "zoom": 2,
+          "path": "test-results/environments/grand-hall-2x.png",
+          "sha256": "0d8d209088c0be36e908ad96fee0f27141a8a075224cbe23ce580bf321e7a7f4"
+        }
+      ]
+    },
+    {
+      "id": "grand-hall-alternate",
+      "asset": "assets/rooms/room-grand-hall-alternate.png",
+      "runtime_size": [
+        480,
+        320
+      ],
+      "master_size": [
+        1536,
+        1024
+      ],
+      "opaque": true,
+      "asset_sha256": "a5f93ac3bc4a4e5f354a34ce714ef4f93331d1ee47ec34bec78b1fc81ddbfce7",
+      "master_sha256": "0aa8b442513e5e44435e1a94cb2de116a497262db67c47bcc8485dbc9a798b37",
+      "captures": [
+        {
+          "zoom": 1,
+          "path": "test-results/environments/grand-hall-alternate-1x.png",
+          "sha256": "a0a8512e1e74bcc1b7371b8725ff46bdd730c3c93cbe20999aef193a29254732"
+        },
+        {
+          "zoom": 2,
+          "path": "test-results/environments/grand-hall-alternate-2x.png",
+          "sha256": "0e041a1692a083fa1cd6a83429a5c377e32a24cce35aca87221eed9c421bd698"
+        }
+      ]
+    },
+    {
+      "id": "torchlit-stone",
+      "asset": "assets/rooms/room-torchlit-stone.png",
+      "runtime_size": [
+        480,
+        320
+      ],
+      "master_size": [
+        1536,
+        1024
+      ],
+      "opaque": true,
+      "asset_sha256": "313e548b13eb1cccdfb63f353284e648be00ca94facd49bc252b099e0d7ae773",
+      "master_sha256": "8024fe3fd929b5c374335e63eef3bf0ee2733fdc998942e480b0db92c4ee2faf",
+      "captures": [
+        {
+          "zoom": 1,
+          "path": "test-results/environments/torchlit-stone-1x.png",
+          "sha256": "05d91e9eeb4a9157f445d95224b7e4832f2a6cefb63bf158922146efd8e21496"
+        },
+        {
+          "zoom": 2,
+          "path": "test-results/environments/torchlit-stone-2x.png",
+          "sha256": "0141240665f19db5e01712b84068412b8259cd43774542ef14ab59ae8865721e"
+        }
+      ]
+    },
+    {
+      "id": "torchlit-stone-alternate",
+      "asset": "assets/rooms/room-torchlit-stone-alternate.png",
+      "runtime_size": [
+        480,
+        320
+      ],
+      "master_size": [
+        1536,
+        1024
+      ],
+      "opaque": true,
+      "asset_sha256": "dddd3302c912771aefbba7e5aa7a16709705e1326704b8ff2215ebc3ee5dca1b",
+      "master_sha256": "aa8e4feef87b2ea904d4f8f1ae83bd87d1e57ad7115588a553619534e458f844",
+      "captures": [
+        {
+          "zoom": 1,
+          "path": "test-results/environments/torchlit-stone-alternate-1x.png",
+          "sha256": "67b85ac365d1eddfdcd236c76da3f504c752ed20aa5283e2711563137a342031"
+        },
+        {
+          "zoom": 2,
+          "path": "test-results/environments/torchlit-stone-alternate-2x.png",
+          "sha256": "a6056a76f715bd6e9744d559c2d84dd4d3d0fd836bfbdfab81a061b983c733ee"
+        }
+      ]
+    },
+    {
+      "id": "library",
+      "asset": "assets/rooms/room-library.png",
+      "runtime_size": [
+        480,
+        320
+      ],
+      "master_size": [
+        1536,
+        1024
+      ],
+      "opaque": true,
+      "asset_sha256": "83ba1e7abb424ff8d5923c29798c47682affbb8d18adcd434990d686d1fcf618",
+      "master_sha256": "caa5c5dc20f5e57a65bc7ae84a9e8c1bcd935a9b5366ef940396df332ea4a969",
+      "captures": [
+        {
+          "zoom": 1,
+          "path": "test-results/environments/library-1x.png",
+          "sha256": "0e87488fa3df46d4fcd3b8fcec32dc7c1b436cc0099c3ec608ff6d0e629d51a8"
+        },
+        {
+          "zoom": 2,
+          "path": "test-results/environments/library-2x.png",
+          "sha256": "cb4d7779a29ced307f5aa5bdbbc1a169aa77009b4925694c74cec92948d3b0f6"
+        }
+      ]
+    },
+    {
+      "id": "library-alternate",
+      "asset": "assets/rooms/room-library-alternate.png",
+      "runtime_size": [
+        480,
+        320
+      ],
+      "master_size": [
+        1536,
+        1024
+      ],
+      "opaque": true,
+      "asset_sha256": "035a44d80f9e9cf3e0650edcfa5f0830d9413040e112980d8d8e4ab7bed92cf3",
+      "master_sha256": "b45a9c05818cc038447c02cc193423267ae32a91e43fa60005ab4658d4463568",
+      "captures": [
+        {
+          "zoom": 1,
+          "path": "test-results/environments/library-alternate-1x.png",
+          "sha256": "875c5827a244a20e8af54ec4c2e8fbec6af06308d08fbaf4464e99ebfd26db30"
+        },
+        {
+          "zoom": 2,
+          "path": "test-results/environments/library-alternate-2x.png",
+          "sha256": "2417a40141224a132ed9e9e95394404f702e7d12fc7aa259c03d4ba48f97006b"
+        }
+      ]
+    },
+    {
+      "id": "reception-hall",
+      "asset": "assets/rooms/room-reception-hall.png",
+      "runtime_size": [
+        480,
+        320
+      ],
+      "master_size": [
+        1536,
+        1024
+      ],
+      "opaque": true,
+      "asset_sha256": "25ec141b7861739a516399691348f810b47ceef72b8229494d1376a21f2f2e37",
+      "master_sha256": "a452d414a1b322a2a790330d28e3f85b4d70955c928b2dd967dbd9e78d46e3a6",
+      "captures": [
+        {
+          "zoom": 1,
+          "path": "test-results/environments/reception-hall-1x.png",
+          "sha256": "bb336a918d568b505c78b28c626d8814a223cb5c91ca6181ac51b66e08808b5c"
+        },
+        {
+          "zoom": 2,
+          "path": "test-results/environments/reception-hall-2x.png",
+          "sha256": "8251e562dbca660fde113fd27ca0d5d6e8e1f4eeeaf1b4812df455a7f2a47def"
+        }
+      ]
+    },
+    {
+      "id": "reception-hall-alternate",
+      "asset": "assets/rooms/room-reception-hall-alternate.png",
+      "runtime_size": [
+        480,
+        320
+      ],
+      "master_size": [
+        1536,
+        1024
+      ],
+      "opaque": true,
+      "asset_sha256": "02c91056aac5e49c70882d7001963422b07bb8450556b444bbfe354da130d322",
+      "master_sha256": "a8b5fb32bfd26cbbcccb599e88521902266cabda8031811bb5325d7439819f6d",
+      "captures": [
+        {
+          "zoom": 1,
+          "path": "test-results/environments/reception-hall-alternate-1x.png",
+          "sha256": "9e73564d759723f66818fa5bc4943785617897a055c20b68738d552de2e26a0c"
+        },
+        {
+          "zoom": 2,
+          "path": "test-results/environments/reception-hall-alternate-2x.png",
+          "sha256": "2077249d5d237d8d64e71e4fdb3e40a1505bcc5aaa7d0bb34cb32f455392e19e"
+        }
+      ]
+    },
+    {
+      "id": "night-exterior",
+      "asset": "assets/rooms/room-night-exterior.png",
+      "runtime_size": [
+        480,
+        320
+      ],
+      "master_size": [
+        1536,
+        1024
+      ],
+      "opaque": true,
+      "asset_sha256": "95c6ebca6e04ff9ebf40407534fd1d02e536210040519942dd336d54811658ef",
+      "master_sha256": "38726bf512e1685bf203bbaf79196e2102ebc243330f5c8a8e21990cdf51f1dd",
+      "captures": [
+        {
+          "zoom": 1,
+          "path": "test-results/environments/night-exterior-1x.png",
+          "sha256": "4f1c9fbab7bd50f7d4281037fb6cd411dbcecfc45fc23acbba2851039dd98fc1"
+        },
+        {
+          "zoom": 2,
+          "path": "test-results/environments/night-exterior-2x.png",
+          "sha256": "9c9338057d19b69f4af34780575e4bb01fed70acbedb0e712b5cbac99e6331fd"
+        }
+      ]
+    },
+    {
+      "id": "night-exterior-alternate",
+      "asset": "assets/rooms/room-night-exterior-alternate.png",
+      "runtime_size": [
+        480,
+        320
+      ],
+      "master_size": [
+        1536,
+        1024
+      ],
+      "opaque": true,
+      "asset_sha256": "8efad2e72fafdd8cfa74f6e38fe36c2d98ce07124909084bcb6f961ead1aa0f6",
+      "master_sha256": "26c996927d2f1e929672de1650ae1f8ff36e3d667e1a485254f87483ae07ad69",
+      "captures": [
+        {
+          "zoom": 1,
+          "path": "test-results/environments/night-exterior-alternate-1x.png",
+          "sha256": "e682298b8ff29e8ae36214946b2c179162cdb8eb0ca620d52c78d2e89d87c766"
+        },
+        {
+          "zoom": 2,
+          "path": "test-results/environments/night-exterior-alternate-2x.png",
+          "sha256": "25c751fb6d472b6035a2f02619461c5896b4657f6f131bede72a40f89d49f170"
+        }
+      ]
+    },
+    {
+      "id": "cold-statue-hall",
+      "asset": "assets/rooms/room-cold-statue-hall.png",
+      "runtime_size": [
+        480,
+        320
+      ],
+      "master_size": [
+        1536,
+        1024
+      ],
+      "opaque": true,
+      "asset_sha256": "8b843d8c89eda71b09b656faa53baf2a22984c72069819567c3cccb997f2d894",
+      "master_sha256": "eaa776fface9a0507b7e84020bcdeda5a0319cc04565e8910d03e4d336d47ded",
+      "captures": [
+        {
+          "zoom": 1,
+          "path": "test-results/environments/cold-statue-hall-1x.png",
+          "sha256": "0d52f208ec08ee6897b76f4e0ada073b6c09786ada036c3e4bd792d1948531f3"
+        },
+        {
+          "zoom": 2,
+          "path": "test-results/environments/cold-statue-hall-2x.png",
+          "sha256": "49c68195e8139dd1bd6d0f8a902f7769c4d8c505abaf2230fc2af006f37ee9ae"
+        }
+      ]
+    },
+    {
+      "id": "cold-statue-hall-alternate",
+      "asset": "assets/rooms/room-cold-statue-hall-alternate.png",
+      "runtime_size": [
+        480,
+        320
+      ],
+      "master_size": [
+        1536,
+        1024
+      ],
+      "opaque": true,
+      "asset_sha256": "7ec1adc373d2a5f00d7dac72bbfba2ff96dc1cffcfea5e0233036844d975601d",
+      "master_sha256": "e222f3aa08a4d5db99edaf9c63aabc00be34def7563cd209a217af77d1a39124",
+      "captures": [
+        {
+          "zoom": 1,
+          "path": "test-results/environments/cold-statue-hall-alternate-1x.png",
+          "sha256": "69b3d8f9c15bdba61970942fe1b48e740c83a1e920139bb16b5e1a182b4abc56"
+        },
+        {
+          "zoom": 2,
+          "path": "test-results/environments/cold-statue-hall-alternate-2x.png",
+          "sha256": "fdff6eb0cf0c753e367d4ca4c0ed18da4e417aa170089f1c9de2d9c151b4b06c"
+        }
+      ]
+    },
+    {
+      "id": "dark-stairwell",
+      "asset": "assets/rooms/room-dark-stairwell.png",
+      "runtime_size": [
+        480,
+        320
+      ],
+      "master_size": [
+        1536,
+        1024
+      ],
+      "opaque": true,
+      "asset_sha256": "cd2fb05ade2fc2b093cd654b3af8067e28b354cca03bae2d7f07757e7db8e624",
+      "master_sha256": "614f1dbb01570fdb7486a4d7ddacfea5f08a35a8974c786956ccb451331b785e",
+      "captures": [
+        {
+          "zoom": 1,
+          "path": "test-results/environments/dark-stairwell-1x.png",
+          "sha256": "26d3f43fe9f424cade908a53f12b7d01aeb731815b9788c183fc8bb6b3765482"
+        },
+        {
+          "zoom": 2,
+          "path": "test-results/environments/dark-stairwell-2x.png",
+          "sha256": "78db972664b075039397e5fdc10e06bc5ab68d74acecf4614dad3c45e4a5899e"
+        }
+      ]
+    },
+    {
+      "id": "dark-stairwell-basement",
+      "asset": "assets/rooms/room-dark-stairwell-basement.png",
+      "runtime_size": [
+        480,
+        320
+      ],
+      "master_size": [
+        1536,
+        1024
+      ],
+      "opaque": true,
+      "asset_sha256": "a8075d4551338a77857c9558bb821023f258703fca22850e857466bb9803648d",
+      "master_sha256": "9dd1dd39f8a7d11ffd1f222e342a7f45ddec8d53500176241a8609d28fd3c865",
+      "captures": [
+        {
+          "zoom": 1,
+          "path": "test-results/environments/dark-stairwell-basement-1x.png",
+          "sha256": "98de29168753aefe08a8e07e678dcfcfcd64430482fba34c69f1812f0338e312"
+        },
+        {
+          "zoom": 2,
+          "path": "test-results/environments/dark-stairwell-basement-2x.png",
+          "sha256": "e3a9b7ccdbe903d137b3e617647640cfe7d1934c20efe8b96288cc737313aedd"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "status": "historical-drafts-see-review-v3-for-current-group-boards",
+  "superseded_group_review": "../review-v3/review-manifest.json",
+  "generation_mode": "built-in-imagegen",
+  "runtime_replaced": false,
+  "final_cast_approved": false,
+  "reference_folder": "reference/art-direction/likenesses/batch-01",
+  "known_duplicate": {
+    "identity": "photo-02-man",
+    "sources": [
+      "photo-02",
+      "photo-03-E"
+    ],
+    "poses": [
+      "cap-worn",
+      "cap-held-head-scratch"
+    ]
+  },
+  "unconfirmed_cross_photo_duplicates": true,
+  "excluded": "All blurred people in photo-04; no reconstruction.",
+  "entries": [
+    {
+      "id": "eleanor-proportion-v2",
+      "file": "masters/eleanor-proportion-v2.png",
+      "kind": "single-character",
+      "reference": "original Eleanor",
+      "purpose": "face, costume and larger-head review"
+    },
+    {
+      "id": "photo-01-woman-v2",
+      "file": "masters/photo-01-woman-v2.png",
+      "kind": "single-character",
+      "reference": "photo-01",
+      "purpose": "likeness and compact-body revision"
+    },
+    {
+      "id": "photo-02-hat-pair",
+      "file": "masters/photo-02-hat-pair.png",
+      "kind": "two-pose-review",
+      "reference": "photo-02 + photo-03-E",
+      "purpose": "same identity, cap worn and head-scratch"
+    },
+    {
+      "id": "photo-03-six-adults",
+      "file": "masters/photo-03-six-adults.png",
+      "kind": "concept-board",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "reference": "photo-03",
+      "purpose": "six adult likeness/clothing concepts; E repeats photo-02"
+    },
+    {
+      "id": "photo-04-upper-seven",
+      "file": "masters/photo-04-upper-seven.png",
+      "kind": "concept-board",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F",
+        "G"
+      ],
+      "reference": "photo-04",
+      "purpose": "upper adult likeness/clothing review"
+    },
+    {
+      "id": "photo-04-lower-six",
+      "file": "masters/photo-04-lower-six.png",
+      "kind": "concept-board",
+      "labels": [
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "reference": "photo-04",
+      "purpose": "remaining adult likeness/clothing review"
+    }
+  ],
+  "limitations": [
+    "Not production sprite sheets or full animation sets.",
+    "Personal names, role assignments, extra duplicate matches and final cast count not confirmed.",
+    "Group boards prioritize face and attire; individual large-head proportion and gameplay-scale passes still required.",
+    "Original first photo woman version retained as a long-bodied rejected draft, not the selected comparison."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "backgrounds": {
+    "res://assets/foyer/foyer-background.png": "res://assets/furniture/layouts/foyer.json",
+    "res://assets/rooms/room-library.png": "res://assets/furniture/layouts/library.json",
+    "res://assets/rooms/room-guest-bedroom.png": "res://assets/furniture/layouts/guest_bedroom.json",
+    "res://assets/rooms/room-dark-stairwell.png": "res://assets/furniture/layouts/main_stair.json",
+    "res://assets/rooms/room-reception-hall-alternate.png": "res://assets/furniture/layouts/dining.json",
+    "res://assets/rooms/room-reception-hall.png": "res://assets/furniture/layouts/kitchen.json",
+    "res://assets/rooms/room-dark-stairwell-basement.png": "res://assets/furniture/layouts/service_stair.json",
+    "res://assets/rooms/room-grand-hall.png": "res://assets/furniture/layouts/upper_gallery.json",
+    "res://assets/rooms/room-cold-statue-hall-alternate.png": "res://assets/furniture/layouts/upper_service.json",
+    "res://assets/rooms/room-guest-bedroom-alternate.png": "res://assets/furniture/layouts/master_bedroom.json",
+    "res://assets/rooms/room-library-alternate.png": "res://assets/furniture/layouts/study_archive.json",
+    "res://assets/rooms/room-firelit-entry.png": "res://assets/furniture/layouts/washroom_placeholder.json",
+    "res://assets/rooms/room-torchlit-stone.png": "res://assets/furniture/layouts/basement_stone.json",
+    "res://assets/rooms/room-torchlit-stone-alternate.png": "res://assets/furniture/layouts/basement_storage.json"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "g_library": [
+    "I was reading by the shelves when the house went quiet.",
+    "I came here to return a book. I stayed to read a chapter."
+  ],
+  "g_dining": [
+    "I was waiting here after dinner. Nobody came to clear the table.",
+    "I stopped here for a drink before going upstairs."
+  ],
+  "g_kitchen": [
+    "I came looking for tea. The kitchen seemed deserted.",
+    "I was searching for a clean cup when I heard footsteps."
+  ],
+  "u_master": [
+    "I was resting here. A noise outside the room woke me.",
+    "I came here to look for a coat I had left behind."
+  ],
+  "u_guest": [
+    "I was resting in the guest room before the commotion.",
+    "I was unpacking when I thought I heard a door close."
+  ],
+  "u_study": [
+    "I was looking through the papers in the study.",
+    "I came here to find a quiet place to write a letter."
+  ],
+  "u_bath": [
+    "I stepped into this room for a quiet moment.",
+    "I was upstairs when I heard voices from the landing."
+  ],
+  "b_wine": [
+    "I came down to look for a bottle for the evening.",
+    "I was checking the cellar. It was unusually cold."
+  ],
+  "b_archive": [
+    "I was reading an old estate ledger in the archive.",
+    "I was searching the archive for a family document."
+  ],
+  "b_utility": [
+    "I was checking where that rattling sound came from.",
+    "I came downstairs after the lights flickered."
+  ],
+  "b_store": [
+    "I was looking for a spare candle in the storage room.",
+    "I was searching the boxes for an old travel bag."
+  ]
+}

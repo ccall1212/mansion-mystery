@@ -1,0 +1,208 @@
+{
+  "characters": [
+    {
+      "context": "floor",
+      "design": "Broad-built middle-aged Black physician, close-cropped gray hair and short beard, burgundy waistcoat, rolled ivory sleeves, slate trousers, brown boots.",
+      "estimated_source_head_pixels": 462.0,
+      "head_fraction": 0.42,
+      "head_landmark_fraction": 0.42,
+      "head_units": 16.0,
+      "id": "01",
+      "image": "res://assets/characters/drafts/character-investigating-clue.png",
+      "name": "Dr Jonas Reed",
+      "pivot": [
+        97.1574803149606,
+        126
+      ],
+      "pixels_per_world_unit": 3,
+      "pose": "Kneeling on one grounded knee, leaning forward, eyes directed down at a small brass magnifying lens held close to the floor.",
+      "pose_height_units": 38.0,
+      "render_scale": 0.333333333333333,
+      "size": [
+        122,
+        138
+      ],
+      "slug": "investigating-clue",
+      "source": "res://assets/characters/masters/01-jonas-investigating-clue.png",
+      "source_bounds": [
+        123,
+        100,
+        947,
+        1100
+      ],
+      "source_size": [
+        1230,
+        1278
+      ],
+      "target_head_units": 16.0
+    },
+    {
+      "context": "clock",
+      "design": "Elderly woman, silver bobbed hair, small brass spectacles, ochre long dress and short plum shawl, slender build, dignified curious personality.",
+      "estimated_source_head_pixels": 444.84,
+      "head_fraction": 0.33,
+      "head_landmark_fraction": 0.33,
+      "head_units": 16.0,
+      "id": "02",
+      "image": "res://assets/characters/drafts/character-examining-clock.png",
+      "name": "Ada Whitcombe",
+      "pivot": [
+        45.1287128712871,
+        157
+      ],
+      "pixels_per_world_unit": 3,
+      "pose": "Standing upright in three-quarter profile, chin and neck clearly tilted UP, eyes looking above eye level at an unseen tall clock or portrait. Hands loosely clasped behind her back. No clock, picture or other environment in PNG.",
+      "pose_height_units": 48.3333333333333,
+      "render_scale": 0.333333333333333,
+      "size": [
+        87,
+        169
+      ],
+      "slug": "examining-clock",
+      "source": "res://assets/characters/masters/02-examining-clock.png",
+      "source_bounds": [
+        250,
+        109,
+        587,
+        1348
+      ],
+      "source_size": [
+        1024,
+        1536
+      ],
+      "target_head_units": 16.0
+    },
+    {
+      "context": "bed",
+      "design": "Freckled 13-year-old boy with unruly auburn curls, patched olive jacket, cream shirt, charcoal knee breeches, scuffed lace-up boots, small wiry build.",
+      "estimated_source_head_pixels": 492.0,
+      "head_fraction": 0.48,
+      "head_landmark_fraction": 0.48,
+      "head_units": 14.0,
+      "id": "03",
+      "image": "res://assets/characters/drafts/character-hiding-under-bed.png",
+      "name": "Pip Harrow",
+      "pivot": [
+        61.8775510204082,
+        100
+      ],
+      "pixels_per_world_unit": 3,
+      "pose": "A complete low crouching/hiding pose seen from slightly above: folded knees tucked almost underneath chest, one hand braced on floor, other hand near his mouth, nervous eyes peeking toward viewer. Body compact and low enough to fit under a bed. No bed or furniture painted into PNG; foreground bed rail is added by engine. Keep whole crouched body visible for later occlusion. He is shorter than an adult but has the same stylized large-head language.",
+      "pose_height_units": 29.3333333333333,
+      "render_scale": 0.333333333333333,
+      "size": [
+        102,
+        112
+      ],
+      "slug": "hiding-under-bed",
+      "source": "res://assets/characters/masters/03-hiding-under-bed.png",
+      "source_bounds": [
+        226,
+        109,
+        914,
+        1025
+      ],
+      "source_size": [
+        1312,
+        1199
+      ],
+      "target_head_units": 14.0
+    },
+    {
+      "context": "floor",
+      "design": "Sturdy middle-aged woman with warm brown skin, dark hair in a tight bun, plum blouse, ivory cook's apron, long charcoal skirt, practical dark shoes, strong square face.",
+      "estimated_source_head_pixels": 487.9,
+      "head_fraction": 0.34,
+      "head_landmark_fraction": 0.34,
+      "head_units": 16.0,
+      "id": "04",
+      "image": "res://assets/characters/drafts/character-angry.png",
+      "name": "Martha Bell",
+      "pivot": [
+        31.1010101010101,
+        153
+      ],
+      "pixels_per_world_unit": 3,
+      "pose": "Standing three-quarter toward viewer, arms firmly CROSSED over chest, tense raised shoulders, visible frown and furrowed eyebrows, annoyed weight shifted to one leg. Clear crossed hands and elbows.",
+      "pose_height_units": 47.0,
+      "render_scale": 0.333333333333333,
+      "size": [
+        82,
+        165
+      ],
+      "slug": "angry",
+      "source": "res://assets/characters/masters/04-angry.png",
+      "source_bounds": [
+        220,
+        69,
+        590,
+        1435
+      ],
+      "source_size": [
+        1024,
+        1536
+      ],
+      "target_head_units": 16.0
+    }
+  ],
+  "description": "15 distinct posed characters; not full animation sets",
+  "reference_eleanor_original": {
+    "estimated_source_head_pixels": 155.0,
+    "head_landmark_fraction": 0.215277777777778,
+    "image": "res://assets/characters/drafts/reference-eleanor-original.png",
+    "pivot": [
+      41.7083333333333,
+      153
+    ],
+    "pixels_per_world_unit": 3,
+    "pose_height_units": 47.0,
+    "render_scale": 0.333333333333333,
+    "size": [
+      85,
+      165
+    ],
+    "source": "res://assets/characters/references/eleanor-original-front.png",
+    "source_bounds": [
+      0,
+      0,
+      313,
+      720
+    ],
+    "source_size": [
+      313,
+      720
+    ],
+    "target_head_units": 10.1180555555556
+  },
+  "reference_protagonist": {
+    "estimated_source_head_pixels": 90.0,
+    "head_landmark_fraction": 0.358565737051793,
+    "image": "res://assets/characters/drafts/reference-protagonist.png",
+    "pivot": [
+      44.4271844660194,
+      156
+    ],
+    "pixels_per_world_unit": 3,
+    "pose_height_units": 48.0,
+    "render_scale": 0.333333333333333,
+    "size": [
+      99,
+      168
+    ],
+    "source": "res://assets/characters/references/protagonist-front.png",
+    "source_bounds": [
+      0,
+      0,
+      130,
+      251
+    ],
+    "source_size": [
+      130,
+      251
+    ],
+    "target_head_units": 17.2111553784861
+  },
+  "render_scale": 0.333333333333333,
+  "status": "drafts-awaiting-user-review",
+  "version": 1
+}

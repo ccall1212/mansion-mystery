@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "room_id": "g_library",
+  "candidate": "assets/rooms/revisions/library/library_west_east_draft_v2.png",
+  "status": "draft_pending_user_review",
+  "generation_method": "built-in image_gen",
+  "reference_inputs": [
+    {
+      "path": "assets/rooms/room-library.png",
+      "sha256": "83ba1e7abb424ff8d5923c29798c47682affbb8d18adcd434990d686d1fcf618"
+    }
+  ],
+  "exact_prompt": "Use case: precise-object-edit. Asset: draft replacement background for the g_library room of a 2D mansion mystery game. Edit the supplied library image, retaining its cohesive dark Victorian mansion illustrated pixel-art style, fixed elevated three-quarter orthographic camera, slate floor, walnut shelves, teal moonlight, warm brass candlelight, 3:2 composition and character-free game background. This is a clear functional room layout, not photorealistic scenery.\nDOOR CONTRACT: exactly TWO visible traversable door openings: one on the WEST/left side wall and one on the EAST/right side wall, approximately mid-height as in the reference. No north door, no bottom/south exit, no false door-shaped recesses, no extra stairs. Leave a broad unobstructed east-west walking route and accessible lower floor.\nREWORK: Remove the tall bookcase/ladder arrangement jutting out in front of the left back-wall window. Give the window an unobstructed view and an empty reachable standing area directly in front of it. Place shelves against solid walls, never across windows or doorways. Remove any stool and tiny ambiguous clustered furniture near the reading chair. Provide exactly one clearly readable, adult-sized upholstered reading armchair facing toward the viewer, with separate back, seat, two arms and feet; leave generous clear floor on both sides and in front so an adult character can sit or stand at it. A single small side table may be beside it, visibly separate and accessible, not overlapping chair arms. Keep a freestanding writing desk on the right with clear approach space and leg room. Foreground cabinet must not obstruct a doorway or dominate the walkable floor. Keep fixtures in rational separate clusters with consistent proportions, clean edges, crisp deliberate pixel clusters, restrained texture. Avoid melted ornament, fused objects, repetitive AI-looking clutter, glossy realism, impossible perspective. Do not paint evidence, a body, people, characters, interface, floor labels, letters, compass marks, borders or watermarks into the room. Door labels will be added by the review application, not baked into art. Output one opaque landscape draft; it will be reviewed before integration.",
+  "door_count": 2,
+  "door_counts": {
+    "north": 0,
+    "east": 1,
+    "south": 0,
+    "west": 1
+  },
+  "runtime_integrated": false,
+  "furniture_alignment": "not_calibrated; do not reuse old chair masks or contacts",
+  "visual_review_notes": [
+    "Two side doorways visible; no south or north door.",
+    "Obstructing projecting bookcase removed.",
+    "Reading chair remains in front of the back window; inspect standing and side-view clearance before approval."
+  ],
+  "candidate_sha256": "c7366ccce31bf285ca8b690f6fb87e29a03756b8ebc491ae349ae9d54c4dac6d"
+}

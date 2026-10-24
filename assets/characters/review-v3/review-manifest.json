@@ -1,0 +1,93 @@
+{
+  "version": 3,
+  "status": "historical-drafts-see-review-v4-for-face-and-beard-revisions",
+  "superseded_by": "../review-v4/review-manifest.json",
+  "generation_mode": "built-in-imagegen",
+  "runtime_replaced": false,
+  "final_cast_approved": false,
+  "changes": [
+    "First-group A-F: retain liked faces/outfits; redraw taller adult bodies with longer legs and torsos.",
+    "Party upper: retain designs A-E; remove F/G as duplicate identities.",
+    "Keep party H-M board unchanged."
+  ],
+  "identity_merges": [
+    {
+      "keep": "photo-02-man",
+      "aliases": [
+        "photo-03-E"
+      ],
+      "poses": [
+        "cap-worn",
+        "cap-held-head-scratch"
+      ],
+      "basis": "User explicitly reconfirmed."
+    },
+    {
+      "keep": "photo-04-C",
+      "aliases": [
+        "photo-04-F"
+      ],
+      "basis": "Latest party correction interpreted as F duplicates C."
+    },
+    {
+      "keep": "photo-04-H",
+      "aliases": [
+        "photo-04-G"
+      ],
+      "basis": "User identifies G as same person as H."
+    }
+  ],
+  "active_boards": [
+    {
+      "id": "photo-03",
+      "file": "masters/photo-03-six-adults-taller-v3.png",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E",
+        "F"
+      ],
+      "status": "proportion-revision-pending-review"
+    },
+    {
+      "id": "photo-04-upper",
+      "file": "masters/photo-04-upper-five-v3.png",
+      "labels": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "status": "approved-original-designs-preserved-in-revised-layout"
+    },
+    {
+      "id": "photo-04-lower",
+      "file": "../review-v2/masters/photo-04-lower-six.png",
+      "labels": [
+        "H",
+        "I",
+        "J",
+        "K",
+        "L",
+        "M"
+      ],
+      "status": "unchanged"
+    }
+  ],
+  "retained_candidates": [
+    "../review-v2/masters/eleanor-proportion-v2.png",
+    "../review-v2/masters/photo-01-woman-v2.png",
+    "../review-v2/masters/photo-02-hat-pair.png"
+  ],
+  "reference_folder": "reference/art-direction/likenesses/batch-01",
+  "excluded": "All blurred people; party F/G as separate designs.",
+  "limitations": [
+    "No individual sprite exports or animations completed by this revision.",
+    "Further cross-photo matches, names and role assignments remain unconfirmed.",
+    "Final common gameplay scale and cast approval remain pending.",
+    "Prior review-v2 boards preserved; use this manifest to select current versions."
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "status": "user_approved_for_now",
+  "date": "2026-10-24",
+  "evidence": {
+    "quote": "They look great for now. Push and save. Then lets move on",
+    "scope": "Current enlarged idle dialogue presentation for the eight reviewed speakers; no approval of future turning, new expressions, timer, room drafts or new character designs."
+  },
+  "review_url": "http://127.0.0.1:8765/test-results/dialogue-portraits/index.html",
+  "captures": [
+    {
+      "review_capture": "test-results/dialogue-portraits/char.png",
+      "sha256": "84e78f266623c0fcd4135acb877bb35c6d7f4447d28b1bef4d0dfba65eb634b9"
+    },
+    {
+      "review_capture": "test-results/dialogue-portraits/chris.png",
+      "sha256": "a8f919c71da94c41d52136fa477277cee1d3e1a5e987fc152e6ff95209910c93"
+    },
+    {
+      "review_capture": "test-results/dialogue-portraits/eleanor.png",
+      "sha256": "25a12ab6f72462ceaa1db2e7243dea268b6c36c7a711617e4ee08640b1115aea"
+    },
+    {
+      "review_capture": "test-results/dialogue-portraits/gage.png",
+      "sha256": "0c327e2e491962aa6d31a6e9b194a04e78cfcc503284bfae364f90255fb31060"
+    },
+    {
+      "review_capture": "test-results/dialogue-portraits/jessica.png",
+      "sha256": "65b5a9a46bb7b6c0040faf9886a3815a7ca573d5080eb5285d89975827bf8101"
+    },
+    {
+      "review_capture": "test-results/dialogue-portraits/john.png",
+      "sha256": "50a44c6de61f440ec48812fdde1a8dae54984431ae282373c6357457a9ff9fc1"
+    },
+    {
+      "review_capture": "test-results/dialogue-portraits/justin.png",
+      "sha256": "160eee3f5e6e24ea9509339400d92a7bf945b1187d1e25b662bb0847c339cf36"
+    },
+    {
+      "review_capture": "test-results/dialogue-portraits/sarah_jo.png",
+      "sha256": "f6e7e7e485a7360221c5f54962bd2d9aa3ff1c97f4fd59c19efe02f2cfe67208"
+    }
+  ],
+  "implementation": [
+    {
+      "path": "src/characters/dialogue_portrait.gd",
+      "sha256": "b09f2c2342a882d68516753b9692ead5eb33d17eb83616f6305645561b540696"
+    },
+    {
+      "path": "src/mystery/case_controller.gd",
+      "sha256": "939e43a96760e837faf285f554714dbb4616947ab7c5a13232947262d5ae3de7"
+    },
+    {
+      "path": "src/foyer/foyer.gd",
+      "sha256": "b5dde248e559bc7f1e72adc91a3024e894ba831c9527f55e8f1651b691a1b0da"
+    },
+    {
+      "path": "src/mansion/playable_mansion.gd",
+      "sha256": "fe599ff360057ec85045590352776336c1bc3af9e9992ef5557db7d58149e401"
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "direction": "west",
+  "user_label": "left",
+  "status": "user_finalized_source_art",
+  "frame_order": [
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L4",
+    "L3",
+    "L2",
+    "L1"
+  ],
+  "frames": [
+    {
+      "id": "L1",
+      "path": "assets/characters/detective-walk-final/left/sources/L1.png",
+      "sha256": "d7a5f9f13cce41741721ccde5fc096bce2d43a3464492dfd707052c73fbadf1f",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": "L2",
+      "path": "assets/characters/detective-walk-final/left/sources/L2.png",
+      "sha256": "949d2fe55eea04022bbb454314b13a4b832145aca2706220ac3afed63d41e54c",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": "L3",
+      "path": "assets/characters/detective-walk-final/left/sources/L3.png",
+      "sha256": "c5096f6930ff6ef71c19a03b11ea948f5e22ff6d2be75b238f4ffa875ad09b58",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    },
+    {
+      "id": "L4",
+      "path": "assets/characters/detective-walk-final/left/sources/L4.png",
+      "sha256": "c124bb8886be14c46ff3c202d62a9fdabbe7e3f4fe3247452916620be68b844b",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB"
+    }
+  ],
+  "source_edits": "none; byte-identical copies",
+  "runtime_integrated": false,
+  "right_facing_status": "user working on it; do not mirror or generate replacements",
+  "note": "Original supplied filenames L1-L4 are authoritative again. Updated L4 retained. Exact requested eight-step playback; duplicate endpoints hold for 280 ms, including the loop seam. No source edits or runtime integration.",
+  "revisions": [
+    {
+      "reason": "User replaced L4, then confirmed original L1-L4 forward and backward order. Earlier L4 and duplicate renamed frames were removed during cleanup.",
+      "source_pixels_changed": false
+    }
+  ],
+  "preview": {
+    "path": "assets/characters/detective-walk-final/left/review/left-walk-original-order-ping-pong-v3.gif",
+    "frame_order": [
+      "L1",
+      "L2",
+      "L3",
+      "L4",
+      "L4",
+      "L3",
+      "L2",
+      "L1"
+    ],
+    "duration_ms_per_step": 140,
+    "duration_ms_per_cycle": 1120,
+    "loop": "infinite",
+    "canvas": [
+      1254,
+      1254
+    ],
+    "encoded_gif_frames": 7,
+    "notes": "Adjacent identical L4 frames may be encoded as one 280 ms hold; verified pixel sequence and timing match all eight requested steps. Returning L1 plus next cycle L1 likewise preserves endpoint hold."
+  },
+  "supplied_frame_order": [
+    "L1",
+    "L2",
+    "L3",
+    "L4",
+    "L4",
+    "L3",
+    "L2",
+    "L1"
+  ],
+  "source_order": [
+    "L1",
+    "L2",
+    "L3",
+    "L4"
+  ],
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-23",
+      "source": "Explicit user finalization and replacement instructions, persisted in existing manifest",
+      "quote": "I finalized the left facing animated walk; Actually replace the L4 with this one."
+    },
+    "scope": "Four separate user-finalized source frames; latest corrected L4. No runtime integration approval inferred.",
+    "files": [
+      {
+        "path": "assets/characters/detective-walk-final/left/sources/L1.png",
+        "sha256": "d7a5f9f13cce41741721ccde5fc096bce2d43a3464492dfd707052c73fbadf1f"
+      },
+      {
+        "path": "assets/characters/detective-walk-final/left/sources/L2.png",
+        "sha256": "949d2fe55eea04022bbb454314b13a4b832145aca2706220ac3afed63d41e54c"
+      },
+      {
+        "path": "assets/characters/detective-walk-final/left/sources/L3.png",
+        "sha256": "c5096f6930ff6ef71c19a03b11ea948f5e22ff6d2be75b238f4ffa875ad09b58"
+      },
+      {
+        "path": "assets/characters/detective-walk-final/left/sources/L4.png",
+        "sha256": "c124bb8886be14c46ff3c202d62a9fdabbe7e3f4fe3247452916620be68b844b"
+      }
+    ],
+    "retention": {
+      "sources": "keep all four separately",
+      "current_preview": "keep for playback review",
+      "old_previews_and_duplicate_frames": "removed"
+    }
+  }
+}

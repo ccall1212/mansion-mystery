@@ -1,0 +1,424 @@
+{
+  "alpha_threshold": 128,
+  "original_sha256": "69c4a13cf6063b7bad6c2de71b23803333782a343983dee6b3a21d0d5fd68bde",
+  "canonical": [
+    {
+      "name": "Detective",
+      "source": "assets/foyer/investigator-sheet.png",
+      "canvas": [
+        313,
+        313
+      ],
+      "opaque_bounds": [
+        85,
+        41,
+        215,
+        292
+      ],
+      "opaque_width": 130,
+      "opaque_height": 251,
+      "head_estimate": [
+        104,
+        41,
+        99,
+        90
+      ],
+      "head_measurement_kind": "manual visual estimate, hair/cap crown to chin",
+      "heads_tall": 2.79,
+      "head_at_64": 22.95
+    },
+    {
+      "name": "Char",
+      "source": "assets/characters/prototype/cast-01.png",
+      "canvas": [
+        252,
+        472
+      ],
+      "opaque_bounds": [
+        0,
+        0,
+        252,
+        472
+      ],
+      "opaque_width": 252,
+      "opaque_height": 472,
+      "head_estimate": [
+        53,
+        0,
+        147,
+        120
+      ],
+      "head_measurement_kind": "manual visual estimate, hair/cap crown to chin",
+      "heads_tall": 3.93,
+      "head_at_64": 16.27
+    },
+    {
+      "name": "Chris",
+      "source": "assets/characters/prototype/cast-06.png",
+      "canvas": [
+        411,
+        974
+      ],
+      "opaque_bounds": [
+        0,
+        0,
+        411,
+        974
+      ],
+      "opaque_width": 411,
+      "opaque_height": 974,
+      "head_estimate": [
+        48,
+        0,
+        235,
+        235
+      ],
+      "head_measurement_kind": "manual visual estimate, hair/cap crown to chin",
+      "heads_tall": 4.14,
+      "head_at_64": 15.44
+    },
+    {
+      "name": "Kwinn",
+      "source": "assets/characters/standards/kwinn-reference.png",
+      "canvas": [
+        215,
+        487
+      ],
+      "opaque_bounds": [
+        0,
+        0,
+        215,
+        487
+      ],
+      "opaque_width": 215,
+      "opaque_height": 487,
+      "head_estimate": [
+        68,
+        0,
+        127,
+        130
+      ],
+      "head_measurement_kind": "manual visual estimate, hair/cap crown to chin",
+      "heads_tall": 3.75,
+      "head_at_64": 17.08
+    },
+    {
+      "name": "Sarah Jo",
+      "source": "assets/characters/prototype/cast-13.png",
+      "canvas": [
+        742,
+        1434
+      ],
+      "opaque_bounds": [
+        0,
+        0,
+        742,
+        1434
+      ],
+      "opaque_width": 742,
+      "opaque_height": 1434,
+      "head_estimate": [
+        175,
+        0,
+        320,
+        310
+      ],
+      "head_measurement_kind": "manual visual estimate, hair/cap crown to chin",
+      "heads_tall": 4.63,
+      "head_at_64": 13.84
+    }
+  ],
+  "original_frames": [
+    {
+      "row": 0,
+      "column": 0,
+      "bounds": [
+        102,
+        45,
+        233,
+        292
+      ],
+      "display_height": 62.23622047244095,
+      "display_width": 33.00787401574803,
+      "padding": [
+        102,
+        45,
+        80,
+        21
+      ]
+    },
+    {
+      "row": 0,
+      "column": 1,
+      "bounds": [
+        85,
+        41,
+        215,
+        292
+      ],
+      "display_height": 63.24409448818898,
+      "display_width": 32.75590551181102,
+      "padding": [
+        85,
+        41,
+        98,
+        21
+      ]
+    },
+    {
+      "row": 0,
+      "column": 2,
+      "bounds": [
+        98,
+        45,
+        231,
+        293
+      ],
+      "display_height": 62.488188976377955,
+      "display_width": 33.511811023622045,
+      "padding": [
+        98,
+        45,
+        82,
+        20
+      ]
+    },
+    {
+      "row": 0,
+      "column": 3,
+      "bounds": [
+        86,
+        41,
+        216,
+        293
+      ],
+      "display_height": 63.496062992125985,
+      "display_width": 32.75590551181102,
+      "padding": [
+        86,
+        41,
+        97,
+        20
+      ]
+    },
+    {
+      "row": 1,
+      "column": 0,
+      "bounds": [
+        99,
+        33,
+        241,
+        274
+      ],
+      "display_height": 60.724409448818896,
+      "display_width": 35.77952755905512,
+      "padding": [
+        99,
+        33,
+        72,
+        39
+      ]
+    },
+    {
+      "row": 1,
+      "column": 1,
+      "bounds": [
+        87,
+        33,
+        227,
+        275
+      ],
+      "display_height": 60.976377952755904,
+      "display_width": 35.275590551181104,
+      "padding": [
+        87,
+        33,
+        86,
+        38
+      ]
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "bounds": [
+        94,
+        33,
+        235,
+        278
+      ],
+      "display_height": 61.732283464566926,
+      "display_width": 35.52755905511811,
+      "padding": [
+        94,
+        33,
+        78,
+        35
+      ]
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "bounds": [
+        88,
+        33,
+        228,
+        278
+      ],
+      "display_height": 61.732283464566926,
+      "display_width": 35.275590551181104,
+      "padding": [
+        88,
+        33,
+        85,
+        35
+      ]
+    },
+    {
+      "row": 2,
+      "column": 0,
+      "bounds": [
+        85,
+        28,
+        220,
+        272
+      ],
+      "display_height": 61.48031496062992,
+      "display_width": 34.01574803149607,
+      "padding": [
+        85,
+        28,
+        93,
+        41
+      ]
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "bounds": [
+        79,
+        28,
+        215,
+        274
+      ],
+      "display_height": 61.98425196850393,
+      "display_width": 34.267716535433074,
+      "padding": [
+        79,
+        28,
+        98,
+        39
+      ]
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "bounds": [
+        84,
+        28,
+        229,
+        272
+      ],
+      "display_height": 61.48031496062992,
+      "display_width": 36.53543307086614,
+      "padding": [
+        84,
+        28,
+        84,
+        41
+      ]
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "bounds": [
+        80,
+        28,
+        217,
+        274
+      ],
+      "display_height": 61.98425196850393,
+      "display_width": 34.51968503937008,
+      "padding": [
+        80,
+        28,
+        96,
+        39
+      ]
+    },
+    {
+      "row": 3,
+      "column": 0,
+      "bounds": [
+        99,
+        23,
+        230,
+        277
+      ],
+      "display_height": 64.0,
+      "display_width": 33.00787401574803,
+      "padding": [
+        99,
+        23,
+        83,
+        36
+      ]
+    },
+    {
+      "row": 3,
+      "column": 1,
+      "bounds": [
+        85,
+        23,
+        218,
+        277
+      ],
+      "display_height": 64.0,
+      "display_width": 33.511811023622045,
+      "padding": [
+        85,
+        23,
+        95,
+        36
+      ]
+    },
+    {
+      "row": 3,
+      "column": 2,
+      "bounds": [
+        98,
+        23,
+        228,
+        277
+      ],
+      "display_height": 64.0,
+      "display_width": 32.75590551181102,
+      "padding": [
+        98,
+        23,
+        85,
+        36
+      ]
+    },
+    {
+      "row": 3,
+      "column": 3,
+      "bounds": [
+        86,
+        23,
+        216,
+        277
+      ],
+      "display_height": 64.0,
+      "display_width": 32.75590551181102,
+      "padding": [
+        86,
+        23,
+        97,
+        36
+      ]
+    }
+  ],
+  "technical_standing_height": 64,
+  "original_reference_height": 254,
+  "horizontal_target_height": 61.98425196850393
+}

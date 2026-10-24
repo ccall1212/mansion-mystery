@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "grid": 16,
+  "clearance": 14,
+  "portal_clearance": 60,
+  "arrival_clearance": 52,
+  "object_clearance": 44,
+  "start_clearance": 55
+}

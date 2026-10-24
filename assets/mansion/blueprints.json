@@ -1,0 +1,3848 @@
+{
+  "schema_version": 2,
+  "status": "proposed-blueprints; not playable room geometry",
+  "floors": [
+    {
+      "id": -1,
+      "name": "Basement"
+    },
+    {
+      "id": 0,
+      "name": "Ground floor"
+    },
+    {
+      "id": 1,
+      "name": "Upper floor"
+    }
+  ],
+  "selection": "new game chooses a seeded template and stable per-room asset references; never reroll on re-entry",
+  "source_basis": "User connectivity sketch and supplied original-game screenshots; original proposed layouts, not decoded DOS maps.",
+  "blueprints": [
+    {
+      "id": "manor-1",
+      "name": "West Hall House",
+      "status": "blueprint-review",
+      "start_room": "g_foyer",
+      "start_entry_port": "north",
+      "grid_size": [
+        3,
+        3
+      ],
+      "boundaries": [
+        {
+          "id": "locked-front-door",
+          "room": "g_foyer",
+          "port": "north",
+          "locked": true,
+          "traversable": false,
+          "outside_destination": null
+        }
+      ],
+      "per_floor_counts": {
+        "-1": {
+          "rooms": 4,
+          "hallways": 2
+        },
+        "0": {
+          "rooms": 4,
+          "hallways": 2
+        },
+        "1": {
+          "rooms": 4,
+          "hallways": 2
+        }
+      },
+      "rooms": [
+        {
+          "id": "g_foyer",
+          "name": "Foyer",
+          "floor": 0,
+          "grid": [
+            0,
+            0
+          ],
+          "asset_type": "existing-foyer",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "south"
+          ],
+          "locked_ports": [
+            "north"
+          ],
+          "ports": [
+            "east",
+            "north",
+            "south"
+          ],
+          "asset_candidates": [
+            {
+              "id": "original-foyer",
+              "asset": "res://assets/foyer/foyer-background.png",
+              "missing_ports": [
+                "east"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "g_library",
+          "name": "Library",
+          "floor": 0,
+          "grid": [
+            1,
+            0
+          ],
+          "asset_type": "library",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "south",
+            "west"
+          ],
+          "ports": [
+            "south",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "library",
+              "asset": "res://assets/rooms/room-library.png",
+              "missing_ports": [
+                "south"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "library-alternate",
+              "asset": "res://assets/rooms/room-library-alternate.png",
+              "missing_ports": [],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "g_main_stair",
+          "name": "Main hall",
+          "floor": 0,
+          "grid": [
+            0,
+            1
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "down",
+            "east",
+            "north",
+            "south",
+            "up"
+          ],
+          "ports": [
+            "down",
+            "east",
+            "north",
+            "south",
+            "up"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "east",
+                "north"
+              ],
+              "stair_direction_gap": true
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "east",
+                "north",
+                "south"
+              ],
+              "stair_direction_gap": true
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "g_service_stair",
+          "name": "Service passage",
+          "floor": 0,
+          "grid": [
+            1,
+            1
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "down",
+            "north",
+            "south",
+            "up",
+            "west"
+          ],
+          "ports": [
+            "down",
+            "north",
+            "south",
+            "up",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": true
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "north",
+                "south"
+              ],
+              "stair_direction_gap": true
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "g_dining",
+          "name": "Dining room",
+          "floor": 0,
+          "grid": [
+            0,
+            2
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "north"
+          ],
+          "ports": [
+            "east",
+            "north"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "g_kitchen",
+          "name": "Kitchen",
+          "floor": 0,
+          "grid": [
+            1,
+            2
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "north",
+            "west"
+          ],
+          "ports": [
+            "north",
+            "west"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "u_master",
+          "name": "Master bedroom",
+          "floor": 1,
+          "grid": [
+            0,
+            0
+          ],
+          "asset_type": "guest-bedroom",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "south"
+          ],
+          "ports": [
+            "south"
+          ],
+          "asset_candidates": [
+            {
+              "id": "guest-bedroom",
+              "asset": "res://assets/rooms/room-guest-bedroom.png",
+              "missing_ports": [],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "guest-bedroom-alternate",
+              "asset": "res://assets/rooms/room-guest-bedroom-alternate.png",
+              "missing_ports": [
+                "south"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "u_guest_a",
+          "name": "Guest bedroom A",
+          "floor": 1,
+          "grid": [
+            1,
+            0
+          ],
+          "asset_type": "guest-bedroom",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "south"
+          ],
+          "ports": [
+            "south"
+          ],
+          "asset_candidates": [
+            {
+              "id": "guest-bedroom",
+              "asset": "res://assets/rooms/room-guest-bedroom.png",
+              "missing_ports": [],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "guest-bedroom-alternate",
+              "asset": "res://assets/rooms/room-guest-bedroom-alternate.png",
+              "missing_ports": [
+                "south"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "u_main_stair",
+          "name": "Main landing",
+          "floor": 1,
+          "grid": [
+            0,
+            1
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "down",
+            "east",
+            "north",
+            "south"
+          ],
+          "ports": [
+            "down",
+            "east",
+            "north",
+            "south"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "east",
+                "north"
+              ],
+              "stair_direction_gap": true
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "east",
+                "north",
+                "south"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "u_service_stair",
+          "name": "Service landing",
+          "floor": 1,
+          "grid": [
+            1,
+            1
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "down",
+            "north",
+            "south",
+            "west"
+          ],
+          "ports": [
+            "down",
+            "north",
+            "south",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": true
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "north",
+                "south"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "u_bath",
+          "name": "Bathroom",
+          "floor": 1,
+          "grid": [
+            0,
+            2
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "north"
+          ],
+          "ports": [
+            "north"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "u_guest_b",
+          "name": "Guest bedroom B",
+          "floor": 1,
+          "grid": [
+            1,
+            2
+          ],
+          "asset_type": "guest-bedroom",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "north"
+          ],
+          "ports": [
+            "north"
+          ],
+          "asset_candidates": [
+            {
+              "id": "guest-bedroom",
+              "asset": "res://assets/rooms/room-guest-bedroom.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "guest-bedroom-alternate",
+              "asset": "res://assets/rooms/room-guest-bedroom-alternate.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "b_wine",
+          "name": "Wine cellar",
+          "floor": -1,
+          "grid": [
+            0,
+            0
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "south"
+          ],
+          "ports": [
+            "east",
+            "south"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "b_archive",
+          "name": "Records archive",
+          "floor": -1,
+          "grid": [
+            1,
+            0
+          ],
+          "asset_type": "library",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "south",
+            "west"
+          ],
+          "ports": [
+            "south",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "library",
+              "asset": "res://assets/rooms/room-library.png",
+              "missing_ports": [
+                "south"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "library-alternate",
+              "asset": "res://assets/rooms/room-library-alternate.png",
+              "missing_ports": [],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "b_main_stair",
+          "name": "Main landing",
+          "floor": -1,
+          "grid": [
+            0,
+            1
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "north",
+            "south",
+            "up"
+          ],
+          "ports": [
+            "east",
+            "north",
+            "south",
+            "up"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "east",
+                "north"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "east",
+                "north",
+                "south"
+              ],
+              "stair_direction_gap": true
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "b_service_stair",
+          "name": "Service landing",
+          "floor": -1,
+          "grid": [
+            1,
+            1
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "north",
+            "south",
+            "up",
+            "west"
+          ],
+          "ports": [
+            "north",
+            "south",
+            "up",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "north",
+                "south"
+              ],
+              "stair_direction_gap": true
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "b_utility",
+          "name": "Utility room",
+          "floor": -1,
+          "grid": [
+            0,
+            2
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "north"
+          ],
+          "ports": [
+            "east",
+            "north"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "b_stores",
+          "name": "Store room",
+          "floor": -1,
+          "grid": [
+            1,
+            2
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "north",
+            "west"
+          ],
+          "ports": [
+            "north",
+            "west"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        }
+      ],
+      "links": [
+        {
+          "id": "g_foyer--g_library",
+          "kind": "door",
+          "a": {
+            "room": "g_foyer",
+            "port": "east"
+          },
+          "b": {
+            "room": "g_library",
+            "port": "west"
+          }
+        },
+        {
+          "id": "g_foyer--g_main_stair",
+          "kind": "door",
+          "a": {
+            "room": "g_foyer",
+            "port": "south"
+          },
+          "b": {
+            "room": "g_main_stair",
+            "port": "north"
+          }
+        },
+        {
+          "id": "g_library--g_service_stair",
+          "kind": "door",
+          "a": {
+            "room": "g_library",
+            "port": "south"
+          },
+          "b": {
+            "room": "g_service_stair",
+            "port": "north"
+          }
+        },
+        {
+          "id": "g_main_stair--g_service_stair",
+          "kind": "archway",
+          "a": {
+            "room": "g_main_stair",
+            "port": "east"
+          },
+          "b": {
+            "room": "g_service_stair",
+            "port": "west"
+          }
+        },
+        {
+          "id": "g_main_stair--g_dining",
+          "kind": "door",
+          "a": {
+            "room": "g_main_stair",
+            "port": "south"
+          },
+          "b": {
+            "room": "g_dining",
+            "port": "north"
+          }
+        },
+        {
+          "id": "g_service_stair--g_kitchen",
+          "kind": "door",
+          "a": {
+            "room": "g_service_stair",
+            "port": "south"
+          },
+          "b": {
+            "room": "g_kitchen",
+            "port": "north"
+          }
+        },
+        {
+          "id": "g_dining--g_kitchen",
+          "kind": "door",
+          "a": {
+            "room": "g_dining",
+            "port": "east"
+          },
+          "b": {
+            "room": "g_kitchen",
+            "port": "west"
+          }
+        },
+        {
+          "id": "u_master--u_main_stair",
+          "kind": "door",
+          "a": {
+            "room": "u_master",
+            "port": "south"
+          },
+          "b": {
+            "room": "u_main_stair",
+            "port": "north"
+          }
+        },
+        {
+          "id": "u_guest_a--u_service_stair",
+          "kind": "door",
+          "a": {
+            "room": "u_guest_a",
+            "port": "south"
+          },
+          "b": {
+            "room": "u_service_stair",
+            "port": "north"
+          }
+        },
+        {
+          "id": "u_main_stair--u_service_stair",
+          "kind": "archway",
+          "a": {
+            "room": "u_main_stair",
+            "port": "east"
+          },
+          "b": {
+            "room": "u_service_stair",
+            "port": "west"
+          }
+        },
+        {
+          "id": "u_main_stair--u_bath",
+          "kind": "door",
+          "a": {
+            "room": "u_main_stair",
+            "port": "south"
+          },
+          "b": {
+            "room": "u_bath",
+            "port": "north"
+          }
+        },
+        {
+          "id": "u_service_stair--u_guest_b",
+          "kind": "door",
+          "a": {
+            "room": "u_service_stair",
+            "port": "south"
+          },
+          "b": {
+            "room": "u_guest_b",
+            "port": "north"
+          }
+        },
+        {
+          "id": "b_wine--b_archive",
+          "kind": "door",
+          "a": {
+            "room": "b_wine",
+            "port": "east"
+          },
+          "b": {
+            "room": "b_archive",
+            "port": "west"
+          }
+        },
+        {
+          "id": "b_wine--b_main_stair",
+          "kind": "door",
+          "a": {
+            "room": "b_wine",
+            "port": "south"
+          },
+          "b": {
+            "room": "b_main_stair",
+            "port": "north"
+          }
+        },
+        {
+          "id": "b_archive--b_service_stair",
+          "kind": "door",
+          "a": {
+            "room": "b_archive",
+            "port": "south"
+          },
+          "b": {
+            "room": "b_service_stair",
+            "port": "north"
+          }
+        },
+        {
+          "id": "b_main_stair--b_service_stair",
+          "kind": "archway",
+          "a": {
+            "room": "b_main_stair",
+            "port": "east"
+          },
+          "b": {
+            "room": "b_service_stair",
+            "port": "west"
+          }
+        },
+        {
+          "id": "b_main_stair--b_utility",
+          "kind": "door",
+          "a": {
+            "room": "b_main_stair",
+            "port": "south"
+          },
+          "b": {
+            "room": "b_utility",
+            "port": "north"
+          }
+        },
+        {
+          "id": "b_service_stair--b_stores",
+          "kind": "door",
+          "a": {
+            "room": "b_service_stair",
+            "port": "south"
+          },
+          "b": {
+            "room": "b_stores",
+            "port": "north"
+          }
+        },
+        {
+          "id": "b_utility--b_stores",
+          "kind": "door",
+          "a": {
+            "room": "b_utility",
+            "port": "east"
+          },
+          "b": {
+            "room": "b_stores",
+            "port": "west"
+          }
+        },
+        {
+          "id": "g_main_stair--u_main_stair",
+          "kind": "stairs",
+          "shaft": "main",
+          "a": {
+            "room": "g_main_stair",
+            "port": "up"
+          },
+          "b": {
+            "room": "u_main_stair",
+            "port": "down"
+          }
+        },
+        {
+          "id": "g_main_stair--b_main_stair",
+          "kind": "stairs",
+          "shaft": "main",
+          "a": {
+            "room": "g_main_stair",
+            "port": "down"
+          },
+          "b": {
+            "room": "b_main_stair",
+            "port": "up"
+          }
+        },
+        {
+          "id": "g_service_stair--u_service_stair",
+          "kind": "stairs",
+          "shaft": "service",
+          "a": {
+            "room": "g_service_stair",
+            "port": "up"
+          },
+          "b": {
+            "room": "u_service_stair",
+            "port": "down"
+          }
+        },
+        {
+          "id": "g_service_stair--b_service_stair",
+          "kind": "stairs",
+          "shaft": "service",
+          "a": {
+            "room": "g_service_stair",
+            "port": "down"
+          },
+          "b": {
+            "room": "b_service_stair",
+            "port": "up"
+          }
+        }
+      ]
+    },
+    {
+      "id": "manor-2",
+      "name": "East Hall House",
+      "status": "blueprint-review",
+      "start_room": "g_foyer",
+      "start_entry_port": "north",
+      "grid_size": [
+        3,
+        3
+      ],
+      "boundaries": [
+        {
+          "id": "locked-front-door",
+          "room": "g_foyer",
+          "port": "north",
+          "locked": true,
+          "traversable": false,
+          "outside_destination": null
+        }
+      ],
+      "per_floor_counts": {
+        "-1": {
+          "rooms": 4,
+          "hallways": 2
+        },
+        "0": {
+          "rooms": 4,
+          "hallways": 2
+        },
+        "1": {
+          "rooms": 4,
+          "hallways": 2
+        }
+      },
+      "rooms": [
+        {
+          "id": "g_library",
+          "name": "Library",
+          "floor": 0,
+          "grid": [
+            1,
+            0
+          ],
+          "asset_type": "library",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "south"
+          ],
+          "ports": [
+            "east",
+            "south"
+          ],
+          "asset_candidates": [
+            {
+              "id": "library",
+              "asset": "res://assets/rooms/room-library.png",
+              "missing_ports": [
+                "south"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "library-alternate",
+              "asset": "res://assets/rooms/room-library-alternate.png",
+              "missing_ports": [
+                "east"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "g_foyer",
+          "name": "Foyer",
+          "floor": 0,
+          "grid": [
+            2,
+            0
+          ],
+          "asset_type": "existing-foyer",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "south",
+            "west"
+          ],
+          "locked_ports": [
+            "north"
+          ],
+          "ports": [
+            "north",
+            "south",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "original-foyer",
+              "asset": "res://assets/foyer/foyer-background.png",
+              "missing_ports": [
+                "west"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "g_service_stair",
+          "name": "Service passage",
+          "floor": 0,
+          "grid": [
+            1,
+            1
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "down",
+            "east",
+            "north",
+            "south",
+            "up"
+          ],
+          "ports": [
+            "down",
+            "east",
+            "north",
+            "south",
+            "up"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "east",
+                "north"
+              ],
+              "stair_direction_gap": true
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "east",
+                "north",
+                "south"
+              ],
+              "stair_direction_gap": true
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "g_main_stair",
+          "name": "Main hall",
+          "floor": 0,
+          "grid": [
+            2,
+            1
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "down",
+            "north",
+            "south",
+            "up",
+            "west"
+          ],
+          "ports": [
+            "down",
+            "north",
+            "south",
+            "up",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": true
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "north",
+                "south"
+              ],
+              "stair_direction_gap": true
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "g_kitchen",
+          "name": "Kitchen",
+          "floor": 0,
+          "grid": [
+            1,
+            2
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "north"
+          ],
+          "ports": [
+            "east",
+            "north"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "g_dining",
+          "name": "Dining room",
+          "floor": 0,
+          "grid": [
+            2,
+            2
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "north",
+            "west"
+          ],
+          "ports": [
+            "north",
+            "west"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "u_guest_a",
+          "name": "Guest bedroom A",
+          "floor": 1,
+          "grid": [
+            1,
+            0
+          ],
+          "asset_type": "guest-bedroom",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "south"
+          ],
+          "ports": [
+            "south"
+          ],
+          "asset_candidates": [
+            {
+              "id": "guest-bedroom",
+              "asset": "res://assets/rooms/room-guest-bedroom.png",
+              "missing_ports": [],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "guest-bedroom-alternate",
+              "asset": "res://assets/rooms/room-guest-bedroom-alternate.png",
+              "missing_ports": [
+                "south"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "u_master",
+          "name": "Master bedroom",
+          "floor": 1,
+          "grid": [
+            2,
+            0
+          ],
+          "asset_type": "guest-bedroom",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "south"
+          ],
+          "ports": [
+            "south"
+          ],
+          "asset_candidates": [
+            {
+              "id": "guest-bedroom",
+              "asset": "res://assets/rooms/room-guest-bedroom.png",
+              "missing_ports": [],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "guest-bedroom-alternate",
+              "asset": "res://assets/rooms/room-guest-bedroom-alternate.png",
+              "missing_ports": [
+                "south"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "u_service_stair",
+          "name": "Service landing",
+          "floor": 1,
+          "grid": [
+            1,
+            1
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "down",
+            "east",
+            "north",
+            "south"
+          ],
+          "ports": [
+            "down",
+            "east",
+            "north",
+            "south"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "east",
+                "north"
+              ],
+              "stair_direction_gap": true
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "east",
+                "north",
+                "south"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "u_main_stair",
+          "name": "Main landing",
+          "floor": 1,
+          "grid": [
+            2,
+            1
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "down",
+            "north",
+            "south",
+            "west"
+          ],
+          "ports": [
+            "down",
+            "north",
+            "south",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": true
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "north",
+                "south"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "u_guest_b",
+          "name": "Guest bedroom B",
+          "floor": 1,
+          "grid": [
+            1,
+            2
+          ],
+          "asset_type": "guest-bedroom",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "north"
+          ],
+          "ports": [
+            "north"
+          ],
+          "asset_candidates": [
+            {
+              "id": "guest-bedroom",
+              "asset": "res://assets/rooms/room-guest-bedroom.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "guest-bedroom-alternate",
+              "asset": "res://assets/rooms/room-guest-bedroom-alternate.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "u_bath",
+          "name": "Bathroom",
+          "floor": 1,
+          "grid": [
+            2,
+            2
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "north"
+          ],
+          "ports": [
+            "north"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "b_archive",
+          "name": "Records archive",
+          "floor": -1,
+          "grid": [
+            1,
+            0
+          ],
+          "asset_type": "library",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "south"
+          ],
+          "ports": [
+            "east",
+            "south"
+          ],
+          "asset_candidates": [
+            {
+              "id": "library",
+              "asset": "res://assets/rooms/room-library.png",
+              "missing_ports": [
+                "south"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "library-alternate",
+              "asset": "res://assets/rooms/room-library-alternate.png",
+              "missing_ports": [
+                "east"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "b_wine",
+          "name": "Wine cellar",
+          "floor": -1,
+          "grid": [
+            2,
+            0
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "south",
+            "west"
+          ],
+          "ports": [
+            "south",
+            "west"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "b_service_stair",
+          "name": "Service landing",
+          "floor": -1,
+          "grid": [
+            1,
+            1
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "north",
+            "south",
+            "up"
+          ],
+          "ports": [
+            "east",
+            "north",
+            "south",
+            "up"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "east",
+                "north"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "east",
+                "north",
+                "south"
+              ],
+              "stair_direction_gap": true
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "b_main_stair",
+          "name": "Main landing",
+          "floor": -1,
+          "grid": [
+            2,
+            1
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "north",
+            "south",
+            "up",
+            "west"
+          ],
+          "ports": [
+            "north",
+            "south",
+            "up",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "north",
+                "south"
+              ],
+              "stair_direction_gap": true
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "b_stores",
+          "name": "Store room",
+          "floor": -1,
+          "grid": [
+            1,
+            2
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "north"
+          ],
+          "ports": [
+            "east",
+            "north"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "b_utility",
+          "name": "Utility room",
+          "floor": -1,
+          "grid": [
+            2,
+            2
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "north",
+            "west"
+          ],
+          "ports": [
+            "north",
+            "west"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        }
+      ],
+      "links": [
+        {
+          "id": "g_library--g_foyer",
+          "kind": "door",
+          "a": {
+            "room": "g_library",
+            "port": "east"
+          },
+          "b": {
+            "room": "g_foyer",
+            "port": "west"
+          }
+        },
+        {
+          "id": "g_library--g_service_stair",
+          "kind": "door",
+          "a": {
+            "room": "g_library",
+            "port": "south"
+          },
+          "b": {
+            "room": "g_service_stair",
+            "port": "north"
+          }
+        },
+        {
+          "id": "g_foyer--g_main_stair",
+          "kind": "door",
+          "a": {
+            "room": "g_foyer",
+            "port": "south"
+          },
+          "b": {
+            "room": "g_main_stair",
+            "port": "north"
+          }
+        },
+        {
+          "id": "g_service_stair--g_main_stair",
+          "kind": "archway",
+          "a": {
+            "room": "g_service_stair",
+            "port": "east"
+          },
+          "b": {
+            "room": "g_main_stair",
+            "port": "west"
+          }
+        },
+        {
+          "id": "g_service_stair--g_kitchen",
+          "kind": "door",
+          "a": {
+            "room": "g_service_stair",
+            "port": "south"
+          },
+          "b": {
+            "room": "g_kitchen",
+            "port": "north"
+          }
+        },
+        {
+          "id": "g_main_stair--g_dining",
+          "kind": "door",
+          "a": {
+            "room": "g_main_stair",
+            "port": "south"
+          },
+          "b": {
+            "room": "g_dining",
+            "port": "north"
+          }
+        },
+        {
+          "id": "g_kitchen--g_dining",
+          "kind": "door",
+          "a": {
+            "room": "g_kitchen",
+            "port": "east"
+          },
+          "b": {
+            "room": "g_dining",
+            "port": "west"
+          }
+        },
+        {
+          "id": "u_guest_a--u_service_stair",
+          "kind": "door",
+          "a": {
+            "room": "u_guest_a",
+            "port": "south"
+          },
+          "b": {
+            "room": "u_service_stair",
+            "port": "north"
+          }
+        },
+        {
+          "id": "u_master--u_main_stair",
+          "kind": "door",
+          "a": {
+            "room": "u_master",
+            "port": "south"
+          },
+          "b": {
+            "room": "u_main_stair",
+            "port": "north"
+          }
+        },
+        {
+          "id": "u_service_stair--u_main_stair",
+          "kind": "archway",
+          "a": {
+            "room": "u_service_stair",
+            "port": "east"
+          },
+          "b": {
+            "room": "u_main_stair",
+            "port": "west"
+          }
+        },
+        {
+          "id": "u_service_stair--u_guest_b",
+          "kind": "door",
+          "a": {
+            "room": "u_service_stair",
+            "port": "south"
+          },
+          "b": {
+            "room": "u_guest_b",
+            "port": "north"
+          }
+        },
+        {
+          "id": "u_main_stair--u_bath",
+          "kind": "door",
+          "a": {
+            "room": "u_main_stair",
+            "port": "south"
+          },
+          "b": {
+            "room": "u_bath",
+            "port": "north"
+          }
+        },
+        {
+          "id": "b_archive--b_wine",
+          "kind": "door",
+          "a": {
+            "room": "b_archive",
+            "port": "east"
+          },
+          "b": {
+            "room": "b_wine",
+            "port": "west"
+          }
+        },
+        {
+          "id": "b_archive--b_service_stair",
+          "kind": "door",
+          "a": {
+            "room": "b_archive",
+            "port": "south"
+          },
+          "b": {
+            "room": "b_service_stair",
+            "port": "north"
+          }
+        },
+        {
+          "id": "b_wine--b_main_stair",
+          "kind": "door",
+          "a": {
+            "room": "b_wine",
+            "port": "south"
+          },
+          "b": {
+            "room": "b_main_stair",
+            "port": "north"
+          }
+        },
+        {
+          "id": "b_service_stair--b_main_stair",
+          "kind": "archway",
+          "a": {
+            "room": "b_service_stair",
+            "port": "east"
+          },
+          "b": {
+            "room": "b_main_stair",
+            "port": "west"
+          }
+        },
+        {
+          "id": "b_service_stair--b_stores",
+          "kind": "door",
+          "a": {
+            "room": "b_service_stair",
+            "port": "south"
+          },
+          "b": {
+            "room": "b_stores",
+            "port": "north"
+          }
+        },
+        {
+          "id": "b_main_stair--b_utility",
+          "kind": "door",
+          "a": {
+            "room": "b_main_stair",
+            "port": "south"
+          },
+          "b": {
+            "room": "b_utility",
+            "port": "north"
+          }
+        },
+        {
+          "id": "b_stores--b_utility",
+          "kind": "door",
+          "a": {
+            "room": "b_stores",
+            "port": "east"
+          },
+          "b": {
+            "room": "b_utility",
+            "port": "west"
+          }
+        },
+        {
+          "id": "g_main_stair--u_main_stair",
+          "kind": "stairs",
+          "shaft": "main",
+          "a": {
+            "room": "g_main_stair",
+            "port": "up"
+          },
+          "b": {
+            "room": "u_main_stair",
+            "port": "down"
+          }
+        },
+        {
+          "id": "g_main_stair--b_main_stair",
+          "kind": "stairs",
+          "shaft": "main",
+          "a": {
+            "room": "g_main_stair",
+            "port": "down"
+          },
+          "b": {
+            "room": "b_main_stair",
+            "port": "up"
+          }
+        },
+        {
+          "id": "g_service_stair--u_service_stair",
+          "kind": "stairs",
+          "shaft": "service",
+          "a": {
+            "room": "g_service_stair",
+            "port": "up"
+          },
+          "b": {
+            "room": "u_service_stair",
+            "port": "down"
+          }
+        },
+        {
+          "id": "g_service_stair--b_service_stair",
+          "kind": "stairs",
+          "shaft": "service",
+          "a": {
+            "room": "g_service_stair",
+            "port": "down"
+          },
+          "b": {
+            "room": "b_service_stair",
+            "port": "up"
+          }
+        }
+      ]
+    },
+    {
+      "id": "manor-3",
+      "name": "Central Study House",
+      "status": "blueprint-review",
+      "start_room": "g_foyer",
+      "start_entry_port": "north",
+      "grid_size": [
+        3,
+        3
+      ],
+      "boundaries": [
+        {
+          "id": "locked-front-door",
+          "room": "g_foyer",
+          "port": "north",
+          "locked": true,
+          "traversable": false,
+          "outside_destination": null
+        }
+      ],
+      "per_floor_counts": {
+        "-1": {
+          "rooms": 4,
+          "hallways": 2
+        },
+        "0": {
+          "rooms": 4,
+          "hallways": 2
+        },
+        "1": {
+          "rooms": 4,
+          "hallways": 2
+        }
+      },
+      "rooms": [
+        {
+          "id": "g_kitchen",
+          "name": "Kitchen",
+          "floor": 0,
+          "grid": [
+            0,
+            0
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "south"
+          ],
+          "ports": [
+            "east",
+            "south"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "g_foyer",
+          "name": "Foyer",
+          "floor": 0,
+          "grid": [
+            1,
+            0
+          ],
+          "asset_type": "existing-foyer",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "south",
+            "west"
+          ],
+          "locked_ports": [
+            "north"
+          ],
+          "ports": [
+            "east",
+            "north",
+            "south",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "original-foyer",
+              "asset": "res://assets/foyer/foyer-background.png",
+              "missing_ports": [
+                "east",
+                "west"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "g_library",
+          "name": "Library",
+          "floor": 0,
+          "grid": [
+            2,
+            0
+          ],
+          "asset_type": "library",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "south",
+            "west"
+          ],
+          "ports": [
+            "south",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "library",
+              "asset": "res://assets/rooms/room-library.png",
+              "missing_ports": [
+                "south"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "library-alternate",
+              "asset": "res://assets/rooms/room-library-alternate.png",
+              "missing_ports": [],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "g_main_stair",
+          "name": "Main hall",
+          "floor": 0,
+          "grid": [
+            0,
+            1
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "down",
+            "east",
+            "north",
+            "up"
+          ],
+          "ports": [
+            "down",
+            "east",
+            "north",
+            "up"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "east",
+                "north"
+              ],
+              "stair_direction_gap": true
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "east",
+                "north"
+              ],
+              "stair_direction_gap": true
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "g_dining",
+          "name": "Dining room",
+          "floor": 0,
+          "grid": [
+            1,
+            1
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "north",
+            "west"
+          ],
+          "ports": [
+            "east",
+            "north",
+            "west"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "g_service_stair",
+          "name": "Service passage",
+          "floor": 0,
+          "grid": [
+            2,
+            1
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "down",
+            "north",
+            "up",
+            "west"
+          ],
+          "ports": [
+            "down",
+            "north",
+            "up",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": true
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": true
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "u_master",
+          "name": "Master bedroom",
+          "floor": 1,
+          "grid": [
+            0,
+            0
+          ],
+          "asset_type": "guest-bedroom",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "south"
+          ],
+          "ports": [
+            "south"
+          ],
+          "asset_candidates": [
+            {
+              "id": "guest-bedroom",
+              "asset": "res://assets/rooms/room-guest-bedroom.png",
+              "missing_ports": [],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "guest-bedroom-alternate",
+              "asset": "res://assets/rooms/room-guest-bedroom-alternate.png",
+              "missing_ports": [
+                "south"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "u_guest_a",
+          "name": "Guest bedroom A",
+          "floor": 1,
+          "grid": [
+            1,
+            0
+          ],
+          "asset_type": "guest-bedroom",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "south"
+          ],
+          "ports": [
+            "south"
+          ],
+          "asset_candidates": [
+            {
+              "id": "guest-bedroom",
+              "asset": "res://assets/rooms/room-guest-bedroom.png",
+              "missing_ports": [],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "guest-bedroom-alternate",
+              "asset": "res://assets/rooms/room-guest-bedroom-alternate.png",
+              "missing_ports": [
+                "south"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "u_bath",
+          "name": "Bathroom",
+          "floor": 1,
+          "grid": [
+            2,
+            0
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "south"
+          ],
+          "ports": [
+            "south"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "u_main_stair",
+          "name": "Main landing",
+          "floor": 1,
+          "grid": [
+            0,
+            1
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "down",
+            "east",
+            "north"
+          ],
+          "ports": [
+            "down",
+            "east",
+            "north"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "east",
+                "north"
+              ],
+              "stair_direction_gap": true
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "east",
+                "north"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "u_study",
+          "name": "Study",
+          "floor": 1,
+          "grid": [
+            1,
+            1
+          ],
+          "asset_type": "library",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "north",
+            "west"
+          ],
+          "ports": [
+            "east",
+            "north",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "library",
+              "asset": "res://assets/rooms/room-library.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "library-alternate",
+              "asset": "res://assets/rooms/room-library-alternate.png",
+              "missing_ports": [
+                "east",
+                "north"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "u_service_stair",
+          "name": "Service landing",
+          "floor": 1,
+          "grid": [
+            2,
+            1
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "down",
+            "north",
+            "west"
+          ],
+          "ports": [
+            "down",
+            "north",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": true
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "b_wine",
+          "name": "Wine cellar",
+          "floor": -1,
+          "grid": [
+            0,
+            0
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "south"
+          ],
+          "ports": [
+            "east",
+            "south"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "b_utility",
+          "name": "Utility room",
+          "floor": -1,
+          "grid": [
+            1,
+            0
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "south",
+            "west"
+          ],
+          "ports": [
+            "east",
+            "south",
+            "west"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "b_stores",
+          "name": "Store room",
+          "floor": -1,
+          "grid": [
+            2,
+            0
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "south",
+            "west"
+          ],
+          "ports": [
+            "south",
+            "west"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "b_main_stair",
+          "name": "Main landing",
+          "floor": -1,
+          "grid": [
+            0,
+            1
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "north",
+            "up"
+          ],
+          "ports": [
+            "east",
+            "north",
+            "up"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "east",
+                "north"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "east",
+                "north"
+              ],
+              "stair_direction_gap": true
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "b_archive",
+          "name": "Records archive",
+          "floor": -1,
+          "grid": [
+            1,
+            1
+          ],
+          "asset_type": "library",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "north",
+            "west"
+          ],
+          "ports": [
+            "east",
+            "north",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "library",
+              "asset": "res://assets/rooms/room-library.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "library-alternate",
+              "asset": "res://assets/rooms/room-library-alternate.png",
+              "missing_ports": [
+                "east",
+                "north"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "b_service_stair",
+          "name": "Service landing",
+          "floor": -1,
+          "grid": [
+            2,
+            1
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "north",
+            "up",
+            "west"
+          ],
+          "ports": [
+            "north",
+            "up",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": true
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        }
+      ],
+      "links": [
+        {
+          "id": "g_kitchen--g_foyer",
+          "kind": "door",
+          "a": {
+            "room": "g_kitchen",
+            "port": "east"
+          },
+          "b": {
+            "room": "g_foyer",
+            "port": "west"
+          }
+        },
+        {
+          "id": "g_kitchen--g_main_stair",
+          "kind": "door",
+          "a": {
+            "room": "g_kitchen",
+            "port": "south"
+          },
+          "b": {
+            "room": "g_main_stair",
+            "port": "north"
+          }
+        },
+        {
+          "id": "g_foyer--g_library",
+          "kind": "door",
+          "a": {
+            "room": "g_foyer",
+            "port": "east"
+          },
+          "b": {
+            "room": "g_library",
+            "port": "west"
+          }
+        },
+        {
+          "id": "g_foyer--g_dining",
+          "kind": "door",
+          "a": {
+            "room": "g_foyer",
+            "port": "south"
+          },
+          "b": {
+            "room": "g_dining",
+            "port": "north"
+          }
+        },
+        {
+          "id": "g_library--g_service_stair",
+          "kind": "door",
+          "a": {
+            "room": "g_library",
+            "port": "south"
+          },
+          "b": {
+            "room": "g_service_stair",
+            "port": "north"
+          }
+        },
+        {
+          "id": "g_main_stair--g_dining",
+          "kind": "door",
+          "a": {
+            "room": "g_main_stair",
+            "port": "east"
+          },
+          "b": {
+            "room": "g_dining",
+            "port": "west"
+          }
+        },
+        {
+          "id": "g_dining--g_service_stair",
+          "kind": "door",
+          "a": {
+            "room": "g_dining",
+            "port": "east"
+          },
+          "b": {
+            "room": "g_service_stair",
+            "port": "west"
+          }
+        },
+        {
+          "id": "u_master--u_main_stair",
+          "kind": "door",
+          "a": {
+            "room": "u_master",
+            "port": "south"
+          },
+          "b": {
+            "room": "u_main_stair",
+            "port": "north"
+          }
+        },
+        {
+          "id": "u_guest_a--u_study",
+          "kind": "door",
+          "a": {
+            "room": "u_guest_a",
+            "port": "south"
+          },
+          "b": {
+            "room": "u_study",
+            "port": "north"
+          }
+        },
+        {
+          "id": "u_bath--u_service_stair",
+          "kind": "door",
+          "a": {
+            "room": "u_bath",
+            "port": "south"
+          },
+          "b": {
+            "room": "u_service_stair",
+            "port": "north"
+          }
+        },
+        {
+          "id": "u_main_stair--u_study",
+          "kind": "door",
+          "a": {
+            "room": "u_main_stair",
+            "port": "east"
+          },
+          "b": {
+            "room": "u_study",
+            "port": "west"
+          }
+        },
+        {
+          "id": "u_study--u_service_stair",
+          "kind": "door",
+          "a": {
+            "room": "u_study",
+            "port": "east"
+          },
+          "b": {
+            "room": "u_service_stair",
+            "port": "west"
+          }
+        },
+        {
+          "id": "b_wine--b_utility",
+          "kind": "door",
+          "a": {
+            "room": "b_wine",
+            "port": "east"
+          },
+          "b": {
+            "room": "b_utility",
+            "port": "west"
+          }
+        },
+        {
+          "id": "b_wine--b_main_stair",
+          "kind": "door",
+          "a": {
+            "room": "b_wine",
+            "port": "south"
+          },
+          "b": {
+            "room": "b_main_stair",
+            "port": "north"
+          }
+        },
+        {
+          "id": "b_utility--b_stores",
+          "kind": "door",
+          "a": {
+            "room": "b_utility",
+            "port": "east"
+          },
+          "b": {
+            "room": "b_stores",
+            "port": "west"
+          }
+        },
+        {
+          "id": "b_utility--b_archive",
+          "kind": "door",
+          "a": {
+            "room": "b_utility",
+            "port": "south"
+          },
+          "b": {
+            "room": "b_archive",
+            "port": "north"
+          }
+        },
+        {
+          "id": "b_stores--b_service_stair",
+          "kind": "door",
+          "a": {
+            "room": "b_stores",
+            "port": "south"
+          },
+          "b": {
+            "room": "b_service_stair",
+            "port": "north"
+          }
+        },
+        {
+          "id": "b_main_stair--b_archive",
+          "kind": "door",
+          "a": {
+            "room": "b_main_stair",
+            "port": "east"
+          },
+          "b": {
+            "room": "b_archive",
+            "port": "west"
+          }
+        },
+        {
+          "id": "b_archive--b_service_stair",
+          "kind": "door",
+          "a": {
+            "room": "b_archive",
+            "port": "east"
+          },
+          "b": {
+            "room": "b_service_stair",
+            "port": "west"
+          }
+        },
+        {
+          "id": "g_main_stair--u_main_stair",
+          "kind": "stairs",
+          "shaft": "main",
+          "a": {
+            "room": "g_main_stair",
+            "port": "up"
+          },
+          "b": {
+            "room": "u_main_stair",
+            "port": "down"
+          }
+        },
+        {
+          "id": "g_main_stair--b_main_stair",
+          "kind": "stairs",
+          "shaft": "main",
+          "a": {
+            "room": "g_main_stair",
+            "port": "down"
+          },
+          "b": {
+            "room": "b_main_stair",
+            "port": "up"
+          }
+        },
+        {
+          "id": "g_service_stair--u_service_stair",
+          "kind": "stairs",
+          "shaft": "service",
+          "a": {
+            "room": "g_service_stair",
+            "port": "up"
+          },
+          "b": {
+            "room": "u_service_stair",
+            "port": "down"
+          }
+        },
+        {
+          "id": "g_service_stair--b_service_stair",
+          "kind": "stairs",
+          "shaft": "service",
+          "a": {
+            "room": "g_service_stair",
+            "port": "down"
+          },
+          "b": {
+            "room": "b_service_stair",
+            "port": "up"
+          }
+        }
+      ]
+    },
+    {
+      "id": "manor-4",
+      "name": "North Landing House",
+      "status": "blueprint-review",
+      "start_room": "g_foyer",
+      "start_entry_port": "north",
+      "grid_size": [
+        3,
+        3
+      ],
+      "boundaries": [
+        {
+          "id": "locked-front-door",
+          "room": "g_foyer",
+          "port": "north",
+          "locked": true,
+          "traversable": false,
+          "outside_destination": null
+        }
+      ],
+      "per_floor_counts": {
+        "-1": {
+          "rooms": 4,
+          "hallways": 2
+        },
+        "0": {
+          "rooms": 4,
+          "hallways": 2
+        },
+        "1": {
+          "rooms": 4,
+          "hallways": 2
+        }
+      },
+      "rooms": [
+        {
+          "id": "g_main_stair",
+          "name": "Main hall",
+          "floor": 0,
+          "grid": [
+            0,
+            0
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "down",
+            "east",
+            "south",
+            "up"
+          ],
+          "ports": [
+            "down",
+            "east",
+            "south",
+            "up"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "east"
+              ],
+              "stair_direction_gap": true
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "east",
+                "south"
+              ],
+              "stair_direction_gap": true
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "g_foyer",
+          "name": "Foyer",
+          "floor": 0,
+          "grid": [
+            1,
+            0
+          ],
+          "asset_type": "existing-foyer",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "south",
+            "west"
+          ],
+          "locked_ports": [
+            "north"
+          ],
+          "ports": [
+            "east",
+            "north",
+            "south",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "original-foyer",
+              "asset": "res://assets/foyer/foyer-background.png",
+              "missing_ports": [
+                "east",
+                "west"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "g_service_stair",
+          "name": "Service passage",
+          "floor": 0,
+          "grid": [
+            2,
+            0
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "down",
+            "south",
+            "up",
+            "west"
+          ],
+          "ports": [
+            "down",
+            "south",
+            "up",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [],
+              "stair_direction_gap": true
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "south"
+              ],
+              "stair_direction_gap": true
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "g_library",
+          "name": "Library",
+          "floor": 0,
+          "grid": [
+            0,
+            1
+          ],
+          "asset_type": "library",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "north"
+          ],
+          "ports": [
+            "east",
+            "north"
+          ],
+          "asset_candidates": [
+            {
+              "id": "library",
+              "asset": "res://assets/rooms/room-library.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "library-alternate",
+              "asset": "res://assets/rooms/room-library-alternate.png",
+              "missing_ports": [
+                "east",
+                "north"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "g_dining",
+          "name": "Dining room",
+          "floor": 0,
+          "grid": [
+            1,
+            1
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "north",
+            "west"
+          ],
+          "ports": [
+            "east",
+            "north",
+            "west"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "g_kitchen",
+          "name": "Kitchen",
+          "floor": 0,
+          "grid": [
+            2,
+            1
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "north",
+            "west"
+          ],
+          "ports": [
+            "north",
+            "west"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "u_main_stair",
+          "name": "Main landing",
+          "floor": 1,
+          "grid": [
+            0,
+            0
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "down",
+            "east",
+            "south"
+          ],
+          "ports": [
+            "down",
+            "east",
+            "south"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "east"
+              ],
+              "stair_direction_gap": true
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "east",
+                "south"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "u_study",
+          "name": "Study",
+          "floor": 1,
+          "grid": [
+            1,
+            0
+          ],
+          "asset_type": "library",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "south",
+            "west"
+          ],
+          "ports": [
+            "east",
+            "south",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "library",
+              "asset": "res://assets/rooms/room-library.png",
+              "missing_ports": [
+                "south"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "library-alternate",
+              "asset": "res://assets/rooms/room-library-alternate.png",
+              "missing_ports": [
+                "east"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "u_service_stair",
+          "name": "Service landing",
+          "floor": 1,
+          "grid": [
+            2,
+            0
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "down",
+            "south",
+            "west"
+          ],
+          "ports": [
+            "down",
+            "south",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [],
+              "stair_direction_gap": true
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "south"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "u_master",
+          "name": "Master bedroom",
+          "floor": 1,
+          "grid": [
+            0,
+            1
+          ],
+          "asset_type": "guest-bedroom",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "north"
+          ],
+          "ports": [
+            "north"
+          ],
+          "asset_candidates": [
+            {
+              "id": "guest-bedroom",
+              "asset": "res://assets/rooms/room-guest-bedroom.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "guest-bedroom-alternate",
+              "asset": "res://assets/rooms/room-guest-bedroom-alternate.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "u_bath",
+          "name": "Bathroom",
+          "floor": 1,
+          "grid": [
+            1,
+            1
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "north"
+          ],
+          "ports": [
+            "north"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "u_guest_a",
+          "name": "Guest bedroom A",
+          "floor": 1,
+          "grid": [
+            2,
+            1
+          ],
+          "asset_type": "guest-bedroom",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "north"
+          ],
+          "ports": [
+            "north"
+          ],
+          "asset_candidates": [
+            {
+              "id": "guest-bedroom",
+              "asset": "res://assets/rooms/room-guest-bedroom.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "guest-bedroom-alternate",
+              "asset": "res://assets/rooms/room-guest-bedroom-alternate.png",
+              "missing_ports": [
+                "north"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "b_main_stair",
+          "name": "Main landing",
+          "floor": -1,
+          "grid": [
+            0,
+            0
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "south",
+            "up"
+          ],
+          "ports": [
+            "east",
+            "south",
+            "up"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [
+                "east"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "east",
+                "south"
+              ],
+              "stair_direction_gap": true
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "b_archive",
+          "name": "Records archive",
+          "floor": -1,
+          "grid": [
+            1,
+            0
+          ],
+          "asset_type": "library",
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "south",
+            "west"
+          ],
+          "ports": [
+            "east",
+            "south",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "library",
+              "asset": "res://assets/rooms/room-library.png",
+              "missing_ports": [
+                "south"
+              ],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "library-alternate",
+              "asset": "res://assets/rooms/room-library-alternate.png",
+              "missing_ports": [
+                "east"
+              ],
+              "stair_direction_gap": false
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "b_service_stair",
+          "name": "Service landing",
+          "floor": -1,
+          "grid": [
+            2,
+            0
+          ],
+          "asset_type": "dark-stairwell",
+          "role": "passage",
+          "contains_stairs": true,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "south",
+            "up",
+            "west"
+          ],
+          "ports": [
+            "south",
+            "up",
+            "west"
+          ],
+          "asset_candidates": [
+            {
+              "id": "dark-stairwell",
+              "asset": "res://assets/rooms/room-dark-stairwell.png",
+              "missing_ports": [],
+              "stair_direction_gap": false
+            },
+            {
+              "id": "dark-stairwell-basement",
+              "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+              "missing_ports": [
+                "south"
+              ],
+              "stair_direction_gap": true
+            }
+          ],
+          "art_status": "existing-reference-needs-port-review"
+        },
+        {
+          "id": "b_wine",
+          "name": "Wine cellar",
+          "floor": -1,
+          "grid": [
+            0,
+            1
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "north"
+          ],
+          "ports": [
+            "east",
+            "north"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "b_utility",
+          "name": "Utility room",
+          "floor": -1,
+          "grid": [
+            1,
+            1
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "east",
+            "north",
+            "west"
+          ],
+          "ports": [
+            "east",
+            "north",
+            "west"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        },
+        {
+          "id": "b_stores",
+          "name": "Store room",
+          "floor": -1,
+          "grid": [
+            2,
+            1
+          ],
+          "asset_type": null,
+          "role": "room",
+          "contains_stairs": false,
+          "gameplay_ready": false,
+          "traversable_ports": [
+            "north",
+            "west"
+          ],
+          "ports": [
+            "north",
+            "west"
+          ],
+          "asset_candidates": [],
+          "art_status": "new-room-art-required"
+        }
+      ],
+      "links": [
+        {
+          "id": "g_main_stair--g_foyer",
+          "kind": "door",
+          "a": {
+            "room": "g_main_stair",
+            "port": "east"
+          },
+          "b": {
+            "room": "g_foyer",
+            "port": "west"
+          }
+        },
+        {
+          "id": "g_main_stair--g_library",
+          "kind": "door",
+          "a": {
+            "room": "g_main_stair",
+            "port": "south"
+          },
+          "b": {
+            "room": "g_library",
+            "port": "north"
+          }
+        },
+        {
+          "id": "g_foyer--g_service_stair",
+          "kind": "door",
+          "a": {
+            "room": "g_foyer",
+            "port": "east"
+          },
+          "b": {
+            "room": "g_service_stair",
+            "port": "west"
+          }
+        },
+        {
+          "id": "g_foyer--g_dining",
+          "kind": "door",
+          "a": {
+            "room": "g_foyer",
+            "port": "south"
+          },
+          "b": {
+            "room": "g_dining",
+            "port": "north"
+          }
+        },
+        {
+          "id": "g_service_stair--g_kitchen",
+          "kind": "door",
+          "a": {
+            "room": "g_service_stair",
+            "port": "south"
+          },
+          "b": {
+            "room": "g_kitchen",
+            "port": "north"
+          }
+        },
+        {
+          "id": "g_library--g_dining",
+          "kind": "door",
+          "a": {
+            "room": "g_library",
+            "port": "east"
+          },
+          "b": {
+            "room": "g_dining",
+            "port": "west"
+          }
+        },
+        {
+          "id": "g_dining--g_kitchen",
+          "kind": "door",
+          "a": {
+            "room": "g_dining",
+            "port": "east"
+          },
+          "b": {
+            "room": "g_kitchen",
+            "port": "west"
+          }
+        },
+        {
+          "id": "u_main_stair--u_study",
+          "kind": "door",
+          "a": {
+            "room": "u_main_stair",
+            "port": "east"
+          },
+          "b": {
+            "room": "u_study",
+            "port": "west"
+          }
+        },
+        {
+          "id": "u_main_stair--u_master",
+          "kind": "door",
+          "a": {
+            "room": "u_main_stair",
+            "port": "south"
+          },
+          "b": {
+            "room": "u_master",
+            "port": "north"
+          }
+        },
+        {
+          "id": "u_study--u_service_stair",
+          "kind": "door",
+          "a": {
+            "room": "u_study",
+            "port": "east"
+          },
+          "b": {
+            "room": "u_service_stair",
+            "port": "west"
+          }
+        },
+        {
+          "id": "u_study--u_bath",
+          "kind": "door",
+          "a": {
+            "room": "u_study",
+            "port": "south"
+          },
+          "b": {
+            "room": "u_bath",
+            "port": "north"
+          }
+        },
+        {
+          "id": "u_service_stair--u_guest_a",
+          "kind": "door",
+          "a": {
+            "room": "u_service_stair",
+            "port": "south"
+          },
+          "b": {
+            "room": "u_guest_a",
+            "port": "north"
+          }
+        },
+        {
+          "id": "b_main_stair--b_archive",
+          "kind": "door",
+          "a": {
+            "room": "b_main_stair",
+            "port": "east"
+          },
+          "b": {
+            "room": "b_archive",
+            "port": "west"
+          }
+        },
+        {
+          "id": "b_main_stair--b_wine",
+          "kind": "door",
+          "a": {
+            "room": "b_main_stair",
+            "port": "south"
+          },
+          "b": {
+            "room": "b_wine",
+            "port": "north"
+          }
+        },
+        {
+          "id": "b_archive--b_service_stair",
+          "kind": "door",
+          "a": {
+            "room": "b_archive",
+            "port": "east"
+          },
+          "b": {
+            "room": "b_service_stair",
+            "port": "west"
+          }
+        },
+        {
+          "id": "b_archive--b_utility",
+          "kind": "door",
+          "a": {
+            "room": "b_archive",
+            "port": "south"
+          },
+          "b": {
+            "room": "b_utility",
+            "port": "north"
+          }
+        },
+        {
+          "id": "b_service_stair--b_stores",
+          "kind": "door",
+          "a": {
+            "room": "b_service_stair",
+            "port": "south"
+          },
+          "b": {
+            "room": "b_stores",
+            "port": "north"
+          }
+        },
+        {
+          "id": "b_wine--b_utility",
+          "kind": "door",
+          "a": {
+            "room": "b_wine",
+            "port": "east"
+          },
+          "b": {
+            "room": "b_utility",
+            "port": "west"
+          }
+        },
+        {
+          "id": "b_utility--b_stores",
+          "kind": "door",
+          "a": {
+            "room": "b_utility",
+            "port": "east"
+          },
+          "b": {
+            "room": "b_stores",
+            "port": "west"
+          }
+        },
+        {
+          "id": "g_main_stair--u_main_stair",
+          "kind": "stairs",
+          "shaft": "main",
+          "a": {
+            "room": "g_main_stair",
+            "port": "up"
+          },
+          "b": {
+            "room": "u_main_stair",
+            "port": "down"
+          }
+        },
+        {
+          "id": "g_main_stair--b_main_stair",
+          "kind": "stairs",
+          "shaft": "main",
+          "a": {
+            "room": "g_main_stair",
+            "port": "down"
+          },
+          "b": {
+            "room": "b_main_stair",
+            "port": "up"
+          }
+        },
+        {
+          "id": "g_service_stair--u_service_stair",
+          "kind": "stairs",
+          "shaft": "service",
+          "a": {
+            "room": "g_service_stair",
+            "port": "up"
+          },
+          "b": {
+            "room": "u_service_stair",
+            "port": "down"
+          }
+        },
+        {
+          "id": "g_service_stair--b_service_stair",
+          "kind": "stairs",
+          "shaft": "service",
+          "a": {
+            "room": "g_service_stair",
+            "port": "down"
+          },
+          "b": {
+            "room": "b_service_stair",
+            "port": "up"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5555 @@
+{
+  "schema_version": 1,
+  "directions": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "description": "Orientation IDs and provisional authoring templates. No furniture art, character poses, or automatic staging.",
+  "types": {
+    "chair": "Chair",
+    "armchair": "Armchair",
+    "sofa": "Sofa",
+    "bar_stool": "Bar stool",
+    "desk": "Desk",
+    "bookshelf": "Bookshelf",
+    "table": "Table / reading stand",
+    "bar_counter": "Bar counter",
+    "fireplace": "Fireplace",
+    "window": "Window",
+    "doorway": "Doorway",
+    "bench": "Bench",
+    "cabinet": "Cabinet / storage shelving",
+    "statue": "Statue",
+    "crate": "Crate",
+    "barrel": "Barrel",
+    "mirror": "Mirror",
+    "painting": "Painting",
+    "stairway": "Stairway",
+    "clock": "Clock",
+    "bed": "Bed"
+  },
+  "variants": {
+    "chair_north": {
+      "id": "chair_north",
+      "type": "chair",
+      "label": "Chair / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -20.0,
+        -48,
+        40,
+        48
+      ],
+      "footprint": [
+        -20.0,
+        -12,
+        40,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0,
+            -18.240000000000002
+          ],
+          "approach": [
+            0.0,
+            -24
+          ],
+          "actor_facing": "north",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "chair_east": {
+      "id": "chair_east",
+      "type": "chair",
+      "label": "Chair / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -20.0,
+        -48,
+        40,
+        48
+      ],
+      "footprint": [
+        -20.0,
+        -12,
+        40,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0,
+            -18.240000000000002
+          ],
+          "approach": [
+            38.0,
+            0
+          ],
+          "actor_facing": "east",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "chair_south": {
+      "id": "chair_south",
+      "type": "chair",
+      "label": "Chair / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -20.0,
+        -48,
+        40,
+        48
+      ],
+      "footprint": [
+        -20.0,
+        -12,
+        40,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0,
+            -18.240000000000002
+          ],
+          "approach": [
+            0.0,
+            24
+          ],
+          "actor_facing": "south",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "chair_west": {
+      "id": "chair_west",
+      "type": "chair",
+      "label": "Chair / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -20.0,
+        -48,
+        40,
+        48
+      ],
+      "footprint": [
+        -20.0,
+        -12,
+        40,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0,
+            -18.240000000000002
+          ],
+          "approach": [
+            -38.0,
+            0
+          ],
+          "actor_facing": "west",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "armchair_north": {
+      "id": "armchair_north",
+      "type": "armchair",
+      "label": "Armchair / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -28.0,
+        -60,
+        56,
+        60
+      ],
+      "footprint": [
+        -28.0,
+        -12,
+        56,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0,
+            -22.8
+          ],
+          "approach": [
+            0.0,
+            -24
+          ],
+          "actor_facing": "north",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "armchair_east": {
+      "id": "armchair_east",
+      "type": "armchair",
+      "label": "Armchair / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -28.0,
+        -60,
+        56,
+        60
+      ],
+      "footprint": [
+        -28.0,
+        -12,
+        56,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0,
+            -22.8
+          ],
+          "approach": [
+            46.0,
+            0
+          ],
+          "actor_facing": "east",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "armchair_south": {
+      "id": "armchair_south",
+      "type": "armchair",
+      "label": "Armchair / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -28.0,
+        -60,
+        56,
+        60
+      ],
+      "footprint": [
+        -28.0,
+        -12,
+        56,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0,
+            -22.8
+          ],
+          "approach": [
+            0.0,
+            24
+          ],
+          "actor_facing": "south",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "armchair_west": {
+      "id": "armchair_west",
+      "type": "armchair",
+      "label": "Armchair / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -28.0,
+        -60,
+        56,
+        60
+      ],
+      "footprint": [
+        -28.0,
+        -12,
+        56,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0,
+            -22.8
+          ],
+          "approach": [
+            -46.0,
+            0
+          ],
+          "actor_facing": "west",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "sofa_north": {
+      "id": "sofa_north",
+      "type": "sofa",
+      "label": "Sofa / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -50.0,
+        -60,
+        100,
+        60
+      ],
+      "footprint": [
+        -50.0,
+        -12,
+        100,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat_left",
+          "enabled": true,
+          "contact": [
+            -25.0,
+            -22.8
+          ],
+          "approach": [
+            -25.0,
+            -24
+          ],
+          "actor_facing": "north",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "seat_right",
+          "enabled": true,
+          "contact": [
+            25.0,
+            -22.8
+          ],
+          "approach": [
+            25.0,
+            -24
+          ],
+          "actor_facing": "north",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "sofa_east": {
+      "id": "sofa_east",
+      "type": "sofa",
+      "label": "Sofa / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -50.0,
+        -60,
+        100,
+        60
+      ],
+      "footprint": [
+        -50.0,
+        -12,
+        100,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat_left",
+          "enabled": true,
+          "contact": [
+            -25.0,
+            -22.8
+          ],
+          "approach": [
+            43.0,
+            0
+          ],
+          "actor_facing": "east",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "seat_right",
+          "enabled": true,
+          "contact": [
+            25.0,
+            -22.8
+          ],
+          "approach": [
+            93.0,
+            0
+          ],
+          "actor_facing": "east",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "sofa_south": {
+      "id": "sofa_south",
+      "type": "sofa",
+      "label": "Sofa / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -50.0,
+        -60,
+        100,
+        60
+      ],
+      "footprint": [
+        -50.0,
+        -12,
+        100,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat_left",
+          "enabled": true,
+          "contact": [
+            -25.0,
+            -22.8
+          ],
+          "approach": [
+            -25.0,
+            24
+          ],
+          "actor_facing": "south",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "seat_right",
+          "enabled": true,
+          "contact": [
+            25.0,
+            -22.8
+          ],
+          "approach": [
+            25.0,
+            24
+          ],
+          "actor_facing": "south",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "sofa_west": {
+      "id": "sofa_west",
+      "type": "sofa",
+      "label": "Sofa / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -50.0,
+        -60,
+        100,
+        60
+      ],
+      "footprint": [
+        -50.0,
+        -12,
+        100,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat_left",
+          "enabled": true,
+          "contact": [
+            -25.0,
+            -22.8
+          ],
+          "approach": [
+            -93.0,
+            0
+          ],
+          "actor_facing": "west",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "seat_right",
+          "enabled": true,
+          "contact": [
+            25.0,
+            -22.8
+          ],
+          "approach": [
+            -43.0,
+            0
+          ],
+          "actor_facing": "west",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "bar_stool_north": {
+      "id": "bar_stool_north",
+      "type": "bar_stool",
+      "label": "Bar stool / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -14.0,
+        -40,
+        28,
+        40
+      ],
+      "footprint": [
+        -14.0,
+        -12,
+        28,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0,
+            -15.2
+          ],
+          "approach": [
+            0.0,
+            -24
+          ],
+          "actor_facing": "north",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "drink"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": "bar_counter"
+    },
+    "bar_stool_east": {
+      "id": "bar_stool_east",
+      "type": "bar_stool",
+      "label": "Bar stool / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -14.0,
+        -40,
+        28,
+        40
+      ],
+      "footprint": [
+        -14.0,
+        -12,
+        28,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0,
+            -15.2
+          ],
+          "approach": [
+            32.0,
+            0
+          ],
+          "actor_facing": "east",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "drink"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": "bar_counter"
+    },
+    "bar_stool_south": {
+      "id": "bar_stool_south",
+      "type": "bar_stool",
+      "label": "Bar stool / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -14.0,
+        -40,
+        28,
+        40
+      ],
+      "footprint": [
+        -14.0,
+        -12,
+        28,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0,
+            -15.2
+          ],
+          "approach": [
+            0.0,
+            24
+          ],
+          "actor_facing": "south",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "drink"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": "bar_counter"
+    },
+    "bar_stool_west": {
+      "id": "bar_stool_west",
+      "type": "bar_stool",
+      "label": "Bar stool / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -14.0,
+        -40,
+        28,
+        40
+      ],
+      "footprint": [
+        -14.0,
+        -12,
+        28,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0,
+            -15.2
+          ],
+          "approach": [
+            -32.0,
+            0
+          ],
+          "actor_facing": "west",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "drink"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": "bar_counter"
+    },
+    "desk_north": {
+      "id": "desk_north",
+      "type": "desk",
+      "label": "Desk / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -43.0,
+        -50,
+        86,
+        50
+      ],
+      "footprint": [
+        -43.0,
+        -12,
+        86,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seated_work",
+          "enabled": true,
+          "contact": [
+            0,
+            -17.5
+          ],
+          "approach": [
+            0.0,
+            -20
+          ],
+          "actor_facing": "south",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "read",
+            "write"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "standing_work",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -20
+          ],
+          "approach": [
+            0.0,
+            4
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "read"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "desk_east": {
+      "id": "desk_east",
+      "type": "desk",
+      "label": "Desk / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -43.0,
+        -50,
+        86,
+        50
+      ],
+      "footprint": [
+        -43.0,
+        -12,
+        86,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seated_work",
+          "enabled": true,
+          "contact": [
+            0,
+            -17.5
+          ],
+          "approach": [
+            59.0,
+            0
+          ],
+          "actor_facing": "west",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "read",
+            "write"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "standing_work",
+          "enabled": true,
+          "contact": [
+            59.0,
+            0
+          ],
+          "approach": [
+            59.0,
+            24
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "read"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "desk_south": {
+      "id": "desk_south",
+      "type": "desk",
+      "label": "Desk / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -43.0,
+        -50,
+        86,
+        50
+      ],
+      "footprint": [
+        -43.0,
+        -12,
+        86,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seated_work",
+          "enabled": true,
+          "contact": [
+            0,
+            -17.5
+          ],
+          "approach": [
+            0.0,
+            20
+          ],
+          "actor_facing": "north",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "read",
+            "write"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "standing_work",
+          "enabled": true,
+          "contact": [
+            0.0,
+            20
+          ],
+          "approach": [
+            0.0,
+            44
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "read"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "desk_west": {
+      "id": "desk_west",
+      "type": "desk",
+      "label": "Desk / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -43.0,
+        -50,
+        86,
+        50
+      ],
+      "footprint": [
+        -43.0,
+        -12,
+        86,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seated_work",
+          "enabled": true,
+          "contact": [
+            0,
+            -17.5
+          ],
+          "approach": [
+            -59.0,
+            0
+          ],
+          "actor_facing": "east",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "read",
+            "write"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "standing_work",
+          "enabled": true,
+          "contact": [
+            -59.0,
+            0
+          ],
+          "approach": [
+            -59.0,
+            24
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "read"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "bookshelf_north": {
+      "id": "bookshelf_north",
+      "type": "bookshelf",
+      "label": "Bookshelf / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -50.0,
+        -100,
+        100,
+        100
+      ],
+      "footprint": [
+        -50.0,
+        -12,
+        100,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -20
+          ],
+          "approach": [
+            0.0,
+            4
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "read",
+            "reach"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "bookshelf_east": {
+      "id": "bookshelf_east",
+      "type": "bookshelf",
+      "label": "Bookshelf / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -50.0,
+        -100,
+        100,
+        100
+      ],
+      "footprint": [
+        -50.0,
+        -12,
+        100,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            66.0,
+            0
+          ],
+          "approach": [
+            66.0,
+            24
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "read",
+            "reach"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "bookshelf_south": {
+      "id": "bookshelf_south",
+      "type": "bookshelf",
+      "label": "Bookshelf / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -50.0,
+        -100,
+        100,
+        100
+      ],
+      "footprint": [
+        -50.0,
+        -12,
+        100,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            20
+          ],
+          "approach": [
+            0.0,
+            44
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "read",
+            "reach"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "bookshelf_west": {
+      "id": "bookshelf_west",
+      "type": "bookshelf",
+      "label": "Bookshelf / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -50.0,
+        -100,
+        100,
+        100
+      ],
+      "footprint": [
+        -50.0,
+        -12,
+        100,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            -66.0,
+            0
+          ],
+          "approach": [
+            -66.0,
+            24
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "read",
+            "reach"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "table_north": {
+      "id": "table_north",
+      "type": "table",
+      "label": "Table / reading stand / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -32.0,
+        -40,
+        64,
+        40
+      ],
+      "footprint": [
+        -32.0,
+        -12,
+        64,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "use",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -20
+          ],
+          "approach": [
+            0.0,
+            4
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "read"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "table_east": {
+      "id": "table_east",
+      "type": "table",
+      "label": "Table / reading stand / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -32.0,
+        -40,
+        64,
+        40
+      ],
+      "footprint": [
+        -32.0,
+        -12,
+        64,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "use",
+          "enabled": true,
+          "contact": [
+            48.0,
+            0
+          ],
+          "approach": [
+            48.0,
+            24
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "read"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "table_south": {
+      "id": "table_south",
+      "type": "table",
+      "label": "Table / reading stand / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -32.0,
+        -40,
+        64,
+        40
+      ],
+      "footprint": [
+        -32.0,
+        -12,
+        64,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "use",
+          "enabled": true,
+          "contact": [
+            0.0,
+            20
+          ],
+          "approach": [
+            0.0,
+            44
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "read"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "table_west": {
+      "id": "table_west",
+      "type": "table",
+      "label": "Table / reading stand / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -32.0,
+        -40,
+        64,
+        40
+      ],
+      "footprint": [
+        -32.0,
+        -12,
+        64,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "use",
+          "enabled": true,
+          "contact": [
+            -48.0,
+            0
+          ],
+          "approach": [
+            -48.0,
+            24
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "read"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "bar_counter_north": {
+      "id": "bar_counter_north",
+      "type": "bar_counter",
+      "label": "Bar counter / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -60.0,
+        -62,
+        120,
+        62
+      ],
+      "footprint": [
+        -60.0,
+        -12,
+        120,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "use",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -20
+          ],
+          "approach": [
+            0.0,
+            4
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "idle",
+            "talk",
+            "drink"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "bar_counter_east": {
+      "id": "bar_counter_east",
+      "type": "bar_counter",
+      "label": "Bar counter / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -60.0,
+        -62,
+        120,
+        62
+      ],
+      "footprint": [
+        -60.0,
+        -12,
+        120,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "use",
+          "enabled": true,
+          "contact": [
+            76.0,
+            0
+          ],
+          "approach": [
+            76.0,
+            24
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "idle",
+            "talk",
+            "drink"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "bar_counter_south": {
+      "id": "bar_counter_south",
+      "type": "bar_counter",
+      "label": "Bar counter / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -60.0,
+        -62,
+        120,
+        62
+      ],
+      "footprint": [
+        -60.0,
+        -12,
+        120,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "use",
+          "enabled": true,
+          "contact": [
+            0.0,
+            20
+          ],
+          "approach": [
+            0.0,
+            44
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "idle",
+            "talk",
+            "drink"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "bar_counter_west": {
+      "id": "bar_counter_west",
+      "type": "bar_counter",
+      "label": "Bar counter / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -60.0,
+        -62,
+        120,
+        62
+      ],
+      "footprint": [
+        -60.0,
+        -12,
+        120,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "use",
+          "enabled": true,
+          "contact": [
+            -76.0,
+            0
+          ],
+          "approach": [
+            -76.0,
+            24
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "idle",
+            "talk",
+            "drink"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "fireplace_north": {
+      "id": "fireplace_north",
+      "type": "fireplace",
+      "label": "Fireplace / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -45.0,
+        -100,
+        90,
+        100
+      ],
+      "footprint": [
+        -45.0,
+        -12,
+        90,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "stand",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -20
+          ],
+          "approach": [
+            0.0,
+            4
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "warm_hands"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "kneel",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -20
+          ],
+          "approach": [
+            0.0,
+            4
+          ],
+          "actor_facing": "south",
+          "posture": "kneeling",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "knees",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "fireplace_east": {
+      "id": "fireplace_east",
+      "type": "fireplace",
+      "label": "Fireplace / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -45.0,
+        -100,
+        90,
+        100
+      ],
+      "footprint": [
+        -45.0,
+        -12,
+        90,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "stand",
+          "enabled": true,
+          "contact": [
+            61.0,
+            0
+          ],
+          "approach": [
+            61.0,
+            24
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "warm_hands"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "kneel",
+          "enabled": true,
+          "contact": [
+            61.0,
+            0
+          ],
+          "approach": [
+            61.0,
+            24
+          ],
+          "actor_facing": "west",
+          "posture": "kneeling",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "knees",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "fireplace_south": {
+      "id": "fireplace_south",
+      "type": "fireplace",
+      "label": "Fireplace / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -45.0,
+        -100,
+        90,
+        100
+      ],
+      "footprint": [
+        -45.0,
+        -12,
+        90,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "stand",
+          "enabled": true,
+          "contact": [
+            0.0,
+            20
+          ],
+          "approach": [
+            0.0,
+            44
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "warm_hands"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "kneel",
+          "enabled": true,
+          "contact": [
+            0.0,
+            20
+          ],
+          "approach": [
+            0.0,
+            44
+          ],
+          "actor_facing": "north",
+          "posture": "kneeling",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "knees",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "fireplace_west": {
+      "id": "fireplace_west",
+      "type": "fireplace",
+      "label": "Fireplace / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -45.0,
+        -100,
+        90,
+        100
+      ],
+      "footprint": [
+        -45.0,
+        -12,
+        90,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "stand",
+          "enabled": true,
+          "contact": [
+            -61.0,
+            0
+          ],
+          "approach": [
+            -61.0,
+            24
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "warm_hands"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "kneel",
+          "enabled": true,
+          "contact": [
+            -61.0,
+            0
+          ],
+          "approach": [
+            -61.0,
+            24
+          ],
+          "actor_facing": "east",
+          "posture": "kneeling",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "knees",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "window_north": {
+      "id": "window_north",
+      "type": "window",
+      "label": "Window / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -25.0,
+        -100,
+        50,
+        100
+      ],
+      "footprint": [
+        -25.0,
+        -12,
+        50,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "look_out",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -20
+          ],
+          "approach": [
+            0.0,
+            4
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "look_out",
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "gaze_target": [
+            0,
+            -50.0
+          ]
+        },
+        {
+          "id": "view_from_west",
+          "enabled": true,
+          "contact": [
+            -41.0,
+            20
+          ],
+          "approach": [
+            -57.0,
+            20
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "west",
+          "gaze_target": [
+            0,
+            -50.0
+          ],
+          "visual_review": "pending"
+        },
+        {
+          "id": "view_from_east",
+          "enabled": true,
+          "contact": [
+            41.0,
+            20
+          ],
+          "approach": [
+            57.0,
+            20
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "east",
+          "gaze_target": [
+            0,
+            -50.0
+          ],
+          "visual_review": "pending"
+        }
+      ],
+      "required_target_type": null
+    },
+    "window_east": {
+      "id": "window_east",
+      "type": "window",
+      "label": "Window / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -25.0,
+        -100,
+        50,
+        100
+      ],
+      "footprint": [
+        -25.0,
+        -12,
+        50,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "look_out",
+          "enabled": true,
+          "contact": [
+            41.0,
+            0
+          ],
+          "approach": [
+            41.0,
+            24
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "look_out",
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "gaze_target": [
+            0,
+            -50.0
+          ]
+        },
+        {
+          "id": "view_from_north",
+          "enabled": true,
+          "contact": [
+            41.0,
+            -116
+          ],
+          "approach": [
+            41.0,
+            -132
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "north",
+          "gaze_target": [
+            0,
+            -50.0
+          ],
+          "visual_review": "pending"
+        },
+        {
+          "id": "view_from_south",
+          "enabled": true,
+          "contact": [
+            41.0,
+            20
+          ],
+          "approach": [
+            41.0,
+            36
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "south",
+          "gaze_target": [
+            0,
+            -50.0
+          ],
+          "visual_review": "pending"
+        }
+      ],
+      "required_target_type": null
+    },
+    "window_south": {
+      "id": "window_south",
+      "type": "window",
+      "label": "Window / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -25.0,
+        -100,
+        50,
+        100
+      ],
+      "footprint": [
+        -25.0,
+        -12,
+        50,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "look_out",
+          "enabled": true,
+          "contact": [
+            0.0,
+            20
+          ],
+          "approach": [
+            0.0,
+            44
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "look_out",
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "gaze_target": [
+            0,
+            -50.0
+          ]
+        },
+        {
+          "id": "view_from_west",
+          "enabled": true,
+          "contact": [
+            -41.0,
+            20
+          ],
+          "approach": [
+            -57.0,
+            20
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "west",
+          "gaze_target": [
+            0,
+            -50.0
+          ],
+          "visual_review": "pending"
+        },
+        {
+          "id": "view_from_east",
+          "enabled": true,
+          "contact": [
+            41.0,
+            20
+          ],
+          "approach": [
+            57.0,
+            20
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "east",
+          "gaze_target": [
+            0,
+            -50.0
+          ],
+          "visual_review": "pending"
+        }
+      ],
+      "required_target_type": null
+    },
+    "window_west": {
+      "id": "window_west",
+      "type": "window",
+      "label": "Window / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -25.0,
+        -100,
+        50,
+        100
+      ],
+      "footprint": [
+        -25.0,
+        -12,
+        50,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "look_out",
+          "enabled": true,
+          "contact": [
+            -41.0,
+            0
+          ],
+          "approach": [
+            -41.0,
+            24
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "look_out",
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "gaze_target": [
+            0,
+            -50.0
+          ]
+        },
+        {
+          "id": "view_from_north",
+          "enabled": true,
+          "contact": [
+            -41.0,
+            -116
+          ],
+          "approach": [
+            -41.0,
+            -132
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "north",
+          "gaze_target": [
+            0,
+            -50.0
+          ],
+          "visual_review": "pending"
+        },
+        {
+          "id": "view_from_south",
+          "enabled": true,
+          "contact": [
+            -41.0,
+            20
+          ],
+          "approach": [
+            -41.0,
+            36
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "south",
+          "gaze_target": [
+            0,
+            -50.0
+          ],
+          "visual_review": "pending"
+        }
+      ],
+      "required_target_type": null
+    },
+    "doorway_north": {
+      "id": "doorway_north",
+      "type": "doorway",
+      "label": "Doorway / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -35.0,
+        -100,
+        70,
+        100
+      ],
+      "footprint": [
+        -35.0,
+        -12,
+        70,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inside",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -20
+          ],
+          "approach": [
+            0.0,
+            4
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "outside",
+          "enabled": true,
+          "contact": [
+            -0.0,
+            20
+          ],
+          "approach": [
+            -0.0,
+            44
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "doorway_east": {
+      "id": "doorway_east",
+      "type": "doorway",
+      "label": "Doorway / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -35.0,
+        -100,
+        70,
+        100
+      ],
+      "footprint": [
+        -35.0,
+        -12,
+        70,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inside",
+          "enabled": true,
+          "contact": [
+            51.0,
+            0
+          ],
+          "approach": [
+            51.0,
+            24
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "outside",
+          "enabled": true,
+          "contact": [
+            -51.0,
+            0
+          ],
+          "approach": [
+            -51.0,
+            24
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "doorway_south": {
+      "id": "doorway_south",
+      "type": "doorway",
+      "label": "Doorway / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -35.0,
+        -100,
+        70,
+        100
+      ],
+      "footprint": [
+        -35.0,
+        -12,
+        70,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inside",
+          "enabled": true,
+          "contact": [
+            0.0,
+            20
+          ],
+          "approach": [
+            0.0,
+            44
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "outside",
+          "enabled": true,
+          "contact": [
+            -0.0,
+            -20
+          ],
+          "approach": [
+            -0.0,
+            4
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "doorway_west": {
+      "id": "doorway_west",
+      "type": "doorway",
+      "label": "Doorway / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -35.0,
+        -100,
+        70,
+        100
+      ],
+      "footprint": [
+        -35.0,
+        -12,
+        70,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inside",
+          "enabled": true,
+          "contact": [
+            -51.0,
+            0
+          ],
+          "approach": [
+            -51.0,
+            24
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "outside",
+          "enabled": true,
+          "contact": [
+            51.0,
+            0
+          ],
+          "approach": [
+            51.0,
+            24
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "bench_north": {
+      "id": "bench_north",
+      "type": "bench",
+      "label": "Bench / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -38.0,
+        -36,
+        76,
+        36
+      ],
+      "footprint": [
+        -38.0,
+        -12,
+        76,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0,
+            -13.68
+          ],
+          "approach": [
+            0.0,
+            -24
+          ],
+          "actor_facing": "north",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "bench_east": {
+      "id": "bench_east",
+      "type": "bench",
+      "label": "Bench / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -38.0,
+        -36,
+        76,
+        36
+      ],
+      "footprint": [
+        -38.0,
+        -12,
+        76,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0,
+            -13.68
+          ],
+          "approach": [
+            56.0,
+            0
+          ],
+          "actor_facing": "east",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "bench_south": {
+      "id": "bench_south",
+      "type": "bench",
+      "label": "Bench / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -38.0,
+        -36,
+        76,
+        36
+      ],
+      "footprint": [
+        -38.0,
+        -12,
+        76,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0,
+            -13.68
+          ],
+          "approach": [
+            0.0,
+            24
+          ],
+          "actor_facing": "south",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "bench_west": {
+      "id": "bench_west",
+      "type": "bench",
+      "label": "Bench / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -38.0,
+        -36,
+        76,
+        36
+      ],
+      "footprint": [
+        -38.0,
+        -12,
+        76,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0,
+            -13.68
+          ],
+          "approach": [
+            -56.0,
+            0
+          ],
+          "actor_facing": "west",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "cabinet_north": {
+      "id": "cabinet_north",
+      "type": "cabinet",
+      "label": "Cabinet / storage shelving / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -40.0,
+        -70,
+        80,
+        70
+      ],
+      "footprint": [
+        -40.0,
+        -12,
+        80,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -20
+          ],
+          "approach": [
+            0.0,
+            4
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "reach"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "cabinet_east": {
+      "id": "cabinet_east",
+      "type": "cabinet",
+      "label": "Cabinet / storage shelving / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -40.0,
+        -70,
+        80,
+        70
+      ],
+      "footprint": [
+        -40.0,
+        -12,
+        80,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            56.0,
+            0
+          ],
+          "approach": [
+            56.0,
+            24
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "reach"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "cabinet_south": {
+      "id": "cabinet_south",
+      "type": "cabinet",
+      "label": "Cabinet / storage shelving / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -40.0,
+        -70,
+        80,
+        70
+      ],
+      "footprint": [
+        -40.0,
+        -12,
+        80,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            20
+          ],
+          "approach": [
+            0.0,
+            44
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "reach"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "cabinet_west": {
+      "id": "cabinet_west",
+      "type": "cabinet",
+      "label": "Cabinet / storage shelving / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -40.0,
+        -70,
+        80,
+        70
+      ],
+      "footprint": [
+        -40.0,
+        -12,
+        80,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            -56.0,
+            0
+          ],
+          "approach": [
+            -56.0,
+            24
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "reach"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "statue_north": {
+      "id": "statue_north",
+      "type": "statue",
+      "label": "Statue / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -20.0,
+        -100,
+        40,
+        100
+      ],
+      "footprint": [
+        -20.0,
+        -12,
+        40,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -20
+          ],
+          "approach": [
+            0.0,
+            4
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "statue_east": {
+      "id": "statue_east",
+      "type": "statue",
+      "label": "Statue / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -20.0,
+        -100,
+        40,
+        100
+      ],
+      "footprint": [
+        -20.0,
+        -12,
+        40,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            36.0,
+            0
+          ],
+          "approach": [
+            36.0,
+            24
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "statue_south": {
+      "id": "statue_south",
+      "type": "statue",
+      "label": "Statue / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -20.0,
+        -100,
+        40,
+        100
+      ],
+      "footprint": [
+        -20.0,
+        -12,
+        40,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            20
+          ],
+          "approach": [
+            0.0,
+            44
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "statue_west": {
+      "id": "statue_west",
+      "type": "statue",
+      "label": "Statue / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -20.0,
+        -100,
+        40,
+        100
+      ],
+      "footprint": [
+        -20.0,
+        -12,
+        40,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            -36.0,
+            0
+          ],
+          "approach": [
+            -36.0,
+            24
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "crate_north": {
+      "id": "crate_north",
+      "type": "crate",
+      "label": "Crate / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -20.0,
+        -40,
+        40,
+        40
+      ],
+      "footprint": [
+        -20.0,
+        -12,
+        40,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -20
+          ],
+          "approach": [
+            0.0,
+            4
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "crate_east": {
+      "id": "crate_east",
+      "type": "crate",
+      "label": "Crate / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -20.0,
+        -40,
+        40,
+        40
+      ],
+      "footprint": [
+        -20.0,
+        -12,
+        40,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            36.0,
+            0
+          ],
+          "approach": [
+            36.0,
+            24
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "crate_south": {
+      "id": "crate_south",
+      "type": "crate",
+      "label": "Crate / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -20.0,
+        -40,
+        40,
+        40
+      ],
+      "footprint": [
+        -20.0,
+        -12,
+        40,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            20
+          ],
+          "approach": [
+            0.0,
+            44
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "crate_west": {
+      "id": "crate_west",
+      "type": "crate",
+      "label": "Crate / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -20.0,
+        -40,
+        40,
+        40
+      ],
+      "footprint": [
+        -20.0,
+        -12,
+        40,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            -36.0,
+            0
+          ],
+          "approach": [
+            -36.0,
+            24
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "barrel_north": {
+      "id": "barrel_north",
+      "type": "barrel",
+      "label": "Barrel / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -16.0,
+        -42,
+        32,
+        42
+      ],
+      "footprint": [
+        -16.0,
+        -12,
+        32,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -20
+          ],
+          "approach": [
+            0.0,
+            4
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "barrel_east": {
+      "id": "barrel_east",
+      "type": "barrel",
+      "label": "Barrel / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -16.0,
+        -42,
+        32,
+        42
+      ],
+      "footprint": [
+        -16.0,
+        -12,
+        32,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            32.0,
+            0
+          ],
+          "approach": [
+            32.0,
+            24
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "barrel_south": {
+      "id": "barrel_south",
+      "type": "barrel",
+      "label": "Barrel / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -16.0,
+        -42,
+        32,
+        42
+      ],
+      "footprint": [
+        -16.0,
+        -12,
+        32,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            20
+          ],
+          "approach": [
+            0.0,
+            44
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "barrel_west": {
+      "id": "barrel_west",
+      "type": "barrel",
+      "label": "Barrel / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -16.0,
+        -42,
+        32,
+        42
+      ],
+      "footprint": [
+        -16.0,
+        -12,
+        32,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            -32.0,
+            0
+          ],
+          "approach": [
+            -32.0,
+            24
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "mirror_north": {
+      "id": "mirror_north",
+      "type": "mirror",
+      "label": "Mirror / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -18.0,
+        -60,
+        36,
+        60
+      ],
+      "footprint": [
+        -18.0,
+        -12,
+        36,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -20
+          ],
+          "approach": [
+            0.0,
+            4
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "mirror_east": {
+      "id": "mirror_east",
+      "type": "mirror",
+      "label": "Mirror / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -18.0,
+        -60,
+        36,
+        60
+      ],
+      "footprint": [
+        -18.0,
+        -12,
+        36,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            34.0,
+            0
+          ],
+          "approach": [
+            34.0,
+            24
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "mirror_south": {
+      "id": "mirror_south",
+      "type": "mirror",
+      "label": "Mirror / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -18.0,
+        -60,
+        36,
+        60
+      ],
+      "footprint": [
+        -18.0,
+        -12,
+        36,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            20
+          ],
+          "approach": [
+            0.0,
+            44
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "mirror_west": {
+      "id": "mirror_west",
+      "type": "mirror",
+      "label": "Mirror / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -18.0,
+        -60,
+        36,
+        60
+      ],
+      "footprint": [
+        -18.0,
+        -12,
+        36,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            -34.0,
+            0
+          ],
+          "approach": [
+            -34.0,
+            24
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "painting_north": {
+      "id": "painting_north",
+      "type": "painting",
+      "label": "Painting / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -30.0,
+        -60,
+        60,
+        60
+      ],
+      "footprint": [
+        -30.0,
+        -12,
+        60,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -20
+          ],
+          "approach": [
+            0.0,
+            4
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "view_from_west",
+          "enabled": true,
+          "contact": [
+            -46.0,
+            20
+          ],
+          "approach": [
+            -62.0,
+            20
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "west",
+          "gaze_target": [
+            0,
+            -30.0
+          ],
+          "visual_review": "pending"
+        },
+        {
+          "id": "view_from_east",
+          "enabled": true,
+          "contact": [
+            46.0,
+            20
+          ],
+          "approach": [
+            62.0,
+            20
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "east",
+          "gaze_target": [
+            0,
+            -30.0
+          ],
+          "visual_review": "pending"
+        }
+      ],
+      "required_target_type": null
+    },
+    "painting_east": {
+      "id": "painting_east",
+      "type": "painting",
+      "label": "Painting / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -30.0,
+        -60,
+        60,
+        60
+      ],
+      "footprint": [
+        -30.0,
+        -12,
+        60,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            46.0,
+            0
+          ],
+          "approach": [
+            46.0,
+            24
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "view_from_north",
+          "enabled": true,
+          "contact": [
+            46.0,
+            -76
+          ],
+          "approach": [
+            46.0,
+            -92
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "north",
+          "gaze_target": [
+            0,
+            -30.0
+          ],
+          "visual_review": "pending"
+        },
+        {
+          "id": "view_from_south",
+          "enabled": true,
+          "contact": [
+            46.0,
+            20
+          ],
+          "approach": [
+            46.0,
+            36
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "south",
+          "gaze_target": [
+            0,
+            -30.0
+          ],
+          "visual_review": "pending"
+        }
+      ],
+      "required_target_type": null
+    },
+    "painting_south": {
+      "id": "painting_south",
+      "type": "painting",
+      "label": "Painting / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -30.0,
+        -60,
+        60,
+        60
+      ],
+      "footprint": [
+        -30.0,
+        -12,
+        60,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            20
+          ],
+          "approach": [
+            0.0,
+            44
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "view_from_west",
+          "enabled": true,
+          "contact": [
+            -46.0,
+            20
+          ],
+          "approach": [
+            -62.0,
+            20
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "west",
+          "gaze_target": [
+            0,
+            -30.0
+          ],
+          "visual_review": "pending"
+        },
+        {
+          "id": "view_from_east",
+          "enabled": true,
+          "contact": [
+            46.0,
+            20
+          ],
+          "approach": [
+            62.0,
+            20
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "east",
+          "gaze_target": [
+            0,
+            -30.0
+          ],
+          "visual_review": "pending"
+        }
+      ],
+      "required_target_type": null
+    },
+    "painting_west": {
+      "id": "painting_west",
+      "type": "painting",
+      "label": "Painting / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -30.0,
+        -60,
+        60,
+        60
+      ],
+      "footprint": [
+        -30.0,
+        -12,
+        60,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            -46.0,
+            0
+          ],
+          "approach": [
+            -46.0,
+            24
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "view_from_north",
+          "enabled": true,
+          "contact": [
+            -46.0,
+            -76
+          ],
+          "approach": [
+            -46.0,
+            -92
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "north",
+          "gaze_target": [
+            0,
+            -30.0
+          ],
+          "visual_review": "pending"
+        },
+        {
+          "id": "view_from_south",
+          "enabled": true,
+          "contact": [
+            -46.0,
+            20
+          ],
+          "approach": [
+            -46.0,
+            36
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "south",
+          "gaze_target": [
+            0,
+            -30.0
+          ],
+          "visual_review": "pending"
+        }
+      ],
+      "required_target_type": null
+    },
+    "stairway_north": {
+      "id": "stairway_north",
+      "type": "stairway",
+      "label": "Stairway / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -50.0,
+        -110,
+        100,
+        110
+      ],
+      "footprint": [
+        -50.0,
+        -12,
+        100,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -20
+          ],
+          "approach": [
+            0.0,
+            4
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "idle",
+            "listen"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "stairway_east": {
+      "id": "stairway_east",
+      "type": "stairway",
+      "label": "Stairway / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -50.0,
+        -110,
+        100,
+        110
+      ],
+      "footprint": [
+        -50.0,
+        -12,
+        100,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            66.0,
+            0
+          ],
+          "approach": [
+            66.0,
+            24
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "idle",
+            "listen"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "stairway_south": {
+      "id": "stairway_south",
+      "type": "stairway",
+      "label": "Stairway / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -50.0,
+        -110,
+        100,
+        110
+      ],
+      "footprint": [
+        -50.0,
+        -12,
+        100,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            20
+          ],
+          "approach": [
+            0.0,
+            44
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "idle",
+            "listen"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "stairway_west": {
+      "id": "stairway_west",
+      "type": "stairway",
+      "label": "Stairway / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -50.0,
+        -110,
+        100,
+        110
+      ],
+      "footprint": [
+        -50.0,
+        -12,
+        100,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            -66.0,
+            0
+          ],
+          "approach": [
+            -66.0,
+            24
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "idle",
+            "listen"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "clock_north": {
+      "id": "clock_north",
+      "type": "clock",
+      "label": "Clock / north",
+      "facing": "north",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "rear",
+      "bounds": [
+        -16.0,
+        -80,
+        32,
+        80
+      ],
+      "footprint": [
+        -16.0,
+        -12,
+        32,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -20
+          ],
+          "approach": [
+            0.0,
+            4
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "view_from_west",
+          "enabled": true,
+          "contact": [
+            -32.0,
+            20
+          ],
+          "approach": [
+            -48.0,
+            20
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "west",
+          "gaze_target": [
+            0,
+            -40.0
+          ],
+          "visual_review": "pending"
+        },
+        {
+          "id": "view_from_east",
+          "enabled": true,
+          "contact": [
+            32.0,
+            20
+          ],
+          "approach": [
+            48.0,
+            20
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "east",
+          "gaze_target": [
+            0,
+            -40.0
+          ],
+          "visual_review": "pending"
+        }
+      ],
+      "required_target_type": null
+    },
+    "clock_east": {
+      "id": "clock_east",
+      "type": "clock",
+      "label": "Clock / east",
+      "facing": "east",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -16.0,
+        -80,
+        32,
+        80
+      ],
+      "footprint": [
+        -16.0,
+        -12,
+        32,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            32.0,
+            0
+          ],
+          "approach": [
+            32.0,
+            24
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "view_from_north",
+          "enabled": true,
+          "contact": [
+            32.0,
+            -96
+          ],
+          "approach": [
+            32.0,
+            -112
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "north",
+          "gaze_target": [
+            0,
+            -40.0
+          ],
+          "visual_review": "pending"
+        },
+        {
+          "id": "view_from_south",
+          "enabled": true,
+          "contact": [
+            32.0,
+            20
+          ],
+          "approach": [
+            32.0,
+            36
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "south",
+          "gaze_target": [
+            0,
+            -40.0
+          ],
+          "visual_review": "pending"
+        }
+      ],
+      "required_target_type": null
+    },
+    "clock_south": {
+      "id": "clock_south",
+      "type": "clock",
+      "label": "Clock / south",
+      "facing": "south",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "front",
+      "bounds": [
+        -16.0,
+        -80,
+        32,
+        80
+      ],
+      "footprint": [
+        -16.0,
+        -12,
+        32,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            20
+          ],
+          "approach": [
+            0.0,
+            44
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "view_from_west",
+          "enabled": true,
+          "contact": [
+            -32.0,
+            20
+          ],
+          "approach": [
+            -48.0,
+            20
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "west",
+          "gaze_target": [
+            0,
+            -40.0
+          ],
+          "visual_review": "pending"
+        },
+        {
+          "id": "view_from_east",
+          "enabled": true,
+          "contact": [
+            32.0,
+            20
+          ],
+          "approach": [
+            48.0,
+            20
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "east",
+          "gaze_target": [
+            0,
+            -40.0
+          ],
+          "visual_review": "pending"
+        }
+      ],
+      "required_target_type": null
+    },
+    "clock_west": {
+      "id": "clock_west",
+      "type": "clock",
+      "label": "Clock / west",
+      "facing": "west",
+      "axis": null,
+      "headboard": null,
+      "asset_view": "side",
+      "bounds": [
+        -16.0,
+        -80,
+        32,
+        80
+      ],
+      "footprint": [
+        -16.0,
+        -12,
+        32,
+        12
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            -32.0,
+            0
+          ],
+          "approach": [
+            -32.0,
+            24
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "view_from_north",
+          "enabled": true,
+          "contact": [
+            -32.0,
+            -96
+          ],
+          "approach": [
+            -32.0,
+            -112
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "north",
+          "gaze_target": [
+            0,
+            -40.0
+          ],
+          "visual_review": "pending"
+        },
+        {
+          "id": "view_from_south",
+          "enabled": true,
+          "contact": [
+            -32.0,
+            20
+          ],
+          "approach": [
+            -32.0,
+            36
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "south",
+          "gaze_target": [
+            0,
+            -40.0
+          ],
+          "visual_review": "pending"
+        }
+      ],
+      "required_target_type": null
+    },
+    "bed_north_south_head_north": {
+      "id": "bed_north_south_head_north",
+      "type": "bed",
+      "label": "Bed / north_south / head north",
+      "facing": null,
+      "axis": "north_south",
+      "headboard": "north",
+      "asset_view": "front",
+      "bounds": [
+        -39.0,
+        -120,
+        78,
+        120
+      ],
+      "footprint": [
+        -39.0,
+        -120,
+        78,
+        120
+      ],
+      "anchors": [
+        {
+          "id": "lie",
+          "enabled": true,
+          "contact": [
+            0,
+            -60.0
+          ],
+          "approach": [
+            0,
+            -36.0
+          ],
+          "actor_facing": null,
+          "posture": "lying",
+          "activities": [
+            "idle"
+          ],
+          "contact_kind": "pelvis",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "body_axis": "north_south",
+          "head_toward": "north"
+        },
+        {
+          "id": "sit_west",
+          "enabled": true,
+          "contact": [
+            -39.0,
+            -60.0
+          ],
+          "approach": [
+            -63.0,
+            -60.0
+          ],
+          "actor_facing": "west",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "sit_east",
+          "enabled": true,
+          "contact": [
+            39.0,
+            -60.0
+          ],
+          "approach": [
+            63.0,
+            -60.0
+          ],
+          "actor_facing": "east",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "bed_east_west_head_east": {
+      "id": "bed_east_west_head_east",
+      "type": "bed",
+      "label": "Bed / east_west / head east",
+      "facing": null,
+      "axis": "east_west",
+      "headboard": "east",
+      "asset_view": "front",
+      "bounds": [
+        -60.0,
+        -72,
+        120,
+        72
+      ],
+      "footprint": [
+        -60.0,
+        -72,
+        120,
+        72
+      ],
+      "anchors": [
+        {
+          "id": "lie",
+          "enabled": true,
+          "contact": [
+            0,
+            -36.0
+          ],
+          "approach": [
+            0,
+            -12.0
+          ],
+          "actor_facing": null,
+          "posture": "lying",
+          "activities": [
+            "idle"
+          ],
+          "contact_kind": "pelvis",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "body_axis": "east_west",
+          "head_toward": "east"
+        },
+        {
+          "id": "sit_north",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -72.0
+          ],
+          "approach": [
+            0.0,
+            -96.0
+          ],
+          "actor_facing": "north",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "sit_south",
+          "enabled": true,
+          "contact": [
+            0.0,
+            0.0
+          ],
+          "approach": [
+            0.0,
+            24.0
+          ],
+          "actor_facing": "south",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "bed_north_south_head_south": {
+      "id": "bed_north_south_head_south",
+      "type": "bed",
+      "label": "Bed / north_south / head south",
+      "facing": null,
+      "axis": "north_south",
+      "headboard": "south",
+      "asset_view": "front",
+      "bounds": [
+        -39.0,
+        -120,
+        78,
+        120
+      ],
+      "footprint": [
+        -39.0,
+        -120,
+        78,
+        120
+      ],
+      "anchors": [
+        {
+          "id": "lie",
+          "enabled": true,
+          "contact": [
+            0,
+            -60.0
+          ],
+          "approach": [
+            0,
+            -36.0
+          ],
+          "actor_facing": null,
+          "posture": "lying",
+          "activities": [
+            "idle"
+          ],
+          "contact_kind": "pelvis",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "body_axis": "north_south",
+          "head_toward": "south"
+        },
+        {
+          "id": "sit_west",
+          "enabled": true,
+          "contact": [
+            -39.0,
+            -60.0
+          ],
+          "approach": [
+            -63.0,
+            -60.0
+          ],
+          "actor_facing": "west",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "sit_east",
+          "enabled": true,
+          "contact": [
+            39.0,
+            -60.0
+          ],
+          "approach": [
+            63.0,
+            -60.0
+          ],
+          "actor_facing": "east",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    },
+    "bed_east_west_head_west": {
+      "id": "bed_east_west_head_west",
+      "type": "bed",
+      "label": "Bed / east_west / head west",
+      "facing": null,
+      "axis": "east_west",
+      "headboard": "west",
+      "asset_view": "front",
+      "bounds": [
+        -60.0,
+        -72,
+        120,
+        72
+      ],
+      "footprint": [
+        -60.0,
+        -72,
+        120,
+        72
+      ],
+      "anchors": [
+        {
+          "id": "lie",
+          "enabled": true,
+          "contact": [
+            0,
+            -36.0
+          ],
+          "approach": [
+            0,
+            -12.0
+          ],
+          "actor_facing": null,
+          "posture": "lying",
+          "activities": [
+            "idle"
+          ],
+          "contact_kind": "pelvis",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "body_axis": "east_west",
+          "head_toward": "west"
+        },
+        {
+          "id": "sit_north",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -72.0
+          ],
+          "approach": [
+            0.0,
+            -96.0
+          ],
+          "actor_facing": "north",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "sit_south",
+          "enabled": true,
+          "contact": [
+            0.0,
+            0.0
+          ],
+          "approach": [
+            0.0,
+            24.0
+          ],
+          "actor_facing": "south",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "required_target_type": null
+    }
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "schema_version": 1,
+  "character_id": "likeness-photo01",
+  "batch_id": "alignment_01",
+  "status": "artwork_approved_pending_integration",
+  "rationale": "Approve proportions, facing, common scale and contact landmarks before action/reaction expansion.",
+  "source_reference": "res://assets/characters/poses/char/masters/likeness-review-02/char-likeness-v2.png",
+  "holds": [
+    "Presentation/readability decision",
+    "Shared nonstanding scale/contact implementation before runtime placement"
+  ],
+  "jobs": [
+    {
+      "pose_id": "standing_idle_north",
+      "variant_id": "neutral",
+      "status": "approved_sample",
+      "fit_contact": null,
+      "fit_room": "g_foyer",
+      "contact_kind": "feet",
+      "exact_generation_prompt": "assets/characters/poses/char/prompts/alignment_01/standing_idle_north.json",
+      "actual_tool_call": "char_alignment_01_standing_idle_north",
+      "source_master": "assets/characters/poses/char/masters/alignment_01/standing_idle_north.png",
+      "final_asset": null,
+      "approval": "approved",
+      "candidate_export": "assets/characters/poses/char/exports/north/char_standing_idle_north_neutral.png",
+      "approval_record": {
+        "decision": "approved_pose_samples",
+        "date": "2026-10-23",
+        "source": "Explicit user next-phase planning request",
+        "quote": "The first seven character pose samples have been generated successfully. I am happy with the results",
+        "pose_ids": [
+          "seated_idle_east",
+          "seated_idle_south",
+          "seated_idle_west",
+          "standing_idle_east",
+          "standing_idle_north",
+          "standing_idle_south",
+          "standing_idle_west"
+        ],
+        "scope": "Seven alignment_01 artwork samples and unchanged padded copies only; not runtime integration, calibrated contact landmarks, chair masks or complete character production."
+      }
+    },
+    {
+      "pose_id": "standing_idle_east",
+      "variant_id": "neutral",
+      "status": "approved_sample",
+      "fit_contact": null,
+      "fit_room": "g_foyer",
+      "contact_kind": "feet",
+      "exact_generation_prompt": "assets/characters/poses/char/prompts/alignment_01/standing_idle_east.json",
+      "actual_tool_call": "char_alignment_01_standing_idle_east",
+      "source_master": "assets/characters/poses/char/masters/alignment_01/standing_idle_east.png",
+      "final_asset": null,
+      "approval": "approved",
+      "candidate_export": "assets/characters/poses/char/exports/east/char_standing_idle_east_neutral.png",
+      "approval_record": {
+        "decision": "approved_pose_samples",
+        "date": "2026-10-23",
+        "source": "Explicit user next-phase planning request",
+        "quote": "The first seven character pose samples have been generated successfully. I am happy with the results",
+        "pose_ids": [
+          "seated_idle_east",
+          "seated_idle_south",
+          "seated_idle_west",
+          "standing_idle_east",
+          "standing_idle_north",
+          "standing_idle_south",
+          "standing_idle_west"
+        ],
+        "scope": "Seven alignment_01 artwork samples and unchanged padded copies only; not runtime integration, calibrated contact landmarks, chair masks or complete character production."
+      }
+    },
+    {
+      "pose_id": "standing_idle_south",
+      "variant_id": "neutral",
+      "status": "approved_sample",
+      "fit_contact": null,
+      "fit_room": "g_foyer",
+      "contact_kind": "feet",
+      "exact_generation_prompt": "assets/characters/poses/char/prompts/alignment_01/standing_idle_south.json",
+      "actual_tool_call": "char_alignment_01_standing_idle_south",
+      "source_master": "assets/characters/poses/char/masters/alignment_01/standing_idle_south.png",
+      "final_asset": null,
+      "approval": "approved",
+      "candidate_export": "assets/characters/poses/char/exports/south/char_standing_idle_south_neutral.png",
+      "approval_record": {
+        "decision": "approved_pose_samples",
+        "date": "2026-10-23",
+        "source": "Explicit user next-phase planning request",
+        "quote": "The first seven character pose samples have been generated successfully. I am happy with the results",
+        "pose_ids": [
+          "seated_idle_east",
+          "seated_idle_south",
+          "seated_idle_west",
+          "standing_idle_east",
+          "standing_idle_north",
+          "standing_idle_south",
+          "standing_idle_west"
+        ],
+        "scope": "Seven alignment_01 artwork samples and unchanged padded copies only; not runtime integration, calibrated contact landmarks, chair masks or complete character production."
+      }
+    },
+    {
+      "pose_id": "standing_idle_west",
+      "variant_id": "neutral",
+      "status": "approved_sample",
+      "fit_contact": null,
+      "fit_room": "g_foyer",
+      "contact_kind": "feet",
+      "exact_generation_prompt": "assets/characters/poses/char/prompts/alignment_01/standing_idle_west.json",
+      "actual_tool_call": "char_alignment_01_standing_idle_west",
+      "source_master": "assets/characters/poses/char/masters/alignment_01/standing_idle_west.png",
+      "final_asset": null,
+      "approval": "approved",
+      "candidate_export": "assets/characters/poses/char/exports/west/char_standing_idle_west_neutral.png",
+      "approval_record": {
+        "decision": "approved_pose_samples",
+        "date": "2026-10-23",
+        "source": "Explicit user next-phase planning request",
+        "quote": "The first seven character pose samples have been generated successfully. I am happy with the results",
+        "pose_ids": [
+          "seated_idle_east",
+          "seated_idle_south",
+          "seated_idle_west",
+          "standing_idle_east",
+          "standing_idle_north",
+          "standing_idle_south",
+          "standing_idle_west"
+        ],
+        "scope": "Seven alignment_01 artwork samples and unchanged padded copies only; not runtime integration, calibrated contact landmarks, chair masks or complete character production."
+      }
+    },
+    {
+      "pose_id": "seated_idle_east",
+      "variant_id": "neutral",
+      "status": "approved_sample",
+      "fit_contact": "g_kitchen::kitchen_lower_chair_01::seat",
+      "fit_room": "g_kitchen",
+      "contact_kind": "seat",
+      "exact_generation_prompt": "assets/characters/poses/char/prompts/alignment_01/seated_idle_east.json",
+      "actual_tool_call": "char_alignment_01_seated_idle_east",
+      "source_master": "assets/characters/poses/char/masters/alignment_01/seated_idle_east.png",
+      "final_asset": null,
+      "approval": "approved",
+      "candidate_export": "assets/characters/poses/char/exports/east/char_seated_idle_east_neutral.png",
+      "approval_record": {
+        "decision": "approved_pose_samples",
+        "date": "2026-10-23",
+        "source": "Explicit user next-phase planning request",
+        "quote": "The first seven character pose samples have been generated successfully. I am happy with the results",
+        "pose_ids": [
+          "seated_idle_east",
+          "seated_idle_south",
+          "seated_idle_west",
+          "standing_idle_east",
+          "standing_idle_north",
+          "standing_idle_south",
+          "standing_idle_west"
+        ],
+        "scope": "Seven alignment_01 artwork samples and unchanged padded copies only; not runtime integration, calibrated contact landmarks, chair masks or complete character production."
+      }
+    },
+    {
+      "pose_id": "seated_idle_south",
+      "variant_id": "neutral",
+      "status": "approved_sample",
+      "fit_contact": "g_library::library_armchair_01::seat",
+      "fit_room": "g_library",
+      "contact_kind": "seat",
+      "exact_generation_prompt": "assets/characters/poses/char/prompts/alignment_01/seated_idle_south.json",
+      "actual_tool_call": "char_alignment_01_seated_idle_south",
+      "source_master": "assets/characters/poses/char/masters/alignment_01/seated_idle_south.png",
+      "final_asset": null,
+      "approval": "approved",
+      "candidate_export": "assets/characters/poses/char/exports/south/char_seated_idle_south_neutral.png",
+      "approval_record": {
+        "decision": "approved_pose_samples",
+        "date": "2026-10-23",
+        "source": "Explicit user next-phase planning request",
+        "quote": "The first seven character pose samples have been generated successfully. I am happy with the results",
+        "pose_ids": [
+          "seated_idle_east",
+          "seated_idle_south",
+          "seated_idle_west",
+          "standing_idle_east",
+          "standing_idle_north",
+          "standing_idle_south",
+          "standing_idle_west"
+        ],
+        "scope": "Seven alignment_01 artwork samples and unchanged padded copies only; not runtime integration, calibrated contact landmarks, chair masks or complete character production."
+      }
+    },
+    {
+      "pose_id": "seated_idle_west",
+      "variant_id": "neutral",
+      "status": "approved_sample",
+      "fit_contact": "g_foyer::foyer_armchair_01::seat",
+      "fit_room": "g_foyer",
+      "contact_kind": "seat",
+      "exact_generation_prompt": "assets/characters/poses/char/prompts/alignment_01/seated_idle_west.json",
+      "actual_tool_call": "char_alignment_01_seated_idle_west",
+      "source_master": "assets/characters/poses/char/masters/alignment_01/seated_idle_west.png",
+      "final_asset": null,
+      "approval": "approved",
+      "candidate_export": "assets/characters/poses/char/exports/west/char_seated_idle_west_neutral.png",
+      "approval_record": {
+        "decision": "approved_pose_samples",
+        "date": "2026-10-23",
+        "source": "Explicit user next-phase planning request",
+        "quote": "The first seven character pose samples have been generated successfully. I am happy with the results",
+        "pose_ids": [
+          "seated_idle_east",
+          "seated_idle_south",
+          "seated_idle_west",
+          "standing_idle_east",
+          "standing_idle_north",
+          "standing_idle_south",
+          "standing_idle_west"
+        ],
+        "scope": "Seven alignment_01 artwork samples and unchanged padded copies only; not runtime integration, calibrated contact landmarks, chair masks or complete character production."
+      }
+    }
+  ],
+  "expected_deliverables": [
+    "Exact prompt/reference/tool records per executed job",
+    "Immutable transparent masters and source hashes",
+    "Landmark/crop/scale metadata",
+    "Labeled canonical comparison sheet",
+    "Gameplay-size room fit screenshots",
+    "Approval/revision record",
+    "Validated exports and runtime bindings only when authorized"
+  ],
+  "design_reference_status": "user_approved",
+  "generation_prompt": "docs/CHAR_POSE_GENERATION_PROMPT.md",
+  "authorization": "User explicitly requested all seven samples in current message",
+  "presentation_policy": "Generate lossless full-resolution masters now; final presentation/export dimensions remain pending.",
+  "asymmetry_interpretation": "For review: approved side bow and prominent ribbon knot interpreted as anatomical right; confirm across angles.",
+  "standing_reference_height": 1673,
+  "logical_standing_height": 64,
+  "source_landmark_status": "manual estimates pending art/contact review",
+  "review_sheet": "assets/characters/poses/char/review/alignment_01/comparison.png",
+  "context_sheet": "assets/characters/poses/char/review/alignment_01/context-closeups.png",
+  "artwork_approval": {
+    "decision": "approved_pose_samples",
+    "date": "2026-10-23",
+    "source": "Explicit user next-phase planning request",
+    "quote": "The first seven character pose samples have been generated successfully. I am happy with the results",
+    "pose_ids": [
+      "seated_idle_east",
+      "seated_idle_south",
+      "seated_idle_west",
+      "standing_idle_east",
+      "standing_idle_north",
+      "standing_idle_south",
+      "standing_idle_west"
+    ],
+    "scope": "Seven alignment_01 artwork samples and unchanged padded copies only; not runtime integration, calibrated contact landmarks, chair masks or complete character production."
+  },
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-23",
+      "source": "Explicit user next-phase request; preserved in production manifest approval_log",
+      "quote": "The first seven character pose samples have been generated successfully. I am happy with the results"
+    },
+    "scope": "Seven alignment_01 artwork samples, masters and unchanged padded exports; contact calibration/masks/runtime integration not approved by this decision.",
+    "files": [
+      {
+        "path": "assets/characters/poses/char/masters/alignment_01/standing_idle_north.png",
+        "sha256": "ee1e9e0213464c6e42bbed6c5830062052eadea27a5a5bdfd14c9ab548023178"
+      },
+      {
+        "path": "assets/characters/poses/char/exports/north/char_standing_idle_north_neutral.png",
+        "sha256": "835a67f9cf07e59390587e831f82efed94f5d5eacf01e77317972d6d31e54711"
+      },
+      {
+        "path": "assets/characters/poses/char/masters/alignment_01/standing_idle_east.png",
+        "sha256": "946cf733d66dd524509bd98a378d223d90a11cfeebb4425a844f170272f2b9ea"
+      },
+      {
+        "path": "assets/characters/poses/char/exports/east/char_standing_idle_east_neutral.png",
+        "sha256": "6483b8cd2baadccb37229a9fcdefc3de5f91203a8f30489491d21f812d75bfa5"
+      },
+      {
+        "path": "assets/characters/poses/char/masters/alignment_01/standing_idle_south.png",
+        "sha256": "4e747ca6f4c400dcd314f20b8a143497c3df3af9e45d446658be77877ab9d002"
+      },
+      {
+        "path": "assets/characters/poses/char/exports/south/char_standing_idle_south_neutral.png",
+        "sha256": "cb2f47a3e67dcd4dc9156b54df39af2c8502e87cda7703c84ea3791ce7413693"
+      },
+      {
+        "path": "assets/characters/poses/char/masters/alignment_01/standing_idle_west.png",
+        "sha256": "513aa0c879ba47c5c3cd6269cfa19d0149c593814cb86135036ac019b9d40e8e"
+      },
+      {
+        "path": "assets/characters/poses/char/exports/west/char_standing_idle_west_neutral.png",
+        "sha256": "08c6437b2f3b07548dc804d3c6873b48102f6f827111ade50f596798ac6f80f6"
+      },
+      {
+        "path": "assets/characters/poses/char/masters/alignment_01/seated_idle_east.png",
+        "sha256": "64345356ff9c61efdbbaa4c87629cb0f2add44a2995eabac344dc3b58f18c97c"
+      },
+      {
+        "path": "assets/characters/poses/char/exports/east/char_seated_idle_east_neutral.png",
+        "sha256": "9ec557fba8c95c55400ad8522e1267ca300c7f52476d6cb05ec53d20ed930ac9"
+      },
+      {
+        "path": "assets/characters/poses/char/masters/alignment_01/seated_idle_south.png",
+        "sha256": "a02067bec9c1dcd3cb9fe423f1958ffce4e92cbdcf248a1c303cf3adb92210df"
+      },
+      {
+        "path": "assets/characters/poses/char/exports/south/char_seated_idle_south_neutral.png",
+        "sha256": "400d065f084d5353230078cd7f2a5b1860027702bee116533892e925573a23e2"
+      },
+      {
+        "path": "assets/characters/poses/char/masters/alignment_01/seated_idle_west.png",
+        "sha256": "4174796c3f0b1518032168b714e42334ba23a9998eaeaeda30e52995266ee911"
+      },
+      {
+        "path": "assets/characters/poses/char/exports/west/char_seated_idle_west_neutral.png",
+        "sha256": "903f10ddcdd454ab6aaa83a3ef134f91459b9db7b9705f703ff2d437f9160be2"
+      }
+    ],
+    "retention": {
+      "exact_prompts": "keep; explicitly requested reproducible workflow",
+      "masters_and_exports": "keep",
+      "context_previews": "keep while furniture fit is unresolved"
+    }
+  }
+}

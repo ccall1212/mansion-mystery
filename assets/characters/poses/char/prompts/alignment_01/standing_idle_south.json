@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "job_id": "char_alignment_01_standing_idle_south",
+  "character_id": "likeness-photo01",
+  "pose_id": "standing_idle_south",
+  "variant_id": "neutral",
+  "tool": "built-in image_gen.imagegen",
+  "prompt": "Use case: identity-preserve / game character pose.\nProduce ONE separate transparent PNG for Char, cast #01. Image 1 is her USER-APPROVED likeness-v2 MASTER and the primary identity, art style, costume, adult body proportions, build and hair reference. Preserve this exact character; this is a new pose, not a redesign. Do not use photographs or a realistic portrait face.\n\nLOCKED ART: expressive anime/cartoon brown eyes, tiny simplified nose, friendly stylized smile where the face is visible, softly shaded illustrated skin, long wavy brown hair, cream headband and long hair ribbon; cream lace high-collar blouse and cuffs, cameo, puffed sleeves, burgundy sash/side bow, elaborately folded teal-green floor-length skirt, modest jewelry and brown shoes. Rich deliberate pixel clusters, crisp dark warm outlines, same upper-left neutral key light, detail and flattering cartoon face as approved. Do not shrink the eyes, add portrait realism or detailed teeth, change costume colors, elongate her anatomy or compress her into a tiny chibi body.\n\nGEOMETRY: same elevated three-quarter mansion game camera and grounded adult anatomy. Orient the WHOLE BODY in the requested direction: head/nose, chest, hips, knees and shoes agree. This is a stationary IDLE, not walking or a stride. Author this direction; do not simply mirror the approved picture. Preserve physical costume asymmetry: for this directional review, interpret the approved burgundy side bow and larger ribbon knot as on Char's anatomical RIGHT, which is image-left in a front-facing view. Carry that same physical side into back/profile views; far-side details may be hidden rather than moved.\n\nCOMMON SCALE: use a portrait canvas matching the reference proportions, ideally its 916 x 1716 pixels. Preserve one common drawing scale/head size across all seven poses. Standing figure should fit comfortably inside with crown and shoes clear of edges, about 88â€“90% of canvas height. Do not crop hair, ribbon, sleeves, hem or shoes. No background shadow.\n\nOUTPUT: one complete character only, genuine transparent RGBA, with transparent padding around every extremity. No chair or stool, furniture, floor, scenery, cast shadow, text, labels, border, comparison panel, additional character, held object or modern accessory. All limbs remain complete for later furniture occlusion. This is a review draft, not final runtime art.\n\nPOSE standing_idle_south: Stand still facing SOUTH, TOWARD THE PLAYER. Both expressive brown eyes visible; retain the approved friendly front/very slight three-quarter presentation without turning into a side view. Hands gently clasped at waist/lower abdomen as in the approved master. Both feet close together and planted. Anatomical right ribbon and hip bow are on IMAGE LEFT. Preserve the approved face particularly closely.",
+  "referenced_image_paths_relative": [
+    "assets/characters/poses/char/masters/likeness-review-02/char-likeness-v2.png"
+  ],
+  "path_resolution": "Resolve each relative input against project root",
+  "inputs": [
+    {
+      "path": "assets/characters/poses/char/masters/likeness-review-02/char-likeness-v2.png",
+      "sha256": "e778ff629db4e58373b2fc0e65edaed63455af21c1e02a721809f5373bb75bb2",
+      "role": "approved_primary_identity_style_costume"
+    }
+  ],
+  "transparent_background": true,
+  "returned_file_basename": "exec-71320729-c638-4967-aa31-fcc5f6cb2277.png",
+  "source_master": "assets/characters/poses/char/masters/alignment_01/standing_idle_south.png",
+  "source_sha256": "4e747ca6f4c400dcd314f20b8a143497c3df3af9e45d446658be77877ab9d002",
+  "canvas": [
+    916,
+    1716
+  ],
+  "alpha_bounds": [
+    17,
+    3,
+    897,
+    1657
+  ],
+  "status": "approved_sample",
+  "approval": "approved",
+  "auto_mirrored": false,
+  "artwork_postprocessing": "none; immutable native generated master",
+  "source_landmarks": {
+    "feet": [
+      489,
+      1653
+    ],
+    "head_crown": [
+      460,
+      6
+    ],
+    "chin": [
+      490,
+      337
+    ]
+  },
+  "landmark_status": "manual visual estimates; not approved fit measurements",
+  "standing_reference_height": 1673,
+  "logical_standing_height": 64,
+  "source_units_to_logical_scale": 0.03825463239689181,
+  "contact_kind": "feet",
+  "fit_contact": null,
+  "furniture": null,
+  "exported_draft": "assets/characters/poses/char/exports/south/char_standing_idle_south_neutral.png",
+  "export_padding": [
+    64,
+    64
+  ],
+  "export_canvas": [
+    1045,
+    1844
+  ],
+  "export_contact": [
+    553,
+    1717
+  ],
+  "checks": {
+    "readable_png": true,
+    "native_rgba_transparency": true,
+    "correct_direction_visual_review": true,
+    "user_pose_approval": true,
+    "runtime_integrated": false,
+    "mask_fit_tested": false,
+    "pixel_preserving_padded_export": true,
+    "native_review_rendered": true
+  },
+  "review_notes": [
+    "Independent generated direction, not programmatically mirrored",
+    "Review head-size/proportion consistency and inferred side-bow/ribbon placement across angles",
+    "Seated common-scale extent is naturally shorter; no per-pose height normalization",
+    "Native top/hair padding is tight on standing samples; padded draft export adds 64 blank pixels without modifying art"
+  ],
+  "export_sha256": "cb2f47a3e67dcd4dc9156b54df39af2c8502e87cda7703c84ea3791ce7413693",
+  "logical_occupied_height": 63.273,
+  "skirt_clearance": {
+    "status": "lower hem footprint not finalized; source silhouette preserved and user review pending"
+  },
+  "approval_record": {
+    "decision": "approved_pose_samples",
+    "date": "2026-10-23",
+    "source": "Explicit user next-phase planning request",
+    "quote": "The first seven character pose samples have been generated successfully. I am happy with the results",
+    "pose_ids": [
+      "seated_idle_east",
+      "seated_idle_south",
+      "seated_idle_west",
+      "standing_idle_east",
+      "standing_idle_north",
+      "standing_idle_south",
+      "standing_idle_west"
+    ],
+    "scope": "Seven alignment_01 artwork samples and unchanged padded copies only; not runtime integration, calibrated contact landmarks, chair masks or complete character production."
+  }
+}

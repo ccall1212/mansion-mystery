@@ -1,0 +1,157 @@
+{
+  "status": "in-production",
+  "export_head_pixels": 48,
+  "render_scale": 0.3333333333333333,
+  "roster": [
+    {
+      "id": "01",
+      "slug": "investigating-clue",
+      "name": "Dr Jonas Reed",
+      "design": "Broad-built middle-aged Black physician, close-cropped gray hair and short beard, burgundy waistcoat, rolled ivory sleeves, slate trousers, brown boots.",
+      "pose": "Kneeling on one grounded knee, leaning forward, eyes directed down at a small brass magnifying lens held close to the floor.",
+      "head_units": 16,
+      "context": "floor",
+      "head_fraction": 0.42
+    },
+    {
+      "id": "02",
+      "slug": "examining-clock",
+      "name": "Ada Whitcombe",
+      "design": "Elderly woman, silver bobbed hair, small brass spectacles, ochre long dress and short plum shawl, slender build, dignified curious personality.",
+      "pose": "Standing upright in three-quarter profile, chin and neck clearly tilted UP, eyes looking above eye level at an unseen tall clock or portrait. Hands loosely clasped behind her back. No clock, picture or other environment in PNG.",
+      "head_units": 16,
+      "context": "clock",
+      "head_fraction": 0.33
+    },
+    {
+      "id": "03",
+      "slug": "hiding-under-bed",
+      "name": "Pip Harrow",
+      "design": "Freckled 13-year-old boy with unruly auburn curls, patched olive jacket, cream shirt, charcoal knee breeches, scuffed lace-up boots, small wiry build.",
+      "pose": "A complete low crouching/hiding pose seen from slightly above: folded knees tucked almost underneath chest, one hand braced on floor, other hand near his mouth, nervous eyes peeking toward viewer. Body compact and low enough to fit under a bed. No bed or furniture painted into PNG; foreground bed rail is added by engine. Keep whole crouched body visible for later occlusion. He is shorter than an adult but has the same stylized large-head language.",
+      "head_units": 14,
+      "context": "bed",
+      "head_fraction": 0.48
+    },
+    {
+      "id": "04",
+      "slug": "angry",
+      "name": "Martha Bell",
+      "design": "Sturdy middle-aged woman with warm brown skin, dark hair in a tight bun, plum blouse, ivory cook's apron, long charcoal skirt, practical dark shoes, strong square face.",
+      "pose": "Standing three-quarter toward viewer, arms firmly CROSSED over chest, tense raised shoulders, visible frown and furrowed eyebrows, annoyed weight shifted to one leg. Clear crossed hands and elbows.",
+      "head_units": 16,
+      "context": "floor",
+      "head_fraction": 0.34
+    },
+    {
+      "id": "05",
+      "slug": "reading",
+      "name": "Professor Alistair Finch",
+      "design": "Slim elderly white man, wispy white side hair, round brass glasses, navy suit and olive waistcoat, brown shoes, long angular face softened into canonical compact proportions.",
+      "pose": "SEATED in a natural chair-reading pose, hips and knees bent, both feet down on floor, an OPEN BOOK resting between both hands above lap, head angled down and gaze on pages. Character ONLY: no chair, stool, floor, background or extra prop. Keep thighs at believable seat height so engine can put a separate chair behind him.",
+      "head_units": 16,
+      "context": "chair",
+      "head_fraction": 0.43
+    },
+    {
+      "id": "06",
+      "slug": "speaking",
+      "name": "Clara Ashford",
+      "design": "Adult olive-skinned woman with dark brunette bob, dusty rose walking dress with cream cuffs and collar, narrow waist, small cameo pin, expressive arched brows.",
+      "pose": "Standing and TALKING, body slightly turned to RIGHT toward an unseen person, mouth naturally mid-speech, one hand making an open-palm conversational gesture at chest level, the other relaxed. Engaged friendly confident expression.",
+      "head_units": 16,
+      "context": "floor",
+      "head_fraction": 0.33
+    },
+    {
+      "id": "07",
+      "slug": "listening",
+      "name": "Edmund Price",
+      "design": "Lean adult man with light-brown skin, slick black side-parted hair, thin mustache, gray pinstripe suit, teal tie, dark polished shoes, reserved personality.",
+      "pose": "Standing turned toward LEFT, LISTENING to an unseen speaker: hands gently clasped behind back, slight attentive forward tilt of head, closed mouth, one raised eyebrow and restrained skeptical expression. Distinct silhouette and emotion from a gesturing speaker.",
+      "head_units": 16,
+      "context": "floor",
+      "head_fraction": 0.33
+    },
+    {
+      "id": "08",
+      "slug": "pointing-clue",
+      "name": "Beatrice Shaw",
+      "design": "Young adult Black woman, voluminous dark curls tied with narrow ochre ribbon, teal utility blouse with rolled cuffs, mustard long skirt, brown ankle boots, energetic practical personality.",
+      "pose": "Leaning forward and decisively POINTING toward a discovery off to LEFT, one arm extended with clearly readable index finger, eyes and head following finger, other hand near hip for balance. Both feet grounded, active asymmetrical silhouette.",
+      "head_units": 16,
+      "context": "floor",
+      "head_fraction": 0.32
+    },
+    {
+      "id": "09",
+      "slug": "walking-left",
+      "name": "Thomas Pike",
+      "design": "Broad-shouldered middle-aged white porter with red hair and short red beard, tan herringbone long coat, forest waistcoat, dark trousers and chunky boots, small brown satchel against hip.",
+      "pose": "Strict side-facing WALKING LEFT. One boot planted well forward left, other leg extended BACK and heel raised, knees visibly bent in opposite phases, opposite arm swing, coat hem trailing behind to RIGHT. A readable mid-stride, not a static profile or marching in place.",
+      "head_units": 16,
+      "context": "floor",
+      "head_fraction": 0.32
+    },
+    {
+      "id": "10",
+      "slug": "walking-right",
+      "name": "Rosa Marin",
+      "design": "Young adult Mediterranean woman with dark single braid, copper/rust traveling skirt split enough to show boots, cream blouse, fitted dark green short jacket, sturdy boots, lean athletic build.",
+      "pose": "Strict side-facing WALKING RIGHT. Clear opposing arm and leg swing: front boot reaching to RIGHT, back heel lifting on LEFT, visible bent knee, moving skirt hem and braid trailing to LEFT. Convincing dynamic stride with naturally held shoulders, not a mirrored copy of another cast member.",
+      "head_units": 16,
+      "context": "floor",
+      "head_fraction": 0.33
+    },
+    {
+      "id": "11",
+      "slug": "standing-idle",
+      "name": "Lucien Voss",
+      "design": "Late-middle-aged pale man with silver shoulder-length hair, plum velvet waistcoat, dark brown frock coat, burgundy cravat, rounded build, distinctive hooked brows and amiable tired face.",
+      "pose": "Relaxed IDLE facing mostly viewer in gentle three-quarter angle, weight naturally on one foot, one hand resting in coat pocket and other loosely holding folded gloves by thigh. Subtle asymmetry and softened shoulders, not rigid portrait posing.",
+      "head_units": 16,
+      "context": "floor",
+      "head_fraction": 0.33
+    },
+    {
+      "id": "12",
+      "slug": "inspecting-shelf",
+      "name": "Nell Mercer",
+      "design": "Young adult brown-skinned housemaid with short dark coiled hair under a modest cream cap, blue dress, white collar, narrow pale apron, small practical shoes.",
+      "pose": "Back/side toward viewer, reaching ONE arm upward toward an object on an unseen shelf on RIGHT, eyes looking toward reaching fingers. Other arm bent holding sleeve out of way, feet naturally planted with slight stretch in torso. No shelf, cabinet or other background; hand and gaze clearly indicate contact height.",
+      "head_units": 16,
+      "context": "shelf",
+      "head_fraction": 0.29
+    },
+    {
+      "id": "13",
+      "slug": "peeking-doorway",
+      "name": "Celia Wren",
+      "design": "Adult fair-skinned woman, short copper bob, dark blue long coat with brass buttons over cream blouse and burgundy skirt, narrow shoulders, curious cautious personality.",
+      "pose": "Complete body in a cautious LEANING PEEK: feet together offset to LEFT, head and upper torso leaning out toward RIGHT around an unseen vertical doorframe, one hand poised at that frame edge. Wide curious eyes, tense slightly raised shoulders. Character PNG must NOT include a door or frame. Engine will occlude left portion behind separate doorframe, so do not crop her body.",
+      "head_units": 16,
+      "context": "door",
+      "head_fraction": 0.34
+    },
+    {
+      "id": "14",
+      "slug": "carrying-lantern",
+      "name": "Gideon Moss",
+      "design": "Older stocky man with medium-brown skin, short salt-and-pepper hair and thick brows, muted yellow oilskin rain cape over charcoal trousers, leather boots, lined wary face.",
+      "pose": "Standing cautiously three-quarter toward LEFT, holding a small brass OIL LANTERN naturally by its top handle in one lowered hand ahead of his body. Looking carefully into darkness, other hand slightly out for balance. Warm lantern light is subtle secondary light; no halo or external glow. Lantern must not cover face or whole torso. No environmental background.",
+      "head_units": 16,
+      "context": "floor",
+      "head_fraction": 0.33
+    },
+    {
+      "id": "15",
+      "slug": "startled",
+      "name": "Harriet Sloane",
+      "design": "Nineteen-year-old dark-skinned woman with curly high ponytail, dark green checked short cape, ivory blouse, burgundy skirt and lace-up boots, slight build.",
+      "pose": "STARTLED and frightened: torso recoiling backward, one foot stepping back, open hands raised defensively without hiding face, wide eyes and open gasp, gaze fixed toward unexpected presence off to LEFT. Clear readable fear, not aggression or comedy. Preserve canonical compact head/body style.",
+      "head_units": 16,
+      "context": "floor",
+      "head_fraction": 0.34
+    }
+  ]
+}

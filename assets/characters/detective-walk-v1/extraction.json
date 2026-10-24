@@ -1,0 +1,166 @@
+{
+  "frames": [
+    {
+      "column": 0,
+      "pivot": [
+        200,
+        540
+      ],
+      "row": 0,
+      "source_bounds": [
+        23,
+        85,
+        315,
+        482
+      ],
+      "source_rect": [
+        0,
+        0,
+        359,
+        600
+      ]
+    },
+    {
+      "column": 1,
+      "pivot": [
+        600,
+        540
+      ],
+      "row": 0,
+      "source_bounds": [
+        22,
+        85,
+        253,
+        482
+      ],
+      "source_rect": [
+        359,
+        0,
+        285,
+        600
+      ]
+    },
+    {
+      "column": 2,
+      "pivot": [
+        1000,
+        540
+      ],
+      "row": 0,
+      "source_bounds": [
+        12,
+        85,
+        310,
+        482
+      ],
+      "source_rect": [
+        644,
+        0,
+        351,
+        600
+      ]
+    },
+    {
+      "column": 3,
+      "pivot": [
+        1400,
+        540
+      ],
+      "row": 0,
+      "source_bounds": [
+        31,
+        85,
+        263,
+        482
+      ],
+      "source_rect": [
+        995,
+        0,
+        315,
+        600
+      ]
+    },
+    {
+      "column": 0,
+      "pivot": [
+        200,
+        1140
+      ],
+      "row": 1,
+      "source_bounds": [
+        18,
+        37,
+        320,
+        483
+      ],
+      "source_rect": [
+        0,
+        600,
+        346,
+        600
+      ]
+    },
+    {
+      "column": 1,
+      "pivot": [
+        600,
+        1140
+      ],
+      "row": 1,
+      "source_bounds": [
+        10,
+        37,
+        251,
+        484
+      ],
+      "source_rect": [
+        346,
+        600,
+        285,
+        600
+      ]
+    },
+    {
+      "column": 2,
+      "pivot": [
+        1000,
+        1140
+      ],
+      "row": 1,
+      "source_bounds": [
+        25,
+        37,
+        307,
+        484
+      ],
+      "source_rect": [
+        631,
+        600,
+        338,
+        600
+      ]
+    },
+    {
+      "column": 3,
+      "pivot": [
+        1400,
+        1140
+      ],
+      "row": 1,
+      "source_bounds": [
+        8,
+        37,
+        316,
+        484
+      ],
+      "source_rect": [
+        969,
+        600,
+        341,
+        600
+      ]
+    }
+  ],
+  "fringe_pixels": 12805,
+  "method": "user RGB; generated alpha mask; red exterior fringe only; no limb transforms or resizing"
+}

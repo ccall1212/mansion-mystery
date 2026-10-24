@@ -1,0 +1,52 @@
+{
+  "status": "draft-review-only",
+  "checks": [
+    {
+      "file": "photo-03-handsome-c-e-current-beard-v4.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "sha256": "2e261fa7da4b5e60c4c78426bf11c9137740f92512b95be64c34a6e695c8cd4e",
+      "alpha_extrema": null,
+      "expected_transparent": false,
+      "passed": true
+    },
+    {
+      "file": "photo-02-hat-full-beard-v4.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "490336687341d427f0e37226c1d7a8b6ee8be0e19037292bd23b84c1f62b280b",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "expected_transparent": true,
+      "passed": true
+    }
+  ],
+  "identity_checks": {
+    "party_C_first_D": true,
+    "party_D_first_B": true,
+    "user_E_hat_new_photo": true,
+    "party_F_removed_alias_C": true,
+    "party_G_removed_alias_H": true,
+    "no_duplicate_alias_assignments": true
+  },
+  "prior_boards_unchanged": {
+    "photo-03-six-adults-taller-v3.png": true,
+    "photo-04-upper-five-v3.png": true
+  },
+  "technical_passed": true,
+  "visual_review": {
+    "first_group": "C has a lower/fuller short sandy front and balanced forehead; E has fuller darker brown beard. A/B/D/F retain consistent faces, outfits and body lengths.",
+    "hat_pair": "Both poses show fuller brown beard and connected moustache; cap worn left, cap held during scalp-scratch right.",
+    "limits": "Visual consistency review only, not automated likeness validation; source alpha includes translucent fringe requiring production cleanup."
+  },
+  "runtime_replaced": false,
+  "final_cast_approved": false
+}

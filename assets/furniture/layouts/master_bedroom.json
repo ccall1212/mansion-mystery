@@ -1,0 +1,804 @@
+{
+  "schema_version": 1,
+  "id": "master_bedroom",
+  "background": "res://assets/rooms/room-guest-bedroom-alternate.png",
+  "coordinate_space": "background_local",
+  "coordinate_size": [
+    480,
+    320
+  ],
+  "instances": [
+    {
+      "id": "master_bedroom_bed_01",
+      "variant_id": "bed_north_south_head_north",
+      "position": [
+        390.0,
+        158
+      ],
+      "bounds": [
+        -52.0,
+        -158,
+        104,
+        158
+      ],
+      "footprint": [
+        -52.0,
+        -158.0,
+        104.0,
+        158.0
+      ],
+      "anchors": [
+        {
+          "id": "lie",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -79.0
+          ],
+          "approach": [
+            -75,
+            -45
+          ],
+          "actor_facing": null,
+          "posture": "lying",
+          "activities": [
+            "idle"
+          ],
+          "contact_kind": "pelvis",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "body_axis": "north_south",
+          "head_toward": "north"
+        },
+        {
+          "id": "sit_west",
+          "enabled": true,
+          "contact": [
+            -52.0,
+            -79.0
+          ],
+          "approach": [
+            -84.0,
+            -79.0
+          ],
+          "actor_facing": "west",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "sit_east",
+          "enabled": false,
+          "contact": [
+            52.0,
+            -79.0
+          ],
+          "approach": [
+            82.0,
+            -79.0
+          ],
+          "actor_facing": "east",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "master_bedroom_nightstand_01",
+      "variant_id": "cabinet_west",
+      "position": [
+        450.5,
+        175
+      ],
+      "bounds": [
+        -19.5,
+        -75,
+        39,
+        75
+      ],
+      "footprint": [
+        -19.5,
+        -12.857142857142858,
+        39.0,
+        12.857142857142858
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            -33.5,
+            -3
+          ],
+          "approach": [
+            -48.5,
+            13
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "reach"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "master_bedroom_bedside_bench_01",
+      "variant_id": "bench_west",
+      "position": [
+        330.0,
+        155
+      ],
+      "bounds": [
+        -14.0,
+        -53,
+        28,
+        53
+      ],
+      "footprint": [
+        -14.0,
+        -17.666666666666668,
+        28.0,
+        17.666666666666668
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -20.14
+          ],
+          "approach": [
+            -20.63,
+            0.0
+          ],
+          "actor_facing": "west",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "master_bedroom_vanity_01",
+      "variant_id": "desk_east",
+      "position": [
+        73.0,
+        127
+      ],
+      "bounds": [
+        -29.0,
+        -59,
+        58,
+        59
+      ],
+      "footprint": [
+        -29.0,
+        -14.16,
+        58.0,
+        14.16
+      ],
+      "anchors": [
+        {
+          "id": "seated_work",
+          "enabled": true,
+          "contact": [
+            26,
+            -19
+          ],
+          "approach": [
+            50,
+            8
+          ],
+          "actor_facing": "west",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "read",
+            "write"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "standing_work",
+          "enabled": true,
+          "contact": [
+            43.0,
+            -3
+          ],
+          "approach": [
+            58.0,
+            -3
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "read"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging. Seated work shares the separately tagged vanity chair; these are one occupancy group.",
+      "occupancy_group": "master_vanity"
+    },
+    {
+      "id": "master_bedroom_vanity_chair_01",
+      "variant_id": "chair_west",
+      "position": [
+        94.0,
+        126
+      ],
+      "bounds": [
+        -12.0,
+        -35,
+        24,
+        35
+      ],
+      "footprint": [
+        -12.0,
+        -8.75,
+        24.0,
+        8.75
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -13.3
+          ],
+          "approach": [
+            -22.8,
+            0.0
+          ],
+          "actor_facing": "west",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read",
+            "write"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging.",
+      "occupancy_group": "master_vanity"
+    },
+    {
+      "id": "master_bedroom_mirror_01",
+      "variant_id": "mirror_east",
+      "position": [
+        72.5,
+        77
+      ],
+      "bounds": [
+        -17.5,
+        -49,
+        35,
+        49
+      ],
+      "footprint": [
+        -17.5,
+        -9.8,
+        35.0,
+        9.8
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            31.5,
+            95
+          ],
+          "approach": [
+            46.5,
+            111
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "master_bedroom_fireplace_01",
+      "variant_id": "fireplace_south",
+      "position": [
+        146.5,
+        102
+      ],
+      "bounds": [
+        -34.5,
+        -88,
+        69,
+        88
+      ],
+      "footprint": [
+        -34.5,
+        -10.56,
+        69.0,
+        10.56
+      ],
+      "anchors": [
+        {
+          "id": "stand",
+          "enabled": true,
+          "contact": [
+            0.0,
+            12
+          ],
+          "approach": [
+            0.0,
+            27
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "warm_hands"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "kneel",
+          "enabled": true,
+          "contact": [
+            0.0,
+            17.6
+          ],
+          "approach": [
+            0.0,
+            38.72
+          ],
+          "actor_facing": "north",
+          "posture": "kneeling",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "knees",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "master_bedroom_window_01",
+      "variant_id": "window_south",
+      "position": [
+        256.5,
+        78
+      ],
+      "bounds": [
+        -34.5,
+        -78,
+        69,
+        78
+      ],
+      "footprint": [
+        -34.5,
+        -9.36,
+        69.0,
+        9.36
+      ],
+      "anchors": [
+        {
+          "id": "look_out",
+          "enabled": true,
+          "contact": [
+            0.0,
+            94
+          ],
+          "approach": [
+            0.0,
+            110
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "look_out",
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "gaze_target": [
+            0.0,
+            -50.7
+          ]
+        },
+        {
+          "id": "view_from_west",
+          "enabled": true,
+          "contact": [
+            -50.5,
+            94
+          ],
+          "approach": [
+            -62.5,
+            110
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "west",
+          "gaze_target": [
+            0.0,
+            -50.7
+          ],
+          "visual_review": "pending",
+          "notes": "Draft side viewing position; review access, gaze, skirt and occlusion. Outside-image contacts stay disabled."
+        },
+        {
+          "id": "view_from_east",
+          "enabled": true,
+          "contact": [
+            50.5,
+            94
+          ],
+          "approach": [
+            62.5,
+            110
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "east",
+          "gaze_target": [
+            0.0,
+            -50.7
+          ],
+          "visual_review": "pending",
+          "notes": "Draft side viewing position; review access, gaze, skirt and occlusion. Outside-image contacts stay disabled."
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "master_bedroom_window_bench_01",
+      "variant_id": "bench_south",
+      "position": [
+        256.0,
+        100
+      ],
+      "bounds": [
+        -33.0,
+        -24,
+        66,
+        24
+      ],
+      "footprint": [
+        -33.0,
+        -8.0,
+        66.0,
+        8.0
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -9.12
+          ],
+          "approach": [
+            0.0,
+            16.0
+          ],
+          "actor_facing": "south",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "master_bedroom_west_door_01",
+      "variant_id": "doorway_east",
+      "position": [
+        18.0,
+        198
+      ],
+      "bounds": [
+        -15.0,
+        -103,
+        30,
+        103
+      ],
+      "footprint": [
+        -15.0,
+        -12.36,
+        30.0,
+        12.36
+      ],
+      "anchors": [
+        {
+          "id": "inside",
+          "enabled": true,
+          "contact": [
+            29.0,
+            -3
+          ],
+          "approach": [
+            44.0,
+            -3
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "outside",
+          "enabled": false,
+          "contact": [
+            29.0,
+            -3
+          ],
+          "approach": [
+            44.0,
+            -3
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging. Visual opening tag only; actual traversable exits remain defined by mansion portals."
+    },
+    {
+      "id": "master_bedroom_east_door_01",
+      "variant_id": "doorway_west",
+      "position": [
+        462.0,
+        320
+      ],
+      "bounds": [
+        -16.0,
+        -90,
+        32,
+        90
+      ],
+      "footprint": [
+        -16.0,
+        -10.8,
+        32.0,
+        10.8
+      ],
+      "anchors": [
+        {
+          "id": "inside",
+          "enabled": true,
+          "contact": [
+            -30.0,
+            -10
+          ],
+          "approach": [
+            -45.0,
+            -12
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "outside",
+          "enabled": false,
+          "contact": [
+            -30.0,
+            -10
+          ],
+          "approach": [
+            -45.0,
+            -12
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging. Visual opening tag only; actual traversable exits remain defined by mansion portals."
+    }
+  ]
+}

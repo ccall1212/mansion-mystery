@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "character_id": "likeness-photo01",
+  "batch_id": "alignment_01",
+  "approved_reference": "assets/characters/poses/char/masters/likeness-review-02/char-likeness-v2.png",
+  "reference_sha256": "e778ff629db4e58373b2fc0e65edaed63455af21c1e02a721809f5373bb75bb2",
+  "common_source_standing_height": 1673,
+  "logical_standing_height": 64,
+  "export_padding": [
+    64,
+    64
+  ],
+  "export_canvas": [
+    1045,
+    1844
+  ],
+  "pose_records": [
+    "assets/characters/poses/char/prompts/alignment_01/standing_idle_north.json",
+    "assets/characters/poses/char/prompts/alignment_01/standing_idle_east.json",
+    "assets/characters/poses/char/prompts/alignment_01/standing_idle_south.json",
+    "assets/characters/poses/char/prompts/alignment_01/standing_idle_west.json",
+    "assets/characters/poses/char/prompts/alignment_01/seated_idle_east.json",
+    "assets/characters/poses/char/prompts/alignment_01/seated_idle_south.json",
+    "assets/characters/poses/char/prompts/alignment_01/seated_idle_west.json"
+  ],
+  "caveats": [
+    "All poses await approval",
+    "Source landmarks are manual visual estimates",
+    "Context composites use actual room renderer plus unapproved review overlay, not runtime pose integration",
+    "No furniture foreground masks; fit, occupancy and navigation not approved",
+    "Asymmetric side interpretation and head proportions require user review",
+    "Final display resolution and export dimensions not locked"
+  ]
+}

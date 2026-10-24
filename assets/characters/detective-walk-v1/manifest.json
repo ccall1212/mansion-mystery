@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "first-iteration-user-corrected-art",
+  "source": "res://assets/characters/detective-walk-v1/masters/user-corrected-horizontal.png",
+  "sheet": "res://assets/characters/detective-walk-v1/horizontal-sheet.png",
+  "columns": 4,
+  "rows": 2,
+  "cell_size": [
+    400,
+    600
+  ],
+  "pivot": [
+    200,
+    540
+  ],
+  "source_height": 484,
+  "standing_height_ratio": 0.968503937007874,
+  "order": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "cycle_distance": 56,
+  "idle_source": "original detective sheet",
+  "up_down_source": "res://assets/foyer/investigator-sheet.png",
+  "original_sha256": "69c4a13cf6063b7bad6c2de71b23803333782a343983dee6b3a21d0d5fd68bde",
+  "cleanup": "User interior RGB retained. Built-in imagegen alpha mask, hard alpha threshold, exterior red fringe neutralization only."
+}

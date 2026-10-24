@@ -1,0 +1,15 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Local reference material must never be published.
+/reference/
+/logs/
+/test-results/
+/.venv/
+/.codex/config.toml
+/tools/dos-game-mcp/local.json
+__pycache__/
+.pytest_cache/
+*.pyc
+*.zip

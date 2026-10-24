@@ -1,0 +1,314 @@
+{
+  "version": 4,
+  "status": "15-photo-based-people-named; remaining-appearance-review-pending",
+  "final_cast_approved": false,
+  "scope": "User-supplied adult likeness concepts; separate from proposed fictional pose roster and Eleanor.",
+  "identity_basis": "Explicit user mappings only. Other repeated people may remain; source labels are not real names.",
+  "identities": [
+    {
+      "id": "likeness-photo01",
+      "label": "Pink-cardigan woman / party I",
+      "aliases": [
+        "photo-01",
+        "photo-04-I"
+      ],
+      "variants": [
+        {
+          "slot": "photo-01",
+          "pose": "greeting"
+        },
+        {
+          "slot": "photo-04-I",
+          "pose": "standing",
+          "note": "Same person confirmed by user; alternate outfit/look."
+        }
+      ],
+      "review_number": "01",
+      "name": "Char",
+      "preferred_source_slot": "photo-04-I",
+      "preferred_art_catalog": "assets/characters/review-v8/cast-catalog.json"
+    },
+    {
+      "id": "likeness-first-A",
+      "label": "First-group A / party M",
+      "aliases": [
+        "photo-03-A",
+        "photo-04-M"
+      ],
+      "variants": [
+        {
+          "slot": "photo-03-A",
+          "pose": "standing"
+        },
+        {
+          "slot": "photo-04-M",
+          "pose": "standing",
+          "note": "Same person confirmed by user; alternate outfit/look."
+        }
+      ],
+      "review_number": "02",
+      "name": "Justin",
+      "preferred_source_slot": "photo-04-M",
+      "preferred_art_catalog": "assets/characters/review-v8/cast-catalog.json"
+    },
+    {
+      "id": "likeness-first-B",
+      "label": "First-group B / party D",
+      "aliases": [
+        "photo-03-B",
+        "photo-04-D"
+      ],
+      "variants": [
+        {
+          "slot": "photo-03-B",
+          "pose": "reserved standing"
+        },
+        {
+          "slot": "photo-04-D",
+          "pose": "expressive standing",
+          "note": "Same person; alternate expression/outfit concept."
+        }
+      ],
+      "review_number": "03",
+      "name": "Danny",
+      "preferred_art_catalog": "assets/characters/review-v8/cast-catalog.json"
+    },
+    {
+      "id": "likeness-first-C",
+      "label": "First-group C / blue waistcoat",
+      "aliases": [
+        "photo-03-C"
+      ],
+      "variants": [
+        {
+          "slot": "photo-03-C",
+          "pose": "hands-on-hips standing",
+          "note": "Forehead and flattering face revision requested."
+        }
+      ],
+      "review_number": "04",
+      "name": "Gage",
+      "preferred_art_catalog": "assets/characters/review-v8/cast-catalog.json"
+    },
+    {
+      "id": "likeness-first-D",
+      "label": "First-group D / party C",
+      "aliases": [
+        "photo-03-D",
+        "photo-04-C",
+        "photo-04-F"
+      ],
+      "variants": [
+        {
+          "slot": "photo-03-D",
+          "pose": "standing, waistcoat"
+        },
+        {
+          "slot": "photo-04-C",
+          "pose": "standing, navy coat",
+          "note": "Same person; alternate outfit concept."
+        }
+      ],
+      "removed_duplicate_designs": [
+        "photo-04-F"
+      ],
+      "review_number": "05",
+      "name": "Robbie",
+      "preferred_source_slot": "photo-04-C",
+      "preferred_art_catalog": "assets/characters/review-v8/cast-catalog.json"
+    },
+    {
+      "id": "likeness-user",
+      "label": "Chris / first-group E / hat portrait",
+      "aliases": [
+        "photo-03-E",
+        "photo-02",
+        "photo-05-man-left"
+      ],
+      "variants": [
+        {
+          "slot": "photo-03-E",
+          "pose": "standing, cap held at side"
+        },
+        {
+          "slot": "photo-02",
+          "pose": "cap worn"
+        },
+        {
+          "slot": "photo-02",
+          "pose": "cap held, scratching bare head"
+        }
+      ],
+      "current_likeness_reference": "reference/art-direction/likenesses/batch-01/photo-05-current-beard.png",
+      "appearance_notes": "Use newer full brown beard and connected moustache. Balance forehead without replacing recognizable bald/receding identity.",
+      "review_number": "06",
+      "name": "Chris",
+      "preferred_source_slot": "photo-02",
+      "preferred_art_catalog": "assets/characters/review-v8/cast-catalog.json"
+    },
+    {
+      "id": "likeness-first-F",
+      "label": "First-group F / party K",
+      "aliases": [
+        "photo-03-F",
+        "photo-04-K"
+      ],
+      "variants": [
+        {
+          "slot": "photo-03-F",
+          "pose": "standing"
+        },
+        {
+          "slot": "photo-04-K",
+          "pose": "standing",
+          "note": "Same person confirmed by user; alternate outfit/look."
+        }
+      ],
+      "review_number": "07",
+      "name": "Kwinn",
+      "appearance_notes": "Scruffy goatee plus short scruff around jaw and both cheeks; use in both outfit variants.",
+      "preferred_source_slot": "photo-04-K",
+      "preferred_art_catalog": "assets/characters/review-v8/cast-catalog.json"
+    },
+    {
+      "id": "likeness-party-A",
+      "label": "Party A",
+      "aliases": [
+        "photo-04-A"
+      ],
+      "variants": [
+        {
+          "slot": "photo-04-A",
+          "pose": "standing"
+        }
+      ],
+      "review_number": "08",
+      "name": "Chloe",
+      "preferred_art_catalog": "assets/characters/review-v8/cast-catalog.json"
+    },
+    {
+      "id": "likeness-party-B",
+      "label": "Party B",
+      "aliases": [
+        "photo-04-B"
+      ],
+      "variants": [
+        {
+          "slot": "photo-04-B",
+          "pose": "standing"
+        }
+      ],
+      "review_number": "09",
+      "name": "Matt",
+      "preferred_art_catalog": "assets/characters/review-v8/cast-catalog.json"
+    },
+    {
+      "id": "likeness-party-E",
+      "label": "Party E",
+      "aliases": [
+        "photo-04-E"
+      ],
+      "variants": [
+        {
+          "slot": "photo-04-E",
+          "pose": "standing"
+        }
+      ],
+      "review_number": "10",
+      "name": "Camille",
+      "preferred_art_catalog": "assets/characters/review-v8/cast-catalog.json"
+    },
+    {
+      "id": "likeness-party-H",
+      "label": "Party H",
+      "aliases": [
+        "photo-04-H",
+        "photo-04-G"
+      ],
+      "variants": [
+        {
+          "slot": "photo-04-H",
+          "pose": "standing"
+        }
+      ],
+      "removed_duplicate_designs": [
+        "photo-04-G"
+      ],
+      "review_number": "11",
+      "name": "Carolyn",
+      "preferred_art_catalog": "assets/characters/review-v8/cast-catalog.json"
+    },
+    {
+      "id": "likeness-party-J",
+      "label": "Party J",
+      "aliases": [
+        "photo-04-J"
+      ],
+      "variants": [
+        {
+          "slot": "photo-04-J",
+          "pose": "standing"
+        }
+      ],
+      "review_number": "12",
+      "name": "Isabelle",
+      "preferred_art_catalog": "assets/characters/review-v8/cast-catalog.json"
+    },
+    {
+      "id": "likeness-party-L",
+      "label": "Party L",
+      "aliases": [
+        "photo-04-L"
+      ],
+      "variants": [
+        {
+          "slot": "photo-04-L",
+          "pose": "standing"
+        }
+      ],
+      "review_number": "13",
+      "name": "Sarah Jo",
+      "preferred_art_catalog": "assets/characters/review-v8/cast-catalog.json",
+      "appearance_notes": "Very short cropped dark brown hair; keep face and navy dress.",
+      "appearance_approved_by_user": true
+    },
+    {
+      "id": "likeness-new-left",
+      "label": "New pair / left woman",
+      "aliases": [
+        "photo-06-woman-left"
+      ],
+      "review_number": "20",
+      "name": "Jessica",
+      "variants": [
+        {
+          "slot": "photo-06-woman-left",
+          "pose": "standing"
+        }
+      ],
+      "current_likeness_reference": "reference/art-direction/likenesses/batch-01/photo-06-new-pair.png",
+      "appearance_notes": "Approximately 5 feet tall short adult with adult proportions; dark brown curls; royal-blue mansion dress. Use cartoon facial features matching the established RPG cast, not realistic photo faces.",
+      "preferred_art_catalog": "assets/characters/review-v8/cast-catalog.json"
+    },
+    {
+      "id": "likeness-new-right",
+      "label": "New pair / right man",
+      "aliases": [
+        "photo-06-man-right"
+      ],
+      "review_number": "21",
+      "name": "John",
+      "variants": [
+        {
+          "slot": "photo-06-man-right",
+          "pose": "standing"
+        }
+      ],
+      "current_likeness_reference": "reference/art-direction/likenesses/batch-01/photo-06-new-pair.png",
+      "appearance_notes": "Receding close-cropped hair, dark rectangular glasses and long dark goatee; taller than left woman. Use cartoon facial features matching the established RPG cast, not realistic photo faces.",
+      "preferred_art_catalog": "assets/characters/review-v8/cast-catalog.json"
+    }
+  ],
+  "excluded": "Blurred people in original party photo; woman/background people in new beard-only reference are not requested as new cast.",
+  "next_step": "Review Jessica and John's cartoon revisions with the remaining cast before further pose production; Sarah Jo's new look approved."
+}

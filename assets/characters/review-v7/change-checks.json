@@ -1,0 +1,35 @@
+{
+  "technical_passed": true,
+  "supplied_13_names_exact": true,
+  "remaining_8_names_unassigned": true,
+  "prior_19_identity_ids_preserved": true,
+  "other_18_art_selections_unchanged": {
+    "01": true,
+    "02": true,
+    "03": true,
+    "04": true,
+    "05": true,
+    "06": true,
+    "07": true,
+    "08": true,
+    "09": true,
+    "10": true,
+    "11": true,
+    "12": true,
+    "14": true,
+    "15": true,
+    "16": true,
+    "17": true,
+    "18": true,
+    "19": true
+  },
+  "new_pair_numbering": [
+    "20",
+    "21"
+  ],
+  "new_woman_height_ratio": 0.85,
+  "height_note": "Approximately five-foot short adult as user described; ratio is a review-layout comparison, not a final engine-world measurement.",
+  "new_pair_adjacent": true,
+  "sarah_jo_selected_source": "res://assets/characters/review-v7/masters/sarah-jo-short-hair-proportions-v7.png",
+  "final_cast_approved": false
+}

@@ -1,0 +1,3232 @@
+{
+  "schema_version": 1,
+  "authoring_only": true,
+  "runtime_loaded": false,
+  "summary": {
+    "rooms": 18,
+    "layouts": 14,
+    "unique_objects": 118,
+    "room_objects": 149,
+    "contacts": 247,
+    "enabled_contacts": 201,
+    "disabled_contacts": 46,
+    "clear_approach_contacts": 133,
+    "blocked_approach_contacts": 68,
+    "staging_ready_contacts": 0,
+    "furniture_pose_ids": 42,
+    "concrete_pose_ids": 47,
+    "semantic_families": 34,
+    "catalog_orientations": 84,
+    "used_orientations": 38
+  },
+  "source_hashes": {
+    "assets/characters/poses/requirements-brief.json": "5266da5ac30ce9b434c1753268ff7547da3583fa629fb8cad6f7411f718e9c66",
+    "assets/characters/rendering.json": "397cb34eb20abf0f5d73756ff3efda7bca780c2ff6e988bed22324552609f01e",
+    "assets/characters/review-v8/cast-catalog.json": "48cf72a4373da357a75b37f3aab27263241077f3c1fb525cbcfaf09cdc5d2f70",
+    "assets/furniture/backgrounds.json": "6fdb74fd41efd4bcbdcdc5e118c48b65f9d9cf9a7dd29741808cfc2b9d5593a0",
+    "assets/furniture/catalog.json": "7f83c47e7753d1b0c7d7c3da8748583385a5c05ccdc00e0329c903899c507253",
+    "assets/furniture/layouts/basement_stone.json": "56cf44e14674781779c31d8e34bf794cbd1bba5fe798cfcf57bf1e26b1924320",
+    "assets/furniture/layouts/basement_storage.json": "e63dca1c9c2b542c28f135acbaaa709f8ac88fe50efc9df7817d2dfde4115c6d",
+    "assets/furniture/layouts/dining.json": "d43f29f68737e4627a14333054591bbfdd25c4440aa8b6a863bf14c8e5748d1e",
+    "assets/furniture/layouts/foyer.json": "9280cfe1b0686d36a27b3050e55d8cd87df39600c74af379c4520f393578578f",
+    "assets/furniture/layouts/guest_bedroom.json": "aff92873c228e7a3139b55effcc7e174afeb8a2979793afa4cf156202afe6ede",
+    "assets/furniture/layouts/kitchen.json": "f1a8efd64e381c21050331cc4edb1fa5e12117bb92043a9841d781fe35ce2a7e",
+    "assets/furniture/layouts/library.json": "9154decd02d6320e72bc747ea82f283c27fb7978059e3560954be11cfc49e72b",
+    "assets/furniture/layouts/main_stair.json": "d46c3ce7d85bfb35639696af56122fd8d8582e172b895f4a87310865f66e701a",
+    "assets/furniture/layouts/master_bedroom.json": "67e4323752c712d9b38e777392d92534aeb281ba19025ab1f126ff22e054e657",
+    "assets/furniture/layouts/service_stair.json": "663d72a5c7108ff3fdc29bfc1fbd5fb8ea0e650c24ae1a83562e465a69cb5e8b",
+    "assets/furniture/layouts/study_archive.json": "45ff16a0d9e3999796147a34dff6620b8db78fc178a0c73e85623e9bc1547639",
+    "assets/furniture/layouts/upper_gallery.json": "71d8f513b24daf122c6866e36e221f10bdaf8e063685f31201b049c31a4377b7",
+    "assets/furniture/layouts/upper_service.json": "92e5a5de54c07a11ddc8d42f3f84fc09d0061aa4eff1ff8ac639b85de317b76f",
+    "assets/furniture/layouts/washroom_placeholder.json": "e4b5abb94c3d6a839253368e55f899b04a24694ac527c0cef5fa0bbac79709fb",
+    "assets/mansion/fixed-mansion.json": "872fa87d215a48482b54bbad040d0e1eb6ecdd4aa59af0d0b9db06c606330de8",
+    "docs/CAST_NAME_REVIEW.md": "ed7f38e18d87f5ed75cf262385e7ab7a47754855481d7105b437ece3a84a204f",
+    "docs/CHARACTER_ART_GUIDE.md": "bf55bd6c64eae68549243f4221d567b604053ca4cfde10dcf8dd18957e71c0e2",
+    "docs/CHARACTER_MEASUREMENT_STANDARD.md": "cd92a6434943d092c542163d2f7e87116787650006dd681b19a7153c517024d6",
+    "docs/CHARACTER_RENDERING.md": "d12833a27daf1921ef7757aa3d24c2e4f27d7f375c664fa2161d1c6e6be2b114",
+    "docs/GAME_DESIGN.md": "dacf581a1c08210f1e04d0171b9f77097cc8c93a4ee7a8e2f2dfa9f42c80d1cf",
+    "docs/GAME_DESIGN_BRAINSTORM.md": "89f34ebcca113b00d3c7f41584bc51aa13094d589b4a182aea6d5a95e9d88dbe",
+    "src/characters/character_render.gd": "e8a49b099858a1d580b6c237f4c3433a190873f1f03eaf0ba86c607d440dfe84",
+    "src/characters/prototype_npc.gd": "e350665314abb265b39ea8de9c24059bac334b19b2b07a0ca5187720aff2aedf",
+    "src/furniture/furniture_library.gd": "2584b94d2bfff0d617a44195e470dd10a2237255a63291219798aaca4cb44f5d",
+    "src/mansion/fixed_session.gd": "fb9ff6fe1e4586b54d7ce03ff281cbd7553ae60287432f18d2678fe9a9a401ef"
+  },
+  "concrete_poses": [
+    {
+      "id": "kneeling_inspect_east",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "u_bath::washroom_placeholder_upper_brazier_01::kneel",
+        "u_bath::washroom_placeholder_lower_brazier_01::kneel"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "kneeling_inspect_north",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_dining::dining_fireplace_01::kneel",
+        "u_master::master_bedroom_fireplace_01::kneel",
+        "u_guest::guest_fireplace_01::kneel",
+        "u_study::study_archive_fireplace_01::kneel",
+        "b_archive::study_archive_fireplace_01::kneel"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "lying_idle_north_south_head_north",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "u_master::master_bedroom_bed_01::lie",
+        "u_guest::guest_bed_01::lie"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "seated_idle_east",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_dining::dining_west_sofa_01::seat_left",
+        "g_dining::dining_west_sofa_01::seat_right",
+        "g_kitchen::kitchen_upper_chair_01::seat",
+        "g_kitchen::kitchen_lower_chair_01::seat",
+        "u_service_stair::upper_service_west_bench_01::seat",
+        "u_guest::guest_bed_01::sit_east"
+      ],
+      "char_asset_status": "approved_sample",
+      "representation": "base_pose_candidate",
+      "batch": "alignment_01",
+      "final_asset": null,
+      "candidate_export": "assets/characters/poses/char/exports/east/char_seated_idle_east_neutral.png",
+      "approval": "approved"
+    },
+    {
+      "id": "seated_idle_south",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_main_stair::main_stair_bench_01::seat",
+        "g_library::library_desk_01::seated_work",
+        "g_library::library_armchair_01::seat",
+        "u_main_stair::upper_gallery_west_bench_01::seat",
+        "u_main_stair::upper_gallery_east_bench_01::seat",
+        "u_master::master_bedroom_window_bench_01::seat",
+        "u_guest::guest_bedroom_back_chair_01::seat",
+        "u_study::study_archive_desk_01::seated_work",
+        "u_bath::washroom_placeholder_bench_01::seat",
+        "b_main_stair::basement_stone_bench_01::seat",
+        "b_archive::study_archive_desk_01::seated_work",
+        "b_utility::basement_stone_bench_01::seat"
+      ],
+      "char_asset_status": "approved_sample",
+      "representation": "base_pose_candidate",
+      "batch": "alignment_01",
+      "final_asset": null,
+      "candidate_export": "assets/characters/poses/char/exports/south/char_seated_idle_south_neutral.png",
+      "approval": "approved"
+    },
+    {
+      "id": "seated_idle_west",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_foyer::foyer_armchair_01::seat",
+        "g_dining::dining_east_sofa_01::seat_left",
+        "g_dining::dining_east_sofa_01::seat_right",
+        "u_service_stair::upper_service_east_bench_01::seat",
+        "u_master::master_bedroom_bed_01::sit_west",
+        "u_master::master_bedroom_bedside_bench_01::seat",
+        "u_master::master_bedroom_vanity_01::seated_work",
+        "u_master::master_bedroom_vanity_chair_01::seat",
+        "u_guest::guest_armchair_01::seat",
+        "u_study::study_archive_armchair_01::seat",
+        "b_archive::study_archive_armchair_01::seat"
+      ],
+      "char_asset_status": "approved_sample",
+      "representation": "base_pose_candidate",
+      "batch": "alignment_01",
+      "final_asset": null,
+      "candidate_export": "assets/characters/poses/char/exports/west/char_seated_idle_west_neutral.png",
+      "approval": "approved"
+    },
+    {
+      "id": "seated_read_east",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_dining::dining_west_sofa_01::seat_left",
+        "g_dining::dining_west_sofa_01::seat_right",
+        "g_kitchen::kitchen_upper_chair_01::seat",
+        "g_kitchen::kitchen_lower_chair_01::seat",
+        "u_service_stair::upper_service_west_bench_01::seat",
+        "u_guest::guest_bed_01::sit_east"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "seated_read_south",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_main_stair::main_stair_bench_01::seat",
+        "g_library::library_desk_01::seated_work",
+        "g_library::library_armchair_01::seat",
+        "u_main_stair::upper_gallery_west_bench_01::seat",
+        "u_main_stair::upper_gallery_east_bench_01::seat",
+        "u_master::master_bedroom_window_bench_01::seat",
+        "u_guest::guest_bedroom_back_chair_01::seat",
+        "u_study::study_archive_desk_01::seated_work",
+        "u_bath::washroom_placeholder_bench_01::seat",
+        "b_main_stair::basement_stone_bench_01::seat",
+        "b_archive::study_archive_desk_01::seated_work",
+        "b_utility::basement_stone_bench_01::seat"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "seated_read_west",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_foyer::foyer_armchair_01::seat",
+        "g_dining::dining_east_sofa_01::seat_left",
+        "g_dining::dining_east_sofa_01::seat_right",
+        "u_service_stair::upper_service_east_bench_01::seat",
+        "u_master::master_bedroom_bed_01::sit_west",
+        "u_master::master_bedroom_bedside_bench_01::seat",
+        "u_master::master_bedroom_vanity_01::seated_work",
+        "u_master::master_bedroom_vanity_chair_01::seat",
+        "u_guest::guest_armchair_01::seat",
+        "u_study::study_archive_armchair_01::seat",
+        "b_archive::study_archive_armchair_01::seat"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "seated_talk_east",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_dining::dining_west_sofa_01::seat_left",
+        "g_dining::dining_west_sofa_01::seat_right",
+        "g_kitchen::kitchen_upper_chair_01::seat",
+        "g_kitchen::kitchen_lower_chair_01::seat",
+        "u_service_stair::upper_service_west_bench_01::seat",
+        "u_guest::guest_bed_01::sit_east"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "seated_talk_south",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_main_stair::main_stair_bench_01::seat",
+        "g_library::library_armchair_01::seat",
+        "u_main_stair::upper_gallery_west_bench_01::seat",
+        "u_main_stair::upper_gallery_east_bench_01::seat",
+        "u_master::master_bedroom_window_bench_01::seat",
+        "u_guest::guest_bedroom_back_chair_01::seat",
+        "u_bath::washroom_placeholder_bench_01::seat",
+        "b_main_stair::basement_stone_bench_01::seat",
+        "b_utility::basement_stone_bench_01::seat"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "seated_talk_west",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_foyer::foyer_armchair_01::seat",
+        "g_dining::dining_east_sofa_01::seat_left",
+        "g_dining::dining_east_sofa_01::seat_right",
+        "u_service_stair::upper_service_east_bench_01::seat",
+        "u_master::master_bedroom_bed_01::sit_west",
+        "u_master::master_bedroom_bedside_bench_01::seat",
+        "u_master::master_bedroom_vanity_chair_01::seat",
+        "u_guest::guest_armchair_01::seat",
+        "u_study::study_archive_armchair_01::seat",
+        "b_archive::study_archive_armchair_01::seat"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "seated_write_south",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_library::library_desk_01::seated_work",
+        "u_study::study_archive_desk_01::seated_work",
+        "b_archive::study_archive_desk_01::seated_work"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "seated_write_west",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "u_master::master_bedroom_vanity_01::seated_work",
+        "u_master::master_bedroom_vanity_chair_01::seat"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_drink_north",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_kitchen::kitchen_counter_01::use"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_idle_east",
+      "scope": "common_conversation",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity"
+      ],
+      "orientation_basis": "four-sided conversations; planned future support",
+      "source_contacts": [],
+      "char_asset_status": "approved_sample",
+      "representation": "base_pose_candidate",
+      "batch": "alignment_01",
+      "final_asset": null,
+      "candidate_export": "assets/characters/poses/char/exports/east/char_standing_idle_east_neutral.png",
+      "approval": "approved"
+    },
+    {
+      "id": "standing_idle_north",
+      "scope": "common_conversation",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_main_stair::main_stair_stairs_01::inspect",
+        "g_kitchen::kitchen_counter_01::use"
+      ],
+      "char_asset_status": "approved_sample",
+      "representation": "base_pose_candidate",
+      "batch": "alignment_01",
+      "final_asset": null,
+      "candidate_export": "assets/characters/poses/char/exports/north/char_standing_idle_north_neutral.png",
+      "approval": "approved"
+    },
+    {
+      "id": "standing_idle_south",
+      "scope": "common_conversation",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_service_stair::service_stair_descending_stairs_01::inspect"
+      ],
+      "char_asset_status": "approved_sample",
+      "representation": "base_pose_candidate",
+      "batch": "alignment_01",
+      "final_asset": null,
+      "candidate_export": "assets/characters/poses/char/exports/south/char_standing_idle_south_neutral.png",
+      "approval": "approved"
+    },
+    {
+      "id": "standing_idle_west",
+      "scope": "common_conversation",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity"
+      ],
+      "orientation_basis": "four-sided conversations; planned future support",
+      "source_contacts": [],
+      "char_asset_status": "approved_sample",
+      "representation": "base_pose_candidate",
+      "batch": "alignment_01",
+      "final_asset": null,
+      "candidate_export": "assets/characters/poses/char/exports/west/char_standing_idle_west_neutral.png",
+      "approval": "approved"
+    },
+    {
+      "id": "standing_inspect_east",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_foyer::foyer_window_01::view_from_west",
+        "g_foyer::foyer_west_window_01::view_from_west",
+        "g_foyer::foyer_clock_01::view_from_west",
+        "g_foyer::foyer_portrait_01::view_from_west",
+        "g_main_stair::main_stair_window_01::view_from_west",
+        "g_library::library_window_01::view_from_west",
+        "g_library::library_east_door_01::inside",
+        "g_dining::dining_portrait_01::view_from_west",
+        "g_dining::dining_window_01::view_from_west",
+        "g_dining::dining_east_door_01::inside",
+        "g_kitchen::kitchen_portrait_01::view_from_west",
+        "g_kitchen::kitchen_window_01::view_from_west",
+        "g_kitchen::kitchen_east_door_01::inside",
+        "g_service_stair::service_stair_window_01::view_from_west",
+        "g_service_stair::service_stair_east_door_01::inside",
+        "u_main_stair::upper_gallery_west_window_01::view_from_west",
+        "u_main_stair::upper_gallery_east_window_01::view_from_west",
+        "u_main_stair::upper_gallery_east_door_01::inside",
+        "u_service_stair::upper_service_east_door_01::inside",
+        "u_service_stair::upper_service_window_01::view_from_west",
+        "u_master::master_bedroom_nightstand_01::inspect",
+        "u_master::master_bedroom_window_01::view_from_west",
+        "u_master::master_bedroom_east_door_01::inside",
+        "u_guest::guest_window_01::view_from_west",
+        "u_guest::guest_bedroom_side_table_01::use",
+        "u_guest::guest_bedroom_east_door_01::inside",
+        "u_study::study_archive_side_table_01::use",
+        "u_bath::washroom_placeholder_west_window_01::view_from_west",
+        "u_bath::washroom_placeholder_east_window_01::view_from_west",
+        "u_bath::washroom_placeholder_portrait_01::view_from_west",
+        "u_bath::washroom_placeholder_upper_brazier_01::stand",
+        "u_bath::washroom_placeholder_lower_brazier_01::stand",
+        "u_bath::washroom_placeholder_east_door_01::inside",
+        "b_main_stair::basement_stone_crate_01::inspect",
+        "b_archive::study_archive_side_table_01::use",
+        "b_utility::basement_stone_crate_01::inspect"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_inspect_north",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_foyer::foyer_window_01::look_out",
+        "g_foyer::foyer_reading_stand_01::use",
+        "g_foyer::foyer_front_door_01::inside",
+        "g_foyer::foyer_west_window_01::look_out",
+        "g_foyer::foyer_clock_01::inspect",
+        "g_foyer::foyer_console_01::inspect",
+        "g_foyer::foyer_portrait_01::inspect",
+        "g_main_stair::main_stair_window_01::look_out",
+        "g_main_stair::main_stair_upper_door_01::inside",
+        "g_library::library_desk_01::standing_work",
+        "g_library::library_bookshelf_01::inspect",
+        "g_library::library_foreground_cabinet_01::inspect",
+        "g_library::library_window_01::look_out",
+        "g_library::library_side_table_01::use",
+        "g_dining::dining_cabinet_01::inspect",
+        "g_dining::dining_fireplace_01::stand",
+        "g_dining::dining_portrait_01::inspect",
+        "g_dining::dining_window_01::look_out",
+        "g_kitchen::kitchen_back_cabinet_01::inspect",
+        "g_kitchen::kitchen_portrait_01::inspect",
+        "g_kitchen::kitchen_window_01::look_out",
+        "g_service_stair::service_stair_shelves_01::inspect",
+        "g_service_stair::service_stair_window_01::look_out",
+        "u_main_stair::upper_gallery_west_statue_01::inspect",
+        "u_main_stair::upper_gallery_east_statue_01::inspect",
+        "u_main_stair::upper_gallery_west_window_01::look_out",
+        "u_main_stair::upper_gallery_east_window_01::look_out",
+        "u_main_stair::upper_gallery_north_door_01::inside",
+        "u_service_stair::upper_service_west_statue_01::inspect",
+        "u_service_stair::upper_service_east_statue_01::inspect",
+        "u_service_stair::upper_service_north_door_01::inside",
+        "u_service_stair::upper_service_window_01::look_out",
+        "u_master::master_bedroom_fireplace_01::stand",
+        "u_master::master_bedroom_window_01::look_out",
+        "u_guest::guest_fireplace_01::stand",
+        "u_guest::guest_window_01::look_out",
+        "u_guest::guest_bedroom_cabinet_01::inspect",
+        "u_study::study_archive_back_shelves_01::inspect",
+        "u_study::study_archive_desk_01::standing_work",
+        "u_study::study_archive_foreground_shelves_01::inspect",
+        "u_study::study_archive_fireplace_01::stand",
+        "u_study::study_archive_north_door_01::inside",
+        "u_bath::washroom_placeholder_west_window_01::look_out",
+        "u_bath::washroom_placeholder_east_window_01::look_out",
+        "u_bath::washroom_placeholder_portrait_01::inspect",
+        "b_main_stair::basement_stone_north_arch_01::inside",
+        "b_service_stair::basement_storage_front_barrel_01::inspect",
+        "b_service_stair::basement_storage_back_barrel_01::inspect",
+        "b_service_stair::basement_storage_west_crate_01::inspect",
+        "b_service_stair::basement_storage_back_crates_01::inspect",
+        "b_service_stair::basement_storage_east_crate_01::inspect",
+        "b_service_stair::basement_storage_west_rack_01::inspect",
+        "b_service_stair::basement_storage_east_rack_01::inspect",
+        "b_service_stair::basement_storage_north_arch_01::inside",
+        "b_wine::basement_storage_front_barrel_01::inspect",
+        "b_wine::basement_storage_back_barrel_01::inspect",
+        "b_wine::basement_storage_west_crate_01::inspect",
+        "b_wine::basement_storage_back_crates_01::inspect",
+        "b_wine::basement_storage_east_crate_01::inspect",
+        "b_wine::basement_storage_west_rack_01::inspect",
+        "b_wine::basement_storage_east_rack_01::inspect",
+        "b_wine::basement_storage_north_arch_01::inside",
+        "b_archive::study_archive_back_shelves_01::inspect",
+        "b_archive::study_archive_desk_01::standing_work",
+        "b_archive::study_archive_foreground_shelves_01::inspect",
+        "b_archive::study_archive_fireplace_01::stand",
+        "b_archive::study_archive_north_door_01::inside",
+        "b_utility::basement_stone_north_arch_01::inside",
+        "b_store::basement_storage_front_barrel_01::inspect",
+        "b_store::basement_storage_back_barrel_01::inspect",
+        "b_store::basement_storage_west_crate_01::inspect",
+        "b_store::basement_storage_back_crates_01::inspect",
+        "b_store::basement_storage_east_crate_01::inspect",
+        "b_store::basement_storage_west_rack_01::inspect",
+        "b_store::basement_storage_east_rack_01::inspect",
+        "b_store::basement_storage_north_arch_01::inside"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_inspect_south",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_dining::dining_south_threshold_01::inside",
+        "g_kitchen::kitchen_south_threshold_01::inside",
+        "u_main_stair::upper_gallery_south_threshold_01::inside",
+        "u_guest::guest_bedroom_south_threshold_01::inside",
+        "u_study::study_archive_south_threshold_01::inside",
+        "b_archive::study_archive_south_threshold_01::inside"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_inspect_west",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_foyer::foyer_window_01::view_from_east",
+        "g_foyer::foyer_west_window_01::view_from_east",
+        "g_foyer::foyer_clock_01::view_from_east",
+        "g_foyer::foyer_portrait_01::view_from_east",
+        "g_main_stair::main_stair_window_01::view_from_east",
+        "g_main_stair::main_stair_west_door_01::inside",
+        "g_library::library_west_shelves_01::inspect",
+        "g_library::library_window_01::view_from_east",
+        "g_library::library_west_door_01::inside",
+        "g_dining::dining_side_table_01::use",
+        "g_dining::dining_portrait_01::view_from_east",
+        "g_dining::dining_window_01::view_from_east",
+        "g_dining::dining_west_door_01::inside",
+        "g_kitchen::kitchen_side_table_01::use",
+        "g_kitchen::kitchen_portrait_01::view_from_east",
+        "g_kitchen::kitchen_window_01::view_from_east",
+        "g_kitchen::kitchen_west_door_01::inside",
+        "g_service_stair::service_stair_window_01::view_from_east",
+        "g_service_stair::service_stair_west_door_01::inside",
+        "u_main_stair::upper_gallery_west_window_01::view_from_east",
+        "u_main_stair::upper_gallery_east_window_01::view_from_east",
+        "u_main_stair::upper_gallery_west_door_01::inside",
+        "u_service_stair::upper_service_west_door_01::inside",
+        "u_service_stair::upper_service_window_01::view_from_east",
+        "u_master::master_bedroom_vanity_01::standing_work",
+        "u_master::master_bedroom_mirror_01::inspect",
+        "u_master::master_bedroom_window_01::view_from_east",
+        "u_master::master_bedroom_west_door_01::inside",
+        "u_guest::guest_window_01::view_from_east",
+        "u_guest::guest_bedroom_nightstand_01::inspect",
+        "u_guest::guest_bedroom_west_door_01::inside",
+        "u_study::study_archive_west_door_01::inside",
+        "u_bath::washroom_placeholder_west_window_01::view_from_east",
+        "u_bath::washroom_placeholder_east_window_01::view_from_east",
+        "u_bath::washroom_placeholder_portrait_01::view_from_east",
+        "u_bath::washroom_placeholder_west_door_01::inside",
+        "b_main_stair::basement_stone_west_door_01::inside",
+        "b_service_stair::basement_storage_west_door_01::inside",
+        "b_wine::basement_storage_west_door_01::inside",
+        "b_archive::study_archive_west_door_01::inside",
+        "b_utility::basement_stone_west_door_01::inside",
+        "b_store::basement_storage_west_door_01::inside"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_listen_east",
+      "scope": "common_conversation",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_library::library_east_door_01::inside",
+        "g_dining::dining_east_door_01::inside",
+        "g_kitchen::kitchen_east_door_01::inside",
+        "g_service_stair::service_stair_east_door_01::inside",
+        "u_main_stair::upper_gallery_east_door_01::inside",
+        "u_service_stair::upper_service_east_door_01::inside",
+        "u_master::master_bedroom_east_door_01::inside",
+        "u_guest::guest_bedroom_east_door_01::inside",
+        "u_bath::washroom_placeholder_east_door_01::inside"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "conversation_02",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_listen_north",
+      "scope": "common_conversation",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_foyer::foyer_front_door_01::inside",
+        "g_main_stair::main_stair_stairs_01::inspect",
+        "g_main_stair::main_stair_upper_door_01::inside",
+        "u_main_stair::upper_gallery_north_door_01::inside",
+        "u_service_stair::upper_service_north_door_01::inside",
+        "u_study::study_archive_north_door_01::inside",
+        "b_main_stair::basement_stone_north_arch_01::inside",
+        "b_service_stair::basement_storage_north_arch_01::inside",
+        "b_wine::basement_storage_north_arch_01::inside",
+        "b_archive::study_archive_north_door_01::inside",
+        "b_utility::basement_stone_north_arch_01::inside",
+        "b_store::basement_storage_north_arch_01::inside"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "conversation_02",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_listen_south",
+      "scope": "common_conversation",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_dining::dining_south_threshold_01::inside",
+        "g_kitchen::kitchen_south_threshold_01::inside",
+        "g_service_stair::service_stair_descending_stairs_01::inspect",
+        "u_main_stair::upper_gallery_south_threshold_01::inside",
+        "u_guest::guest_bedroom_south_threshold_01::inside",
+        "u_study::study_archive_south_threshold_01::inside",
+        "b_archive::study_archive_south_threshold_01::inside"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "conversation_02",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_listen_west",
+      "scope": "common_conversation",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_main_stair::main_stair_west_door_01::inside",
+        "g_library::library_west_door_01::inside",
+        "g_dining::dining_west_door_01::inside",
+        "g_kitchen::kitchen_west_door_01::inside",
+        "g_service_stair::service_stair_west_door_01::inside",
+        "u_main_stair::upper_gallery_west_door_01::inside",
+        "u_service_stair::upper_service_west_door_01::inside",
+        "u_master::master_bedroom_west_door_01::inside",
+        "u_guest::guest_bedroom_west_door_01::inside",
+        "u_study::study_archive_west_door_01::inside",
+        "u_bath::washroom_placeholder_west_door_01::inside",
+        "b_main_stair::basement_stone_west_door_01::inside",
+        "b_service_stair::basement_storage_west_door_01::inside",
+        "b_wine::basement_storage_west_door_01::inside",
+        "b_archive::study_archive_west_door_01::inside",
+        "b_utility::basement_stone_west_door_01::inside",
+        "b_store::basement_storage_west_door_01::inside"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "conversation_02",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_look_out_north",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_foyer::foyer_window_01::look_out",
+        "g_foyer::foyer_west_window_01::look_out",
+        "g_main_stair::main_stair_window_01::look_out",
+        "g_library::library_window_01::look_out",
+        "g_dining::dining_window_01::look_out",
+        "g_kitchen::kitchen_window_01::look_out",
+        "g_service_stair::service_stair_window_01::look_out",
+        "u_main_stair::upper_gallery_west_window_01::look_out",
+        "u_main_stair::upper_gallery_east_window_01::look_out",
+        "u_service_stair::upper_service_window_01::look_out",
+        "u_master::master_bedroom_window_01::look_out",
+        "u_guest::guest_window_01::look_out",
+        "u_bath::washroom_placeholder_west_window_01::look_out",
+        "u_bath::washroom_placeholder_east_window_01::look_out"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_look_up_east",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_foyer::foyer_window_01::view_from_west",
+        "g_foyer::foyer_west_window_01::view_from_west",
+        "g_foyer::foyer_clock_01::view_from_west",
+        "g_foyer::foyer_portrait_01::view_from_west",
+        "g_main_stair::main_stair_window_01::view_from_west",
+        "g_library::library_window_01::view_from_west",
+        "g_dining::dining_portrait_01::view_from_west",
+        "g_dining::dining_window_01::view_from_west",
+        "g_kitchen::kitchen_portrait_01::view_from_west",
+        "g_kitchen::kitchen_window_01::view_from_west",
+        "g_service_stair::service_stair_window_01::view_from_west",
+        "u_main_stair::upper_gallery_west_window_01::view_from_west",
+        "u_main_stair::upper_gallery_east_window_01::view_from_west",
+        "u_service_stair::upper_service_window_01::view_from_west",
+        "u_master::master_bedroom_window_01::view_from_west",
+        "u_guest::guest_window_01::view_from_west",
+        "u_bath::washroom_placeholder_west_window_01::view_from_west",
+        "u_bath::washroom_placeholder_east_window_01::view_from_west",
+        "u_bath::washroom_placeholder_portrait_01::view_from_west"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_look_up_north",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_foyer::foyer_window_01::look_out",
+        "g_foyer::foyer_west_window_01::look_out",
+        "g_foyer::foyer_clock_01::inspect",
+        "g_foyer::foyer_portrait_01::inspect",
+        "g_main_stair::main_stair_window_01::look_out",
+        "g_library::library_window_01::look_out",
+        "g_dining::dining_portrait_01::inspect",
+        "g_dining::dining_window_01::look_out",
+        "g_kitchen::kitchen_portrait_01::inspect",
+        "g_kitchen::kitchen_window_01::look_out",
+        "g_service_stair::service_stair_window_01::look_out",
+        "u_main_stair::upper_gallery_west_statue_01::inspect",
+        "u_main_stair::upper_gallery_east_statue_01::inspect",
+        "u_main_stair::upper_gallery_west_window_01::look_out",
+        "u_main_stair::upper_gallery_east_window_01::look_out",
+        "u_service_stair::upper_service_west_statue_01::inspect",
+        "u_service_stair::upper_service_east_statue_01::inspect",
+        "u_service_stair::upper_service_window_01::look_out",
+        "u_master::master_bedroom_window_01::look_out",
+        "u_guest::guest_window_01::look_out",
+        "u_bath::washroom_placeholder_west_window_01::look_out",
+        "u_bath::washroom_placeholder_east_window_01::look_out",
+        "u_bath::washroom_placeholder_portrait_01::inspect"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_look_up_west",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_foyer::foyer_window_01::view_from_east",
+        "g_foyer::foyer_west_window_01::view_from_east",
+        "g_foyer::foyer_clock_01::view_from_east",
+        "g_foyer::foyer_portrait_01::view_from_east",
+        "g_main_stair::main_stair_window_01::view_from_east",
+        "g_library::library_window_01::view_from_east",
+        "g_dining::dining_portrait_01::view_from_east",
+        "g_dining::dining_window_01::view_from_east",
+        "g_kitchen::kitchen_portrait_01::view_from_east",
+        "g_kitchen::kitchen_window_01::view_from_east",
+        "g_service_stair::service_stair_window_01::view_from_east",
+        "u_main_stair::upper_gallery_west_window_01::view_from_east",
+        "u_main_stair::upper_gallery_east_window_01::view_from_east",
+        "u_service_stair::upper_service_window_01::view_from_east",
+        "u_master::master_bedroom_window_01::view_from_east",
+        "u_guest::guest_window_01::view_from_east",
+        "u_bath::washroom_placeholder_west_window_01::view_from_east",
+        "u_bath::washroom_placeholder_east_window_01::view_from_east",
+        "u_bath::washroom_placeholder_portrait_01::view_from_east"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_peek_east",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_library::library_east_door_01::inside",
+        "g_dining::dining_east_door_01::inside",
+        "g_kitchen::kitchen_east_door_01::inside",
+        "g_service_stair::service_stair_east_door_01::inside",
+        "u_main_stair::upper_gallery_east_door_01::inside",
+        "u_service_stair::upper_service_east_door_01::inside",
+        "u_master::master_bedroom_east_door_01::inside",
+        "u_guest::guest_bedroom_east_door_01::inside",
+        "u_bath::washroom_placeholder_east_door_01::inside"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_peek_north",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_foyer::foyer_front_door_01::inside",
+        "g_main_stair::main_stair_upper_door_01::inside",
+        "u_main_stair::upper_gallery_north_door_01::inside",
+        "u_service_stair::upper_service_north_door_01::inside",
+        "u_study::study_archive_north_door_01::inside",
+        "b_main_stair::basement_stone_north_arch_01::inside",
+        "b_service_stair::basement_storage_north_arch_01::inside",
+        "b_wine::basement_storage_north_arch_01::inside",
+        "b_archive::study_archive_north_door_01::inside",
+        "b_utility::basement_stone_north_arch_01::inside",
+        "b_store::basement_storage_north_arch_01::inside"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_peek_south",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_dining::dining_south_threshold_01::inside",
+        "g_kitchen::kitchen_south_threshold_01::inside",
+        "u_main_stair::upper_gallery_south_threshold_01::inside",
+        "u_guest::guest_bedroom_south_threshold_01::inside",
+        "u_study::study_archive_south_threshold_01::inside",
+        "b_archive::study_archive_south_threshold_01::inside"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_peek_west",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_main_stair::main_stair_west_door_01::inside",
+        "g_library::library_west_door_01::inside",
+        "g_dining::dining_west_door_01::inside",
+        "g_kitchen::kitchen_west_door_01::inside",
+        "g_service_stair::service_stair_west_door_01::inside",
+        "u_main_stair::upper_gallery_west_door_01::inside",
+        "u_service_stair::upper_service_west_door_01::inside",
+        "u_master::master_bedroom_west_door_01::inside",
+        "u_guest::guest_bedroom_west_door_01::inside",
+        "u_study::study_archive_west_door_01::inside",
+        "u_bath::washroom_placeholder_west_door_01::inside",
+        "b_main_stair::basement_stone_west_door_01::inside",
+        "b_service_stair::basement_storage_west_door_01::inside",
+        "b_wine::basement_storage_west_door_01::inside",
+        "b_archive::study_archive_west_door_01::inside",
+        "b_utility::basement_stone_west_door_01::inside",
+        "b_store::basement_storage_west_door_01::inside"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_reach_east",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "u_master::master_bedroom_nightstand_01::inspect"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_reach_north",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_foyer::foyer_console_01::inspect",
+        "g_library::library_bookshelf_01::inspect",
+        "g_library::library_foreground_cabinet_01::inspect",
+        "g_dining::dining_cabinet_01::inspect",
+        "g_kitchen::kitchen_back_cabinet_01::inspect",
+        "g_service_stair::service_stair_shelves_01::inspect",
+        "u_guest::guest_bedroom_cabinet_01::inspect",
+        "u_study::study_archive_back_shelves_01::inspect",
+        "u_study::study_archive_foreground_shelves_01::inspect",
+        "b_service_stair::basement_storage_west_rack_01::inspect",
+        "b_service_stair::basement_storage_east_rack_01::inspect",
+        "b_wine::basement_storage_west_rack_01::inspect",
+        "b_wine::basement_storage_east_rack_01::inspect",
+        "b_archive::study_archive_back_shelves_01::inspect",
+        "b_archive::study_archive_foreground_shelves_01::inspect",
+        "b_store::basement_storage_west_rack_01::inspect",
+        "b_store::basement_storage_east_rack_01::inspect"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_reach_west",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_library::library_west_shelves_01::inspect",
+        "u_guest::guest_bedroom_nightstand_01::inspect"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_read_east",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "u_guest::guest_bedroom_side_table_01::use",
+        "u_study::study_archive_side_table_01::use",
+        "b_archive::study_archive_side_table_01::use"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_read_north",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_foyer::foyer_reading_stand_01::use",
+        "g_library::library_desk_01::standing_work",
+        "g_library::library_bookshelf_01::inspect",
+        "g_library::library_side_table_01::use",
+        "g_service_stair::service_stair_shelves_01::inspect",
+        "u_study::study_archive_back_shelves_01::inspect",
+        "u_study::study_archive_desk_01::standing_work",
+        "u_study::study_archive_foreground_shelves_01::inspect",
+        "b_archive::study_archive_back_shelves_01::inspect",
+        "b_archive::study_archive_desk_01::standing_work",
+        "b_archive::study_archive_foreground_shelves_01::inspect"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_read_west",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_library::library_west_shelves_01::inspect",
+        "g_dining::dining_side_table_01::use",
+        "g_kitchen::kitchen_side_table_01::use",
+        "u_master::master_bedroom_vanity_01::standing_work"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_talk_east",
+      "scope": "common_conversation",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity"
+      ],
+      "orientation_basis": "four-sided conversations; planned future support",
+      "source_contacts": [],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "conversation_02",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_talk_north",
+      "scope": "common_conversation",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_kitchen::kitchen_counter_01::use"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "conversation_02",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_talk_south",
+      "scope": "common_conversation",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity"
+      ],
+      "orientation_basis": "four-sided conversations; planned future support",
+      "source_contacts": [],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "conversation_02",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_talk_west",
+      "scope": "common_conversation",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity"
+      ],
+      "orientation_basis": "four-sided conversations; planned future support",
+      "source_contacts": [],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "conversation_02",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_warm_hands_east",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "u_bath::washroom_placeholder_upper_brazier_01::stand",
+        "u_bath::washroom_placeholder_lower_brazier_01::stand"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    },
+    {
+      "id": "standing_warm_hands_north",
+      "scope": "furniture_conditional",
+      "source": [
+        "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+        "assets/furniture/catalog.json"
+      ],
+      "orientation_basis": "enabled room anchors",
+      "source_contacts": [
+        "g_dining::dining_fireplace_01::stand",
+        "u_master::master_bedroom_fireplace_01::stand",
+        "u_guest::guest_fireplace_01::stand",
+        "u_study::study_archive_fireplace_01::stand",
+        "b_archive::study_archive_fireplace_01::stand"
+      ],
+      "char_asset_status": "planned",
+      "representation": "review_reuse_or_new_pose",
+      "batch": "furniture_03",
+      "final_asset": null,
+      "candidate_export": null,
+      "approval": "not_requested"
+    }
+  ],
+  "semantic_families": [
+    {
+      "id": "questioned",
+      "purpose": "Attentive response while questioned; turn to the detective without changing truth state",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#4-stories-timeline-alibis-and-questioning",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Reuse talk/listen bases plus face/gaze variant",
+      "character_scope": "all participating suspects",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "conversation_02",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "refuse_questioning",
+      "purpose": "Annoyance, turn-away or closed-off refusal after repeated questions; critical clues retain alternative paths",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#4-stories-timeline-alibis-and-questioning",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression on base; separate folded-arm/turn-away gesture only if needed",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "look_down",
+      "purpose": "Look at a floor location; may be innocent and must not guarantee a murder-room clue",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#7-murder-room-selection-and-floor-investigation",
+      "status": "proposal",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Head/gaze variant plus separately stored floor target",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "investigation_05",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "touch_surface",
+      "purpose": "Plausible contact with bed, wall, lamp, book or carpet before an accidental discovery",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#8-rare-accidental-discoveries-and-difficulty",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "kneeling"
+      ],
+      "representation": "Distinct hand-contact gesture; target-specific wrist landmark",
+      "character_scope": "eligible event participants",
+      "props_and_hands": "Touching hand and actual surface target; no invented residue",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "investigation_05",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "examine_finger",
+      "purpose": "Raise and examine the finger used to touch an actually configured trace",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#8-rare-accidental-discoveries-and-difficulty",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "kneeling"
+      ],
+      "representation": "Distinct hand-to-eye gesture; clean/residue states are conditional",
+      "character_scope": "eligible event participants",
+      "props_and_hands": "Same finger/hand as touch; material visibility follows evidence state",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "investigation_05",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "point_discovery",
+      "purpose": "Direct someone toward an observed clue or object",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "proposal",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Separate pointing hand/arm; reuse grounded base",
+      "character_scope": "optional event participants",
+      "props_and_hands": "Pointing hand and gaze share target; do not require a weapon",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "investigation_05",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "crouch",
+      "purpose": "Low crouch with believable joints and long-skirt handling",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "user_requested_planning",
+      "postures": [
+        "crouching"
+      ],
+      "representation": "New body silhouette; not compressed standing artwork",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "investigation_05",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "hide_under_furniture",
+      "purpose": "Optional hiding/peeking context from historical art production; removed boy design is not active cast",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "proposal",
+      "postures": [
+        "crouching"
+      ],
+      "representation": "New crouch and real foreground mask; verify physical capacity",
+      "character_scope": "only if future hiding mechanic is approved",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "later_optional_07",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "shock",
+      "purpose": "Startled shock at a discovery or reveal",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Eyes/brows/mouth first; raised-hands or recoil silhouette if needed",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "fear",
+      "purpose": "Frightened response to danger or a threatening reveal",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression; guarded body or recoil if scene needs it",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "suspicion",
+      "purpose": "Skeptical appraisal without implying guilt",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "user_requested_planning",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression on listening base; gaze target",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "anger",
+      "purpose": "Anger at questioning, a false accusation or exposure",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression; clenched/crossed-arm variant only if approved",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "sadness",
+      "purpose": "Grief or sadness appropriate to knowledge and relationships",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "user_requested_planning",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression/head tilt on existing base",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "embarrassment",
+      "purpose": "Embarrassment without treating it as proof of guilt",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "user_requested_planning",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression; lowered gaze optional",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "relief",
+      "purpose": "Relief after danger or an accusation is resolved",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "user_requested_planning",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression and relaxed shoulders on base",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "confidence",
+      "purpose": "Composed/confident response for innocent or guilty roles",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "user_requested_planning",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression and posture adjustment on base",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "annoyance",
+      "purpose": "Escalating annoyance from repeated questions",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression on talk/listen base",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "nervousness",
+      "purpose": "Anxiety for innocent and guilty suspects alike",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression; fidget gesture optional",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "confusion",
+      "purpose": "Confused reaction to information or accusation",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression/head tilt; no automatic head scratch for everyone",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "disbelief",
+      "purpose": "Witness or accused person processing a reveal",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Expression; small backward lean optional",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reactions_04",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "innocent_accused",
+      "purpose": "Innocent target responds to a wrong accusation; unresolved danger remains",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#10-accusations-reveals-and-endings",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Reuse anger/confusion/shock/confidence plus optional denial gesture",
+      "character_scope": "mystery role and case knowledge determine applicability",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reveal_06",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "culprit_exposed",
+      "purpose": "Actual murderer realizes identification/evidence has exposed them",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#10-accusations-reveals-and-endings",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Recognition beat; pose selected from personality/ending branch",
+      "character_scope": "mystery role and case knowledge determine applicability",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reveal_06",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "remorseful_confession",
+      "purpose": "Remorse, explanation and acceptance of responsibility",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#10-accusations-reveals-and-endings",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Sadness/remorse expression; optional lowered-head/open-hands silhouette",
+      "character_scope": "mystery role and case knowledge determine applicability",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reveal_06",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "hostile_confession",
+      "purpose": "Furious or threatening exposure response",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#10-accusations-reveals-and-endings",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Anger plus threat gesture; no automatic attack or restraint",
+      "character_scope": "mystery role and case knowledge determine applicability",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reveal_06",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "deceptive_reveal",
+      "purpose": "Denial/manipulation or a controlled broader-plan reveal",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#10-accusations-reveals-and-endings",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Composed talk base and deceptive expression; state-justified branch",
+      "character_scope": "mystery role and case knowledge determine applicability",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reveal_06",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "panicked_reveal",
+      "purpose": "Culprit panic or desperate escape attempt",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#10-accusations-reveals-and-endings",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Distinct guarded/panic silhouette; escape movement is external dependency",
+      "character_scope": "mystery role and case knowledge determine applicability",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reveal_06",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "voluntary_reveal",
+      "purpose": "True culprit interrupts or follows another person being accused",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#10-accusations-reveals-and-endings",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Talk/interrupt gesture; preserve innocent target and witness reactions",
+      "character_scope": "mystery role and case knowledge determine applicability",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reveal_06",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "witness_reveal",
+      "purpose": "Witnesses react individually with shock, fear, anger or disbelief",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#10-accusations-reveals-and-endings",
+      "status": "confirmed_future",
+      "postures": [
+        "standing",
+        "seated"
+      ],
+      "representation": "Select shared reaction variants without identical group poses",
+      "character_scope": "mystery role and case knowledge determine applicability",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "reveal_06",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "stalk",
+      "purpose": "Danger escalation and stalking; timing/eligibility unresolved",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#11-suspicion-stalking-and-capture",
+      "status": "confirmed_future",
+      "postures": [
+        "standing"
+      ],
+      "representation": "Threat/guarded idle optional; locomotion remains separate external animation dependency",
+      "character_scope": "culprit in eligible case",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "danger_07",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "lock_door",
+      "purpose": "Door-locking action during the proposed trap sequence",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#11-suspicion-stalking-and-capture",
+      "status": "proposal",
+      "postures": [
+        "standing"
+      ],
+      "representation": "New hand/lock contact gesture; choose actual door and side first",
+      "character_scope": "eligible culprit; excludes treating the sealed front door as a playable exit",
+      "props_and_hands": "Lock/handle contact; any key and handedness are undecided",
+      "orientation_policy": "Resolve actual doorway actor facing; do not produce all four without selecting trap doors",
+      "batch": "danger_07",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "trap_threat",
+      "purpose": "Personality-specific threat after a valid trap",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#11-suspicion-stalking-and-capture",
+      "status": "proposal",
+      "postures": [
+        "standing"
+      ],
+      "representation": "Reuse hostile/composed reveal where compatible; new threat silhouette if needed",
+      "character_scope": "case/personality conditional",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "danger_07",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "detective_capture",
+      "purpose": "Detective fear/guard and capture/loss presentation",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#11-suspicion-stalking-and-capture",
+      "status": "confirmed_future",
+      "postures": [
+        "standing"
+      ],
+      "representation": "Separate detective requirements, not mandatory Char poses; attack/contact mechanics unresolved",
+      "character_scope": "detective and eligible culprit, not the entire cast",
+      "props_and_hands": "None mandatory",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "danger_07",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "restrain_culprit",
+      "purpose": "Possible witness restraint during hostile exposure",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#10-accusations-reveals-and-endings",
+      "status": "proposal",
+      "postures": [
+        "standing"
+      ],
+      "representation": "Paired participant art and contact anchors; not a solo pose",
+      "character_scope": "only specifically assigned helpers; not yet required",
+      "props_and_hands": "Two-character hand/body contacts; partner capacity and safe spacing",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "later_optional_07",
+      "art_status": "not_produced_for_char"
+    },
+    {
+      "id": "chris_hat_scratch",
+      "purpose": "Chris removes his hat and scratches his head; one identity, two looks",
+      "source": "docs/GAME_DESIGN_BRAINSTORM.md#5-poses-animations-and-action-continuity",
+      "status": "confirmed_future",
+      "postures": [
+        "standing"
+      ],
+      "representation": "Selected existing hat-on/head-scratch masters; no Char requirement",
+      "character_scope": "Chris only; selected master exists, runtime pose binding absent",
+      "props_and_hands": "Hat held in a consistent hand; other hand scratches head",
+      "orientation_policy": "Unresolved until staging; front/south review sample is a proposal, not four-direction coverage",
+      "batch": "signature_conditional",
+      "art_status": "not_produced_for_char"
+    }
+  ],
+  "rooms": [
+    {
+      "room_id": "g_foyer",
+      "name": "Foyer",
+      "tags": 8,
+      "enabled": 16,
+      "clear": 15,
+      "disabled": 1
+    },
+    {
+      "room_id": "g_main_stair",
+      "name": "Main Stair Hall",
+      "tags": 5,
+      "enabled": 7,
+      "clear": 5,
+      "disabled": 2
+    },
+    {
+      "room_id": "g_library",
+      "name": "Library",
+      "tags": 9,
+      "enabled": 12,
+      "clear": 9,
+      "disabled": 2
+    },
+    {
+      "room_id": "g_dining",
+      "name": "Dining Room",
+      "tags": 10,
+      "enabled": 17,
+      "clear": 11,
+      "disabled": 3
+    },
+    {
+      "room_id": "g_kitchen",
+      "name": "Kitchen",
+      "tags": 11,
+      "enabled": 14,
+      "clear": 11,
+      "disabled": 4
+    },
+    {
+      "room_id": "g_service_stair",
+      "name": "Service Stair Hall",
+      "tags": 5,
+      "enabled": 7,
+      "clear": 4,
+      "disabled": 2
+    },
+    {
+      "room_id": "u_main_stair",
+      "name": "Upper Gallery",
+      "tags": 10,
+      "enabled": 14,
+      "clear": 12,
+      "disabled": 4
+    },
+    {
+      "room_id": "u_service_stair",
+      "name": "Upper Service Landing",
+      "tags": 8,
+      "enabled": 10,
+      "clear": 10,
+      "disabled": 3
+    },
+    {
+      "room_id": "u_master",
+      "name": "Main Bedroom",
+      "tags": 11,
+      "enabled": 16,
+      "clear": 6,
+      "disabled": 3
+    },
+    {
+      "room_id": "u_guest",
+      "name": "Guest Bedroom",
+      "tags": 11,
+      "enabled": 15,
+      "clear": 8,
+      "disabled": 4
+    },
+    {
+      "room_id": "u_study",
+      "name": "Study",
+      "tags": 9,
+      "enabled": 11,
+      "clear": 6,
+      "disabled": 3
+    },
+    {
+      "room_id": "u_bath",
+      "name": "Washroom",
+      "tags": 8,
+      "enabled": 16,
+      "clear": 12,
+      "disabled": 2
+    },
+    {
+      "room_id": "b_main_stair",
+      "name": "Basement Main Landing",
+      "tags": 4,
+      "enabled": 4,
+      "clear": 3,
+      "disabled": 2
+    },
+    {
+      "room_id": "b_service_stair",
+      "name": "Basement Service Landing",
+      "tags": 9,
+      "enabled": 9,
+      "clear": 4,
+      "disabled": 2
+    },
+    {
+      "room_id": "b_wine",
+      "name": "Wine Cellar",
+      "tags": 9,
+      "enabled": 9,
+      "clear": 4,
+      "disabled": 2
+    },
+    {
+      "room_id": "b_archive",
+      "name": "Estate Archive",
+      "tags": 9,
+      "enabled": 11,
+      "clear": 6,
+      "disabled": 3
+    },
+    {
+      "room_id": "b_utility",
+      "name": "Utility Room",
+      "tags": 4,
+      "enabled": 4,
+      "clear": 3,
+      "disabled": 2
+    },
+    {
+      "room_id": "b_store",
+      "name": "Storage Room",
+      "tags": 9,
+      "enabled": 9,
+      "clear": 4,
+      "disabled": 2
+    }
+  ],
+  "orientation_coverage": [
+    {
+      "orientation_id": "chair_north",
+      "type": "chair",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "seated_idle_north",
+        "seated_read_north",
+        "seated_talk_north"
+      ]
+    },
+    {
+      "orientation_id": "chair_east",
+      "type": "chair",
+      "instances": [
+        "g_kitchen::kitchen_upper_chair_01",
+        "g_kitchen::kitchen_lower_chair_01"
+      ],
+      "enabled_contacts": 2,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "seated_idle_east",
+        "seated_read_east",
+        "seated_talk_east"
+      ]
+    },
+    {
+      "orientation_id": "chair_south",
+      "type": "chair",
+      "instances": [
+        "u_guest::guest_bedroom_back_chair_01"
+      ],
+      "enabled_contacts": 1,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "seated_idle_south",
+        "seated_read_south",
+        "seated_talk_south"
+      ]
+    },
+    {
+      "orientation_id": "chair_west",
+      "type": "chair",
+      "instances": [
+        "u_master::master_bedroom_vanity_chair_01"
+      ],
+      "enabled_contacts": 1,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "seated_idle_west",
+        "seated_read_west",
+        "seated_talk_west"
+      ]
+    },
+    {
+      "orientation_id": "armchair_north",
+      "type": "armchair",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "seated_idle_north",
+        "seated_read_north",
+        "seated_talk_north"
+      ]
+    },
+    {
+      "orientation_id": "armchair_east",
+      "type": "armchair",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "seated_idle_east",
+        "seated_read_east",
+        "seated_talk_east"
+      ]
+    },
+    {
+      "orientation_id": "armchair_south",
+      "type": "armchair",
+      "instances": [
+        "g_library::library_armchair_01"
+      ],
+      "enabled_contacts": 1,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "seated_idle_south",
+        "seated_read_south",
+        "seated_talk_south"
+      ]
+    },
+    {
+      "orientation_id": "armchair_west",
+      "type": "armchair",
+      "instances": [
+        "g_foyer::foyer_armchair_01",
+        "u_guest::guest_armchair_01",
+        "u_study::study_archive_armchair_01",
+        "b_archive::study_archive_armchair_01"
+      ],
+      "enabled_contacts": 4,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "seated_idle_west",
+        "seated_read_west",
+        "seated_talk_west"
+      ]
+    },
+    {
+      "orientation_id": "sofa_north",
+      "type": "sofa",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "seated_idle_north",
+        "seated_read_north",
+        "seated_talk_north"
+      ]
+    },
+    {
+      "orientation_id": "sofa_east",
+      "type": "sofa",
+      "instances": [
+        "g_dining::dining_west_sofa_01"
+      ],
+      "enabled_contacts": 2,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "seated_idle_east",
+        "seated_read_east",
+        "seated_talk_east"
+      ]
+    },
+    {
+      "orientation_id": "sofa_south",
+      "type": "sofa",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "seated_idle_south",
+        "seated_read_south",
+        "seated_talk_south"
+      ]
+    },
+    {
+      "orientation_id": "sofa_west",
+      "type": "sofa",
+      "instances": [
+        "g_dining::dining_east_sofa_01"
+      ],
+      "enabled_contacts": 2,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "seated_idle_west",
+        "seated_read_west",
+        "seated_talk_west"
+      ]
+    },
+    {
+      "orientation_id": "bar_stool_north",
+      "type": "bar_stool",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "seated_drink_north",
+        "seated_idle_north",
+        "seated_talk_north"
+      ]
+    },
+    {
+      "orientation_id": "bar_stool_east",
+      "type": "bar_stool",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "seated_drink_east",
+        "seated_idle_east",
+        "seated_talk_east"
+      ]
+    },
+    {
+      "orientation_id": "bar_stool_south",
+      "type": "bar_stool",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "seated_drink_south",
+        "seated_idle_south",
+        "seated_talk_south"
+      ]
+    },
+    {
+      "orientation_id": "bar_stool_west",
+      "type": "bar_stool",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "seated_drink_west",
+        "seated_idle_west",
+        "seated_talk_west"
+      ]
+    },
+    {
+      "orientation_id": "desk_north",
+      "type": "desk",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "seated_idle_south",
+        "seated_read_south",
+        "seated_write_south",
+        "standing_inspect_south",
+        "standing_read_south"
+      ]
+    },
+    {
+      "orientation_id": "desk_east",
+      "type": "desk",
+      "instances": [
+        "u_master::master_bedroom_vanity_01"
+      ],
+      "enabled_contacts": 2,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "seated_idle_west",
+        "seated_read_west",
+        "seated_write_west",
+        "standing_inspect_west",
+        "standing_read_west"
+      ]
+    },
+    {
+      "orientation_id": "desk_south",
+      "type": "desk",
+      "instances": [
+        "g_library::library_desk_01",
+        "u_study::study_archive_desk_01",
+        "b_archive::study_archive_desk_01"
+      ],
+      "enabled_contacts": 6,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "seated_idle_north",
+        "seated_read_north",
+        "seated_write_north",
+        "standing_inspect_north",
+        "standing_read_north"
+      ]
+    },
+    {
+      "orientation_id": "desk_west",
+      "type": "desk",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "seated_idle_east",
+        "seated_read_east",
+        "seated_write_east",
+        "standing_inspect_east",
+        "standing_read_east"
+      ]
+    },
+    {
+      "orientation_id": "bookshelf_north",
+      "type": "bookshelf",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_south",
+        "standing_reach_south",
+        "standing_read_south"
+      ]
+    },
+    {
+      "orientation_id": "bookshelf_east",
+      "type": "bookshelf",
+      "instances": [
+        "g_library::library_west_shelves_01"
+      ],
+      "enabled_contacts": 1,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_west",
+        "standing_reach_west",
+        "standing_read_west"
+      ]
+    },
+    {
+      "orientation_id": "bookshelf_south",
+      "type": "bookshelf",
+      "instances": [
+        "g_library::library_bookshelf_01",
+        "g_service_stair::service_stair_shelves_01",
+        "u_study::study_archive_back_shelves_01",
+        "u_study::study_archive_foreground_shelves_01",
+        "b_archive::study_archive_back_shelves_01",
+        "b_archive::study_archive_foreground_shelves_01"
+      ],
+      "enabled_contacts": 6,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_north",
+        "standing_reach_north",
+        "standing_read_north"
+      ]
+    },
+    {
+      "orientation_id": "bookshelf_west",
+      "type": "bookshelf",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_east",
+        "standing_reach_east",
+        "standing_read_east"
+      ]
+    },
+    {
+      "orientation_id": "table_north",
+      "type": "table",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_south",
+        "standing_read_south"
+      ]
+    },
+    {
+      "orientation_id": "table_east",
+      "type": "table",
+      "instances": [
+        "g_dining::dining_side_table_01",
+        "g_kitchen::kitchen_side_table_01"
+      ],
+      "enabled_contacts": 2,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_west",
+        "standing_read_west"
+      ]
+    },
+    {
+      "orientation_id": "table_south",
+      "type": "table",
+      "instances": [
+        "g_foyer::foyer_reading_stand_01",
+        "g_library::library_side_table_01"
+      ],
+      "enabled_contacts": 2,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_north",
+        "standing_read_north"
+      ]
+    },
+    {
+      "orientation_id": "table_west",
+      "type": "table",
+      "instances": [
+        "u_guest::guest_bedroom_side_table_01",
+        "u_study::study_archive_side_table_01",
+        "b_archive::study_archive_side_table_01"
+      ],
+      "enabled_contacts": 3,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_east",
+        "standing_read_east"
+      ]
+    },
+    {
+      "orientation_id": "bar_counter_north",
+      "type": "bar_counter",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_drink_south",
+        "standing_idle_south",
+        "standing_talk_south"
+      ]
+    },
+    {
+      "orientation_id": "bar_counter_east",
+      "type": "bar_counter",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_drink_west",
+        "standing_idle_west",
+        "standing_talk_west"
+      ]
+    },
+    {
+      "orientation_id": "bar_counter_south",
+      "type": "bar_counter",
+      "instances": [
+        "g_kitchen::kitchen_counter_01"
+      ],
+      "enabled_contacts": 1,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_drink_north",
+        "standing_idle_north",
+        "standing_talk_north"
+      ]
+    },
+    {
+      "orientation_id": "bar_counter_west",
+      "type": "bar_counter",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_drink_east",
+        "standing_idle_east",
+        "standing_talk_east"
+      ]
+    },
+    {
+      "orientation_id": "fireplace_north",
+      "type": "fireplace",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "kneeling_inspect_south",
+        "standing_inspect_south",
+        "standing_warm_hands_south"
+      ]
+    },
+    {
+      "orientation_id": "fireplace_east",
+      "type": "fireplace",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "kneeling_inspect_west",
+        "standing_inspect_west",
+        "standing_warm_hands_west"
+      ]
+    },
+    {
+      "orientation_id": "fireplace_south",
+      "type": "fireplace",
+      "instances": [
+        "g_dining::dining_fireplace_01",
+        "u_master::master_bedroom_fireplace_01",
+        "u_guest::guest_fireplace_01",
+        "u_study::study_archive_fireplace_01",
+        "b_archive::study_archive_fireplace_01"
+      ],
+      "enabled_contacts": 10,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "kneeling_inspect_north",
+        "standing_inspect_north",
+        "standing_warm_hands_north"
+      ]
+    },
+    {
+      "orientation_id": "fireplace_west",
+      "type": "fireplace",
+      "instances": [
+        "u_bath::washroom_placeholder_upper_brazier_01",
+        "u_bath::washroom_placeholder_lower_brazier_01"
+      ],
+      "enabled_contacts": 4,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "kneeling_inspect_east",
+        "standing_inspect_east",
+        "standing_warm_hands_east"
+      ]
+    },
+    {
+      "orientation_id": "window_north",
+      "type": "window",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_east",
+        "standing_inspect_south",
+        "standing_inspect_west",
+        "standing_look_out_south",
+        "standing_look_up_east",
+        "standing_look_up_south",
+        "standing_look_up_west"
+      ]
+    },
+    {
+      "orientation_id": "window_east",
+      "type": "window",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_north",
+        "standing_inspect_south",
+        "standing_inspect_west",
+        "standing_look_out_west",
+        "standing_look_up_north",
+        "standing_look_up_south",
+        "standing_look_up_west"
+      ]
+    },
+    {
+      "orientation_id": "window_south",
+      "type": "window",
+      "instances": [
+        "g_foyer::foyer_window_01",
+        "g_foyer::foyer_west_window_01",
+        "g_main_stair::main_stair_window_01",
+        "g_library::library_window_01",
+        "g_dining::dining_window_01",
+        "g_kitchen::kitchen_window_01",
+        "g_service_stair::service_stair_window_01",
+        "u_main_stair::upper_gallery_west_window_01",
+        "u_main_stair::upper_gallery_east_window_01",
+        "u_service_stair::upper_service_window_01",
+        "u_master::master_bedroom_window_01",
+        "u_guest::guest_window_01",
+        "u_bath::washroom_placeholder_west_window_01",
+        "u_bath::washroom_placeholder_east_window_01"
+      ],
+      "enabled_contacts": 42,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_east",
+        "standing_inspect_north",
+        "standing_inspect_west",
+        "standing_look_out_north",
+        "standing_look_up_east",
+        "standing_look_up_north",
+        "standing_look_up_west"
+      ]
+    },
+    {
+      "orientation_id": "window_west",
+      "type": "window",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_east",
+        "standing_inspect_north",
+        "standing_inspect_south",
+        "standing_look_out_east",
+        "standing_look_up_east",
+        "standing_look_up_north",
+        "standing_look_up_south"
+      ]
+    },
+    {
+      "orientation_id": "doorway_north",
+      "type": "doorway",
+      "instances": [
+        "g_dining::dining_south_threshold_01",
+        "g_kitchen::kitchen_south_threshold_01",
+        "u_main_stair::upper_gallery_south_threshold_01",
+        "u_guest::guest_bedroom_south_threshold_01",
+        "u_study::study_archive_south_threshold_01",
+        "b_archive::study_archive_south_threshold_01"
+      ],
+      "enabled_contacts": 6,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_north",
+        "standing_inspect_south",
+        "standing_listen_north",
+        "standing_listen_south",
+        "standing_peek_north",
+        "standing_peek_south"
+      ]
+    },
+    {
+      "orientation_id": "doorway_east",
+      "type": "doorway",
+      "instances": [
+        "g_main_stair::main_stair_west_door_01",
+        "g_library::library_west_door_01",
+        "g_dining::dining_west_door_01",
+        "g_kitchen::kitchen_west_door_01",
+        "g_service_stair::service_stair_west_door_01",
+        "u_main_stair::upper_gallery_west_door_01",
+        "u_service_stair::upper_service_west_door_01",
+        "u_master::master_bedroom_west_door_01",
+        "u_guest::guest_bedroom_west_door_01",
+        "u_study::study_archive_west_door_01",
+        "u_bath::washroom_placeholder_west_door_01",
+        "b_main_stair::basement_stone_west_door_01",
+        "b_service_stair::basement_storage_west_door_01",
+        "b_wine::basement_storage_west_door_01",
+        "b_archive::study_archive_west_door_01",
+        "b_utility::basement_stone_west_door_01",
+        "b_store::basement_storage_west_door_01"
+      ],
+      "enabled_contacts": 17,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_east",
+        "standing_inspect_west",
+        "standing_listen_east",
+        "standing_listen_west",
+        "standing_peek_east",
+        "standing_peek_west"
+      ]
+    },
+    {
+      "orientation_id": "doorway_south",
+      "type": "doorway",
+      "instances": [
+        "g_foyer::foyer_front_door_01",
+        "g_main_stair::main_stair_upper_door_01",
+        "u_main_stair::upper_gallery_north_door_01",
+        "u_service_stair::upper_service_north_door_01",
+        "u_study::study_archive_north_door_01",
+        "b_main_stair::basement_stone_north_arch_01",
+        "b_service_stair::basement_storage_north_arch_01",
+        "b_wine::basement_storage_north_arch_01",
+        "b_archive::study_archive_north_door_01",
+        "b_utility::basement_stone_north_arch_01",
+        "b_store::basement_storage_north_arch_01"
+      ],
+      "enabled_contacts": 11,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_north",
+        "standing_inspect_south",
+        "standing_listen_north",
+        "standing_listen_south",
+        "standing_peek_north",
+        "standing_peek_south"
+      ]
+    },
+    {
+      "orientation_id": "doorway_west",
+      "type": "doorway",
+      "instances": [
+        "g_library::library_east_door_01",
+        "g_dining::dining_east_door_01",
+        "g_kitchen::kitchen_east_door_01",
+        "g_service_stair::service_stair_east_door_01",
+        "u_main_stair::upper_gallery_east_door_01",
+        "u_service_stair::upper_service_east_door_01",
+        "u_master::master_bedroom_east_door_01",
+        "u_guest::guest_bedroom_east_door_01",
+        "u_bath::washroom_placeholder_east_door_01"
+      ],
+      "enabled_contacts": 9,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_east",
+        "standing_inspect_west",
+        "standing_listen_east",
+        "standing_listen_west",
+        "standing_peek_east",
+        "standing_peek_west"
+      ]
+    },
+    {
+      "orientation_id": "bench_north",
+      "type": "bench",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "seated_idle_north",
+        "seated_read_north",
+        "seated_talk_north"
+      ]
+    },
+    {
+      "orientation_id": "bench_east",
+      "type": "bench",
+      "instances": [
+        "u_service_stair::upper_service_west_bench_01"
+      ],
+      "enabled_contacts": 1,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "seated_idle_east",
+        "seated_read_east",
+        "seated_talk_east"
+      ]
+    },
+    {
+      "orientation_id": "bench_south",
+      "type": "bench",
+      "instances": [
+        "g_main_stair::main_stair_bench_01",
+        "u_main_stair::upper_gallery_west_bench_01",
+        "u_main_stair::upper_gallery_east_bench_01",
+        "u_master::master_bedroom_window_bench_01",
+        "u_bath::washroom_placeholder_bench_01",
+        "b_main_stair::basement_stone_bench_01",
+        "b_utility::basement_stone_bench_01"
+      ],
+      "enabled_contacts": 7,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "seated_idle_south",
+        "seated_read_south",
+        "seated_talk_south"
+      ]
+    },
+    {
+      "orientation_id": "bench_west",
+      "type": "bench",
+      "instances": [
+        "u_service_stair::upper_service_east_bench_01",
+        "u_master::master_bedroom_bedside_bench_01"
+      ],
+      "enabled_contacts": 2,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "seated_idle_west",
+        "seated_read_west",
+        "seated_talk_west"
+      ]
+    },
+    {
+      "orientation_id": "cabinet_north",
+      "type": "cabinet",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_south",
+        "standing_reach_south"
+      ]
+    },
+    {
+      "orientation_id": "cabinet_east",
+      "type": "cabinet",
+      "instances": [
+        "u_guest::guest_bedroom_nightstand_01"
+      ],
+      "enabled_contacts": 1,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_west",
+        "standing_reach_west"
+      ]
+    },
+    {
+      "orientation_id": "cabinet_south",
+      "type": "cabinet",
+      "instances": [
+        "g_foyer::foyer_console_01",
+        "g_library::library_foreground_cabinet_01",
+        "g_dining::dining_cabinet_01",
+        "g_kitchen::kitchen_back_shelves_01",
+        "g_kitchen::kitchen_back_cabinet_01",
+        "u_guest::guest_bedroom_cabinet_01",
+        "b_service_stair::basement_storage_west_rack_01",
+        "b_service_stair::basement_storage_east_rack_01",
+        "b_wine::basement_storage_west_rack_01",
+        "b_wine::basement_storage_east_rack_01",
+        "b_store::basement_storage_west_rack_01",
+        "b_store::basement_storage_east_rack_01"
+      ],
+      "enabled_contacts": 11,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_north",
+        "standing_reach_north"
+      ]
+    },
+    {
+      "orientation_id": "cabinet_west",
+      "type": "cabinet",
+      "instances": [
+        "u_master::master_bedroom_nightstand_01"
+      ],
+      "enabled_contacts": 1,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_east",
+        "standing_reach_east"
+      ]
+    },
+    {
+      "orientation_id": "statue_north",
+      "type": "statue",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_south",
+        "standing_look_up_south"
+      ]
+    },
+    {
+      "orientation_id": "statue_east",
+      "type": "statue",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_west",
+        "standing_look_up_west"
+      ]
+    },
+    {
+      "orientation_id": "statue_south",
+      "type": "statue",
+      "instances": [
+        "u_main_stair::upper_gallery_west_statue_01",
+        "u_main_stair::upper_gallery_east_statue_01",
+        "u_service_stair::upper_service_west_statue_01",
+        "u_service_stair::upper_service_east_statue_01"
+      ],
+      "enabled_contacts": 4,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_north",
+        "standing_look_up_north"
+      ]
+    },
+    {
+      "orientation_id": "statue_west",
+      "type": "statue",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_east",
+        "standing_look_up_east"
+      ]
+    },
+    {
+      "orientation_id": "crate_north",
+      "type": "crate",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_south"
+      ]
+    },
+    {
+      "orientation_id": "crate_east",
+      "type": "crate",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_west"
+      ]
+    },
+    {
+      "orientation_id": "crate_south",
+      "type": "crate",
+      "instances": [
+        "b_service_stair::basement_storage_west_crate_01",
+        "b_service_stair::basement_storage_back_crates_01",
+        "b_service_stair::basement_storage_east_crate_01",
+        "b_wine::basement_storage_west_crate_01",
+        "b_wine::basement_storage_back_crates_01",
+        "b_wine::basement_storage_east_crate_01",
+        "b_store::basement_storage_west_crate_01",
+        "b_store::basement_storage_back_crates_01",
+        "b_store::basement_storage_east_crate_01"
+      ],
+      "enabled_contacts": 9,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_north"
+      ]
+    },
+    {
+      "orientation_id": "crate_west",
+      "type": "crate",
+      "instances": [
+        "b_main_stair::basement_stone_crate_01",
+        "b_utility::basement_stone_crate_01"
+      ],
+      "enabled_contacts": 2,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_east"
+      ]
+    },
+    {
+      "orientation_id": "barrel_north",
+      "type": "barrel",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_south"
+      ]
+    },
+    {
+      "orientation_id": "barrel_east",
+      "type": "barrel",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_west"
+      ]
+    },
+    {
+      "orientation_id": "barrel_south",
+      "type": "barrel",
+      "instances": [
+        "b_service_stair::basement_storage_front_barrel_01",
+        "b_service_stair::basement_storage_back_barrel_01",
+        "b_wine::basement_storage_front_barrel_01",
+        "b_wine::basement_storage_back_barrel_01",
+        "b_store::basement_storage_front_barrel_01",
+        "b_store::basement_storage_back_barrel_01"
+      ],
+      "enabled_contacts": 6,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_north"
+      ]
+    },
+    {
+      "orientation_id": "barrel_west",
+      "type": "barrel",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_east"
+      ]
+    },
+    {
+      "orientation_id": "mirror_north",
+      "type": "mirror",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_south"
+      ]
+    },
+    {
+      "orientation_id": "mirror_east",
+      "type": "mirror",
+      "instances": [
+        "u_master::master_bedroom_mirror_01"
+      ],
+      "enabled_contacts": 1,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_west"
+      ]
+    },
+    {
+      "orientation_id": "mirror_south",
+      "type": "mirror",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_north"
+      ]
+    },
+    {
+      "orientation_id": "mirror_west",
+      "type": "mirror",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_east"
+      ]
+    },
+    {
+      "orientation_id": "painting_north",
+      "type": "painting",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_east",
+        "standing_inspect_south",
+        "standing_inspect_west",
+        "standing_look_up_east",
+        "standing_look_up_south",
+        "standing_look_up_west"
+      ]
+    },
+    {
+      "orientation_id": "painting_east",
+      "type": "painting",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_north",
+        "standing_inspect_south",
+        "standing_inspect_west",
+        "standing_look_up_north",
+        "standing_look_up_south",
+        "standing_look_up_west"
+      ]
+    },
+    {
+      "orientation_id": "painting_south",
+      "type": "painting",
+      "instances": [
+        "g_foyer::foyer_portrait_01",
+        "g_dining::dining_portrait_01",
+        "g_kitchen::kitchen_portrait_01",
+        "u_bath::washroom_placeholder_portrait_01"
+      ],
+      "enabled_contacts": 12,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_east",
+        "standing_inspect_north",
+        "standing_inspect_west",
+        "standing_look_up_east",
+        "standing_look_up_north",
+        "standing_look_up_west"
+      ]
+    },
+    {
+      "orientation_id": "painting_west",
+      "type": "painting",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_east",
+        "standing_inspect_north",
+        "standing_inspect_south",
+        "standing_look_up_east",
+        "standing_look_up_north",
+        "standing_look_up_south"
+      ]
+    },
+    {
+      "orientation_id": "stairway_north",
+      "type": "stairway",
+      "instances": [
+        "g_service_stair::service_stair_descending_stairs_01"
+      ],
+      "enabled_contacts": 1,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_idle_south",
+        "standing_listen_south"
+      ]
+    },
+    {
+      "orientation_id": "stairway_east",
+      "type": "stairway",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_idle_west",
+        "standing_listen_west"
+      ]
+    },
+    {
+      "orientation_id": "stairway_south",
+      "type": "stairway",
+      "instances": [
+        "g_main_stair::main_stair_stairs_01"
+      ],
+      "enabled_contacts": 1,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_idle_north",
+        "standing_listen_north"
+      ]
+    },
+    {
+      "orientation_id": "stairway_west",
+      "type": "stairway",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_idle_east",
+        "standing_listen_east"
+      ]
+    },
+    {
+      "orientation_id": "clock_north",
+      "type": "clock",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_east",
+        "standing_inspect_south",
+        "standing_inspect_west",
+        "standing_look_up_east",
+        "standing_look_up_south",
+        "standing_look_up_west"
+      ]
+    },
+    {
+      "orientation_id": "clock_east",
+      "type": "clock",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_north",
+        "standing_inspect_south",
+        "standing_inspect_west",
+        "standing_look_up_north",
+        "standing_look_up_south",
+        "standing_look_up_west"
+      ]
+    },
+    {
+      "orientation_id": "clock_south",
+      "type": "clock",
+      "instances": [
+        "g_foyer::foyer_clock_01"
+      ],
+      "enabled_contacts": 3,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "standing_inspect_east",
+        "standing_inspect_north",
+        "standing_inspect_west",
+        "standing_look_up_east",
+        "standing_look_up_north",
+        "standing_look_up_west"
+      ]
+    },
+    {
+      "orientation_id": "clock_west",
+      "type": "clock",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "standing_inspect_east",
+        "standing_inspect_north",
+        "standing_inspect_south",
+        "standing_look_up_east",
+        "standing_look_up_north",
+        "standing_look_up_south"
+      ]
+    },
+    {
+      "orientation_id": "bed_north_south_head_north",
+      "type": "bed",
+      "instances": [
+        "u_master::master_bedroom_bed_01",
+        "u_guest::guest_bed_01"
+      ],
+      "enabled_contacts": 4,
+      "status": "used_in_current_rooms",
+      "template_pose_ids": [
+        "lying_idle_north_south_head_north",
+        "seated_idle_east",
+        "seated_idle_west",
+        "seated_read_east",
+        "seated_read_west",
+        "seated_talk_east",
+        "seated_talk_west"
+      ]
+    },
+    {
+      "orientation_id": "bed_east_west_head_east",
+      "type": "bed",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "lying_idle_east_west_head_east",
+        "seated_idle_north",
+        "seated_idle_south",
+        "seated_read_north",
+        "seated_read_south",
+        "seated_talk_north",
+        "seated_talk_south"
+      ]
+    },
+    {
+      "orientation_id": "bed_north_south_head_south",
+      "type": "bed",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "lying_idle_north_south_head_south",
+        "seated_idle_east",
+        "seated_idle_west",
+        "seated_read_east",
+        "seated_read_west",
+        "seated_talk_east",
+        "seated_talk_west"
+      ]
+    },
+    {
+      "orientation_id": "bed_east_west_head_west",
+      "type": "bed",
+      "instances": [],
+      "enabled_contacts": 0,
+      "status": "catalog_only_not_a_missing_current_pose",
+      "template_pose_ids": [
+        "lying_idle_east_west_head_west",
+        "seated_idle_north",
+        "seated_idle_south",
+        "seated_read_north",
+        "seated_read_south",
+        "seated_talk_north",
+        "seated_talk_south"
+      ]
+    }
+  ]
+}

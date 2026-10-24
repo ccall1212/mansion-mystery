@@ -1,0 +1,729 @@
+{
+  "schema_version": 1,
+  "id": "washroom_placeholder",
+  "background": "res://assets/rooms/room-firelit-entry.png",
+  "coordinate_space": "background_local",
+  "coordinate_size": [
+    480,
+    320
+  ],
+  "instances": [
+    {
+      "id": "washroom_placeholder_bench_01",
+      "variant_id": "bench_south",
+      "position": [
+        91.0,
+        112
+      ],
+      "bounds": [
+        -33.0,
+        -29,
+        66,
+        29
+      ],
+      "footprint": [
+        -33.0,
+        -9.666666666666668,
+        66.0,
+        9.666666666666668
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -11.02
+          ],
+          "approach": [
+            0.0,
+            19.33
+          ],
+          "actor_facing": "south",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "washroom_placeholder_west_window_01",
+      "variant_id": "window_south",
+      "position": [
+        121.5,
+        80
+      ],
+      "bounds": [
+        -21.5,
+        -73,
+        43,
+        73
+      ],
+      "footprint": [
+        -21.5,
+        -8.76,
+        43.0,
+        8.76
+      ],
+      "anchors": [
+        {
+          "id": "look_out",
+          "enabled": true,
+          "contact": [
+            0.0,
+            72
+          ],
+          "approach": [
+            0.0,
+            88
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "look_out",
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "gaze_target": [
+            0.0,
+            -47.45
+          ]
+        },
+        {
+          "id": "view_from_west",
+          "enabled": true,
+          "contact": [
+            -37.5,
+            72
+          ],
+          "approach": [
+            -49.5,
+            88
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "west",
+          "gaze_target": [
+            0.0,
+            -47.45
+          ],
+          "visual_review": "pending",
+          "notes": "Draft side viewing position; review access, gaze, skirt and occlusion. Outside-image contacts stay disabled."
+        },
+        {
+          "id": "view_from_east",
+          "enabled": true,
+          "contact": [
+            37.5,
+            72
+          ],
+          "approach": [
+            49.5,
+            88
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "east",
+          "gaze_target": [
+            0.0,
+            -47.45
+          ],
+          "visual_review": "pending",
+          "notes": "Draft side viewing position; review access, gaze, skirt and occlusion. Outside-image contacts stay disabled."
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "washroom_placeholder_east_window_01",
+      "variant_id": "window_south",
+      "position": [
+        294.0,
+        80
+      ],
+      "bounds": [
+        -22.0,
+        -73,
+        44,
+        73
+      ],
+      "footprint": [
+        -22.0,
+        -8.76,
+        44.0,
+        8.76
+      ],
+      "anchors": [
+        {
+          "id": "look_out",
+          "enabled": true,
+          "contact": [
+            0.0,
+            72
+          ],
+          "approach": [
+            0.0,
+            88
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "look_out",
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "gaze_target": [
+            0.0,
+            -47.45
+          ]
+        },
+        {
+          "id": "view_from_west",
+          "enabled": true,
+          "contact": [
+            -38.0,
+            72
+          ],
+          "approach": [
+            -50.0,
+            88
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "west",
+          "gaze_target": [
+            0.0,
+            -47.45
+          ],
+          "visual_review": "pending",
+          "notes": "Draft side viewing position; review access, gaze, skirt and occlusion. Outside-image contacts stay disabled."
+        },
+        {
+          "id": "view_from_east",
+          "enabled": true,
+          "contact": [
+            38.0,
+            72
+          ],
+          "approach": [
+            50.0,
+            88
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "east",
+          "gaze_target": [
+            0.0,
+            -47.45
+          ],
+          "visual_review": "pending",
+          "notes": "Draft side viewing position; review access, gaze, skirt and occlusion. Outside-image contacts stay disabled."
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "washroom_placeholder_portrait_01",
+      "variant_id": "painting_south",
+      "position": [
+        209.0,
+        73
+      ],
+      "bounds": [
+        -22.0,
+        -64,
+        44,
+        64
+      ],
+      "footprint": [
+        -22.0,
+        -12.8,
+        44.0,
+        12.8
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            79
+          ],
+          "approach": [
+            0.0,
+            95
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "gaze_target": [
+            0.0,
+            -41.6
+          ]
+        },
+        {
+          "id": "view_from_west",
+          "enabled": true,
+          "contact": [
+            -38.0,
+            79
+          ],
+          "approach": [
+            -50.0,
+            95
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "west",
+          "gaze_target": [
+            0.0,
+            -41.6
+          ],
+          "visual_review": "pending",
+          "notes": "Draft side viewing position; review access, gaze, skirt and occlusion. Outside-image contacts stay disabled."
+        },
+        {
+          "id": "view_from_east",
+          "enabled": true,
+          "contact": [
+            38.0,
+            79
+          ],
+          "approach": [
+            50.0,
+            95
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "east",
+          "gaze_target": [
+            0.0,
+            -41.6
+          ],
+          "visual_review": "pending",
+          "notes": "Draft side viewing position; review access, gaze, skirt and occlusion. Outside-image contacts stay disabled."
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging."
+    },
+    {
+      "id": "washroom_placeholder_upper_brazier_01",
+      "variant_id": "fireplace_west",
+      "position": [
+        383.5,
+        130
+      ],
+      "bounds": [
+        -14.5,
+        -58,
+        29,
+        58
+      ],
+      "footprint": [
+        -14.500000000000002,
+        -6.959999999999999,
+        29.000000000000004,
+        6.959999999999999
+      ],
+      "anchors": [
+        {
+          "id": "stand",
+          "enabled": true,
+          "contact": [
+            -28.5,
+            -3
+          ],
+          "approach": [
+            -43.5,
+            -3
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "warm_hands"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "kneel",
+          "enabled": true,
+          "contact": [
+            -19.66,
+            0.0
+          ],
+          "approach": [
+            -19.66,
+            13.92
+          ],
+          "actor_facing": "east",
+          "posture": "kneeling",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "knees",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging. Painted fire basket, using fireplace interaction vocabulary; no new hearth is implied."
+    },
+    {
+      "id": "washroom_placeholder_lower_brazier_01",
+      "variant_id": "fireplace_west",
+      "position": [
+        447.0,
+        215
+      ],
+      "bounds": [
+        -17.0,
+        -58,
+        34,
+        58
+      ],
+      "footprint": [
+        -17.0,
+        -6.959999999999999,
+        34.0,
+        6.959999999999999
+      ],
+      "anchors": [
+        {
+          "id": "stand",
+          "enabled": true,
+          "contact": [
+            -31.0,
+            -3
+          ],
+          "approach": [
+            -46.0,
+            -3
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "warm_hands"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "kneel",
+          "enabled": true,
+          "contact": [
+            -23.04,
+            0.0
+          ],
+          "approach": [
+            -23.04,
+            13.92
+          ],
+          "actor_facing": "east",
+          "posture": "kneeling",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "knees",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging. Painted fire basket, using fireplace interaction vocabulary; no new hearth is implied."
+    },
+    {
+      "id": "washroom_placeholder_west_door_01",
+      "variant_id": "doorway_east",
+      "position": [
+        15.5,
+        320
+      ],
+      "bounds": [
+        -12.5,
+        -69,
+        25,
+        69
+      ],
+      "footprint": [
+        -12.5,
+        -8.28,
+        25.0,
+        8.28
+      ],
+      "anchors": [
+        {
+          "id": "inside",
+          "enabled": true,
+          "contact": [
+            26.5,
+            -10
+          ],
+          "approach": [
+            41.5,
+            -12
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "outside",
+          "enabled": false,
+          "contact": [
+            26.5,
+            -10
+          ],
+          "approach": [
+            41.5,
+            -12
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging. Visual opening tag only; actual traversable exits remain defined by mansion portals."
+    },
+    {
+      "id": "washroom_placeholder_east_door_01",
+      "variant_id": "doorway_west",
+      "position": [
+        461.0,
+        134
+      ],
+      "bounds": [
+        -16.0,
+        -121,
+        32,
+        121
+      ],
+      "footprint": [
+        -16.0,
+        -14.52,
+        32.0,
+        14.52
+      ],
+      "anchors": [
+        {
+          "id": "inside",
+          "enabled": true,
+          "contact": [
+            -30.0,
+            -3
+          ],
+          "approach": [
+            -45.0,
+            -3
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "outside",
+          "enabled": false,
+          "contact": [
+            -30.0,
+            -3
+          ],
+          "approach": [
+            -45.0,
+            -3
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging. Visual opening tag only; actual traversable exits remain defined by mansion portals."
+    }
+  ]
+}

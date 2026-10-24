@@ -1,0 +1,2723 @@
+{
+  "schema_version": 1,
+  "authoring_only": true,
+  "runtime_loaded": false,
+  "character_id": "likeness-photo01",
+  "review_number": "01",
+  "name": "Char",
+  "status": "alignment_01_artwork_approved_opt_in_live_placement_test",
+  "personality": "unassigned",
+  "guilt": "case_dependent_unassigned",
+  "sources": [
+    {
+      "path": "res://assets/characters/prototype/cast-01.png",
+      "sha256": "a955455d968cdb191cafaef2a5392969ffae2a4b398e920594b154553ae27bf4",
+      "purpose": "Existing identity reference; not a validated directional pose set"
+    },
+    {
+      "path": "res://assets/characters/review-v6/sources/selected-party-hm.png",
+      "sha256": "6631c02f7aa707629b88893aba8d9e797d070703b4831c81032903984ed14037",
+      "purpose": "User-selected Party I; crop_grid [3,2,1], panel_crop [0.2,0,0.68,0.99]"
+    },
+    {
+      "path": "res://assets/characters/poses/char/masters/likeness-review-02/char-likeness-v2.png",
+      "sha256": "e778ff629db4e58373b2fc0e65edaed63455af21c1e02a721809f5373bb75bb2",
+      "purpose": "User-approved Char appearance; primary reference for future pose production"
+    }
+  ],
+  "identity_selection": {
+    "user_selected_primary": true,
+    "final_cast_approved": false,
+    "new_pose_approvals": [
+      "seated_idle_east",
+      "seated_idle_south",
+      "seated_idle_west",
+      "standing_idle_east",
+      "standing_idle_north",
+      "standing_idle_south",
+      "standing_idle_west"
+    ],
+    "approved_revision": {
+      "path": "assets/characters/poses/char/masters/likeness-review-02/char-likeness-v2.png",
+      "sha256": "e778ff629db4e58373b2fc0e65edaed63455af21c1e02a721809f5373bb75bb2",
+      "status": "user_approved_design",
+      "date": "2026-10-23",
+      "runtime_replaced": false
+    }
+  },
+  "canonical_references": [
+    "01 Char",
+    "13 Sarah Jo",
+    "07 Kwinn",
+    "06 Chris"
+  ],
+  "metrics": {
+    "existing_reference_canvas": [
+      252,
+      472
+    ],
+    "existing_opaque_bounds": [
+      0,
+      0,
+      252,
+      472
+    ],
+    "existing_adult_height": 64,
+    "height_ratio": 1.0,
+    "source_pixels_per_logical_pixel": 7.375,
+    "new_pose_canvas": null,
+    "padding": null,
+    "standing_reference_height": null,
+    "contact_landmarks": null,
+    "note": "New export dimensions and reference scale must be approved; seated/crouched bounds must not be normalized to standing height.",
+    "approved_design_canvas": [
+      916,
+      1716
+    ],
+    "approved_design_opaque_bounds": [
+      15,
+      0,
+      901,
+      1673
+    ],
+    "batch_alignment_01": {
+      "standing_source_reference_height": 1673,
+      "logical_standing_height": 64,
+      "source_units_to_logical_scale": 0.03825463239689181,
+      "draft_export_canvas": [
+        1045,
+        1844
+      ],
+      "padding": [
+        64,
+        64
+      ],
+      "individual_pose_height_normalization": false,
+      "landmark_approval": "pending"
+    },
+    "runtime_rendering_config": "assets/characters/rendering.json; historical source-review measurements remain unchanged"
+  },
+  "pose_requirements": [
+    {
+      "pose_id": "kneeling_inspect_east",
+      "status": "planned",
+      "source_contacts": [
+        "u_bath::washroom_placeholder_upper_brazier_01::kneel",
+        "u_bath::washroom_placeholder_lower_brazier_01::kneel"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "kneeling_inspect_north",
+      "status": "planned",
+      "source_contacts": [
+        "g_dining::dining_fireplace_01::kneel",
+        "u_master::master_bedroom_fireplace_01::kneel",
+        "u_guest::guest_fireplace_01::kneel",
+        "u_study::study_archive_fireplace_01::kneel",
+        "b_archive::study_archive_fireplace_01::kneel"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "lying_idle_north_south_head_north",
+      "status": "planned",
+      "source_contacts": [
+        "u_master::master_bedroom_bed_01::lie",
+        "u_guest::guest_bed_01::lie"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "seated_idle_east",
+      "status": "approved_sample",
+      "source_contacts": [
+        "g_dining::dining_west_sofa_01::seat_left",
+        "g_dining::dining_west_sofa_01::seat_right",
+        "g_kitchen::kitchen_upper_chair_01::seat",
+        "g_kitchen::kitchen_lower_chair_01::seat",
+        "u_service_stair::upper_service_west_bench_01::seat",
+        "u_guest::guest_bed_01::sit_east"
+      ],
+      "batch": "alignment_01",
+      "source_artwork": "assets/characters/poses/char/masters/alignment_01/seated_idle_east.png",
+      "master_artwork": "assets/characters/poses/char/masters/alignment_01/seated_idle_east.png",
+      "final_asset": null,
+      "landmarks": {
+        "source": {
+          "seat": [
+            360,
+            1000
+          ],
+          "feet": [
+            746,
+            1604
+          ],
+          "head_crown": [
+            430,
+            276
+          ],
+          "chin": [
+            479,
+            563
+          ]
+        },
+        "contact_kind": "seat",
+        "padded_contact": [
+          424,
+          1064
+        ],
+        "status": "manual visual estimates; not approved fit measurements",
+        "standing_reference_height": 1673,
+        "source_units_to_logical_scale": 0.03825463239689181
+      },
+      "furniture_fit": [
+        {
+          "contact": "g_kitchen::kitchen_lower_chair_01::seat",
+          "preview": "assets/characters/poses/char/review/alignment_01/seated_idle_east--context.png",
+          "status": "visual_mockup_only",
+          "landmarks": "estimated",
+          "masks": "missing",
+          "runtime_tested": false
+        }
+      ],
+      "generation_runs": [
+        "char_alignment_01_seated_idle_east"
+      ],
+      "approval": "approved",
+      "approval_record": {
+        "decision": "approved_pose_samples",
+        "date": "2026-10-23",
+        "source": "Explicit user next-phase planning request",
+        "quote": "The first seven character pose samples have been generated successfully. I am happy with the results",
+        "pose_ids": [
+          "seated_idle_east",
+          "seated_idle_south",
+          "seated_idle_west",
+          "standing_idle_east",
+          "standing_idle_north",
+          "standing_idle_south",
+          "standing_idle_west"
+        ],
+        "scope": "Seven alignment_01 artwork samples and unchanged padded copies only; not runtime integration, calibrated contact landmarks, chair masks or complete character production."
+      },
+      "supersedes": null,
+      "candidate_export": "assets/characters/poses/char/exports/east/char_seated_idle_east_neutral.png",
+      "live_test_integration": "opt_in_test_only; furniture_fit_pending"
+    },
+    {
+      "pose_id": "seated_idle_south",
+      "status": "approved_sample",
+      "source_contacts": [
+        "g_main_stair::main_stair_bench_01::seat",
+        "g_library::library_desk_01::seated_work",
+        "g_library::library_armchair_01::seat",
+        "u_main_stair::upper_gallery_west_bench_01::seat",
+        "u_main_stair::upper_gallery_east_bench_01::seat",
+        "u_master::master_bedroom_window_bench_01::seat",
+        "u_guest::guest_bedroom_back_chair_01::seat",
+        "u_study::study_archive_desk_01::seated_work",
+        "u_bath::washroom_placeholder_bench_01::seat",
+        "b_main_stair::basement_stone_bench_01::seat",
+        "b_archive::study_archive_desk_01::seated_work",
+        "b_utility::basement_stone_bench_01::seat"
+      ],
+      "batch": "alignment_01",
+      "source_artwork": "assets/characters/poses/char/masters/alignment_01/seated_idle_south.png",
+      "master_artwork": "assets/characters/poses/char/masters/alignment_01/seated_idle_south.png",
+      "final_asset": null,
+      "landmarks": {
+        "source": {
+          "seat": [
+            465,
+            1000
+          ],
+          "feet": [
+            510,
+            1628
+          ],
+          "head_crown": [
+            470,
+            248
+          ],
+          "chin": [
+            494,
+            537
+          ]
+        },
+        "contact_kind": "seat",
+        "padded_contact": [
+          529,
+          1064
+        ],
+        "status": "manual visual estimates; not approved fit measurements",
+        "standing_reference_height": 1673,
+        "source_units_to_logical_scale": 0.03825463239689181
+      },
+      "furniture_fit": [
+        {
+          "contact": "g_library::library_armchair_01::seat",
+          "preview": "assets/characters/poses/char/review/alignment_01/seated_idle_south--context.png",
+          "status": "visual_mockup_only",
+          "landmarks": "estimated",
+          "masks": "missing",
+          "runtime_tested": false
+        }
+      ],
+      "generation_runs": [
+        "char_alignment_01_seated_idle_south"
+      ],
+      "approval": "approved",
+      "approval_record": {
+        "decision": "approved_pose_samples",
+        "date": "2026-10-23",
+        "source": "Explicit user next-phase planning request",
+        "quote": "The first seven character pose samples have been generated successfully. I am happy with the results",
+        "pose_ids": [
+          "seated_idle_east",
+          "seated_idle_south",
+          "seated_idle_west",
+          "standing_idle_east",
+          "standing_idle_north",
+          "standing_idle_south",
+          "standing_idle_west"
+        ],
+        "scope": "Seven alignment_01 artwork samples and unchanged padded copies only; not runtime integration, calibrated contact landmarks, chair masks or complete character production."
+      },
+      "supersedes": null,
+      "candidate_export": "assets/characters/poses/char/exports/south/char_seated_idle_south_neutral.png",
+      "live_test_integration": "opt_in_test_only; furniture_fit_pending"
+    },
+    {
+      "pose_id": "seated_idle_west",
+      "status": "approved_sample",
+      "source_contacts": [
+        "g_foyer::foyer_armchair_01::seat",
+        "g_dining::dining_east_sofa_01::seat_left",
+        "g_dining::dining_east_sofa_01::seat_right",
+        "u_service_stair::upper_service_east_bench_01::seat",
+        "u_master::master_bedroom_bed_01::sit_west",
+        "u_master::master_bedroom_bedside_bench_01::seat",
+        "u_master::master_bedroom_vanity_01::seated_work",
+        "u_master::master_bedroom_vanity_chair_01::seat",
+        "u_guest::guest_armchair_01::seat",
+        "u_study::study_archive_armchair_01::seat",
+        "b_archive::study_archive_armchair_01::seat"
+      ],
+      "batch": "alignment_01",
+      "source_artwork": "assets/characters/poses/char/masters/alignment_01/seated_idle_west.png",
+      "master_artwork": "assets/characters/poses/char/masters/alignment_01/seated_idle_west.png",
+      "final_asset": null,
+      "landmarks": {
+        "source": {
+          "seat": [
+            550,
+            1000
+          ],
+          "feet": [
+            221,
+            1569
+          ],
+          "head_crown": [
+            485,
+            240
+          ],
+          "chin": [
+            440,
+            532
+          ]
+        },
+        "contact_kind": "seat",
+        "padded_contact": [
+          614,
+          1064
+        ],
+        "status": "manual visual estimates; not approved fit measurements",
+        "standing_reference_height": 1673,
+        "source_units_to_logical_scale": 0.03825463239689181
+      },
+      "furniture_fit": [
+        {
+          "contact": "g_foyer::foyer_armchair_01::seat",
+          "preview": "assets/characters/poses/char/review/alignment_01/seated_idle_west--context.png",
+          "status": "visual_mockup_only",
+          "landmarks": "estimated",
+          "masks": "missing",
+          "runtime_tested": false
+        }
+      ],
+      "generation_runs": [
+        "char_alignment_01_seated_idle_west"
+      ],
+      "approval": "approved",
+      "approval_record": {
+        "decision": "approved_pose_samples",
+        "date": "2026-10-23",
+        "source": "Explicit user next-phase planning request",
+        "quote": "The first seven character pose samples have been generated successfully. I am happy with the results",
+        "pose_ids": [
+          "seated_idle_east",
+          "seated_idle_south",
+          "seated_idle_west",
+          "standing_idle_east",
+          "standing_idle_north",
+          "standing_idle_south",
+          "standing_idle_west"
+        ],
+        "scope": "Seven alignment_01 artwork samples and unchanged padded copies only; not runtime integration, calibrated contact landmarks, chair masks or complete character production."
+      },
+      "supersedes": null,
+      "candidate_export": "assets/characters/poses/char/exports/west/char_seated_idle_west_neutral.png",
+      "live_test_integration": "opt_in_test_only; furniture_fit_pending"
+    },
+    {
+      "pose_id": "seated_read_east",
+      "status": "planned",
+      "source_contacts": [
+        "g_dining::dining_west_sofa_01::seat_left",
+        "g_dining::dining_west_sofa_01::seat_right",
+        "g_kitchen::kitchen_upper_chair_01::seat",
+        "g_kitchen::kitchen_lower_chair_01::seat",
+        "u_service_stair::upper_service_west_bench_01::seat",
+        "u_guest::guest_bed_01::sit_east"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "seated_read_south",
+      "status": "planned",
+      "source_contacts": [
+        "g_main_stair::main_stair_bench_01::seat",
+        "g_library::library_desk_01::seated_work",
+        "g_library::library_armchair_01::seat",
+        "u_main_stair::upper_gallery_west_bench_01::seat",
+        "u_main_stair::upper_gallery_east_bench_01::seat",
+        "u_master::master_bedroom_window_bench_01::seat",
+        "u_guest::guest_bedroom_back_chair_01::seat",
+        "u_study::study_archive_desk_01::seated_work",
+        "u_bath::washroom_placeholder_bench_01::seat",
+        "b_main_stair::basement_stone_bench_01::seat",
+        "b_archive::study_archive_desk_01::seated_work",
+        "b_utility::basement_stone_bench_01::seat"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "seated_read_west",
+      "status": "planned",
+      "source_contacts": [
+        "g_foyer::foyer_armchair_01::seat",
+        "g_dining::dining_east_sofa_01::seat_left",
+        "g_dining::dining_east_sofa_01::seat_right",
+        "u_service_stair::upper_service_east_bench_01::seat",
+        "u_master::master_bedroom_bed_01::sit_west",
+        "u_master::master_bedroom_bedside_bench_01::seat",
+        "u_master::master_bedroom_vanity_01::seated_work",
+        "u_master::master_bedroom_vanity_chair_01::seat",
+        "u_guest::guest_armchair_01::seat",
+        "u_study::study_archive_armchair_01::seat",
+        "b_archive::study_archive_armchair_01::seat"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "seated_talk_east",
+      "status": "planned",
+      "source_contacts": [
+        "g_dining::dining_west_sofa_01::seat_left",
+        "g_dining::dining_west_sofa_01::seat_right",
+        "g_kitchen::kitchen_upper_chair_01::seat",
+        "g_kitchen::kitchen_lower_chair_01::seat",
+        "u_service_stair::upper_service_west_bench_01::seat",
+        "u_guest::guest_bed_01::sit_east"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "seated_talk_south",
+      "status": "planned",
+      "source_contacts": [
+        "g_main_stair::main_stair_bench_01::seat",
+        "g_library::library_armchair_01::seat",
+        "u_main_stair::upper_gallery_west_bench_01::seat",
+        "u_main_stair::upper_gallery_east_bench_01::seat",
+        "u_master::master_bedroom_window_bench_01::seat",
+        "u_guest::guest_bedroom_back_chair_01::seat",
+        "u_bath::washroom_placeholder_bench_01::seat",
+        "b_main_stair::basement_stone_bench_01::seat",
+        "b_utility::basement_stone_bench_01::seat"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "seated_talk_west",
+      "status": "planned",
+      "source_contacts": [
+        "g_foyer::foyer_armchair_01::seat",
+        "g_dining::dining_east_sofa_01::seat_left",
+        "g_dining::dining_east_sofa_01::seat_right",
+        "u_service_stair::upper_service_east_bench_01::seat",
+        "u_master::master_bedroom_bed_01::sit_west",
+        "u_master::master_bedroom_bedside_bench_01::seat",
+        "u_master::master_bedroom_vanity_chair_01::seat",
+        "u_guest::guest_armchair_01::seat",
+        "u_study::study_archive_armchair_01::seat",
+        "b_archive::study_archive_armchair_01::seat"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "seated_write_south",
+      "status": "planned",
+      "source_contacts": [
+        "g_library::library_desk_01::seated_work",
+        "u_study::study_archive_desk_01::seated_work",
+        "b_archive::study_archive_desk_01::seated_work"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "seated_write_west",
+      "status": "planned",
+      "source_contacts": [
+        "u_master::master_bedroom_vanity_01::seated_work",
+        "u_master::master_bedroom_vanity_chair_01::seat"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_drink_north",
+      "status": "planned",
+      "source_contacts": [
+        "g_kitchen::kitchen_counter_01::use"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_idle_east",
+      "status": "approved_sample",
+      "source_contacts": [],
+      "batch": "alignment_01",
+      "source_artwork": "assets/characters/poses/char/masters/alignment_01/standing_idle_east.png",
+      "master_artwork": "assets/characters/poses/char/masters/alignment_01/standing_idle_east.png",
+      "final_asset": null,
+      "landmarks": {
+        "source": {
+          "feet": [
+            546,
+            1671
+          ],
+          "head_crown": [
+            480,
+            5
+          ],
+          "chin": [
+            540,
+            304
+          ]
+        },
+        "contact_kind": "feet",
+        "padded_contact": [
+          610,
+          1735
+        ],
+        "status": "manual visual estimates; not approved fit measurements",
+        "standing_reference_height": 1673,
+        "source_units_to_logical_scale": 0.03825463239689181
+      },
+      "furniture_fit": [],
+      "generation_runs": [
+        "char_alignment_01_standing_idle_east"
+      ],
+      "approval": "approved",
+      "approval_record": {
+        "decision": "approved_pose_samples",
+        "date": "2026-10-23",
+        "source": "Explicit user next-phase planning request",
+        "quote": "The first seven character pose samples have been generated successfully. I am happy with the results",
+        "pose_ids": [
+          "seated_idle_east",
+          "seated_idle_south",
+          "seated_idle_west",
+          "standing_idle_east",
+          "standing_idle_north",
+          "standing_idle_south",
+          "standing_idle_west"
+        ],
+        "scope": "Seven alignment_01 artwork samples and unchanged padded copies only; not runtime integration, calibrated contact landmarks, chair masks or complete character production."
+      },
+      "supersedes": null,
+      "candidate_export": "assets/characters/poses/char/exports/east/char_standing_idle_east_neutral.png",
+      "live_test_integration": "opt_in_test_only; furniture_fit_pending"
+    },
+    {
+      "pose_id": "standing_idle_north",
+      "status": "approved_sample",
+      "source_contacts": [
+        "g_main_stair::main_stair_stairs_01::inspect",
+        "g_kitchen::kitchen_counter_01::use"
+      ],
+      "batch": "alignment_01",
+      "source_artwork": "assets/characters/poses/char/masters/alignment_01/standing_idle_north.png",
+      "master_artwork": "assets/characters/poses/char/masters/alignment_01/standing_idle_north.png",
+      "final_asset": null,
+      "landmarks": {
+        "source": {
+          "feet": [
+            450,
+            1688
+          ],
+          "head_crown": [
+            480,
+            18
+          ],
+          "chin": null
+        },
+        "contact_kind": "feet",
+        "padded_contact": [
+          514,
+          1752
+        ],
+        "status": "manual visual estimates; not approved fit measurements",
+        "standing_reference_height": 1673,
+        "source_units_to_logical_scale": 0.03825463239689181
+      },
+      "furniture_fit": [],
+      "generation_runs": [
+        "char_alignment_01_standing_idle_north"
+      ],
+      "approval": "approved",
+      "approval_record": {
+        "decision": "approved_pose_samples",
+        "date": "2026-10-23",
+        "source": "Explicit user next-phase planning request",
+        "quote": "The first seven character pose samples have been generated successfully. I am happy with the results",
+        "pose_ids": [
+          "seated_idle_east",
+          "seated_idle_south",
+          "seated_idle_west",
+          "standing_idle_east",
+          "standing_idle_north",
+          "standing_idle_south",
+          "standing_idle_west"
+        ],
+        "scope": "Seven alignment_01 artwork samples and unchanged padded copies only; not runtime integration, calibrated contact landmarks, chair masks or complete character production."
+      },
+      "supersedes": null,
+      "candidate_export": "assets/characters/poses/char/exports/north/char_standing_idle_north_neutral.png",
+      "live_test_integration": "opt_in_test_only; furniture_fit_pending"
+    },
+    {
+      "pose_id": "standing_idle_south",
+      "status": "approved_sample",
+      "source_contacts": [
+        "g_service_stair::service_stair_descending_stairs_01::inspect"
+      ],
+      "batch": "alignment_01",
+      "source_artwork": "assets/characters/poses/char/masters/alignment_01/standing_idle_south.png",
+      "master_artwork": "assets/characters/poses/char/masters/alignment_01/standing_idle_south.png",
+      "final_asset": null,
+      "landmarks": {
+        "source": {
+          "feet": [
+            489,
+            1653
+          ],
+          "head_crown": [
+            460,
+            6
+          ],
+          "chin": [
+            490,
+            337
+          ]
+        },
+        "contact_kind": "feet",
+        "padded_contact": [
+          553,
+          1717
+        ],
+        "status": "manual visual estimates; not approved fit measurements",
+        "standing_reference_height": 1673,
+        "source_units_to_logical_scale": 0.03825463239689181
+      },
+      "furniture_fit": [],
+      "generation_runs": [
+        "char_alignment_01_standing_idle_south"
+      ],
+      "approval": "approved",
+      "approval_record": {
+        "decision": "approved_pose_samples",
+        "date": "2026-10-23",
+        "source": "Explicit user next-phase planning request",
+        "quote": "The first seven character pose samples have been generated successfully. I am happy with the results",
+        "pose_ids": [
+          "seated_idle_east",
+          "seated_idle_south",
+          "seated_idle_west",
+          "standing_idle_east",
+          "standing_idle_north",
+          "standing_idle_south",
+          "standing_idle_west"
+        ],
+        "scope": "Seven alignment_01 artwork samples and unchanged padded copies only; not runtime integration, calibrated contact landmarks, chair masks or complete character production."
+      },
+      "supersedes": null,
+      "candidate_export": "assets/characters/poses/char/exports/south/char_standing_idle_south_neutral.png",
+      "live_test_integration": "opt_in_test_only; furniture_fit_pending"
+    },
+    {
+      "pose_id": "standing_idle_west",
+      "status": "approved_sample",
+      "source_contacts": [],
+      "batch": "alignment_01",
+      "source_artwork": "assets/characters/poses/char/masters/alignment_01/standing_idle_west.png",
+      "master_artwork": "assets/characters/poses/char/masters/alignment_01/standing_idle_west.png",
+      "final_asset": null,
+      "landmarks": {
+        "source": {
+          "feet": [
+            392,
+            1668
+          ],
+          "head_crown": [
+            480,
+            5
+          ],
+          "chin": [
+            384,
+            307
+          ]
+        },
+        "contact_kind": "feet",
+        "padded_contact": [
+          456,
+          1732
+        ],
+        "status": "manual visual estimates; not approved fit measurements",
+        "standing_reference_height": 1673,
+        "source_units_to_logical_scale": 0.03825463239689181
+      },
+      "furniture_fit": [],
+      "generation_runs": [
+        "char_alignment_01_standing_idle_west"
+      ],
+      "approval": "approved",
+      "approval_record": {
+        "decision": "approved_pose_samples",
+        "date": "2026-10-23",
+        "source": "Explicit user next-phase planning request",
+        "quote": "The first seven character pose samples have been generated successfully. I am happy with the results",
+        "pose_ids": [
+          "seated_idle_east",
+          "seated_idle_south",
+          "seated_idle_west",
+          "standing_idle_east",
+          "standing_idle_north",
+          "standing_idle_south",
+          "standing_idle_west"
+        ],
+        "scope": "Seven alignment_01 artwork samples and unchanged padded copies only; not runtime integration, calibrated contact landmarks, chair masks or complete character production."
+      },
+      "supersedes": null,
+      "candidate_export": "assets/characters/poses/char/exports/west/char_standing_idle_west_neutral.png",
+      "live_test_integration": "opt_in_test_only; furniture_fit_pending"
+    },
+    {
+      "pose_id": "standing_inspect_east",
+      "status": "planned",
+      "source_contacts": [
+        "g_foyer::foyer_window_01::view_from_west",
+        "g_foyer::foyer_west_window_01::view_from_west",
+        "g_foyer::foyer_clock_01::view_from_west",
+        "g_foyer::foyer_portrait_01::view_from_west",
+        "g_main_stair::main_stair_window_01::view_from_west",
+        "g_library::library_window_01::view_from_west",
+        "g_library::library_east_door_01::inside",
+        "g_dining::dining_portrait_01::view_from_west",
+        "g_dining::dining_window_01::view_from_west",
+        "g_dining::dining_east_door_01::inside",
+        "g_kitchen::kitchen_portrait_01::view_from_west",
+        "g_kitchen::kitchen_window_01::view_from_west",
+        "g_kitchen::kitchen_east_door_01::inside",
+        "g_service_stair::service_stair_window_01::view_from_west",
+        "g_service_stair::service_stair_east_door_01::inside",
+        "u_main_stair::upper_gallery_west_window_01::view_from_west",
+        "u_main_stair::upper_gallery_east_window_01::view_from_west",
+        "u_main_stair::upper_gallery_east_door_01::inside",
+        "u_service_stair::upper_service_east_door_01::inside",
+        "u_service_stair::upper_service_window_01::view_from_west",
+        "u_master::master_bedroom_nightstand_01::inspect",
+        "u_master::master_bedroom_window_01::view_from_west",
+        "u_master::master_bedroom_east_door_01::inside",
+        "u_guest::guest_window_01::view_from_west",
+        "u_guest::guest_bedroom_side_table_01::use",
+        "u_guest::guest_bedroom_east_door_01::inside",
+        "u_study::study_archive_side_table_01::use",
+        "u_bath::washroom_placeholder_west_window_01::view_from_west",
+        "u_bath::washroom_placeholder_east_window_01::view_from_west",
+        "u_bath::washroom_placeholder_portrait_01::view_from_west",
+        "u_bath::washroom_placeholder_upper_brazier_01::stand",
+        "u_bath::washroom_placeholder_lower_brazier_01::stand",
+        "u_bath::washroom_placeholder_east_door_01::inside",
+        "b_main_stair::basement_stone_crate_01::inspect",
+        "b_archive::study_archive_side_table_01::use",
+        "b_utility::basement_stone_crate_01::inspect"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_inspect_north",
+      "status": "planned",
+      "source_contacts": [
+        "g_foyer::foyer_window_01::look_out",
+        "g_foyer::foyer_reading_stand_01::use",
+        "g_foyer::foyer_front_door_01::inside",
+        "g_foyer::foyer_west_window_01::look_out",
+        "g_foyer::foyer_clock_01::inspect",
+        "g_foyer::foyer_console_01::inspect",
+        "g_foyer::foyer_portrait_01::inspect",
+        "g_main_stair::main_stair_window_01::look_out",
+        "g_main_stair::main_stair_upper_door_01::inside",
+        "g_library::library_desk_01::standing_work",
+        "g_library::library_bookshelf_01::inspect",
+        "g_library::library_foreground_cabinet_01::inspect",
+        "g_library::library_window_01::look_out",
+        "g_library::library_side_table_01::use",
+        "g_dining::dining_cabinet_01::inspect",
+        "g_dining::dining_fireplace_01::stand",
+        "g_dining::dining_portrait_01::inspect",
+        "g_dining::dining_window_01::look_out",
+        "g_kitchen::kitchen_back_cabinet_01::inspect",
+        "g_kitchen::kitchen_portrait_01::inspect",
+        "g_kitchen::kitchen_window_01::look_out",
+        "g_service_stair::service_stair_shelves_01::inspect",
+        "g_service_stair::service_stair_window_01::look_out",
+        "u_main_stair::upper_gallery_west_statue_01::inspect",
+        "u_main_stair::upper_gallery_east_statue_01::inspect",
+        "u_main_stair::upper_gallery_west_window_01::look_out",
+        "u_main_stair::upper_gallery_east_window_01::look_out",
+        "u_main_stair::upper_gallery_north_door_01::inside",
+        "u_service_stair::upper_service_west_statue_01::inspect",
+        "u_service_stair::upper_service_east_statue_01::inspect",
+        "u_service_stair::upper_service_north_door_01::inside",
+        "u_service_stair::upper_service_window_01::look_out",
+        "u_master::master_bedroom_fireplace_01::stand",
+        "u_master::master_bedroom_window_01::look_out",
+        "u_guest::guest_fireplace_01::stand",
+        "u_guest::guest_window_01::look_out",
+        "u_guest::guest_bedroom_cabinet_01::inspect",
+        "u_study::study_archive_back_shelves_01::inspect",
+        "u_study::study_archive_desk_01::standing_work",
+        "u_study::study_archive_foreground_shelves_01::inspect",
+        "u_study::study_archive_fireplace_01::stand",
+        "u_study::study_archive_north_door_01::inside",
+        "u_bath::washroom_placeholder_west_window_01::look_out",
+        "u_bath::washroom_placeholder_east_window_01::look_out",
+        "u_bath::washroom_placeholder_portrait_01::inspect",
+        "b_main_stair::basement_stone_north_arch_01::inside",
+        "b_service_stair::basement_storage_front_barrel_01::inspect",
+        "b_service_stair::basement_storage_back_barrel_01::inspect",
+        "b_service_stair::basement_storage_west_crate_01::inspect",
+        "b_service_stair::basement_storage_back_crates_01::inspect",
+        "b_service_stair::basement_storage_east_crate_01::inspect",
+        "b_service_stair::basement_storage_west_rack_01::inspect",
+        "b_service_stair::basement_storage_east_rack_01::inspect",
+        "b_service_stair::basement_storage_north_arch_01::inside",
+        "b_wine::basement_storage_front_barrel_01::inspect",
+        "b_wine::basement_storage_back_barrel_01::inspect",
+        "b_wine::basement_storage_west_crate_01::inspect",
+        "b_wine::basement_storage_back_crates_01::inspect",
+        "b_wine::basement_storage_east_crate_01::inspect",
+        "b_wine::basement_storage_west_rack_01::inspect",
+        "b_wine::basement_storage_east_rack_01::inspect",
+        "b_wine::basement_storage_north_arch_01::inside",
+        "b_archive::study_archive_back_shelves_01::inspect",
+        "b_archive::study_archive_desk_01::standing_work",
+        "b_archive::study_archive_foreground_shelves_01::inspect",
+        "b_archive::study_archive_fireplace_01::stand",
+        "b_archive::study_archive_north_door_01::inside",
+        "b_utility::basement_stone_north_arch_01::inside",
+        "b_store::basement_storage_front_barrel_01::inspect",
+        "b_store::basement_storage_back_barrel_01::inspect",
+        "b_store::basement_storage_west_crate_01::inspect",
+        "b_store::basement_storage_back_crates_01::inspect",
+        "b_store::basement_storage_east_crate_01::inspect",
+        "b_store::basement_storage_west_rack_01::inspect",
+        "b_store::basement_storage_east_rack_01::inspect",
+        "b_store::basement_storage_north_arch_01::inside"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_inspect_south",
+      "status": "planned",
+      "source_contacts": [
+        "g_dining::dining_south_threshold_01::inside",
+        "g_kitchen::kitchen_south_threshold_01::inside",
+        "u_main_stair::upper_gallery_south_threshold_01::inside",
+        "u_guest::guest_bedroom_south_threshold_01::inside",
+        "u_study::study_archive_south_threshold_01::inside",
+        "b_archive::study_archive_south_threshold_01::inside"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_inspect_west",
+      "status": "planned",
+      "source_contacts": [
+        "g_foyer::foyer_window_01::view_from_east",
+        "g_foyer::foyer_west_window_01::view_from_east",
+        "g_foyer::foyer_clock_01::view_from_east",
+        "g_foyer::foyer_portrait_01::view_from_east",
+        "g_main_stair::main_stair_window_01::view_from_east",
+        "g_main_stair::main_stair_west_door_01::inside",
+        "g_library::library_west_shelves_01::inspect",
+        "g_library::library_window_01::view_from_east",
+        "g_library::library_west_door_01::inside",
+        "g_dining::dining_side_table_01::use",
+        "g_dining::dining_portrait_01::view_from_east",
+        "g_dining::dining_window_01::view_from_east",
+        "g_dining::dining_west_door_01::inside",
+        "g_kitchen::kitchen_side_table_01::use",
+        "g_kitchen::kitchen_portrait_01::view_from_east",
+        "g_kitchen::kitchen_window_01::view_from_east",
+        "g_kitchen::kitchen_west_door_01::inside",
+        "g_service_stair::service_stair_window_01::view_from_east",
+        "g_service_stair::service_stair_west_door_01::inside",
+        "u_main_stair::upper_gallery_west_window_01::view_from_east",
+        "u_main_stair::upper_gallery_east_window_01::view_from_east",
+        "u_main_stair::upper_gallery_west_door_01::inside",
+        "u_service_stair::upper_service_west_door_01::inside",
+        "u_service_stair::upper_service_window_01::view_from_east",
+        "u_master::master_bedroom_vanity_01::standing_work",
+        "u_master::master_bedroom_mirror_01::inspect",
+        "u_master::master_bedroom_window_01::view_from_east",
+        "u_master::master_bedroom_west_door_01::inside",
+        "u_guest::guest_window_01::view_from_east",
+        "u_guest::guest_bedroom_nightstand_01::inspect",
+        "u_guest::guest_bedroom_west_door_01::inside",
+        "u_study::study_archive_west_door_01::inside",
+        "u_bath::washroom_placeholder_west_window_01::view_from_east",
+        "u_bath::washroom_placeholder_east_window_01::view_from_east",
+        "u_bath::washroom_placeholder_portrait_01::view_from_east",
+        "u_bath::washroom_placeholder_west_door_01::inside",
+        "b_main_stair::basement_stone_west_door_01::inside",
+        "b_service_stair::basement_storage_west_door_01::inside",
+        "b_wine::basement_storage_west_door_01::inside",
+        "b_archive::study_archive_west_door_01::inside",
+        "b_utility::basement_stone_west_door_01::inside",
+        "b_store::basement_storage_west_door_01::inside"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_listen_east",
+      "status": "planned",
+      "source_contacts": [
+        "g_library::library_east_door_01::inside",
+        "g_dining::dining_east_door_01::inside",
+        "g_kitchen::kitchen_east_door_01::inside",
+        "g_service_stair::service_stair_east_door_01::inside",
+        "u_main_stair::upper_gallery_east_door_01::inside",
+        "u_service_stair::upper_service_east_door_01::inside",
+        "u_master::master_bedroom_east_door_01::inside",
+        "u_guest::guest_bedroom_east_door_01::inside",
+        "u_bath::washroom_placeholder_east_door_01::inside"
+      ],
+      "batch": "conversation_02",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_listen_north",
+      "status": "planned",
+      "source_contacts": [
+        "g_foyer::foyer_front_door_01::inside",
+        "g_main_stair::main_stair_stairs_01::inspect",
+        "g_main_stair::main_stair_upper_door_01::inside",
+        "u_main_stair::upper_gallery_north_door_01::inside",
+        "u_service_stair::upper_service_north_door_01::inside",
+        "u_study::study_archive_north_door_01::inside",
+        "b_main_stair::basement_stone_north_arch_01::inside",
+        "b_service_stair::basement_storage_north_arch_01::inside",
+        "b_wine::basement_storage_north_arch_01::inside",
+        "b_archive::study_archive_north_door_01::inside",
+        "b_utility::basement_stone_north_arch_01::inside",
+        "b_store::basement_storage_north_arch_01::inside"
+      ],
+      "batch": "conversation_02",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_listen_south",
+      "status": "planned",
+      "source_contacts": [
+        "g_dining::dining_south_threshold_01::inside",
+        "g_kitchen::kitchen_south_threshold_01::inside",
+        "g_service_stair::service_stair_descending_stairs_01::inspect",
+        "u_main_stair::upper_gallery_south_threshold_01::inside",
+        "u_guest::guest_bedroom_south_threshold_01::inside",
+        "u_study::study_archive_south_threshold_01::inside",
+        "b_archive::study_archive_south_threshold_01::inside"
+      ],
+      "batch": "conversation_02",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_listen_west",
+      "status": "planned",
+      "source_contacts": [
+        "g_main_stair::main_stair_west_door_01::inside",
+        "g_library::library_west_door_01::inside",
+        "g_dining::dining_west_door_01::inside",
+        "g_kitchen::kitchen_west_door_01::inside",
+        "g_service_stair::service_stair_west_door_01::inside",
+        "u_main_stair::upper_gallery_west_door_01::inside",
+        "u_service_stair::upper_service_west_door_01::inside",
+        "u_master::master_bedroom_west_door_01::inside",
+        "u_guest::guest_bedroom_west_door_01::inside",
+        "u_study::study_archive_west_door_01::inside",
+        "u_bath::washroom_placeholder_west_door_01::inside",
+        "b_main_stair::basement_stone_west_door_01::inside",
+        "b_service_stair::basement_storage_west_door_01::inside",
+        "b_wine::basement_storage_west_door_01::inside",
+        "b_archive::study_archive_west_door_01::inside",
+        "b_utility::basement_stone_west_door_01::inside",
+        "b_store::basement_storage_west_door_01::inside"
+      ],
+      "batch": "conversation_02",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_look_out_north",
+      "status": "planned",
+      "source_contacts": [
+        "g_foyer::foyer_window_01::look_out",
+        "g_foyer::foyer_west_window_01::look_out",
+        "g_main_stair::main_stair_window_01::look_out",
+        "g_library::library_window_01::look_out",
+        "g_dining::dining_window_01::look_out",
+        "g_kitchen::kitchen_window_01::look_out",
+        "g_service_stair::service_stair_window_01::look_out",
+        "u_main_stair::upper_gallery_west_window_01::look_out",
+        "u_main_stair::upper_gallery_east_window_01::look_out",
+        "u_service_stair::upper_service_window_01::look_out",
+        "u_master::master_bedroom_window_01::look_out",
+        "u_guest::guest_window_01::look_out",
+        "u_bath::washroom_placeholder_west_window_01::look_out",
+        "u_bath::washroom_placeholder_east_window_01::look_out"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_look_up_north",
+      "status": "planned",
+      "source_contacts": [
+        "g_foyer::foyer_window_01::look_out",
+        "g_foyer::foyer_west_window_01::look_out",
+        "g_foyer::foyer_clock_01::inspect",
+        "g_foyer::foyer_portrait_01::inspect",
+        "g_main_stair::main_stair_window_01::look_out",
+        "g_library::library_window_01::look_out",
+        "g_dining::dining_portrait_01::inspect",
+        "g_dining::dining_window_01::look_out",
+        "g_kitchen::kitchen_portrait_01::inspect",
+        "g_kitchen::kitchen_window_01::look_out",
+        "g_service_stair::service_stair_window_01::look_out",
+        "u_main_stair::upper_gallery_west_statue_01::inspect",
+        "u_main_stair::upper_gallery_east_statue_01::inspect",
+        "u_main_stair::upper_gallery_west_window_01::look_out",
+        "u_main_stair::upper_gallery_east_window_01::look_out",
+        "u_service_stair::upper_service_west_statue_01::inspect",
+        "u_service_stair::upper_service_east_statue_01::inspect",
+        "u_service_stair::upper_service_window_01::look_out",
+        "u_master::master_bedroom_window_01::look_out",
+        "u_guest::guest_window_01::look_out",
+        "u_bath::washroom_placeholder_west_window_01::look_out",
+        "u_bath::washroom_placeholder_east_window_01::look_out",
+        "u_bath::washroom_placeholder_portrait_01::inspect"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_peek_east",
+      "status": "planned",
+      "source_contacts": [
+        "g_library::library_east_door_01::inside",
+        "g_dining::dining_east_door_01::inside",
+        "g_kitchen::kitchen_east_door_01::inside",
+        "g_service_stair::service_stair_east_door_01::inside",
+        "u_main_stair::upper_gallery_east_door_01::inside",
+        "u_service_stair::upper_service_east_door_01::inside",
+        "u_master::master_bedroom_east_door_01::inside",
+        "u_guest::guest_bedroom_east_door_01::inside",
+        "u_bath::washroom_placeholder_east_door_01::inside"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_peek_north",
+      "status": "planned",
+      "source_contacts": [
+        "g_foyer::foyer_front_door_01::inside",
+        "g_main_stair::main_stair_upper_door_01::inside",
+        "u_main_stair::upper_gallery_north_door_01::inside",
+        "u_service_stair::upper_service_north_door_01::inside",
+        "u_study::study_archive_north_door_01::inside",
+        "b_main_stair::basement_stone_north_arch_01::inside",
+        "b_service_stair::basement_storage_north_arch_01::inside",
+        "b_wine::basement_storage_north_arch_01::inside",
+        "b_archive::study_archive_north_door_01::inside",
+        "b_utility::basement_stone_north_arch_01::inside",
+        "b_store::basement_storage_north_arch_01::inside"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_peek_south",
+      "status": "planned",
+      "source_contacts": [
+        "g_dining::dining_south_threshold_01::inside",
+        "g_kitchen::kitchen_south_threshold_01::inside",
+        "u_main_stair::upper_gallery_south_threshold_01::inside",
+        "u_guest::guest_bedroom_south_threshold_01::inside",
+        "u_study::study_archive_south_threshold_01::inside",
+        "b_archive::study_archive_south_threshold_01::inside"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_peek_west",
+      "status": "planned",
+      "source_contacts": [
+        "g_main_stair::main_stair_west_door_01::inside",
+        "g_library::library_west_door_01::inside",
+        "g_dining::dining_west_door_01::inside",
+        "g_kitchen::kitchen_west_door_01::inside",
+        "g_service_stair::service_stair_west_door_01::inside",
+        "u_main_stair::upper_gallery_west_door_01::inside",
+        "u_service_stair::upper_service_west_door_01::inside",
+        "u_master::master_bedroom_west_door_01::inside",
+        "u_guest::guest_bedroom_west_door_01::inside",
+        "u_study::study_archive_west_door_01::inside",
+        "u_bath::washroom_placeholder_west_door_01::inside",
+        "b_main_stair::basement_stone_west_door_01::inside",
+        "b_service_stair::basement_storage_west_door_01::inside",
+        "b_wine::basement_storage_west_door_01::inside",
+        "b_archive::study_archive_west_door_01::inside",
+        "b_utility::basement_stone_west_door_01::inside",
+        "b_store::basement_storage_west_door_01::inside"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_reach_east",
+      "status": "planned",
+      "source_contacts": [
+        "u_master::master_bedroom_nightstand_01::inspect"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_reach_north",
+      "status": "planned",
+      "source_contacts": [
+        "g_foyer::foyer_console_01::inspect",
+        "g_library::library_bookshelf_01::inspect",
+        "g_library::library_foreground_cabinet_01::inspect",
+        "g_dining::dining_cabinet_01::inspect",
+        "g_kitchen::kitchen_back_cabinet_01::inspect",
+        "g_service_stair::service_stair_shelves_01::inspect",
+        "u_guest::guest_bedroom_cabinet_01::inspect",
+        "u_study::study_archive_back_shelves_01::inspect",
+        "u_study::study_archive_foreground_shelves_01::inspect",
+        "b_service_stair::basement_storage_west_rack_01::inspect",
+        "b_service_stair::basement_storage_east_rack_01::inspect",
+        "b_wine::basement_storage_west_rack_01::inspect",
+        "b_wine::basement_storage_east_rack_01::inspect",
+        "b_archive::study_archive_back_shelves_01::inspect",
+        "b_archive::study_archive_foreground_shelves_01::inspect",
+        "b_store::basement_storage_west_rack_01::inspect",
+        "b_store::basement_storage_east_rack_01::inspect"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_reach_west",
+      "status": "planned",
+      "source_contacts": [
+        "g_library::library_west_shelves_01::inspect",
+        "u_guest::guest_bedroom_nightstand_01::inspect"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_read_east",
+      "status": "planned",
+      "source_contacts": [
+        "u_guest::guest_bedroom_side_table_01::use",
+        "u_study::study_archive_side_table_01::use",
+        "b_archive::study_archive_side_table_01::use"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_read_north",
+      "status": "planned",
+      "source_contacts": [
+        "g_foyer::foyer_reading_stand_01::use",
+        "g_library::library_desk_01::standing_work",
+        "g_library::library_bookshelf_01::inspect",
+        "g_library::library_side_table_01::use",
+        "g_service_stair::service_stair_shelves_01::inspect",
+        "u_study::study_archive_back_shelves_01::inspect",
+        "u_study::study_archive_desk_01::standing_work",
+        "u_study::study_archive_foreground_shelves_01::inspect",
+        "b_archive::study_archive_back_shelves_01::inspect",
+        "b_archive::study_archive_desk_01::standing_work",
+        "b_archive::study_archive_foreground_shelves_01::inspect"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_read_west",
+      "status": "planned",
+      "source_contacts": [
+        "g_library::library_west_shelves_01::inspect",
+        "g_dining::dining_side_table_01::use",
+        "g_kitchen::kitchen_side_table_01::use",
+        "u_master::master_bedroom_vanity_01::standing_work"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_talk_east",
+      "status": "planned",
+      "source_contacts": [],
+      "batch": "conversation_02",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_talk_north",
+      "status": "planned",
+      "source_contacts": [
+        "g_kitchen::kitchen_counter_01::use"
+      ],
+      "batch": "conversation_02",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_talk_south",
+      "status": "planned",
+      "source_contacts": [],
+      "batch": "conversation_02",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_talk_west",
+      "status": "planned",
+      "source_contacts": [],
+      "batch": "conversation_02",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_warm_hands_east",
+      "status": "planned",
+      "source_contacts": [
+        "u_bath::washroom_placeholder_upper_brazier_01::stand",
+        "u_bath::washroom_placeholder_lower_brazier_01::stand"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_warm_hands_north",
+      "status": "planned",
+      "source_contacts": [
+        "g_dining::dining_fireplace_01::stand",
+        "u_master::master_bedroom_fireplace_01::stand",
+        "u_guest::guest_fireplace_01::stand",
+        "u_study::study_archive_fireplace_01::stand",
+        "b_archive::study_archive_fireplace_01::stand"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_look_up_east",
+      "status": "planned",
+      "source_contacts": [
+        "g_foyer::foyer_window_01::view_from_west",
+        "g_foyer::foyer_west_window_01::view_from_west",
+        "g_foyer::foyer_clock_01::view_from_west",
+        "g_foyer::foyer_portrait_01::view_from_west",
+        "g_main_stair::main_stair_window_01::view_from_west",
+        "g_library::library_window_01::view_from_west",
+        "g_dining::dining_portrait_01::view_from_west",
+        "g_dining::dining_window_01::view_from_west",
+        "g_kitchen::kitchen_portrait_01::view_from_west",
+        "g_kitchen::kitchen_window_01::view_from_west",
+        "g_service_stair::service_stair_window_01::view_from_west",
+        "u_main_stair::upper_gallery_west_window_01::view_from_west",
+        "u_main_stair::upper_gallery_east_window_01::view_from_west",
+        "u_service_stair::upper_service_window_01::view_from_west",
+        "u_master::master_bedroom_window_01::view_from_west",
+        "u_guest::guest_window_01::view_from_west",
+        "u_bath::washroom_placeholder_west_window_01::view_from_west",
+        "u_bath::washroom_placeholder_east_window_01::view_from_west",
+        "u_bath::washroom_placeholder_portrait_01::view_from_west"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    },
+    {
+      "pose_id": "standing_look_up_west",
+      "status": "planned",
+      "source_contacts": [
+        "g_foyer::foyer_window_01::view_from_east",
+        "g_foyer::foyer_west_window_01::view_from_east",
+        "g_foyer::foyer_clock_01::view_from_east",
+        "g_foyer::foyer_portrait_01::view_from_east",
+        "g_main_stair::main_stair_window_01::view_from_east",
+        "g_library::library_window_01::view_from_east",
+        "g_dining::dining_portrait_01::view_from_east",
+        "g_dining::dining_window_01::view_from_east",
+        "g_kitchen::kitchen_portrait_01::view_from_east",
+        "g_kitchen::kitchen_window_01::view_from_east",
+        "g_service_stair::service_stair_window_01::view_from_east",
+        "u_main_stair::upper_gallery_west_window_01::view_from_east",
+        "u_main_stair::upper_gallery_east_window_01::view_from_east",
+        "u_service_stair::upper_service_window_01::view_from_east",
+        "u_master::master_bedroom_window_01::view_from_east",
+        "u_guest::guest_window_01::view_from_east",
+        "u_bath::washroom_placeholder_west_window_01::view_from_east",
+        "u_bath::washroom_placeholder_east_window_01::view_from_east",
+        "u_bath::washroom_placeholder_portrait_01::view_from_east"
+      ],
+      "batch": "furniture_03",
+      "source_artwork": null,
+      "master_artwork": null,
+      "final_asset": null,
+      "landmarks": null,
+      "furniture_fit": [],
+      "generation_runs": [],
+      "approval": "not_requested",
+      "approval_record": null,
+      "supersedes": null
+    }
+  ],
+  "semantic_requirements": [
+    {
+      "family_id": "questioned",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "refuse_questioning",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "look_down",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "touch_surface",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "examine_finger",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "point_discovery",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "crouch",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "hide_under_furniture",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "shock",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "fear",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "suspicion",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "anger",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "sadness",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "embarrassment",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "relief",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "confidence",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "annoyance",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "nervousness",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "confusion",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "disbelief",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "innocent_accused",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "culprit_exposed",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "remorseful_confession",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "hostile_confession",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "deceptive_reveal",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "panicked_reveal",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "voluntary_reveal",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "witness_reveal",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "stalk",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "lock_door",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "trap_threat",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "detective_capture",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "restrain_culprit",
+      "status": "planned_pending_applicability_and_orientation",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null
+    },
+    {
+      "family_id": "chris_hat_scratch",
+      "status": "excluded_other_identity",
+      "generated_art": [],
+      "approved_art": [],
+      "selected_personality": null,
+      "exclusion_reason": "Chris-only signature; never copy to Char"
+    }
+  ],
+  "artifacts": [
+    {
+      "artifact_id": "planning_da35a17b8de7",
+      "path": "docs/CHARACTER_POSE_AUDIT.md",
+      "sha256": "a73cafe2def8f5b8f5f749481f5ed7c7b303fb4f5c320823f216e52adcbe8337",
+      "kind": "planning_documentation_or_metadata",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "planning_e83257f5ef69",
+      "path": "docs/CHARACTER_REACTION_MATRIX.md",
+      "sha256": "21e3186f4fee61be61a546261ed649a76c9f022929435b68507bcf29ccce2050",
+      "kind": "planning_documentation_or_metadata",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "planning_2b898d8afea7",
+      "path": "docs/CHARACTER_MEASUREMENT_STANDARD.md",
+      "sha256": "cd92a6434943d092c542163d2f7e87116787650006dd681b19a7153c517024d6",
+      "kind": "planning_documentation_or_metadata",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "planning_d592687ceea1",
+      "path": "docs/CHARACTER_POSE_PRODUCTION_WORKFLOW.md",
+      "sha256": "81478451fb23089001fe55f7f722d816a1774dd1c08a813a5101967bf14a737e",
+      "kind": "planning_documentation_or_metadata",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "planning_6312c276c088",
+      "path": "docs/CHARACTER_POSE_PRODUCTION_PROMPT.md",
+      "sha256": "332e6f276f4507cc9258757e0519c5a2ad03125480ff675c1f2aec900939999b",
+      "kind": "planning_documentation_or_metadata",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "planning_3e3d5b178207",
+      "path": "docs/pose-audit/MASTER_POSE_MATRIX.md",
+      "sha256": "a8acf6751a8ded1e0ed098d8714c8bf6a7ba67b0a69494cbb96ed3d52aea17b9",
+      "kind": "planning_documentation_or_metadata",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "planning_b8a493825230",
+      "path": "docs/pose-audit/FURNITURE_POSE_MAPPING.md",
+      "sha256": "c32df5a0f520c788b0799004aea1683b0d3eb3bc451597f66b5501411e69906c",
+      "kind": "planning_documentation_or_metadata",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "planning_8963adc35da5",
+      "path": "docs/pose-audit/furniture-contact-map.csv",
+      "sha256": "362664dbf93845e2b454d89b86a70514eeb3d7819b782fa8bf3bb20ef34c9036",
+      "kind": "planning_documentation_or_metadata",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "planning_9061de5f493b",
+      "path": "docs/pose-audit/furniture-contact-map.json",
+      "sha256": "0fc32f1b8e46a93954066ec4ab8039ad51b02e6b9eb7b302c2886ac0fcf552b1",
+      "kind": "planning_documentation_or_metadata",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "planning_562901b9c742",
+      "path": "docs/pose-audit/orientation-coverage.csv",
+      "sha256": "6dc4d2ce6100391493e7f5bb3318e8bfca159916a69cbcc5a22b4f2138d83b70",
+      "kind": "planning_documentation_or_metadata",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "planning_5337db6b35ad",
+      "path": "docs/pose-audit/DELIVERABLE_INDEX.md",
+      "sha256": "623feae0c6535dc548a7c065c2c338a3b9c5d16dc5939381f1be702b57b61690",
+      "kind": "planning_documentation_or_metadata",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "planning_dc8cc10c165f",
+      "path": "assets/characters/poses/requirements-brief.json",
+      "sha256": "5266da5ac30ce9b434c1753268ff7547da3583fa629fb8cad6f7411f718e9c66",
+      "kind": "planning_documentation_or_metadata",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "planning_912b6e3a3d42",
+      "path": "assets/characters/poses/pose-requirements.json",
+      "sha256": "ed6a2837048cb8e4a7c932aa22e0f9f54c821442b6e959fd02028e6d16550f97",
+      "kind": "planning_documentation_or_metadata",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "planning_5ed7ee7444bb",
+      "path": "assets/characters/poses/char/batches/alignment_01.json",
+      "sha256": "577961a0c4d1fd1d4ae6a3d2e4c697280f5e5f2141cf460241e9b6c0b1b40e31",
+      "kind": "planning_documentation_or_metadata",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "planning_ab380e485e85",
+      "path": "docs/CHAR_POSE_PLAN.md",
+      "sha256": "01f4790d09449679dfaeae9e31ab9382e77272e671612d643255f415be11961a",
+      "kind": "planning_documentation_or_metadata",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "planning_773dcb594c2a",
+      "path": "assets/characters/char-pose-plan.json",
+      "sha256": "c8dd6ff1505ac642748a6d970a6328ed9f9e1500bce5ec0e42534de343a2f135",
+      "kind": "planning_documentation_or_metadata",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "planning_b8d966cc8195",
+      "path": "tools/audit_character_poses.py",
+      "sha256": "005d7b8295f095b6af53319ad2507a8aefef3db6d10e2d13c4e4a488aebd02d4",
+      "kind": "planning_tool",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "planning_8c462ae963a9",
+      "path": "tools/validate_character_pose_audit.py",
+      "sha256": "1bce5cb7b63e023ef6461628f12823d01c12d36666f2e9fa6854025a8e0369a1",
+      "kind": "planning_tool",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "planning_e37eb6e8ecbb",
+      "path": "tools/build_furniture_review.py",
+      "sha256": "5f6d4b9b7820634811d33d556f76bbfa6444c0c99d46b6d1bd41f2027daed2c1",
+      "kind": "planning_tool",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "likeness_936407feb394",
+      "path": "docs/CHARACTER_LIKENESS_REFINEMENT_PROMPT.md",
+      "sha256": "0114b16452d264d4d7f3ad710effff6b060640793e593d4812b9ec04ca52eb0b",
+      "kind": "prompt_or_production_documentation",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "likeness_b808c7893d3c",
+      "path": "assets/characters/poses/char/prompts/likeness-refinement-02.json",
+      "sha256": "0d535386cf6d3dc5906bea858fdcd954fc48c6d51752138134a8178cd49b2b45",
+      "kind": "prompt_or_production_documentation",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "likeness_400d56aa169e",
+      "path": "assets/characters/poses/char/masters/likeness-review-02/char-likeness-v2.png",
+      "sha256": "e778ff629db4e58373b2fc0e65edaed63455af21c1e02a721809f5373bb75bb2",
+      "kind": "character_design_draft",
+      "status": "approved_design",
+      "artwork": true,
+      "user_art_approval": "approved"
+    },
+    {
+      "artifact_id": "char_first_pose_batch_prompt",
+      "path": "docs/CHAR_POSE_GENERATION_PROMPT.md",
+      "kind": "production_prompt",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable",
+      "sha256": "c21631b12925808266944e3de569dd4eb7bc2c6deb72ff2c2ca9ee225c61bca1"
+    },
+    {
+      "artifact_id": "alignment01_a8dba27e0c1d",
+      "path": "docs/CHAR_ALIGNMENT_01_REVIEW.md",
+      "sha256": "7e4c9bb6fbcb08ce5abf4d4d984fca6b6416b0d775ddc5abe6d45d5b5d693661",
+      "kind": "production_record_or_tool",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "alignment01_7ebaafbb09c8",
+      "path": "tools/render_char_alignment_review.gd",
+      "sha256": "557ed2046d50a2cccf9ab01b047b7e06a25121f5ff4cdfabab90eca21bcc604e",
+      "kind": "production_record_or_tool",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "alignment01_a3eda78ba2d3",
+      "path": "tools/validate_char_alignment.py",
+      "sha256": "fb0f3f01ed849203a10aa6bac7aff913ada4aa2d2d99c7c7fd45b7732d514e86",
+      "kind": "production_record_or_tool",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "alignment01_fe3332625643",
+      "path": "assets/characters/poses/char/batches/alignment_01-review.json",
+      "sha256": "07120817f7ae331a5521c1161a7dceed6b36540c566395bfd002c7b8bdee9e29",
+      "kind": "production_record_or_tool",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "alignment01_103e3fefe1be",
+      "path": "assets/characters/poses/char/masters/alignment_01/seated_idle_east.png",
+      "sha256": "64345356ff9c61efdbbaa4c87629cb0f2add44a2995eabac344dc3b58f18c97c",
+      "kind": "generated_pose_master",
+      "status": "approved_sample",
+      "artwork": true,
+      "user_art_approval": "approved"
+    },
+    {
+      "artifact_id": "alignment01_d6168abe8231",
+      "path": "assets/characters/poses/char/masters/alignment_01/seated_idle_south.png",
+      "sha256": "a02067bec9c1dcd3cb9fe423f1958ffce4e92cbdcf248a1c303cf3adb92210df",
+      "kind": "generated_pose_master",
+      "status": "approved_sample",
+      "artwork": true,
+      "user_art_approval": "approved"
+    },
+    {
+      "artifact_id": "alignment01_92026852905c",
+      "path": "assets/characters/poses/char/masters/alignment_01/seated_idle_west.png",
+      "sha256": "4174796c3f0b1518032168b714e42334ba23a9998eaeaeda30e52995266ee911",
+      "kind": "generated_pose_master",
+      "status": "approved_sample",
+      "artwork": true,
+      "user_art_approval": "approved"
+    },
+    {
+      "artifact_id": "alignment01_397e44a3f0b6",
+      "path": "assets/characters/poses/char/masters/alignment_01/standing_idle_east.png",
+      "sha256": "946cf733d66dd524509bd98a378d223d90a11cfeebb4425a844f170272f2b9ea",
+      "kind": "generated_pose_master",
+      "status": "approved_sample",
+      "artwork": true,
+      "user_art_approval": "approved"
+    },
+    {
+      "artifact_id": "alignment01_720004163ce3",
+      "path": "assets/characters/poses/char/masters/alignment_01/standing_idle_north.png",
+      "sha256": "ee1e9e0213464c6e42bbed6c5830062052eadea27a5a5bdfd14c9ab548023178",
+      "kind": "generated_pose_master",
+      "status": "approved_sample",
+      "artwork": true,
+      "user_art_approval": "approved"
+    },
+    {
+      "artifact_id": "alignment01_8434ba89a531",
+      "path": "assets/characters/poses/char/masters/alignment_01/standing_idle_south.png",
+      "sha256": "4e747ca6f4c400dcd314f20b8a143497c3df3af9e45d446658be77877ab9d002",
+      "kind": "generated_pose_master",
+      "status": "approved_sample",
+      "artwork": true,
+      "user_art_approval": "approved"
+    },
+    {
+      "artifact_id": "alignment01_0d6e2ec5bb44",
+      "path": "assets/characters/poses/char/masters/alignment_01/standing_idle_west.png",
+      "sha256": "513aa0c879ba47c5c3cd6269cfa19d0149c593814cb86135036ac019b9d40e8e",
+      "kind": "generated_pose_master",
+      "status": "approved_sample",
+      "artwork": true,
+      "user_art_approval": "approved"
+    },
+    {
+      "artifact_id": "alignment01_59ac9fea4542",
+      "path": "assets/characters/poses/char/prompts/alignment_01/seated_idle_east.json",
+      "sha256": "cbdc67e27c3d097cda8d1792bd6ba80e0783b8bd6043b01531705b91eca30a5d",
+      "kind": "production_record_or_tool",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "alignment01_83c1be4d78b3",
+      "path": "assets/characters/poses/char/prompts/alignment_01/seated_idle_south.json",
+      "sha256": "e1dd924c4d02f9c66e341914a57106e41eb91d0dfa413a438eda50b7dbdb70ac",
+      "kind": "production_record_or_tool",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "alignment01_5bb974bdfbe8",
+      "path": "assets/characters/poses/char/prompts/alignment_01/seated_idle_west.json",
+      "sha256": "5d6dd74385dd10d13aafe187274162fa7c476e350d1715f5143f2f618c7f576e",
+      "kind": "production_record_or_tool",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "alignment01_7e59da37cfff",
+      "path": "assets/characters/poses/char/prompts/alignment_01/standing_idle_east.json",
+      "sha256": "7c085627fb0a9634db41c148443f16492a12ecbd5062e9daff7e4390adb093a1",
+      "kind": "production_record_or_tool",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "alignment01_755f4d37ab63",
+      "path": "assets/characters/poses/char/prompts/alignment_01/standing_idle_north.json",
+      "sha256": "cffc6cd1ca4a13e2de60ed17dde12f623574c4d2d5041d567e3c35a8f2e53e35",
+      "kind": "production_record_or_tool",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "alignment01_f8b2b29f29b0",
+      "path": "assets/characters/poses/char/prompts/alignment_01/standing_idle_south.json",
+      "sha256": "efb707c4a9ee311f60114162a08dd039d5a1dbed9dd006d396fd21dad07e6ea8",
+      "kind": "production_record_or_tool",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "alignment01_7233180f44d1",
+      "path": "assets/characters/poses/char/prompts/alignment_01/standing_idle_west.json",
+      "sha256": "e091670550c9d01063c680d9933d3afd58305d61ec8de940acd300fcee75b1a7",
+      "kind": "production_record_or_tool",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "alignment01_a54f3f547a3d",
+      "path": "assets/characters/poses/char/review/alignment_01/comparison.png",
+      "sha256": "26e92aa260d9d6f15203a55f09c23b15bdbb050f0fa9aa49790afb52dc141733",
+      "kind": "review_composite",
+      "status": "draft_awaiting_review",
+      "artwork": false,
+      "user_art_approval": "pending"
+    },
+    {
+      "artifact_id": "alignment01_596d3ca1da5b",
+      "path": "assets/characters/poses/char/review/alignment_01/context-closeups.png",
+      "sha256": "8d3ee53bd4fd19b8e256a991e30affccc4cbaf8472359027abf710eaf823582e",
+      "kind": "review_composite",
+      "status": "draft_awaiting_review",
+      "artwork": false,
+      "user_art_approval": "pending"
+    },
+    {
+      "artifact_id": "alignment01_5c1473a0559e",
+      "path": "assets/characters/poses/char/review/alignment_01/index.html",
+      "sha256": "96641567f6802f8175ebc78c49b69d2f018329e13f9696480ed43af3e38800aa",
+      "kind": "production_record_or_tool",
+      "status": "documented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "alignment01_785c5ef8ae1e",
+      "path": "assets/characters/poses/char/review/alignment_01/seated_idle_east--context.png",
+      "sha256": "fafc08bd349cc3e5fc549a432ffa77159cd071e37aa3e7e8cf3e4b3f37fd72a7",
+      "kind": "review_composite",
+      "status": "draft_awaiting_review",
+      "artwork": false,
+      "user_art_approval": "pending"
+    },
+    {
+      "artifact_id": "alignment01_c4a4199bb2c2",
+      "path": "assets/characters/poses/char/review/alignment_01/seated_idle_south--context.png",
+      "sha256": "8b010b7275480a668ea39ad93259328719c360df4a0d80dbc748c7bc1dd0c035",
+      "kind": "review_composite",
+      "status": "draft_awaiting_review",
+      "artwork": false,
+      "user_art_approval": "pending"
+    },
+    {
+      "artifact_id": "alignment01_0c2aa10a12e2",
+      "path": "assets/characters/poses/char/review/alignment_01/seated_idle_west--context.png",
+      "sha256": "a8934cc236ccaea91d0a8fc2eb4d03a71a08d8b105003ac9827fe06732041372",
+      "kind": "review_composite",
+      "status": "draft_awaiting_review",
+      "artwork": false,
+      "user_art_approval": "pending"
+    },
+    {
+      "artifact_id": "alignment01_fa0064bb2402",
+      "path": "assets/characters/poses/char/exports/north/char_standing_idle_north_neutral.png",
+      "sha256": "835a67f9cf07e59390587e831f82efed94f5d5eacf01e77317972d6d31e54711",
+      "kind": "padded_draft_export",
+      "status": "approved_sample",
+      "artwork": true,
+      "user_art_approval": "approved"
+    },
+    {
+      "artifact_id": "alignment01_3608009f8242",
+      "path": "assets/characters/poses/char/exports/east/char_standing_idle_east_neutral.png",
+      "sha256": "6483b8cd2baadccb37229a9fcdefc3de5f91203a8f30489491d21f812d75bfa5",
+      "kind": "padded_draft_export",
+      "status": "approved_sample",
+      "artwork": true,
+      "user_art_approval": "approved"
+    },
+    {
+      "artifact_id": "alignment01_83377841e516",
+      "path": "assets/characters/poses/char/exports/south/char_standing_idle_south_neutral.png",
+      "sha256": "cb2f47a3e67dcd4dc9156b54df39af2c8502e87cda7703c84ea3791ce7413693",
+      "kind": "padded_draft_export",
+      "status": "approved_sample",
+      "artwork": true,
+      "user_art_approval": "approved"
+    },
+    {
+      "artifact_id": "alignment01_f4937f258fb0",
+      "path": "assets/characters/poses/char/exports/west/char_standing_idle_west_neutral.png",
+      "sha256": "08c6437b2f3b07548dc804d3c6873b48102f6f827111ade50f596798ac6f80f6",
+      "kind": "padded_draft_export",
+      "status": "approved_sample",
+      "artwork": true,
+      "user_art_approval": "approved"
+    },
+    {
+      "artifact_id": "alignment01_9bd78cfe7671",
+      "path": "assets/characters/poses/char/exports/east/char_seated_idle_east_neutral.png",
+      "sha256": "9ec557fba8c95c55400ad8522e1267ca300c7f52476d6cb05ec53d20ed930ac9",
+      "kind": "padded_draft_export",
+      "status": "approved_sample",
+      "artwork": true,
+      "user_art_approval": "approved"
+    },
+    {
+      "artifact_id": "alignment01_d908cf18c26f",
+      "path": "assets/characters/poses/char/exports/south/char_seated_idle_south_neutral.png",
+      "sha256": "400d065f084d5353230078cd7f2a5b1860027702bee116533892e925573a23e2",
+      "kind": "padded_draft_export",
+      "status": "approved_sample",
+      "artwork": true,
+      "user_art_approval": "approved"
+    },
+    {
+      "artifact_id": "alignment01_7b386263d2e1",
+      "path": "assets/characters/poses/char/exports/west/char_seated_idle_west_neutral.png",
+      "sha256": "903f10ddcdd454ab6aaa83a3ef134f91459b9db7b9705f703ff2d437f9160be2",
+      "kind": "padded_draft_export",
+      "status": "approved_sample",
+      "artwork": true,
+      "user_art_approval": "approved"
+    },
+    {
+      "artifact_id": "directional_plan_75c7e105d88b",
+      "path": "docs/CHARACTER_DIRECTIONAL_PIPELINE_PLAN.md",
+      "sha256": "8b40f6a1e58592cc56807e8f44dc0ca7e74ef0ad03bb6ceea552dfe6bab0e5af",
+      "kind": "authoring_plan",
+      "status": "proposed",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "directional_plan_b26278c36446",
+      "path": "assets/characters/poses/char/directional-index.json",
+      "sha256": "50ba44f6760f533d19ce3fa43e9d124944cefc8cb51f14d430f7ab0d75de922d",
+      "kind": "authoring_plan",
+      "status": "proposed",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "image_workflow_9b345e18ab0a",
+      "path": "docs/IMAGE_ASSET_WORKFLOW.md",
+      "sha256": "85ec220243e504e80d0968237ad88b03d66d913fd6c01553487aecb87267f2cb",
+      "kind": "production_instruction_or_preflight",
+      "status": "implemented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "image_workflow_0e09fd3ed176",
+      "path": "tools/check_image_approval.py",
+      "sha256": "2cc08a3f13c6524d4a5eb88cdad3add33e54075a589ef6f368265612903ab499",
+      "kind": "production_instruction_or_preflight",
+      "status": "implemented",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "directional_browser_da2cf2dfaeda",
+      "path": "assets/characters/poses/char/index.html",
+      "sha256": "a356bb1b6151635cb13607f4962f41452df7f57976bc2ba500ef8ff9a852c5e6",
+      "kind": "asset_browser_or_instruction",
+      "status": "implemented_pending_layout_review",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "directional_browser_b4d99966f7b9",
+      "path": "assets/characters/poses/char/README.md",
+      "sha256": "59b998d60a1fcbe7507bb18615b7ebf1806e10115e0bce4a9848131512c6f1c1",
+      "kind": "asset_browser_or_instruction",
+      "status": "implemented_pending_layout_review",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "directional_browser_91ca68259d13",
+      "path": "tools/build_char_asset_index.py",
+      "sha256": "bc25f720a3ec7e612ef8bf6e14bc7629a644b14dd7e56d705dd5cd0cf10a1943",
+      "kind": "asset_browser_or_instruction",
+      "status": "implemented_pending_layout_review",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "char_live_b7d17ebadef4",
+      "path": "docs/CHAR_LIVE_TEST.md",
+      "sha256": "0f6c1c6e7f215b2009b45cc0c05990d8d6a0c8877b75404068ee70d83c336ad3",
+      "kind": "live_test_implementation_or_instruction",
+      "status": "implemented_visual_fit_pending",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "char_live_fe1c6e431e7d",
+      "path": "src/characters/pose_npc.gd",
+      "sha256": "79bb1541a108ef1619c106e316ac07be54fce244c50c5544034d479e1efe7d7d",
+      "kind": "live_test_implementation_or_instruction",
+      "status": "implemented_visual_fit_pending",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "char_live_5eb2275449e0",
+      "path": "src/characters/char_pose_session.gd",
+      "sha256": "1061b634c29f4d5ae65f4dcd40ccc4cbd6aac11d35854479dcb6573ab98d0fe0",
+      "kind": "live_test_implementation_or_instruction",
+      "status": "implemented_visual_fit_pending",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "char_live_e63dca56ef5b",
+      "path": "tools/char_pose_checks.gd",
+      "sha256": "46a3e84aae026040568c2c7aeeab97c217055235eee36cb9d5655f4eda5bb62f",
+      "kind": "live_test_implementation_or_instruction",
+      "status": "implemented_visual_fit_pending",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    },
+    {
+      "artifact_id": "char_live_18a77a2a924f",
+      "path": "tools/dos-game-mcp/char_live_test.py",
+      "sha256": "92dabd228f03675c83d18def7f4f335d886f7b5dd1746cfd3851dbc5fd4cd33f",
+      "kind": "live_test_implementation_or_instruction",
+      "status": "implemented_visual_fit_pending",
+      "artwork": false,
+      "user_art_approval": "not_applicable"
+    }
+  ],
+  "generation_runs": [
+    {
+      "job_id": "char_likeness_refinement_02",
+      "record": "assets/characters/poses/char/prompts/likeness-refinement-02.json",
+      "task": "anime_cartoon_likeness_correction",
+      "output": "assets/characters/poses/char/masters/likeness-review-02/char-likeness-v2.png",
+      "status": "user_approved_design"
+    },
+    {
+      "job_id": "char_alignment_01_standing_idle_north",
+      "record": "assets/characters/poses/char/prompts/alignment_01/standing_idle_north.json",
+      "task": "alignment_01_static_pose",
+      "pose_id": "standing_idle_north",
+      "output": "assets/characters/poses/char/masters/alignment_01/standing_idle_north.png",
+      "status": "approved_sample"
+    },
+    {
+      "job_id": "char_alignment_01_standing_idle_east",
+      "record": "assets/characters/poses/char/prompts/alignment_01/standing_idle_east.json",
+      "task": "alignment_01_static_pose",
+      "pose_id": "standing_idle_east",
+      "output": "assets/characters/poses/char/masters/alignment_01/standing_idle_east.png",
+      "status": "approved_sample"
+    },
+    {
+      "job_id": "char_alignment_01_standing_idle_south",
+      "record": "assets/characters/poses/char/prompts/alignment_01/standing_idle_south.json",
+      "task": "alignment_01_static_pose",
+      "pose_id": "standing_idle_south",
+      "output": "assets/characters/poses/char/masters/alignment_01/standing_idle_south.png",
+      "status": "approved_sample"
+    },
+    {
+      "job_id": "char_alignment_01_standing_idle_west",
+      "record": "assets/characters/poses/char/prompts/alignment_01/standing_idle_west.json",
+      "task": "alignment_01_static_pose",
+      "pose_id": "standing_idle_west",
+      "output": "assets/characters/poses/char/masters/alignment_01/standing_idle_west.png",
+      "status": "approved_sample"
+    },
+    {
+      "job_id": "char_alignment_01_seated_idle_east",
+      "record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_east.json",
+      "task": "alignment_01_static_pose",
+      "pose_id": "seated_idle_east",
+      "output": "assets/characters/poses/char/masters/alignment_01/seated_idle_east.png",
+      "status": "approved_sample"
+    },
+    {
+      "job_id": "char_alignment_01_seated_idle_south",
+      "record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_south.json",
+      "task": "alignment_01_static_pose",
+      "pose_id": "seated_idle_south",
+      "output": "assets/characters/poses/char/masters/alignment_01/seated_idle_south.png",
+      "status": "approved_sample"
+    },
+    {
+      "job_id": "char_alignment_01_seated_idle_west",
+      "record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_west.json",
+      "task": "alignment_01_static_pose",
+      "pose_id": "seated_idle_west",
+      "output": "assets/characters/poses/char/masters/alignment_01/seated_idle_west.png",
+      "status": "approved_sample"
+    }
+  ],
+  "revision_log": [
+    {
+      "id": "likeness_refinement_02",
+      "reason": "Restore large cartoon eyes, simplified anime face and soft illustrated shading; photos supply only subtle identity cues",
+      "candidate": "assets/characters/poses/char/masters/likeness-review-02/char-likeness-v2.png",
+      "status": "draft"
+    }
+  ],
+  "approval_log": [
+    {
+      "decision": "rejected",
+      "reason": "Too realistic; anime/cartoonish look preferred",
+      "source": "Explicit user feedback in current chat",
+      "label": "Char likeness-v1 rejected realistic draft",
+      "asset_retained": false,
+      "retention_reason": "Rejected rendition removed during requested cleanup; preserve the style lesson only"
+    },
+    {
+      "artifact": "assets/characters/poses/char/masters/likeness-review-02/char-likeness-v2.png",
+      "sha256": "e778ff629db4e58373b2fc0e65edaed63455af21c1e02a721809f5373bb75bb2",
+      "decision": "approved_design",
+      "date": "2026-10-23",
+      "source": "Explicit user message",
+      "quote": "I approve the new look",
+      "scope": "Character appearance/likeness only; new directional poses and furniture-fit approval remain pending"
+    },
+    {
+      "decision": "approved_pose_samples",
+      "date": "2026-10-23",
+      "source": "Explicit user next-phase planning request",
+      "quote": "The first seven character pose samples have been generated successfully. I am happy with the results",
+      "pose_ids": [
+        "seated_idle_east",
+        "seated_idle_south",
+        "seated_idle_west",
+        "standing_idle_east",
+        "standing_idle_north",
+        "standing_idle_south",
+        "standing_idle_west"
+      ],
+      "scope": "Seven alignment_01 artwork samples and unchanged padded copies only; not runtime integration, calibrated contact landmarks, chair masks or complete character production."
+    }
+  ],
+  "holds": [
+    "Visual review/calibration of live chair placement and long-skirt/foreground overlap",
+    "General production pose selector, occupancy and furniture masks remain future work",
+    "Final presentation/export standard and next art batch remain undecided"
+  ],
+  "production_complete": false,
+  "scope_note": "Seven artwork samples and approved design v2 retained, with necessary source/padding/contact records. Artwork approved; runtime fit/integration remain pending.",
+  "presentation_decision": {
+    "status": "implemented_preview_awaiting_user_visual_review",
+    "request": "Char is too small and the game is difficult to see; increase resolution/readability",
+    "previous_internal_viewport": [
+      480,
+      360
+    ],
+    "current_internal_viewport": [
+      960,
+      720
+    ],
+    "current_default_window": [
+      1280,
+      960
+    ],
+    "reference_world_coordinates": [
+      480,
+      360
+    ],
+    "previous_adult_height": 64,
+    "current_shared_adult_height": 80,
+    "detail_zoom": 1.5,
+    "fullscreen_key": "F11",
+    "comparison": "test-results/presentation-review/index.html",
+    "source_artwork_changed": false
+  },
+  "verification": {
+    "scope": "planning references and native room-contact parity; not art or integration approval",
+    "report": "test-results/character-pose-audit-validation.json",
+    "commands": [
+      "python tools/audit_character_poses.py --check",
+      "python tools/validate_character_pose_audit.py"
+    ],
+    "alignment_01": {
+      "native_log": "test-results/char-alignment-review.log",
+      "validation_report": "test-results/char-alignment-validation.json",
+      "commands": [
+        "configured graphical Godot --path . --script tools/render_char_alignment_review.gd -- --npc-seed=20261023",
+        "python tools/validate_char_alignment.py"
+      ],
+      "scope": "technical image/provenance checks and native review rendering; not user art approval or runtime integration"
+    },
+    "next_phase_png_preservation": {
+      "date": "2026-10-23",
+      "character_pngs_verified_unchanged": 112,
+      "approved_alignment_artifacts_verified": 14,
+      "method": "SHA-256 before/after; no PNG writer executed"
+    },
+    "live_test": {
+      "native_checks": 627,
+      "room_visits": 126,
+      "rerolls": 100,
+      "all_seven_poses": true,
+      "source": "test-results/char-live-test/checks.json",
+      "owned_window_smoke": "test-results/char-live-test/live-smoke.json",
+      "fit_approval": "pending"
+    }
+  },
+  "actual_artwork_produced": [
+    "assets/characters/poses/char/masters/likeness-review-02/char-likeness-v2.png",
+    "assets/characters/poses/char/masters/alignment_01/standing_idle_north.png",
+    "assets/characters/poses/char/masters/alignment_01/standing_idle_east.png",
+    "assets/characters/poses/char/masters/alignment_01/standing_idle_south.png",
+    "assets/characters/poses/char/masters/alignment_01/standing_idle_west.png",
+    "assets/characters/poses/char/masters/alignment_01/seated_idle_east.png",
+    "assets/characters/poses/char/masters/alignment_01/seated_idle_south.png",
+    "assets/characters/poses/char/masters/alignment_01/seated_idle_west.png"
+  ],
+  "lessons": [
+    "Preserve anime/cartoon eyes and simplified facial rendering; photographic likeness is a subtle influence, not portrait realism.",
+    "Built-in image tool accepts at most five referenced image paths.",
+    "Original runtime sprite remains the selected source until a revised candidate is approved."
+  ],
+  "approved_design_reference": "res://assets/characters/poses/char/masters/likeness-review-02/char-likeness-v2.png",
+  "review_artifacts": {
+    "comparison": "assets/characters/poses/char/review/alignment_01/comparison.png",
+    "chair_contexts": "assets/characters/poses/char/review/alignment_01/context-closeups.png",
+    "review_document": "docs/CHAR_ALIGNMENT_01_REVIEW.md",
+    "gallery": "assets/characters/poses/char/review/alignment_01/index.html",
+    "directional_browser": "assets/characters/poses/char/index.html"
+  },
+  "directional_pipeline_plan": "docs/CHARACTER_DIRECTIONAL_PIPELINE_PLAN.md",
+  "directional_index": "assets/characters/poses/char/directional-index.json",
+  "retention_policy": "docs/IMAGE_ASSET_WORKFLOW.md",
+  "retention": {
+    "approved_masters_and_exports": "keep",
+    "alignment_01_exact_prompts": "keep; explicitly requested repeatable production workflow",
+    "approved_design_exact_prompt": "keep; requested reusable likeness instructions",
+    "chair_review_contexts": "keep until contact/mask calibration is complete",
+    "rejected_likeness_v1": "removed; realism-rejection lesson retained"
+  },
+  "asset_browser": "assets/characters/poses/char/index.html",
+  "export_layout": {
+    "root": "assets/characters/poses/char/exports",
+    "direction_folders": [
+      "north",
+      "east",
+      "south",
+      "west"
+    ],
+    "filename_template": "{character_slug}_{pose_id}_{variant_id}.png",
+    "approved_image_bytes_changed": false,
+    "migration_reason": "Explicit user request for four facing folders and filenames containing character, direction and consistent variant; seven hashes preserved."
+  },
+  "live_runtime_test": {
+    "documentation": "docs/CHAR_LIVE_TEST.md",
+    "controller": "src/characters/char_pose_session.gd",
+    "actor": "src/characters/pose_npc.gd",
+    "review_index": "test-results/char-live-test/index.html",
+    "status": "implemented_opt_in_pending_visual_fit_review",
+    "single_identity_id": "likeness-photo01",
+    "save_load": "disabled during test; original roster restored on exit",
+    "furniture_fit": "provisional; no new masks",
+    "artwork_changed": false
+  },
+  "chair_fit_preview": {
+    "status": "pending_user_visual_review",
+    "config": "assets/characters/poses/char/chair-fit.json",
+    "implementation": "src/furniture/chair_foreground.gd",
+    "review": "test-results/first-case/index.html",
+    "scope": "Three seat offsets and code-rendered foreground arm polygons. Approved PNGs unchanged. General staging remains disabled."
+  }
+}

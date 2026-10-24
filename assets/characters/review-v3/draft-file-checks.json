@@ -1,0 +1,38 @@
+{
+  "status": "revised-drafts-awaiting-user-review",
+  "checks": [
+    {
+      "file": "photo-03-six-adults-taller-v3.png",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGB",
+      "sha256": "3a7e79cae032308eda280a4cc56afe5084f9954fc3d3f02f88bc22ba8125dde6",
+      "readable_nonempty": true
+    },
+    {
+      "file": "photo-04-upper-five-v3.png",
+      "size": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "55f9f7653d0ef5f1585e64bbaeb3db8f5ee3055e090037b7f05f42142bd20386",
+      "readable_nonempty": true
+    }
+  ],
+  "original_review_boards_unchanged": {
+    "photo-03-six-adults.png": true,
+    "photo-04-upper-seven.png": true,
+    "photo-04-lower-six.png": true
+  },
+  "technical_passed": true,
+  "visual_review": {
+    "first_group": "Six full-body adults A-F; torsos and legs visibly longer, distinct costumes and builds retained, E bald with cap held at side.",
+    "party_upper": "Exactly five characters A-E; F/G removed, remaining face/costume designs retained.",
+    "party_lower": "H-M board unchanged; H retained for G/H identity."
+  },
+  "gameplay_integration_tested": false,
+  "final_cast_approved": false
+}

@@ -1,0 +1,32 @@
+{
+  "technical_passed": true,
+  "selected_source_copies_match_user_attachments": {
+    "selected-hat-pair.png": true,
+    "selected-party-hm.png": true,
+    "selected-party-ag.png": true
+  },
+  "unselected_primary_art_unchanged": {
+    "03": true,
+    "04": true,
+    "08": true,
+    "09": true,
+    "10": true,
+    "11": true,
+    "12": true,
+    "13": true,
+    "14": true,
+    "15": true,
+    "16": true,
+    "17": true,
+    "18": true,
+    "19": true
+  },
+  "numbering_preserved": true,
+  "identity_ids_preserved": true,
+  "user_06_overview_poses": [
+    0,
+    1
+  ],
+  "new_art_generated": false,
+  "final_cast_approved": false
+}

@@ -1,0 +1,36 @@
+{
+  "unchanged_art_selections": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15"
+  ],
+  "sarah_jo_preserved_sha256": "4dbb457f8556504d16ec47f3289046b583ab087e1c4177a135e043a7813621c0",
+  "removed_from_active_cast": [
+    "16",
+    "17",
+    "18",
+    "19"
+  ],
+  "original_art_preserved": true,
+  "changed_art_review_numbers": [
+    "20",
+    "21"
+  ],
+  "new_names": {
+    "20": "Jessica",
+    "21": "John"
+  },
+  "final_cast_approved": false
+}

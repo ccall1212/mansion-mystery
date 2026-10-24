@@ -1,0 +1,970 @@
+{
+  "schema_version": 1,
+  "world_canvas": [
+    32,
+    40
+  ],
+  "inspection_canvas": [
+    160,
+    160
+  ],
+  "definitions": {
+    "knife": {
+      "id": "knife",
+      "name": "Walnut-handled knife",
+      "category": "potential_weapon",
+      "art_status": "produced",
+      "base_asset": "res://assets/objects/object-knife-ordinary.png",
+      "master": "res://assets/objects/masters/knife.png",
+      "source_cells": 2,
+      "anchor": "bottom_center",
+      "conditions": {
+        "ordinary": {
+          "asset": "res://assets/objects/object-knife-ordinary.png",
+          "closeup": "res://assets/objects/closeups/object-knife-ordinary.png",
+          "initial": "A kitchen knife with two brass rivets.",
+          "detailed": "The straight blade has an even edge. The walnut grip is firmly attached.",
+          "repeat": "The blade and its two-rivet handle look as you remember them.",
+          "overlays": []
+        },
+        "bent": {
+          "asset": "res://assets/objects/object-knife-bent.png",
+          "closeup": "res://assets/objects/closeups/object-knife-bent.png",
+          "initial": "The tip of a kitchen knife bends sideways.",
+          "detailed": "The blade is visibly distorted near its tip. Both handle rivets remain in place.",
+          "repeat": "The crooked tip has not changed.",
+          "overlays": []
+        }
+      },
+      "allowed_forensics": [
+        "none",
+        "red_trace"
+      ],
+      "forensic_conditions": {},
+      "collectible": true,
+      "examine_in_place": true,
+      "persistence": [
+        "seen",
+        "detailed",
+        "collected",
+        "magnified",
+        "discovered"
+      ]
+    },
+    "bust": {
+      "id": "bust",
+      "name": "Stone scholar bust",
+      "category": "potential_weapon",
+      "art_status": "produced",
+      "base_asset": "res://assets/objects/object-bust-intact.png",
+      "master": "res://assets/objects/masters/bust.png",
+      "source_cells": 2,
+      "anchor": "bottom_center",
+      "conditions": {
+        "intact": {
+          "asset": "res://assets/objects/object-bust-intact.png",
+          "closeup": "res://assets/objects/closeups/object-bust-intact.png",
+          "initial": "A pale stone scholar watches the room.",
+          "detailed": "The carved head rests on a square plinth. Its edges are unbroken.",
+          "repeat": "The stone head and square plinth remain intact.",
+          "overlays": []
+        },
+        "cracked": {
+          "asset": "res://assets/objects/object-bust-cracked.png",
+          "closeup": "res://assets/objects/closeups/object-bust-cracked.png",
+          "initial": "A crack crosses the scholar’s stone shoulder.",
+          "detailed": "A piece is missing from the plinth edge. A dark fracture runs into the shoulder.",
+          "repeat": "The missing plinth corner and shoulder fracture are still visible.",
+          "overlays": []
+        }
+      },
+      "allowed_forensics": [
+        "none",
+        "fiber"
+      ],
+      "forensic_conditions": {
+        "fiber": [
+          "cracked"
+        ]
+      },
+      "collectible": false,
+      "examine_in_place": true,
+      "persistence": [
+        "seen",
+        "detailed",
+        "collected",
+        "magnified",
+        "discovered"
+      ]
+    },
+    "bottle": {
+      "id": "bottle",
+      "name": "Green champagne bottle",
+      "category": "potential_weapon",
+      "art_status": "produced",
+      "base_asset": "res://assets/objects/object-bottle-sealed.png",
+      "master": "res://assets/objects/masters/bottle.png",
+      "source_cells": 2,
+      "anchor": "bottom_center",
+      "conditions": {
+        "sealed": {
+          "asset": "res://assets/objects/object-bottle-sealed.png",
+          "closeup": "res://assets/objects/closeups/object-bottle-sealed.png",
+          "initial": "A green champagne bottle is still corked.",
+          "detailed": "Foil covers the neck above a plain cream label. The glass is whole.",
+          "repeat": "The cork remains under its foil cap.",
+          "overlays": []
+        },
+        "broken": {
+          "asset": "res://assets/objects/object-bottle-broken.png",
+          "closeup": "res://assets/objects/closeups/object-bottle-broken.png",
+          "initial": "A champagne bottle has lost its neck.",
+          "detailed": "The broken rim is jagged. Loose green glass lies beside the bottle.",
+          "repeat": "The broken neck and scattered fragments remain.",
+          "overlays": []
+        }
+      },
+      "allowed_forensics": [
+        "none"
+      ],
+      "forensic_conditions": {},
+      "collectible": false,
+      "examine_in_place": true,
+      "persistence": [
+        "seen",
+        "detailed",
+        "collected",
+        "magnified",
+        "discovered"
+      ]
+    },
+    "hammer": {
+      "id": "hammer",
+      "name": "Joiner’s hammer",
+      "category": "potential_weapon",
+      "art_status": "produced",
+      "base_asset": "res://assets/objects/object-hammer-ordinary.png",
+      "master": "res://assets/objects/masters/hammer.png",
+      "source_cells": 2,
+      "anchor": "bottom_center",
+      "conditions": {
+        "ordinary": {
+          "asset": "res://assets/objects/object-hammer-ordinary.png",
+          "closeup": "res://assets/objects/closeups/object-hammer-ordinary.png",
+          "initial": "A steel hammer has a honey-brown handle.",
+          "detailed": "The head sits squarely on the wooden shaft. Its striking face is flat.",
+          "repeat": "The hammer head remains securely seated.",
+          "overlays": []
+        },
+        "damaged": {
+          "asset": "res://assets/objects/object-hammer-damaged.png",
+          "closeup": "res://assets/objects/closeups/object-hammer-damaged.png",
+          "initial": "The hammer’s wooden handle is splintered.",
+          "detailed": "The damaged shaft is still attached to the same dark steel head.",
+          "repeat": "The splintered handle would be unsafe to swing.",
+          "overlays": []
+        }
+      },
+      "allowed_forensics": [
+        "none",
+        "filings"
+      ],
+      "forensic_conditions": {},
+      "collectible": false,
+      "examine_in_place": true,
+      "persistence": [
+        "seen",
+        "detailed",
+        "collected",
+        "magnified",
+        "discovered"
+      ]
+    },
+    "stool": {
+      "id": "stool",
+      "name": "Oak kitchen stool",
+      "category": "potential_weapon",
+      "art_status": "produced",
+      "base_asset": "res://assets/objects/object-stool-upright.png",
+      "master": "res://assets/objects/masters/stool.png",
+      "source_cells": 2,
+      "anchor": "bottom_center",
+      "conditions": {
+        "upright": {
+          "asset": "res://assets/objects/object-stool-upright.png",
+          "closeup": "res://assets/objects/closeups/object-stool-upright.png",
+          "initial": "A round oak stool stands on four legs.",
+          "detailed": "Crossbars brace its legs below the thick circular seat.",
+          "repeat": "The round seat and four legs remain upright.",
+          "overlays": []
+        },
+        "overturned": {
+          "asset": "res://assets/objects/object-stool-overturned.png",
+          "closeup": "res://assets/objects/closeups/object-stool-overturned.png",
+          "initial": "An oak stool lies on its side.",
+          "detailed": "Its four legs and crossbars face outward. The seat is still attached.",
+          "repeat": "The same stool remains on its side; that alone explains nothing.",
+          "overlays": []
+        }
+      },
+      "allowed_forensics": [
+        "none"
+      ],
+      "forensic_conditions": {},
+      "collectible": false,
+      "examine_in_place": true,
+      "persistence": [
+        "seen",
+        "detailed",
+        "collected",
+        "magnified",
+        "discovered"
+      ]
+    },
+    "mirror": {
+      "id": "mirror",
+      "name": "Brass hand mirror",
+      "category": "potential_weapon",
+      "art_status": "produced",
+      "base_asset": "res://assets/objects/object-mirror-intact.png",
+      "master": "res://assets/objects/masters/mirror.png",
+      "source_cells": 2,
+      "anchor": "bottom_center",
+      "conditions": {
+        "intact": {
+          "asset": "res://assets/objects/object-mirror-intact.png",
+          "closeup": "res://assets/objects/closeups/object-mirror-intact.png",
+          "initial": "A small oval mirror has a brass handle.",
+          "detailed": "An ornamental frame surrounds unbroken silvered glass.",
+          "repeat": "The oval glass remains whole within its frame.",
+          "overlays": []
+        },
+        "broken": {
+          "asset": "res://assets/objects/object-mirror-broken.png",
+          "closeup": "res://assets/objects/closeups/object-mirror-broken.png",
+          "initial": "Glass is missing from an oval hand mirror.",
+          "detailed": "Jagged glass remains around the brass frame. The handle is unbroken.",
+          "repeat": "The gap in the glass is unchanged. Take care around its edges.",
+          "overlays": []
+        }
+      },
+      "allowed_forensics": [
+        "none"
+      ],
+      "forensic_conditions": {},
+      "collectible": true,
+      "examine_in_place": true,
+      "persistence": [
+        "seen",
+        "detailed",
+        "collected",
+        "magnified",
+        "discovered"
+      ]
+    },
+    "poker": {
+      "id": "poker",
+      "name": "Iron fire poker",
+      "category": "potential_weapon",
+      "art_status": "produced",
+      "base_asset": "res://assets/objects/object-poker-straight.png",
+      "master": "res://assets/objects/masters/poker.png",
+      "source_cells": 2,
+      "anchor": "bottom_center",
+      "conditions": {
+        "straight": {
+          "asset": "res://assets/objects/object-poker-straight.png",
+          "closeup": "res://assets/objects/closeups/object-poker-straight.png",
+          "initial": "A long iron poker has a small hooked end.",
+          "detailed": "A brass collar joins the dark grip to the straight iron shaft.",
+          "repeat": "The straight shaft and hooked tip look unchanged.",
+          "overlays": []
+        },
+        "bent": {
+          "asset": "res://assets/objects/object-poker-bent.png",
+          "closeup": "res://assets/objects/closeups/object-poker-bent.png",
+          "initial": "An iron fire poker has bowed out of shape.",
+          "detailed": "The shaft curves sideways below its hooked tip; the brass collar remains attached.",
+          "repeat": "The bowed shaft is still clearly visible.",
+          "overlays": []
+        }
+      },
+      "allowed_forensics": [
+        "none"
+      ],
+      "forensic_conditions": {},
+      "collectible": false,
+      "examine_in_place": true,
+      "persistence": [
+        "seen",
+        "detailed",
+        "collected",
+        "magnified",
+        "discovered"
+      ]
+    },
+    "magnifier": {
+      "id": "magnifier",
+      "name": "Brass magnifying glass",
+      "category": "tool",
+      "art_status": "produced",
+      "base_asset": "res://assets/objects/object-magnifier-ordinary.png",
+      "master": "res://assets/objects/masters/magnifier.png",
+      "source_cells": 1,
+      "anchor": "bottom_center",
+      "conditions": {
+        "ordinary": {
+          "asset": "res://assets/objects/object-magnifier-ordinary.png",
+          "closeup": "res://assets/objects/closeups/object-magnifier-ordinary.png",
+          "initial": "A brass-rimmed magnifying glass rests here.",
+          "detailed": "Its clear lens and dark wooden handle look serviceable.",
+          "repeat": "The lens is ready for another close examination.",
+          "overlays": []
+        }
+      },
+      "allowed_forensics": [
+        "none"
+      ],
+      "forensic_conditions": {},
+      "collectible": true,
+      "examine_in_place": true,
+      "persistence": [
+        "seen",
+        "detailed",
+        "collected",
+        "magnified",
+        "discovered"
+      ]
+    },
+    "mallet": {
+      "id": "mallet",
+      "name": "Wooden mallet",
+      "category": "potential_weapon",
+      "art_status": "produced",
+      "base_asset": "res://assets/objects/object-mallet-sound.png",
+      "master": "res://assets/objects/masters/mallet.png",
+      "source_cells": 2,
+      "anchor": "bottom_center",
+      "conditions": {
+        "sound": {
+          "asset": "res://assets/objects/object-mallet-sound.png",
+          "closeup": "res://assets/objects/closeups/object-mallet-sound.png",
+          "initial": "A wooden mallet has a broad striking head.",
+          "detailed": "The walnut head and its short handle are whole.",
+          "repeat": "The mallet still looks serviceable.",
+          "overlays": []
+        },
+        "split": {
+          "asset": "res://assets/objects/object-mallet-split.png",
+          "closeup": "res://assets/objects/closeups/object-mallet-split.png",
+          "initial": "A split opens through the mallet head.",
+          "detailed": "A chipped striking corner exposes the wood beneath its dark finish.",
+          "repeat": "The deep split remains open; the handle is still attached.",
+          "overlays": []
+        }
+      },
+      "allowed_forensics": [
+        "none"
+      ],
+      "forensic_conditions": {},
+      "collectible": false,
+      "examine_in_place": true,
+      "persistence": [
+        "seen",
+        "detailed",
+        "collected",
+        "magnified",
+        "discovered"
+      ]
+    },
+    "decanter": {
+      "id": "decanter",
+      "name": "Cut-glass decanter",
+      "category": "household",
+      "art_status": "produced",
+      "base_asset": "res://assets/objects/object-decanter-stoppered.png",
+      "master": "res://assets/objects/masters/decanter.png",
+      "source_cells": 2,
+      "anchor": "bottom_center",
+      "conditions": {
+        "stoppered": {
+          "asset": "res://assets/objects/object-decanter-stoppered.png",
+          "closeup": "res://assets/objects/closeups/object-decanter-stoppered.png",
+          "initial": "A faceted decanter holds a little amber liquid.",
+          "detailed": "A round crystal stopper closes the neck above its diamond-cut body.",
+          "repeat": "The round stopper is still in place.",
+          "overlays": []
+        },
+        "empty": {
+          "asset": "res://assets/objects/object-decanter-empty.png",
+          "closeup": "res://assets/objects/closeups/object-decanter-empty.png",
+          "initial": "An empty decanter stands beside its stopper.",
+          "detailed": "The glass has the same cut facets; the stopper has been set aside.",
+          "repeat": "The empty vessel and loose stopper remain together.",
+          "overlays": []
+        }
+      },
+      "allowed_forensics": [
+        "none"
+      ],
+      "forensic_conditions": {},
+      "collectible": false,
+      "examine_in_place": true,
+      "persistence": [
+        "seen",
+        "detailed",
+        "collected",
+        "magnified",
+        "discovered"
+      ]
+    },
+    "book": {
+      "id": "book",
+      "name": "Bound estate ledger",
+      "category": "potential_weapon",
+      "art_status": "produced",
+      "base_asset": "res://assets/objects/object-book-whole.png",
+      "master": "res://assets/objects/masters/book.png",
+      "source_cells": 2,
+      "anchor": "bottom_center",
+      "conditions": {
+        "whole": {
+          "asset": "res://assets/objects/object-book-whole.png",
+          "closeup": "res://assets/objects/closeups/object-book-whole.png",
+          "initial": "A burgundy estate ledger lies open.",
+          "detailed": "Brass corners protect its cover. A green ribbon marks the unbroken leaves.",
+          "repeat": "The ribbon still marks the same spread.",
+          "overlays": []
+        },
+        "missing_page": {
+          "asset": "res://assets/objects/object-book-missing_page.png",
+          "closeup": "res://assets/objects/closeups/object-book-missing_page.png",
+          "initial": "A ragged stub interrupts the ledger’s pages.",
+          "detailed": "A leaf has been torn from the binding. The burgundy cover and green ribbon remain.",
+          "repeat": "The torn page has not been replaced; no text on it can be recovered here.",
+          "overlays": []
+        }
+      },
+      "allowed_forensics": [
+        "none"
+      ],
+      "forensic_conditions": {},
+      "collectible": false,
+      "examine_in_place": true,
+      "persistence": [
+        "seen",
+        "detailed",
+        "collected",
+        "magnified",
+        "discovered"
+      ]
+    },
+    "safe": {
+      "id": "safe",
+      "name": "Cabinet safe",
+      "category": "environment",
+      "art_status": "produced",
+      "base_asset": "res://assets/objects/object-safe-unmarked.png",
+      "master": "res://assets/objects/masters/safe.png",
+      "source_cells": 2,
+      "anchor": "bottom_center",
+      "conditions": {
+        "unmarked": {
+          "asset": "res://assets/objects/object-safe-unmarked.png",
+          "closeup": "res://assets/objects/closeups/object-safe-unmarked.png",
+          "initial": "A closed iron safe has a brass dial.",
+          "detailed": "Its flat door has no obvious dents. The lever remains attached.",
+          "repeat": "The closed safe looks undisturbed.",
+          "overlays": []
+        },
+        "dented": {
+          "asset": "res://assets/objects/object-safe-dented.png",
+          "closeup": "res://assets/objects/closeups/object-safe-dented.png",
+          "initial": "Dents mark the iron door beside its dial.",
+          "detailed": "Three impacts and scraped finish interrupt the door surface. They do not tell you when this happened.",
+          "repeat": "The dents are unchanged. The door remains closed.",
+          "overlays": []
+        }
+      },
+      "allowed_forensics": [
+        "none"
+      ],
+      "forensic_conditions": {},
+      "collectible": false,
+      "examine_in_place": true,
+      "persistence": [
+        "seen",
+        "detailed",
+        "collected",
+        "magnified",
+        "discovered"
+      ]
+    }
+  },
+  "forensics": {
+    "none": {
+      "tool": "magnifier",
+      "description": "The lens reveals no additional detail worth recording.",
+      "discovery": "",
+      "repeat": "A second look adds nothing to your notes.",
+      "inset": null
+    },
+    "red_trace": {
+      "tool": "magnifier",
+      "description": "Tiny reddish-brown specks lodge beside a handle rivet.",
+      "discovery": "Record the specks. Their color alone cannot establish what they are.",
+      "repeat": "The specks beside the rivet match your recorded observation.",
+      "inset": "res://assets/objects/closeups/detail-red-trace.png"
+    },
+    "fiber": {
+      "tool": "magnifier",
+      "description": "A short blue fiber catches in a rough stone edge.",
+      "discovery": "Record the trapped fiber without assuming who left it.",
+      "repeat": "The blue fiber is still caught at the chipped edge.",
+      "inset": "res://assets/objects/closeups/detail-fiber.png"
+    },
+    "filings": {
+      "tool": "magnifier",
+      "description": "Pale metallic particles collect along a shallow groove.",
+      "discovery": "Record the particles. A comparison with another surface may help later.",
+      "repeat": "The same pale particles remain in the groove.",
+      "inset": "res://assets/objects/closeups/detail-filings.png"
+    }
+  },
+  "instances": {
+    "foyer-knife": {
+      "id": "foyer-knife",
+      "definition": "knife",
+      "condition": "ordinary",
+      "forensic": "red_trace",
+      "room": "g_foyer",
+      "position": [
+        152,
+        256
+      ],
+      "placement": "floor"
+    },
+    "foyer-mirror": {
+      "id": "foyer-mirror",
+      "definition": "mirror",
+      "condition": "broken",
+      "forensic": "none",
+      "room": "g_foyer",
+      "position": [
+        313,
+        284
+      ],
+      "placement": "floor"
+    },
+    "foyer-lens": {
+      "id": "foyer-lens",
+      "definition": "magnifier",
+      "condition": "ordinary",
+      "forensic": "none",
+      "room": "g_foyer",
+      "position": [
+        366,
+        235
+      ],
+      "placement": "reading stand"
+    },
+    "review-bust": {
+      "id": "review-bust",
+      "definition": "bust",
+      "condition": "cracked",
+      "forensic": "fiber",
+      "room": "evidence_review",
+      "position": [
+        0,
+        0
+      ],
+      "placement": "review only"
+    },
+    "review-bottle": {
+      "id": "review-bottle",
+      "definition": "bottle",
+      "condition": "sealed",
+      "forensic": "none",
+      "room": "evidence_review",
+      "position": [
+        0,
+        0
+      ],
+      "placement": "review only"
+    },
+    "review-hammer": {
+      "id": "review-hammer",
+      "definition": "hammer",
+      "condition": "ordinary",
+      "forensic": "filings",
+      "room": "evidence_review",
+      "position": [
+        0,
+        0
+      ],
+      "placement": "review only"
+    },
+    "review-stool": {
+      "id": "review-stool",
+      "definition": "stool",
+      "condition": "overturned",
+      "forensic": "none",
+      "room": "evidence_review",
+      "position": [
+        0,
+        0
+      ],
+      "placement": "review only"
+    },
+    "review-poker": {
+      "id": "review-poker",
+      "definition": "poker",
+      "condition": "bent",
+      "forensic": "none",
+      "room": "evidence_review",
+      "position": [
+        0,
+        0
+      ],
+      "placement": "review only"
+    },
+    "review-mallet": {
+      "id": "review-mallet",
+      "definition": "mallet",
+      "condition": "split",
+      "forensic": "none",
+      "room": "evidence_review",
+      "position": [
+        0,
+        0
+      ],
+      "placement": "review only"
+    },
+    "review-decanter": {
+      "id": "review-decanter",
+      "definition": "decanter",
+      "condition": "empty",
+      "forensic": "none",
+      "room": "evidence_review",
+      "position": [
+        0,
+        0
+      ],
+      "placement": "review only"
+    },
+    "review-book": {
+      "id": "review-book",
+      "definition": "book",
+      "condition": "missing_page",
+      "forensic": "none",
+      "room": "evidence_review",
+      "position": [
+        0,
+        0
+      ],
+      "placement": "review only"
+    },
+    "review-safe": {
+      "id": "review-safe",
+      "definition": "safe",
+      "condition": "dented",
+      "forensic": "none",
+      "room": "evidence_review",
+      "position": [
+        0,
+        0
+      ],
+      "placement": "review only"
+    }
+  },
+  "expansion_catalog": [
+    {
+      "id": "candlestick",
+      "name": "Brass candlestick",
+      "category": "potential_weapon",
+      "proposed_conditions": [
+        "straight",
+        "bent"
+      ],
+      "intended_room": "dining",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "paperweight",
+      "name": "Veined stone paperweight",
+      "category": "potential_weapon",
+      "proposed_conditions": [
+        "polished",
+        "chipped"
+      ],
+      "intended_room": "study",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "letter_opener",
+      "name": "Bone-handled letter opener",
+      "category": "potential_weapon",
+      "proposed_conditions": [
+        "sound",
+        "bent_tip"
+      ],
+      "intended_room": "study",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "statuette",
+      "name": "Bronze hound statuette",
+      "category": "potential_weapon",
+      "proposed_conditions": [
+        "intact",
+        "loose_base"
+      ],
+      "intended_room": "hall",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "cane",
+      "name": "Ebony walking cane",
+      "category": "potential_weapon",
+      "proposed_conditions": [
+        "sound",
+        "missing_ferrule"
+      ],
+      "intended_room": "foyer",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "doorstop",
+      "name": "Cast iron doorstop",
+      "category": "potential_weapon",
+      "proposed_conditions": [
+        "ordinary",
+        "fresh_scrape"
+      ],
+      "intended_room": "hall",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "candelabra",
+      "name": "Three-branch candelabra",
+      "category": "household",
+      "proposed_conditions": [
+        "lit",
+        "extinguished"
+      ],
+      "intended_room": "dining",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "oil_lamp",
+      "name": "Amber oil lamp",
+      "category": "household",
+      "proposed_conditions": [
+        "lit",
+        "empty"
+      ],
+      "intended_room": "basement",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "hourglass",
+      "name": "Walnut hourglass",
+      "category": "household",
+      "proposed_conditions": [
+        "upright",
+        "stopped"
+      ],
+      "intended_room": "library",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "bookend",
+      "name": "Stone owl bookend",
+      "category": "household",
+      "proposed_conditions": [
+        "intact",
+        "chipped"
+      ],
+      "intended_room": "library",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "reading_stand",
+      "name": "Oak reading stand",
+      "category": "household",
+      "proposed_conditions": [
+        "empty",
+        "open_book"
+      ],
+      "intended_room": "library",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "bowl",
+      "name": "Porcelain sweet dish",
+      "category": "household",
+      "proposed_conditions": [
+        "full",
+        "empty"
+      ],
+      "intended_room": "reception",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "ashtray",
+      "name": "Ceramic ashtray",
+      "category": "household",
+      "proposed_conditions": [
+        "clean",
+        "used"
+      ],
+      "intended_room": "study",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "pepper_mill",
+      "name": "Turned pepper mill",
+      "category": "household",
+      "proposed_conditions": [
+        "whole",
+        "loose_cap"
+      ],
+      "intended_room": "kitchen",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "hairbrush",
+      "name": "Silver-backed hairbrush",
+      "category": "household",
+      "proposed_conditions": [
+        "ordinary",
+        "missing_bristles"
+      ],
+      "intended_room": "bedroom",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "picture",
+      "name": "Framed landscape",
+      "category": "household",
+      "proposed_conditions": [
+        "hung",
+        "tilted"
+      ],
+      "intended_room": "hall",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "inkstand",
+      "name": "Brass desk inkstand",
+      "category": "household",
+      "proposed_conditions": [
+        "closed",
+        "spilled"
+      ],
+      "intended_room": "study",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "vase",
+      "name": "Glazed blue vase",
+      "category": "household",
+      "proposed_conditions": [
+        "whole",
+        "missing_shard"
+      ],
+      "intended_room": "reception",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "drawer_pull",
+      "name": "Carved drawer pull",
+      "category": "household",
+      "proposed_conditions": [
+        "attached",
+        "detached"
+      ],
+      "intended_room": "bedroom",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "door_lock",
+      "name": "Service door lock",
+      "category": "environment",
+      "proposed_conditions": [
+        "worn",
+        "freshly_scored"
+      ],
+      "intended_room": "kitchen",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "telephone",
+      "name": "Desk telephone",
+      "category": "environment",
+      "proposed_conditions": [
+        "connected",
+        "cut_cord"
+      ],
+      "intended_room": "study",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "wall_mirror",
+      "name": "Hall mirror",
+      "category": "environment",
+      "proposed_conditions": [
+        "clear",
+        "smudged"
+      ],
+      "intended_room": "hall",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "drawer",
+      "name": "Writing desk drawer",
+      "category": "environment",
+      "proposed_conditions": [
+        "empty",
+        "foreign_button"
+      ],
+      "intended_room": "study",
+      "art_status": "planned",
+      "gameplay_ready": false
+    },
+    {
+      "id": "rug",
+      "name": "Runner and dust outline",
+      "category": "environment",
+      "proposed_conditions": [
+        "undisturbed",
+        "shifted"
+      ],
+      "intended_room": "hall",
+      "art_status": "planned",
+      "gameplay_ready": false
+    }
+  ]
+}

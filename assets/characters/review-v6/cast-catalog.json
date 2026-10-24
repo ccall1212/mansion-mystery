@@ -1,0 +1,530 @@
+{
+  "version": 6,
+  "status": "selected-looks-awaiting-names-and-review",
+  "final_cast_approved": false,
+  "new_poses_authorized_after": "User names the reviewed cast and supplies next pose direction.",
+  "comparison_layout_only": true,
+  "description": "13 photo-based identities plus six earlier game character designs. Alternate appearances are variants under one number. Obsolete generation passes remain archived separately.",
+  "entries": [
+    {
+      "number": "01",
+      "identity_id": "likeness-photo01",
+      "name": null,
+      "label": "Party I / pink-cardigan identity",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v6/sources/selected-party-hm.png",
+          "crop_grid": [
+            3,
+            2,
+            1
+          ],
+          "caption": "Selected Party I",
+          "panel_crop": [
+            0.2,
+            0,
+            0.68,
+            0.99
+          ]
+        },
+        {
+          "source": "res://assets/characters/review-v2/masters/photo-01-woman-v2.png",
+          "transparent": true,
+          "caption": "Pink cardigan"
+        }
+      ],
+      "user_selected_primary": true
+    },
+    {
+      "number": "02",
+      "identity_id": "likeness-first-A",
+      "name": null,
+      "label": "Party M / first-group A",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v6/sources/selected-party-hm.png",
+          "crop_grid": [
+            3,
+            2,
+            5
+          ],
+          "caption": "Selected Party M",
+          "panel_crop": [
+            0.2,
+            0,
+            0.68,
+            0.99
+          ]
+        },
+        {
+          "source": "res://assets/characters/review-v5/masters/photo-03-f-scruff-v5.png",
+          "crop_grid": [
+            3,
+            2,
+            0
+          ],
+          "caption": "First A",
+          "panel_crop": [
+            0.16,
+            0,
+            0.7,
+            0.99
+          ]
+        }
+      ],
+      "user_selected_primary": true
+    },
+    {
+      "number": "03",
+      "identity_id": "likeness-first-B",
+      "name": null,
+      "label": "First-group B / party D",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v5/masters/photo-03-f-scruff-v5.png",
+          "crop_grid": [
+            3,
+            2,
+            1
+          ],
+          "caption": "First B",
+          "panel_crop": [
+            0.16,
+            0,
+            0.7,
+            0.99
+          ]
+        },
+        {
+          "source": "res://assets/characters/review-v3/masters/photo-04-upper-five-v3.png",
+          "crop_rect": [
+            350,
+            502,
+            417,
+            490
+          ],
+          "caption": "Party D"
+        }
+      ]
+    },
+    {
+      "number": "04",
+      "identity_id": "likeness-first-C",
+      "name": null,
+      "label": "First-group C — blue waistcoat",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v5/masters/photo-03-f-scruff-v5.png",
+          "crop_grid": [
+            3,
+            2,
+            2
+          ],
+          "caption": "First C",
+          "panel_crop": [
+            0.16,
+            0,
+            0.7,
+            0.99
+          ]
+        }
+      ]
+    },
+    {
+      "number": "05",
+      "identity_id": "likeness-first-D",
+      "name": null,
+      "label": "Party C / first-group D",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v6/sources/selected-party-ag.png",
+          "crop_rect": [
+            768,
+            0,
+            384,
+            512
+          ],
+          "caption": "Selected Party C"
+        },
+        {
+          "source": "res://assets/characters/review-v5/masters/photo-03-f-scruff-v5.png",
+          "crop_grid": [
+            3,
+            2,
+            3
+          ],
+          "caption": "First D",
+          "panel_crop": [
+            0.16,
+            0,
+            0.7,
+            0.99
+          ]
+        }
+      ],
+      "user_selected_primary": true
+    },
+    {
+      "number": "06",
+      "identity_id": "likeness-user",
+      "name": null,
+      "label": "You / hat-on and head-scratch",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v6/sources/selected-hat-pair.png",
+          "crop_grid": [
+            2,
+            1,
+            0
+          ],
+          "caption": "Selected hat-on",
+          "transparent": true
+        },
+        {
+          "source": "res://assets/characters/review-v6/sources/selected-hat-pair.png",
+          "crop_grid": [
+            2,
+            1,
+            1
+          ],
+          "caption": "Selected head-scratch",
+          "transparent": true
+        }
+      ],
+      "archived_variants": [
+        {
+          "source": "res://assets/characters/review-v5/masters/photo-03-f-scruff-v5.png",
+          "crop_grid": [
+            3,
+            2,
+            4
+          ],
+          "caption": "Cap held",
+          "panel_crop": [
+            0.16,
+            0,
+            0.7,
+            0.99
+          ]
+        },
+        {
+          "source": "res://assets/characters/review-v4/masters/photo-02-hat-full-beard-v4.png",
+          "crop_grid": [
+            2,
+            1,
+            0
+          ],
+          "caption": "Hat on",
+          "transparent": true
+        },
+        {
+          "source": "res://assets/characters/review-v4/masters/photo-02-hat-full-beard-v4.png",
+          "crop_grid": [
+            2,
+            1,
+            1
+          ],
+          "caption": "Head scratch",
+          "transparent": true
+        }
+      ],
+      "overview_variants": [
+        0,
+        1
+      ],
+      "user_selected_primary": true
+    },
+    {
+      "number": "07",
+      "identity_id": "likeness-first-F",
+      "name": null,
+      "label": "Party K / first-group F",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v6/sources/selected-party-hm.png",
+          "crop_grid": [
+            3,
+            2,
+            3
+          ],
+          "caption": "Selected Party K",
+          "panel_crop": [
+            0.2,
+            0,
+            0.68,
+            0.99
+          ]
+        },
+        {
+          "source": "res://assets/characters/review-v5/masters/photo-03-f-scruff-v5.png",
+          "crop_grid": [
+            3,
+            2,
+            5
+          ],
+          "caption": "First F / scruff",
+          "panel_crop": [
+            0.16,
+            0,
+            0.7,
+            0.99
+          ]
+        }
+      ],
+      "user_selected_primary": true
+    },
+    {
+      "number": "08",
+      "identity_id": "likeness-party-A",
+      "name": null,
+      "label": "Party A",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v3/masters/photo-04-upper-five-v3.png",
+          "crop_rect": [
+            160,
+            10,
+            408,
+            488
+          ],
+          "caption": "Party A"
+        }
+      ]
+    },
+    {
+      "number": "09",
+      "identity_id": "likeness-party-B",
+      "name": null,
+      "label": "Party B",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v3/masters/photo-04-upper-five-v3.png",
+          "crop_rect": [
+            568,
+            10,
+            401,
+            488
+          ],
+          "caption": "Party B"
+        }
+      ]
+    },
+    {
+      "number": "10",
+      "identity_id": "likeness-party-E",
+      "name": null,
+      "label": "Party E",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v3/masters/photo-04-upper-five-v3.png",
+          "crop_rect": [
+            768,
+            502,
+            418,
+            490
+          ],
+          "caption": "Party E"
+        }
+      ]
+    },
+    {
+      "number": "11",
+      "identity_id": "likeness-party-H",
+      "name": null,
+      "label": "Party H",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v5/masters/photo-04-k-cheek-scruff-v5.png",
+          "crop_grid": [
+            3,
+            2,
+            0
+          ],
+          "caption": "Party H",
+          "panel_crop": [
+            0.2,
+            0,
+            0.68,
+            0.99
+          ]
+        }
+      ]
+    },
+    {
+      "number": "12",
+      "identity_id": "likeness-party-J",
+      "name": null,
+      "label": "Party J",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v5/masters/photo-04-k-cheek-scruff-v5.png",
+          "crop_grid": [
+            3,
+            2,
+            2
+          ],
+          "caption": "Party J",
+          "panel_crop": [
+            0.2,
+            0,
+            0.68,
+            0.99
+          ]
+        }
+      ]
+    },
+    {
+      "number": "13",
+      "identity_id": "likeness-party-L",
+      "name": null,
+      "label": "Party L",
+      "group": "photo-based",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v5/masters/photo-04-k-cheek-scruff-v5.png",
+          "crop_grid": [
+            3,
+            2,
+            4
+          ],
+          "caption": "Party L",
+          "panel_crop": [
+            0.2,
+            0,
+            0.68,
+            0.99
+          ]
+        }
+      ]
+    },
+    {
+      "number": "14",
+      "identity_id": "existing-protagonist",
+      "name": null,
+      "label": "Current protagonist",
+      "group": "earlier-game-design",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/references/protagonist-front.png",
+          "transparent": true,
+          "caption": "Current investigator"
+        }
+      ]
+    },
+    {
+      "number": "15",
+      "identity_id": "existing-eleanor",
+      "name": null,
+      "label": "Eleanor / revised design",
+      "group": "earlier-game-design",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/review-v2/masters/eleanor-proportion-v2.png",
+          "transparent": true,
+          "caption": "Larger-head revision"
+        },
+        {
+          "source": "res://assets/characters/references/eleanor-original-front.png",
+          "transparent": true,
+          "caption": "Original Eleanor"
+        }
+      ]
+    },
+    {
+      "number": "16",
+      "identity_id": "draft-jonas",
+      "name": null,
+      "label": "Earlier kneeling investigator",
+      "group": "earlier-fictional-draft",
+      "height_ratio": 0.7916666666666666,
+      "variants": [
+        {
+          "source": "res://assets/characters/masters/01-jonas-investigating-clue.png",
+          "transparent": true,
+          "caption": "Kneeling pose"
+        }
+      ]
+    },
+    {
+      "number": "17",
+      "identity_id": "draft-ada",
+      "name": null,
+      "label": "Earlier woman looking upward",
+      "group": "earlier-fictional-draft",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/masters/02-examining-clock.png",
+          "transparent": true,
+          "caption": "Looking upward"
+        }
+      ]
+    },
+    {
+      "number": "18",
+      "identity_id": "draft-pip",
+      "name": null,
+      "label": "Earlier crouching boy",
+      "group": "earlier-fictional-draft",
+      "height_ratio": 0.6111111110416666,
+      "variants": [
+        {
+          "source": "res://assets/characters/masters/03-hiding-under-bed.png",
+          "transparent": true,
+          "caption": "Crouching pose"
+        }
+      ]
+    },
+    {
+      "number": "19",
+      "identity_id": "draft-martha",
+      "name": null,
+      "label": "Earlier woman / crossed arms",
+      "group": "earlier-fictional-draft",
+      "height_ratio": 1,
+      "variants": [
+        {
+          "source": "res://assets/characters/masters/04-angry.png",
+          "transparent": true,
+          "caption": "Crossed arms"
+        }
+      ]
+    }
+  ],
+  "expected_variant_views": 26,
+  "selection_provenance": {
+    "request": "Exact user-provided existing looks selected; no character redraw or new generation.",
+    "number_01": "Image 3 / I",
+    "number_02": "Image 3 / M",
+    "number_05": "Image 4 / C",
+    "number_06": "Image 2 / both poses",
+    "number_07": "Image 3 / K"
+  }
+}

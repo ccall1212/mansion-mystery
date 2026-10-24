@@ -1,0 +1,747 @@
+{
+  "ok": true,
+  "generator": "built-in imagegen",
+  "identities": 12,
+  "physical_variants": 23,
+  "runtime_pngs": 49,
+  "planned_catalog_entries": 24,
+  "engine_checks": 76,
+  "rendered_checks": 39,
+  "assets": [
+    {
+      "file": "res://assets/objects/object-knife-ordinary.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        4,
+        16,
+        27,
+        39
+      ],
+      "sha256": "876e94aad148491b9fcd520d0d166573cddbd1ee994878e27e8bbf6d78ac46e5"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-knife-ordinary.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        7,
+        6,
+        152,
+        154
+      ],
+      "sha256": "5a8c0adc3f18e3eaf4be0f9c93f3e3b17aa5ce6276891603d71e44eeb8206541"
+    },
+    {
+      "file": "res://assets/objects/object-knife-bent.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        4,
+        15,
+        27,
+        39
+      ],
+      "sha256": "d649e9ba12b52ba6ac74732268f67f0ef758ba5c1c995d1013e83f11f4f25c9e"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-knife-bent.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        10,
+        6,
+        150,
+        154
+      ],
+      "sha256": "bf4b8c3efc7ea21ff7f0991d22655feaa5b2eeb754798afde7c086a98c016f0b"
+    },
+    {
+      "file": "res://assets/objects/object-bust-intact.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        6,
+        7,
+        25,
+        39
+      ],
+      "sha256": "e9a1431ea3627831bd24388e18f2f893373dc1b2e9ae062dbe670322e03f4b5a"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-bust-intact.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        36,
+        6,
+        124,
+        154
+      ],
+      "sha256": "3109383a0cae39e239d0241619c0cfa0a37d4ce526ff3644062650c175912762"
+    },
+    {
+      "file": "res://assets/objects/object-bust-cracked.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        6,
+        7,
+        25,
+        39
+      ],
+      "sha256": "25bfe3a5260d7fea113023dccb38b84c079277ca7b148284ece1ffa3d4d477b7"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-bust-cracked.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        36,
+        6,
+        124,
+        154
+      ],
+      "sha256": "225e27a3945f2e23e730582048c1edd2deae438106ad1976417d7c3a6d7ddf65"
+    },
+    {
+      "file": "res://assets/objects/object-bottle-sealed.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        3,
+        14,
+        28,
+        39
+      ],
+      "sha256": "5778be64eabc0266c3f4acb12223f86fd7d4aaaf6bb5986f548db8134a55ba39"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-bottle-sealed.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        6,
+        6,
+        154,
+        153
+      ],
+      "sha256": "f43bf22c29d451d005814f0ebedc299ee8326b46af59dbf41d9c38c40713f8e3"
+    },
+    {
+      "file": "res://assets/objects/object-bottle-broken.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        3,
+        15,
+        28,
+        39
+      ],
+      "sha256": "430ec26afcb18b1b053a7df09817b4694caac31d41b7f308d8983e1fc6115a6a"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-bottle-broken.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        6,
+        9,
+        154,
+        150
+      ],
+      "sha256": "fd78f4d874b17075979270446df7af6589407e4260e72ea3a29c0c138a133141"
+    },
+    {
+      "file": "res://assets/objects/object-hammer-ordinary.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        4,
+        16,
+        28,
+        39
+      ],
+      "sha256": "556d7113c7f379fcbbea7d8d895eba4c45b95fa559f66590fbeefaddbd1665cf"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-hammer-ordinary.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        6,
+        10,
+        154,
+        150
+      ],
+      "sha256": "0c09b4a6ee652dbd555b561d905bed0885f56cddfaf542a273baa64e20948078"
+    },
+    {
+      "file": "res://assets/objects/object-hammer-damaged.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        4,
+        16,
+        28,
+        39
+      ],
+      "sha256": "c2556c0c41d1e2ce52224079d1e3dc094f75e42d96f516f3c4d19ef90ad1a0df"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-hammer-damaged.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        6,
+        10,
+        154,
+        149
+      ],
+      "sha256": "117b1fc6eccc6fba23633f373cd023cbdcaebc17f46b7c0b85dc648a49bc1a7a"
+    },
+    {
+      "file": "res://assets/objects/object-stool-upright.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        3,
+        8,
+        28,
+        39
+      ],
+      "sha256": "92636cc2c7fca12a4808ab81d3f2ff1c5720f4a639afe00dff9c50f1df794998"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-stool-upright.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        21,
+        6,
+        138,
+        154
+      ],
+      "sha256": "cb1a74b42cea6752f5b0793dce654d7cf10f80d60fc17e8ad8e877911e19cd25"
+    },
+    {
+      "file": "res://assets/objects/object-stool-overturned.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        1,
+        16,
+        31,
+        39
+      ],
+      "sha256": "fefdd4c308f9e665872052beab2c07893b1bc0caaf0067cd4ae0d08668f11400"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-stool-overturned.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        6,
+        23,
+        154,
+        137
+      ],
+      "sha256": "c850cbcf72692c32969112f980934ee1e201f4b616ee9137eea05ed4ff5ee5f4"
+    },
+    {
+      "file": "res://assets/objects/object-mirror-intact.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        5,
+        17,
+        26,
+        39
+      ],
+      "sha256": "65fc88c97c36dc274b55640ba724be1e2c520b2e2b55964394304eb656fa9297"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-mirror-intact.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        9,
+        6,
+        150,
+        154
+      ],
+      "sha256": "e03adfcd5ab2cecfde5cff0afce3994b8279bf2bbab89ed8d5568a9b8b7b7db1"
+    },
+    {
+      "file": "res://assets/objects/object-mirror-broken.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        5,
+        17,
+        26,
+        39
+      ],
+      "sha256": "49961776a05cb6aad1c0c2f8436f7333f838414835ce064d29e889b00b175bd8"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-mirror-broken.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        9,
+        6,
+        150,
+        154
+      ],
+      "sha256": "b26f706e349e4c759d9eb9bc1394a970a998ff594f8beb15ca6a8118b6493c94"
+    },
+    {
+      "file": "res://assets/objects/object-poker-straight.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        1,
+        12,
+        31,
+        39
+      ],
+      "sha256": "7a49e138e7085b995aae13724afedee4b5a7e885fed53f2784fe0357d687eafd"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-poker-straight.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        6,
+        12,
+        154,
+        147
+      ],
+      "sha256": "543e85c3957d698f34015a1b45aa745aaa5df8cd4bfdbd8e7d71512d9e460a9e"
+    },
+    {
+      "file": "res://assets/objects/object-poker-bent.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        1,
+        12,
+        31,
+        39
+      ],
+      "sha256": "b09c53e0ffcc6a1ca15a8954a2b0a2c773ca4fd71cf6685b5ce226f765768b59"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-poker-bent.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        6,
+        13,
+        154,
+        146
+      ],
+      "sha256": "5d4d3a82cc508b0b2a6a51dccf4cb2714bee3afbc6b5667642e27187967f8d28"
+    },
+    {
+      "file": "res://assets/objects/object-magnifier-ordinary.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        7,
+        23,
+        25,
+        39
+      ],
+      "sha256": "bfcfe8ae8d534baf2f3ac87d334f4481c7ad3e991e26cc8768b9deaa71f6c1bb"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-magnifier-ordinary.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        6,
+        12,
+        154,
+        147
+      ],
+      "sha256": "91010d79989fe19c5b838e0e1b1c22e5ee3fe9d0095d05889b64db85828a633a"
+    },
+    {
+      "file": "res://assets/objects/object-mallet-sound.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        2,
+        13,
+        30,
+        39
+      ],
+      "sha256": "ffa8a8688e26e0ec26246f066bce4518c18df3154cfe0e4165723d8a413d4f92"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-mallet-sound.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        6,
+        11,
+        154,
+        149
+      ],
+      "sha256": "706a72ce1e38f4e69723dbbeb14dd0fb7b537e20d83b45edf739432f70fa8108"
+    },
+    {
+      "file": "res://assets/objects/object-mallet-split.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        2,
+        13,
+        30,
+        39
+      ],
+      "sha256": "937f490dd7cd0c8bef68d175fca6429581906d6b272b3071f459b369cc74733b"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-mallet-split.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        6,
+        11,
+        154,
+        148
+      ],
+      "sha256": "fc8a8715eb35430a5da68f736c9d20e5764b79be4eef765e7b77dd0ccea9068b"
+    },
+    {
+      "file": "res://assets/objects/object-decanter-stoppered.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        3,
+        5,
+        29,
+        39
+      ],
+      "sha256": "e0d08f19f154a1b76cb846a09b91112f1c2cacf0f98b012c9cb80560f4047b54"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-decanter-stoppered.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        24,
+        6,
+        135,
+        154
+      ],
+      "sha256": "9ad6fe6624c487bd0f7d684641d1acc357e43d789e1fbbaeaa972e355d0e904a"
+    },
+    {
+      "file": "res://assets/objects/object-decanter-empty.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        2,
+        19,
+        30,
+        39
+      ],
+      "sha256": "08032274934edc32334acc27b4fd7cb1d2f6107caed02727f73529508b941d83"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-decanter-empty.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        6,
+        27,
+        154,
+        132
+      ],
+      "sha256": "f3bea969769d566aaa66dc32f4c6da38307a49c3930710c9b411839b3b770e60"
+    },
+    {
+      "file": "res://assets/objects/object-book-whole.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        2,
+        19,
+        30,
+        39
+      ],
+      "sha256": "69ab5ea17963d79f072c3f4d54cb31b4499751767ac50ba317ab449524587c4d"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-book-whole.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        6,
+        28,
+        154,
+        132
+      ],
+      "sha256": "cb58075b9a5ff8a5ac454c4befcd70da2f1fb12af4a8bad5ed5c6e5a7fadfe57"
+    },
+    {
+      "file": "res://assets/objects/object-book-missing_page.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        2,
+        19,
+        30,
+        39
+      ],
+      "sha256": "793d340d9d51f980620f2daddc8f82a746545df022d14d89de1d36a78a703c11"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-book-missing_page.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        6,
+        28,
+        154,
+        132
+      ],
+      "sha256": "5ecd831ae0b3a65f962d60b6df8876a1985eec41b46b60f8e5fa4b157666de9a"
+    },
+    {
+      "file": "res://assets/objects/object-safe-unmarked.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        2,
+        9,
+        30,
+        39
+      ],
+      "sha256": "2e921fcef45125bcb8d0da83027ce29dcee9d10f424855a3098a98f712863149"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-safe-unmarked.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        11,
+        6,
+        149,
+        154
+      ],
+      "sha256": "8a1ed0142db1853288dc3a605ecf3ed2f4793d7a91de0d4cd371434c68fb302d"
+    },
+    {
+      "file": "res://assets/objects/object-safe-dented.png",
+      "size": [
+        32,
+        40
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        2,
+        9,
+        30,
+        39
+      ],
+      "sha256": "e6db4be71aae4fab8ab09eb272bb116f82ca53319c29b995440685b64e75e57a"
+    },
+    {
+      "file": "res://assets/objects/closeups/object-safe-dented.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        11,
+        6,
+        149,
+        154
+      ],
+      "sha256": "21cf205c24ed559c84e845cfe3dab99d9ccbd3e8fede07628d0b233fc9af30ae"
+    },
+    {
+      "file": "res://assets/objects/closeups/detail-red-trace.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        6,
+        6,
+        154,
+        153
+      ],
+      "sha256": "3d95ea8e25893c946a7f3899cc3f21359c5a7a869e0cba04f1180438b6e5313a"
+    },
+    {
+      "file": "res://assets/objects/closeups/detail-fiber.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        6,
+        10,
+        154,
+        149
+      ],
+      "sha256": "a5bc9de985f96f25833b1df10a9569d3e81b0b1960d341b7b0a88100639c4b8c"
+    },
+    {
+      "file": "res://assets/objects/closeups/detail-filings.png",
+      "size": [
+        160,
+        160
+      ],
+      "mode": "RGBA",
+      "opaque_bounds": [
+        6,
+        9,
+        154,
+        150
+      ],
+      "sha256": "2ef714a13b13d43742b3bf5fb6befbdfc5d24876f422b3c73fa153c811d90116"
+    }
+  ]
+}

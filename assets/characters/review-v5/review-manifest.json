@@ -1,0 +1,36 @@
+{
+  "version": 5,
+  "status": "historical-see-review-v6-for-user-selected-primary-looks",
+  "superseded_by": "../review-v6/review-manifest.json",
+  "generation_mode": "built-in-imagegen-for-art-edits; Godot-for-contact-sheets",
+  "final_cast_approved": false,
+  "runtime_replaced": false,
+  "identity_catalog": "../likeness-identities.json",
+  "cast_catalog": "cast-catalog.json",
+  "photo_based_identities": 13,
+  "earlier_game_designs": 6,
+  "review_numbers": 19,
+  "current_variant_views": 27,
+  "names_status": "pending-user-input",
+  "next_step": "User reviews current combined cast and supplies names; additional poses follow afterward.",
+  "changes": [
+    "Party I merged with pink-cardigan woman (#01).",
+    "Party M merged with first-group A (#02).",
+    "Party K merged with first-group F (#07).",
+    "Scruffy goatee plus cheek/jaw scruff added to both F/K outfit looks."
+  ],
+  "new_art": [
+    "masters/photo-03-f-scruff-v5.png",
+    "masters/photo-04-k-cheek-scruff-v5.png"
+  ],
+  "review_sheets": [
+    "current-cast-overview.png",
+    "same-person-variants.png"
+  ],
+  "limitations": [
+    "These are current review concepts, not a finalized cast or production animation sheets.",
+    "Older rejected passes are preserved in preceding review folders.",
+    "Contact-sheet fitting is for comparison, not final world-space scale."
+  ],
+  "no_new_poses_generated": true
+}

@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "adult_height": 80,
+  "alpha_threshold": 0.5,
+  "description": "Shared logical-pixel stature; preserve source aspect ratio and feet anchor. Individual height_ratio expresses intended stature only.",
+  "movement": {"speed": 112, "stride_distance": 56, "walk_order": [0, 1, 2, 3], "idle_frame": 1}
+}

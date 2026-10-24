@@ -1,0 +1,1234 @@
+{
+  "schema_version": 1,
+  "directions": [
+    "north",
+    "east",
+    "south",
+    "west"
+  ],
+  "door_definition": "One door assembly/opening/threshold; double leaves count once. Stairs and exterior paths are separate. Screen-side is wall placement, not traversal direction.",
+  "source_basis": "Existing images and contact sheets, user room review; positions are approximate. Counts need visual confirmation, not runtime topology authority.",
+  "backgrounds": {
+    "res://assets/foyer/foyer-background.png": {
+      "background_id": "foyer",
+      "asset": "res://assets/foyer/foyer-background.png",
+      "source_sha256": "bb2cf020f985f06e6a1be1b31627c0d8b324e72442ca34ddeaa45afff51c0d47",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 2,
+      "door_counts": {
+        "north": 1,
+        "east": 0,
+        "south": 1,
+        "west": 0
+      },
+      "door_signature": "N1_E0_S1_W0",
+      "doors": [
+        {
+          "id": "door_north_01",
+          "side": "north",
+          "position": [
+            240,
+            118
+          ],
+          "kind": "locked_front",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_south_02",
+          "side": "south",
+          "position": [
+            240,
+            304
+          ],
+          "kind": "threshold",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "count_status": "manual_visual_inventory_pending_user_confirmation",
+      "legacy_entrance_labels": [],
+      "active_rooms": [
+        "g_foyer"
+      ],
+      "room_reviews": {
+        "g_foyer": {
+          "status": "connection_review",
+          "user_notes": "Resolve bent vestibule; keep north front entrance locked.",
+          "target_door_counts": {
+            "north": 1,
+            "east": 0,
+            "south": 1,
+            "west": 0
+          },
+          "target_door_count": 2
+        }
+      }
+    },
+    "res://assets/rooms/room-guest-bedroom.png": {
+      "background_id": "guest-bedroom",
+      "asset": "res://assets/rooms/room-guest-bedroom.png",
+      "source_sha256": "705f936bd44755c8a9c5ca283fb30c188765ca4b83d0004a85d544dd2c66646e",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 2,
+      "door_counts": {
+        "north": 0,
+        "east": 1,
+        "south": 1,
+        "west": 0
+      },
+      "door_signature": "N0_E1_S1_W0",
+      "doors": [
+        {
+          "id": "door_east_01",
+          "side": "east",
+          "position": [
+            462,
+            182
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_south_02",
+          "side": "south",
+          "position": [
+            240,
+            306
+          ],
+          "kind": "threshold",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "count_status": "manual_visual_inventory_pending_user_confirmation",
+      "legacy_entrance_labels": [
+        "east",
+        "south"
+      ],
+      "active_rooms": []
+    },
+    "res://assets/rooms/room-guest-bedroom-alternate.png": {
+      "background_id": "guest-bedroom-alternate",
+      "asset": "res://assets/rooms/room-guest-bedroom-alternate.png",
+      "source_sha256": "4dcdd5c5afde0da4bff2e1446fea9625b6a75169ec58718775a5e0d1ca7f4f3b",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 2,
+      "door_counts": {
+        "north": 0,
+        "east": 1,
+        "south": 0,
+        "west": 1
+      },
+      "door_signature": "N0_E1_S0_W1",
+      "doors": [
+        {
+          "id": "door_west_01",
+          "side": "west",
+          "position": [
+            10,
+            205
+          ],
+          "kind": "opening_needs_review",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_east_02",
+          "side": "east",
+          "position": [
+            462,
+            261
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "count_status": "manual_visual_inventory_pending_user_confirmation",
+      "legacy_entrance_labels": [
+        "east",
+        "south-east"
+      ],
+      "active_rooms": [
+        "u_master"
+      ],
+      "room_reviews": {
+        "u_master": {
+          "status": "rework_required",
+          "user_notes": "Remove unused left opening and improve lower floor composition; bathroom is a future alternative.",
+          "target_door_counts": {
+            "north": 0,
+            "east": 1,
+            "south": 0,
+            "west": 0
+          },
+          "target_door_count": 1
+        }
+      }
+    },
+    "res://assets/rooms/room-firelit-entry.png": {
+      "background_id": "firelit-entry",
+      "asset": "res://assets/rooms/room-firelit-entry.png",
+      "source_sha256": "54e32d0ec24c2998bd57070852b246b9adbf96de1910faf45ac029cc595954a9",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 3,
+      "door_counts": {
+        "north": 0,
+        "east": 1,
+        "south": 1,
+        "west": 1
+      },
+      "door_signature": "N0_E1_S1_W1",
+      "doors": [
+        {
+          "id": "door_west_01",
+          "side": "west",
+          "position": [
+            16,
+            185
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_east_02",
+          "side": "east",
+          "position": [
+            464,
+            183
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_south_03",
+          "side": "south",
+          "position": [
+            46,
+            308
+          ],
+          "kind": "threshold",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "count_status": "manual_visual_inventory_pending_user_confirmation",
+      "legacy_entrance_labels": [
+        "west",
+        "east",
+        "south-west"
+      ],
+      "active_rooms": []
+    },
+    "res://assets/rooms/room-firelit-entry-alternate.png": {
+      "background_id": "firelit-entry-alternate",
+      "asset": "res://assets/rooms/room-firelit-entry-alternate.png",
+      "source_sha256": "77310a3d7905ff7a8bd979698ee8855e2824515a28540bbeb653beccb69eee2b",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 3,
+      "door_counts": {
+        "north": 1,
+        "east": 1,
+        "south": 1,
+        "west": 0
+      },
+      "door_signature": "N1_E1_S1_W0",
+      "doors": [
+        {
+          "id": "door_north_01",
+          "side": "north",
+          "position": [
+            83,
+            96
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_east_02",
+          "side": "east",
+          "position": [
+            462,
+            186
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_south_03",
+          "side": "south",
+          "position": [
+            82,
+            306
+          ],
+          "kind": "threshold",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "count_status": "manual_visual_inventory_pending_user_confirmation",
+      "legacy_entrance_labels": [
+        "north-west",
+        "east",
+        "south"
+      ],
+      "active_rooms": []
+    },
+    "res://assets/rooms/room-grand-hall.png": {
+      "background_id": "grand-hall",
+      "asset": "res://assets/rooms/room-grand-hall.png",
+      "source_sha256": "f079a1629e04416e58a03da31cbdc9b7267b8b36b59f9e3f1e58c74974f027db",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 4,
+      "door_counts": {
+        "north": 1,
+        "east": 1,
+        "south": 1,
+        "west": 1
+      },
+      "door_signature": "N1_E1_S1_W1",
+      "doors": [
+        {
+          "id": "door_north_01",
+          "side": "north",
+          "position": [
+            240,
+            105
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_east_02",
+          "side": "east",
+          "position": [
+            462,
+            172
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_south_03",
+          "side": "south",
+          "position": [
+            240,
+            306
+          ],
+          "kind": "threshold",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_west_04",
+          "side": "west",
+          "position": [
+            17,
+            172
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "count_status": "manual_visual_inventory_pending_user_confirmation",
+      "legacy_entrance_labels": [
+        "north",
+        "west",
+        "east",
+        "south"
+      ],
+      "active_rooms": [
+        "u_main_stair"
+      ],
+      "room_reviews": {
+        "u_main_stair": {
+          "status": "rework_required",
+          "user_notes": "South/bottom arrival facing north; carpet branches west and east. Remove unused north door.",
+          "target_door_counts": {
+            "north": 0,
+            "east": 1,
+            "south": 1,
+            "west": 1
+          },
+          "target_door_count": 3
+        }
+      }
+    },
+    "res://assets/rooms/room-grand-hall-alternate.png": {
+      "background_id": "grand-hall-alternate",
+      "asset": "res://assets/rooms/room-grand-hall-alternate.png",
+      "source_sha256": "a5f93ac3bc4a4e5f354a34ce714ef4f93331d1ee47ec34bec78b1fc81ddbfce7",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 3,
+      "door_counts": {
+        "north": 0,
+        "east": 1,
+        "south": 1,
+        "west": 1
+      },
+      "door_signature": "N0_E1_S1_W1",
+      "doors": [
+        {
+          "id": "door_east_01",
+          "side": "east",
+          "position": [
+            463,
+            159
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_south_02",
+          "side": "south",
+          "position": [
+            71,
+            306
+          ],
+          "kind": "threshold",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_west_03",
+          "side": "west",
+          "position": [
+            15,
+            158
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "count_status": "manual_visual_inventory_pending_user_confirmation",
+      "legacy_entrance_labels": [
+        "west",
+        "east",
+        "south-west"
+      ],
+      "active_rooms": []
+    },
+    "res://assets/rooms/room-torchlit-stone.png": {
+      "background_id": "torchlit-stone",
+      "asset": "res://assets/rooms/room-torchlit-stone.png",
+      "source_sha256": "313e548b13eb1cccdfb63f353284e648be00ca94facd49bc252b099e0d7ae773",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 2,
+      "door_counts": {
+        "north": 1,
+        "east": 0,
+        "south": 0,
+        "west": 1
+      },
+      "door_signature": "N1_E0_S0_W1",
+      "doors": [
+        {
+          "id": "door_north_01",
+          "side": "north",
+          "position": [
+            390,
+            111
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_west_02",
+          "side": "west",
+          "position": [
+            17,
+            181
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "count_status": "manual_visual_inventory_pending_user_confirmation",
+      "legacy_entrance_labels": [
+        "west",
+        "north-east"
+      ],
+      "active_rooms": []
+    },
+    "res://assets/rooms/room-torchlit-stone-alternate.png": {
+      "background_id": "torchlit-stone-alternate",
+      "asset": "res://assets/rooms/room-torchlit-stone-alternate.png",
+      "source_sha256": "dddd3302c912771aefbba7e5aa7a16709705e1326704b8ff2215ebc3ee5dca1b",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 2,
+      "door_counts": {
+        "north": 1,
+        "east": 0,
+        "south": 0,
+        "west": 1
+      },
+      "door_signature": "N1_E0_S0_W1",
+      "doors": [
+        {
+          "id": "door_north_01",
+          "side": "north",
+          "position": [
+            420,
+            110
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_west_02",
+          "side": "west",
+          "position": [
+            16,
+            169
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "count_status": "manual_visual_inventory_pending_user_confirmation",
+      "legacy_entrance_labels": [
+        "east",
+        "south-west"
+      ],
+      "active_rooms": [
+        "b_store"
+      ],
+      "room_reviews": {
+        "b_store": {
+          "status": "rework_required",
+          "user_notes": "Remove unused west door. Add shelves, crates, trunks and barrels with clear aisles and inspection access.",
+          "target_door_counts": {
+            "north": 1,
+            "east": 0,
+            "south": 0,
+            "west": 0
+          },
+          "target_door_count": 1
+        }
+      }
+    },
+    "res://assets/rooms/room-library.png": {
+      "background_id": "library",
+      "asset": "res://assets/rooms/room-library.png",
+      "source_sha256": "83ba1e7abb424ff8d5923c29798c47682affbb8d18adcd434990d686d1fcf618",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 2,
+      "door_counts": {
+        "north": 0,
+        "east": 1,
+        "south": 0,
+        "west": 1
+      },
+      "door_signature": "N0_E1_S0_W1",
+      "doors": [
+        {
+          "id": "door_east_01",
+          "side": "east",
+          "position": [
+            462,
+            169
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_west_02",
+          "side": "west",
+          "position": [
+            18,
+            169
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "count_status": "manual_visual_inventory_pending_user_confirmation",
+      "legacy_entrance_labels": [
+        "west",
+        "east"
+      ],
+      "active_rooms": [
+        "g_library"
+      ],
+      "room_reviews": {
+        "g_library": {
+          "status": "rework_required",
+          "user_notes": "Remove window obstruction and clustered stool/chair/bookcase. Separate accessible chair, shelves and desk.",
+          "target_door_counts": {
+            "north": 0,
+            "east": 1,
+            "south": 0,
+            "west": 1
+          },
+          "target_door_count": 2
+        }
+      }
+    },
+    "res://assets/rooms/room-library-alternate.png": {
+      "background_id": "library-alternate",
+      "asset": "res://assets/rooms/room-library-alternate.png",
+      "source_sha256": "035a44d80f9e9cf3e0650edcfa5f0830d9413040e112980d8d8e4ab7bed92cf3",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 3,
+      "door_counts": {
+        "north": 1,
+        "east": 0,
+        "south": 1,
+        "west": 1
+      },
+      "door_signature": "N1_E0_S1_W1",
+      "doors": [
+        {
+          "id": "door_north_01",
+          "side": "north",
+          "position": [
+            429,
+            86
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_south_02",
+          "side": "south",
+          "position": [
+            236,
+            305
+          ],
+          "kind": "threshold",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_west_03",
+          "side": "west",
+          "position": [
+            17,
+            177
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "count_status": "manual_visual_inventory_pending_user_confirmation",
+      "legacy_entrance_labels": [
+        "north-east",
+        "west",
+        "south"
+      ],
+      "active_rooms": [
+        "u_study"
+      ],
+      "room_reviews": {
+        "u_study": {
+          "status": "rework_required",
+          "user_notes": "Remove unused north and south openings; preserve west landing connection.",
+          "target_door_counts": {
+            "north": 0,
+            "east": 0,
+            "south": 0,
+            "west": 1
+          },
+          "target_door_count": 1
+        }
+      }
+    },
+    "res://assets/rooms/room-reception-hall.png": {
+      "background_id": "reception-hall",
+      "asset": "res://assets/rooms/room-reception-hall.png",
+      "source_sha256": "25ec141b7861739a516399691348f810b47ceef72b8229494d1376a21f2f2e37",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 2,
+      "door_counts": {
+        "north": 0,
+        "east": 1,
+        "south": 1,
+        "west": 0
+      },
+      "door_signature": "N0_E1_S1_W0",
+      "doors": [
+        {
+          "id": "door_east_01",
+          "side": "east",
+          "position": [
+            462,
+            178
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_south_02",
+          "side": "south",
+          "position": [
+            241,
+            305
+          ],
+          "kind": "threshold",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "count_status": "manual_visual_inventory_pending_user_confirmation",
+      "legacy_entrance_labels": [
+        "east",
+        "south"
+      ],
+      "active_rooms": [
+        "g_kitchen"
+      ],
+      "room_reviews": {
+        "g_kitchen": {
+          "status": "rework_required",
+          "user_notes": "Create a real kitchen. Retain current bar reference for later bar room with counter-facing usable stools.",
+          "target_door_counts": {
+            "north": 0,
+            "east": 1,
+            "south": 1,
+            "west": 0
+          },
+          "target_door_count": 2
+        }
+      }
+    },
+    "res://assets/rooms/room-reception-hall-alternate.png": {
+      "background_id": "reception-hall-alternate",
+      "asset": "res://assets/rooms/room-reception-hall-alternate.png",
+      "source_sha256": "02c91056aac5e49c70882d7001963422b07bb8450556b444bbfe354da130d322",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 3,
+      "door_counts": {
+        "north": 0,
+        "east": 1,
+        "south": 1,
+        "west": 1
+      },
+      "door_signature": "N0_E1_S1_W1",
+      "doors": [
+        {
+          "id": "door_east_01",
+          "side": "east",
+          "position": [
+            462,
+            170
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_south_02",
+          "side": "south",
+          "position": [
+            406,
+            305
+          ],
+          "kind": "threshold",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_west_03",
+          "side": "west",
+          "position": [
+            17,
+            170
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "count_status": "manual_visual_inventory_pending_user_confirmation",
+      "legacy_entrance_labels": [
+        "west",
+        "east",
+        "south-east"
+      ],
+      "active_rooms": [
+        "g_dining"
+      ],
+      "room_reviews": {
+        "g_dining": {
+          "status": "rework_required",
+          "user_notes": "Add dining table and usable chairs; remove unused south exit.",
+          "target_door_counts": {
+            "north": 0,
+            "east": 1,
+            "south": 0,
+            "west": 1
+          },
+          "target_door_count": 2
+        }
+      }
+    },
+    "res://assets/rooms/room-night-exterior.png": {
+      "background_id": "night-exterior",
+      "asset": "res://assets/rooms/room-night-exterior.png",
+      "source_sha256": "95c6ebca6e04ff9ebf40407534fd1d02e536210040519942dd336d54811658ef",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 1,
+      "door_counts": {
+        "north": 1,
+        "east": 0,
+        "south": 0,
+        "west": 0
+      },
+      "door_signature": "N1_E0_S0_W0",
+      "doors": [
+        {
+          "id": "door_north_01",
+          "side": "north",
+          "position": [
+            279,
+            176
+          ],
+          "kind": "exterior_front",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [
+        {
+          "side": "south",
+          "kind": "exterior_path"
+        },
+        {
+          "side": "east",
+          "kind": "garden_path"
+        }
+      ],
+      "count_status": "manual_visual_inventory_pending_user_confirmation",
+      "legacy_entrance_labels": [
+        "north-east-front-door",
+        "south-west-path",
+        "east-garden"
+      ],
+      "active_rooms": []
+    },
+    "res://assets/rooms/room-night-exterior-alternate.png": {
+      "background_id": "night-exterior-alternate",
+      "asset": "res://assets/rooms/room-night-exterior-alternate.png",
+      "source_sha256": "8efad2e72fafdd8cfa74f6e38fe36c2d98ce07124909084bcb6f961ead1aa0f6",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 1,
+      "door_counts": {
+        "north": 1,
+        "east": 0,
+        "south": 0,
+        "west": 0
+      },
+      "door_signature": "N1_E0_S0_W0",
+      "doors": [
+        {
+          "id": "door_north_01",
+          "side": "north",
+          "position": [
+            86,
+            162
+          ],
+          "kind": "exterior_service",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [
+        {
+          "side": "south",
+          "kind": "exterior_path"
+        },
+        {
+          "side": "east",
+          "kind": "garden_path"
+        }
+      ],
+      "count_status": "manual_visual_inventory_pending_user_confirmation",
+      "legacy_entrance_labels": [
+        "north-west-service-door",
+        "east-path",
+        "south-east-path"
+      ],
+      "active_rooms": []
+    },
+    "res://assets/rooms/room-cold-statue-hall.png": {
+      "background_id": "cold-statue-hall",
+      "asset": "res://assets/rooms/room-cold-statue-hall.png",
+      "source_sha256": "8b843d8c89eda71b09b656faa53baf2a22984c72069819567c3cccb997f2d894",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 3,
+      "door_counts": {
+        "north": 0,
+        "east": 1,
+        "south": 1,
+        "west": 1
+      },
+      "door_signature": "N0_E1_S1_W1",
+      "doors": [
+        {
+          "id": "door_east_01",
+          "side": "east",
+          "position": [
+            464,
+            177
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_south_02",
+          "side": "south",
+          "position": [
+            239,
+            305
+          ],
+          "kind": "threshold",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_west_03",
+          "side": "west",
+          "position": [
+            16,
+            177
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "count_status": "manual_visual_inventory_pending_user_confirmation",
+      "legacy_entrance_labels": [
+        "west",
+        "east",
+        "south"
+      ],
+      "active_rooms": []
+    },
+    "res://assets/rooms/room-cold-statue-hall-alternate.png": {
+      "background_id": "cold-statue-hall-alternate",
+      "asset": "res://assets/rooms/room-cold-statue-hall-alternate.png",
+      "source_sha256": "7ec1adc373d2a5f00d7dac72bbfba2ff96dc1cffcfea5e0233036844d975601d",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 3,
+      "door_counts": {
+        "north": 0,
+        "east": 1,
+        "south": 1,
+        "west": 1
+      },
+      "door_signature": "N0_E1_S1_W1",
+      "doors": [
+        {
+          "id": "door_east_01",
+          "side": "east",
+          "position": [
+            463,
+            185
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_south_02",
+          "side": "south",
+          "position": [
+            238,
+            305
+          ],
+          "kind": "threshold",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_west_03",
+          "side": "west",
+          "position": [
+            17,
+            185
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "count_status": "manual_visual_inventory_pending_user_confirmation",
+      "legacy_entrance_labels": [
+        "west",
+        "east",
+        "south"
+      ],
+      "active_rooms": []
+    },
+    "res://assets/rooms/room-dark-stairwell.png": {
+      "background_id": "dark-stairwell",
+      "asset": "res://assets/rooms/room-dark-stairwell.png",
+      "source_sha256": "cd2fb05ade2fc2b093cd654b3af8067e28b354cca03bae2d7f07757e7db8e624",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 3,
+      "door_counts": {
+        "north": 1,
+        "east": 0,
+        "south": 1,
+        "west": 1
+      },
+      "door_signature": "N1_E0_S1_W1",
+      "doors": [
+        {
+          "id": "door_north_01",
+          "side": "north",
+          "position": [
+            105,
+            38
+          ],
+          "kind": "balcony_door",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_south_02",
+          "side": "south",
+          "position": [
+            240,
+            305
+          ],
+          "kind": "threshold",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_west_03",
+          "side": "west",
+          "position": [
+            19,
+            177
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [
+        {
+          "id": "main_ascent",
+          "side": "east",
+          "position": [
+            370,
+            166
+          ],
+          "travel": "up"
+        }
+      ],
+      "paths": [],
+      "count_status": "manual_visual_inventory_pending_user_confirmation",
+      "legacy_entrance_labels": [
+        "south",
+        "west",
+        "upstairs"
+      ],
+      "active_rooms": [
+        "g_main_stair"
+      ],
+      "room_reviews": {
+        "g_main_stair": {
+          "status": "user_looks_alright",
+          "user_notes": "Keep current appearance. Balcony door is visible but not an active route; stair flight is separate.",
+          "target_door_counts": {
+            "north": 1,
+            "east": 0,
+            "south": 1,
+            "west": 1
+          },
+          "target_door_count": 3
+        }
+      }
+    },
+    "res://assets/rooms/room-dark-stairwell-basement.png": {
+      "background_id": "dark-stairwell-basement",
+      "asset": "res://assets/rooms/room-dark-stairwell-basement.png",
+      "source_sha256": "a8075d4551338a77857c9558bb821023f258703fca22850e857466bb9803648d",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 2,
+      "door_counts": {
+        "north": 0,
+        "east": 0,
+        "south": 1,
+        "west": 1
+      },
+      "door_signature": "N0_E0_S1_W1",
+      "doors": [
+        {
+          "id": "door_south_01",
+          "side": "south",
+          "position": [
+            81,
+            306
+          ],
+          "kind": "threshold",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_west_02",
+          "side": "west",
+          "position": [
+            18,
+            165
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [
+        {
+          "id": "basement_descent",
+          "side": "east",
+          "position": [
+            370,
+            250
+          ],
+          "travel": "down"
+        }
+      ],
+      "paths": [],
+      "count_status": "manual_visual_inventory_pending_user_confirmation",
+      "legacy_entrance_labels": [
+        "west",
+        "south-west",
+        "basement-down"
+      ],
+      "active_rooms": []
+    },
+    "res://assets/rooms/revisions/library/library_west_east_draft_v2.png": {
+      "background_id": "library_west_east_draft_v2",
+      "asset": "res://assets/rooms/revisions/library/library_west_east_draft_v2.png",
+      "source_sha256": "c7366ccce31bf285ca8b690f6fb87e29a03756b8ebc491ae349ae9d54c4dac6d",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 2,
+      "door_counts": {
+        "north": 0,
+        "east": 1,
+        "south": 0,
+        "west": 1
+      },
+      "door_signature": "N0_E1_S0_W1",
+      "doors": [
+        {
+          "id": "door_east_01",
+          "side": "east",
+          "position": [
+            464,
+            160
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        },
+        {
+          "id": "door_west_01",
+          "side": "west",
+          "position": [
+            16,
+            145
+          ],
+          "kind": "door",
+          "position_status": "visual_estimate"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "active_rooms": [],
+      "count_status": "candidate_pending_user_review",
+      "approval": "pending",
+      "runtime_integrated": false
+    }
+  }
+}

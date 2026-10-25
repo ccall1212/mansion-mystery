@@ -1,0 +1,22 @@
+{
+  "status": "approved",
+  "tool": "built_in_imagegen",
+  "path": "assets/characters/poses/char/drafts/murderer-reveal-01/char_standing_accuse_south_defiant.png",
+  "sha256": "015fb164aa4a93291d33ff8d83b01cac66a4aa2074c274da4996dfba9f7734ca",
+  "canvas": [
+    944,
+    1665
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "prompt": "South-facing Char defiantly accusing: one arm thrust forward with index finger pointing toward viewer, other fist at side, narrowed angry eyes and open mouth in sharp protest. Preserve approved likeness, costume and pixel-art rendering; full figure on clean alpha transparency.",
+  "revision_reason": "User requested accusing pointing defiantly rather than both fists down.",
+  "runtime_integrated": false,
+  "approval_evidence": {
+    "date": "2026-10-25",
+    "source": "user",
+    "quote": "Yes approved the last one"
+  }
+}

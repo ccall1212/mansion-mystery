@@ -1,5 +1,20 @@
 # Original game evidence
 
+## Full data-table audit — 2026-10-25
+
+All 33 ZIP entries match the preserved reference hashes. The archive contains no
+program source. A read-only data audit identified 36 delivery/refusal/repeat
+fragments, 56 statement endings with seven regularly spaced reveal slots, two
+120-record activity tables and two 33-slot object tables. Exact original selection
+logic and personality counts remain unknown; table bank counts are not personality
+counts. Printable executable data was inspected without disassembly/decompilation.
+
+See [Dialogue and case randomization research](DIALOGUE_RANDOMIZATION_DESIGN.md)
+for evidence levels, complete file-family coverage, current-code gaps and a proposed
+truth-first replacement. Reproduce with `tools/audit_original_dialogue.py`; decoded
+original text remains only in ignored local output. No live original-game behavior
+was newly verified and no gameplay implementation changed in this audit.
+
 Inspection date: 2026-10-23 (America/Denver).
 
 ## Preservation and inventory

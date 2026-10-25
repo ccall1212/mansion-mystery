@@ -1,0 +1,22 @@
+{
+  "status": "approved",
+  "tool": "built_in_imagegen",
+  "path": "assets/characters/poses/char/drafts/murderer-reveal-01/char_standing_cry_south_remorseful_v2.png",
+  "sha256": "0cfa9173c7074885c719e331df8fe42572245ffb63378c83321b9d18ffcb4128",
+  "canvas": [
+    944,
+    1665
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "prompt": "Intensify remorseful Char to absolutely sobbing: bowed head, eyes squeezed shut, mouth open in sob, hunched shoulders, abundant tears down both cheeks, both hands actively wiping tears. Preserve full-body south-facing likeness, costume and pixel-art style; actual transparency.",
+  "revision_reason": "User requested absolutely sobbing wiping away her tears.",
+  "runtime_integrated": false,
+  "approval_evidence": {
+    "date": "2026-10-25",
+    "source": "user",
+    "quote": "yes continue"
+  }
+}

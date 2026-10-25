@@ -1,0 +1,45 @@
+{
+  "pose_id": "standing_threaten_south",
+  "variant_id": "furious",
+  "actor_facing": "south",
+  "posture": "standing",
+  "activity": "threaten",
+  "expression": "furious",
+  "gesture": "raised_fist_shouting_forward_stance",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/murderer-reveal-01/char_standing_threaten_south_furious.png",
+  "source_sha256": "e14dda8a515f46a03cbfaed851c8df23135a1ef6c142362435e5419ae43260b7",
+  "export": "assets/characters/poses/char/exports/south/char_standing_threaten_south_furious.png",
+  "export_sha256": "e14dda8a515f46a03cbfaed851c8df23135a1ef6c142362435e5419ae43260b7",
+  "canvas": [
+    944,
+    1665
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "approved",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-25",
+      "source": "user",
+      "quote": "Yes"
+    },
+    "scope": "South-facing furious threat artwork; user approved intensity and presented image. Runtime fit pending.",
+    "files": [
+      {
+        "path": "assets/characters/poses/char/exports/south/char_standing_threaten_south_furious.png",
+        "sha256": "e14dda8a515f46a03cbfaed851c8df23135a1ef6c142362435e5419ae43260b7"
+      }
+    ]
+  },
+  "runtime_integrated": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "landmark_record": "assets/characters/poses/char/metadata/murderer-reveal-01/char_standing_threaten_south_furious.json",
+  "intended_use": "Explicit story-established threat/confrontation; not an ordinary guilt indicator.",
+  "notes": "User approved presented tight framing; runtime anchor and silhouette fit remain pending."
+}

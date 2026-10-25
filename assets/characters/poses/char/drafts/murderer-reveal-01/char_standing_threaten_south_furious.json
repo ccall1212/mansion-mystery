@@ -1,0 +1,23 @@
+{
+  "status": "approved",
+  "tool": "built_in_imagegen",
+  "path": "assets/characters/poses/char/drafts/murderer-reveal-01/char_standing_threaten_south_furious.png",
+  "sha256": "e14dda8a515f46a03cbfaed851c8df23135a1ef6c142362435e5419ae43260b7",
+  "canvas": [
+    944,
+    1665
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "prompt": "South-facing Char in furious threatening confrontation: wide planted stance, forward lean, clenched fists with one raised near shoulder, intense angry glare and mouth open shouting. Preserve likeness, costume and pixel-art style. Complete isolated character with alpha transparency, no weapon or scenery.",
+  "intended_use": "Explicit story-established threat/confrontation; not an ordinary guilt indicator.",
+  "runtime_integrated": false,
+  "review_note": "Tight framing near top and skirt edges; comfortable margins remain to be reviewed.",
+  "approval_evidence": {
+    "date": "2026-10-25",
+    "source": "user",
+    "quote": "Yes"
+  }
+}

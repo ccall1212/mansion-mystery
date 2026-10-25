@@ -1,0 +1,44 @@
+{
+  "pose_id": "standing_laugh_south",
+  "variant_id": "evil",
+  "actor_facing": "south",
+  "posture": "standing",
+  "activity": "laugh",
+  "expression": "evil",
+  "gesture": "hand_near_mouth_other_on_hip",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/murderer-reveal-01/char_standing_laugh_south_evil.png",
+  "source_sha256": "d7d6acc3360f1023b03a264488a6ae31878823fbe335d9098604ffc62ff26bcd",
+  "export": "assets/characters/poses/char/exports/south/char_standing_laugh_south_evil.png",
+  "export_sha256": "d7d6acc3360f1023b03a264488a6ae31878823fbe335d9098604ffc62ff26bcd",
+  "canvas": [
+    944,
+    1666
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "approved",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-25",
+      "source": "user",
+      "quote": "approve"
+    },
+    "scope": "South-facing evil-laugh murderer reveal artwork only; runtime fit pending.",
+    "files": [
+      {
+        "path": "assets/characters/poses/char/exports/south/char_standing_laugh_south_evil.png",
+        "sha256": "d7d6acc3360f1023b03a264488a6ae31878823fbe335d9098604ffc62ff26bcd"
+      }
+    ]
+  },
+  "runtime_integrated": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "landmark_record": "assets/characters/poses/char/metadata/murderer-reveal-01/char_standing_laugh_south_evil.json",
+  "intended_use": "Established murderer reveal only; not an ordinary personality or guilt indicator."
+}

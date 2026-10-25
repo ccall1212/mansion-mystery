@@ -1,0 +1,17 @@
+{
+  "status": "pending_user_approval",
+  "tool": "built_in_imagegen",
+  "path": "assets/characters/poses/char/drafts/murderer-reveal-01/char_standing_cry_south_remorseful.png",
+  "sha256": "05abf5846383fdd7e5cec4a093c8ad58dbf2214f90053e0f6f40ae58dacaa387",
+  "canvas": [
+    944,
+    1666
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "prompt": "South-facing Char crying with remorse after an unintended killing: bowed head, inward shoulders, wet eyes and small tear trails, one hand wiping cheek and other over chest. Preserve approved identity, asymmetric costume and pixel-art rendering. Full figure on clean alpha transparency.",
+  "intended_use": "Established murderer remorseful reveal; not an ordinary guilt indicator.",
+  "runtime_integrated": false
+}

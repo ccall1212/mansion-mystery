@@ -730,3 +730,10 @@ Read the implemented baseline and linked specialist documents before planning wo
 Keep examples and proposed balance values marked as proposals. Record subsequent
 user decisions here with a date and update the implementation plan only when scope
 is agreed. No gameplay implementation or new art was requested by this brief.
+
+
+## South-facing murderer reveal poses
+
+Selected on 2026-10-25: triumphant evil laugh, remorseful crying after an unintended killing, and defiant pointing accusation (revised from refusal). All three south-facing artwork variants are approved; the remorseful version is full sobbing with both hands wiping tears. Reuse ordinary surprised, nervous, sad and defensive poses for other reveal moments. These variants are selected only after the story establishes the murderer and response; they do not assign permanent personalities or imply guilt during ordinary interaction. Artwork approval is separate from runtime fit and reveal logic.
+
+Additional approved south-facing confrontation pose (2026-10-25): furious threat, with a forward stance, clenched fists and full shout. This expands the selected reveal/confrontation artwork to four variants. Runtime fit and story selection remain pending.

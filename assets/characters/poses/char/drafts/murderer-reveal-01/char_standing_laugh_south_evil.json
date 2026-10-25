@@ -1,0 +1,22 @@
+{
+  "status": "approved",
+  "tool": "built_in_imagegen",
+  "path": "assets/characters/poses/char/drafts/murderer-reveal-01/char_standing_laugh_south_evil.png",
+  "sha256": "d7d6acc3360f1023b03a264488a6ae31878823fbe335d9098604ffc62ff26bcd",
+  "canvas": [
+    944,
+    1666
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "prompt": "South-facing Char with triumphant evil laugh, head slightly back, sly narrowed brown eyes, mouth open laughing, one hand near mouth and other on hip. Preserve approved likeness, costume asymmetry and richly shaded pixel-art style. Complete character on clean alpha transparency.",
+  "intended_use": "Established murderer reveal only; does not assign permanent role or personality.",
+  "runtime_integrated": false,
+  "approval_evidence": {
+    "date": "2026-10-25",
+    "source": "user",
+    "quote": "approve"
+  }
+}

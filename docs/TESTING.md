@@ -4,7 +4,7 @@
 
 Seven separate built-in image-generation jobs produced transparent masters. The native Compatibility review tool completed without Godot errors, verified pixel-preserving blank padding, and captured a comparison, three contexts and a closeup sheet. `python tools/validate_char_alignment.py` passes source/input hashes, seven RGBA assets, padded pixel recovery/margins, contact offsets, common scale, shorter seated extents, exact furniture IDs and five image dimensions. Reports: `test-results/char-alignment-review.log` and `test-results/char-alignment-validation.json`. No runtime code or game integration changed, so the full gameplay suite was not rerun. The user subsequently approved the seven artwork samples. Masks, collision/navigation/occupancy and actual fit remain pending. See [the review](CHAR_ALIGNMENT_01_REVIEW.md).
 
-## Character pose planning audit — 2026-10-23
+## Character pose planning audit â€” 2026-10-23
 
 This documentation/metadata task produced no artwork, renderer change or gameplay
 implementation. The derived inventory records 45 concrete pose IDs, 34 semantic
@@ -300,17 +300,17 @@ in review-v8/change-checks.json. Jessica and John's cartoon faces and the comple
 overview were visually inspected. Runtime assets and gameplay were not changed;
 these checks do not establish runtime sprite scale or animation quality.
 
-- [MCP Python SDK](https://py.sdk.modelcontextprotocol.io/) — current SDK 2.3.0, MCPServer and stdio transport.
-- [SDK testing](https://py.sdk.modelcontextprotocol.io/get-started/testing/) and [client transports](https://py.sdk.modelcontextprotocol.io/client/transports/) — supported Client API.
-- [Serving legacy clients](https://py.sdk.modelcontextprotocol.io/run/legacy-clients/) — compatibility testing.
-- [Codex MCP configuration](https://learn.chatgpt.com/docs/extend/mcp?surface=cli) — project-scoped stdio configuration and MCP management commands.
-- [Codex configuration basics](https://learn.chatgpt.com/docs/config-file/config-basic) — trusted project configuration.
-- [Godot CharacterBody2D](https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html) and [custom 2D drawing](https://docs.godotengine.org/en/stable/tutorials/2d/custom_drawing_in_2d.html) — movement, top-down motion mode and drawing APIs.
+- [MCP Python SDK](https://py.sdk.modelcontextprotocol.io/) â€” current SDK 2.3.0, MCPServer and stdio transport.
+- [SDK testing](https://py.sdk.modelcontextprotocol.io/get-started/testing/) and [client transports](https://py.sdk.modelcontextprotocol.io/client/transports/) â€” supported Client API.
+- [Serving legacy clients](https://py.sdk.modelcontextprotocol.io/run/legacy-clients/) â€” compatibility testing.
+- [Codex MCP configuration](https://learn.chatgpt.com/docs/extend/mcp?surface=cli) â€” project-scoped stdio configuration and MCP management commands.
+- [Codex configuration basics](https://learn.chatgpt.com/docs/config-file/config-basic) â€” trusted project configuration.
+- [Godot CharacterBody2D](https://docs.godotengine.org/en/stable/classes/class_characterbody2d.html) and [custom 2D drawing](https://docs.godotengine.org/en/stable/tutorials/2d/custom_drawing_in_2d.html) â€” movement, top-down motion mode and drawing APIs.
 
 The installed Codex CLI's generated app-server JSON schemas, held under
 `test-results/codex-schema/`, established the exact discovery request fields.
 
-## Directional next-phase planning validation — 2026-10-23
+## Directional next-phase planning validation â€” 2026-10-23
 
 No art or runtime implementation was produced. SHA-256 comparison confirms all 112
 existing character PNGs are unchanged, including the seven approved masters and
@@ -323,7 +323,7 @@ Reports: `test-results/next-phase-planning-validation.json`,
 evidence, not new runtime tests. No new screenshots or full gameplay run were needed
 for this documentation/metadata change. Runtime contact calibration remains pending.
 
-## Image approval and cleanup — 2026-10-23
+## Image approval and cleanup â€” 2026-10-23
 
 Explicit approval preflight passes Char's 14 approved source/export files and the
 four finalized detective frames. Negative checks reject missing/pending approval
@@ -341,7 +341,7 @@ output templates are not missing input assets. Pose-audit and alignment validato
 are rerun after refreshing retained-artifact fingerprints. Reports are under
 `test-results/image-approval-validation.json` and `test-results/asset-cleanup-validation.json`.
 
-## Directional folders and side-contact integration — 2026-10-23
+## Directional folders and side-contact integration â€” 2026-10-23
 
 Furniture catalog regeneration and native Godot furniture/editor tests pass after
 adding side anchors and gaze-target transform/validation checks. Graphical Godot
@@ -354,7 +354,7 @@ remain false; locally clear endpoints are not pathfinding or sprite-fit approval
 Each relevant index.html is opened and linked for user review under the project-wide
 rule. See test-results/directional-assets-side-contacts-validation.json for checks.
 
-## Opt-in Char live placement test — 2026-10-23
+## Opt-in Char live placement test â€” 2026-10-23
 
 F7 starts/finds Char, F8 randomizes her room and approved pose, F10 restores normal
 mode. One identity-keyed roster replacement removes the old Char assignment; room
@@ -367,18 +367,18 @@ save/load protection and roster restoration. The real owned-window smoke also
 captured all seven poses and verified unique live assignments. See CHAR_LIVE_TEST.md
 and test-results/char-live-test/index.html. No art approval or image hashes changed.
 
-## HD/readability presentation preview — 2026-10-23
+## HD/readability presentation preview â€” 2026-10-23
 
 User reported Char and the overall game were too small. The internal viewport is
-now 960×720, with up to a 1280×960 window, monitor-fit sizing and F11 fullscreen.
+now 960Ã—720, with up to a 1280Ã—960 window, monitor-fit sizing and F11 fullscreen.
 Shared adult stature is 80 instead of 64; identity ratios/proportions are preserved.
-World/physics/furniture coordinates stay 480×360. The presentation adapter scales
-camera/HUD/inspection UI into HD; detail zoom is 1.5× and Z provides full overview.
+World/physics/furniture coordinates stay 480Ã—360. The presentation adapter scales
+camera/HUD/inspection UI into HD; detail zoom is 1.5Ã— and Z provides full overview.
 F7/F8 now focus Char in detail mode instead of forcing overview. Her source masters,
 exports, approval hashes and original alignment metadata remain unchanged; 64 in
 those source-review records is historical. Runtime source scale is 80/1673.
 
-The live owned-window smoke captured all seven poses at 1280×960 and verified both
+The live owned-window smoke captured all seven poses at 1280Ã—960 and verified both
 Z modes, F11 fullscreen on/off, and one Char assignment. Native checks verify HD
 HUD/inspection scaling and preserve contact transforms/unique identity across room
 visits/rerolls. Character/foyer/evidence, fixed-mansion, furniture and environment
@@ -389,7 +389,7 @@ Current room backgrounds retain their existing authored pixel detail; the change
 increases display/readability, not the detail contained in those background files.
 
 
-## First authored case and chair fit preview — 2026-10-23
+## First authored case and chair fit preview â€” 2026-10-23
 
 F4 opens The Silent Library: three suspects, room-owned rug observation, evidence
 gates, statements in the notebook, accusation and written ending. Wrong accusations
@@ -401,7 +401,7 @@ Approved character PNGs are unchanged. See [FIRST_PLAYABLE_CASE.md](FIRST_PLAYAB
 for controls, reproduction and remaining group/reveal/randomization work.
 
 
-## Compact mansion scope — 2026-10-23
+## Compact mansion scope â€” 2026-10-23
 
 The active graph is nine unique backgrounds: seven main rooms plus two circulation
 spaces. Physics traversal checks sixteen directed endpoints. Char room/pose coverage
@@ -409,11 +409,11 @@ is now 63 visits; older 18-room/44-endpoint reports above are historical. Native
 current-room captures and explicit art gaps are in test-results/compact-mansion/index.html.
 The first case retains all ground-floor evidence and suspect locations.
 
-## Evidence detail rendering — 2026-10-24
+## Evidence detail rendering â€” 2026-10-24
 Native preview tools/evidence_detail_preview.gd passes 23 condition variants: source textures retain more detail and bottom anchors match existing sprites. Captured four inspection before/after pairs and a foyer pair in test-results/evidence-detail/index.html. Visual approval pending; gameplay regression was not rerun for this narrow rendering change. Existing PNGs are unchanged. Raw masters currently load from the project filesystem (masters/.gdignore); a packaged export must explicitly include these PNGs before distribution.
 
 
-## Revised room furniture tags — 2026-10-24
+## Revised room furniture tags â€” 2026-10-24
 Godot native preview validates all nine registered layouts (126 unique per-layout tags), captures nine screenshots and confirms staging flags are false. All nine selected room artwork approval hashes pass the approval checker. Review generator maps 187 exact contacts including disabled ones to Char pose coverage. Draft anchors, clearance, furniture size, occlusion and Char seating are not fit-approved; no runtime room or character artwork changed. Preview: test-results/reworked-furniture/index.html.
 
 
@@ -427,3 +427,12 @@ Room integration: fixed_mansion_checks.gd passes 102 checks, including all 16 di
 
 
 Destination labels: refreshed all nine native room captures and visually inspected the library's Main Stair Hall and Dining Room labels. Door/stair logic is unchanged by this presentation edit.
+
+Floor-map local preview: native harness verifies current-floor membership, one highlighted room, valid edge indices and 4/2/1 main-room counts, then captures all three floors. Godot compile/preview passes after adding an explicit integer type to the floor-difference calculation. No gameplay logic or layout changes in this HUD addition.
+
+
+Opposite-door preparation: tools/opposite_door_checks.gd passes 18 reciprocal linked directions and stationary/wrong-direction/cooldown/no-bounce trigger checks. Four generated room drafts and furnished foyer v2 are saved as separate paths; source dimensions verified 1536x1024 and hashes recorded. This is not live traversal verification: artwork approval and coordinate calibration remain pending. Automatic crossing is gated by automatic_doorways; existing compact-2 does not enable it.
+
+
+## Current update: compact-3 opposite-door integration
+User approved the four current room candidates (“Looks good to me”, 2026-10-24). See [OPPOSITE_DOOR_LAYOUT.md](OPPOSITE_DOOR_LAYOUT.md) for the superseding route plan, hashes, provisional furniture status and validation. All 18 directed crossings now use opposite-side arrivals and automatic walking triggers. Fixed mansion checks: 108 passed; first-case checks: 31 passed. Older compact-2 route notes above are historical.

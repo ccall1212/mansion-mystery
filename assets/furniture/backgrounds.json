@@ -23,6 +23,10 @@
     "res://assets/rooms/revisions/2026-10-24-room-rework/u_master_n0_e1_s0_w0_draft_v1.png": "res://assets/furniture/layouts/u_master_rework_v1.json",
     "res://assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v2.png": "res://assets/furniture/layouts/u_study_rework_v2.json",
     "res://assets/rooms/revisions/2026-10-24-room-rework/b_store_n1_e0_s0_w0_draft_v1.png": "res://assets/furniture/layouts/b_store_rework_v1.json",
-    "res://assets/rooms/revisions/2026-10-24-room-rework/future_bar_n0_e1_s1_w0_draft_v2.png": "res://assets/furniture/layouts/future_bar_rework_v2.json"
+    "res://assets/rooms/revisions/2026-10-24-room-rework/future_bar_n0_e1_s1_w0_draft_v2.png": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+    "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_foyer_n1_e1_s1_w1_draft_v2.png": "res://assets/furniture/layouts/g_foyer_opposite_v2.json",
+    "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_main_stair_n1_e0_s0_w1_draft_v2.png": "res://assets/furniture/layouts/g_main_stair_opposite_v2.json",
+    "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_dining_n1_e0_s0_w1_draft_v2.png": "res://assets/furniture/layouts/g_dining_opposite_v2.json",
+    "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_kitchen_n1_e1_s1_w0_draft_v2.png": "res://assets/furniture/layouts/g_kitchen_opposite_v2.json"
   }
 }

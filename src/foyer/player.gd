@@ -10,6 +10,7 @@ var facing := Vector2.DOWN
 var locked := false
 var walk_time := 0.0
 var automated_direction := Vector2.ZERO
+var movement_intent := Vector2.ZERO
 var sprite_sheet: Texture2D
 var sprite_regions: Array[Rect2] = []
 var appearance: Dictionary = {}
@@ -51,7 +52,8 @@ func _physics_process(delta: float) -> void:
 			facing = Vector2(0,signf(direction.y))
 		elif facing.dot(direction) <= 0:
 			facing = Vector2(0,signf(direction.y))
-	velocity = direction.normalized() * speed
+	movement_intent = direction.normalized()
+	velocity = movement_intent * speed
 	var before := position
 	move_and_slide()
 	var travelled := position.distance_to(before)

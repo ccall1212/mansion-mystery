@@ -1,0 +1,31 @@
+{
+  "pose_id": "standing_read_east",
+  "variant_id": "neutral",
+  "actor_facing": "east",
+  "posture": "standing",
+  "activity": "read",
+  "props": [
+    "open_book"
+  ],
+  "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_read_east_neutral.png",
+  "source_sha256": "d143acaf820c07ab509a32c3d95c82b595b2dc6064b837984746c6b505831726",
+  "export": "assets/characters/poses/char/exports/east/char_standing_read_east_neutral.png",
+  "export_sha256": "d143acaf820c07ab509a32c3d95c82b595b2dc6064b837984746c6b505831726",
+  "canvas": [
+    944,
+    1666
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "approval": "user_supplied_added_to_project",
+  "approval_scope": "Import requested by standing external-image handoff instruction; runtime fit pending.",
+  "runtime_integrated": false,
+  "live_test_supported": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "notes": "Original bytes preserved. Calibrate standing source density and feet landmarks before runtime use; no per-image stretch or mirroring.",
+  "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_read_east_neutral.json"
+}

@@ -1,0 +1,31 @@
+{
+  "pose_id": "seated_read_south",
+  "variant_id": "neutral",
+  "actor_facing": "south",
+  "posture": "seated",
+  "activity": "read",
+  "props": [
+    "open_book"
+  ],
+  "source_master": "assets/characters/poses/char/masters/external_poses/char_seated_read_south_neutral.png",
+  "source_sha256": "d8d993ef7fa3c0e459dd23350d9e24e1b0c325998f336db25637d182d15f4c14",
+  "export": "assets/characters/poses/char/exports/south/char_seated_read_south_neutral.png",
+  "export_sha256": "d8d993ef7fa3c0e459dd23350d9e24e1b0c325998f336db25637d182d15f4c14",
+  "canvas": [
+    1080,
+    1456
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "approval": "user_supplied_added_to_project",
+  "approval_scope": "User supplied completed sequential external batch for import; source-scale and furniture fit pending.",
+  "runtime_integrated": false,
+  "live_test_supported": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "notes": "Original bytes preserved. Calibrate seat/feet landmarks and source density before shared-scale furniture placement.",
+  "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_seated_read_south_neutral.json"
+}

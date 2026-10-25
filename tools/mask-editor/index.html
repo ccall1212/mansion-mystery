@@ -1,0 +1,62 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Furniture foreground mask editor</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#12212b;color:#e4edf0;font:16px system-ui}header{padding:16px 22px;background:#1e323d}h1{font-size:24px;margin:0 0 10px;color:#efcf94}.bar{display:flex;gap:10px;align-items:center;flex-wrap:wrap;margin:10px 0}button,select{font:inherit;padding:8px;background:#304954;color:#fff;border:1px solid #69808b;border-radius:4px}button:disabled{opacity:.45}button.primary{background:#ead099;color:#18252a}label{white-space:nowrap}main{padding:12px 22px}#view{background:#091219;border:1px solid #526773;overflow:hidden;max-width:1440px}canvas{width:100%;display:block;touch-action:none}#status{min-height:24px;color:#f4d49d}p{margin:7px 0}#contact{overflow-wrap:anywhere;color:#b5ccd4}small{color:#b5ccd4}input[type=range]{width:130px}
+</style>
+<header><h1>Furniture foreground mask editor</h1>
+<div class="bar"><label>Seat <select id="seat" aria-label="Seat"></select></label><button id="reload">Reload saved</button><button id="save" class="primary">Save position + masks</button><strong id="dirty"></strong></div>
+<div id="contact"></div></header>
+<main>
+<p>Draw around the <b>furniture that should cover Char</b>. Drag gold points to reshape it. Use Move up/down to align her on the seat. Char’s artwork and scale stay unchanged.</p>
+<div class="bar"><b>Character height position</b><button id="moveUp">↑ Move up</button><button id="moveDown">↓ Move down</button><label>Step <select id="moveStep" aria-label="Movement step"><option value="1">1 pixel</option><option value="5">5 pixels</option></select></label><span id="seatY"></span></div>
+<div class="bar"><label>Mask <select id="polygon" aria-label="Mask polygon"></select></label><button id="add">Add mask</button><button id="finish" disabled>Finish polygon</button><button id="remove">Delete mask</button><button id="undo">Undo</button></div>
+<div class="bar"><label><input id="showChar" type="checkbox" checked> Show Char</label><label><input id="showMasks" type="checkbox" checked> Apply masks</label><label><input id="showPoints" type="checkbox" checked> Show outlines / points</label><label>Zoom <input id="zoom" aria-label="Zoom" type="range" min="1" max="4" step="0.25" value="1"></label></div>
+<p><small>Add mask: click corners, then Finish. Shift-click an edge to add a point. Right-click a point to remove it (minimum three). Ctrl+Z: undo. Ctrl+S: save. Zoom centers on the selected seat.</small></p>
+<div id="status" role="status">Loading…</div>
+<div id="view"><canvas id="canvas" width="1440" height="960" aria-label="Room mask editing canvas"></canvas></div>
+<p><small>Pending seat candidates only. Save updates shared furniture metadata and the review record; it does not approve the fit or enable NPC staging. Static screenshot galleries need recapturing after edits.</small></p>
+</main>
+<script>
+const $=id=>document.getElementById(id), canvas=$('canvas'),ctx=canvas.getContext('2d');
+let seats=[],seat=null,polys=[],active=0,drawing=false,draft=[],history=[],drag=null,bg=null,char=null,saved='',busy=false,loadId=0,viewContact=[240,160];
+const copy=x=>JSON.parse(JSON.stringify(x));
+function status(s){$('status').textContent=s}
+function snapshot(){return {polygons:copy(polys),contact:seat?copy(seat.contact):null}}
+function dirty(){return seat && (JSON.stringify(snapshot())!==saved || drawing)}
+function controls(){ $('seat').disabled=busy; $('reload').disabled=busy; $('dirty').textContent=dirty()?'Unsaved changes':''; $('finish').disabled=!drawing||draft.length<3; $('save').disabled=busy||drawing||!seat; $('remove').disabled=drawing||!polys.length; $('undo').disabled=!history.length; $('seatY').textContent=seat?'Seat Y: '+seat.contact[1].toFixed(2):''; for(const id of ['moveUp','moveDown'])$(id).disabled=!seat||drawing||busy; }
+function remember(){history.push(snapshot());if(history.length>100)history.shift()}
+function transform(){const z=+$('zoom').value,k=3*z;return {k,x:seat?Math.max(0,Math.min(480-480/z,viewContact[0]-240/z)):0,y:seat?Math.max(0,Math.min(320-320/z,viewContact[1]-160/z)):0}}
+function world(e){const r=canvas.getBoundingClientRect(),t=transform();return [Math.max(0,Math.min(480,(e.clientX-r.left)*1440/r.width/t.k+t.x)),Math.max(0,Math.min(320,(e.clientY-r.top)*960/r.height/t.k+t.y))]}
+function screen(p){const t=transform();return [(p[0]-t.x)*t.k,(p[1]-t.y)*t.k]}
+function path(poly){ctx.beginPath();poly.forEach((p,i)=>i?ctx.lineTo(...p):ctx.moveTo(...p));ctx.closePath()}
+function options(){const sel=$('polygon');sel.replaceChildren();polys.forEach((p,i)=>{const o=new Option(`Mask ${i+1} (${p.length} points)`,i);sel.add(o)});sel.value=active;controls()}
+function draw(){ctx.setTransform(1,0,0,1,0,0);ctx.clearRect(0,0,1440,960);if(!seat||!bg)return;const t=transform();ctx.setTransform(t.k,0,0,t.k,-t.x*t.k,-t.y*t.k);ctx.imageSmoothingEnabled=false;ctx.drawImage(bg,0,0,480,320);
+ if($('showChar').checked&&char){const f=seat.scale;ctx.drawImage(char,seat.contact[0]-seat.landmark[0]*f,seat.contact[1]-seat.landmark[1]*f,char.width*f,char.height*f)}
+ if($('showMasks').checked)for(const poly of polys){ctx.save();path(poly);ctx.clip();ctx.drawImage(bg,0,0,480,320);ctx.restore()}
+ ctx.setTransform(1,0,0,1,0,0);
+ if($('showPoints').checked){polys.forEach((poly,i)=>{ctx.beginPath();poly.forEach((p,j)=>j?ctx.lineTo(...screen(p)):ctx.moveTo(...screen(p)));ctx.closePath();ctx.strokeStyle=i===active?'#ffd271':'#67c7d0';ctx.lineWidth=i===active?3:1.5;ctx.stroke();if(i===active)for(const p of poly){ctx.beginPath();ctx.arc(...screen(p),10,0,Math.PI*2);ctx.fillStyle='#ffd271';ctx.fill();ctx.strokeStyle='#12212b';ctx.stroke()}})}
+ if(drawing&&draft.length){ctx.beginPath();draft.forEach((p,j)=>j?ctx.lineTo(...screen(p)):ctx.moveTo(...screen(p)));ctx.strokeStyle='#a6f3b2';ctx.lineWidth=3;ctx.stroke();for(const p of draft){ctx.beginPath();ctx.arc(...screen(p),5,0,Math.PI*2);ctx.fillStyle='#a6f3b2';ctx.fill()}}
+ controls();}
+function image(url){return new Promise((resolve,reject)=>{const i=new Image();i.onload=()=>resolve(i);i.onerror=()=>reject(Error('Could not load '+url));i.src=url})}
+async function choose(id,force=false){if(!force&&dirty()&&!confirm('Discard unsaved mask changes?')){$('seat').value=seat.id;return}const ticket=++loadId;seat=copy(seats.find(s=>s.id===id));viewContact=copy(seat.contact);$('seat').value=id;polys=copy(seat.polygons);saved=JSON.stringify(snapshot());history=[];active=0;draft=[];drawing=false;bg=null;char=null;$('contact').textContent=seat.contact_id;status('Loading room and character…');options();try{const images=await Promise.all([image(seat.background),image(seat.asset)]);if(ticket!==loadId)return;[bg,char]=images;status('Drag gold points, or Add mask to trace a new furniture edge.');draw()}catch(e){status(e.message)}}
+async function refresh(id){const r=await fetch('/api/seats',{cache:'no-store'});if(!r.ok)throw Error('Could not load pending seats');seats=await r.json();$('seat').replaceChildren();for(const s of seats)$('seat').add(new Option(s.label,s.id));if(!seats.length){status('No editable pending seats.');return}await choose(id||seats[0].id,true)}
+function hit(e){const r=canvas.getBoundingClientRect(),mouse=[(e.clientX-r.left)*1440/r.width,(e.clientY-r.top)*960/r.height];let best=null,dist=22;polys.forEach((poly,i)=>poly.forEach((p,j)=>{const q=screen(p),d=Math.hypot(q[0]-mouse[0],q[1]-mouse[1]);if(d<dist){best={i,j};dist=d}}));return best}
+canvas.addEventListener('pointerdown',e=>{if(!seat||e.button!==0)return;const p=world(e);if(drawing){draft.push(p.map(v=>Math.round(v*100)/100));draw();return}const h=hit(e);if(h){remember();active=h.i;drag=h;canvas.setPointerCapture(e.pointerId);options();draw();return}
+ if(e.shiftKey&&polys.length){let best=null,dist=12/transform().k;polys.forEach((poly,i)=>poly.forEach((a,j)=>{const b=poly[(j+1)%poly.length],dx=b[0]-a[0],dy=b[1]-a[1],u=Math.max(0,Math.min(1,((p[0]-a[0])*dx+(p[1]-a[1])*dy)/(dx*dx+dy*dy||1))),q=[a[0]+u*dx,a[1]+u*dy],d=Math.hypot(p[0]-q[0],p[1]-q[1]);if(d<dist){dist=d;best={i,j,q}}}));if(best){remember();polys[best.i].splice(best.j+1,0,best.q.map(v=>Math.round(v*100)/100));active=best.i;options();draw()}}});
+canvas.addEventListener('pointermove',e=>{if(!drag)return;polys[drag.i][drag.j]=world(e).map(v=>Math.round(v*100)/100);draw()});
+canvas.addEventListener('pointerup',()=>drag=null);canvas.addEventListener('pointercancel',()=>drag=null);
+canvas.addEventListener('contextmenu',e=>{e.preventDefault();const h=hit(e);if(!h)return;if(polys[h.i].length<=3){status('A mask needs three points. Use Delete mask to remove it.');return}remember();polys[h.i].splice(h.j,1);active=h.i;options();draw()});
+$('add').onclick=()=>{drawing=true;draft=[];status('Click furniture corners, then Finish polygon. Escape cancels.');draw()};
+$('finish').onclick=()=>{if(draft.length<3)return;remember();polys.push(copy(draft));active=polys.length-1;draft=[];drawing=false;options();draw();status('New mask added. Drag points to refine it, then Save.')};
+$('remove').onclick=()=>{if(!polys.length)return;remember();polys.splice(active,1);active=Math.max(0,active-1);options();draw()};
+function undo(){if(drawing){draft=[];drawing=false}else if(history.length){const prior=history.pop();polys=prior.polygons;seat.contact=prior.contact;active=Math.min(active,Math.max(0,polys.length-1))}options();draw()}
+$('undo').onclick=undo;$('polygon').onchange=()=>{active=+$('polygon').value;draw()};$('seat').onchange=()=>choose($('seat').value);
+for(const id of ['showChar','showMasks','showPoints','zoom'])$(id).oninput=draw;
+$('reload').onclick=async()=>{if(dirty()&&!confirm('Discard unsaved changes and reload saved masks?'))return;try{await refresh(seat.id)}catch(e){status(e.message)}};
+async function save(){if(busy||drawing||!seat)return;busy=true;controls();status('Saving…');try{const r=await fetch('/api/save',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({id:seat.id,revision:seat.revision,polygons:polys,contact:seat.contact})});const result=await r.json();if(!r.ok)throw Error(result.error);seat.revision=result.revision;seat.polygons=copy(polys);seats[seats.findIndex(s=>s.id===seat.id)]=copy(seat);saved=JSON.stringify(snapshot());status(result.message)}catch(e){status('Not saved: '+e.message)}finally{busy=false;controls()}}
+function moveCharacter(sign){if(!seat||drawing||busy)return;remember();seat.contact[1]=Math.max(0,Math.min(320,Math.round((seat.contact[1]+sign*+$('moveStep').value)*100)/100));draw();status('Seat position adjusted. Save position + masks to keep it for this furniture anchor.')}
+$('moveUp').onclick=()=>moveCharacter(-1);$('moveDown').onclick=()=>moveCharacter(1);
+$('save').onclick=save;window.addEventListener('keydown',e=>{if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='s'){e.preventDefault();save()}if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='z'){e.preventDefault();undo()}if(e.key==='Escape'&&drawing){drawing=false;draft=[];draw()}});
+window.addEventListener('beforeunload',e=>{if(dirty()){e.preventDefault();e.returnValue=''}});
+refresh().catch(e=>status(e.message));
+</script></html>

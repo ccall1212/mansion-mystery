@@ -96,7 +96,7 @@ async def main():
             await call('launch_remake')
             await asyncio.sleep(1)
             initial = (await call('get_game_status', game='remake'))['game_state']
-            assert initial['mansion']['blueprint_id'] == 'fixed-manor-compact-2'
+            assert initial['mansion']['blueprint_id'] == 'fixed-manor-compact-3'
             assert initial['mansion']['floor'] == 0 and initial['mansion']['room_id'] == 'g_foyer'
             assert initial['camera_zoom'] == 1.5, 'Detail camera should be the default'
             assert len(initial['npc_assignments']) == 7
@@ -144,7 +144,7 @@ async def main():
             await call('send_game_input', game='remake', keys=['ESC', 'r'])
             await call('capture_game_screenshot', game='remake', label='foyer-playable')
             # Carry a real tool through two room doors and inspect a library clue.
-            await walk(366,258)
+            await walk(120,207)
             await call('send_game_input', game='remake', keys=['e', 'c', 'ESC', 'r'])
             await asyncio.sleep(.2)
             lens = (await call('get_game_status', game='remake'))['game_state']

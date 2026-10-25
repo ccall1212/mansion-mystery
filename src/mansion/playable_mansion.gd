@@ -61,10 +61,21 @@ func _process(delta: float) -> void:
 		elif npc:
 			prompt = "[ E ]  Question " + npc.identity.name
 		elif not portal.is_empty():
-			prompt = "[ E ]  Enter " + house.rooms[portal.target].name
+			prompt = ("Walk through to " if definition().get("automatic_doorways",false) else "[ E ]  Enter ") + house.rooms[portal.target].name
 		elif case_controller != null and case_controller.nearby_floor():
 			prompt = "[ E ]  Examine disturbed rug"
 	portals_layer.queue_redraw()
+
+func _physics_process(_delta: float) -> void:
+	if not connected:
+		return
+	if definition().get("automatic_doorways",false) and not player.locked and dialogue.is_empty() and not evidence.is_open() and not map_open:
+		for candidate in definition().portals:
+			if preload("res://src/mansion/door_travel.gd").should_enter(player.position,player.movement_intent,candidate,transition_cooldown):
+				prepare_save()
+				if not house.traverse(candidate.id).is_empty():
+					load_room()
+					return
 
 func nearest_portal(radius: float) -> Dictionary:
 	var found: Dictionary = {}
@@ -109,7 +120,7 @@ func load_room() -> void:
 	background.texture = load(room.asset) if ResourceLoader.exists(room.asset) else ImageTexture.create_from_image(Image.load_from_file(room.asset))
 	background.scale = Vector2(480.0/background.texture.get_width(),320.0/background.texture.get_height())
 	guest.visible = house.current_room == "g_foyer" and (case_controller == null or not case_controller.state.active)
-	world.get_node("ReadingStand").visible = house.current_room == "g_foyer"
+	world.get_node("ReadingStand").visible = house.current_room == "g_foyer" and not room.get("hide_reading_stand",false)
 	build_boundaries(room)
 	for obstacle in room.obstacles:
 		add_obstacle(FixedSession.rect(obstacle))
@@ -135,6 +146,7 @@ func load_room() -> void:
 	player.facing = house.facing
 	player.velocity = Vector2.ZERO
 	player.automated_direction = Vector2.ZERO
+	player.movement_intent = Vector2.ZERO
 	player.locked = false
 	room_label = "%s / %s" % [floor_name(house.floor_id()).to_upper(),room.name.to_upper()]
 	transition_cooldown = 0.75
@@ -401,9 +413,11 @@ func draw_ui() -> void:
 		return
 	ui.draw_rect(Rect2(0,344,480,16),Color("#0b141d"))
 	text(Vector2(12,355), "WASD Move  E Use  N Notes  F4 Case  TAB House  Z View  F11 Fullscreen",8,Color("#a3b6ba"))
+	if not map_open and dialogue.is_empty() and not evidence.is_open() and char_pose_session == null and (case_controller == null or not case_controller.panel.visible):
+		preload("res://src/mansion/floor_map.gd").draw(ui,font,house)
 	if arrival_time > 0 and dialogue.is_empty() and not evidence.is_open():
-		ui.draw_rect(Rect2(120,29,240,22),Color("#101c24"))
-		text(Vector2(132,44),arrival_message,11,Color("#e0c58d"))
+		ui.draw_rect(Rect2(110,29,204,22),Color("#101c24"))
+		text(Vector2(120,44),arrival_message,9,Color("#e0c58d"))
 	if char_pose_session != null and not map_open and dialogue.is_empty() and not evidence.is_open():
 		var status := char_test_status()
 		ui.draw_rect(Rect2(0,25,480,52),Color("#101d28"))

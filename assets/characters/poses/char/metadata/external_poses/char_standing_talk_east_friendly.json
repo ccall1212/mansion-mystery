@@ -1,0 +1,31 @@
+{
+  "pose_id": "standing_talk_east",
+  "variant_id": "friendly",
+  "actor_facing": "east",
+  "posture": "standing",
+  "activity": "talk",
+  "expression": "friendly",
+  "gesture": "open_palm",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_talk_east_friendly.png",
+  "source_sha256": "af8361dd2bd20ea5257a016bb29449f0729cb2d7110fbed572054ba4859a2385",
+  "export": "assets/characters/poses/char/exports/east/char_standing_talk_east_friendly.png",
+  "export_sha256": "af8361dd2bd20ea5257a016bb29449f0729cb2d7110fbed572054ba4859a2385",
+  "canvas": [
+    944,
+    1666
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "approval": "user_supplied_added_to_project",
+  "approval_scope": "User supplied external directional batch for import; source-scale and runtime fit pending.",
+  "runtime_integrated": false,
+  "live_test_supported": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "notes": "Original bytes preserved. Friendly is a pose variant, not a permanent personality assignment. Source density and feet landmarks require calibration before shared rendering.",
+  "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_talk_east_friendly.json"
+}

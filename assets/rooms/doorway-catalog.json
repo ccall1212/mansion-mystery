@@ -52,9 +52,7 @@
       "paths": [],
       "count_status": "manual_visual_inventory_pending_user_confirmation",
       "legacy_entrance_labels": [],
-      "active_rooms": [
-        "g_foyer"
-      ],
+      "active_rooms": [],
       "room_reviews": {
         "g_foyer": {
           "status": "connection_review",
@@ -1275,9 +1273,7 @@
         }
       ],
       "paths": [],
-      "active_rooms": [
-        "g_main_stair"
-      ],
+      "active_rooms": [],
       "candidate_for": "g_main_stair",
       "approval": "approved",
       "runtime_integrated": true,
@@ -1384,9 +1380,7 @@
       ],
       "stair_flights": [],
       "paths": [],
-      "active_rooms": [
-        "g_dining"
-      ],
+      "active_rooms": [],
       "candidate_for": "g_dining",
       "approval": "approved",
       "runtime_integrated": true,
@@ -1446,9 +1440,7 @@
       ],
       "stair_flights": [],
       "paths": [],
-      "active_rooms": [
-        "g_kitchen"
-      ],
+      "active_rooms": [],
       "candidate_for": "g_kitchen",
       "approval": "approved",
       "runtime_integrated": true,
@@ -1932,6 +1924,284 @@
           "target_door_count": 2,
           "status": "approved_art_integrated",
           "user_notes": "Approved replacement with updated collision and active portals. General furniture staging remains provisional."
+        }
+      }
+    },
+    "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_foyer_n1_e1_s1_w1_draft_v2.png": {
+      "background_id": "g_foyer_opposite_doors_candidate",
+      "asset": "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_foyer_n1_e1_s1_w1_draft_v2.png",
+      "source_sha256": "b2be21b6d31382a2c8052e831bdbe8e9f7152d8e45330084a1a891fc3b5c4250",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 4,
+      "door_counts": {
+        "north": 1,
+        "east": 1,
+        "south": 1,
+        "west": 1
+      },
+      "door_signature": "N1_E1_S1_W1",
+      "doors": [
+        {
+          "id": "door_north_1",
+          "side": "north",
+          "position": [
+            240,
+            101
+          ],
+          "role": "locked_front",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_east_1",
+          "side": "east",
+          "position": [
+            464,
+            152
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_south_1",
+          "side": "south",
+          "position": [
+            240,
+            309
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_west_1",
+          "side": "west",
+          "position": [
+            16,
+            152
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "active_rooms": [
+        "g_foyer"
+      ],
+      "candidate_for": "g_foyer",
+      "approval": "approved",
+      "runtime_integrated": true,
+      "count_status": "user_approved_artwork",
+      "room_reviews": {
+        "g_foyer": {
+          "target_door_counts": {
+            "north": 1,
+            "east": 1,
+            "south": 1,
+            "west": 1
+          },
+          "target_door_count": 4,
+          "status": "approved_integrated",
+          "user_notes": "Approved opposite-side doors. Furniture contacts remain provisional."
+        }
+      }
+    },
+    "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_main_stair_n1_e0_s0_w1_draft_v2.png": {
+      "background_id": "g_main_stair_opposite_doors_candidate",
+      "asset": "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_main_stair_n1_e0_s0_w1_draft_v2.png",
+      "source_sha256": "7c1c215818fdc9da27d21f71e8a9c419d4601f9c752cac5ea00ba1dd342f1309",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 2,
+      "door_counts": {
+        "north": 1,
+        "east": 0,
+        "south": 0,
+        "west": 1
+      },
+      "door_signature": "N1_E0_S0_W1",
+      "doors": [
+        {
+          "id": "door_north_1",
+          "side": "north",
+          "position": [
+            320,
+            76
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_west_1",
+          "side": "west",
+          "position": [
+            16,
+            175
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "active_rooms": [
+        "g_main_stair"
+      ],
+      "candidate_for": "g_main_stair",
+      "approval": "approved",
+      "runtime_integrated": true,
+      "count_status": "user_approved_artwork",
+      "room_reviews": {
+        "g_main_stair": {
+          "target_door_counts": {
+            "north": 1,
+            "east": 0,
+            "south": 0,
+            "west": 1
+          },
+          "target_door_count": 2,
+          "status": "approved_integrated",
+          "user_notes": "Approved opposite-side doors. Furniture contacts remain provisional."
+        }
+      }
+    },
+    "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_dining_n1_e0_s0_w1_draft_v2.png": {
+      "background_id": "g_dining_opposite_doors_candidate",
+      "asset": "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_dining_n1_e0_s0_w1_draft_v2.png",
+      "source_sha256": "41b47c32a0f6bf73476b1ad78224e6cb19fd6381e6f0ce812f05a4e4e544bd98",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 2,
+      "door_counts": {
+        "north": 1,
+        "east": 0,
+        "south": 0,
+        "west": 1
+      },
+      "door_signature": "N1_E0_S0_W1",
+      "doors": [
+        {
+          "id": "door_north_1",
+          "side": "north",
+          "position": [
+            211,
+            96
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_west_1",
+          "side": "west",
+          "position": [
+            16,
+            150
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "active_rooms": [
+        "g_dining"
+      ],
+      "candidate_for": "g_dining",
+      "approval": "approved",
+      "runtime_integrated": true,
+      "count_status": "user_approved_artwork",
+      "room_reviews": {
+        "g_dining": {
+          "target_door_counts": {
+            "north": 1,
+            "east": 0,
+            "south": 0,
+            "west": 1
+          },
+          "target_door_count": 2,
+          "status": "approved_integrated",
+          "user_notes": "Approved opposite-side doors. Furniture contacts remain provisional."
+        }
+      }
+    },
+    "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_kitchen_n1_e1_s1_w0_draft_v2.png": {
+      "background_id": "g_kitchen_opposite_doors_candidate",
+      "asset": "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_kitchen_n1_e1_s1_w0_draft_v2.png",
+      "source_sha256": "40b73b534bdfdd7c735d1ba3997f955f544f3c337bfd0965ed19369e7d4a9639",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 3,
+      "door_counts": {
+        "north": 1,
+        "east": 1,
+        "south": 1,
+        "west": 0
+      },
+      "door_signature": "N1_E1_S1_W0",
+      "doors": [
+        {
+          "id": "door_north_1",
+          "side": "north",
+          "position": [
+            327,
+            92
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_east_1",
+          "side": "east",
+          "position": [
+            464,
+            145
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_south_1",
+          "side": "south",
+          "position": [
+            240,
+            309
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "active_rooms": [
+        "g_kitchen"
+      ],
+      "candidate_for": "g_kitchen",
+      "approval": "approved",
+      "runtime_integrated": true,
+      "count_status": "user_approved_artwork",
+      "room_reviews": {
+        "g_kitchen": {
+          "target_door_counts": {
+            "north": 1,
+            "east": 1,
+            "south": 1,
+            "west": 0
+          },
+          "target_door_count": 3,
+          "status": "approved_integrated",
+          "user_notes": "Approved opposite-side doors. Furniture contacts remain provisional."
         }
       }
     }

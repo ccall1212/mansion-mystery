@@ -1,0 +1,37 @@
+{
+  "pose_id": "standing_cross_arms_west",
+  "variant_id": "suspicious",
+  "actor_facing": "west",
+  "posture": "standing",
+  "activity": "cross_arms",
+  "expression": "suspicious",
+  "gesture": "folded_arms",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/external_poses/revision-02/char_standing_cross_arms_west_suspicious.png",
+  "source_sha256": "3f83f901272ec04ecdfdd24c25159093671745b0a2845a58bac943d52c8373e0",
+  "export": "assets/characters/poses/char/exports/west/revision-02/char_standing_cross_arms_west_suspicious.png",
+  "export_sha256": "3f83f901272ec04ecdfdd24c25159093671745b0a2845a58bac943d52c8373e0",
+  "canvas": [
+    944,
+    1666
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "user_supplied_added_to_project",
+  "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+  "runtime_integrated": false,
+  "live_test_supported": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "notes": "Original bytes preserved. User supplied replacement; runtime scale/contact calibration remains pending.",
+  "landmark_record": "assets/characters/poses/char/metadata/external_poses/revision-02/char_standing_cross_arms_west_suspicious.json",
+  "supersedes": {
+    "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_cross_arms_west_suspicious.png",
+    "source_sha256": "307eec9884d9ec8b83400f86d084d8cee04006415b82fa51faeac05d25b8a7ee",
+    "reason": "User explicitly identified supplied replacement."
+  }
+}

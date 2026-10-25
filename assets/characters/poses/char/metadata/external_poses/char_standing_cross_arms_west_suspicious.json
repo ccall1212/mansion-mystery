@@ -1,0 +1,30 @@
+{
+  "pose_id": "standing_cross_arms_west",
+  "variant_id": "suspicious",
+  "actor_facing": "west",
+  "posture": "standing",
+  "activity": "cross_arms",
+  "expression": "suspicious",
+  "gesture": "folded_arms",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_cross_arms_west_suspicious.png",
+  "source_sha256": "307eec9884d9ec8b83400f86d084d8cee04006415b82fa51faeac05d25b8a7ee",
+  "export": "assets/characters/poses/char/exports/west/char_standing_cross_arms_west_suspicious.png",
+  "export_sha256": "307eec9884d9ec8b83400f86d084d8cee04006415b82fa51faeac05d25b8a7ee",
+  "canvas": [
+    944,
+    1665
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "transparency_status": "opaque_checkerboard_background_requires_transparent_reexport",
+  "approval": "user_supplied_added_to_project",
+  "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+  "runtime_integrated": false,
+  "live_test_supported": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "notes": "Original bytes preserved. Suspicion is a reaction variant, not a guilt assignment. Source scale and feet landmarks need calibration.",
+  "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_cross_arms_west_suspicious.json",
+  "superseded_by": "assets/characters/poses/char/metadata/external_poses/revision-02/char_standing_cross_arms_west_suspicious.json"
+}

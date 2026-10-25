@@ -1,0 +1,30 @@
+{
+  "pose_id": "standing_read_north",
+  "variant_id": "neutral",
+  "actor_facing": "north",
+  "posture": "standing",
+  "activity": "read",
+  "props": [
+    "open_book"
+  ],
+  "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_read_north_neutral.png",
+  "source_sha256": "1172790952308493a0bff449457cbb2e03193ec4058bbdd130153108a38dcd38",
+  "export": "assets/characters/poses/char/exports/north/char_standing_read_north_neutral.png",
+  "export_sha256": "1172790952308493a0bff449457cbb2e03193ec4058bbdd130153108a38dcd38",
+  "canvas": [
+    944,
+    1665
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "approval": "user_supplied_added_to_project",
+  "approval_scope": "Import requested by standing external-image handoff instruction; runtime fit pending.",
+  "runtime_integrated": false,
+  "live_test_supported": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "transparency_status": "opaque_checkerboard_background_requires_transparent_reexport",
+  "notes": "Original bytes preserved. Source scale and feet landmarks pending; rear three-quarter view. No background removal or image alteration performed.",
+  "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_read_north_neutral.json",
+  "superseded_by": "assets/characters/poses/char/metadata/external_poses/revision-02/char_standing_read_north_neutral.json"
+}

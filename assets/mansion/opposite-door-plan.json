@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "id": "opposite-door-hub-1",
+  "status": "approved_integrated_compact_3",
+  "automatic_doorways": true,
+  "front_door_locked": true,
+  "invariants": [
+    "Every linked exit has an opposite-side return door.",
+    "Arrival facing equals original movement direction.",
+    "No same-side, bent or corner teleport links.",
+    "Approach a trigger while moving toward its outward side; no key required.",
+    "Cooldown and inward arrival movement prevent bounce-back."
+  ],
+  "rooms": {
+    "g_library": {
+      "grid": [
+        0,
+        0
+      ],
+      "floor": 0,
+      "doors": {
+        "east": "g_foyer",
+        "south": "g_kitchen"
+      }
+    },
+    "g_foyer": {
+      "grid": [
+        1,
+        0
+      ],
+      "floor": 0,
+      "doors": {
+        "north": "locked_front_door",
+        "east": "g_main_stair",
+        "south": "g_dining",
+        "west": "g_library"
+      }
+    },
+    "g_main_stair": {
+      "grid": [
+        2,
+        0
+      ],
+      "floor": 0,
+      "doors": {
+        "north": "u_main_stair",
+        "west": "g_foyer"
+      }
+    },
+    "g_kitchen": {
+      "grid": [
+        0,
+        1
+      ],
+      "floor": 0,
+      "doors": {
+        "north": "g_library",
+        "east": "g_dining",
+        "south": "b_store"
+      }
+    },
+    "g_dining": {
+      "grid": [
+        1,
+        1
+      ],
+      "floor": 0,
+      "doors": {
+        "north": "g_foyer",
+        "west": "g_kitchen"
+      }
+    },
+    "u_main_stair": {
+      "grid": [
+        2,
+        0
+      ],
+      "floor": 1,
+      "doors": {
+        "south": "g_main_stair",
+        "west": "u_master",
+        "east": "u_study"
+      }
+    },
+    "u_master": {
+      "grid": [
+        1,
+        0
+      ],
+      "floor": 1,
+      "doors": {
+        "east": "u_main_stair"
+      }
+    },
+    "u_study": {
+      "grid": [
+        3,
+        0
+      ],
+      "floor": 1,
+      "doors": {
+        "west": "u_main_stair"
+      }
+    },
+    "b_store": {
+      "grid": [
+        0,
+        1
+      ],
+      "floor": -1,
+      "doors": {
+        "north": "g_kitchen"
+      }
+    }
+  },
+  "runtime_integrated": true
+}

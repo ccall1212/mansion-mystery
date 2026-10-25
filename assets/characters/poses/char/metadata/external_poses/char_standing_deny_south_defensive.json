@@ -1,0 +1,36 @@
+{
+  "pose_id": "standing_deny_south",
+  "variant_id": "defensive",
+  "actor_facing": "south",
+  "posture": "standing",
+  "activity": "deny",
+  "expression": "defensive",
+  "gesture": "palm_out_hand_to_chest",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_deny_south_defensive.png",
+  "source_sha256": "b36d1b31a328e3a344b7c693efb5311076add7152e9c3dc76026d08782d725ce",
+  "export": "assets/characters/poses/char/exports/south/char_standing_deny_south_defensive.png",
+  "export_sha256": "b36d1b31a328e3a344b7c693efb5311076add7152e9c3dc76026d08782d725ce",
+  "canvas": [
+    944,
+    1665
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "user_supplied_added_to_project",
+  "approval_scope": "User supplied external directional artwork for import; measured runtime fit pending.",
+  "runtime_integrated": false,
+  "live_test_supported": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "intended_uses": [
+    "defensive_denial",
+    "questioned_reaction"
+  ],
+  "notes": "Original bytes preserved. Expression does not assign guilt or personality.",
+  "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_deny_south_defensive.json"
+}

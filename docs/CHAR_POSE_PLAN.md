@@ -75,3 +75,6 @@ Phase 2 adds reading/talking/writing, looking outside/upward, inspecting/reachin
 - The machine-readable plan lists every exact room/object/contact source and its current local-clearance result: `assets/characters/char-pose-plan.json`.
 
 [Review all tagged rooms first](TAGGED_ROOM_SCREENSHOTS.md). Character looks and pose batches must be shown to the user before finalization.
+
+## Current user sequence — 2026-10-24
+Foyer visual fits are approved. Review the 15 dining/kitchen/upstairs seat comparisons and four missing seated-north contacts, then complete Char’s directional actions, book poses, personality gestures, emotions and reveal reactions. Complete other character pose sets before randomized NPC staging. See [the current batch checklist](CHAR_NEXT_POSE_BATCHES.md); this supersedes earlier staging-first recommendations. No new artwork or staging was implemented in the seat comparison task.

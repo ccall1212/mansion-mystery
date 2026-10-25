@@ -1,6 +1,6 @@
 # Mansion Mystery
 
-**Version 0.1.1 · Early playable prototype**
+**Version 0.1.2 · Early playable prototype**
 
 A pixel-art murder mystery set inside a secluded mansion. The doors are locked,
 the guests have conflicting stories, and someone in the house is hiding the truth.
@@ -18,7 +18,8 @@ Victorian interiors.
 - Evidence to examine, collect and inspect with a magnifying glass.
 - A clue book that records discoveries and witness statements.
 - Seven main rooms across three floors with revised interiors, connected by a stair hall and landing.
-- Named door destinations and clear upstairs/downstairs routes.
+- Automatic doorway travel, named destinations and clear upstairs/downstairs routes.
+- A current-floor connection map that highlights your room.
 - Enlarged character portraits during conversations, plus saving and loading.
 
 This is an early prototype. Room artwork, character presentation and the
@@ -27,7 +28,7 @@ investigation are still being refined. There is no packaged game download yet.
 ## Where the game is heading
 
 Future plans include replayable randomized cases, characters with changing
-personalities and activities, richer evidence, a floor map, a difficulty-based
+personalities and activities, richer evidence, a difficulty-based
 time limit and multiple endings. These features are planned for later versions.
 
 ## More information

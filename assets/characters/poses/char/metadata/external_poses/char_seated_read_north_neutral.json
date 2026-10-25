@@ -1,0 +1,32 @@
+{
+  "pose_id": "seated_read_north",
+  "variant_id": "neutral",
+  "actor_facing": "north",
+  "posture": "seated",
+  "activity": "read",
+  "props": [
+    "open_book"
+  ],
+  "source_master": "assets/characters/poses/char/masters/external_poses/char_seated_read_north_neutral.png",
+  "source_sha256": "42c25c2615468ad863816f52ea5b55eab8fcd16ab22b459750e2fdb5c5ffc5df",
+  "export": "assets/characters/poses/char/exports/north/char_seated_read_north_neutral.png",
+  "export_sha256": "42c25c2615468ad863816f52ea5b55eab8fcd16ab22b459750e2fdb5c5ffc5df",
+  "canvas": [
+    1080,
+    1456
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "approval": "user_supplied_added_to_project",
+  "approval_scope": "User supplied completed sequential external batch for import; source-scale and furniture fit pending.",
+  "runtime_integrated": false,
+  "live_test_supported": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "notes": "Original bytes preserved. Calibrate seat/feet landmarks and source density before shared-scale furniture placement.",
+  "orientation_notes": "Rear three-quarter view with head/book angled toward screen right; exact straight-north furniture compatibility remains to be checked.",
+  "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_seated_read_north_neutral.json"
+}

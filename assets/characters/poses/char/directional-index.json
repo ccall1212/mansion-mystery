@@ -4,24 +4,76 @@
   "runtime_loaded": false,
   "character_id": "likeness-photo01",
   "name": "Char",
-  "status": "approved_art_index_with_directional_exports",
+  "status": "approved_alignment_assets_plus_user_supplied_pose_pending_fit",
   "plan": "docs/CHARACTER_DIRECTIONAL_PIPELINE_PLAN.md",
   "production_manifest": "assets/characters/poses/char/production-manifest.json",
   "direction_groups": {
     "north": [
-      "standing_idle_north"
+      "standing_idle_north",
+      "seated_idle_north",
+      "standing_hold_book_north",
+      "seated_read_north",
+      "standing_read_north",
+      "standing_talk_north",
+      "standing_fidget_north",
+      "standing_cross_arms_north",
+      "standing_hands_hips_north",
+      "standing_think_north",
+      "standing_look_up_north"
     ],
     "east": [
       "standing_idle_east",
-      "seated_idle_east"
+      "seated_idle_east",
+      "standing_hold_book_east",
+      "standing_read_east",
+      "seated_read_east",
+      "standing_talk_east",
+      "standing_fidget_east",
+      "standing_cross_arms_east",
+      "standing_hands_hips_east",
+      "standing_think_east",
+      "standing_startle_east",
+      "standing_withdraw_east",
+      "standing_deny_east",
+      "standing_look_up_east",
+      "standing_clasp_hands_east",
+      "standing_look_down_east"
     ],
     "south": [
       "standing_idle_south",
-      "seated_idle_south"
+      "seated_idle_south",
+      "standing_hold_book_south",
+      "standing_read_south",
+      "seated_read_south",
+      "standing_talk_south",
+      "standing_fidget_south",
+      "standing_cross_arms_south",
+      "standing_hands_hips_south",
+      "standing_think_south",
+      "standing_startle_south",
+      "standing_withdraw_south",
+      "standing_deny_south",
+      "standing_look_up_south",
+      "standing_clasp_hands_south",
+      "standing_look_down_south"
     ],
     "west": [
       "standing_idle_west",
-      "seated_idle_west"
+      "seated_idle_west",
+      "standing_hold_book_west",
+      "standing_read_west",
+      "seated_read_west",
+      "standing_talk_west",
+      "standing_fidget_west",
+      "standing_cross_arms_west",
+      "standing_hands_hips_west",
+      "standing_think_west",
+      "standing_startle_west",
+      "standing_withdraw_west",
+      "standing_deny_west",
+      "standing_look_up_west",
+      "standing_clasp_hands_west",
+      "standing_look_down_west"
     ]
   },
   "assets": [
@@ -206,6 +258,1790 @@
       "contact_calibration": "provisional_manual_estimate",
       "foreground_fit": "not_runtime_validated",
       "live_test_supported": true
+    },
+    {
+      "pose_id": "seated_idle_north",
+      "variant_id": "neutral",
+      "actor_facing": "north",
+      "posture": "seated",
+      "activity": "idle",
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_seated_idle_north_neutral.png",
+      "source_sha256": "bb3fcadd90c78b7383221aba0b15178540eb63b16d281634c26354c74b82be19",
+      "export": "assets/characters/poses/char/exports/north/char_seated_idle_north_neutral.png",
+      "export_sha256": "bb3fcadd90c78b7383221aba0b15178540eb63b16d281634c26354c74b82be19",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "Import requested; fit and source-scale calibration pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Preserved original image bytes. New source density and seat/feet landmarks must be measured before common-scale furniture fitting.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_seated_idle_north_neutral.json"
+    },
+    {
+      "pose_id": "standing_hold_book_south",
+      "variant_id": "neutral",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "hold_book",
+      "props": [
+        "closed_book"
+      ],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_hold_book_south_neutral.png",
+      "source_sha256": "3d406523ccb87a8a99bef9921576d32034e4356862773592b988fd747a5d2e06",
+      "export": "assets/characters/poses/char/exports/south/char_standing_hold_book_south_neutral.png",
+      "export_sha256": "3d406523ccb87a8a99bef9921576d32034e4356862773592b988fd747a5d2e06",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "Import requested by standing external-image handoff instruction; runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Calibrate standing source density and feet landmarks before runtime use; no per-image stretch or mirroring.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_hold_book_south_neutral.json"
+    },
+    {
+      "pose_id": "standing_hold_book_east",
+      "variant_id": "neutral",
+      "actor_facing": "east",
+      "posture": "standing",
+      "activity": "hold_book",
+      "props": [
+        "closed_book"
+      ],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_hold_book_east_neutral.png",
+      "source_sha256": "cdba1f4064ddb1deb8e123f9ce4a18cbbcf7547cd07b0d3fe2aca22411bd3873",
+      "export": "assets/characters/poses/char/exports/east/char_standing_hold_book_east_neutral.png",
+      "export_sha256": "cdba1f4064ddb1deb8e123f9ce4a18cbbcf7547cd07b0d3fe2aca22411bd3873",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "Import requested by standing external-image handoff instruction; runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Calibrate standing source density and feet landmarks before runtime use; no per-image stretch or mirroring.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_hold_book_east_neutral.json"
+    },
+    {
+      "pose_id": "standing_hold_book_west",
+      "variant_id": "neutral",
+      "actor_facing": "west",
+      "posture": "standing",
+      "activity": "hold_book",
+      "props": [
+        "closed_book"
+      ],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_hold_book_west_neutral.png",
+      "source_sha256": "78cbb04b974e42c16e08564f4c778c451a2b643f571620eef8b446c30ac0f2e2",
+      "export": "assets/characters/poses/char/exports/west/char_standing_hold_book_west_neutral.png",
+      "export_sha256": "78cbb04b974e42c16e08564f4c778c451a2b643f571620eef8b446c30ac0f2e2",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "Import requested by standing external-image handoff instruction; runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Calibrate standing source density and feet landmarks before runtime use; no per-image stretch or mirroring.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_hold_book_west_neutral.json"
+    },
+    {
+      "pose_id": "standing_hold_book_north",
+      "variant_id": "neutral",
+      "actor_facing": "north",
+      "posture": "standing",
+      "activity": "hold_book",
+      "props": [
+        "closed_book"
+      ],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_hold_book_north_neutral.png",
+      "source_sha256": "3874c28a2de2460fdd575ab47a8ad9044826e0b2a1489f2c8290b6ce30992c84",
+      "export": "assets/characters/poses/char/exports/north/char_standing_hold_book_north_neutral.png",
+      "export_sha256": "3874c28a2de2460fdd575ab47a8ad9044826e0b2a1489f2c8290b6ce30992c84",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "Import requested by standing external-image handoff instruction; runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Calibrate standing source density and feet landmarks before runtime use; no per-image stretch or mirroring.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_hold_book_north_neutral.json"
+    },
+    {
+      "pose_id": "standing_read_south",
+      "variant_id": "neutral",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "read",
+      "props": [
+        "open_book"
+      ],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_read_south_neutral.png",
+      "source_sha256": "755bf6bc00d73ba46cab9a2316f87783ac10ab2f1fa360b4ca3960e68dc8e9bd",
+      "export": "assets/characters/poses/char/exports/south/char_standing_read_south_neutral.png",
+      "export_sha256": "755bf6bc00d73ba46cab9a2316f87783ac10ab2f1fa360b4ca3960e68dc8e9bd",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "Import requested by standing external-image handoff instruction; runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Calibrate standing source density and feet landmarks before runtime use. Reading gaze remains a visual review item; no image modification performed.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_read_south_neutral.json"
+    },
+    {
+      "pose_id": "standing_read_east",
+      "variant_id": "neutral",
+      "actor_facing": "east",
+      "posture": "standing",
+      "activity": "read",
+      "props": [
+        "open_book"
+      ],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_read_east_neutral.png",
+      "source_sha256": "d143acaf820c07ab509a32c3d95c82b595b2dc6064b837984746c6b505831726",
+      "export": "assets/characters/poses/char/exports/east/char_standing_read_east_neutral.png",
+      "export_sha256": "d143acaf820c07ab509a32c3d95c82b595b2dc6064b837984746c6b505831726",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "Import requested by standing external-image handoff instruction; runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Calibrate standing source density and feet landmarks before runtime use; no per-image stretch or mirroring.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_read_east_neutral.json"
+    },
+    {
+      "pose_id": "standing_read_west",
+      "variant_id": "neutral",
+      "actor_facing": "west",
+      "posture": "standing",
+      "activity": "read",
+      "props": [
+        "open_book"
+      ],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_read_west_neutral.png",
+      "source_sha256": "85aabd6bdf9815b38afbc35427d607349a03812f5d618928d431bede736c5654",
+      "export": "assets/characters/poses/char/exports/west/char_standing_read_west_neutral.png",
+      "export_sha256": "85aabd6bdf9815b38afbc35427d607349a03812f5d618928d431bede736c5654",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "Import requested by standing external-image handoff instruction; runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Source density and feet landmarks require calibration before runtime use.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_read_west_neutral.json"
+    },
+    {
+      "pose_id": "seated_read_north",
+      "variant_id": "neutral",
+      "actor_facing": "north",
+      "posture": "seated",
+      "activity": "read",
+      "props": [
+        "open_book"
+      ],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_seated_read_north_neutral.png",
+      "source_sha256": "42c25c2615468ad863816f52ea5b55eab8fcd16ab22b459750e2fdb5c5ffc5df",
+      "export": "assets/characters/poses/char/exports/north/char_seated_read_north_neutral.png",
+      "export_sha256": "42c25c2615468ad863816f52ea5b55eab8fcd16ab22b459750e2fdb5c5ffc5df",
+      "canvas": [
+        1080,
+        1456
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied completed sequential external batch for import; source-scale and furniture fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Calibrate seat/feet landmarks and source density before shared-scale furniture placement.",
+      "orientation_notes": "Rear three-quarter view with head/book angled toward screen right; exact straight-north furniture compatibility remains to be checked.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_seated_read_north_neutral.json"
+    },
+    {
+      "pose_id": "seated_read_east",
+      "variant_id": "neutral",
+      "actor_facing": "east",
+      "posture": "seated",
+      "activity": "read",
+      "props": [
+        "open_book"
+      ],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_seated_read_east_neutral.png",
+      "source_sha256": "72e36162890ff475878dcb59734450303ad4aa40a831f094f2dcb1893741a32e",
+      "export": "assets/characters/poses/char/exports/east/char_seated_read_east_neutral.png",
+      "export_sha256": "72e36162890ff475878dcb59734450303ad4aa40a831f094f2dcb1893741a32e",
+      "canvas": [
+        1080,
+        1456
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied completed sequential external batch for import; source-scale and furniture fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Calibrate seat/feet landmarks and source density before shared-scale furniture placement.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_seated_read_east_neutral.json"
+    },
+    {
+      "pose_id": "seated_read_south",
+      "variant_id": "neutral",
+      "actor_facing": "south",
+      "posture": "seated",
+      "activity": "read",
+      "props": [
+        "open_book"
+      ],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_seated_read_south_neutral.png",
+      "source_sha256": "d8d993ef7fa3c0e459dd23350d9e24e1b0c325998f336db25637d182d15f4c14",
+      "export": "assets/characters/poses/char/exports/south/char_seated_read_south_neutral.png",
+      "export_sha256": "d8d993ef7fa3c0e459dd23350d9e24e1b0c325998f336db25637d182d15f4c14",
+      "canvas": [
+        1080,
+        1456
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied completed sequential external batch for import; source-scale and furniture fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Calibrate seat/feet landmarks and source density before shared-scale furniture placement.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_seated_read_south_neutral.json"
+    },
+    {
+      "pose_id": "seated_read_west",
+      "variant_id": "neutral",
+      "actor_facing": "west",
+      "posture": "seated",
+      "activity": "read",
+      "props": [
+        "open_book"
+      ],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_seated_read_west_neutral.png",
+      "source_sha256": "b77cde07bf60fc4542502c9905fe9be9b2fd15e173a3c19aa55850aebeb4f268",
+      "export": "assets/characters/poses/char/exports/west/char_seated_read_west_neutral.png",
+      "export_sha256": "b77cde07bf60fc4542502c9905fe9be9b2fd15e173a3c19aa55850aebeb4f268",
+      "canvas": [
+        1080,
+        1456
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied completed sequential external batch for import; source-scale and furniture fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Calibrate seat/feet landmarks and source density before shared-scale furniture placement.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_seated_read_west_neutral.json"
+    },
+    {
+      "pose_id": "standing_talk_north",
+      "variant_id": "friendly",
+      "actor_facing": "north",
+      "posture": "standing",
+      "activity": "talk",
+      "expression": "friendly",
+      "gesture": "open_palm",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_talk_north_friendly.png",
+      "source_sha256": "72f56bebe4bfbfd3471c55c470df7315f376d62d4b2db3b6291c34210f7bb05b",
+      "export": "assets/characters/poses/char/exports/north/char_standing_talk_north_friendly.png",
+      "export_sha256": "72f56bebe4bfbfd3471c55c470df7315f376d62d4b2db3b6291c34210f7bb05b",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; source-scale and runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Friendly is a pose variant, not a permanent personality assignment. Source density and feet landmarks require calibration before shared rendering.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_talk_north_friendly.json"
+    },
+    {
+      "pose_id": "standing_talk_east",
+      "variant_id": "friendly",
+      "actor_facing": "east",
+      "posture": "standing",
+      "activity": "talk",
+      "expression": "friendly",
+      "gesture": "open_palm",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_talk_east_friendly.png",
+      "source_sha256": "af8361dd2bd20ea5257a016bb29449f0729cb2d7110fbed572054ba4859a2385",
+      "export": "assets/characters/poses/char/exports/east/char_standing_talk_east_friendly.png",
+      "export_sha256": "af8361dd2bd20ea5257a016bb29449f0729cb2d7110fbed572054ba4859a2385",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; source-scale and runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Friendly is a pose variant, not a permanent personality assignment. Source density and feet landmarks require calibration before shared rendering.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_talk_east_friendly.json"
+    },
+    {
+      "pose_id": "standing_talk_south",
+      "variant_id": "friendly",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "talk",
+      "expression": "friendly",
+      "gesture": "open_palm",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_talk_south_friendly.png",
+      "source_sha256": "2132484e045963f05aaea9fd4a40522148abf191a4013eba910534292cb6d921",
+      "export": "assets/characters/poses/char/exports/south/char_standing_talk_south_friendly.png",
+      "export_sha256": "2132484e045963f05aaea9fd4a40522148abf191a4013eba910534292cb6d921",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; source-scale and runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Friendly is a pose variant, not a permanent personality assignment. Source density and feet landmarks require calibration before shared rendering.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_talk_south_friendly.json"
+    },
+    {
+      "pose_id": "standing_talk_west",
+      "variant_id": "friendly",
+      "actor_facing": "west",
+      "posture": "standing",
+      "activity": "talk",
+      "expression": "friendly",
+      "gesture": "open_palm",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_talk_west_friendly.png",
+      "source_sha256": "45f7167f9f163dd1e1355db4ae2b748811f6be3cfff9123800eb461b5bc2c7ce",
+      "export": "assets/characters/poses/char/exports/west/char_standing_talk_west_friendly.png",
+      "export_sha256": "45f7167f9f163dd1e1355db4ae2b748811f6be3cfff9123800eb461b5bc2c7ce",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; source-scale and runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Friendly is a pose variant, not a permanent personality assignment. Source density and feet landmarks require calibration before shared rendering.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_talk_west_friendly.json"
+    },
+    {
+      "pose_id": "standing_fidget_north",
+      "variant_id": "nervous",
+      "actor_facing": "north",
+      "posture": "standing",
+      "activity": "fidget",
+      "expression": "nervous",
+      "gesture": "hands_fidgeting",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_fidget_north_nervous.png",
+      "source_sha256": "7fc2d15f8a0020df6cc3c5670c456101fc06650e02c9feadc3754fbaeb4fd8a8",
+      "export": "assets/characters/poses/char/exports/north/char_standing_fidget_north_nervous.png",
+      "export_sha256": "7fc2d15f8a0020df6cc3c5670c456101fc06650e02c9feadc3754fbaeb4fd8a8",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Nervousness is an optional reaction, not a permanent personality or guilt assignment. Source density and feet landmarks require calibration.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_fidget_north_nervous.json"
+    },
+    {
+      "pose_id": "standing_fidget_east",
+      "variant_id": "nervous",
+      "actor_facing": "east",
+      "posture": "standing",
+      "activity": "fidget",
+      "expression": "nervous",
+      "gesture": "hands_fidgeting",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_fidget_east_nervous.png",
+      "source_sha256": "ebd32a24832f5b9d0f0b6f752a9ce3c191344534cd8904162a0a05dfdf5c0bc9",
+      "export": "assets/characters/poses/char/exports/east/char_standing_fidget_east_nervous.png",
+      "export_sha256": "ebd32a24832f5b9d0f0b6f752a9ce3c191344534cd8904162a0a05dfdf5c0bc9",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Nervousness is an optional reaction, not a permanent personality or guilt assignment. Source density and feet landmarks require calibration.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_fidget_east_nervous.json"
+    },
+    {
+      "pose_id": "standing_fidget_south",
+      "variant_id": "nervous",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "fidget",
+      "expression": "nervous",
+      "gesture": "hands_fidgeting",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_fidget_south_nervous.png",
+      "source_sha256": "a3ccecf70d9e5805c22d56483d45d4c154e2e17bc84938be6b53ef3006572fc0",
+      "export": "assets/characters/poses/char/exports/south/char_standing_fidget_south_nervous.png",
+      "export_sha256": "a3ccecf70d9e5805c22d56483d45d4c154e2e17bc84938be6b53ef3006572fc0",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Nervousness is an optional reaction, not a permanent personality or guilt assignment. Source density and feet landmarks require calibration.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_fidget_south_nervous.json"
+    },
+    {
+      "pose_id": "standing_fidget_west",
+      "variant_id": "nervous",
+      "actor_facing": "west",
+      "posture": "standing",
+      "activity": "fidget",
+      "expression": "nervous",
+      "gesture": "hands_fidgeting",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_fidget_west_nervous.png",
+      "source_sha256": "7c3feee7c890004d28075bdc9ac7caefa3da36895346b0c5a6268d896be74d5b",
+      "export": "assets/characters/poses/char/exports/west/char_standing_fidget_west_nervous.png",
+      "export_sha256": "7c3feee7c890004d28075bdc9ac7caefa3da36895346b0c5a6268d896be74d5b",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Nervousness is an optional reaction, not a permanent personality or guilt assignment. Source density and feet landmarks require calibration.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_fidget_west_nervous.json"
+    },
+    {
+      "pose_id": "standing_cross_arms_north",
+      "variant_id": "suspicious",
+      "actor_facing": "north",
+      "posture": "standing",
+      "activity": "cross_arms",
+      "expression": "suspicious",
+      "gesture": "folded_arms",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_cross_arms_north_suspicious.png",
+      "source_sha256": "5535370f1ceefb81a5b3706ab04104d5bbc87bddcc82738900a67f95949bb1f2",
+      "export": "assets/characters/poses/char/exports/north/char_standing_cross_arms_north_suspicious.png",
+      "export_sha256": "5535370f1ceefb81a5b3706ab04104d5bbc87bddcc82738900a67f95949bb1f2",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Suspicion is a reaction variant, not a guilt assignment. Source scale and feet landmarks need calibration.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_cross_arms_north_suspicious.json"
+    },
+    {
+      "pose_id": "standing_cross_arms_east",
+      "variant_id": "suspicious",
+      "actor_facing": "east",
+      "posture": "standing",
+      "activity": "cross_arms",
+      "expression": "suspicious",
+      "gesture": "folded_arms",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_cross_arms_east_suspicious.png",
+      "source_sha256": "d11e7aeb4887d0da41cc47928e95896b4e7c277eb5b3c25a04df54ef842fb323",
+      "export": "assets/characters/poses/char/exports/east/char_standing_cross_arms_east_suspicious.png",
+      "export_sha256": "d11e7aeb4887d0da41cc47928e95896b4e7c277eb5b3c25a04df54ef842fb323",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Suspicion is a reaction variant, not a guilt assignment. Source scale and feet landmarks need calibration.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_cross_arms_east_suspicious.json"
+    },
+    {
+      "pose_id": "standing_hands_hips_north",
+      "variant_id": "confident",
+      "actor_facing": "north",
+      "posture": "standing",
+      "activity": "hands_hips",
+      "expression": "confident",
+      "gesture": "hands_on_hips",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_hands_hips_north_confident.png",
+      "source_sha256": "5f46b70145f01e1429cacafd1a31e9d9e7c4898161be53539c86cbcc41366553",
+      "export": "assets/characters/poses/char/exports/north/char_standing_hands_hips_north_confident.png",
+      "export_sha256": "5f46b70145f01e1429cacafd1a31e9d9e7c4898161be53539c86cbcc41366553",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Confidence is a pose variant, not a permanent personality assignment. Source scale and feet landmarks need calibration.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_hands_hips_north_confident.json"
+    },
+    {
+      "pose_id": "standing_hands_hips_east",
+      "variant_id": "confident",
+      "actor_facing": "east",
+      "posture": "standing",
+      "activity": "hands_hips",
+      "expression": "confident",
+      "gesture": "hands_on_hips",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_hands_hips_east_confident.png",
+      "source_sha256": "0be7ed4018d1e58af57f2cb9b1f43863b50ee2320949e04d061e65e6032261b0",
+      "export": "assets/characters/poses/char/exports/east/char_standing_hands_hips_east_confident.png",
+      "export_sha256": "0be7ed4018d1e58af57f2cb9b1f43863b50ee2320949e04d061e65e6032261b0",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Confidence is a pose variant, not a permanent personality assignment. Source scale and feet landmarks need calibration.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_hands_hips_east_confident.json"
+    },
+    {
+      "pose_id": "standing_hands_hips_south",
+      "variant_id": "confident",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "hands_hips",
+      "expression": "confident",
+      "gesture": "hands_on_hips",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_hands_hips_south_confident.png",
+      "source_sha256": "d756fa88a2ea13ae8cb289edce67c1be5853438422563579a3ea587665f7b335",
+      "export": "assets/characters/poses/char/exports/south/char_standing_hands_hips_south_confident.png",
+      "export_sha256": "d756fa88a2ea13ae8cb289edce67c1be5853438422563579a3ea587665f7b335",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Confidence is a pose variant, not a permanent personality assignment. Source scale and feet landmarks need calibration.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_hands_hips_south_confident.json"
+    },
+    {
+      "pose_id": "standing_hands_hips_west",
+      "variant_id": "confident",
+      "actor_facing": "west",
+      "posture": "standing",
+      "activity": "hands_hips",
+      "expression": "confident",
+      "gesture": "hands_on_hips",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_hands_hips_west_confident.png",
+      "source_sha256": "c6423c2400ce109676e79142e1281f1c70e2fd38e73b3e79845e9447a10de805",
+      "export": "assets/characters/poses/char/exports/west/char_standing_hands_hips_west_confident.png",
+      "export_sha256": "c6423c2400ce109676e79142e1281f1c70e2fd38e73b3e79845e9447a10de805",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. Confidence is a pose variant, not a permanent personality assignment. Source scale and feet landmarks need calibration.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_hands_hips_west_confident.json"
+    },
+    {
+      "pose_id": "standing_think_north",
+      "variant_id": "curious",
+      "actor_facing": "north",
+      "posture": "standing",
+      "activity": "think",
+      "expression": "curious",
+      "gesture": "hand_to_chin",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_think_north_curious.png",
+      "source_sha256": "b5ac02645b0e990dbeb03cf2f22edf876b5b2d55472600f2042a0c02b4c4871e",
+      "export": "assets/characters/poses/char/exports/north/char_standing_think_north_curious.png",
+      "export_sha256": "b5ac02645b0e990dbeb03cf2f22edf876b5b2d55472600f2042a0c02b4c4871e",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "intended_uses": [
+        "thoughtful_reaction",
+        "secondary_observe_painting",
+        "secondary_observe_window",
+        "secondary_observe_bookshelf"
+      ],
+      "notes": "Original bytes preserved. Thoughtful observation variant only; does not replace targeted look-up, reaching or reading artwork. Object interaction and gaze matching remain pending.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_think_north_curious.json"
+    },
+    {
+      "pose_id": "standing_think_east",
+      "variant_id": "curious",
+      "actor_facing": "east",
+      "posture": "standing",
+      "activity": "think",
+      "expression": "curious",
+      "gesture": "hand_to_chin",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_think_east_curious.png",
+      "source_sha256": "8633d36c82c7d8b579ab6095a8a63efac5bcd1fd928398ff559f771031c67c4e",
+      "export": "assets/characters/poses/char/exports/east/char_standing_think_east_curious.png",
+      "export_sha256": "8633d36c82c7d8b579ab6095a8a63efac5bcd1fd928398ff559f771031c67c4e",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "intended_uses": [
+        "thoughtful_reaction",
+        "secondary_observe_painting",
+        "secondary_observe_window",
+        "secondary_observe_bookshelf"
+      ],
+      "notes": "Original bytes preserved. Thoughtful observation variant only; does not replace targeted look-up, reaching or reading artwork. Object interaction and gaze matching remain pending.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_think_east_curious.json"
+    },
+    {
+      "pose_id": "standing_think_south",
+      "variant_id": "curious",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "think",
+      "expression": "curious",
+      "gesture": "hand_to_chin",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_think_south_curious.png",
+      "source_sha256": "f2889657368d14a25ba8630b9f4e104d82a514101c3bade50e3f70f77af23e61",
+      "export": "assets/characters/poses/char/exports/south/char_standing_think_south_curious.png",
+      "export_sha256": "f2889657368d14a25ba8630b9f4e104d82a514101c3bade50e3f70f77af23e61",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "intended_uses": [
+        "thoughtful_reaction",
+        "secondary_observe_painting",
+        "secondary_observe_window",
+        "secondary_observe_bookshelf"
+      ],
+      "notes": "Original bytes preserved. Thoughtful observation variant only; does not replace targeted look-up, reaching or reading artwork. Object interaction and gaze matching remain pending.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_think_south_curious.json"
+    },
+    {
+      "pose_id": "standing_think_west",
+      "variant_id": "curious",
+      "actor_facing": "west",
+      "posture": "standing",
+      "activity": "think",
+      "expression": "curious",
+      "gesture": "hand_to_chin",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_think_west_curious.png",
+      "source_sha256": "32f590d6b304619a8cf97a24389ca910ff6366654f87cfb9d29a4e0c2810e2bc",
+      "export": "assets/characters/poses/char/exports/west/char_standing_think_west_curious.png",
+      "export_sha256": "32f590d6b304619a8cf97a24389ca910ff6366654f87cfb9d29a4e0c2810e2bc",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "intended_uses": [
+        "thoughtful_reaction",
+        "secondary_observe_painting",
+        "secondary_observe_window",
+        "secondary_observe_bookshelf"
+      ],
+      "notes": "Original bytes preserved. Thoughtful observation variant only; does not replace targeted look-up, reaching or reading artwork. Object interaction and gaze matching remain pending.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_think_west_curious.json"
+    },
+    {
+      "pose_id": "standing_startle_south",
+      "variant_id": "surprised",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "startle",
+      "expression": "surprised",
+      "gesture": "hand_near_mouth",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_startle_south_surprised.png",
+      "source_sha256": "ff4555383f55b6ec4b426726cb3925aa4b90eccfd81cac79f79c72d077484aeb",
+      "export": "assets/characters/poses/char/exports/south/char_standing_startle_south_surprised.png",
+      "export_sha256": "ff4555383f55b6ec4b426726cb3925aa4b90eccfd81cac79f79c72d077484aeb",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "intended_uses": [
+        "surprised_reaction",
+        "witness_startle"
+      ],
+      "notes": "Original bytes preserved. South/east/west batch; north omitted under selected-direction policy. Expression does not assign guilt or personality.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_startle_south_surprised.json"
+    },
+    {
+      "pose_id": "standing_startle_east",
+      "variant_id": "surprised",
+      "actor_facing": "east",
+      "posture": "standing",
+      "activity": "startle",
+      "expression": "surprised",
+      "gesture": "hand_near_mouth",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_startle_east_surprised.png",
+      "source_sha256": "568a6d2dea5edd8b989e57c9650ddd720d91216689355f740a0fe61e0cf5d25e",
+      "export": "assets/characters/poses/char/exports/east/char_standing_startle_east_surprised.png",
+      "export_sha256": "568a6d2dea5edd8b989e57c9650ddd720d91216689355f740a0fe61e0cf5d25e",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "intended_uses": [
+        "surprised_reaction",
+        "witness_startle"
+      ],
+      "notes": "Original bytes preserved. South/east/west batch; north omitted under selected-direction policy. Expression does not assign guilt or personality.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_startle_east_surprised.json"
+    },
+    {
+      "pose_id": "standing_startle_west",
+      "variant_id": "surprised",
+      "actor_facing": "west",
+      "posture": "standing",
+      "activity": "startle",
+      "expression": "surprised",
+      "gesture": "hand_near_mouth",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_startle_west_surprised.png",
+      "source_sha256": "b7d4689d56d3db83cfaa9fe45bda744310c5c0fac125366c9c1a7066a9769dbd",
+      "export": "assets/characters/poses/char/exports/west/char_standing_startle_west_surprised.png",
+      "export_sha256": "b7d4689d56d3db83cfaa9fe45bda744310c5c0fac125366c9c1a7066a9769dbd",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "intended_uses": [
+        "surprised_reaction",
+        "witness_startle"
+      ],
+      "notes": "Original bytes preserved. South/east/west batch; north omitted under selected-direction policy. Expression does not assign guilt or personality.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_startle_west_surprised.json"
+    },
+    {
+      "pose_id": "standing_withdraw_south",
+      "variant_id": "sad",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "withdraw",
+      "expression": "sad",
+      "gesture": "hands_together_below_waist",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_withdraw_south_sad.png",
+      "source_sha256": "a107347b22f490ffc9c246a1657a59390deeb6479e0285857d87fd48627d5879",
+      "export": "assets/characters/poses/char/exports/south/char_standing_withdraw_south_sad.png",
+      "export_sha256": "a107347b22f490ffc9c246a1657a59390deeb6479e0285857d87fd48627d5879",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "intended_uses": [
+        "sad_reaction",
+        "withdrawn_reaction"
+      ],
+      "notes": "Original bytes preserved. South/east/west batch; north omitted under selected-direction policy. Expression does not assign guilt or personality.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_withdraw_south_sad.json"
+    },
+    {
+      "pose_id": "standing_withdraw_east",
+      "variant_id": "sad",
+      "actor_facing": "east",
+      "posture": "standing",
+      "activity": "withdraw",
+      "expression": "sad",
+      "gesture": "hands_together_below_waist",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_withdraw_east_sad.png",
+      "source_sha256": "738a734fe0ab5bbbb55f040244c111364d40e6a37652841e8d7bc9bb7e77f3f1",
+      "export": "assets/characters/poses/char/exports/east/char_standing_withdraw_east_sad.png",
+      "export_sha256": "738a734fe0ab5bbbb55f040244c111364d40e6a37652841e8d7bc9bb7e77f3f1",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "intended_uses": [
+        "sad_reaction",
+        "withdrawn_reaction"
+      ],
+      "notes": "Original bytes preserved. South/east/west batch; north omitted under selected-direction policy. Expression does not assign guilt or personality.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_withdraw_east_sad.json"
+    },
+    {
+      "pose_id": "standing_deny_south",
+      "variant_id": "defensive",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "deny",
+      "expression": "defensive",
+      "gesture": "palm_out_hand_to_chest",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_deny_south_defensive.png",
+      "source_sha256": "b36d1b31a328e3a344b7c693efb5311076add7152e9c3dc76026d08782d725ce",
+      "export": "assets/characters/poses/char/exports/south/char_standing_deny_south_defensive.png",
+      "export_sha256": "b36d1b31a328e3a344b7c693efb5311076add7152e9c3dc76026d08782d725ce",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional artwork for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "intended_uses": [
+        "defensive_denial",
+        "questioned_reaction"
+      ],
+      "notes": "Original bytes preserved. Expression does not assign guilt or personality.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_deny_south_defensive.json"
+    },
+    {
+      "pose_id": "standing_deny_east",
+      "variant_id": "defensive",
+      "actor_facing": "east",
+      "posture": "standing",
+      "activity": "deny",
+      "expression": "defensive",
+      "gesture": "palm_out_hand_to_chest",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_deny_east_defensive.png",
+      "source_sha256": "46573b3628febcb03d30440eeab2bb2aa04efc678b801028065f85f474a37c18",
+      "export": "assets/characters/poses/char/exports/east/char_standing_deny_east_defensive.png",
+      "export_sha256": "46573b3628febcb03d30440eeab2bb2aa04efc678b801028065f85f474a37c18",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional artwork for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "intended_uses": [
+        "defensive_denial",
+        "questioned_reaction"
+      ],
+      "notes": "Original bytes preserved. Expression does not assign guilt or personality.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_deny_east_defensive.json"
+    },
+    {
+      "pose_id": "standing_deny_west",
+      "variant_id": "defensive",
+      "actor_facing": "west",
+      "posture": "standing",
+      "activity": "deny",
+      "expression": "defensive",
+      "gesture": "palm_out_hand_to_chest",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_deny_west_defensive.png",
+      "source_sha256": "7c172cfa3efbe4eeae63f72b3b11bf56f61bffe9e302e3eb8c8b32b77a801cf4",
+      "export": "assets/characters/poses/char/exports/west/char_standing_deny_west_defensive.png",
+      "export_sha256": "7c172cfa3efbe4eeae63f72b3b11bf56f61bffe9e302e3eb8c8b32b77a801cf4",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional artwork for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "intended_uses": [
+        "defensive_denial",
+        "questioned_reaction"
+      ],
+      "notes": "Original bytes preserved. Expression does not assign guilt or personality.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_deny_west_defensive.json"
+    },
+    {
+      "pose_id": "standing_cross_arms_south",
+      "variant_id": "suspicious",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "cross_arms",
+      "expression": "suspicious",
+      "gesture": "folded_arms",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/revision-02/char_standing_cross_arms_south_suspicious.png",
+      "source_sha256": "a11f51673be22529b087ef5b15361b229211bf862bdcd7b2d31e1b48c21f5a17",
+      "export": "assets/characters/poses/char/exports/south/revision-02/char_standing_cross_arms_south_suspicious.png",
+      "export_sha256": "a11f51673be22529b087ef5b15361b229211bf862bdcd7b2d31e1b48c21f5a17",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. User supplied replacement; runtime scale/contact calibration remains pending.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/revision-02/char_standing_cross_arms_south_suspicious.json",
+      "supersedes": {
+        "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_cross_arms_south_suspicious.png",
+        "source_sha256": "e24522a1aead7f8a1247e2c5ff436cd24a47d92d36b91bc5cbf6755e365a5999",
+        "reason": "User explicitly identified supplied replacement."
+      }
+    },
+    {
+      "pose_id": "standing_cross_arms_west",
+      "variant_id": "suspicious",
+      "actor_facing": "west",
+      "posture": "standing",
+      "activity": "cross_arms",
+      "expression": "suspicious",
+      "gesture": "folded_arms",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/revision-02/char_standing_cross_arms_west_suspicious.png",
+      "source_sha256": "3f83f901272ec04ecdfdd24c25159093671745b0a2845a58bac943d52c8373e0",
+      "export": "assets/characters/poses/char/exports/west/revision-02/char_standing_cross_arms_west_suspicious.png",
+      "export_sha256": "3f83f901272ec04ecdfdd24c25159093671745b0a2845a58bac943d52c8373e0",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved. User supplied replacement; runtime scale/contact calibration remains pending.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/revision-02/char_standing_cross_arms_west_suspicious.json",
+      "supersedes": {
+        "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_cross_arms_west_suspicious.png",
+        "source_sha256": "307eec9884d9ec8b83400f86d084d8cee04006415b82fa51faeac05d25b8a7ee",
+        "reason": "User explicitly identified supplied replacement."
+      }
+    },
+    {
+      "pose_id": "standing_read_north",
+      "variant_id": "neutral",
+      "actor_facing": "north",
+      "posture": "standing",
+      "activity": "read",
+      "props": [
+        "open_book"
+      ],
+      "source_master": "assets/characters/poses/char/masters/external_poses/revision-02/char_standing_read_north_neutral.png",
+      "source_sha256": "2fa74f22e4a3f4539500907de531ace4a8fe93d1a1b5c8a5d286c917c648a4ce",
+      "export": "assets/characters/poses/char/exports/north/revision-02/char_standing_read_north_neutral.png",
+      "export_sha256": "2fa74f22e4a3f4539500907de531ace4a8fe93d1a1b5c8a5d286c917c648a4ce",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "Import requested by standing external-image handoff instruction; runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "transparency_status": "alpha_present",
+      "notes": "Original bytes preserved. User supplied replacement; runtime scale/contact calibration remains pending.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/revision-02/char_standing_read_north_neutral.json",
+      "supersedes": {
+        "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_read_north_neutral.png",
+        "source_sha256": "1172790952308493a0bff449457cbb2e03193ec4058bbdd130153108a38dcd38",
+        "reason": "User explicitly identified supplied replacement."
+      }
+    },
+    {
+      "pose_id": "standing_withdraw_west",
+      "variant_id": "sad",
+      "actor_facing": "west",
+      "posture": "standing",
+      "activity": "withdraw",
+      "expression": "sad",
+      "gesture": "hands_together_below_waist",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/revision-03/char_standing_withdraw_west_sad.png",
+      "source_sha256": "a71812bcc0cc64f97d0b0fb0a4b4d3a485936e45a7ead3de9f23bbb8e6f519aa",
+      "export": "assets/characters/poses/char/exports/west/revision-03/char_standing_withdraw_west_sad.png",
+      "export_sha256": "a71812bcc0cc64f97d0b0fb0a4b4d3a485936e45a7ead3de9f23bbb8e6f519aa",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional artwork for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "intended_uses": [
+        "sad_reaction",
+        "withdrawn_reaction"
+      ],
+      "notes": "Original bytes preserved. User supplied replacement; runtime scale/contact calibration remains pending.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/revision-03/char_standing_withdraw_west_sad.json",
+      "supersedes": {
+        "source_master": "assets/characters/poses/char/masters/external_poses/revision-02/char_standing_withdraw_west_sad.png",
+        "source_sha256": "83c8ade5c13f001ff5fb289b4137ed9f893f2c4724261047ad6c4b066b26cfb9",
+        "reason": "User explicitly identified supplied replacement."
+      }
+    },
+    {
+      "pose_id": "standing_look_up_north",
+      "variant_id": "neutral",
+      "actor_facing": "north",
+      "posture": "standing",
+      "activity": "look_up",
+      "expression": "neutral",
+      "gesture": "arms_relaxed_at_sides",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_look_up_north_neutral.png",
+      "source_sha256": "4b14ec3a13e6b77c5777fde67e555f4c50fa80753f6e7882c7fc173a7f5364f1",
+      "export": "assets/characters/poses/char/exports/north/char_standing_look_up_north_neutral.png",
+      "export_sha256": "4b14ec3a13e6b77c5777fde67e555f4c50fa80753f6e7882c7fc173a7f5364f1",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "intended_uses": [
+        "observe_above_eye_level"
+      ],
+      "notes": "Original bytes preserved. Target height and gaze alignment require scene calibration. Visible expressions include smiles; neutral names the action variant, not a verified expression match.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_look_up_north_neutral.json"
+    },
+    {
+      "pose_id": "standing_look_up_east",
+      "variant_id": "neutral",
+      "actor_facing": "east",
+      "posture": "standing",
+      "activity": "look_up",
+      "expression": "neutral",
+      "gesture": "arms_relaxed_at_sides",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_look_up_east_neutral.png",
+      "source_sha256": "03e3793ffd26722095828c97c4a51e6f1f9b5284af557b1f50ca69c3869bccdb",
+      "export": "assets/characters/poses/char/exports/east/char_standing_look_up_east_neutral.png",
+      "export_sha256": "03e3793ffd26722095828c97c4a51e6f1f9b5284af557b1f50ca69c3869bccdb",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "intended_uses": [
+        "observe_above_eye_level"
+      ],
+      "notes": "Original bytes preserved. Target height and gaze alignment require scene calibration. Visible expressions include smiles; neutral names the action variant, not a verified expression match.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_look_up_east_neutral.json"
+    },
+    {
+      "pose_id": "standing_look_up_south",
+      "variant_id": "neutral",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "look_up",
+      "expression": "neutral",
+      "gesture": "arms_relaxed_at_sides",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_look_up_south_neutral.png",
+      "source_sha256": "aa6a305029cd8a56260d4ae829579cef28392f482633b9e6de8d89583bdad489",
+      "export": "assets/characters/poses/char/exports/south/char_standing_look_up_south_neutral.png",
+      "export_sha256": "aa6a305029cd8a56260d4ae829579cef28392f482633b9e6de8d89583bdad489",
+      "canvas": [
+        944,
+        1665
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "intended_uses": [
+        "observe_above_eye_level"
+      ],
+      "notes": "Original bytes preserved. Target height and gaze alignment require scene calibration. Visible expressions include smiles; neutral names the action variant, not a verified expression match.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_look_up_south_neutral.json"
+    },
+    {
+      "pose_id": "standing_look_up_west",
+      "variant_id": "neutral",
+      "actor_facing": "west",
+      "posture": "standing",
+      "activity": "look_up",
+      "expression": "neutral",
+      "gesture": "arms_relaxed_at_sides",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_look_up_west_neutral.png",
+      "source_sha256": "748f3dbe6d9a994c85585f74559493037047ead21197908dbf60ae74beee429e",
+      "export": "assets/characters/poses/char/exports/west/char_standing_look_up_west_neutral.png",
+      "export_sha256": "748f3dbe6d9a994c85585f74559493037047ead21197908dbf60ae74beee429e",
+      "canvas": [
+        944,
+        1666
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "user_supplied_added_to_project",
+      "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "intended_uses": [
+        "observe_above_eye_level"
+      ],
+      "notes": "Original bytes preserved. Target height and gaze alignment require scene calibration. Visible expressions include smiles; neutral names the action variant, not a verified expression match.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_look_up_west_neutral.json"
+    },
+    {
+      "pose_id": "standing_clasp_hands_south",
+      "variant_id": "friendly",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "clasp_hands",
+      "expression": "friendly",
+      "gesture": "hands_clasped_below_waist",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_clasp_hands_south_friendly.png",
+      "source_sha256": "cb2f47a3e67dcd4dc9156b54df39af2c8502e87cda7703c84ea3791ce7413693",
+      "export": "assets/characters/poses/char/exports/south/char_standing_clasp_hands_south_friendly.png",
+      "export_sha256": "cb2f47a3e67dcd4dc9156b54df39af2c8502e87cda7703c84ea3791ce7413693",
+      "canvas": [
+        1045,
+        1844
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "reference_only",
+      "approval_scope": "User clarified these are example reference images, not pose candidates.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved, including visible white frame. Forward gaze and clasped hands differ from requested looking-down action. Existing approved idle artwork unchanged.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_clasp_hands_south_friendly.json"
+    },
+    {
+      "pose_id": "standing_clasp_hands_west",
+      "variant_id": "friendly",
+      "actor_facing": "west",
+      "posture": "standing",
+      "activity": "clasp_hands",
+      "expression": "friendly",
+      "gesture": "hands_clasped_below_waist",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_clasp_hands_west_friendly.png",
+      "source_sha256": "08c6437b2f3b07548dc804d3c6873b48102f6f827111ade50f596798ac6f80f6",
+      "export": "assets/characters/poses/char/exports/west/char_standing_clasp_hands_west_friendly.png",
+      "export_sha256": "08c6437b2f3b07548dc804d3c6873b48102f6f827111ade50f596798ac6f80f6",
+      "canvas": [
+        1045,
+        1844
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "reference_only",
+      "approval_scope": "User clarified these are example reference images, not pose candidates.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved, including visible white frame. Forward gaze and clasped hands differ from requested looking-down action. Existing approved idle artwork unchanged.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_clasp_hands_west_friendly.json"
+    },
+    {
+      "pose_id": "standing_clasp_hands_east",
+      "variant_id": "friendly",
+      "actor_facing": "east",
+      "posture": "standing",
+      "activity": "clasp_hands",
+      "expression": "friendly",
+      "gesture": "hands_clasped_below_waist",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_clasp_hands_east_friendly.png",
+      "source_sha256": "6483b8cd2baadccb37229a9fcdefc3de5f91203a8f30489491d21f812d75bfa5",
+      "export": "assets/characters/poses/char/exports/east/char_standing_clasp_hands_east_friendly.png",
+      "export_sha256": "6483b8cd2baadccb37229a9fcdefc3de5f91203a8f30489491d21f812d75bfa5",
+      "canvas": [
+        1045,
+        1844
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "reference_only",
+      "approval_scope": "User clarified these are example reference images, not pose candidates.",
+      "runtime_integrated": false,
+      "live_test_supported": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "notes": "Original bytes preserved, including visible white frame. Forward gaze and clasped hands differ from requested looking-down action. Existing approved idle artwork unchanged.",
+      "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_clasp_hands_east_friendly.json"
+    },
+    {
+      "pose_id": "standing_look_down_east",
+      "variant_id": "neutral",
+      "actor_facing": "east",
+      "posture": "standing",
+      "activity": "look_down",
+      "expression": "neutral",
+      "gesture": "arms_relaxed_at_sides",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/look-down-01/char_standing_look_down_east_neutral.png",
+      "source_sha256": "e74d3a77ef9c23039dd8c5a6efb253605447d389615d0a7b641b81876db400c0",
+      "export": "assets/characters/poses/char/exports/east/char_standing_look_down_east_neutral.png",
+      "export_sha256": "e74d3a77ef9c23039dd8c5a6efb253605447d389615d0a7b641b81876db400c0",
+      "canvas": [
+        944,
+        1665
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "approved",
+      "approval_evidence": {
+        "date": "2026-10-25",
+        "quote": "Approved, move on",
+        "scope": "East-facing looking-down artwork only; runtime fit pending."
+      },
+      "runtime_integrated": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "landmark_record": "assets/characters/poses/char/metadata/look-down-01/char_standing_look_down_east_neutral.json",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "Approved, move on"
+        },
+        "scope": "East-facing looking-down artwork only; runtime fit pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/east/char_standing_look_down_east_neutral.png",
+            "sha256": "e74d3a77ef9c23039dd8c5a6efb253605447d389615d0a7b641b81876db400c0"
+          }
+        ]
+      }
+    },
+    {
+      "pose_id": "standing_look_down_south",
+      "variant_id": "neutral",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "look_down",
+      "expression": "neutral",
+      "gesture": "arms_relaxed_at_sides",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/look-down-01/char_standing_look_down_south_neutral.png",
+      "source_sha256": "e319454704bee827b018c4c4ce07cf6911365fba3d0c9cc6ccb3362fc775e950",
+      "export": "assets/characters/poses/char/exports/south/char_standing_look_down_south_neutral.png",
+      "export_sha256": "e319454704bee827b018c4c4ce07cf6911365fba3d0c9cc6ccb3362fc775e950",
+      "canvas": [
+        944,
+        1666
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "approved",
+      "approval_evidence": {
+        "date": "2026-10-25",
+        "quote": "Approved, move on.",
+        "scope": "South-facing looking-down artwork only; runtime fit pending."
+      },
+      "runtime_integrated": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "landmark_record": "assets/characters/poses/char/metadata/look-down-01/char_standing_look_down_south_neutral.json",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "Approved, move on."
+        },
+        "scope": "South-facing looking-down artwork only; runtime fit pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/south/char_standing_look_down_south_neutral.png",
+            "sha256": "e319454704bee827b018c4c4ce07cf6911365fba3d0c9cc6ccb3362fc775e950"
+          }
+        ]
+      }
+    },
+    {
+      "pose_id": "standing_look_down_west",
+      "variant_id": "neutral",
+      "actor_facing": "west",
+      "posture": "standing",
+      "activity": "look_down",
+      "expression": "neutral",
+      "gesture": "arms_relaxed_at_sides",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/look-down-01/char_standing_look_down_west_neutral.png",
+      "source_sha256": "259ae57208b010d77561338af487386d11cc97123f5ede6c5bacec993a33b045",
+      "export": "assets/characters/poses/char/exports/west/char_standing_look_down_west_neutral.png",
+      "export_sha256": "259ae57208b010d77561338af487386d11cc97123f5ede6c5bacec993a33b045",
+      "canvas": [
+        944,
+        1666
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "approved",
+      "approval_evidence": {
+        "date": "2026-10-25",
+        "quote": "Approved",
+        "scope": "West-facing looking-down artwork only; runtime fit pending."
+      },
+      "runtime_integrated": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "landmark_record": "assets/characters/poses/char/metadata/look-down-01/char_standing_look_down_west_neutral.json",
+      "tool": "built_in_imagegen",
+      "prompt": "Independently draw west-facing Char looking down at implied floor object, arms relaxed at sides, calm neutral inspection; preserve approved east identity, costume asymmetry and pixel-art rendering; complete character on actual alpha transparency.",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "Approved"
+        },
+        "scope": "West-facing looking-down artwork only; runtime fit pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/west/char_standing_look_down_west_neutral.png",
+            "sha256": "259ae57208b010d77561338af487386d11cc97123f5ede6c5bacec993a33b045"
+          }
+        ]
+      }
     }
   ],
   "future_folder_template": "assets/characters/poses/{character_slug}/exports/{actor_facing}/{character_slug}_{pose_id}_{variant_id}.png",

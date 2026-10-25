@@ -1,0 +1,32 @@
+{
+  "pose_id": "standing_clasp_hands_east",
+  "variant_id": "friendly",
+  "actor_facing": "east",
+  "posture": "standing",
+  "activity": "clasp_hands",
+  "expression": "friendly",
+  "gesture": "hands_clasped_below_waist",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_clasp_hands_east_friendly.png",
+  "source_sha256": "6483b8cd2baadccb37229a9fcdefc3de5f91203a8f30489491d21f812d75bfa5",
+  "export": "assets/characters/poses/char/exports/east/char_standing_clasp_hands_east_friendly.png",
+  "export_sha256": "6483b8cd2baadccb37229a9fcdefc3de5f91203a8f30489491d21f812d75bfa5",
+  "canvas": [
+    1045,
+    1844
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "reference_only",
+  "approval_scope": "User clarified these are example reference images, not pose candidates.",
+  "runtime_integrated": false,
+  "live_test_supported": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "notes": "Original bytes preserved, including visible white frame. Forward gaze and clasped hands differ from requested looking-down action. Existing approved idle artwork unchanged.",
+  "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_clasp_hands_east_friendly.json"
+}

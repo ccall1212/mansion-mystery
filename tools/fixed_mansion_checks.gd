@@ -103,7 +103,6 @@ func travel_to(target: String) -> bool:
 			await process_frame
 		if not await walk_to(Vector2(portal.at[0],portal.at[1]),origin):
 			return false
-		await press(KEY_E)
 		if house.current_room != portal.target:
 			return false
 	return house.current_room == target
@@ -122,7 +121,7 @@ func explore(id: String, through := "") -> void:
 			await process_frame
 		var moved: bool = await walk_to(Vector2(portal.at[0],portal.at[1]),id)
 		if house.current_room == id:
-			await press(KEY_E)
+			check(false,"automatic crossing failed "+directed)
 		check(moved and house.current_room == portal.target,"walked passage "+directed+" at "+str(room.player.position))
 		if house.current_room != portal.target:
 			return
@@ -144,7 +143,7 @@ func explore(id: String, through := "") -> void:
 			await process_frame
 		var back: bool = await walk_to(Vector2(reverse.at[0],reverse.at[1]),portal.target)
 		if house.current_room == portal.target:
-			await press(KEY_E)
+			check(false,"automatic return failed "+directed)
 		check(back and house.current_room == id,"walked return "+portal.target+">"+id)
 		traversed[portal.target+">"+id] = true
 		if house.current_room != id:
@@ -165,7 +164,7 @@ func run() -> void:
 		for portal in house.rooms[id].portals:
 			check(house.feet_free(portal.target,Vector2(portal.arrival[0],portal.arrival[1])),"authored arrival is free "+id+">"+portal.target)
 	# Collect the lens via the ordinary controls before leaving the foyer.
-	check(await walk_to(Vector2(366,258),"g_foyer"),"walk to lens")
+	check(await walk_to(Vector2(120,207),"g_foyer"),"walk to lens")
 	await press(KEY_E)
 	await press(KEY_C)
 	check(room.evidence.state.has_lens(),"collected lens in foyer")
@@ -173,7 +172,7 @@ func run() -> void:
 	if "--save-only" not in OS.get_cmdline_user_args():
 		await explore("g_foyer")
 		check(house.visited.size() == house.rooms.size(),"all compact spaces reached")
-		check(traversed.size() == 16,"all compact directed endpoints covered")
+		check(traversed.size() == 18,"all compact directed endpoints covered")
 	check(room.evidence.state.has_lens(),"inventory survives all room transitions")
 	check(await travel_to("g_library"),"return to library through doors")
 	check(await walk_to(Vector2(244,271),"g_library"),"walk to library knife")

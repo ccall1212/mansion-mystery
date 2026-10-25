@@ -1,0 +1,21 @@
+{
+  "status": "approved",
+  "tool": "built_in_imagegen",
+  "path": "assets/characters/poses/char/drafts/look-down-01/char_standing_look_down_south_neutral.png",
+  "sha256": "e319454704bee827b018c4c4ce07cf6911365fba3d0c9cc6ccb3362fc775e950",
+  "canvas": [
+    944,
+    1666
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "prompt": "South/front-facing Char standing looking down toward floor, arms relaxed at sides, calm neutral inspection, matching approved east pose identity/costume/rendering; complete figure with transparent background.",
+  "runtime_integrated": false,
+  "approval_evidence": {
+    "date": "2026-10-25",
+    "quote": "Approved, move on.",
+    "scope": "South-facing looking-down artwork only; runtime fit pending."
+  }
+}

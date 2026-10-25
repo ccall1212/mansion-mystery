@@ -40,13 +40,13 @@ separately from screen side. Windows are tagged as windows, not route openings.
 
 ## Production and approval
 
-### Current generated batch — 2026-10-24
+### Current generated batch â€” 2026-10-24
 
 [Review all nine new drafts](../assets/rooms/revisions/2026-10-24-room-rework/index.html).
 The user authorized recreation using the room-specific feedback and a new straight
 main staircase ending at a door. Eight active-room candidates and a separate future
 bar concept were created through the built-in image-generation workflow, one image
-per request. All are 1536×1024 opaque masters. Exact prompts, reference/output hashes,
+per request. All are 1536Ã—1024 opaque masters. Exact prompts, reference/output hashes,
 door-side requirements and provisional marker locations are in the sibling
 `manifest.json`. The library candidate in this batch leaves the window approach
 clear and moves the reading chair away from it; the earlier v2 remains a prior draft.
@@ -88,7 +88,7 @@ must depict the same orientation. The main stair return is separate and unchange
 Review: [current rooms, doorway labels and rework notes](../test-results/compact-mansion/index.html).
 
 
-### Furnishing density revision — 2026-10-24
+### Furnishing density revision â€” 2026-10-24
 
 User requested useful furniture in the bar/study middle and lower floor instead
 of broad empty space and an isolated rug. Current v2 candidates add a round pub
@@ -101,3 +101,10 @@ candidate records are in the batch manifest and revision-requests.json.
 
 
 Library v3: user authorized enlargement of the four undersized reading-table chairs. Built-in image edit produced g_library_n0_e1_s1_w0_draft_v3.png, preserving east/south entrances and existing room composition. Gallery now compares v2 with v3. Artwork review and Char contact-fit remain pending; no runtime background or furniture anchors changed.
+
+## Opposite-side routing supersedes turning passages
+User rejected same-side and corner arrivals and requested a four-door foyer with locked front entrance, then more foyer furnishings. See docs/OPPOSITE_DOOR_LAYOUT.md and assets/mansion/opposite-door-plan.json. Four new doorway candidates (including furnished foyer v2) are in assets/rooms/revisions/2026-10-24-opposite-doors/index.html; artwork approval and collision/contact calibration remain pending. These local drafts do not replace the current compact-2 game yet. No same-side connections may be carried into the next layout.
+
+
+## Current update: compact-3 opposite-door integration
+User approved the four current room candidates (“Looks good to me”, 2026-10-24). See [OPPOSITE_DOOR_LAYOUT.md](OPPOSITE_DOOR_LAYOUT.md) for the superseding route plan, hashes, provisional furniture status and validation. All 18 directed crossings now use opposite-side arrivals and automatic walking triggers. Fixed mansion checks: 108 passed; first-case checks: 31 passed. Older compact-2 route notes above are historical.

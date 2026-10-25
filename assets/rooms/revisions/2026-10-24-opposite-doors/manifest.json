@@ -1,0 +1,224 @@
+{
+  "schema_version": 1,
+  "batch_id": "opposite_doors_2026_10_24",
+  "status": "approved_integrated",
+  "runtime_integrated": true,
+  "plan": "assets/mansion/opposite-door-plan.json",
+  "generation_method": "built-in image_gen, independent request per room",
+  "jobs": [
+    {
+      "id": "g_foyer",
+      "name": "Furnished four-door foyer",
+      "source": "assets/foyer/foyer-background.png",
+      "doors": {
+        "north": 1,
+        "east": 1,
+        "south": 1,
+        "west": 1
+      },
+      "filename": "g_foyer_n1_e1_s1_w1_draft_v2.png",
+      "brief": "Four doors including locked north front entrance. Added round welcome table/flowers/guest book, fitted rug, coat/umbrella area and upholstered bench; central runner and side-door routes remain clear for calibration.",
+      "prompt": "Precise local furnishing edit to this FOUR-DOOR Victorian mansion foyer. Preserve the entire architecture, camera, all FOUR entrances and pixel-art style: NORTH closed double front doors locked, WEST side door, EAST side door, SOUTH foreground threshold. Do not remove, move, shrink, cover or add doors. Keep both windows, grandfather clock, existing small console left and red reading armchair right. The user says the foyer is too empty. Add purposeful elegant entrance furnishings at believable adult scale: (1) a substantial round carved walnut welcome table on a fitted oval burgundy rug in the LOWER LEFT floor quadrant, with a vase of pale flowers, a small silver calling-card tray and a closed guest book; (2) an upholstered burgundy bench with carved wood legs in the LOWER RIGHT floor quadrant, facing toward the viewer and with natural adult seat height; (3) a slim period wooden coat stand with two hanging coats beside a solid left wall segment, and a distinct small umbrella stand nearby. These should form coherent separate furnishing clusters, not random clutter. Leave the long CENTRAL RUNNER fully clear from north front door down to south threshold. Leave generous unobstructed east-west circulation just in front of the side doors so moving between rooms is easy; don't block doorframes or put furniture on thresholds. Keep floor approaches to the clock, windows, chair and all new furniture clear. Keep the bench, welcome table and other objects separate and identifiable for later furniture IDs and seated character poses. The new bench seat should be comparable in usable height to the existing armchair. Preserve richly shaded detailed pixel clusters, warm brass lighting, dark teal slate and walnut late-Victorian atmosphere; no photorealism. One opaque 1536x1024 image, no characters, labels, UI or border.",
+      "path": "assets/rooms/revisions/2026-10-24-opposite-doors/g_foyer_n1_e1_s1_w1_draft_v2.png",
+      "sha256": "b2be21b6d31382a2c8052e831bdbe8e9f7152d8e45330084a1a891fc3b5c4250",
+      "approval": "approved",
+      "reference_inputs": [
+        {
+          "path": "assets/rooms/revisions/2026-10-24-opposite-doors/g_foyer_n1_e1_s1_w1_draft_v1.png",
+          "sha256": "5f2c15fea1356a091264be6321ecbe4ce20eb9745fe361aab27816c97ba59f5f"
+        }
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "runtime_integrated": true,
+      "previous_version": {
+        "id": "g_foyer",
+        "name": "Four-door foyer hub",
+        "source": "assets/foyer/foyer-background.png",
+        "doors": {
+          "north": 1,
+          "east": 1,
+          "south": 1,
+          "west": 1
+        },
+        "filename": "g_foyer_n1_e1_s1_w1_draft_v1.png",
+        "brief": "Create exactly FOUR door openings. Keep the existing large CLOSED LOCKED double front doors centered on NORTH/back wall and the central runner leading to SOUTH/bottom threshold. Add ONE clear WEST/left side-wall interior doorway to the library, and ONE EAST/right side-wall interior doorway to the stair hall. Both lateral doors must be large adult-sized distinct wood doorframes, on their respective SIDE walls at mid-room depth, NOT more doors on the back wall. Adjust the clock/console and reading armchair only as needed to keep them separate from these new side doors and keep all approaches clear. Preserve the north windows and mansion foyer identity. Preserve useful furniture, not an empty hall. South threshold remains visible. No extra doors. 4-door hub.",
+        "prompt": "Precise room-layout edit for the same 2D mansion mystery. One opaque 1536x1024 landscape image. Preserve illustrated detailed pixel clusters, elevated three-quarter orthographic cutaway view, slate/teal stone, carved dark walnut, warm candlelight/cool windows, furniture adult scale and rendering quality. No people, UI, text, compass labels, floor arrows or borders. Maintain clear walkable floor between all usable entrances. Preserve existing composition and furnishings except where the specified doorway changes require moving them. DOOR SIDES are screen/world compass: NORTH is the back/top wall facing the viewer, SOUTH is foreground/bottom threshold, EAST is right side wall, WEST is left side wall. No extra door-like openings. This is an approval draft; no labels baked in.\nCreate exactly FOUR door openings. Keep the existing large CLOSED LOCKED double front doors centered on NORTH/back wall and the central runner leading to SOUTH/bottom threshold. Add ONE clear WEST/left side-wall interior doorway to the library, and ONE EAST/right side-wall interior doorway to the stair hall. Both lateral doors must be large adult-sized distinct wood doorframes, on their respective SIDE walls at mid-room depth, NOT more doors on the back wall. Adjust the clock/console and reading armchair only as needed to keep them separate from these new side doors and keep all approaches clear. Preserve the north windows and mansion foyer identity. Preserve useful furniture, not an empty hall. South threshold remains visible. No extra doors. 4-door hub.",
+        "path": "assets/rooms/revisions/2026-10-24-opposite-doors/g_foyer_n1_e1_s1_w1_draft_v1.png",
+        "sha256": "5f2c15fea1356a091264be6321ecbe4ce20eb9745fe361aab27816c97ba59f5f",
+        "approval": "pending",
+        "reference_inputs": [
+          {
+            "path": "assets/foyer/foyer-background.png",
+            "sha256": "bb2cf020f985f06e6a1be1b31627c0d8b324e72442ca34ddeaa45afff51c0d47"
+          }
+        ],
+        "dimensions": [
+          1536,
+          1024
+        ],
+        "mode": "RGB",
+        "runtime_integrated": false,
+        "status": "superseded_by_user_furnishing_request"
+      },
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-24",
+          "source": "user",
+          "quote": "Looks good to me"
+        },
+        "scope": "Current four room candidates and opposite-side layout; furniture fit reviewed independently.",
+        "files": [
+          {
+            "path": "assets/rooms/revisions/2026-10-24-opposite-doors/g_foyer_n1_e1_s1_w1_draft_v2.png",
+            "sha256": "b2be21b6d31382a2c8052e831bdbe8e9f7152d8e45330084a1a891fc3b5c4250"
+          }
+        ]
+      },
+      "furniture_layout": "res://assets/furniture/layouts/g_foyer_opposite_v2.json",
+      "furniture_status": "provisional_not_pose_fit_approved"
+    },
+    {
+      "id": "g_main_stair",
+      "name": "Stair hall with west entrance",
+      "source": "assets/rooms/revisions/2026-10-24-room-rework/g_main_stair_n1_e0_s1_w1_draft_v1.png",
+      "doors": {
+        "north": 1,
+        "east": 0,
+        "south": 0,
+        "west": 1
+      },
+      "filename": "g_main_stair_n1_e0_s0_w1_draft_v2.png",
+      "brief": "Keep straight staircase on right rising directly to its closed NORTH/back-wall upstairs door, same stair axis/geometry. Keep the WEST/left interior door to the foyer. REMOVE the SOUTH/bottom foreground entrance entirely: replace its central gap and threshold with continuous low foreground wall/balustrade matching the rest of the foreground boundary. No south opening, no east door. Exactly TWO doors: NORTH upstairs door at stair top and WEST foyer door. Preserve floor, window, lamps, stairs, wall design and room size.",
+      "prompt": "Precise room-layout edit for the same 2D mansion mystery. One opaque 1536x1024 landscape image. Preserve illustrated detailed pixel clusters, elevated three-quarter orthographic cutaway view, slate/teal stone, carved dark walnut, warm candlelight/cool windows, furniture adult scale and rendering quality. No people, UI, text, compass labels, floor arrows or borders. Maintain clear walkable floor between all usable entrances. Preserve existing composition and furnishings except where the specified doorway changes require moving them. DOOR SIDES are screen/world compass: NORTH is the back/top wall facing the viewer, SOUTH is foreground/bottom threshold, EAST is right side wall, WEST is left side wall. No extra door-like openings. This is an approval draft; no labels baked in.\nKeep straight staircase on right rising directly to its closed NORTH/back-wall upstairs door, same stair axis/geometry. Keep the WEST/left interior door to the foyer. REMOVE the SOUTH/bottom foreground entrance entirely: replace its central gap and threshold with continuous low foreground wall/balustrade matching the rest of the foreground boundary. No south opening, no east door. Exactly TWO doors: NORTH upstairs door at stair top and WEST foyer door. Preserve floor, window, lamps, stairs, wall design and room size.",
+      "path": "assets/rooms/revisions/2026-10-24-opposite-doors/g_main_stair_n1_e0_s0_w1_draft_v2.png",
+      "sha256": "7c1c215818fdc9da27d21f71e8a9c419d4601f9c752cac5ea00ba1dd342f1309",
+      "approval": "approved",
+      "reference_inputs": [
+        {
+          "path": "assets/rooms/revisions/2026-10-24-room-rework/g_main_stair_n1_e0_s1_w1_draft_v1.png",
+          "sha256": "12682cb6b087ee04e1edf2914f6eb866b9785400e4d2de5ce88d27e583f60221"
+        }
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "runtime_integrated": true,
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-24",
+          "source": "user",
+          "quote": "Looks good to me"
+        },
+        "scope": "Current four room candidates and opposite-side layout; furniture fit reviewed independently.",
+        "files": [
+          {
+            "path": "assets/rooms/revisions/2026-10-24-opposite-doors/g_main_stair_n1_e0_s0_w1_draft_v2.png",
+            "sha256": "7c1c215818fdc9da27d21f71e8a9c419d4601f9c752cac5ea00ba1dd342f1309"
+          }
+        ]
+      },
+      "furniture_layout": "res://assets/furniture/layouts/g_main_stair_opposite_v2.json",
+      "furniture_status": "provisional_not_pose_fit_approved"
+    },
+    {
+      "id": "g_dining",
+      "name": "Dining room with north and west doors",
+      "source": "assets/rooms/revisions/2026-10-24-room-rework/g_dining_n0_e1_s0_w1_draft_v1.png",
+      "doors": {
+        "north": 1,
+        "east": 0,
+        "south": 0,
+        "west": 1
+      },
+      "filename": "g_dining_n1_e0_s0_w1_draft_v2.png",
+      "brief": "Keep dining table and SIX adult chairs at same scale and position, keep WEST/left doorway to kitchen. REMOVE EAST/right door, close that right side wall with matching stone/walnut paneling. Add ONE NORTH/back-wall interior door, preferably centered: replace/move the center painting and sideboard to create a full-height adult-sized north door with an unobstructed floor approach. Keep fireplace right and window left; reposition the painting/sideboard onto remaining solid wall if practical. Preserve furnished dining room identity. Exactly TWO doors NORTH to foyer and WEST to kitchen. No south opening.",
+      "prompt": "Precise room-layout edit for the same 2D mansion mystery. One opaque 1536x1024 landscape image. Preserve illustrated detailed pixel clusters, elevated three-quarter orthographic cutaway view, slate/teal stone, carved dark walnut, warm candlelight/cool windows, furniture adult scale and rendering quality. No people, UI, text, compass labels, floor arrows or borders. Maintain clear walkable floor between all usable entrances. Preserve existing composition and furnishings except where the specified doorway changes require moving them. DOOR SIDES are screen/world compass: NORTH is the back/top wall facing the viewer, SOUTH is foreground/bottom threshold, EAST is right side wall, WEST is left side wall. No extra door-like openings. This is an approval draft; no labels baked in.\nKeep dining table and SIX adult chairs at same scale and position, keep WEST/left doorway to kitchen. REMOVE EAST/right door, close that right side wall with matching stone/walnut paneling. Add ONE NORTH/back-wall interior door, preferably centered: replace/move the center painting and sideboard to create a full-height adult-sized north door with an unobstructed floor approach. Keep fireplace right and window left; reposition the painting/sideboard onto remaining solid wall if practical. Preserve furnished dining room identity. Exactly TWO doors NORTH to foyer and WEST to kitchen. No south opening.",
+      "path": "assets/rooms/revisions/2026-10-24-opposite-doors/g_dining_n1_e0_s0_w1_draft_v2.png",
+      "sha256": "41b47c32a0f6bf73476b1ad78224e6cb19fd6381e6f0ce812f05a4e4e544bd98",
+      "approval": "approved",
+      "reference_inputs": [
+        {
+          "path": "assets/rooms/revisions/2026-10-24-room-rework/g_dining_n0_e1_s0_w1_draft_v1.png",
+          "sha256": "9a3ae75816191bd192f5005231391f7e30397eeac9e390acd7f77d2aa553343c"
+        }
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "runtime_integrated": true,
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-24",
+          "source": "user",
+          "quote": "Looks good to me"
+        },
+        "scope": "Current four room candidates and opposite-side layout; furniture fit reviewed independently.",
+        "files": [
+          {
+            "path": "assets/rooms/revisions/2026-10-24-opposite-doors/g_dining_n1_e0_s0_w1_draft_v2.png",
+            "sha256": "41b47c32a0f6bf73476b1ad78224e6cb19fd6381e6f0ce812f05a4e4e544bd98"
+          }
+        ]
+      },
+      "furniture_layout": "res://assets/furniture/layouts/g_dining_opposite_v2.json",
+      "furniture_status": "provisional_not_pose_fit_approved"
+    },
+    {
+      "id": "g_kitchen",
+      "name": "Kitchen with north, east and south doors",
+      "source": "assets/rooms/revisions/2026-10-24-room-rework/g_kitchen_n0_e1_s1_w0_draft_v1.png",
+      "doors": {
+        "north": 1,
+        "east": 1,
+        "south": 1,
+        "west": 0
+      },
+      "filename": "g_kitchen_n1_e1_s1_w0_draft_v2.png",
+      "brief": "Keep EAST/right doorway to dining room and SOUTH/bottom threshold to basement stairs. Add ONE clear full-height NORTH/back-wall doorway toward the right half, leading to library; replace/move part of the back-right pantry cabinet to make room. North door must face the viewer as part of back wall, distinct from right side-wall east door, with solid corner separating them. Keep range on back-left, sink/window near back-center, central-left preparation table and low work stool, cookware and storage. Move pantry storage to a solid west wall or remaining back wall as needed. Do not block new north-door approach with barrels, sacks or plants. Exactly THREE doors: NORTH, EAST, SOUTH. NO west door. Preserve a working kitchen rather than bar.",
+      "prompt": "Precise room-layout edit for the same 2D mansion mystery. One opaque 1536x1024 landscape image. Preserve illustrated detailed pixel clusters, elevated three-quarter orthographic cutaway view, slate/teal stone, carved dark walnut, warm candlelight/cool windows, furniture adult scale and rendering quality. No people, UI, text, compass labels, floor arrows or borders. Maintain clear walkable floor between all usable entrances. Preserve existing composition and furnishings except where the specified doorway changes require moving them. DOOR SIDES are screen/world compass: NORTH is the back/top wall facing the viewer, SOUTH is foreground/bottom threshold, EAST is right side wall, WEST is left side wall. No extra door-like openings. This is an approval draft; no labels baked in.\nKeep EAST/right doorway to dining room and SOUTH/bottom threshold to basement stairs. Add ONE clear full-height NORTH/back-wall doorway toward the right half, leading to library; replace/move part of the back-right pantry cabinet to make room. North door must face the viewer as part of back wall, distinct from right side-wall east door, with solid corner separating them. Keep range on back-left, sink/window near back-center, central-left preparation table and low work stool, cookware and storage. Move pantry storage to a solid west wall or remaining back wall as needed. Do not block new north-door approach with barrels, sacks or plants. Exactly THREE doors: NORTH, EAST, SOUTH. NO west door. Preserve a working kitchen rather than bar.",
+      "path": "assets/rooms/revisions/2026-10-24-opposite-doors/g_kitchen_n1_e1_s1_w0_draft_v2.png",
+      "sha256": "40b73b534bdfdd7c735d1ba3997f955f544f3c337bfd0965ed19369e7d4a9639",
+      "approval": "approved",
+      "reference_inputs": [
+        {
+          "path": "assets/rooms/revisions/2026-10-24-room-rework/g_kitchen_n0_e1_s1_w0_draft_v1.png",
+          "sha256": "2183de97d2f846ce4b8c1fe558e61ecc1bc989599a973fd6e7e89b927c47cb18"
+        }
+      ],
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "runtime_integrated": true,
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-24",
+          "source": "user",
+          "quote": "Looks good to me"
+        },
+        "scope": "Current four room candidates and opposite-side layout; furniture fit reviewed independently.",
+        "files": [
+          {
+            "path": "assets/rooms/revisions/2026-10-24-opposite-doors/g_kitchen_n1_e1_s1_w0_draft_v2.png",
+            "sha256": "40b73b534bdfdd7c735d1ba3997f955f544f3c337bfd0965ed19369e7d4a9639"
+          }
+        ]
+      },
+      "furniture_layout": "res://assets/furniture/layouts/g_kitchen_opposite_v2.json",
+      "furniture_status": "provisional_not_pose_fit_approved"
+    }
+  ]
+}

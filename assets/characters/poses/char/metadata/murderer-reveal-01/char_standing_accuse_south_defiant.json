@@ -1,0 +1,44 @@
+{
+  "pose_id": "standing_accuse_south",
+  "variant_id": "defiant",
+  "actor_facing": "south",
+  "posture": "standing",
+  "activity": "accuse",
+  "expression": "defiant",
+  "gesture": "pointing_toward_viewer_other_fist_at_side",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/murderer-reveal-01/char_standing_accuse_south_defiant.png",
+  "source_sha256": "015fb164aa4a93291d33ff8d83b01cac66a4aa2074c274da4996dfba9f7734ca",
+  "export": "assets/characters/poses/char/exports/south/char_standing_accuse_south_defiant.png",
+  "export_sha256": "015fb164aa4a93291d33ff8d83b01cac66a4aa2074c274da4996dfba9f7734ca",
+  "canvas": [
+    944,
+    1665
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "approved",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-25",
+      "source": "user",
+      "quote": "Yes approved the last one"
+    },
+    "scope": "South-facing defiant pointing accusation murderer reveal artwork only; runtime fit pending.",
+    "files": [
+      {
+        "path": "assets/characters/poses/char/exports/south/char_standing_accuse_south_defiant.png",
+        "sha256": "015fb164aa4a93291d33ff8d83b01cac66a4aa2074c274da4996dfba9f7734ca"
+      }
+    ]
+  },
+  "runtime_integrated": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "landmark_record": "assets/characters/poses/char/metadata/murderer-reveal-01/char_standing_accuse_south_defiant.json",
+  "intended_use": "Established murderer reveal defiant accusation; ordinary expressions do not establish guilt."
+}

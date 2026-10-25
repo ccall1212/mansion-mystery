@@ -1,0 +1,21 @@
+{
+  "status": "approved",
+  "tool": "built_in_imagegen",
+  "path": "assets/characters/poses/char/drafts/reach-table-01/char_standing_reach_table_east_neutral.png",
+  "sha256": "cc4e9a18216027502e9b0348f658384185fe4be469a36caca9eeb4680a7d6980",
+  "canvas": [
+    944,
+    1665
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "prompt": "East-facing Char reaching one hand forward at table/waist height, other arm relaxed at side, calm gaze following hand. Preserve approved costume, likeness and pixel-art rendering. Clean isolated full-body transparent cutout without glow, furniture or object.",
+  "runtime_integrated": false,
+  "approval_evidence": {
+    "date": "2026-10-25",
+    "source": "user",
+    "quote": "Approved continue"
+  }
+}

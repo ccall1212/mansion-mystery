@@ -1,0 +1,21 @@
+{
+  "status": "approved",
+  "tool": "built_in_imagegen",
+  "path": "assets/characters/poses/char/drafts/reach-table-01/char_standing_reach_table_south_neutral.png",
+  "sha256": "08f1d050ecf2e2b8ea97b57e191d1511fb72a377e62e57a093858379e9fd3269",
+  "canvas": [
+    944,
+    1665
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "prompt": "South-facing Char reaching one arm forward toward viewer at waist/table height, palm down with gently curved fingers and natural foreshortening, other arm relaxed at side, calm gaze following hand. Preserve approved east likeness, asymmetric costume and pixel-art style. Complete character on clean alpha transparency without glow, props or scenery.",
+  "runtime_integrated": false,
+  "approval_evidence": {
+    "date": "2026-10-25",
+    "source": "user",
+    "quote": "Looks good continue"
+  }
+}

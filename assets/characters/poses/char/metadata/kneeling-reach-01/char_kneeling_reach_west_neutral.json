@@ -1,0 +1,43 @@
+{
+  "pose_id": "kneeling_reach_west",
+  "variant_id": "neutral",
+  "actor_facing": "west",
+  "posture": "kneeling",
+  "activity": "reach",
+  "expression": "neutral",
+  "gesture": "one_hand_reaching_near_floor",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/kneeling-reach-01/char_kneeling_reach_west_neutral.png",
+  "source_sha256": "d0d4d6ed1201d06ff0f53cf52a96e2cad3a26e835af5f6eb13f65c7416271800",
+  "export": "assets/characters/poses/char/exports/west/char_kneeling_reach_west_neutral.png",
+  "export_sha256": "d0d4d6ed1201d06ff0f53cf52a96e2cad3a26e835af5f6eb13f65c7416271800",
+  "canvas": [
+    1383,
+    1137
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "approved",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-25",
+      "source": "user",
+      "quote": "yes"
+    },
+    "scope": "West-facing kneeling reach artwork only; runtime fit pending.",
+    "files": [
+      {
+        "path": "assets/characters/poses/char/exports/west/char_kneeling_reach_west_neutral.png",
+        "sha256": "d0d4d6ed1201d06ff0f53cf52a96e2cad3a26e835af5f6eb13f65c7416271800"
+      }
+    ]
+  },
+  "runtime_integrated": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "landmark_record": "assets/characters/poses/char/metadata/kneeling-reach-01/char_kneeling_reach_west_neutral.json"
+}

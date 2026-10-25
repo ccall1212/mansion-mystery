@@ -1,0 +1,21 @@
+{
+  "status": "approved",
+  "tool": "built_in_imagegen",
+  "path": "assets/characters/poses/char/drafts/reach-table-01/char_standing_reach_table_west_neutral.png",
+  "sha256": "18b47e7c90e02fb73e8013c90c3eb5f3a6e50fbad4eda168243bc9ca79436b35",
+  "canvas": [
+    944,
+    1666
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "prompt": "West-facing Char reaching one arm forward at waist/table height, palm down with gently curved fingers, other arm relaxed, calm gaze tracking hand. Independently draw west view preserving approved east likeness, costume asymmetry and pixel-art style. Complete character with clean alpha transparency, no glow, table, prop or scenery.",
+  "runtime_integrated": false,
+  "approval_evidence": {
+    "date": "2026-10-25",
+    "source": "user",
+    "quote": "Yes continue"
+  }
+}

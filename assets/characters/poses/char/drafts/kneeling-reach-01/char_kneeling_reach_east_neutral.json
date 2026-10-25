@@ -1,0 +1,21 @@
+{
+  "status": "approved",
+  "tool": "built_in_imagegen",
+  "path": "assets/characters/poses/char/drafts/kneeling-reach-01/char_kneeling_reach_east_neutral.png",
+  "sha256": "300ef57c9d8955c3d2dfbf35113de05263966d633783932757667231774c4f69",
+  "canvas": [
+    1383,
+    1137
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "prompt": "East-facing Char kneeling on one knee with other foot planted; one hand supports raised knee and other reaches near ground toward implied floor clue. Preserve approved costume, likeness and pixel-art style; complete character on clean alpha transparency without prop or furniture.",
+  "runtime_integrated": false,
+  "approval_evidence": {
+    "date": "2026-10-25",
+    "source": "user",
+    "quote": "Approve"
+  }
+}

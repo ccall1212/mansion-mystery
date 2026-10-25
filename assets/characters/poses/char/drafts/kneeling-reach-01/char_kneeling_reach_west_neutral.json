@@ -1,0 +1,21 @@
+{
+  "status": "approved",
+  "tool": "built_in_imagegen",
+  "path": "assets/characters/poses/char/drafts/kneeling-reach-01/char_kneeling_reach_west_neutral.png",
+  "sha256": "d0d4d6ed1201d06ff0f53cf52a96e2cad3a26e835af5f6eb13f65c7416271800",
+  "canvas": [
+    1383,
+    1137
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "prompt": "West-facing Char kneeling on one knee, opposite foot planted, one hand on raised knee and other reaching near ground toward implied floor clue. Independently draw west view preserving asymmetric costume, approved likeness and pixel-art style. Complete character on clean alpha transparency without furniture, prop or scenery.",
+  "runtime_integrated": false,
+  "approval_evidence": {
+    "date": "2026-10-25",
+    "source": "user",
+    "quote": "yes"
+  }
+}

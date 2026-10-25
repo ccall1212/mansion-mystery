@@ -4610,6 +4610,477 @@
           }
         ]
       }
+    },
+    "standing_reach_table_east_neutral": {
+      "pose_id": "standing_reach_table_east",
+      "variant_id": "neutral",
+      "actor_facing": "east",
+      "posture": "standing",
+      "activity": "reach_table",
+      "expression": "neutral",
+      "gesture": "one_hand_reaching_forward_at_waist",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/reach-table-01/char_standing_reach_table_east_neutral.png",
+      "source_sha256": "cc4e9a18216027502e9b0348f658384185fe4be469a36caca9eeb4680a7d6980",
+      "export": "assets/characters/poses/char/exports/east/char_standing_reach_table_east_neutral.png",
+      "export_sha256": "cc4e9a18216027502e9b0348f658384185fe4be469a36caca9eeb4680a7d6980",
+      "canvas": [
+        944,
+        1665
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "approved",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "Approved continue"
+        },
+        "scope": "East-facing table-height reach artwork only; runtime fit pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/east/char_standing_reach_table_east_neutral.png",
+            "sha256": "cc4e9a18216027502e9b0348f658384185fe4be469a36caca9eeb4680a7d6980"
+          }
+        ]
+      },
+      "runtime_integrated": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "landmark_record": "assets/characters/poses/char/metadata/reach-table-01/char_standing_reach_table_east_neutral.json"
+    },
+    "standing_reach_table_south_neutral": {
+      "pose_id": "standing_reach_table_south",
+      "variant_id": "neutral",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "reach_table",
+      "expression": "neutral",
+      "gesture": "one_hand_reaching_forward_at_waist",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/reach-table-01/char_standing_reach_table_south_neutral.png",
+      "source_sha256": "08f1d050ecf2e2b8ea97b57e191d1511fb72a377e62e57a093858379e9fd3269",
+      "export": "assets/characters/poses/char/exports/south/char_standing_reach_table_south_neutral.png",
+      "export_sha256": "08f1d050ecf2e2b8ea97b57e191d1511fb72a377e62e57a093858379e9fd3269",
+      "canvas": [
+        944,
+        1665
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "approved",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "Looks good continue"
+        },
+        "scope": "South-facing table-height reach artwork only; runtime fit pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/south/char_standing_reach_table_south_neutral.png",
+            "sha256": "08f1d050ecf2e2b8ea97b57e191d1511fb72a377e62e57a093858379e9fd3269"
+          }
+        ]
+      },
+      "runtime_integrated": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "landmark_record": "assets/characters/poses/char/metadata/reach-table-01/char_standing_reach_table_south_neutral.json"
+    },
+    "standing_reach_table_west_neutral": {
+      "pose_id": "standing_reach_table_west",
+      "variant_id": "neutral",
+      "actor_facing": "west",
+      "posture": "standing",
+      "activity": "reach_table",
+      "expression": "neutral",
+      "gesture": "one_hand_reaching_forward_at_waist",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/reach-table-01/char_standing_reach_table_west_neutral.png",
+      "source_sha256": "18b47e7c90e02fb73e8013c90c3eb5f3a6e50fbad4eda168243bc9ca79436b35",
+      "export": "assets/characters/poses/char/exports/west/char_standing_reach_table_west_neutral.png",
+      "export_sha256": "18b47e7c90e02fb73e8013c90c3eb5f3a6e50fbad4eda168243bc9ca79436b35",
+      "canvas": [
+        944,
+        1666
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "approved",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "Yes continue"
+        },
+        "scope": "West-facing table-height reach artwork only; runtime fit pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/west/char_standing_reach_table_west_neutral.png",
+            "sha256": "18b47e7c90e02fb73e8013c90c3eb5f3a6e50fbad4eda168243bc9ca79436b35"
+          }
+        ]
+      },
+      "runtime_integrated": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "landmark_record": "assets/characters/poses/char/metadata/reach-table-01/char_standing_reach_table_west_neutral.json"
+    },
+    "kneeling_reach_east_neutral": {
+      "pose_id": "kneeling_reach_east",
+      "variant_id": "neutral",
+      "actor_facing": "east",
+      "posture": "kneeling",
+      "activity": "reach",
+      "expression": "neutral",
+      "gesture": "one_hand_reaching_near_floor",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/kneeling-reach-01/char_kneeling_reach_east_neutral.png",
+      "source_sha256": "300ef57c9d8955c3d2dfbf35113de05263966d633783932757667231774c4f69",
+      "export": "assets/characters/poses/char/exports/east/char_kneeling_reach_east_neutral.png",
+      "export_sha256": "300ef57c9d8955c3d2dfbf35113de05263966d633783932757667231774c4f69",
+      "canvas": [
+        1383,
+        1137
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "approved",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "Approve"
+        },
+        "scope": "East-facing kneeling reach artwork only; runtime fit pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/east/char_kneeling_reach_east_neutral.png",
+            "sha256": "300ef57c9d8955c3d2dfbf35113de05263966d633783932757667231774c4f69"
+          }
+        ]
+      },
+      "runtime_integrated": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "landmark_record": "assets/characters/poses/char/metadata/kneeling-reach-01/char_kneeling_reach_east_neutral.json"
+    },
+    "kneeling_reach_south_neutral": {
+      "pose_id": "kneeling_reach_south",
+      "variant_id": "neutral",
+      "actor_facing": "south",
+      "posture": "kneeling",
+      "activity": "reach",
+      "expression": "neutral",
+      "gesture": "one_hand_reaching_near_floor",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/kneeling-reach-01/char_kneeling_reach_south_neutral.png",
+      "source_sha256": "a983ddcaac8a5a38eb1c06b1ea83dcc9cb0da9c37ab585c73b96226a94a49275",
+      "export": "assets/characters/poses/char/exports/south/char_kneeling_reach_south_neutral.png",
+      "export_sha256": "a983ddcaac8a5a38eb1c06b1ea83dcc9cb0da9c37ab585c73b96226a94a49275",
+      "canvas": [
+        1383,
+        1137
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "approved",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "yes approved"
+        },
+        "scope": "South-facing kneeling reach artwork only; runtime fit pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/south/char_kneeling_reach_south_neutral.png",
+            "sha256": "a983ddcaac8a5a38eb1c06b1ea83dcc9cb0da9c37ab585c73b96226a94a49275"
+          }
+        ]
+      },
+      "runtime_integrated": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "landmark_record": "assets/characters/poses/char/metadata/kneeling-reach-01/char_kneeling_reach_south_neutral.json"
+    },
+    "kneeling_reach_west_neutral": {
+      "pose_id": "kneeling_reach_west",
+      "variant_id": "neutral",
+      "actor_facing": "west",
+      "posture": "kneeling",
+      "activity": "reach",
+      "expression": "neutral",
+      "gesture": "one_hand_reaching_near_floor",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/kneeling-reach-01/char_kneeling_reach_west_neutral.png",
+      "source_sha256": "d0d4d6ed1201d06ff0f53cf52a96e2cad3a26e835af5f6eb13f65c7416271800",
+      "export": "assets/characters/poses/char/exports/west/char_kneeling_reach_west_neutral.png",
+      "export_sha256": "d0d4d6ed1201d06ff0f53cf52a96e2cad3a26e835af5f6eb13f65c7416271800",
+      "canvas": [
+        1383,
+        1137
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "approved",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "yes"
+        },
+        "scope": "West-facing kneeling reach artwork only; runtime fit pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/west/char_kneeling_reach_west_neutral.png",
+            "sha256": "d0d4d6ed1201d06ff0f53cf52a96e2cad3a26e835af5f6eb13f65c7416271800"
+          }
+        ]
+      },
+      "runtime_integrated": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "landmark_record": "assets/characters/poses/char/metadata/kneeling-reach-01/char_kneeling_reach_west_neutral.json"
+    },
+    "standing_laugh_south_evil": {
+      "pose_id": "standing_laugh_south",
+      "variant_id": "evil",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "laugh",
+      "expression": "evil",
+      "gesture": "hand_near_mouth_other_on_hip",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/murderer-reveal-01/char_standing_laugh_south_evil.png",
+      "source_sha256": "d7d6acc3360f1023b03a264488a6ae31878823fbe335d9098604ffc62ff26bcd",
+      "export": "assets/characters/poses/char/exports/south/char_standing_laugh_south_evil.png",
+      "export_sha256": "d7d6acc3360f1023b03a264488a6ae31878823fbe335d9098604ffc62ff26bcd",
+      "canvas": [
+        944,
+        1666
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "approved",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "approve"
+        },
+        "scope": "South-facing evil-laugh murderer reveal artwork only; runtime fit pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/south/char_standing_laugh_south_evil.png",
+            "sha256": "d7d6acc3360f1023b03a264488a6ae31878823fbe335d9098604ffc62ff26bcd"
+          }
+        ]
+      },
+      "runtime_integrated": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "landmark_record": "assets/characters/poses/char/metadata/murderer-reveal-01/char_standing_laugh_south_evil.json",
+      "intended_use": "Established murderer reveal only; not an ordinary personality or guilt indicator."
+    },
+    "standing_cry_south_remorseful": {
+      "pose_id": "standing_cry_south",
+      "variant_id": "remorseful",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "cry",
+      "expression": "remorseful",
+      "gesture": "both_hands_wiping_tears_sobbing",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/murderer-reveal-01/char_standing_cry_south_remorseful.png",
+      "source_sha256": "0cfa9173c7074885c719e331df8fe42572245ffb63378c83321b9d18ffcb4128",
+      "export": "assets/characters/poses/char/exports/south/char_standing_cry_south_remorseful.png",
+      "export_sha256": "0cfa9173c7074885c719e331df8fe42572245ffb63378c83321b9d18ffcb4128",
+      "canvas": [
+        944,
+        1665
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "approved",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "yes continue"
+        },
+        "scope": "South-facing sobbing revision v2 murderer reveal artwork only; runtime fit pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/south/char_standing_cry_south_remorseful.png",
+            "sha256": "0cfa9173c7074885c719e331df8fe42572245ffb63378c83321b9d18ffcb4128"
+          }
+        ]
+      },
+      "runtime_integrated": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "landmark_record": "assets/characters/poses/char/metadata/murderer-reveal-01/char_standing_cry_south_remorseful.json",
+      "intended_use": "Established murderer remorseful reveal; not an ordinary guilt indicator."
+    },
+    "standing_accuse_south_defiant": {
+      "pose_id": "standing_accuse_south",
+      "variant_id": "defiant",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "accuse",
+      "expression": "defiant",
+      "gesture": "pointing_toward_viewer_other_fist_at_side",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/murderer-reveal-01/char_standing_accuse_south_defiant.png",
+      "source_sha256": "015fb164aa4a93291d33ff8d83b01cac66a4aa2074c274da4996dfba9f7734ca",
+      "export": "assets/characters/poses/char/exports/south/char_standing_accuse_south_defiant.png",
+      "export_sha256": "015fb164aa4a93291d33ff8d83b01cac66a4aa2074c274da4996dfba9f7734ca",
+      "canvas": [
+        944,
+        1665
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "approved",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "Yes approved the last one"
+        },
+        "scope": "South-facing defiant pointing accusation murderer reveal artwork only; runtime fit pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/south/char_standing_accuse_south_defiant.png",
+            "sha256": "015fb164aa4a93291d33ff8d83b01cac66a4aa2074c274da4996dfba9f7734ca"
+          }
+        ]
+      },
+      "runtime_integrated": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "landmark_record": "assets/characters/poses/char/metadata/murderer-reveal-01/char_standing_accuse_south_defiant.json",
+      "intended_use": "Established murderer reveal defiant accusation; ordinary expressions do not establish guilt."
+    },
+    "standing_threaten_south_furious": {
+      "pose_id": "standing_threaten_south",
+      "variant_id": "furious",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "threaten",
+      "expression": "furious",
+      "gesture": "raised_fist_shouting_forward_stance",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/murderer-reveal-01/char_standing_threaten_south_furious.png",
+      "source_sha256": "e14dda8a515f46a03cbfaed851c8df23135a1ef6c142362435e5419ae43260b7",
+      "export": "assets/characters/poses/char/exports/south/char_standing_threaten_south_furious.png",
+      "export_sha256": "e14dda8a515f46a03cbfaed851c8df23135a1ef6c142362435e5419ae43260b7",
+      "canvas": [
+        944,
+        1665
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "approved",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "Yes"
+        },
+        "scope": "South-facing furious threat artwork; user approved intensity and presented image. Runtime fit pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/south/char_standing_threaten_south_furious.png",
+            "sha256": "e14dda8a515f46a03cbfaed851c8df23135a1ef6c142362435e5419ae43260b7"
+          }
+        ]
+      },
+      "runtime_integrated": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "landmark_record": "assets/characters/poses/char/metadata/murderer-reveal-01/char_standing_threaten_south_furious.json",
+      "intended_use": "Explicit story-established threat/confrontation; not an ordinary guilt indicator.",
+      "notes": "User approved presented tight framing; runtime anchor and silhouette fit remain pending."
     }
+  },
+  "reach_table_production_scope": {
+    "directions": [
+      "east",
+      "south",
+      "west"
+    ],
+    "status": "artwork_approved_east_south_west",
+    "runtime_integrated": false
+  },
+  "low_reach_production_scope": {
+    "status": "cancelled_by_user",
+    "reason": "User prefers neutral and kneeling reach; bent-standing draft not approved."
+  },
+  "kneeling_reach_production_scope": {
+    "directions": [
+      "east",
+      "south",
+      "west"
+    ],
+    "status": "artwork_approved_east_south_west",
+    "runtime_integrated": false
+  },
+  "murderer_reveal_production_scope": {
+    "directions": [
+      "south"
+    ],
+    "variants": [
+      "evil_laugh",
+      "remorseful_crying",
+      "defiant_accusation",
+      "furious_threat"
+    ],
+    "status": "artwork_approved_all_four_south",
+    "runtime_integrated": false,
+    "notes": "User requested south-only murderer reveal artwork. Ordinary emotions do not establish guilt."
   }
 }

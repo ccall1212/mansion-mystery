@@ -1,0 +1,43 @@
+{
+  "pose_id": "kneeling_reach_south",
+  "variant_id": "neutral",
+  "actor_facing": "south",
+  "posture": "kneeling",
+  "activity": "reach",
+  "expression": "neutral",
+  "gesture": "one_hand_reaching_near_floor",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/kneeling-reach-01/char_kneeling_reach_south_neutral.png",
+  "source_sha256": "a983ddcaac8a5a38eb1c06b1ea83dcc9cb0da9c37ab585c73b96226a94a49275",
+  "export": "assets/characters/poses/char/exports/south/char_kneeling_reach_south_neutral.png",
+  "export_sha256": "a983ddcaac8a5a38eb1c06b1ea83dcc9cb0da9c37ab585c73b96226a94a49275",
+  "canvas": [
+    1383,
+    1137
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "approved",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-25",
+      "source": "user",
+      "quote": "yes approved"
+    },
+    "scope": "South-facing kneeling reach artwork only; runtime fit pending.",
+    "files": [
+      {
+        "path": "assets/characters/poses/char/exports/south/char_kneeling_reach_south_neutral.png",
+        "sha256": "a983ddcaac8a5a38eb1c06b1ea83dcc9cb0da9c37ab585c73b96226a94a49275"
+      }
+    ]
+  },
+  "runtime_integrated": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "landmark_record": "assets/characters/poses/char/metadata/kneeling-reach-01/char_kneeling_reach_south_neutral.json"
+}

@@ -1,5 +1,15 @@
 # Testing and validation
 
+## Original dialogue data audit — 2026-10-25
+
+`python tools/audit_original_dialogue.py` verifies all 33 archive entries against
+the preserved inventory and local reference, then checks fixed-width tables:
+ALIBI1 36×70, ALIBI2 56×188, ACT.V1/V2 120×55 each, WEAPN.V1/V2 33×220 each,
+including delimiters, trailing padding, manually identified confession slots and
+empty object slots. Full decoded output is restricted to ignored test-results.
+No original executable/script ran or was decompiled; no new runtime observation
+or gameplay regression result is claimed. See DIALOGUE_RANDOMIZATION_DESIGN.md.
+
 ## Char alignment_01 review assets
 
 Seven separate built-in image-generation jobs produced transparent masters. The native Compatibility review tool completed without Godot errors, verified pixel-preserving blank padding, and captured a comparison, three contexts and a closeup sheet. `python tools/validate_char_alignment.py` passes source/input hashes, seven RGBA assets, padded pixel recovery/margins, contact offsets, common scale, shorter seated extents, exact furniture IDs and five image dimensions. Reports: `test-results/char-alignment-review.log` and `test-results/char-alignment-validation.json`. No runtime code or game integration changed, so the full gameplay suite was not rerun. The user subsequently approved the seven artwork samples. Masks, collision/navigation/occupancy and actual fit remain pending. See [the review](CHAR_ALIGNMENT_01_REVIEW.md).

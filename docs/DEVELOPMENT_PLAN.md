@@ -1,5 +1,13 @@
 # Prioritized development plan
 
+Dialogue research update (2026-10-25): [the full original-data audit and proposed
+randomization design](DIALOGUE_RANDOMIZATION_DESIGN.md) separates identities,
+personalities, case roles, timelines, knowledge and claims. Proposed next dialogue
+slice: preserve the authored first-case facts while reviewing a small set of
+equivalent voice/repeat/accusation responses, then add a constrained case generator.
+This is research/planning only; randomized cases, personality selection and general
+NPC activity staging were not implemented by the audit.
+
 **Current compact scope:** four ground-floor rooms, two upstairs rooms and one
 basement room, plus a main stair hall and upstairs landing (nine spaces total).
 Every active background is unique. Earlier 18-space descriptions below are historical.

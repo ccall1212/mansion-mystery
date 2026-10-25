@@ -1,6 +1,6 @@
 # Mansion Mystery
 
-**Version 0.1.2 · Early playable prototype**
+**Version 0.1.3 · Early playable prototype**
 
 A pixel-art murder mystery set inside a secluded mansion. The doors are locked,
 the guests have conflicting stories, and someone in the house is hiding the truth.

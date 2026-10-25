@@ -1,0 +1,44 @@
+{
+  "pose_id": "standing_cry_south",
+  "variant_id": "remorseful",
+  "actor_facing": "south",
+  "posture": "standing",
+  "activity": "cry",
+  "expression": "remorseful",
+  "gesture": "both_hands_wiping_tears_sobbing",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/murderer-reveal-01/char_standing_cry_south_remorseful.png",
+  "source_sha256": "0cfa9173c7074885c719e331df8fe42572245ffb63378c83321b9d18ffcb4128",
+  "export": "assets/characters/poses/char/exports/south/char_standing_cry_south_remorseful.png",
+  "export_sha256": "0cfa9173c7074885c719e331df8fe42572245ffb63378c83321b9d18ffcb4128",
+  "canvas": [
+    944,
+    1665
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "approved",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-25",
+      "source": "user",
+      "quote": "yes continue"
+    },
+    "scope": "South-facing sobbing revision v2 murderer reveal artwork only; runtime fit pending.",
+    "files": [
+      {
+        "path": "assets/characters/poses/char/exports/south/char_standing_cry_south_remorseful.png",
+        "sha256": "0cfa9173c7074885c719e331df8fe42572245ffb63378c83321b9d18ffcb4128"
+      }
+    ]
+  },
+  "runtime_integrated": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "landmark_record": "assets/characters/poses/char/metadata/murderer-reveal-01/char_standing_cry_south_remorseful.json",
+  "intended_use": "Established murderer remorseful reveal; not an ordinary guilt indicator."
+}

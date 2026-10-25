@@ -1,0 +1,43 @@
+{
+  "pose_id": "standing_reach_table_west",
+  "variant_id": "neutral",
+  "actor_facing": "west",
+  "posture": "standing",
+  "activity": "reach_table",
+  "expression": "neutral",
+  "gesture": "one_hand_reaching_forward_at_waist",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/reach-table-01/char_standing_reach_table_west_neutral.png",
+  "source_sha256": "18b47e7c90e02fb73e8013c90c3eb5f3a6e50fbad4eda168243bc9ca79436b35",
+  "export": "assets/characters/poses/char/exports/west/char_standing_reach_table_west_neutral.png",
+  "export_sha256": "18b47e7c90e02fb73e8013c90c3eb5f3a6e50fbad4eda168243bc9ca79436b35",
+  "canvas": [
+    944,
+    1666
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "approved",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-25",
+      "source": "user",
+      "quote": "Yes continue"
+    },
+    "scope": "West-facing table-height reach artwork only; runtime fit pending.",
+    "files": [
+      {
+        "path": "assets/characters/poses/char/exports/west/char_standing_reach_table_west_neutral.png",
+        "sha256": "18b47e7c90e02fb73e8013c90c3eb5f3a6e50fbad4eda168243bc9ca79436b35"
+      }
+    ]
+  },
+  "runtime_integrated": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "landmark_record": "assets/characters/poses/char/metadata/reach-table-01/char_standing_reach_table_west_neutral.json"
+}

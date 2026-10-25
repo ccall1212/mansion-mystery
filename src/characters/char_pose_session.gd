@@ -28,6 +28,15 @@ func select(house: RefCounted, requested_pose := "") -> bool:
 	for asset in choices:
 		var candidates: Array = []
 		if asset.posture == "seated":
+			var fit: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://assets/characters/poses/char/library-fit-review.json"))
+			if house.rooms.has("g_library") and house.rooms.g_library.asset == fit.background:
+				for sample in fit.samples:
+					if sample.approval != "approved" or sample.pose_id != asset.pose_id: continue
+					var record: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://"+asset.landmark_record))
+					var seat := Vector2(sample.contact[0],sample.contact[1])+Vector2(0,24)
+					var feet := Vector2(record.source_landmarks.feet[0]+record.export_padding[0],record.source_landmarks.feet[1]+record.export_padding[1])
+					var floor := Appearance.floor_from_contact(seat,Vector2(record.export_contact[0],record.export_contact[1]),feet,float(asset.standing_reference_height))
+					candidates.append({"room":"g_library","position":[floor.x,floor.y],"contact_key":sample.contact_id,"contact_position":[seat.x,seat.y]})
 			var key: PackedStringArray = str(asset.fit_contact).split("::")
 			var room_id: String = key[0]
 			for item in house.furniture_for_room(room_id).get("instances",[]):

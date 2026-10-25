@@ -1,0 +1,7 @@
+[gd_scene load_steps=3 format=3]
+
+[ext_resource type="PackedScene" path="res://src/mansion/playable_mansion.tscn" id="1"]
+[ext_resource type="Script" path="res://src/characters/char_library_live.gd" id="2"]
+
+[node name="Mansion" instance=ExtResource("1")]
+script = ExtResource("2")

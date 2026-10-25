@@ -7,7 +7,7 @@ The seven-room scope is retained; a bar and bathroom are future expansion option
 | Room | Review | Required change | Target usable openings |
 | --- | --- | --- | --- |
 | `g_foyer` | Connection gap still open | Resolve the bent south vestibule when revising the entrance layout. Keep the north/front door locked. | N locked front door; S internal passage |
-| `g_main_stair` | User: “looks alright” | Preserve the current appearance; still validate doorway/flight pairing. | W library; S foyer; separate upstairs flight |
+| `g_main_stair` | Revised request 2026-10-24 | One straight flight directly to a visible north door; no twist, return or wrapping balcony. Keep west library doorway and south foyer threshold. | N upstairs door at top of flight; W library; S foyer |
 | `g_library` | Rework | Remove the case/ladder in front of the window. Separate chair, side table and shelving with accessible pose space. No ambiguous stool/chair cluster. | W and E only |
 | `g_dining` | Rework | Real adult-sized dining table and usable chairs. Remove the unused lower exit; maintain walkable routes around furniture. | W and E only |
 | `g_kitchen` | Rework | Create an actual kitchen: range/hearth, prep surface, sink/basin and food storage. Preserve the current bar-like art as a future bar reference. A future bar needs distinct stools facing the counter and their own seat anchors. | E dining; S basement stairs |
@@ -40,6 +40,28 @@ separately from screen side. Windows are tagged as windows, not route openings.
 
 ## Production and approval
 
+### Current generated batch — 2026-10-24
+
+[Review all nine new drafts](../assets/rooms/revisions/2026-10-24-room-rework/index.html).
+The user authorized recreation using the room-specific feedback and a new straight
+main staircase ending at a door. Eight active-room candidates and a separate future
+bar concept were created through the built-in image-generation workflow, one image
+per request. All are 1536×1024 opaque masters. Exact prompts, reference/output hashes,
+door-side requirements and provisional marker locations are in the sibling
+`manifest.json`. The library candidate in this batch leaves the window approach
+clear and moves the reading chair away from it; the earlier v2 remains a prior draft.
+
+**All candidates await user approval.** No runtime background, collision, furniture
+layout, chair mask or room graph was changed. The bar is not a new playable room.
+The kitchen candidate contains a small work stool despite its exclusion in the
+prompt; the gallery flags it for a keep/remove decision. The doorway catalog stores
+these entries as inactive candidates. Review labels are HTML/SVG overlays rather
+than baked image pixels. Do not infer staging approval from attractive empty floor.
+
+The straight stair's new axis and all revised furniture require fresh calibration
+after art approval. Preserve the south/bottom upstairs arrival facing north when
+integrating the landing. No extra upstairs bathroom or active bar was added.
+
 Every replacement brief fixes door count/sides before generation. No extra arches,
 fake exits, blocked windows, fused furniture or redundant clutter. Keep deliberate
 pixel clusters, consistent projection, readable furniture silhouettes and adult
@@ -64,3 +86,18 @@ threshold `[240,326]`. That navigation contract is preserved; the replacement ar
 must depict the same orientation. The main stair return is separate and unchanged.
 
 Review: [current rooms, doorway labels and rework notes](../test-results/compact-mansion/index.html).
+
+
+### Furnishing density revision — 2026-10-24
+
+User requested useful furniture in the bar/study middle and lower floor instead
+of broad empty space and an isolated rug. Current v2 candidates add a round pub
+table with four chairs in the bar, and a four-chair document/conversation table
+on a fitted rectangular rug in the study. Retain access aisles, window approaches
+and stool clearance. Both remain unapproved drafts. Revision prompts and previous
+candidate records are in the batch manifest and revision-requests.json.
+
+2026-10-24 library revision: user approved the other eight gallery designs and requested a fuller library with EAST/SOUTH entrances and west-wall bookshelves. Candidate g_library_n0_e1_s1_w0_draft_v2.png uses the built-in image-generation edit workflow; exact prompt/input/output hashes are in the batch manifest. Library v2 awaits review. Before integration, redesign reciprocal connections for the changed west-to-south entrance and recalibrate all furniture contacts, masks and collision. Runtime routes remain unchanged.
+
+
+Library v3: user authorized enlargement of the four undersized reading-table chairs. Built-in image edit produced g_library_n0_e1_s1_w0_draft_v3.png, preserving east/south entrances and existing room composition. Gallery now compares v2 with v3. Artwork review and Char contact-fit remain pending; no runtime background or furniture anchors changed.

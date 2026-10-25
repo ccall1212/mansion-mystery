@@ -1,0 +1,860 @@
+{
+  "schema_version": 1,
+  "batch_id": "room_rework_2026_10_24",
+  "date": "2026-10-24",
+  "status": "eight_rooms_integrated_future_bar_reserved",
+  "authorization": "User requested straight staircase ending at a door, then recreation using all prior room notes.",
+  "generation_method": "built-in image_gen; one request per draft",
+  "scope": "Eight active-room revisions plus future bar concept. Foyer remains unchanged. No runtime integration or new game room.",
+  "jobs": [
+    {
+      "id": "g_main_stair",
+      "name": "Straight stair hall",
+      "source": "assets/rooms/room-dark-stairwell.png",
+      "doors": {
+        "north": 1,
+        "east": 0,
+        "south": 1,
+        "west": 1
+      },
+      "brief": "Replace the twisting/returning staircase with ONE STRAIGHT flight, seen head-on, rising directly toward a CLOSED WOODEN DOOR on the north/back wall. Place the flight on the right half of the room; its foot and the top door share exactly the same vertical centerline. Treads ascend straight away from the viewer with parallel side rails; no bend, no corner, no side flight, no wrapping balcony. The top tread meets a small flat landing directly against the door threshold; no stair treads disappearing behind a wall. Exactly THREE route openings: the upstairs door at the top of that straight north staircase, one west/left doorway to the library, and one centered south/bottom foreground threshold to the foyer. Remove the obsolete separate balcony door. No east doorway. Keep a readable lower floor connecting the west door and south threshold to the stair foot. Simple wall paneling, a clear window off the stair axis, restrained sconces.",
+      "prompt": "Use case: precise-object-edit. Produce ONE opaque 3:2 landscape background draft for a 2D Victorian mansion mystery game, ideally 1536x1024. The first reference is the edit target; preserve its illustrated pixel-art rendering, dark walnut, teal/slate stone and moonlit windows, brass and warm candlelight, crisp grouped pixel clusters and restrained material texture. Fixed elevated three-quarter orthographic cutaway room, horizontal back-wall lines, consistent depth, no wide-angle distortion or photographic/3D rendering. Readable adult-scale furniture in separate coherent functional clusters, clear paths and approach space. No characters, UI, text, compass labels, borders, floor arrows, bodies or baked evidence. No extra door-like arches, no melted ornament or fused furniture. Labels and contact metadata will be separate. This is a review candidate, not a runtime replacement.\n\nROOM: g_main_stair\nReplace the twisting/returning staircase with ONE STRAIGHT flight, seen head-on, rising directly toward a CLOSED WOODEN DOOR on the north/back wall. Place the flight on the right half of the room; its foot and the top door share exactly the same vertical centerline. Treads ascend straight away from the viewer with parallel side rails; no bend, no corner, no side flight, no wrapping balcony. The top tread meets a small flat landing directly against the door threshold; no stair treads disappearing behind a wall. Exactly THREE route openings: the upstairs door at the top of that straight north staircase, one west/left doorway to the library, and one centered south/bottom foreground threshold to the foyer. Remove the obsolete separate balcony door. No east doorway. Keep a readable lower floor connecting the west door and south threshold to the stair foot. Simple wall paneling, a clear window off the stair axis, restrained sconces.",
+      "filename": "g_main_stair_n1_e0_s1_w1_draft_v1.png",
+      "path": "assets/rooms/revisions/2026-10-24-room-rework/g_main_stair_n1_e0_s1_w1_draft_v1.png",
+      "status": "art_approved_fit_pending",
+      "reference_inputs": [
+        {
+          "path": "assets/rooms/room-dark-stairwell.png",
+          "sha256": "cd2fb05ade2fc2b093cd654b3af8067e28b354cca03bae2d7f07757e7db8e624"
+        }
+      ],
+      "door_positions": [
+        {
+          "id": "door_north_1",
+          "side": "north",
+          "position": [
+            320,
+            44
+          ],
+          "role": "upstairs_door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_west_2",
+          "side": "west",
+          "position": [
+            17,
+            175
+          ],
+          "role": "library_door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_south_3",
+          "side": "south",
+          "position": [
+            240,
+            309
+          ],
+          "role": "foyer_threshold",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "runtime_integrated": true,
+      "furniture_status": "tagged_provisional_contacts_not_staging_ready",
+      "approval": "approved",
+      "visual_checks": "Manual draft review: intended doorway sides visible. Furniture contact, reachability, occlusion, scale and collision require calibration after artwork review.",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "12682cb6b087ee04e1edf2914f6eb866b9785400e4d2de5ce88d27e583f60221",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-24",
+          "source": "user message reviewing room gallery",
+          "quote": "Everything looks great, but the new library still seems bare. Maybe turn the library into an East, South door room and then you can also put bookshelves on the West Side again"
+        },
+        "scope": "Artwork only; furniture calibration, collision and runtime integration remain pending.",
+        "files": [
+          {
+            "path": "assets/rooms/revisions/2026-10-24-room-rework/g_main_stair_n1_e0_s1_w1_draft_v1.png",
+            "sha256": "12682cb6b087ee04e1edf2914f6eb866b9785400e4d2de5ce88d27e583f60221"
+          }
+        ],
+        "retention": "Keep selected artwork and necessary source metadata."
+      },
+      "furniture_layout": "res://assets/furniture/layouts/g_main_stair_rework_v1.json"
+    },
+    {
+      "id": "g_library",
+      "name": "Library with larger adult-scale reading chairs",
+      "source": "assets/rooms/revisions/2026-10-24-room-rework/g_library_n0_e1_s1_w0_draft_v2.png",
+      "doors": {
+        "north": 0,
+        "east": 1,
+        "south": 1,
+        "west": 0
+      },
+      "brief": "Enlarge the four reading-table chairs approximately 20ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬Ã…â€œ25 percent; preserve the east/south doors, west shelves and room composition. Char seat-contact fit remains untested.",
+      "prompt": "Precise local edit of the provided pixel-art Victorian library. Keep the exact 1536x1024 landscape composition, east/right door, south/bottom entrance, west bookshelves, north window, all architecture, table position and size, desk, armchairs, rugs, book cart, lighting and pixel-art rendering unchanged as closely as possible. Change ONLY the FOUR small green upholstered wooden chairs around the rectangular reading table at center-left. They currently look miniature. Enlarge their usable seats and overall chair bodies by approximately 20ÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¢ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡Ãƒâ€šÃ‚Â¬ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬Ãƒâ€¦Ã¢â‚¬Å“25 percent to believable adult scale, comparable to the green desk chair at right, while preserving ordinary slender wooden reading-chair designs (not bulky armchairs). Two chairs behind the table facing the viewer, two in front facing away. Make their seat surfaces wide enough for an adult pelvis, correct legs reaching the floor, consistent seat heights relative to the unchanged tabletop. Preserve all four chairs individually with correct perspective and chair/table occlusion; rear chair lower portions can naturally be hidden by tabletop. Chair backs should rise clearly above table when appropriate, front chair seats and legs readable. Keep adequate separation between adjacent chairs and do not fuse legs into table legs. Do not enlarge the table or redesign the rest of the room. Keep right-side walking lane and south entrance clear. No characters, labels, arrows, borders or UI. Crisp detailed illustrated pixel art, not photographic.",
+      "filename": "g_library_n0_e1_s1_w0_draft_v3.png",
+      "path": "assets/rooms/revisions/2026-10-24-room-rework/g_library_n0_e1_s1_w0_draft_v3.png",
+      "status": "art_approved_fit_pending",
+      "reference_inputs": [
+        {
+          "path": "assets/rooms/revisions/2026-10-24-room-rework/g_library_n0_e1_s1_w0_draft_v2.png",
+          "sha256": "c996e437f2c3a4fbc7321fd04dd0d8a01b9c316fcd6b54e01d06c1dd6936cc96"
+        }
+      ],
+      "door_positions": [
+        {
+          "id": "door_east_1",
+          "side": "east",
+          "position": [
+            465,
+            146
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_south_2",
+          "side": "south",
+          "position": [
+            277,
+            309
+          ],
+          "role": "threshold",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "runtime_integrated": true,
+      "furniture_status": "tagged_provisional_contacts_not_staging_ready",
+      "approval": "approved",
+      "visual_checks": "Four reading chairs are visibly enlarged; east and south entrances retained. Seated Char contact, leg/skirt clearance, masks and exact shared size measurements remain untested.",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "d5af27ada3c3dfa12a6433b37bd61de5927f7ecfc51a60823bd77e20a2374bb0",
+      "previous_versions": [
+        {
+          "id": "g_library",
+          "name": "Library with clear window access",
+          "source": "assets/rooms/room-library.png",
+          "doors": {
+            "north": 0,
+            "east": 1,
+            "south": 0,
+            "west": 1
+          },
+          "brief": "Exactly TWO openings: WEST and EAST side-wall doorways; no north or south opening. Remove the projecting shelf/ladder and small stool cluster. Back-wall shelves rest only against solid wall, with a clear back-wall window on the left half. Crucially leave a FULL EMPTY STANDING AREA directly below/in front of the window and open standing positions to its left/right, for characters looking up. NO CHAIR OR TABLE under the window. Move the single red upholstered reading armchair into a separate lower-left reading zone, away from window and west doorway, facing toward the viewer; leave clear approach on both sides and in front. A small side table may sit visibly separate beside the chair. A wooden writing desk on the right has leg room and clear access, without blocking east doorway. Shelves, window, chair and table never overlap one another. Clear east-west route and lower floor; eliminate foreground clutter.",
+          "prompt": "Use case: precise-object-edit. Produce ONE opaque 3:2 landscape background draft for a 2D Victorian mansion mystery game, ideally 1536x1024. The first reference is the edit target; preserve its illustrated pixel-art rendering, dark walnut, teal/slate stone and moonlit windows, brass and warm candlelight, crisp grouped pixel clusters and restrained material texture. Fixed elevated three-quarter orthographic cutaway room, horizontal back-wall lines, consistent depth, no wide-angle distortion or photographic/3D rendering. Readable adult-scale furniture in separate coherent functional clusters, clear paths and approach space. No characters, UI, text, compass labels, borders, floor arrows, bodies or baked evidence. No extra door-like arches, no melted ornament or fused furniture. Labels and contact metadata will be separate. This is a review candidate, not a runtime replacement.\n\nROOM: g_library\nExactly TWO openings: WEST and EAST side-wall doorways; no north or south opening. Remove the projecting shelf/ladder and small stool cluster. Back-wall shelves rest only against solid wall, with a clear back-wall window on the left half. Crucially leave a FULL EMPTY STANDING AREA directly below/in front of the window and open standing positions to its left/right, for characters looking up. NO CHAIR OR TABLE under the window. Move the single red upholstered reading armchair into a separate lower-left reading zone, away from window and west doorway, facing toward the viewer; leave clear approach on both sides and in front. A small side table may sit visibly separate beside the chair. A wooden writing desk on the right has leg room and clear access, without blocking east doorway. Shelves, window, chair and table never overlap one another. Clear east-west route and lower floor; eliminate foreground clutter.",
+          "filename": "g_library_n0_e1_s0_w1_draft_v1.png",
+          "path": "assets/rooms/revisions/2026-10-24-room-rework/g_library_n0_e1_s0_w1_draft_v1.png",
+          "status": "superseded_after_user_revision_request",
+          "reference_inputs": [
+            {
+              "path": "assets/rooms/room-library.png",
+              "sha256": "83ba1e7abb424ff8d5923c29798c47682affbb8d18adcd434990d686d1fcf618"
+            }
+          ],
+          "door_positions": [
+            {
+              "id": "door_east_1",
+              "side": "east",
+              "position": [
+                465,
+                150
+              ],
+              "role": "door",
+              "position_status": "visual_estimate_not_trigger"
+            },
+            {
+              "id": "door_west_2",
+              "side": "west",
+              "position": [
+                15,
+                145
+              ],
+              "role": "door",
+              "position_status": "visual_estimate_not_trigger"
+            }
+          ],
+          "runtime_integrated": false,
+          "furniture_status": "not_calibrated",
+          "approval": "pending",
+          "visual_checks": "Manual draft review: intended doorway sides visible. Furniture contact, reachability, occlusion, scale and collision require calibration after artwork review.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGB",
+          "sha256": "cf134641cd11b93d7d04473339348828ee424611dd232bfa8181feb374f24133"
+        },
+        {
+          "id": "g_library",
+          "name": "Library with west shelves and east/south entrances",
+          "source": "assets/rooms/room-library.png",
+          "doors": {
+            "north": 0,
+            "east": 1,
+            "south": 1,
+            "west": 0
+          },
+          "brief": "Two entrances: east and south. Closed west wall with bookshelves; reading table and reading nook, librarian desk and book cart. Clear approaches and circulation require calibration.",
+          "prompt": "Edit the referenced library background into a richer, fully furnished Victorian mansion library for the SAME 2D mystery game. Opaque landscape 1536x1024, same elevated three-quarter cutaway camera, detailed illustrated pixel-art clusters, walnut carved wood, slate/teal floor, cool moonlight and warm candles. Preserve style and quality. CRITICAL ROUTING: exactly TWO room entrances: one EAST/right wall door, and one SOUTH/bottom foreground entrance centered slightly right of center. NO west doorway and NO north doorway. Completely replace the old left/west doorway with floor-to-ceiling bookcases on the west wall, shown in correct side perspective. Fill both north and west walls with believable densely filled bookshelves, keeping the north stained-glass window visible and completely unobstructed. Make room less bare through purposeful furniture clusters: left-middle cozy reading nook with TWO distinct upholstered armchairs and a small shared side table on a correctly fitted rug; center-left a substantial rectangular reading table with open books and two clearly separate chairs; upper/right a wooden librarian desk and its own chair positioned away from the east entrance. Add a small rolling book cart near shelves with clear space around it. Don't fill it with random clutter. Keep a continuous broad walkable route from east doorway through center-right to south foreground entrance, clear approaches to shelves, window and chairs. Avoid furniture crossing other furniture, bookshelves in front of windows, fused chairs, oversized empty lower floor, isolated misplaced rugs, extra arches or false doorways. Bottom entrance must be visibly readable as a gap/threshold in a low foreground boundary with short wall returns either side; do not make another room beyond it or add a north entrance. No characters, text, UI, compass letters, borders, evidence or floor arrows. Draft artwork only; furniture contacts will be authored separately.",
+          "filename": "g_library_n0_e1_s1_w0_draft_v2.png",
+          "path": "assets/rooms/revisions/2026-10-24-room-rework/g_library_n0_e1_s1_w0_draft_v2.png",
+          "status": "superseded_chair_scale_revision",
+          "reference_inputs": [
+            {
+              "path": "assets/rooms/revisions/2026-10-24-room-rework/g_library_n0_e1_s0_w1_draft_v1.png",
+              "sha256": "cf134641cd11b93d7d04473339348828ee424611dd232bfa8181feb374f24133"
+            }
+          ],
+          "door_positions": [
+            {
+              "id": "door_east_1",
+              "side": "east",
+              "position": [
+                465,
+                146
+              ],
+              "role": "door",
+              "position_status": "visual_estimate_not_trigger"
+            },
+            {
+              "id": "door_south_2",
+              "side": "south",
+              "position": [
+                277,
+                309
+              ],
+              "role": "threshold",
+              "position_status": "visual_estimate_not_trigger"
+            }
+          ],
+          "runtime_integrated": false,
+          "furniture_status": "not_calibrated",
+          "approval": "pending",
+          "visual_checks": "Manual draft review: intended doorway sides visible. Furniture contact, reachability, occlusion, scale and collision require calibration after artwork review.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGB",
+          "sha256": "c996e437f2c3a4fbc7321fd04dd0d8a01b9c316fcd6b54e01d06c1dd6936cc96",
+          "layout_dependency": "Replaces west entrance with south entrance; reciprocal mansion connections and arrival coordinates must be redesigned before integration. No runtime route changed."
+        }
+      ],
+      "layout_dependency": "Replaces west entrance with south entrance; reciprocal mansion connections and arrival coordinates must be redesigned before integration. No runtime route changed.",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-24",
+          "source": "user message",
+          "quote": "Looks good. Go ahead and create the furniture id's and continue"
+        },
+        "scope": "Library v3 artwork approval and authorization for furniture tagging; pose fit and runtime integration remain separate.",
+        "files": [
+          {
+            "path": "assets/rooms/revisions/2026-10-24-room-rework/g_library_n0_e1_s1_w0_draft_v3.png",
+            "sha256": "d5af27ada3c3dfa12a6433b37bd61de5927f7ecfc51a60823bd77e20a2374bb0"
+          }
+        ],
+        "retention": "Keep selected artwork and necessary source metadata."
+      },
+      "furniture_layout": "res://assets/furniture/layouts/g_library_rework_v3.json"
+    },
+    {
+      "id": "g_dining",
+      "name": "Dining room with a real table",
+      "source": "assets/rooms/room-reception-hall-alternate.png",
+      "doors": {
+        "north": 0,
+        "east": 1,
+        "south": 0,
+        "west": 1
+      },
+      "brief": "Make this a true formal dining room. Exactly TWO doorways, WEST and EAST. Remove the unused lower/south exit and its railing-gap/runner; bottom edge is continuous room floor, not a passage. Place one elegant adult-sized rectangular dining table oriented horizontally, with SIX clearly separate dining chairs: two along its north side, two along south side, one at each short end. Chairs must have readable seats/backs/legs and logical directions facing the table; not fused into tabletop. Leave a generous walkable ring around the table and clear west/east doorway approaches. Sideboard against solid north wall, modest table setting and candle centerpiece, no sofas or bar. Keep window and fireplace separate from furniture; avoid blocking readable chair silhouettes.",
+      "prompt": "Use case: precise-object-edit. Produce ONE opaque 3:2 landscape background draft for a 2D Victorian mansion mystery game, ideally 1536x1024. The first reference is the edit target; preserve its illustrated pixel-art rendering, dark walnut, teal/slate stone and moonlit windows, brass and warm candlelight, crisp grouped pixel clusters and restrained material texture. Fixed elevated three-quarter orthographic cutaway room, horizontal back-wall lines, consistent depth, no wide-angle distortion or photographic/3D rendering. Readable adult-scale furniture in separate coherent functional clusters, clear paths and approach space. No characters, UI, text, compass labels, borders, floor arrows, bodies or baked evidence. No extra door-like arches, no melted ornament or fused furniture. Labels and contact metadata will be separate. This is a review candidate, not a runtime replacement.\n\nROOM: g_dining\nMake this a true formal dining room. Exactly TWO doorways, WEST and EAST. Remove the unused lower/south exit and its railing-gap/runner; bottom edge is continuous room floor, not a passage. Place one elegant adult-sized rectangular dining table oriented horizontally, with SIX clearly separate dining chairs: two along its north side, two along south side, one at each short end. Chairs must have readable seats/backs/legs and logical directions facing the table; not fused into tabletop. Leave a generous walkable ring around the table and clear west/east doorway approaches. Sideboard against solid north wall, modest table setting and candle centerpiece, no sofas or bar. Keep window and fireplace separate from furniture; avoid blocking readable chair silhouettes.",
+      "filename": "g_dining_n0_e1_s0_w1_draft_v1.png",
+      "path": "assets/rooms/revisions/2026-10-24-room-rework/g_dining_n0_e1_s0_w1_draft_v1.png",
+      "status": "art_approved_fit_pending",
+      "reference_inputs": [
+        {
+          "path": "assets/rooms/room-reception-hall-alternate.png",
+          "sha256": "02c91056aac5e49c70882d7001963422b07bb8450556b444bbfe354da130d322"
+        }
+      ],
+      "door_positions": [
+        {
+          "id": "door_east_1",
+          "side": "east",
+          "position": [
+            466,
+            143
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_west_2",
+          "side": "west",
+          "position": [
+            14,
+            143
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "runtime_integrated": true,
+      "furniture_status": "tagged_provisional_contacts_not_staging_ready",
+      "approval": "approved",
+      "visual_checks": "Manual draft review: intended doorway sides visible. Furniture contact, reachability, occlusion, scale and collision require calibration after artwork review.",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "9a3ae75816191bd192f5005231391f7e30397eeac9e390acd7f77d2aa553343c",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-24",
+          "source": "user message reviewing room gallery",
+          "quote": "Everything looks great, but the new library still seems bare. Maybe turn the library into an East, South door room and then you can also put bookshelves on the West Side again"
+        },
+        "scope": "Artwork only; furniture calibration, collision and runtime integration remain pending.",
+        "files": [
+          {
+            "path": "assets/rooms/revisions/2026-10-24-room-rework/g_dining_n0_e1_s0_w1_draft_v1.png",
+            "sha256": "9a3ae75816191bd192f5005231391f7e30397eeac9e390acd7f77d2aa553343c"
+          }
+        ],
+        "retention": "Keep selected artwork and necessary source metadata."
+      },
+      "furniture_layout": "res://assets/furniture/layouts/g_dining_rework_v1.json"
+    },
+    {
+      "id": "g_kitchen",
+      "name": "Working mansion kitchen",
+      "source": "assets/rooms/room-reception-hall.png",
+      "doors": {
+        "north": 0,
+        "east": 1,
+        "south": 1,
+        "west": 0
+      },
+      "brief": "Rebuild the bar-like room as a genuine Victorian kitchen. Exactly TWO route openings: EAST/right doorway to dining, SOUTH/bottom centered internal threshold toward basement stairs. No west or north doorway. No bar counter, liquor display, velvet armchairs, bar rug or stools. Separate functional fixtures: cast-iron cooking range and stone hearth on the back-left wall; a basin sink beneath a clear back window; shelves holding ordinary crockery and provisions; a wooden preparation/work table offset left of center with space to approach its usable sides. Distinct pans, bread and sacks in restrained amounts. Leave a broad clear right-side lane and center-bottom access from east door to south threshold. Period materials, no modern appliances. Do not paint a second open stairwell or extra exits.",
+      "prompt": "Use case: precise-object-edit. Produce ONE opaque 3:2 landscape background draft for a 2D Victorian mansion mystery game, ideally 1536x1024. The first reference is the edit target; preserve its illustrated pixel-art rendering, dark walnut, teal/slate stone and moonlit windows, brass and warm candlelight, crisp grouped pixel clusters and restrained material texture. Fixed elevated three-quarter orthographic cutaway room, horizontal back-wall lines, consistent depth, no wide-angle distortion or photographic/3D rendering. Readable adult-scale furniture in separate coherent functional clusters, clear paths and approach space. No characters, UI, text, compass labels, borders, floor arrows, bodies or baked evidence. No extra door-like arches, no melted ornament or fused furniture. Labels and contact metadata will be separate. This is a review candidate, not a runtime replacement.\n\nROOM: g_kitchen\nRebuild the bar-like room as a genuine Victorian kitchen. Exactly TWO route openings: EAST/right doorway to dining, SOUTH/bottom centered internal threshold toward basement stairs. No west or north doorway. No bar counter, liquor display, velvet armchairs, bar rug or stools. Separate functional fixtures: cast-iron cooking range and stone hearth on the back-left wall; a basin sink beneath a clear back window; shelves holding ordinary crockery and provisions; a wooden preparation/work table offset left of center with space to approach its usable sides. Distinct pans, bread and sacks in restrained amounts. Leave a broad clear right-side lane and center-bottom access from east door to south threshold. Period materials, no modern appliances. Do not paint a second open stairwell or extra exits.",
+      "filename": "g_kitchen_n0_e1_s1_w0_draft_v1.png",
+      "path": "assets/rooms/revisions/2026-10-24-room-rework/g_kitchen_n0_e1_s1_w0_draft_v1.png",
+      "status": "art_approved_fit_pending",
+      "reference_inputs": [
+        {
+          "path": "assets/rooms/room-reception-hall.png",
+          "sha256": "25ec141b7861739a516399691348f810b47ceef72b8229494d1376a21f2f2e37"
+        }
+      ],
+      "door_positions": [
+        {
+          "id": "door_east_1",
+          "side": "east",
+          "position": [
+            466,
+            135
+          ],
+          "role": "dining_door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_south_2",
+          "side": "south",
+          "position": [
+            240,
+            309
+          ],
+          "role": "basement_threshold",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "runtime_integrated": true,
+      "furniture_status": "tagged_provisional_contacts_not_staging_ready",
+      "approval": "approved",
+      "visual_checks": "Manual draft review: intended doorway sides visible. Furniture contact, reachability, occlusion, scale and collision require calibration after artwork review.",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "2183de97d2f846ce4b8c1fe558e61ecc1bc989599a973fd6e7e89b927c47cb18",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-24",
+          "source": "user message reviewing room gallery",
+          "quote": "Everything looks great, but the new library still seems bare. Maybe turn the library into an East, South door room and then you can also put bookshelves on the West Side again"
+        },
+        "scope": "Artwork only; furniture calibration, collision and runtime integration remain pending.",
+        "files": [
+          {
+            "path": "assets/rooms/revisions/2026-10-24-room-rework/g_kitchen_n0_e1_s1_w0_draft_v1.png",
+            "sha256": "2183de97d2f846ce4b8c1fe558e61ecc1bc989599a973fd6e7e89b927c47cb18"
+          }
+        ],
+        "retention": "Keep selected artwork and necessary source metadata."
+      },
+      "furniture_layout": "res://assets/furniture/layouts/g_kitchen_rework_v1.json"
+    },
+    {
+      "id": "u_main_stair",
+      "name": "Upstairs landing with branching carpet",
+      "source": "assets/rooms/room-grand-hall.png",
+      "doors": {
+        "north": 0,
+        "east": 1,
+        "south": 1,
+        "west": 1
+      },
+      "brief": "Upper-floor landing. Exactly THREE openings: SOUTH/BOTTOM CENTER arrival and stair return; WEST/LEFT doorway to bedroom; EAST/RIGHT doorway to study. NO door on the north/back wall: replace the obsolete northern doorway with continuous wall, framed art or a window, not a doorway-shaped niche. A burgundy carpet RUNNER leads inward from bottom center and BRANCHES LEFT AND RIGHT toward BOTH side doors as a clear T-shaped connected carpet path. The bottom entrance is clearly the arrival so a character holding Up continues into the room. Keep north route closed and actual walking areas clear; no runner continuing into a non-door wall. Simple coherent landing with sparse benches against walls. No new staircase on the north edge.",
+      "prompt": "Use case: precise-object-edit. Produce ONE opaque 3:2 landscape background draft for a 2D Victorian mansion mystery game, ideally 1536x1024. The first reference is the edit target; preserve its illustrated pixel-art rendering, dark walnut, teal/slate stone and moonlit windows, brass and warm candlelight, crisp grouped pixel clusters and restrained material texture. Fixed elevated three-quarter orthographic cutaway room, horizontal back-wall lines, consistent depth, no wide-angle distortion or photographic/3D rendering. Readable adult-scale furniture in separate coherent functional clusters, clear paths and approach space. No characters, UI, text, compass labels, borders, floor arrows, bodies or baked evidence. No extra door-like arches, no melted ornament or fused furniture. Labels and contact metadata will be separate. This is a review candidate, not a runtime replacement.\n\nROOM: u_main_stair\nUpper-floor landing. Exactly THREE openings: SOUTH/BOTTOM CENTER arrival and stair return; WEST/LEFT doorway to bedroom; EAST/RIGHT doorway to study. NO door on the north/back wall: replace the obsolete northern doorway with continuous wall, framed art or a window, not a doorway-shaped niche. A burgundy carpet RUNNER leads inward from bottom center and BRANCHES LEFT AND RIGHT toward BOTH side doors as a clear T-shaped connected carpet path. The bottom entrance is clearly the arrival so a character holding Up continues into the room. Keep north route closed and actual walking areas clear; no runner continuing into a non-door wall. Simple coherent landing with sparse benches against walls. No new staircase on the north edge.",
+      "filename": "u_main_stair_n0_e1_s1_w1_draft_v1.png",
+      "path": "assets/rooms/revisions/2026-10-24-room-rework/u_main_stair_n0_e1_s1_w1_draft_v1.png",
+      "status": "art_approved_fit_pending",
+      "reference_inputs": [
+        {
+          "path": "assets/rooms/room-grand-hall.png",
+          "sha256": "f079a1629e04416e58a03da31cbdc9b7267b8b36b59f9e3f1e58c74974f027db"
+        }
+      ],
+      "door_positions": [
+        {
+          "id": "door_east_1",
+          "side": "east",
+          "position": [
+            465,
+            145
+          ],
+          "role": "study_door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_south_2",
+          "side": "south",
+          "position": [
+            240,
+            309
+          ],
+          "role": "stair_return",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_west_3",
+          "side": "west",
+          "position": [
+            15,
+            145
+          ],
+          "role": "bedroom_door",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "runtime_integrated": true,
+      "furniture_status": "tagged_provisional_contacts_not_staging_ready",
+      "approval": "approved",
+      "visual_checks": "Manual draft review: intended doorway sides visible. Furniture contact, reachability, occlusion, scale and collision require calibration after artwork review.",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "a2642159dd5db8843559389b25360e7e1f17e14d8fbdc1908d3ce7c850504819",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-24",
+          "source": "user message reviewing room gallery",
+          "quote": "Everything looks great, but the new library still seems bare. Maybe turn the library into an East, South door room and then you can also put bookshelves on the West Side again"
+        },
+        "scope": "Artwork only; furniture calibration, collision and runtime integration remain pending.",
+        "files": [
+          {
+            "path": "assets/rooms/revisions/2026-10-24-room-rework/u_main_stair_n0_e1_s1_w1_draft_v1.png",
+            "sha256": "a2642159dd5db8843559389b25360e7e1f17e14d8fbdc1908d3ce7c850504819"
+          }
+        ],
+        "retention": "Keep selected artwork and necessary source metadata."
+      },
+      "furniture_layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json"
+    },
+    {
+      "id": "u_master",
+      "name": "Bedroom with one usable doorway",
+      "source": "assets/rooms/room-guest-bedroom-alternate.png",
+      "doors": {
+        "north": 0,
+        "east": 1,
+        "south": 0,
+        "west": 0
+      },
+      "brief": "A cohesive adult master bedroom with exactly ONE doorway on EAST/right wall toward the lower half, matching the landing connection. Completely close the unused left/west opening with continuous wall; NO west, north, south doorway, no adjoining bathroom in this version. Improve the large purposeless lower space with a deliberate furniture arrangement: adult four-poster bed along right/back wall with logical headboard, bedside cabinet, dresser and a small upholstered bench at the bed foot; a woven rug organizes the central floor. Keep a walkable route from east door around bed and to dresser/fireplace/window. Avoid giant empty foreground, but leave enough floor for multiple adults and seated poses. No fused nightstands, impossible bed legs or blocked hearth.",
+      "prompt": "Use case: precise-object-edit. Produce ONE opaque 3:2 landscape background draft for a 2D Victorian mansion mystery game, ideally 1536x1024. The first reference is the edit target; preserve its illustrated pixel-art rendering, dark walnut, teal/slate stone and moonlit windows, brass and warm candlelight, crisp grouped pixel clusters and restrained material texture. Fixed elevated three-quarter orthographic cutaway room, horizontal back-wall lines, consistent depth, no wide-angle distortion or photographic/3D rendering. Readable adult-scale furniture in separate coherent functional clusters, clear paths and approach space. No characters, UI, text, compass labels, borders, floor arrows, bodies or baked evidence. No extra door-like arches, no melted ornament or fused furniture. Labels and contact metadata will be separate. This is a review candidate, not a runtime replacement.\n\nROOM: u_master\nA cohesive adult master bedroom with exactly ONE doorway on EAST/right wall toward the lower half, matching the landing connection. Completely close the unused left/west opening with continuous wall; NO west, north, south doorway, no adjoining bathroom in this version. Improve the large purposeless lower space with a deliberate furniture arrangement: adult four-poster bed along right/back wall with logical headboard, bedside cabinet, dresser and a small upholstered bench at the bed foot; a woven rug organizes the central floor. Keep a walkable route from east door around bed and to dresser/fireplace/window. Avoid giant empty foreground, but leave enough floor for multiple adults and seated poses. No fused nightstands, impossible bed legs or blocked hearth.",
+      "filename": "u_master_n0_e1_s0_w0_draft_v1.png",
+      "path": "assets/rooms/revisions/2026-10-24-room-rework/u_master_n0_e1_s0_w0_draft_v1.png",
+      "status": "art_approved_fit_pending",
+      "reference_inputs": [
+        {
+          "path": "assets/rooms/room-guest-bedroom-alternate.png",
+          "sha256": "4dcdd5c5afde0da4bff2e1446fea9625b6a75169ec58718775a5e0d1ca7f4f3b"
+        }
+      ],
+      "door_positions": [
+        {
+          "id": "door_east_1",
+          "side": "east",
+          "position": [
+            465,
+            252
+          ],
+          "role": "landing_door",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "runtime_integrated": true,
+      "furniture_status": "tagged_provisional_contacts_not_staging_ready",
+      "approval": "approved",
+      "visual_checks": "Manual draft review: intended doorway sides visible. Furniture contact, reachability, occlusion, scale and collision require calibration after artwork review.",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "6643e28efdffd09833cf5c124dc4fe573709969f3557fdea9f69735aef4ae7f1",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-24",
+          "source": "user message reviewing room gallery",
+          "quote": "Everything looks great, but the new library still seems bare. Maybe turn the library into an East, South door room and then you can also put bookshelves on the West Side again"
+        },
+        "scope": "Artwork only; furniture calibration, collision and runtime integration remain pending.",
+        "files": [
+          {
+            "path": "assets/rooms/revisions/2026-10-24-room-rework/u_master_n0_e1_s0_w0_draft_v1.png",
+            "sha256": "6643e28efdffd09833cf5c124dc4fe573709969f3557fdea9f69735aef4ae7f1"
+          }
+        ],
+        "retention": "Keep selected artwork and necessary source metadata."
+      },
+      "furniture_layout": "res://assets/furniture/layouts/u_master_rework_v1.json"
+    },
+    {
+      "id": "u_study",
+      "name": "Study without unused exits",
+      "source": "assets/rooms/room-library-alternate.png",
+      "doors": {
+        "north": 0,
+        "east": 0,
+        "south": 0,
+        "west": 1
+      },
+      "brief": "User revision: furnish the formerly empty middle/lower area with a substantial table, four chairs and an aligned rug, retaining clear door and furniture access.",
+      "prompt": "Edit the supplied study draft, retaining its cohesive illustrated pixel-art rendering, fixed elevated three-quarter orthographic cutaway, exact 3:2 canvas, period materials and lighting. Preserve exactly ONE doorway on WEST/left wall; no north, east or south openings. Keep back bookshelves, fireplace and clear wall window. The user dislikes the misplaced isolated circular rug and the vast unused bottom floor.\nRecompose the room into TWO functional zones with adult-scale distinct furniture. Keep a writing desk and its separate desk chair in the left/back half, leaving the west doorway approach open. In the formerly empty middle/lower area, add a substantial rectangular wooden discussion/document table with FOUR clearly separate padded wooden chairs facing its edges, with usable seating gaps and believable legs/backs. Place a properly fitted RECTANGULAR rug underneath this table and its chairs, aligned to the furniture. REMOVE the old isolated round rug. The conversation/document area should occupy the lower-middle floor with enough space for characters to approach all sides; no tiny token table in a giant empty hall. The existing right reading chair and side table may be repositioned into a coherent small reading corner, clear of the new group and bookshelf approach. A few writing papers and a closed book can rest on the new table; no readable text, baked evidence, faces or people. Make this a furnished private study, not a library warehouse or a dining room; keep a distinct writing desk and research/conversation table. Preserve a readable path from the single west doorway around both furniture zones. No giant empty foreground, no foreground wall hiding furniture, no fused objects. Output one opaque 1536x1024 draft.",
+      "filename": "u_study_n0_e0_s0_w1_draft_v2.png",
+      "path": "assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v2.png",
+      "status": "art_approved_fit_pending",
+      "reference_inputs": [
+        {
+          "path": "assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v1.png",
+          "sha256": "25d2f6d29fb3628873739cc0fa9782f71884d437763cb10c82b75dbb55bbdc9b"
+        }
+      ],
+      "door_positions": [
+        {
+          "id": "door_west_1",
+          "side": "west",
+          "position": [
+            15,
+            143
+          ],
+          "role": "landing_door",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "runtime_integrated": true,
+      "furniture_status": "tagged_provisional_contacts_not_staging_ready",
+      "approval": "approved",
+      "visual_checks": "Manual draft review: intended doorway sides visible. Furniture contact, reachability, occlusion, scale and collision require calibration after artwork review.",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "2d31d03a3f60efda956427321eedbc70d0361b69488eb47ac73fc87cedf41c00",
+      "previous_versions": [
+        {
+          "id": "u_study",
+          "name": "Study without unused exits",
+          "source": "assets/rooms/room-library-alternate.png",
+          "doors": {
+            "north": 0,
+            "east": 0,
+            "south": 0,
+            "west": 1
+          },
+          "brief": "A private study with exactly ONE doorway on WEST/left wall. Remove the old north/back-right door and south/bottom threshold: replace with uninterrupted wall/bookshelves and continuous floor edge respectively. No other doors, hidden doorway-shaped arches or bottom rail opening. One writing desk and separate desk chair with accessible seat and space behind; wall bookshelves on solid wall sections, a clearly reachable window and one separate reading chair. Keep bookshelf faces, desk legs and chair contact surfaces readable for future character interactions. Restrained paper and writing tools; no readable writing or baked evidence. Avoid giant foreground bookcases hiding the room or trapping the detective.",
+          "prompt": "Use case: precise-object-edit. Produce ONE opaque 3:2 landscape background draft for a 2D Victorian mansion mystery game, ideally 1536x1024. The first reference is the edit target; preserve its illustrated pixel-art rendering, dark walnut, teal/slate stone and moonlit windows, brass and warm candlelight, crisp grouped pixel clusters and restrained material texture. Fixed elevated three-quarter orthographic cutaway room, horizontal back-wall lines, consistent depth, no wide-angle distortion or photographic/3D rendering. Readable adult-scale furniture in separate coherent functional clusters, clear paths and approach space. No characters, UI, text, compass labels, borders, floor arrows, bodies or baked evidence. No extra door-like arches, no melted ornament or fused furniture. Labels and contact metadata will be separate. This is a review candidate, not a runtime replacement.\n\nROOM: u_study\nA private study with exactly ONE doorway on WEST/left wall. Remove the old north/back-right door and south/bottom threshold: replace with uninterrupted wall/bookshelves and continuous floor edge respectively. No other doors, hidden doorway-shaped arches or bottom rail opening. One writing desk and separate desk chair with accessible seat and space behind; wall bookshelves on solid wall sections, a clearly reachable window and one separate reading chair. Keep bookshelf faces, desk legs and chair contact surfaces readable for future character interactions. Restrained paper and writing tools; no readable writing or baked evidence. Avoid giant foreground bookcases hiding the room or trapping the detective.",
+          "filename": "u_study_n0_e0_s0_w1_draft_v1.png",
+          "path": "assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v1.png",
+          "status": "superseded_after_user_revision_request",
+          "reference_inputs": [
+            {
+              "path": "assets/rooms/room-library-alternate.png",
+              "sha256": "035a44d80f9e9cf3e0650edcfa5f0830d9413040e112980d8d8e4ab7bed92cf3"
+            }
+          ],
+          "door_positions": [
+            {
+              "id": "door_west_1",
+              "side": "west",
+              "position": [
+                15,
+                143
+              ],
+              "role": "landing_door",
+              "position_status": "visual_estimate_not_trigger"
+            }
+          ],
+          "runtime_integrated": false,
+          "furniture_status": "not_calibrated",
+          "approval": "pending",
+          "visual_checks": "Manual draft review: intended doorway sides visible. Furniture contact, reachability, occlusion, scale and collision require calibration after artwork review.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGB",
+          "sha256": "25d2f6d29fb3628873739cc0fa9782f71884d437763cb10c82b75dbb55bbdc9b"
+        }
+      ],
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-24",
+          "source": "user message reviewing room gallery",
+          "quote": "Everything looks great, but the new library still seems bare. Maybe turn the library into an East, South door room and then you can also put bookshelves on the West Side again"
+        },
+        "scope": "Artwork only; furniture calibration, collision and runtime integration remain pending.",
+        "files": [
+          {
+            "path": "assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v2.png",
+            "sha256": "2d31d03a3f60efda956427321eedbc70d0361b69488eb47ac73fc87cedf41c00"
+          }
+        ],
+        "retention": "Keep selected artwork and necessary source metadata."
+      },
+      "furniture_layout": "res://assets/furniture/layouts/u_study_rework_v2.json"
+    },
+    {
+      "id": "b_store",
+      "name": "Filled basement storage",
+      "source": "assets/rooms/room-torchlit-stone-alternate.png",
+      "doors": {
+        "north": 1,
+        "east": 0,
+        "south": 0,
+        "west": 0
+      },
+      "brief": "A believable occupied basement storage room. Exactly ONE return doorway on NORTH/back wall on the right half, toward basement stairs. Remove the old unused west/left doorway: continuous stone wall there, no arch or fake opening. Fill wall storage bays with practical wooden shelves of folded linens, boxes and jars, stacked crates, a few barrels, old trunks and rolled rugs. Add a small repair/work surface against a wall. Store items in separate orderly clusters with plausible supports, not random duplicated rubble. Preserve an unmistakable clear central aisle from north doorway into lower room, access to shelf fronts/trunks and room for kneeling inspection. No east, south, west exits. No furniture blocking the single door; no absurdly empty warehouse floor. Maintain a cool cellar palette with restrained warm wall lamps.",
+      "prompt": "Use case: precise-object-edit. Produce ONE opaque 3:2 landscape background draft for a 2D Victorian mansion mystery game, ideally 1536x1024. The first reference is the edit target; preserve its illustrated pixel-art rendering, dark walnut, teal/slate stone and moonlit windows, brass and warm candlelight, crisp grouped pixel clusters and restrained material texture. Fixed elevated three-quarter orthographic cutaway room, horizontal back-wall lines, consistent depth, no wide-angle distortion or photographic/3D rendering. Readable adult-scale furniture in separate coherent functional clusters, clear paths and approach space. No characters, UI, text, compass labels, borders, floor arrows, bodies or baked evidence. No extra door-like arches, no melted ornament or fused furniture. Labels and contact metadata will be separate. This is a review candidate, not a runtime replacement.\n\nROOM: b_store\nA believable occupied basement storage room. Exactly ONE return doorway on NORTH/back wall on the right half, toward basement stairs. Remove the old unused west/left doorway: continuous stone wall there, no arch or fake opening. Fill wall storage bays with practical wooden shelves of folded linens, boxes and jars, stacked crates, a few barrels, old trunks and rolled rugs. Add a small repair/work surface against a wall. Store items in separate orderly clusters with plausible supports, not random duplicated rubble. Preserve an unmistakable clear central aisle from north doorway into lower room, access to shelf fronts/trunks and room for kneeling inspection. No east, south, west exits. No furniture blocking the single door; no absurdly empty warehouse floor. Maintain a cool cellar palette with restrained warm wall lamps.",
+      "filename": "b_store_n1_e0_s0_w0_draft_v1.png",
+      "path": "assets/rooms/revisions/2026-10-24-room-rework/b_store_n1_e0_s0_w0_draft_v1.png",
+      "status": "art_approved_fit_pending",
+      "reference_inputs": [
+        {
+          "path": "assets/rooms/room-torchlit-stone-alternate.png",
+          "sha256": "dddd3302c912771aefbba7e5aa7a16709705e1326704b8ff2215ebc3ee5dca1b"
+        }
+      ],
+      "door_positions": [
+        {
+          "id": "door_north_1",
+          "side": "north",
+          "position": [
+            421,
+            75
+          ],
+          "role": "stair_return",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "runtime_integrated": true,
+      "furniture_status": "tagged_provisional_contacts_not_staging_ready",
+      "approval": "approved",
+      "visual_checks": "Manual draft review: intended doorway sides visible. Furniture contact, reachability, occlusion, scale and collision require calibration after artwork review.",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "662f0886af5f6ad08e889da99cce6fbee3a8f00c6e7fc40821e49d9ed5dafce1",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-24",
+          "source": "user message reviewing room gallery",
+          "quote": "Everything looks great, but the new library still seems bare. Maybe turn the library into an East, South door room and then you can also put bookshelves on the West Side again"
+        },
+        "scope": "Artwork only; furniture calibration, collision and runtime integration remain pending.",
+        "files": [
+          {
+            "path": "assets/rooms/revisions/2026-10-24-room-rework/b_store_n1_e0_s0_w0_draft_v1.png",
+            "sha256": "662f0886af5f6ad08e889da99cce6fbee3a8f00c6e7fc40821e49d9ed5dafce1"
+          }
+        ],
+        "retention": "Keep selected artwork and necessary source metadata."
+      },
+      "furniture_layout": "res://assets/furniture/layouts/b_store_rework_v1.json"
+    },
+    {
+      "id": "future_bar",
+      "name": "Future bar with usable stools",
+      "source": "assets/rooms/room-reception-hall.png",
+      "doors": {
+        "north": 0,
+        "east": 1,
+        "south": 1,
+        "west": 0
+      },
+      "brief": "User revision: furnish the formerly empty middle/lower area with a substantial table, four chairs and an aligned rug, retaining clear door and furniture access.",
+      "prompt": "Edit this supplied bar draft. Preserve the exact pixel-art rendering, fixed elevated three-quarter view, 3:2 canvas, architecture, lighting, top-left bar counter, FOUR clearly separated north-facing bar stools and existing EAST doorway and SOUTH centered threshold. Do not add any other door. Keep the back window clear.\nThe user finds the middle/lower floor too empty. Furnish that area as a real social space: add one substantial round dark-wood pub/card table in the middle-right/lower-center of the room, with FOUR separate adult-sized upholstered wooden chairs arranged around it, facing the table, with distinguishable seats/backs/legs and usable gaps. A restrained decanter/glasses grouping can sit on the tabletop. Ground this group on a modest fitted rectangular patterned rug, aligned with the table rather than floating elsewhere. The furniture group must occupy a meaningful portion of the formerly empty middle/lower floor, not a tiny token object. Preserve an open aisle behind all four bar stools so people can mount/dismount, and a readable route from the east door around the table to the south exit. Preserve the existing left conversation chairs. Avoid cramming furniture, fused legs, blocked doors, imaginary exits or a vast unused foreground. No people, labels, UI or text. One opaque 1536x1024 review draft; do not change anything else.",
+      "filename": "future_bar_n0_e1_s1_w0_draft_v2.png",
+      "path": "assets/rooms/revisions/2026-10-24-room-rework/future_bar_n0_e1_s1_w0_draft_v2.png",
+      "status": "art_approved_fit_pending",
+      "reference_inputs": [
+        {
+          "path": "assets/rooms/revisions/2026-10-24-room-rework/future_bar_n0_e1_s1_w0_draft_v1.png",
+          "sha256": "08d3b01f10e54bd5a22ea8a704b7fc4c7ee55116dc913413a76657d893e1e524"
+        }
+      ],
+      "door_positions": [
+        {
+          "id": "door_east_1",
+          "side": "east",
+          "position": [
+            465,
+            143
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_south_2",
+          "side": "south",
+          "position": [
+            240,
+            309
+          ],
+          "role": "threshold",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "runtime_integrated": false,
+      "furniture_status": "tagged_provisional_contacts_not_staging_ready",
+      "approval": "approved",
+      "visual_checks": "Manual draft review: intended doorway sides visible. Furniture contact, reachability, occlusion, scale and collision require calibration after artwork review.",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGB",
+      "sha256": "5f1afa1b88d7982f4a1be781a009c5c74331f3b19329216a67697be9cffa7660",
+      "previous_versions": [
+        {
+          "id": "future_bar",
+          "name": "Future bar with usable stools",
+          "source": "assets/rooms/room-reception-hall.png",
+          "doors": {
+            "north": 0,
+            "east": 1,
+            "south": 1,
+            "west": 0
+          },
+          "brief": "Separate future bar-room design, not the kitchen. Preserve the existing EAST doorway and SOUTH foreground threshold, exactly TWO openings total; no additional exits. An elegant period wooden bar runs horizontally along the back-left part of the room, with a clearly defined bartender side and public front. Add FOUR separate adult-sized bar stools in a neat row on the PUBLIC/SOUTH side, facing NORTH toward the counter, with believable seats, legs and footrests. Each stool must be distinctly separated by a usable gap with open standing/approach space behind it and leg clearance beneath the counter; no stools placed inside counter or behind bartender. Leave access around counter end and an unobstructed passage east-to-south. Bottle and glass shelving on solid back wall, no blocked window. This future-room concept does not add a room to the current game.",
+          "prompt": "Use case: precise-object-edit. Produce ONE opaque 3:2 landscape background draft for a 2D Victorian mansion mystery game, ideally 1536x1024. The first reference is the edit target; preserve its illustrated pixel-art rendering, dark walnut, teal/slate stone and moonlit windows, brass and warm candlelight, crisp grouped pixel clusters and restrained material texture. Fixed elevated three-quarter orthographic cutaway room, horizontal back-wall lines, consistent depth, no wide-angle distortion or photographic/3D rendering. Readable adult-scale furniture in separate coherent functional clusters, clear paths and approach space. No characters, UI, text, compass labels, borders, floor arrows, bodies or baked evidence. No extra door-like arches, no melted ornament or fused furniture. Labels and contact metadata will be separate. This is a review candidate, not a runtime replacement.\n\nROOM: future_bar\nSeparate future bar-room design, not the kitchen. Preserve the existing EAST doorway and SOUTH foreground threshold, exactly TWO openings total; no additional exits. An elegant period wooden bar runs horizontally along the back-left part of the room, with a clearly defined bartender side and public front. Add FOUR separate adult-sized bar stools in a neat row on the PUBLIC/SOUTH side, facing NORTH toward the counter, with believable seats, legs and footrests. Each stool must be distinctly separated by a usable gap with open standing/approach space behind it and leg clearance beneath the counter; no stools placed inside counter or behind bartender. Leave access around counter end and an unobstructed passage east-to-south. Bottle and glass shelving on solid back wall, no blocked window. This future-room concept does not add a room to the current game.",
+          "filename": "future_bar_n0_e1_s1_w0_draft_v1.png",
+          "path": "assets/rooms/revisions/2026-10-24-room-rework/future_bar_n0_e1_s1_w0_draft_v1.png",
+          "status": "superseded_after_user_revision_request",
+          "reference_inputs": [
+            {
+              "path": "assets/rooms/room-reception-hall.png",
+              "sha256": "25ec141b7861739a516399691348f810b47ceef72b8229494d1376a21f2f2e37"
+            }
+          ],
+          "door_positions": [
+            {
+              "id": "door_east_1",
+              "side": "east",
+              "position": [
+                465,
+                143
+              ],
+              "role": "door",
+              "position_status": "visual_estimate_not_trigger"
+            },
+            {
+              "id": "door_south_2",
+              "side": "south",
+              "position": [
+                240,
+                309
+              ],
+              "role": "threshold",
+              "position_status": "visual_estimate_not_trigger"
+            }
+          ],
+          "runtime_integrated": false,
+          "furniture_status": "not_calibrated",
+          "approval": "pending",
+          "visual_checks": "Manual draft review: intended doorway sides visible. Furniture contact, reachability, occlusion, scale and collision require calibration after artwork review.",
+          "dimensions": [
+            1536,
+            1024
+          ],
+          "mode": "RGB",
+          "sha256": "08d3b01f10e54bd5a22ea8a704b7fc4c7ee55116dc913413a76657d893e1e524"
+        }
+      ],
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-24",
+          "source": "user message reviewing room gallery",
+          "quote": "Everything looks great, but the new library still seems bare. Maybe turn the library into an East, South door room and then you can also put bookshelves on the West Side again"
+        },
+        "scope": "Artwork only; furniture calibration, collision and runtime integration remain pending.",
+        "files": [
+          {
+            "path": "assets/rooms/revisions/2026-10-24-room-rework/future_bar_n0_e1_s1_w0_draft_v2.png",
+            "sha256": "5f1afa1b88d7982f4a1be781a009c5c74331f3b19329216a67697be9cffa7660"
+          }
+        ],
+        "retention": "Keep selected artwork and necessary source metadata."
+      },
+      "furniture_layout": "res://assets/furniture/layouts/future_bar_rework_v2.json"
+    }
+  ],
+  "furniture_annotation_review": {
+    "date": "2026-10-24",
+    "source": "user message reviewing tagged gallery",
+    "quote": "Looks great to me. Continue",
+    "scope": "Visual annotation review accepted; continue Char fit checks. This does not approve seating fit, masks, navigation or runtime staging."
+  }
+}

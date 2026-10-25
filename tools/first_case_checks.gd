@@ -68,7 +68,7 @@ func run() -> void:
 		controller.close()
 	room.house.current_room = "g_library"
 	room.load_room()
-	room.player.position = Vector2(175,190)
+	room.player.position = Vector2(state.data.floor_clue.position[0],state.data.floor_clue.position[1])
 	room.interact()
 	check(state.floor_examined,"Library rug can be examined through actual interaction")
 	await picture("floor_clue")

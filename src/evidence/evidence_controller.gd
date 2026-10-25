@@ -3,6 +3,7 @@ extends CanvasLayer
 const State = preload("res://src/evidence/evidence_state.gd")
 signal modal_changed(open: bool)
 var state = State.new()
+var artwork = preload("res://src/evidence/evidence_art.gd").new(state.catalog)
 var owner_room: Node2D
 var root_panel: Panel
 var heading: Label
@@ -39,7 +40,7 @@ func _ready() -> void:
 	art = TextureRect.new()
 	art.position = Vector2(8, 38)
 	art.size = Vector2(160, 160)
-	art.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
+	art.texture_filter = CanvasItem.TEXTURE_FILTER_LINEAR
 	art.expand_mode = TextureRect.EXPAND_IGNORE_SIZE
 	art.stretch_mode = TextureRect.STRETCH_KEEP_ASPECT_CENTERED
 	root_panel.add_child(art)
@@ -94,10 +95,8 @@ func place_objects(world: Node2D, room_id: String) -> void:
 		if item.room != room_id:
 			continue
 		var prop := Sprite2D.new()
-		prop.texture = load(state.visible_asset(id))
-		prop.texture_filter = CanvasItem.TEXTURE_FILTER_NEAREST
+		artwork.configure_prop(prop, state.visible_asset(id))
 		prop.position = Vector2(item.position[0], item.position[1])
-		prop.offset = Vector2(0, -20)
 		world.add_child(prop)
 		props[id] = prop
 	refresh_props()
@@ -123,7 +122,7 @@ func open_object(id: String) -> void:
 	description.size = Vector2(252,176)
 	selected = id
 	heading.text = state.definition(id).name
-	art.texture = load(state.visible_asset(id, true))
+	art.texture = artwork.texture(state.visible_asset(id, true))
 	art.modulate.a = 1.0
 	root_panel.show()
 	modal_changed.emit(true)
@@ -207,7 +206,7 @@ func draw_notebook() -> void:
 		return
 	heading.text = "CLUE BOOK  %d/%d — %s" % [notebook_index + 1, notebook_ids.size(), state.definition(selected).name]
 	heading.add_theme_font_size_override("font_size", 12)
-	art.texture = load(state.visible_asset(selected, true))
+	art.texture = artwork.texture(state.visible_asset(selected, true))
 	description.text = state.journal_entry(selected)
 	status.text = ("IN INVENTORY  |  " if state.records[selected].collected else "EXAMINED IN PLACE  |  ") + "LEFT/RIGHT Browse  |  ENTER Reopen"
 

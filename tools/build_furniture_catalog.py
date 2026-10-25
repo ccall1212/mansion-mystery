@@ -6,7 +6,7 @@ DIRECTIONS = {'north':(0,-1),'east':(1,0),'south':(0,1),'west':(-1,0)}
 OPPOSITE = {'north':'south','south':'north','east':'west','west':'east'}
 TYPES = {
  'chair':('Chair',40,48), 'armchair':('Armchair',56,60),
- 'sofa':('Sofa',100,60), 'bar_stool':('Bar stool',28,40),
+ 'sofa':('Sofa',100,60), 'bar_stool':('Bar stool',28,40), 'stool':('Low work stool',24,30),
  'desk':('Desk',86,50), 'bookshelf':('Bookshelf',100,100),
  'table':('Table / reading stand',64,40), 'bar_counter':('Bar counter',120,62),
  'fireplace':('Fireplace',90,100), 'window':('Window',50,100),
@@ -39,7 +39,7 @@ for kind,(label,w,h) in TYPES.items():
  for direction,(dx,dy) in DIRECTIONS.items():
   front=[dx*(w/2+16),dy*20]
   towards=OPPOSITE[direction]
-  if kind in ['chair','armchair','sofa','bar_stool','bench']:
+  if kind in ['chair','armchair','sofa','bar_stool','stool','bench']:
    seats=[(-w*.25,'seat_left'),(w*.25,'seat_right')] if kind=='sofa' else [(0,'seat')]
    anchors=[anchor(name,[x,-h*.38],direction,'seated',['idle','talk','read'] if kind!='bar_stool' else ['idle','talk','drink'],
                    [x+dx*(w/2+18),dy*24],contact_kind='seat') for x,name in seats]
@@ -81,7 +81,12 @@ for head in DIRECTIONS:
  identity='bed_'+axis+'_head_'+head
  variants[identity]=dict(id=identity,type='bed',label='Bed / '+axis+' / head '+head,facing=None,axis=axis,headboard=head,
    asset_view='front',bounds=[-w/2,-h,w,h],footprint=[-w/2,-h,w,h],anchors=anchors,required_target_type=None)
-result=dict(schema_version=1,directions=list(DIRECTIONS),description='Orientation IDs and provisional authoring templates. No furniture art, character poses, or automatic staging.',
+size_standards=json.loads((ROOT/'assets/furniture/size-standards.json').read_text())
+for variant in variants.values():
+ for profile_id,profile in size_standards['profiles'].items():
+  if variant['type']==profile['furniture_type']:
+   variant['size_profile_id']=profile_id
+result=dict(schema_version=1,size_standards='res://assets/furniture/size-standards.json',directions=list(DIRECTIONS),description='Orientation IDs and provisional authoring templates. No furniture art, character poses, or automatic staging.',
  types={**{key:value[0] for key,value in TYPES.items()},'bed':'Bed'},variants=variants)
 (ROOT/'assets/furniture/catalog.json').write_text(json.dumps(result,indent=2)+'\n')
 print('Furniture orientation IDs:',len(variants))

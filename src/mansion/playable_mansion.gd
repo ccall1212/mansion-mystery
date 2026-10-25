@@ -106,7 +106,7 @@ func load_room() -> void:
 	furniture_annotations = house.furniture_for_room(house.current_room)
 	scene_id = house.current_room
 	var background: Sprite2D = $Background
-	background.texture = load(room.asset)
+	background.texture = load(room.asset) if ResourceLoader.exists(room.asset) else ImageTexture.create_from_image(Image.load_from_file(room.asset))
 	background.scale = Vector2(480.0/background.texture.get_width(),320.0/background.texture.get_height())
 	guest.visible = house.current_room == "g_foyer" and (case_controller == null or not case_controller.state.active)
 	world.get_node("ReadingStand").visible = house.current_room == "g_foyer"
@@ -382,9 +382,18 @@ func draw_portals() -> void:
 		var color := Color("#ddbd7a") if stairs else Color("#8ab4b5")
 		portals_layer.draw_rect(Rect2(at-Vector2(9,3),Vector2(18,5)),Color("#101c24"))
 		portals_layer.draw_line(at-Vector2(9,0),at+Vector2(9,0),color,1)
-		if player.position.distance_to(at) < 85:
-			var label: String = ("UP" if house.rooms[portal.target].floor > house.floor_id() else "DOWN") if stairs else "EXIT"
-			portals_layer.draw_string(font,at-Vector2(11,7),label,HORIZONTAL_ALIGNMENT_LEFT,-1,8,color)
+		var label: String = house.rooms[portal.target].name
+		if stairs:
+			label += " / Up" if house.rooms[portal.target].floor > house.floor_id() else " / Down"
+		draw_door_label(at,label,color)
+	if house.current_room == "g_foyer":
+		draw_door_label(Vector2(240,145),"Front door / Locked",Color("#ddbd7a"))
+
+func draw_door_label(at: Vector2, label: String, color: Color) -> void:
+	var width := font.get_string_size(label,HORIZONTAL_ALIGNMENT_LEFT,-1,9).x
+	var origin := Vector2(clampf(at.x-width/2,5,475-width),clampf(at.y-8,88,328))
+	portals_layer.draw_rect(Rect2(origin-Vector2(3,10),Vector2(width+6,14)),Color(0.04,0.08,0.11,0.92))
+	portals_layer.draw_string(font,origin,label,HORIZONTAL_ALIGNMENT_LEFT,-1,9,color)
 
 func draw_ui() -> void:
 	super.draw_ui()

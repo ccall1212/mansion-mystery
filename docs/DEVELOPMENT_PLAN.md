@@ -246,3 +246,8 @@ actual Compatibility captures are in test-results/first-case/index.html. Three
 Char chair offsets/foreground polygons are preview-only and await visual review.
 Approved character PNGs are unchanged. See [FIRST_PLAYABLE_CASE.md](FIRST_PLAYABLE_CASE.md)
 for controls, reproduction and remaining group/reveal/randomization work.
+
+Evidence rendering preview: shared source-detail loader replaces tiny object exports for world props and inspection artwork while preserving world footprints/anchors. See test-results/evidence-detail/index.html; visual review pending. No object artwork regenerated.
+
+
+Reworked-room tagging: nine approved room candidates now have registered furniture layouts and a 126-tag review gallery. Next: calibrate the library with Char (east/west reading armchairs, south desk/rear-table chairs), add proper masks/clearance and resolve the missing north seated pose before enabling placement. Live room integration and the library west-to-south route change remain pending.

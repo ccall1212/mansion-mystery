@@ -1,0 +1,4669 @@
+{
+  "schema_version": 1,
+  "status": "provisional_not_runtime_staging",
+  "character": "char",
+  "source": "registered reworked room layouts; alignment_01 approved artwork",
+  "contacts": [
+    {
+      "contact_id": "g_main_stair::g_main_stair_straight_stairs::inspect",
+      "layout": "res://assets/furniture/layouts/g_main_stair_rework_v1.json",
+      "orientation_id": "stairway_north",
+      "actor_facing": "south",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        -149
+      ],
+      "approach": [
+        0.0,
+        -164
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_idle_south": "approved_sample_fit_pending",
+        "standing_listen_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_main_stair::g_main_stair_window::look_out",
+      "layout": "res://assets/furniture/layouts/g_main_stair_rework_v1.json",
+      "orientation_id": "window_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_look_out_north": "missing_art_or_unmapped_action",
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_look_up_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_main_stair::g_main_stair_window::view_from_west",
+      "layout": "res://assets/furniture/layouts/g_main_stair_rework_v1.json",
+      "orientation_id": "window_south",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_look_up_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_main_stair::g_main_stair_window::view_from_east",
+      "layout": "res://assets/furniture/layouts/g_main_stair_rework_v1.json",
+      "orientation_id": "window_south",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_look_up_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_main_stair::g_main_stair_north_door::inside",
+      "layout": "res://assets/furniture/layouts/g_main_stair_rework_v1.json",
+      "orientation_id": "doorway_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_listen_north": "missing_art_or_unmapped_action",
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_peek_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_main_stair::g_main_stair_north_door::outside",
+      "layout": "res://assets/furniture/layouts/g_main_stair_rework_v1.json",
+      "orientation_id": "doorway_south",
+      "actor_facing": "south",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_main_stair::g_main_stair_west_door::inside",
+      "layout": "res://assets/furniture/layouts/g_main_stair_rework_v1.json",
+      "orientation_id": "doorway_east",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        26.0,
+        -3
+      ],
+      "approach": [
+        41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_listen_west": "missing_art_or_unmapped_action",
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_peek_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_main_stair::g_main_stair_west_door::outside",
+      "layout": "res://assets/furniture/layouts/g_main_stair_rework_v1.json",
+      "orientation_id": "doorway_east",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        26.0,
+        -3
+      ],
+      "approach": [
+        41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_main_stair::g_main_stair_south_door::inside",
+      "layout": "res://assets/furniture/layouts/g_main_stair_rework_v1.json",
+      "orientation_id": "doorway_north",
+      "actor_facing": "south",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        -40
+      ],
+      "approach": [
+        0.0,
+        -55
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_listen_south": "missing_art_or_unmapped_action",
+        "standing_inspect_south": "missing_art_or_unmapped_action",
+        "standing_peek_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_main_stair::g_main_stair_south_door::outside",
+      "layout": "res://assets/furniture/layouts/g_main_stair_rework_v1.json",
+      "orientation_id": "doorway_north",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        -40
+      ],
+      "approach": [
+        0.0,
+        -55
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_west_shelves::inspect",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "bookshelf_east",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        41.0,
+        -3
+      ],
+      "approach": [
+        56.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_read_west": "missing_art_or_unmapped_action",
+        "standing_reach_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_north_shelves_west::inspect",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "bookshelf_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_read_north": "missing_art_or_unmapped_action",
+        "standing_reach_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_north_shelves_middle::inspect",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "bookshelf_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_read_north": "missing_art_or_unmapped_action",
+        "standing_reach_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_north_shelves_east::inspect",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "bookshelf_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_read_north": "missing_art_or_unmapped_action",
+        "standing_reach_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_window::look_out",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "window_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_look_out_north": "missing_art_or_unmapped_action",
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_look_up_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_window::view_from_west",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "window_south",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_look_up_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_window::view_from_east",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "window_south",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_look_up_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_reading_table::use",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "table_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_read_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_reading_chair_nw::seat",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "chair_south",
+      "actor_facing": "south",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -9.5
+      ],
+      "approach": [
+        0.0,
+        12.5
+      ],
+      "target_instance_id": "g_library_reading_table",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_south": "approved_sample_fit_pending",
+        "seated_talk_south": "missing_art_or_unmapped_action",
+        "seated_read_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_reading_chair_ne::seat",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "chair_south",
+      "actor_facing": "south",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -9.5
+      ],
+      "approach": [
+        0.0,
+        12.5
+      ],
+      "target_instance_id": "g_library_reading_table",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_south": "approved_sample_fit_pending",
+        "seated_talk_south": "missing_art_or_unmapped_action",
+        "seated_read_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_reading_chair_sw::seat",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "chair_north",
+      "actor_facing": "north",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -16.34
+      ],
+      "approach": [
+        0.0,
+        -21.5
+      ],
+      "target_instance_id": "g_library_reading_table",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_north": "missing_art_or_unmapped_action",
+        "seated_talk_north": "missing_art_or_unmapped_action",
+        "seated_read_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_reading_chair_se::seat",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "chair_north",
+      "actor_facing": "north",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -16.34
+      ],
+      "approach": [
+        0.0,
+        -21.5
+      ],
+      "target_instance_id": "g_library_reading_table",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_north": "missing_art_or_unmapped_action",
+        "seated_talk_north": "missing_art_or_unmapped_action",
+        "seated_read_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_red_armchair::seat",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "armchair_east",
+      "actor_facing": "east",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -25.08
+      ],
+      "approach": [
+        50.11,
+        0.0
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_east": "approved_sample_fit_pending",
+        "seated_talk_east": "missing_art_or_unmapped_action",
+        "seated_read_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_green_armchair::seat",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "armchair_west",
+      "actor_facing": "west",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -25.08
+      ],
+      "approach": [
+        -47.64,
+        0.0
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_west": "approved_sample_fit_pending",
+        "seated_talk_west": "missing_art_or_unmapped_action",
+        "seated_read_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_reading_side_table::use",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "table_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_read_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_librarian_desk::seated_work",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "desk_south",
+      "actor_facing": "north",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -18.2
+      ],
+      "approach": [
+        0.0,
+        20.8
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_librarian_desk::standing_work",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "desk_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_read_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_desk_chair::seat",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "chair_south",
+      "actor_facing": "south",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -11.4
+      ],
+      "approach": [
+        0.0,
+        15.0
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_south": "approved_sample_fit_pending",
+        "seated_talk_south": "missing_art_or_unmapped_action",
+        "seated_read_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_book_cart::inspect",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "cabinet_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_reach_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_east_door::inside",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "doorway_west",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        -26.0,
+        -3
+      ],
+      "approach": [
+        -41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_listen_east": "missing_art_or_unmapped_action",
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_peek_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_east_door::outside",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "doorway_west",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        -26.0,
+        -3
+      ],
+      "approach": [
+        -41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_south_door::inside",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "doorway_north",
+      "actor_facing": "south",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        -40
+      ],
+      "approach": [
+        0.0,
+        -55
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_listen_south": "missing_art_or_unmapped_action",
+        "standing_inspect_south": "missing_art_or_unmapped_action",
+        "standing_peek_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_library::g_library_south_door::outside",
+      "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "orientation_id": "doorway_north",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        -40
+      ],
+      "approach": [
+        0.0,
+        -55
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_dining_table::use",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "table_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_read_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_chair_nw::seat",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "chair_south",
+      "actor_facing": "south",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -9.88
+      ],
+      "approach": [
+        0.0,
+        13.0
+      ],
+      "target_instance_id": "g_dining_dining_table",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_south": "approved_sample_fit_pending",
+        "seated_talk_south": "missing_art_or_unmapped_action",
+        "seated_read_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_chair_ne::seat",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "chair_south",
+      "actor_facing": "south",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -9.88
+      ],
+      "approach": [
+        0.0,
+        13.0
+      ],
+      "target_instance_id": "g_dining_dining_table",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_south": "approved_sample_fit_pending",
+        "seated_talk_south": "missing_art_or_unmapped_action",
+        "seated_read_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_chair_sw::seat",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "chair_north",
+      "actor_facing": "north",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -19.0
+      ],
+      "approach": [
+        0.0,
+        -25.0
+      ],
+      "target_instance_id": "g_dining_dining_table",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_north": "missing_art_or_unmapped_action",
+        "seated_talk_north": "missing_art_or_unmapped_action",
+        "seated_read_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_chair_se::seat",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "chair_north",
+      "actor_facing": "north",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -19.0
+      ],
+      "approach": [
+        0.0,
+        -25.0
+      ],
+      "target_instance_id": "g_dining_dining_table",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_north": "missing_art_or_unmapped_action",
+        "seated_talk_north": "missing_art_or_unmapped_action",
+        "seated_read_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_chair_west::seat",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "chair_east",
+      "actor_facing": "east",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -22.04
+      ],
+      "approach": [
+        25.65,
+        0.0
+      ],
+      "target_instance_id": "g_dining_dining_table",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_east": "approved_sample_fit_pending",
+        "seated_talk_east": "missing_art_or_unmapped_action",
+        "seated_read_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_chair_east::seat",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "chair_west",
+      "actor_facing": "west",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -22.04
+      ],
+      "approach": [
+        -24.7,
+        0.0
+      ],
+      "target_instance_id": "g_dining_dining_table",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_west": "approved_sample_fit_pending",
+        "seated_talk_west": "missing_art_or_unmapped_action",
+        "seated_read_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_sideboard::inspect",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "cabinet_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_reach_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_fireplace::stand",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "fireplace_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_warm_hands_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_fireplace::kneel",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "fireplace_south",
+      "actor_facing": "north",
+      "posture": "kneeling",
+      "contact_kind": "knees",
+      "contact": [
+        0.0,
+        13.2
+      ],
+      "approach": [
+        0.0,
+        29.04
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "kneeling_inspect_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_landscape::inspect",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "painting_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_look_up_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_landscape::view_from_west",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "painting_south",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_look_up_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_landscape::view_from_east",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "painting_south",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_look_up_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_window::look_out",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "window_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_look_out_north": "missing_art_or_unmapped_action",
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_look_up_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_window::view_from_west",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "window_south",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_look_up_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_window::view_from_east",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "window_south",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_look_up_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_east_door::inside",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "doorway_west",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        -26.0,
+        -3
+      ],
+      "approach": [
+        -41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_listen_east": "missing_art_or_unmapped_action",
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_peek_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_east_door::outside",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "doorway_west",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        -26.0,
+        -3
+      ],
+      "approach": [
+        -41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_west_door::inside",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "doorway_east",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        26.0,
+        -3
+      ],
+      "approach": [
+        41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_listen_west": "missing_art_or_unmapped_action",
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_peek_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_dining::g_dining_west_door::outside",
+      "layout": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+      "orientation_id": "doorway_east",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        26.0,
+        -3
+      ],
+      "approach": [
+        41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_kitchen::g_kitchen_range::stand",
+      "layout": "res://assets/furniture/layouts/g_kitchen_rework_v1.json",
+      "orientation_id": "fireplace_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_warm_hands_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_kitchen::g_kitchen_range::kneel",
+      "layout": "res://assets/furniture/layouts/g_kitchen_rework_v1.json",
+      "orientation_id": "fireplace_south",
+      "actor_facing": "north",
+      "posture": "kneeling",
+      "contact_kind": "knees",
+      "contact": [
+        0.0,
+        17.4
+      ],
+      "approach": [
+        0.0,
+        38.28
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "kneeling_inspect_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_kitchen::g_kitchen_west_worktop::inspect",
+      "layout": "res://assets/furniture/layouts/g_kitchen_rework_v1.json",
+      "orientation_id": "cabinet_east",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        47.0,
+        -3
+      ],
+      "approach": [
+        62.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_reach_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_kitchen::g_kitchen_west_shelves::inspect",
+      "layout": "res://assets/furniture/layouts/g_kitchen_rework_v1.json",
+      "orientation_id": "cabinet_east",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        40.5,
+        -3
+      ],
+      "approach": [
+        55.5,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_reach_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_kitchen::g_kitchen_sink::inspect",
+      "layout": "res://assets/furniture/layouts/g_kitchen_rework_v1.json",
+      "orientation_id": "cabinet_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_reach_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_kitchen::g_kitchen_window::look_out",
+      "layout": "res://assets/furniture/layouts/g_kitchen_rework_v1.json",
+      "orientation_id": "window_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_look_out_north": "missing_art_or_unmapped_action",
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_look_up_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_kitchen::g_kitchen_window::view_from_west",
+      "layout": "res://assets/furniture/layouts/g_kitchen_rework_v1.json",
+      "orientation_id": "window_south",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_look_up_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_kitchen::g_kitchen_window::view_from_east",
+      "layout": "res://assets/furniture/layouts/g_kitchen_rework_v1.json",
+      "orientation_id": "window_south",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_look_up_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_kitchen::g_kitchen_pantry::inspect",
+      "layout": "res://assets/furniture/layouts/g_kitchen_rework_v1.json",
+      "orientation_id": "cabinet_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_reach_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_kitchen::g_kitchen_prep_table::use",
+      "layout": "res://assets/furniture/layouts/g_kitchen_rework_v1.json",
+      "orientation_id": "table_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_read_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_kitchen::g_kitchen_work_stool::seat",
+      "layout": "res://assets/furniture/layouts/g_kitchen_rework_v1.json",
+      "orientation_id": "stool_east",
+      "actor_facing": "east",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -17.1
+      ],
+      "approach": [
+        35.0,
+        0.0
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_east": "approved_sample_fit_pending",
+        "seated_talk_east": "missing_art_or_unmapped_action",
+        "seated_read_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_kitchen::g_kitchen_sink_barrel::inspect",
+      "layout": "res://assets/furniture/layouts/g_kitchen_rework_v1.json",
+      "orientation_id": "barrel_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_kitchen::g_kitchen_east_door::inside",
+      "layout": "res://assets/furniture/layouts/g_kitchen_rework_v1.json",
+      "orientation_id": "doorway_west",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        -26.0,
+        -3
+      ],
+      "approach": [
+        -41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_listen_east": "missing_art_or_unmapped_action",
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_peek_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_kitchen::g_kitchen_east_door::outside",
+      "layout": "res://assets/furniture/layouts/g_kitchen_rework_v1.json",
+      "orientation_id": "doorway_west",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        -26.0,
+        -3
+      ],
+      "approach": [
+        -41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_kitchen::g_kitchen_south_door::inside",
+      "layout": "res://assets/furniture/layouts/g_kitchen_rework_v1.json",
+      "orientation_id": "doorway_north",
+      "actor_facing": "south",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        -40
+      ],
+      "approach": [
+        0.0,
+        -55
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_listen_south": "missing_art_or_unmapped_action",
+        "standing_inspect_south": "missing_art_or_unmapped_action",
+        "standing_peek_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "g_kitchen::g_kitchen_south_door::outside",
+      "layout": "res://assets/furniture/layouts/g_kitchen_rework_v1.json",
+      "orientation_id": "doorway_north",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        -40
+      ],
+      "approach": [
+        0.0,
+        -55
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_west_bench::seat",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "bench_south",
+      "actor_facing": "south",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -7.6
+      ],
+      "approach": [
+        0.0,
+        13.33
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_south": "approved_sample_fit_pending",
+        "seated_talk_south": "missing_art_or_unmapped_action",
+        "seated_read_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_east_bench::seat",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "bench_south",
+      "actor_facing": "south",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -7.6
+      ],
+      "approach": [
+        0.0,
+        13.33
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_south": "approved_sample_fit_pending",
+        "seated_talk_south": "missing_art_or_unmapped_action",
+        "seated_read_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_west_statue::inspect",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "statue_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_look_up_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_east_statue::inspect",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "statue_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_look_up_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_west_window::look_out",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "window_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_look_out_north": "missing_art_or_unmapped_action",
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_look_up_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_west_window::view_from_west",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "window_south",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_look_up_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_west_window::view_from_east",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "window_south",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_look_up_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_east_window::look_out",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "window_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_look_out_north": "missing_art_or_unmapped_action",
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_look_up_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_east_window::view_from_west",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "window_south",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_look_up_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_east_window::view_from_east",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "window_south",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_look_up_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_landscape::inspect",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "painting_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_look_up_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_landscape::view_from_west",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "painting_south",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_look_up_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_landscape::view_from_east",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "painting_south",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_look_up_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_console::use",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "table_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_read_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_east_door::inside",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "doorway_west",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        -26.0,
+        -3
+      ],
+      "approach": [
+        -41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_listen_east": "missing_art_or_unmapped_action",
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_peek_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_east_door::outside",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "doorway_west",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        -26.0,
+        -3
+      ],
+      "approach": [
+        -41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_south_door::inside",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "doorway_north",
+      "actor_facing": "south",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        -40
+      ],
+      "approach": [
+        0.0,
+        -55
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_listen_south": "missing_art_or_unmapped_action",
+        "standing_inspect_south": "missing_art_or_unmapped_action",
+        "standing_peek_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_south_door::outside",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "doorway_north",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        -40
+      ],
+      "approach": [
+        0.0,
+        -55
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_west_door::inside",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "doorway_east",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        26.0,
+        -3
+      ],
+      "approach": [
+        41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_listen_west": "missing_art_or_unmapped_action",
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_peek_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_main_stair::u_main_stair_west_door::outside",
+      "layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "orientation_id": "doorway_east",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        26.0,
+        -3
+      ],
+      "approach": [
+        41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_canopy_bed::lie",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "bed_east_west_head_east",
+      "actor_facing": null,
+      "posture": "lying",
+      "contact_kind": "pelvis",
+      "contact": [
+        0.0,
+        -87.0
+      ],
+      "approach": [
+        0.0,
+        -29.0
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": "east_west",
+      "head_toward": "east"
+    },
+    {
+      "contact_id": "u_master::u_master_canopy_bed::sit_north",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "bed_east_west_head_east",
+      "actor_facing": "north",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -174.0
+      ],
+      "approach": [
+        0.0,
+        -178
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_canopy_bed::sit_south",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "bed_east_west_head_east",
+      "actor_facing": "south",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        0.0
+      ],
+      "approach": [
+        0.0,
+        58.0
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_bedside_cabinet::inspect",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "cabinet_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_reach_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_bed_foot_bench::seat",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "bench_west",
+      "actor_facing": "west",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -22.42
+      ],
+      "approach": [
+        -31.68,
+        0.0
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_west": "approved_sample_fit_pending",
+        "seated_talk_west": "missing_art_or_unmapped_action",
+        "seated_read_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_window_bench::seat",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "bench_south",
+      "actor_facing": "south",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -11.78
+      ],
+      "approach": [
+        0.0,
+        20.67
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_south": "approved_sample_fit_pending",
+        "seated_talk_south": "missing_art_or_unmapped_action",
+        "seated_read_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_window::look_out",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "window_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_look_out_north": "missing_art_or_unmapped_action",
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_look_up_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_window::view_from_west",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "window_south",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_look_up_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_window::view_from_east",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "window_south",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_look_up_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_fireplace::stand",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "fireplace_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_warm_hands_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_fireplace::kneel",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "fireplace_south",
+      "actor_facing": "north",
+      "posture": "kneeling",
+      "contact_kind": "knees",
+      "contact": [
+        0.0,
+        11.2
+      ],
+      "approach": [
+        0.0,
+        24.64
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "kneeling_inspect_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_mantel_clock::inspect",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "clock_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_look_up_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_mantel_clock::view_from_west",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "clock_south",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_look_up_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_mantel_clock::view_from_east",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "clock_south",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_look_up_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_vanity::seated_work",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "desk_east",
+      "actor_facing": "west",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -31.15
+      ],
+      "approach": [
+        42.53,
+        0.0
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_vanity::standing_work",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "desk_east",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        45.0,
+        -3
+      ],
+      "approach": [
+        60.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_read_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_vanity_mirror::inspect",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "mirror_east",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        27.0,
+        -3
+      ],
+      "approach": [
+        42.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_vanity_bench::seat",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "bench_west",
+      "actor_facing": "west",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -15.96
+      ],
+      "approach": [
+        -26.53,
+        0.0
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_west": "approved_sample_fit_pending",
+        "seated_talk_west": "missing_art_or_unmapped_action",
+        "seated_read_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_west_bench::seat",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "bench_east",
+      "actor_facing": "east",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -18.24
+      ],
+      "approach": [
+        24.32,
+        0.0
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_east": "approved_sample_fit_pending",
+        "seated_talk_east": "missing_art_or_unmapped_action",
+        "seated_read_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_reading_armchair_west::seat",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "armchair_east",
+      "actor_facing": "east",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -23.18
+      ],
+      "approach": [
+        47.64,
+        0.0
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_east": "approved_sample_fit_pending",
+        "seated_talk_east": "missing_art_or_unmapped_action",
+        "seated_read_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_reading_armchair_east::seat",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "armchair_west",
+      "actor_facing": "west",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -25.46
+      ],
+      "approach": [
+        -54.21,
+        0.0
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_west": "approved_sample_fit_pending",
+        "seated_talk_west": "missing_art_or_unmapped_action",
+        "seated_read_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_reading_table::use",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "table_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_read_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_west_picture::inspect",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "painting_east",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        25.0,
+        -3
+      ],
+      "approach": [
+        40.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_look_up_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_west_picture::view_from_north",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "painting_east",
+      "actor_facing": "south",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        25.0,
+        -3
+      ],
+      "approach": [
+        40.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_south": "missing_art_or_unmapped_action",
+        "standing_look_up_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_west_picture::view_from_south",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "painting_east",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        25.0,
+        -3
+      ],
+      "approach": [
+        40.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_look_up_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_upper_picture::inspect",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "painting_east",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        23.5,
+        -3
+      ],
+      "approach": [
+        38.5,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_look_up_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_upper_picture::view_from_north",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "painting_east",
+      "actor_facing": "south",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        23.5,
+        -3
+      ],
+      "approach": [
+        38.5,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_south": "missing_art_or_unmapped_action",
+        "standing_look_up_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_upper_picture::view_from_south",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "painting_east",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        23.5,
+        -3
+      ],
+      "approach": [
+        38.5,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_look_up_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_east_door::inside",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "doorway_west",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        -26.0,
+        -3
+      ],
+      "approach": [
+        -41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_listen_east": "missing_art_or_unmapped_action",
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_peek_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_master::u_master_east_door::outside",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "orientation_id": "doorway_west",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        -26.0,
+        -3
+      ],
+      "approach": [
+        -41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_north_shelves::inspect",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "bookshelf_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_read_north": "missing_art_or_unmapped_action",
+        "standing_reach_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_west_window::look_out",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "window_east",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        29.5,
+        -3
+      ],
+      "approach": [
+        44.5,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_look_out_west": "missing_art_or_unmapped_action",
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_look_up_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_west_window::view_from_north",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "window_east",
+      "actor_facing": "south",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        29.5,
+        -3
+      ],
+      "approach": [
+        44.5,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_south": "missing_art_or_unmapped_action",
+        "standing_look_up_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_west_window::view_from_south",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "window_east",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        29.5,
+        -3
+      ],
+      "approach": [
+        44.5,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_look_up_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_fireplace::stand",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "fireplace_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_warm_hands_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_fireplace::kneel",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "fireplace_south",
+      "actor_facing": "north",
+      "posture": "kneeling",
+      "contact_kind": "knees",
+      "contact": [
+        0.0,
+        14.8
+      ],
+      "approach": [
+        0.0,
+        32.56
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "kneeling_inspect_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_mantel_picture::inspect",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "painting_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_look_up_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_mantel_picture::view_from_west",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "painting_south",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_look_up_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_mantel_picture::view_from_east",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "painting_south",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_look_up_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_writing_desk::seated_work",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "desk_north",
+      "actor_facing": "south",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -21.0
+      ],
+      "approach": [
+        0.0,
+        -24.0
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_writing_desk::standing_work",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "desk_north",
+      "actor_facing": "south",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        -72
+      ],
+      "approach": [
+        0.0,
+        -87
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_south": "missing_art_or_unmapped_action",
+        "standing_read_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_desk_chair::seat",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "chair_north",
+      "actor_facing": "north",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -17.1
+      ],
+      "approach": [
+        0.0,
+        -22.5
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_north": "missing_art_or_unmapped_action",
+        "seated_talk_north": "missing_art_or_unmapped_action",
+        "seated_read_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_document_table::use",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "table_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_read_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_chair_north::seat",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "chair_south",
+      "actor_facing": "south",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -9.5
+      ],
+      "approach": [
+        0.0,
+        12.5
+      ],
+      "target_instance_id": "u_study_document_table",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_south": "approved_sample_fit_pending",
+        "seated_talk_south": "missing_art_or_unmapped_action",
+        "seated_read_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_chair_south::seat",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "chair_north",
+      "actor_facing": "north",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -19.0
+      ],
+      "approach": [
+        0.0,
+        -25.0
+      ],
+      "target_instance_id": "u_study_document_table",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_north": "missing_art_or_unmapped_action",
+        "seated_talk_north": "missing_art_or_unmapped_action",
+        "seated_read_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_chair_west::seat",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "chair_east",
+      "actor_facing": "east",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -23.56
+      ],
+      "approach": [
+        25.65,
+        0.0
+      ],
+      "target_instance_id": "u_study_document_table",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_east": "approved_sample_fit_pending",
+        "seated_talk_east": "missing_art_or_unmapped_action",
+        "seated_read_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_chair_east::seat",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "chair_west",
+      "actor_facing": "west",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -23.56
+      ],
+      "approach": [
+        -29.45,
+        0.0
+      ],
+      "target_instance_id": "u_study_document_table",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_west": "approved_sample_fit_pending",
+        "seated_talk_west": "missing_art_or_unmapped_action",
+        "seated_read_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_reading_armchair::seat",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "armchair_west",
+      "actor_facing": "west",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -26.98
+      ],
+      "approach": [
+        -51.75,
+        0.0
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_west": "approved_sample_fit_pending",
+        "seated_talk_west": "missing_art_or_unmapped_action",
+        "seated_read_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_reading_side_table::use",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "table_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_read_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_west_door::inside",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "doorway_east",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        26.0,
+        -3
+      ],
+      "approach": [
+        41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_listen_west": "missing_art_or_unmapped_action",
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_peek_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "u_study::u_study_west_door::outside",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "orientation_id": "doorway_east",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        26.0,
+        -3
+      ],
+      "approach": [
+        41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "b_store::b_store_west_storage_rack::inspect",
+      "layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "orientation_id": "cabinet_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_reach_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "b_store::b_store_back_east_storage_rack::inspect",
+      "layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "orientation_id": "cabinet_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_reach_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "b_store::b_store_workbench::seated_work",
+      "layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "orientation_id": "desk_west",
+      "actor_facing": "east",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -26.6
+      ],
+      "approach": [
+        -35.0,
+        0.0
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "b_store::b_store_workbench::standing_work",
+      "layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "orientation_id": "desk_west",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        -33.0,
+        -3
+      ],
+      "approach": [
+        -31.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_read_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "b_store::b_store_work_stool::seat",
+      "layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "orientation_id": "stool_west",
+      "actor_facing": "west",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -12.54
+      ],
+      "approach": [
+        -27.5,
+        0.0
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_west": "approved_sample_fit_pending",
+        "seated_talk_west": "missing_art_or_unmapped_action",
+        "seated_read_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "b_store::b_store_west_work_shelf::inspect",
+      "layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "orientation_id": "cabinet_east",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        35.5,
+        -3
+      ],
+      "approach": [
+        50.5,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_reach_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "b_store::b_store_back_barrel_west::inspect",
+      "layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "orientation_id": "barrel_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "b_store::b_store_back_barrel_east::inspect",
+      "layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "orientation_id": "barrel_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "b_store::b_store_back_crate::inspect",
+      "layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "orientation_id": "crate_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "b_store::b_store_back_chest::inspect",
+      "layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "orientation_id": "cabinet_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_reach_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "b_store::b_store_foreground_crate_west::inspect",
+      "layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "orientation_id": "crate_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        17
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "b_store::b_store_foreground_crate_center::inspect",
+      "layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "orientation_id": "crate_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        6
+      ],
+      "approach": [
+        0.0,
+        4
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "b_store::b_store_foreground_worktable::use",
+      "layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "orientation_id": "table_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        22
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_read_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "b_store::b_store_foreground_chest::inspect",
+      "layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "orientation_id": "cabinet_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        20
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_reach_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "b_store::b_store_foreground_crate_east::inspect",
+      "layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "orientation_id": "crate_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "b_store::b_store_foreground_barrel_east::inspect",
+      "layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "orientation_id": "barrel_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        -6
+      ],
+      "approach": [
+        0.0,
+        -8
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "b_store::b_store_east_storage_rack::inspect",
+      "layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "orientation_id": "cabinet_west",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        -34.5,
+        -3
+      ],
+      "approach": [
+        -49.5,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_reach_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "b_store::b_store_north_door::inside",
+      "layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "orientation_id": "doorway_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_listen_north": "missing_art_or_unmapped_action",
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_peek_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "b_store::b_store_north_door::outside",
+      "layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "orientation_id": "doorway_south",
+      "actor_facing": "south",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_bar_counter::use",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "bar_counter_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_idle_north": "approved_sample_fit_pending",
+        "standing_talk_north": "missing_art_or_unmapped_action",
+        "standing_drink_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_bottle_shelves::inspect",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "cabinet_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_reach_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_bar_stool_01::seat",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "bar_stool_north",
+      "actor_facing": "north",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -17.48
+      ],
+      "approach": [
+        0.0,
+        -27.6
+      ],
+      "target_instance_id": "future_bar_bar_counter",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_north": "stool_specific_fit_and_leg_pose_required",
+        "seated_talk_north": "stool_specific_fit_and_leg_pose_required",
+        "seated_drink_north": "stool_specific_fit_and_leg_pose_required"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_bar_stool_02::seat",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "bar_stool_north",
+      "actor_facing": "north",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -17.48
+      ],
+      "approach": [
+        0.0,
+        -27.6
+      ],
+      "target_instance_id": "future_bar_bar_counter",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_north": "stool_specific_fit_and_leg_pose_required",
+        "seated_talk_north": "stool_specific_fit_and_leg_pose_required",
+        "seated_drink_north": "stool_specific_fit_and_leg_pose_required"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_bar_stool_03::seat",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "bar_stool_north",
+      "actor_facing": "north",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -17.48
+      ],
+      "approach": [
+        0.0,
+        -27.6
+      ],
+      "target_instance_id": "future_bar_bar_counter",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_north": "stool_specific_fit_and_leg_pose_required",
+        "seated_talk_north": "stool_specific_fit_and_leg_pose_required",
+        "seated_drink_north": "stool_specific_fit_and_leg_pose_required"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_bar_stool_04::seat",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "bar_stool_north",
+      "actor_facing": "north",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -17.48
+      ],
+      "approach": [
+        0.0,
+        -27.6
+      ],
+      "target_instance_id": "future_bar_bar_counter",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_north": "stool_specific_fit_and_leg_pose_required",
+        "seated_talk_north": "stool_specific_fit_and_leg_pose_required",
+        "seated_drink_north": "stool_specific_fit_and_leg_pose_required"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_window::look_out",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "window_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_look_out_north": "missing_art_or_unmapped_action",
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_look_up_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_window::view_from_west",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "window_south",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_look_up_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_window::view_from_east",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "window_south",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_look_up_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_north_picture::inspect",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "painting_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_look_up_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_north_picture::view_from_west",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "painting_south",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_look_up_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_north_picture::view_from_east",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "painting_south",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_look_up_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_west_picture::inspect",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "painting_east",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        29.0,
+        -3
+      ],
+      "approach": [
+        44.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_west": "missing_art_or_unmapped_action",
+        "standing_look_up_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_west_picture::view_from_north",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "painting_east",
+      "actor_facing": "south",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        29.0,
+        -3
+      ],
+      "approach": [
+        44.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_south": "missing_art_or_unmapped_action",
+        "standing_look_up_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_west_picture::view_from_south",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "painting_east",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        29.0,
+        -3
+      ],
+      "approach": [
+        44.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_look_up_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_console::use",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "table_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_read_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_conversation_table::use",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "table_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_read_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_table_chair_nw::seat",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "armchair_east",
+      "actor_facing": "east",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -17.86
+      ],
+      "approach": [
+        28.75,
+        0.0
+      ],
+      "target_instance_id": "future_bar_conversation_table",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_east": "approved_sample_fit_pending",
+        "seated_talk_east": "missing_art_or_unmapped_action",
+        "seated_read_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_table_chair_ne::seat",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "armchair_west",
+      "actor_facing": "west",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -17.86
+      ],
+      "approach": [
+        -28.75,
+        0.0
+      ],
+      "target_instance_id": "future_bar_conversation_table",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_west": "approved_sample_fit_pending",
+        "seated_talk_west": "missing_art_or_unmapped_action",
+        "seated_read_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_table_chair_sw::seat",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "armchair_east",
+      "actor_facing": "east",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -21.66
+      ],
+      "approach": [
+        40.25,
+        0.0
+      ],
+      "target_instance_id": "future_bar_conversation_table",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_east": "approved_sample_fit_pending",
+        "seated_talk_east": "missing_art_or_unmapped_action",
+        "seated_read_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_table_chair_se::seat",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "armchair_west",
+      "actor_facing": "west",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -21.66
+      ],
+      "approach": [
+        -38.61,
+        0.0
+      ],
+      "target_instance_id": "future_bar_conversation_table",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_west": "approved_sample_fit_pending",
+        "seated_talk_west": "missing_art_or_unmapped_action",
+        "seated_read_west": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_west_armchair_upper::seat",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "armchair_east",
+      "actor_facing": "east",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -23.56
+      ],
+      "approach": [
+        37.79,
+        0.0
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_east": "approved_sample_fit_pending",
+        "seated_talk_east": "missing_art_or_unmapped_action",
+        "seated_read_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_west_armchair_lower::seat",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "armchair_east",
+      "actor_facing": "east",
+      "posture": "seated",
+      "contact_kind": "seat",
+      "contact": [
+        0.0,
+        -23.18
+      ],
+      "approach": [
+        37.79,
+        0.0
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "seated_idle_east": "approved_sample_fit_pending",
+        "seated_talk_east": "missing_art_or_unmapped_action",
+        "seated_read_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_west_side_table::use",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "table_south",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        12
+      ],
+      "approach": [
+        0.0,
+        27
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_inspect_north": "missing_art_or_unmapped_action",
+        "standing_read_north": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_east_door::inside",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "doorway_west",
+      "actor_facing": "east",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        -26.0,
+        -3
+      ],
+      "approach": [
+        -41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_listen_east": "missing_art_or_unmapped_action",
+        "standing_inspect_east": "missing_art_or_unmapped_action",
+        "standing_peek_east": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_east_door::outside",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "doorway_west",
+      "actor_facing": "west",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        -26.0,
+        -3
+      ],
+      "approach": [
+        -41.0,
+        -3
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_south_door::inside",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "doorway_north",
+      "actor_facing": "south",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        -40
+      ],
+      "approach": [
+        0.0,
+        -55
+      ],
+      "target_instance_id": "",
+      "enabled": true,
+      "ready_for_staging": false,
+      "pose_coverage": {
+        "standing_listen_south": "missing_art_or_unmapped_action",
+        "standing_inspect_south": "missing_art_or_unmapped_action",
+        "standing_peek_south": "missing_art_or_unmapped_action"
+      },
+      "body_axis": null,
+      "head_toward": null
+    },
+    {
+      "contact_id": "future_bar::future_bar_south_door::outside",
+      "layout": "res://assets/furniture/layouts/future_bar_rework_v2.json",
+      "orientation_id": "doorway_north",
+      "actor_facing": "north",
+      "posture": "standing",
+      "contact_kind": "feet",
+      "contact": [
+        0.0,
+        -40
+      ],
+      "approach": [
+        0.0,
+        -55
+      ],
+      "target_instance_id": "",
+      "enabled": false,
+      "ready_for_staging": false,
+      "pose_coverage": {},
+      "body_axis": null,
+      "head_toward": null
+    }
+  ]
+}

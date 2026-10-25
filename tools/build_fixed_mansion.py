@@ -99,14 +99,17 @@ link('u_main_stair',[460,195],[431,212],[-1,0], 'u_study',[20,203],[48,220],[1,0
 link('g_kitchen',[240,326],[240,285],[0,-1], 'b_store',[421,140],[421,183],[0,1],
      'stairs','Kitchen south threshold leads through an offscreen descending stair. Basement return is the rear doorway; matching stair artwork is still required.')
 
+from reworked_mansion_geometry import apply as apply_reworked_geometry
+apply_reworked_geometry(rooms,link)
+
 object_placements = {
-    "foyer-knife":["g_library",244,252], "review-bust":["g_library",206,211],
+    "foyer-knife":["g_library",244,252], "review-bust":["g_library",292,220],
     "review-bottle":["g_dining",311,258], "review-hammer":["g_kitchen",288,241],
     "review-stool":["g_kitchen",365,275], "review-poker":["u_master",173,237],
     "review-mallet":["b_store",270,263], "review-decanter":["g_dining",213,249],
     "review-book":["u_study",269,234], "review-safe":["b_store",365,245]}
 
-data = dict(object_placements=object_placements, schema_version=1,id='fixed-manor-compact-1',start_room='g_foyer',rooms=rooms,
+data = dict(object_placements=object_placements, schema_version=1,id='fixed-manor-compact-2',start_room='g_foyer',rooms=rooms,
     deferred_rooms=deferred,
     description='Compact first mansion: four ground-floor rooms, two upstairs, one basement; stair hall and upper landing are circulation. Unique active backgrounds; two passage art gaps remain.')
 (ROOT/'assets/mansion/fixed-mansion.json').write_text(json.dumps(data,indent=2)+'\n')

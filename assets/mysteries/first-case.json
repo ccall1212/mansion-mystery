@@ -4,14 +4,56 @@
   "title": "The Silent Library",
   "status": "authored_prototype",
   "briefing": "Adrian Vale, the estate's owner, was found dead tonight. The doctor reports a narrow blade wound. The body has been taken to a private room; the house remains locked.\n\nFind the weapon and the room where the attack occurred. Compare the three guests' accounts, then present your accusation in the foyer.\n\nBegin with the magnifying glass on the foyer reading stand. E examines, C collects, M uses the lens. N opens your notes; F4 opens this case board.",
-  "solution": {"suspect": "likeness-user", "weapon": "foyer-knife", "room": "g_library"},
-  "floor_clue": {"room": "g_library", "position": [175, 190], "radius": 26, "title": "Disturbed library rug", "text": "A narrow drag mark ends beneath the rug. Beside it is a crescent-shaped imprint with two small circular impressions. Someone wiped the surrounding stone. The arrangement is consistent with the knife's two-rivet handle resting here; this appears to be the original attack site."},
+  "solution": {
+    "suspect": "likeness-user",
+    "weapon": "foyer-knife",
+    "room": "g_library"
+  },
+  "floor_clue": {
+    "room": "g_library",
+    "position": [
+      202,
+      279
+    ],
+    "radius": 26,
+    "title": "Disturbed library rug",
+    "text": "A narrow drag mark ends beneath the rug. Beside it is a crescent-shaped imprint with two small circular impressions. Someone wiped the surrounding stone. The arrangement is consistent with the knife's two-rivet handle resting here; this appears to be the original attack site."
+  },
   "suspects": [
-    {"id": "likeness-photo01", "name": "Char", "room": "g_library", "statement": "At 11:40 I saw Chris enter this library carrying the kitchen knife. I went to fetch the household ledger. When I returned, Adrian was gone and the rug had moved. Justin was serving tea in the dining room."},
-    {"id": "likeness-first-A", "name": "Justin", "room": "g_dining", "statement": "I served tea in the dining room from 11:35 until the alarm. Char passed through to fetch the ledger. At 11:45 Chris came from the library, wiping his hands. He asked whether anyone had seen him leave the kitchen."},
-    {"id": "likeness-user", "name": "Chris", "room": "g_kitchen", "statement": "I stayed in the kitchen from 11:30 until the alarm. I never entered the library and did not carry a knife tonight. Ask Justin; he must have seen me here."}
+    {
+      "id": "likeness-photo01",
+      "name": "Char",
+      "room": "g_library",
+      "statement": "At 11:40 I saw Chris enter this library carrying the kitchen knife. I went to fetch the household ledger. When I returned, Adrian was gone and the rug had moved. Justin was serving tea in the dining room."
+    },
+    {
+      "id": "likeness-first-A",
+      "name": "Justin",
+      "room": "g_dining",
+      "statement": "I served tea in the dining room from 11:35 until the alarm. Char passed through to fetch the ledger. At 11:45 Chris came from the library, wiping his hands. He asked whether anyone had seen him leave the kitchen."
+    },
+    {
+      "id": "likeness-user",
+      "name": "Chris",
+      "room": "g_kitchen",
+      "statement": "I stayed in the kitchen from 11:30 until the alarm. I never entered the library and did not carry a knife tonight. Ask Justin; he must have seen me here."
+    }
   ],
-  "weapon_options": [{"id": "foyer-knife", "name": "Kitchen knife"}, {"id": "review-bust", "name": "Stone bust"}],
-  "room_options": ["g_foyer", "g_library", "g_dining", "g_kitchen"],
+  "weapon_options": [
+    {
+      "id": "foyer-knife",
+      "name": "Kitchen knife"
+    },
+    {
+      "id": "review-bust",
+      "name": "Stone bust"
+    }
+  ],
+  "room_options": [
+    "g_foyer",
+    "g_library",
+    "g_dining",
+    "g_kitchen"
+  ],
   "ending": "Chris's account cannot stand against two independent witnesses and the library evidence. He admits confronting Adrian over a falsified estate ledger, then moving him and trying to clean the room. The household secures the knife and summons the authorities.\n\nCASE SOLVED. This is the first authored prototype; future cases will vary identities, motives and evidence."
 }

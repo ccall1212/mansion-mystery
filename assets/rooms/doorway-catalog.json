@@ -163,9 +163,7 @@
         "east",
         "south-east"
       ],
-      "active_rooms": [
-        "u_master"
-      ],
+      "active_rooms": [],
       "room_reviews": {
         "u_master": {
           "status": "rework_required",
@@ -366,9 +364,7 @@
         "east",
         "south"
       ],
-      "active_rooms": [
-        "u_main_stair"
-      ],
+      "active_rooms": [],
       "room_reviews": {
         "u_main_stair": {
           "status": "rework_required",
@@ -536,9 +532,7 @@
         "east",
         "south-west"
       ],
-      "active_rooms": [
-        "b_store"
-      ],
+      "active_rooms": [],
       "room_reviews": {
         "b_store": {
           "status": "rework_required",
@@ -599,9 +593,7 @@
         "west",
         "east"
       ],
-      "active_rooms": [
-        "g_library"
-      ],
+      "active_rooms": [],
       "room_reviews": {
         "g_library": {
           "status": "rework_required",
@@ -673,9 +665,7 @@
         "west",
         "south"
       ],
-      "active_rooms": [
-        "u_study"
-      ],
+      "active_rooms": [],
       "room_reviews": {
         "u_study": {
           "status": "rework_required",
@@ -736,9 +726,7 @@
         "east",
         "south"
       ],
-      "active_rooms": [
-        "g_kitchen"
-      ],
+      "active_rooms": [],
       "room_reviews": {
         "g_kitchen": {
           "status": "rework_required",
@@ -810,9 +798,7 @@
         "east",
         "south-east"
       ],
-      "active_rooms": [
-        "g_dining"
-      ],
+      "active_rooms": [],
       "room_reviews": {
         "g_dining": {
           "status": "rework_required",
@@ -1108,9 +1094,7 @@
         "west",
         "upstairs"
       ],
-      "active_rooms": [
-        "g_main_stair"
-      ],
+      "active_rooms": [],
       "room_reviews": {
         "g_main_stair": {
           "status": "user_looks_alright",
@@ -1229,6 +1213,727 @@
       "count_status": "candidate_pending_user_review",
       "approval": "pending",
       "runtime_integrated": false
+    },
+    "res://assets/rooms/revisions/2026-10-24-room-rework/g_main_stair_n1_e0_s1_w1_draft_v1.png": {
+      "background_id": "g_main_stair_rework_2026_10_24",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/g_main_stair_n1_e0_s1_w1_draft_v1.png",
+      "source_sha256": "12682cb6b087ee04e1edf2914f6eb866b9785400e4d2de5ce88d27e583f60221",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 3,
+      "door_counts": {
+        "north": 1,
+        "east": 0,
+        "south": 1,
+        "west": 1
+      },
+      "door_signature": "N1_E0_S1_W1",
+      "doors": [
+        {
+          "id": "door_north_1",
+          "side": "north",
+          "position": [
+            320,
+            44
+          ],
+          "role": "upstairs_door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_west_2",
+          "side": "west",
+          "position": [
+            17,
+            175
+          ],
+          "role": "library_door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_south_3",
+          "side": "south",
+          "position": [
+            240,
+            309
+          ],
+          "role": "foyer_threshold",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "stair_flights": [
+        {
+          "id": "straight_main_ascent",
+          "side": "north",
+          "travel": "up",
+          "position": [
+            320,
+            188
+          ]
+        }
+      ],
+      "paths": [],
+      "active_rooms": [
+        "g_main_stair"
+      ],
+      "candidate_for": "g_main_stair",
+      "approval": "approved",
+      "runtime_integrated": true,
+      "count_status": "approved_art_runtime_geometry_checked",
+      "room_reviews": {
+        "g_main_stair": {
+          "target_door_counts": {
+            "north": 1,
+            "east": 0,
+            "south": 1,
+            "west": 1
+          },
+          "target_door_count": 3,
+          "status": "approved_art_integrated",
+          "user_notes": "Approved replacement with updated collision and active portals. General furniture staging remains provisional."
+        }
+      }
+    },
+    "res://assets/rooms/revisions/2026-10-24-room-rework/g_library_n0_e1_s0_w1_draft_v1.png": {
+      "background_id": "g_library_rework_2026_10_24",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/g_library_n0_e1_s0_w1_draft_v1.png",
+      "source_sha256": "cf134641cd11b93d7d04473339348828ee424611dd232bfa8181feb374f24133",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 2,
+      "door_counts": {
+        "north": 0,
+        "east": 1,
+        "south": 0,
+        "west": 1
+      },
+      "door_signature": "N0_E1_S0_W1",
+      "doors": [
+        {
+          "id": "door_east_1",
+          "side": "east",
+          "position": [
+            465,
+            150
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_west_2",
+          "side": "west",
+          "position": [
+            15,
+            145
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "active_rooms": [],
+      "candidate_for": "g_library",
+      "approval": "pending",
+      "runtime_integrated": false,
+      "count_status": "superseded_candidate"
+    },
+    "res://assets/rooms/revisions/2026-10-24-room-rework/g_dining_n0_e1_s0_w1_draft_v1.png": {
+      "background_id": "g_dining_rework_2026_10_24",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/g_dining_n0_e1_s0_w1_draft_v1.png",
+      "source_sha256": "9a3ae75816191bd192f5005231391f7e30397eeac9e390acd7f77d2aa553343c",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 2,
+      "door_counts": {
+        "north": 0,
+        "east": 1,
+        "south": 0,
+        "west": 1
+      },
+      "door_signature": "N0_E1_S0_W1",
+      "doors": [
+        {
+          "id": "door_east_1",
+          "side": "east",
+          "position": [
+            466,
+            143
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_west_2",
+          "side": "west",
+          "position": [
+            14,
+            143
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "active_rooms": [
+        "g_dining"
+      ],
+      "candidate_for": "g_dining",
+      "approval": "approved",
+      "runtime_integrated": true,
+      "count_status": "approved_art_runtime_geometry_checked",
+      "room_reviews": {
+        "g_dining": {
+          "target_door_counts": {
+            "north": 0,
+            "east": 1,
+            "south": 0,
+            "west": 1
+          },
+          "target_door_count": 2,
+          "status": "approved_art_integrated",
+          "user_notes": "Approved replacement with updated collision and active portals. General furniture staging remains provisional."
+        }
+      }
+    },
+    "res://assets/rooms/revisions/2026-10-24-room-rework/g_kitchen_n0_e1_s1_w0_draft_v1.png": {
+      "background_id": "g_kitchen_rework_2026_10_24",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/g_kitchen_n0_e1_s1_w0_draft_v1.png",
+      "source_sha256": "2183de97d2f846ce4b8c1fe558e61ecc1bc989599a973fd6e7e89b927c47cb18",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 2,
+      "door_counts": {
+        "north": 0,
+        "east": 1,
+        "south": 1,
+        "west": 0
+      },
+      "door_signature": "N0_E1_S1_W0",
+      "doors": [
+        {
+          "id": "door_east_1",
+          "side": "east",
+          "position": [
+            466,
+            135
+          ],
+          "role": "dining_door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_south_2",
+          "side": "south",
+          "position": [
+            240,
+            309
+          ],
+          "role": "basement_threshold",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "active_rooms": [
+        "g_kitchen"
+      ],
+      "candidate_for": "g_kitchen",
+      "approval": "approved",
+      "runtime_integrated": true,
+      "count_status": "approved_art_runtime_geometry_checked",
+      "room_reviews": {
+        "g_kitchen": {
+          "target_door_counts": {
+            "north": 0,
+            "east": 1,
+            "south": 1,
+            "west": 0
+          },
+          "target_door_count": 2,
+          "status": "approved_art_integrated",
+          "user_notes": "Approved replacement with updated collision and active portals. General furniture staging remains provisional."
+        }
+      }
+    },
+    "res://assets/rooms/revisions/2026-10-24-room-rework/u_main_stair_n0_e1_s1_w1_draft_v1.png": {
+      "background_id": "u_main_stair_rework_2026_10_24",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/u_main_stair_n0_e1_s1_w1_draft_v1.png",
+      "source_sha256": "a2642159dd5db8843559389b25360e7e1f17e14d8fbdc1908d3ce7c850504819",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 3,
+      "door_counts": {
+        "north": 0,
+        "east": 1,
+        "south": 1,
+        "west": 1
+      },
+      "door_signature": "N0_E1_S1_W1",
+      "doors": [
+        {
+          "id": "door_east_1",
+          "side": "east",
+          "position": [
+            465,
+            145
+          ],
+          "role": "study_door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_south_2",
+          "side": "south",
+          "position": [
+            240,
+            309
+          ],
+          "role": "stair_return",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_west_3",
+          "side": "west",
+          "position": [
+            15,
+            145
+          ],
+          "role": "bedroom_door",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "active_rooms": [
+        "u_main_stair"
+      ],
+      "candidate_for": "u_main_stair",
+      "approval": "approved",
+      "runtime_integrated": true,
+      "count_status": "approved_art_runtime_geometry_checked",
+      "room_reviews": {
+        "u_main_stair": {
+          "target_door_counts": {
+            "north": 0,
+            "east": 1,
+            "south": 1,
+            "west": 1
+          },
+          "target_door_count": 3,
+          "status": "approved_art_integrated",
+          "user_notes": "Approved replacement with updated collision and active portals. General furniture staging remains provisional."
+        }
+      }
+    },
+    "res://assets/rooms/revisions/2026-10-24-room-rework/u_master_n0_e1_s0_w0_draft_v1.png": {
+      "background_id": "u_master_rework_2026_10_24",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/u_master_n0_e1_s0_w0_draft_v1.png",
+      "source_sha256": "6643e28efdffd09833cf5c124dc4fe573709969f3557fdea9f69735aef4ae7f1",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 1,
+      "door_counts": {
+        "north": 0,
+        "east": 1,
+        "south": 0,
+        "west": 0
+      },
+      "door_signature": "N0_E1_S0_W0",
+      "doors": [
+        {
+          "id": "door_east_1",
+          "side": "east",
+          "position": [
+            465,
+            252
+          ],
+          "role": "landing_door",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "active_rooms": [
+        "u_master"
+      ],
+      "candidate_for": "u_master",
+      "approval": "approved",
+      "runtime_integrated": true,
+      "count_status": "approved_art_runtime_geometry_checked",
+      "room_reviews": {
+        "u_master": {
+          "target_door_counts": {
+            "north": 0,
+            "east": 1,
+            "south": 0,
+            "west": 0
+          },
+          "target_door_count": 1,
+          "status": "approved_art_integrated",
+          "user_notes": "Approved replacement with updated collision and active portals. General furniture staging remains provisional."
+        }
+      }
+    },
+    "res://assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v1.png": {
+      "background_id": "u_study_rework_2026_10_24",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v1.png",
+      "source_sha256": "25d2f6d29fb3628873739cc0fa9782f71884d437763cb10c82b75dbb55bbdc9b",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 1,
+      "door_counts": {
+        "north": 0,
+        "east": 0,
+        "south": 0,
+        "west": 1
+      },
+      "door_signature": "N0_E0_S0_W1",
+      "doors": [
+        {
+          "id": "door_west_1",
+          "side": "west",
+          "position": [
+            15,
+            143
+          ],
+          "role": "landing_door",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "active_rooms": [],
+      "candidate_for": "u_study",
+      "approval": "pending",
+      "runtime_integrated": false,
+      "count_status": "superseded_candidate"
+    },
+    "res://assets/rooms/revisions/2026-10-24-room-rework/b_store_n1_e0_s0_w0_draft_v1.png": {
+      "background_id": "b_store_rework_2026_10_24",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/b_store_n1_e0_s0_w0_draft_v1.png",
+      "source_sha256": "662f0886af5f6ad08e889da99cce6fbee3a8f00c6e7fc40821e49d9ed5dafce1",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 1,
+      "door_counts": {
+        "north": 1,
+        "east": 0,
+        "south": 0,
+        "west": 0
+      },
+      "door_signature": "N1_E0_S0_W0",
+      "doors": [
+        {
+          "id": "door_north_1",
+          "side": "north",
+          "position": [
+            421,
+            75
+          ],
+          "role": "stair_return",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "active_rooms": [
+        "b_store"
+      ],
+      "candidate_for": "b_store",
+      "approval": "approved",
+      "runtime_integrated": true,
+      "count_status": "approved_art_runtime_geometry_checked",
+      "room_reviews": {
+        "b_store": {
+          "target_door_counts": {
+            "north": 1,
+            "east": 0,
+            "south": 0,
+            "west": 0
+          },
+          "target_door_count": 1,
+          "status": "approved_art_integrated",
+          "user_notes": "Approved replacement with updated collision and active portals. General furniture staging remains provisional."
+        }
+      }
+    },
+    "res://assets/rooms/revisions/2026-10-24-room-rework/future_bar_n0_e1_s1_w0_draft_v1.png": {
+      "background_id": "future_bar_rework_2026_10_24",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/future_bar_n0_e1_s1_w0_draft_v1.png",
+      "source_sha256": "08d3b01f10e54bd5a22ea8a704b7fc4c7ee55116dc913413a76657d893e1e524",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 2,
+      "door_counts": {
+        "north": 0,
+        "east": 1,
+        "south": 1,
+        "west": 0
+      },
+      "door_signature": "N0_E1_S1_W0",
+      "doors": [
+        {
+          "id": "door_east_1",
+          "side": "east",
+          "position": [
+            465,
+            143
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_south_2",
+          "side": "south",
+          "position": [
+            240,
+            309
+          ],
+          "role": "threshold",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "active_rooms": [],
+      "candidate_for": "future_bar",
+      "approval": "pending",
+      "runtime_integrated": false,
+      "count_status": "superseded_candidate"
+    },
+    "res://assets/rooms/revisions/2026-10-24-room-rework/future_bar_n0_e1_s1_w0_draft_v2.png": {
+      "background_id": "future_bar_rework_2026_10_24_v2",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/future_bar_n0_e1_s1_w0_draft_v2.png",
+      "source_sha256": "5f1afa1b88d7982f4a1be781a009c5c74331f3b19329216a67697be9cffa7660",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 2,
+      "door_counts": {
+        "north": 0,
+        "east": 1,
+        "south": 1,
+        "west": 0
+      },
+      "door_signature": "N0_E1_S1_W0",
+      "doors": [
+        {
+          "id": "door_east_1",
+          "side": "east",
+          "position": [
+            465,
+            143
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_south_2",
+          "side": "south",
+          "position": [
+            240,
+            309
+          ],
+          "role": "threshold",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "active_rooms": [],
+      "candidate_for": "future_bar",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "count_status": "draft_visual_inventory_pending_user_review"
+    },
+    "res://assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v2.png": {
+      "background_id": "u_study_rework_2026_10_24_v2",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v2.png",
+      "source_sha256": "2d31d03a3f60efda956427321eedbc70d0361b69488eb47ac73fc87cedf41c00",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 1,
+      "door_counts": {
+        "north": 0,
+        "east": 0,
+        "south": 0,
+        "west": 1
+      },
+      "door_signature": "N0_E0_S0_W1",
+      "doors": [
+        {
+          "id": "door_west_1",
+          "side": "west",
+          "position": [
+            15,
+            143
+          ],
+          "role": "landing_door",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "active_rooms": [
+        "u_study"
+      ],
+      "candidate_for": "u_study",
+      "approval": "approved",
+      "runtime_integrated": true,
+      "count_status": "approved_art_runtime_geometry_checked",
+      "room_reviews": {
+        "u_study": {
+          "target_door_counts": {
+            "north": 0,
+            "east": 0,
+            "south": 0,
+            "west": 1
+          },
+          "target_door_count": 1,
+          "status": "approved_art_integrated",
+          "user_notes": "Approved replacement with updated collision and active portals. General furniture staging remains provisional."
+        }
+      }
+    },
+    "res://assets/rooms/revisions/2026-10-24-room-rework/g_library_n0_e1_s1_w0_draft_v2.png": {
+      "background_id": "g_library_rework_2026_10_24_v2",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/g_library_n0_e1_s1_w0_draft_v2.png",
+      "source_sha256": "c996e437f2c3a4fbc7321fd04dd0d8a01b9c316fcd6b54e01d06c1dd6936cc96",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 2,
+      "door_counts": {
+        "north": 0,
+        "east": 1,
+        "south": 1,
+        "west": 0
+      },
+      "door_signature": "N0_E1_S1_W0",
+      "doors": [
+        {
+          "id": "door_east_1",
+          "side": "east",
+          "position": [
+            465,
+            146
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_south_2",
+          "side": "south",
+          "position": [
+            277,
+            309
+          ],
+          "role": "threshold",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "active_rooms": [],
+      "candidate_for": "g_library",
+      "approval": "pending",
+      "runtime_integrated": false,
+      "count_status": "superseded_candidate"
+    },
+    "res://assets/rooms/revisions/2026-10-24-room-rework/g_library_n0_e1_s1_w0_draft_v3.png": {
+      "background_id": "g_library_rework_2026_10_24_v3",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/g_library_n0_e1_s1_w0_draft_v3.png",
+      "source_sha256": "d5af27ada3c3dfa12a6433b37bd61de5927f7ecfc51a60823bd77e20a2374bb0",
+      "coordinate_space": "background_local",
+      "coordinate_size": [
+        480,
+        320
+      ],
+      "door_count": 2,
+      "door_counts": {
+        "north": 0,
+        "east": 1,
+        "south": 1,
+        "west": 0
+      },
+      "door_signature": "N0_E1_S1_W0",
+      "doors": [
+        {
+          "id": "door_east_1",
+          "side": "east",
+          "position": [
+            465,
+            146
+          ],
+          "role": "door",
+          "position_status": "visual_estimate_not_trigger"
+        },
+        {
+          "id": "door_south_2",
+          "side": "south",
+          "position": [
+            277,
+            309
+          ],
+          "role": "threshold",
+          "position_status": "visual_estimate_not_trigger"
+        }
+      ],
+      "stair_flights": [],
+      "paths": [],
+      "active_rooms": [
+        "g_library"
+      ],
+      "candidate_for": "g_library",
+      "approval": "approved",
+      "runtime_integrated": true,
+      "count_status": "approved_art_runtime_geometry_checked",
+      "room_reviews": {
+        "g_library": {
+          "target_door_counts": {
+            "north": 0,
+            "east": 1,
+            "south": 1,
+            "west": 0
+          },
+          "target_door_count": 2,
+          "status": "approved_art_integrated",
+          "user_notes": "Approved replacement with updated collision and active portals. General furniture staging remains provisional."
+        }
+      }
     }
   }
 }

@@ -3,6 +3,10 @@ extends Node2D
 const FIT := "res://assets/characters/poses/char/chair-fit.json"
 
 static func settings(contact: String) -> Dictionary:
+	var review: Dictionary = JSON.parse_string(FileAccess.get_file_as_string("res://assets/characters/poses/char/library-fit-review.json"))
+	for sample in review.samples:
+		if sample.contact_id == contact and sample.approval == "approved":
+			return sample
 	var data: Dictionary = JSON.parse_string(FileAccess.get_file_as_string(FIT))
 	return data.contacts.get(contact,{})
 

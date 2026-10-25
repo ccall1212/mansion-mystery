@@ -96,7 +96,7 @@ async def main():
             await call('launch_remake')
             await asyncio.sleep(1)
             initial = (await call('get_game_status', game='remake'))['game_state']
-            assert initial['mansion']['blueprint_id'] == 'fixed-manor-compact-1'
+            assert initial['mansion']['blueprint_id'] == 'fixed-manor-compact-2'
             assert initial['mansion']['floor'] == 0 and initial['mansion']['room_id'] == 'g_foyer'
             assert initial['camera_zoom'] == 1.5, 'Detail camera should be the default'
             assert len(initial['npc_assignments']) == 7

@@ -1,0 +1,757 @@
+{
+  "schema_version": 1,
+  "id": "g_kitchen_rework_v1",
+  "background": "res://assets/rooms/revisions/2026-10-24-room-rework/g_kitchen_n0_e1_s1_w0_draft_v1.png",
+  "coordinate_space": "background_local",
+  "coordinate_size": [
+    480,
+    320
+  ],
+  "artwork_sha256": "2183de97d2f846ce4b8c1fe558e61ecc1bc989599a973fd6e7e89b927c47cb18",
+  "source_room_id": "g_kitchen",
+  "review_status": "draft_contacts_pending_visual_review",
+  "instances": [
+    {
+      "id": "g_kitchen_range",
+      "variant_id": "fireplace_south",
+      "position": [
+        134.5,
+        111
+      ],
+      "bounds": [
+        -60.5,
+        -87,
+        121,
+        87
+      ],
+      "footprint": [
+        -60.50000000000001,
+        -10.44,
+        121.00000000000001,
+        10.44
+      ],
+      "anchors": [
+        {
+          "id": "stand",
+          "enabled": true,
+          "contact": [
+            0.0,
+            12
+          ],
+          "approach": [
+            0.0,
+            27
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "warm_hands"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "status": "provisional"
+        },
+        {
+          "id": "kneel",
+          "enabled": true,
+          "contact": [
+            0.0,
+            17.4
+          ],
+          "approach": [
+            0.0,
+            38.28
+          ],
+          "actor_facing": "north",
+          "posture": "kneeling",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "knees",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "status": "provisional"
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging.",
+      "contact_status": "provisional",
+      "placement_enabled": false
+    },
+    {
+      "id": "g_kitchen_west_worktop",
+      "variant_id": "cabinet_east",
+      "position": [
+        41.0,
+        176
+      ],
+      "bounds": [
+        -33.0,
+        -86,
+        66,
+        86
+      ],
+      "footprint": [
+        -33.0,
+        -14.742857142857144,
+        66.0,
+        14.742857142857144
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            47.0,
+            -3
+          ],
+          "approach": [
+            62.0,
+            -3
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "reach"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "status": "provisional"
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging.",
+      "contact_status": "provisional",
+      "placement_enabled": false
+    },
+    {
+      "id": "g_kitchen_west_shelves",
+      "variant_id": "cabinet_east",
+      "position": [
+        39.5,
+        95
+      ],
+      "bounds": [
+        -26.5,
+        -51,
+        53,
+        51
+      ],
+      "footprint": [
+        -26.5,
+        -8.742857142857142,
+        53.0,
+        8.742857142857142
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            40.5,
+            -3
+          ],
+          "approach": [
+            55.5,
+            -3
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "reach"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "status": "provisional"
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging.",
+      "contact_status": "provisional",
+      "placement_enabled": false
+    },
+    {
+      "id": "g_kitchen_sink",
+      "variant_id": "cabinet_south",
+      "position": [
+        287.0,
+        103
+      ],
+      "bounds": [
+        -40.0,
+        -38,
+        80,
+        38
+      ],
+      "footprint": [
+        -40.0,
+        -6.514285714285714,
+        80.0,
+        6.514285714285714
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            12
+          ],
+          "approach": [
+            0.0,
+            27
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "reach"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "status": "provisional"
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging.",
+      "contact_status": "provisional",
+      "placement_enabled": false
+    },
+    {
+      "id": "g_kitchen_window",
+      "variant_id": "window_south",
+      "position": [
+        288.5,
+        69
+      ],
+      "bounds": [
+        -25.5,
+        -69,
+        51,
+        69
+      ],
+      "footprint": [
+        -25.5,
+        -8.28,
+        51.0,
+        8.28
+      ],
+      "anchors": [
+        {
+          "id": "look_out",
+          "enabled": true,
+          "contact": [
+            0.0,
+            12
+          ],
+          "approach": [
+            0.0,
+            27
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "look_out",
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "gaze_target": [
+            0.0,
+            -34.5
+          ],
+          "status": "provisional"
+        },
+        {
+          "id": "view_from_west",
+          "enabled": true,
+          "contact": [
+            0.0,
+            12
+          ],
+          "approach": [
+            0.0,
+            27
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "west",
+          "gaze_target": [
+            0.0,
+            -34.5
+          ],
+          "visual_review": "pending",
+          "status": "provisional"
+        },
+        {
+          "id": "view_from_east",
+          "enabled": true,
+          "contact": [
+            0.0,
+            12
+          ],
+          "approach": [
+            0.0,
+            27
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "look_up"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "interaction_side": "east",
+          "gaze_target": [
+            0.0,
+            -34.5
+          ],
+          "visual_review": "pending",
+          "status": "provisional"
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging.",
+      "contact_status": "provisional",
+      "placement_enabled": false
+    },
+    {
+      "id": "g_kitchen_pantry",
+      "variant_id": "cabinet_south",
+      "position": [
+        377.5,
+        100
+      ],
+      "bounds": [
+        -43.5,
+        -100,
+        87,
+        100
+      ],
+      "footprint": [
+        -43.5,
+        -17.142857142857142,
+        87.0,
+        17.142857142857142
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            12
+          ],
+          "approach": [
+            0.0,
+            27
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "reach"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "status": "provisional"
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging.",
+      "contact_status": "provisional",
+      "placement_enabled": false
+    },
+    {
+      "id": "g_kitchen_prep_table",
+      "variant_id": "table_south",
+      "position": [
+        146.0,
+        214
+      ],
+      "bounds": [
+        -70.0,
+        -82,
+        140,
+        82
+      ],
+      "footprint": [
+        -70.0,
+        -24.599999999999998,
+        140.0,
+        24.599999999999998
+      ],
+      "anchors": [
+        {
+          "id": "use",
+          "enabled": true,
+          "contact": [
+            0.0,
+            12
+          ],
+          "approach": [
+            0.0,
+            27
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect",
+            "read"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "status": "provisional"
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging.",
+      "contact_status": "provisional",
+      "placement_enabled": false
+    },
+    {
+      "id": "g_kitchen_work_stool",
+      "variant_id": "stool_east",
+      "position": [
+        65.0,
+        210
+      ],
+      "bounds": [
+        -14.0,
+        -45,
+        28,
+        45
+      ],
+      "footprint": [
+        -14.0,
+        -18.0,
+        28.0,
+        18.0
+      ],
+      "anchors": [
+        {
+          "id": "seat",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -17.1
+          ],
+          "approach": [
+            35.0,
+            0.0
+          ],
+          "actor_facing": "east",
+          "posture": "seated",
+          "activities": [
+            "idle",
+            "talk",
+            "read"
+          ],
+          "contact_kind": "seat",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "status": "provisional"
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging.",
+      "contact_status": "provisional",
+      "placement_enabled": false,
+      "size_profile_id": "stool_standard",
+      "size_review": "unmeasured"
+    },
+    {
+      "id": "g_kitchen_sink_barrel",
+      "variant_id": "barrel_south",
+      "position": [
+        326.5,
+        108
+      ],
+      "bounds": [
+        -10.5,
+        -28,
+        21,
+        28
+      ],
+      "footprint": [
+        -10.5,
+        -8.0,
+        21.0,
+        8.0
+      ],
+      "anchors": [
+        {
+          "id": "inspect",
+          "enabled": true,
+          "contact": [
+            0.0,
+            12
+          ],
+          "approach": [
+            0.0,
+            27
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "inspect"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ],
+          "status": "provisional"
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging.",
+      "contact_status": "provisional",
+      "placement_enabled": false
+    },
+    {
+      "id": "g_kitchen_east_door",
+      "variant_id": "doorway_west",
+      "position": [
+        458.0,
+        146
+      ],
+      "bounds": [
+        -12.0,
+        -56,
+        24,
+        56
+      ],
+      "footprint": [
+        -12.0,
+        -6.720000000000001,
+        24.0,
+        6.720000000000001
+      ],
+      "anchors": [
+        {
+          "id": "inside",
+          "enabled": true,
+          "contact": [
+            -26.0,
+            -3
+          ],
+          "approach": [
+            -41.0,
+            -3
+          ],
+          "actor_facing": "east",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "outside",
+          "enabled": false,
+          "contact": [
+            -26.0,
+            -3
+          ],
+          "approach": [
+            -41.0,
+            -3
+          ],
+          "actor_facing": "west",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging.",
+      "contact_status": "provisional",
+      "placement_enabled": false
+    },
+    {
+      "id": "g_kitchen_south_door",
+      "variant_id": "doorway_north",
+      "position": [
+        240.0,
+        320
+      ],
+      "bounds": [
+        -33.0,
+        -28,
+        66,
+        28
+      ],
+      "footprint": [
+        -33.0,
+        -3.3600000000000003,
+        66.0,
+        3.3600000000000003
+      ],
+      "anchors": [
+        {
+          "id": "inside",
+          "enabled": true,
+          "contact": [
+            0.0,
+            -40
+          ],
+          "approach": [
+            0.0,
+            -55
+          ],
+          "actor_facing": "south",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        },
+        {
+          "id": "outside",
+          "enabled": false,
+          "contact": [
+            0.0,
+            -40
+          ],
+          "approach": [
+            0.0,
+            -55
+          ],
+          "actor_facing": "north",
+          "posture": "standing",
+          "activities": [
+            "listen",
+            "inspect",
+            "peek"
+          ],
+          "contact_kind": "feet",
+          "clearance": [
+            -12,
+            -8,
+            24,
+            16
+          ]
+        }
+      ],
+      "target_instance_id": "",
+      "ready_for_staging": false,
+      "render_mode": "baked",
+      "notes": "Visible-art annotation. Draft contact; verify pose landmarks, occlusion and room navigation before staging.",
+      "contact_status": "provisional",
+      "placement_enabled": false
+    }
+  ]
+}

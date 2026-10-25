@@ -408,3 +408,22 @@ spaces. Physics traversal checks sixteen directed endpoints. Char room/pose cove
 is now 63 visits; older 18-room/44-endpoint reports above are historical. Native
 current-room captures and explicit art gaps are in test-results/compact-mansion/index.html.
 The first case retains all ground-floor evidence and suspect locations.
+
+## Evidence detail rendering — 2026-10-24
+Native preview tools/evidence_detail_preview.gd passes 23 condition variants: source textures retain more detail and bottom anchors match existing sprites. Captured four inspection before/after pairs and a foyer pair in test-results/evidence-detail/index.html. Visual approval pending; gameplay regression was not rerun for this narrow rendering change. Existing PNGs are unchanged. Raw masters currently load from the project filesystem (masters/.gdignore); a packaged export must explicitly include these PNGs before distribution.
+
+
+## Revised room furniture tags — 2026-10-24
+Godot native preview validates all nine registered layouts (126 unique per-layout tags), captures nine screenshots and confirms staging flags are false. All nine selected room artwork approval hashes pass the approval checker. Review generator maps 187 exact contacts including disabled ones to Char pose coverage. Draft anchors, clearance, furniture size, occlusion and Char seating are not fit-approved; no runtime room or character artwork changed. Preview: test-results/reworked-furniture/index.html.
+
+
+Char revised-library fit: native Godot captured four separate contact candidates, each raw/masked, at shared 80/1673 scale. Source export SHA-256 checks passed. Manually inspected all four; corrected the overbroad red-chair mask and added foreground-chair occlusion at the reading table. Contacts and masks remain visual-review candidates, separate from runtime settings; export packaging and navigation are not tested. See test-results/char-library-fit/index.html.
+
+
+Approved library live fixture: native harness passes 4 seats plus 20 cycles with exactly one Char, save disabled, no door teleports, valid player spawn, and actual player movement stopping at the desk collider. Captured four actual gameplay views. Source sprite warnings concern raw image loading for packaged export; this is a local project review. Normal mansion routes remain unchanged. Review: test-results/char-library-live/index.html.
+
+
+Room integration: fixed_mansion_checks.gd passes 102 checks, including all 16 directed passages, safe arrivals/facing, cross-room lens/knife flow and save/load. first_case_checks.gd passes 31 checks after relocating the floor clue out of the new furniture. Native captures cover all nine active spaces. One stair-corridor entry initially caught the player at a corner; widened its feet corridor and reran traversal successfully. Existing source art/poses unchanged; packaging and broad automatic furniture staging remain unvalidated.
+
+
+Destination labels: refreshed all nine native room captures and visually inspected the library's Main Stair Hall and Dining Room labels. Door/stair logic is unchanged by this presentation edit.

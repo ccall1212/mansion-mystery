@@ -348,3 +348,17 @@ uses two retained previous-runtime captures and current actual captures; source 
 is never resampled. Presentation and chair fit still await user visual review.
 Current room backgrounds retain their existing authored pixel detail; the change
 increases display/readability, not the detail contained in those background files.
+
+## Revised library fit checkpoint — 2026-10-24
+User accepted the tagged-room review and authorized continuation. Four native contact previews use existing approved seated east/south/west exports with explicit SHA-256 verification, export_contact landmarks and shared 80/1673 scale. No character art is generated or changed. Exact candidate contact positions and foreground polygons live in assets/characters/poses/char/library-fit-review.json, separate from live chair-fit.json and draft layout anchors. The review shows each placement once plus its magnified detail, with raw/masked versions. A broad red-chair seat mask cut across the skirt and was removed; only justified foreground surfaces should occlude clothing. The reading table needs tabletop/leg and foreground-chair occlusion. A solid desk apron can hide the lower body, but idle hands are not a writing action.
+
+Reproduce: configured Godot --path . --script tools/char_library_fit_preview.gd, then python tools/build_char_library_fit_review.py. Captures and hashes are recorded in the fit config; review index is test-results/char-library-fit/index.html. Four fits remain pending user review. North-facing seated art, other room fits, navigation/occupancy and runtime integration remain incomplete. Raw-image loading is for this local authoring tool; packaged export support is not validated.
+
+
+Library fit review correction: user approved the red armchair, reading-table and desk placements, and reported right-foot clipping for the green armchair. Removed its unnecessary lower-chair foreground polygon; the unmasked chair already reads naturally. Preserve a pose's shoes and skirt unless a verified foreground contour actually overlaps them. Only green-chair previews regenerated (--sample=green_armchair); other three screenshot hashes verified unchanged. Three exact visual approvals and the remaining pending correction are recorded in library-fit-review.json. Runtime stays unchanged.
+
+
+## Approved library live fixture — 2026-10-24
+User approved the green-chair correction with 'Looks great, continue', completing visual approval of all four fits. An isolated inherited playable scene (src/characters/char_library_live.tscn) loads the approved library, places one Char, and cycles four exact approved seat contacts/masks. It uses the shared PoseNPC contact renderer, current player movement and collision. No PNG changes, normal mansion route changes, save migration or new pose art. F8 cycles seats, F7 focuses Char, Z changes view, F6 shows annotations, F10 returns to normal game. Case start/save/load are disabled; visible east/south doors have no test travel while reciprocal mansion connections remain unresolved.
+
+Run configured Godot --path . --script tools/char_library_live_preview.gd; python tools/build_char_library_live_review.py; python tools/open_char_library_live.py. Native checks cover all four placements, 20 additional cycles, one global/visible Char, and actual movement stopping at the desk. Screenshots: test-results/char-library-live/index.html. Full furniture depth and navigation/occupancy across all rooms remain future integration. The raw project PNG load path is authoring-only and packaged distribution remains unvalidated.

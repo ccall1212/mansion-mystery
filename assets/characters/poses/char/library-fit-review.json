@@ -1,0 +1,516 @@
+{
+  "schema_version": 1,
+  "status": "four_visual_fits_approved_live_test_in_progress",
+  "background": "res://assets/rooms/revisions/2026-10-24-room-rework/g_library_n0_e1_s1_w0_draft_v3.png",
+  "layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+  "shared_adult_height": 80,
+  "standing_reference_height": 1673,
+  "scope": "Four isolated placements, each with overview/detail and raw/masked versions. No runtime activation; source images unchanged.",
+  "samples": [
+    {
+      "id": "red_armchair",
+      "label": "East-facing reading armchair",
+      "contact_id": "g_library::g_library_red_armchair::seat",
+      "actor_facing": "east",
+      "pose_id": "seated_idle_east",
+      "asset": "assets/characters/poses/char/exports/east/char_seated_idle_east_neutral.png",
+      "asset_sha256": "9ec557fba8c95c55400ad8522e1267ca300c7f52476d6cb05ec53d20ed930ac9",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_east.json",
+      "contact": [
+        92,
+        220
+      ],
+      "foreground_polygons": [],
+      "approval": "approved",
+      "fit_status": "user_visual_fit_approved_runtime_integration_pending",
+      "runtime_enabled": false,
+      "review_notes": "Skirt correctly drapes over chair front; no broad seat mask. Check near arm contour.",
+      "captures": {
+        "raw": {
+          "path": "test-results/char-library-fit/red_armchair-raw.png",
+          "sha256": "f7bf5741ebe20cdbd38b28092cd133fd333064d4f893c94c82ea7e5657d69298"
+        },
+        "masked": {
+          "path": "test-results/char-library-fit/red_armchair-masked.png",
+          "sha256": "18431fd217b16149fcf3b2f7a1db53ebe4d5fe4c6c6d27204475b54092880418"
+        }
+      },
+      "fit_approval_record": {
+        "date": "2026-10-24",
+        "source": "user message",
+        "quote": "g_library::g_library_green_armchair::seat looks like the candidate mask being on cuts off a random part of her right foot. The others look great.",
+        "scope": "This exact library placement/mask visual review only; navigation, occupancy and runtime integration remain pending.",
+        "captures": {
+          "raw": {
+            "path": "test-results/char-library-fit/red_armchair-raw.png",
+            "sha256": "f7bf5741ebe20cdbd38b28092cd133fd333064d4f893c94c82ea7e5657d69298"
+          },
+          "masked": {
+            "path": "test-results/char-library-fit/red_armchair-masked.png",
+            "sha256": "18431fd217b16149fcf3b2f7a1db53ebe4d5fe4c6c6d27204475b54092880418"
+          }
+        },
+        "asset_sha256": "9ec557fba8c95c55400ad8522e1267ca300c7f52476d6cb05ec53d20ed930ac9",
+        "contact": [
+          92,
+          220
+        ],
+        "foreground_polygons": []
+      }
+    },
+    {
+      "id": "green_armchair",
+      "label": "West-facing reading armchair",
+      "contact_id": "g_library::g_library_green_armchair::seat",
+      "actor_facing": "west",
+      "pose_id": "seated_idle_west",
+      "asset": "assets/characters/poses/char/exports/west/char_seated_idle_west_neutral.png",
+      "asset_sha256": "903f10ddcdd454ab6aaa83a3ef134f91459b9db7b9705f703ff2d437f9160be2",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_west.json",
+      "contact": [
+        151,
+        230
+      ],
+      "foreground_polygons": [],
+      "approval": "approved",
+      "fit_status": "user_visual_fit_approved_runtime_integration_pending",
+      "runtime_enabled": false,
+      "review_notes": "Removed the unnecessary lower-chair overlay that clipped her foot. The chair arm remains visible naturally; full shoe and skirt are preserved. Revised placement awaits review.",
+      "captures": {
+        "raw": {
+          "path": "test-results/char-library-fit/green_armchair-raw.png",
+          "sha256": "ecfe1ca34c2b4dba38836696450b1414c092e957474c465901e3cd2c11da55e9"
+        },
+        "masked": {
+          "path": "test-results/char-library-fit/green_armchair-masked.png",
+          "sha256": "a9324ae287b6c87f2eec01bd966152a04268f2ceab689c3a5601b08bbf2abe66"
+        }
+      },
+      "revision_reason": "User identified right-foot clipping when candidate mask was enabled.",
+      "fit_approval_record": {
+        "date": "2026-10-24",
+        "source": "user message after corrected green-chair preview",
+        "quote": "Looks great, continue",
+        "scope": "Corrected green armchair visual fit only; navigation and runtime integration separately checked.",
+        "captures": {
+          "raw": {
+            "path": "test-results/char-library-fit/green_armchair-raw.png",
+            "sha256": "ecfe1ca34c2b4dba38836696450b1414c092e957474c465901e3cd2c11da55e9"
+          },
+          "masked": {
+            "path": "test-results/char-library-fit/green_armchair-masked.png",
+            "sha256": "a9324ae287b6c87f2eec01bd966152a04268f2ceab689c3a5601b08bbf2abe66"
+          }
+        },
+        "asset_sha256": "903f10ddcdd454ab6aaa83a3ef134f91459b9db7b9705f703ff2d437f9160be2",
+        "contact": [
+          151,
+          230
+        ],
+        "foreground_polygons": []
+      }
+    },
+    {
+      "id": "reading_chair_nw",
+      "label": "South-facing reading-table chair",
+      "contact_id": "g_library::g_library_reading_chair_nw::seat",
+      "actor_facing": "south",
+      "pose_id": "seated_idle_south",
+      "asset": "assets/characters/poses/char/exports/south/char_seated_idle_south_neutral.png",
+      "asset_sha256": "400d065f084d5353230078cd7f2a5b1860027702bee116533892e925573a23e2",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_south.json",
+      "contact": [
+        164,
+        135
+      ],
+      "foreground_polygons": [
+        [
+          [
+            123,
+            132
+          ],
+          [
+            229,
+            132
+          ],
+          [
+            230,
+            155
+          ],
+          [
+            122,
+            155
+          ]
+        ],
+        [
+          [
+            123,
+            155
+          ],
+          [
+            127,
+            155
+          ],
+          [
+            128,
+            177
+          ],
+          [
+            125,
+            178
+          ]
+        ],
+        [
+          [
+            225,
+            155
+          ],
+          [
+            229,
+            155
+          ],
+          [
+            229,
+            177
+          ],
+          [
+            225,
+            177
+          ]
+        ],
+        [
+          [
+            137,
+            150
+          ],
+          [
+            143,
+            146
+          ],
+          [
+            156,
+            146
+          ],
+          [
+            164,
+            151
+          ],
+          [
+            164,
+            175
+          ],
+          [
+            161,
+            178
+          ],
+          [
+            162,
+            187
+          ],
+          [
+            158,
+            188
+          ],
+          [
+            157,
+            180
+          ],
+          [
+            142,
+            180
+          ],
+          [
+            141,
+            188
+          ],
+          [
+            137,
+            188
+          ],
+          [
+            138,
+            175
+          ]
+        ]
+      ],
+      "approval": "approved",
+      "fit_status": "user_visual_fit_approved_runtime_integration_pending",
+      "runtime_enabled": false,
+      "review_notes": "Tabletop, legs and near chair are candidate occluders. Remaining under-table skirt visibility requires review.",
+      "captures": {
+        "raw": {
+          "path": "test-results/char-library-fit/reading_chair_nw-raw.png",
+          "sha256": "8a3cc65a8e8ec371eef685328595fe8b7ef3eeb6f14da47da4261ee0db33a511"
+        },
+        "masked": {
+          "path": "test-results/char-library-fit/reading_chair_nw-masked.png",
+          "sha256": "b4e64e5f06cea9fd5a5fad7b9611240f27ba75b24741e544eb8aa2959aa152bc"
+        }
+      },
+      "fit_approval_record": {
+        "date": "2026-10-24",
+        "source": "user message",
+        "quote": "g_library::g_library_green_armchair::seat looks like the candidate mask being on cuts off a random part of her right foot. The others look great.",
+        "scope": "This exact library placement/mask visual review only; navigation, occupancy and runtime integration remain pending.",
+        "captures": {
+          "raw": {
+            "path": "test-results/char-library-fit/reading_chair_nw-raw.png",
+            "sha256": "8a3cc65a8e8ec371eef685328595fe8b7ef3eeb6f14da47da4261ee0db33a511"
+          },
+          "masked": {
+            "path": "test-results/char-library-fit/reading_chair_nw-masked.png",
+            "sha256": "b4e64e5f06cea9fd5a5fad7b9611240f27ba75b24741e544eb8aa2959aa152bc"
+          }
+        },
+        "asset_sha256": "400d065f084d5353230078cd7f2a5b1860027702bee116533892e925573a23e2",
+        "contact": [
+          164,
+          135
+        ],
+        "foreground_polygons": [
+          [
+            [
+              123,
+              132
+            ],
+            [
+              229,
+              132
+            ],
+            [
+              230,
+              155
+            ],
+            [
+              122,
+              155
+            ]
+          ],
+          [
+            [
+              123,
+              155
+            ],
+            [
+              127,
+              155
+            ],
+            [
+              128,
+              177
+            ],
+            [
+              125,
+              178
+            ]
+          ],
+          [
+            [
+              225,
+              155
+            ],
+            [
+              229,
+              155
+            ],
+            [
+              229,
+              177
+            ],
+            [
+              225,
+              177
+            ]
+          ],
+          [
+            [
+              137,
+              150
+            ],
+            [
+              143,
+              146
+            ],
+            [
+              156,
+              146
+            ],
+            [
+              164,
+              151
+            ],
+            [
+              164,
+              175
+            ],
+            [
+              161,
+              178
+            ],
+            [
+              162,
+              187
+            ],
+            [
+              158,
+              188
+            ],
+            [
+              157,
+              180
+            ],
+            [
+              142,
+              180
+            ],
+            [
+              141,
+              188
+            ],
+            [
+              137,
+              188
+            ],
+            [
+              138,
+              175
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "id": "desk_chair",
+      "label": "South-facing desk chair",
+      "contact_id": "g_library::g_library_desk_chair::seat",
+      "actor_facing": "south",
+      "pose_id": "seated_idle_south",
+      "asset": "assets/characters/poses/char/exports/south/char_seated_idle_south_neutral.png",
+      "asset_sha256": "400d065f084d5353230078cd7f2a5b1860027702bee116533892e925573a23e2",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_south.json",
+      "contact": [
+        373,
+        125
+      ],
+      "foreground_polygons": [
+        [
+          [
+            323,
+            124
+          ],
+          [
+            429,
+            124
+          ],
+          [
+            433,
+            136
+          ],
+          [
+            431,
+            148
+          ],
+          [
+            323,
+            148
+          ]
+        ],
+        [
+          [
+            325,
+            148
+          ],
+          [
+            429,
+            148
+          ],
+          [
+            429,
+            171
+          ],
+          [
+            325,
+            171
+          ]
+        ]
+      ],
+      "approval": "approved",
+      "fit_status": "user_visual_fit_approved_runtime_integration_pending",
+      "runtime_enabled": false,
+      "review_notes": "Solid desk apron hides lower body; hands remain in lap, not a writing pose.",
+      "captures": {
+        "raw": {
+          "path": "test-results/char-library-fit/desk_chair-raw.png",
+          "sha256": "c1c16cdcad626ea1dc4d39b951bcb5cddc4fe1371814fbc9ccddc47ca4826283"
+        },
+        "masked": {
+          "path": "test-results/char-library-fit/desk_chair-masked.png",
+          "sha256": "f002365750d49aa94064520f78ce1449eded381de5163e75ca6ce3e6b916ee75"
+        }
+      },
+      "fit_approval_record": {
+        "date": "2026-10-24",
+        "source": "user message",
+        "quote": "g_library::g_library_green_armchair::seat looks like the candidate mask being on cuts off a random part of her right foot. The others look great.",
+        "scope": "This exact library placement/mask visual review only; navigation, occupancy and runtime integration remain pending.",
+        "captures": {
+          "raw": {
+            "path": "test-results/char-library-fit/desk_chair-raw.png",
+            "sha256": "c1c16cdcad626ea1dc4d39b951bcb5cddc4fe1371814fbc9ccddc47ca4826283"
+          },
+          "masked": {
+            "path": "test-results/char-library-fit/desk_chair-masked.png",
+            "sha256": "f002365750d49aa94064520f78ce1449eded381de5163e75ca6ce3e6b916ee75"
+          }
+        },
+        "asset_sha256": "400d065f084d5353230078cd7f2a5b1860027702bee116533892e925573a23e2",
+        "contact": [
+          373,
+          125
+        ],
+        "foreground_polygons": [
+          [
+            [
+              323,
+              124
+            ],
+            [
+              429,
+              124
+            ],
+            [
+              433,
+              136
+            ],
+            [
+              431,
+              148
+            ],
+            [
+              323,
+              148
+            ]
+          ],
+          [
+            [
+              325,
+              148
+            ],
+            [
+              429,
+              148
+            ],
+            [
+              429,
+              171
+            ],
+            [
+              325,
+              171
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

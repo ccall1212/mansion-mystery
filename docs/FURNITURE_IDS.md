@@ -1,5 +1,10 @@
 # Furniture IDs and background mapping
 
+Shared chair/stool sizing targets: [Furniture size standard](FURNITURE_SIZE_STANDARD.md).
+`assets/furniture/size-standards.json` defines seat dimensions relative to the current
+shared adult stature. Catalog `size_profile_id` is independent of orientation;
+existing painted furniture still needs measurement and pose-fit review.
+
 The orientation catalog and background mapper are implemented. They label painted
 furniture and record reusable interaction contacts. They do not redraw furniture,
 generate character poses or automatically seat NPCs.
@@ -243,3 +248,8 @@ Screenshots show pale facing arrows and purple gaze lines. Each room also has an
 expandable exact-ID contact table with facing, side, pose IDs and approach status.
 The gallery must be shown to the user whenever it changes; technical checks do not
 substitute for visual review.
+
+## Approved revised room backgrounds — 2026-10-24
+Nine selected room revisions now have 126 fresh object tags in layouts/*_rework_v*.json, registered by exact background path. Original layouts remain unchanged. The catalog has 88 orientation IDs including stool_north/east/south/west for low work stools, distinct from bar_stool. Tall bar stools target future_bar_bar_counter; table chairs identify their table. Desk seated contacts are disabled where a separate chair tag supplies the seat. All new staging flags remain false. See [tagged screenshots and contacts](../test-results/reworked-furniture/index.html). Source art approval does not certify these manually estimated contact points. The bar remains a future room concept; active routes and masks are unchanged.
+
+Regenerate using python tools/tag_reworked_rooms.py --apply (preserves existing layout calibration), configured Godot --path . --script tools/reworked_furniture_preview.gd, then python tools/build_reworked_furniture_review.py. Exact per-contact Char coverage is assets/furniture/reworked-room-pose-contacts.json. North-facing seated art and tall-stool-specific pose fit are gaps. The canopy bed retains east-west body axis/head-east metadata, but all contacts are disabled pending mattress/pelvis calibration.

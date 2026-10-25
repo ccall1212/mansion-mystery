@@ -14,6 +14,15 @@
     "res://assets/rooms/room-library-alternate.png": "res://assets/furniture/layouts/study_archive.json",
     "res://assets/rooms/room-firelit-entry.png": "res://assets/furniture/layouts/washroom_placeholder.json",
     "res://assets/rooms/room-torchlit-stone.png": "res://assets/furniture/layouts/basement_stone.json",
-    "res://assets/rooms/room-torchlit-stone-alternate.png": "res://assets/furniture/layouts/basement_storage.json"
+    "res://assets/rooms/room-torchlit-stone-alternate.png": "res://assets/furniture/layouts/basement_storage.json",
+    "res://assets/rooms/revisions/2026-10-24-room-rework/g_main_stair_n1_e0_s1_w1_draft_v1.png": "res://assets/furniture/layouts/g_main_stair_rework_v1.json",
+    "res://assets/rooms/revisions/2026-10-24-room-rework/g_library_n0_e1_s1_w0_draft_v3.png": "res://assets/furniture/layouts/g_library_rework_v3.json",
+    "res://assets/rooms/revisions/2026-10-24-room-rework/g_dining_n0_e1_s0_w1_draft_v1.png": "res://assets/furniture/layouts/g_dining_rework_v1.json",
+    "res://assets/rooms/revisions/2026-10-24-room-rework/g_kitchen_n0_e1_s1_w0_draft_v1.png": "res://assets/furniture/layouts/g_kitchen_rework_v1.json",
+    "res://assets/rooms/revisions/2026-10-24-room-rework/u_main_stair_n0_e1_s1_w1_draft_v1.png": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+    "res://assets/rooms/revisions/2026-10-24-room-rework/u_master_n0_e1_s0_w0_draft_v1.png": "res://assets/furniture/layouts/u_master_rework_v1.json",
+    "res://assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v2.png": "res://assets/furniture/layouts/u_study_rework_v2.json",
+    "res://assets/rooms/revisions/2026-10-24-room-rework/b_store_n1_e0_s0_w0_draft_v1.png": "res://assets/furniture/layouts/b_store_rework_v1.json",
+    "res://assets/rooms/revisions/2026-10-24-room-rework/future_bar_n0_e1_s1_w0_draft_v2.png": "res://assets/furniture/layouts/future_bar_rework_v2.json"
   }
 }

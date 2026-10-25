@@ -2719,5 +2719,18 @@
     "implementation": "src/furniture/chair_foreground.gd",
     "review": "test-results/first-case/index.html",
     "scope": "Three seat offsets and code-rendered foreground arm polygons. Approved PNGs unchanged. General staging remains disabled."
+  },
+  "reworked_library_fit": {
+    "status": "all_four_visual_fits_approved_isolated_live_test_ready",
+    "config": "assets/characters/poses/char/library-fit-review.json",
+    "review": "test-results/char-library-fit/index.html",
+    "preview_script": "tools/char_library_fit_preview.gd",
+    "review_builder": "tools/build_char_library_fit_review.py",
+    "source_artwork_changed": false,
+    "runtime_enabled": "isolated review scene only; main mansion unchanged",
+    "notes": "Shared 80/1673 scale. Four isolated contact candidates, raw and code-masked. Seated north missing; other rooms untested. Calibrated candidates remain separate from draft layout anchors until accepted.",
+    "live_scene": "src/characters/char_library_live.tscn",
+    "live_review": "test-results/char-library-live/index.html",
+    "launcher": "tools/open_char_library_live.py"
   }
 }

@@ -21,6 +21,7 @@ var npc_candidates: Dictionary = {}
 
 func _init() -> void:
 	catalog = JSON.parse_string(FileAccess.get_file_as_string(DATA))
+	blueprint.id = catalog.id
 	rooms = catalog.rooms
 	var rng := RandomNumberGenerator.new()
 	rng.randomize()

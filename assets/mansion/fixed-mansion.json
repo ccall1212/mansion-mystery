@@ -7,8 +7,8 @@
     ],
     "review-bust": [
       "g_library",
-      206,
-      211
+      292,
+      220
     ],
     "review-bottle": [
       "g_dining",
@@ -52,7 +52,7 @@
     ]
   },
   "schema_version": 1,
-  "id": "fixed-manor-compact-1",
+  "id": "fixed-manor-compact-2",
   "start_room": "g_foyer",
   "rooms": {
     "g_foyer": {
@@ -136,7 +136,7 @@
             -1
           ],
           "kind": "door",
-          "passage_note": "Bent passage between south thresholds; foyer side-door art remains a future option."
+          "passage_note": "Bent entrance vestibule joins the two south thresholds; locked front door remains north."
         }
       ],
       "spawn": [
@@ -150,45 +150,45 @@
       "name": "Main Stair Hall",
       "floor": 0,
       "role": "passage",
-      "asset": "res://assets/rooms/room-dark-stairwell.png",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/g_main_stair_n1_e0_s1_w1_draft_v1.png",
       "walk_regions": [
         [
           16,
-          190,
+          185,
           448,
-          142
+          153
         ],
         [
-          18,
-          165,
-          294,
-          40
-        ],
-        [
-          328,
-          128,
+          266,
+          92,
           108,
-          80
+          150
         ]
       ],
       "obstacles": [
         [
           65,
-          164,
-          75,
-          28
+          167,
+          42,
+          25
         ],
         [
-          252,
-          180,
-          47,
-          33
+          390,
+          195,
+          45,
+          27
         ],
         [
-          310,
-          212,
-          14,
-          26
+          248,
+          104,
+          16,
+          131
+        ],
+        [
+          376,
+          104,
+          11,
+          131
         ]
       ],
       "portals": [
@@ -208,18 +208,18 @@
             -1
           ],
           "kind": "door",
-          "passage_note": "Bent passage between south thresholds; foyer side-door art remains a future option."
+          "passage_note": "Bent entrance vestibule joins the two south thresholds; locked front door remains north."
         },
         {
           "id": "g_main_stair--g_library",
           "at": [
             20,
-            202
+            224
           ],
           "target": "g_library",
           "arrival": [
-            431,
-            205
+            437,
+            211
           ],
           "facing": [
             -1,
@@ -231,13 +231,13 @@
         {
           "id": "g_main_stair--u_main_stair",
           "at": [
-            374,
-            139
+            322,
+            101
           ],
           "target": "u_main_stair",
           "arrival": [
             240,
-            292
+            287
           ],
           "facing": [
             0,
@@ -251,40 +251,77 @@
         240,
         280
       ],
-      "art_note": ""
+      "art_note": "Approved room revision; feet-level geometry integrated. General furniture staging remains provisional.",
+      "furniture_layout": "res://assets/furniture/layouts/g_main_stair_rework_v1.json"
     },
     "g_library": {
       "id": "g_library",
       "name": "Library",
       "floor": 0,
       "role": "room",
-      "asset": "res://assets/rooms/room-library.png",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/g_library_n0_e1_s1_w0_draft_v3.png",
       "walk_regions": [
         [
           16,
-          121,
+          137,
           448,
-          211
+          201
         ]
       ],
       "obstacles": [
         [
-          49,
-          104,
-          68,
-          86
+          0,
+          24,
+          54,
+          202
         ],
         [
-          305,
-          115,
-          101,
-          44
+          120,
+          164,
+          112,
+          48
+        ],
+        [
+          64,
+          246,
+          59,
+          30
+        ],
+        [
+          124,
+          254,
+          59,
+          29
+        ],
+        [
+          48,
+          254,
+          34,
+          22
+        ],
+        [
+          322,
+          165,
+          112,
+          34
+        ],
+        [
+          277,
+          143,
+          40,
+          22
         ],
         [
           0,
-          226,
-          148,
-          72
+          316,
+          244,
+          28
+        ],
+        [
+          311,
+          316,
+          169,
+          28
         ]
       ],
       "portals": [
@@ -292,12 +329,12 @@
           "id": "g_main_stair--g_library",
           "at": [
             460,
-            193
+            188
           ],
           "target": "g_main_stair",
           "arrival": [
-            49,
-            210
+            52,
+            227
           ],
           "facing": [
             1,
@@ -309,72 +346,61 @@
         {
           "id": "g_library--g_dining",
           "at": [
-            20,
-            195
+            277,
+            326
           ],
           "target": "g_dining",
           "arrival": [
             430,
-            209
+            210
           ],
           "facing": [
             -1,
             0
           ],
           "kind": "door",
-          "passage_note": ""
+          "passage_note": "Short turning passage joins library south to dining east; this is not a straight shared wall."
         }
       ],
       "spawn": [
         240,
         280
       ],
-      "art_note": ""
+      "art_note": "Approved room revision; feet-level geometry integrated. General furniture staging remains provisional.",
+      "furniture_layout": "res://assets/furniture/layouts/g_library_rework_v3.json"
     },
     "g_dining": {
       "id": "g_dining",
       "name": "Dining Room",
       "floor": 0,
       "role": "room",
-      "asset": "res://assets/rooms/room-reception-hall-alternate.png",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/g_dining_n0_e1_s0_w1_draft_v1.png",
       "walk_regions": [
         [
           16,
-          143,
+          132,
           448,
-          189
+          206
         ]
       ],
       "obstacles": [
         [
-          30,
-          137,
-          75,
-          39
+          140,
+          170,
+          204,
+          80
         ],
         [
-          389,
-          137,
-          63,
-          43
+          186,
+          111,
+          109,
+          19
         ],
         [
-          0,
-          266,
-          61,
-          66
-        ],
-        [
-          358,
-          292,
-          24,
-          40
-        ],
-        [
-          445,
-          292,
-          35,
-          40
+          329,
+          118,
+          77,
+          22
         ]
       ],
       "portals": [
@@ -382,30 +408,30 @@
           "id": "g_library--g_dining",
           "at": [
             460,
-            194
+            190
           ],
           "target": "g_library",
           "arrival": [
-            48,
-            209
+            277,
+            292
           ],
           "facing": [
-            1,
-            0
+            0,
+            -1
           ],
           "kind": "door",
-          "passage_note": ""
+          "passage_note": "Short turning passage joins library south to dining east; this is not a straight shared wall."
         },
         {
           "id": "g_dining--g_kitchen",
           "at": [
             20,
-            194
+            190
           ],
           "target": "g_kitchen",
           "arrival": [
-            430,
-            217
+            431,
+            215
           ],
           "facing": [
             -1,
@@ -419,45 +445,58 @@
         240,
         280
       ],
-      "art_note": "Reception-room placeholder; dining table and food-service furnishings need a later art pass."
+      "art_note": "Approved room revision; feet-level geometry integrated. General furniture staging remains provisional.",
+      "furniture_layout": "res://assets/furniture/layouts/g_dining_rework_v1.json"
     },
     "g_kitchen": {
       "id": "g_kitchen",
       "name": "Kitchen",
       "floor": 0,
       "role": "room",
-      "asset": "res://assets/rooms/room-reception-hall.png",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/g_kitchen_n0_e1_s1_w0_draft_v1.png",
       "walk_regions": [
         [
           16,
-          126,
+          134,
           448,
-          206
+          204
         ]
       ],
       "obstacles": [
         [
-          0,
-          123,
-          247,
-          46
-        ],
-        [
-          0,
-          174,
+          8,
+          160,
           66,
-          67
+          40
         ],
         [
-          159,
-          290,
-          34,
+          75,
+          190,
+          141,
+          48
+        ],
+        [
+          51,
+          210,
+          28,
+          23
+        ],
+        [
+          334,
+          119,
+          87,
+          18
+        ],
+        [
+          0,
+          302,
+          179,
           42
         ],
         [
-          287,
-          290,
-          27,
+          295,
+          302,
+          185,
           42
         ]
       ],
@@ -466,7 +505,7 @@
           "id": "g_dining--g_kitchen",
           "at": [
             460,
-            202
+            188
           ],
           "target": "g_dining",
           "arrival": [
@@ -488,55 +527,80 @@
           ],
           "target": "b_store",
           "arrival": [
-            421,
-            183
+            418,
+            176
           ],
           "facing": [
             0,
             1
           ],
           "kind": "stairs",
-          "passage_note": "Kitchen south threshold leads through an offscreen descending stair. Basement return is the rear doorway; matching stair artwork is still required."
+          "passage_note": "Kitchen south threshold descends an offscreen service stair to the basement north doorway."
         }
       ],
       "spawn": [
         240,
         280
       ],
-      "art_note": "Existing counter-room placeholder; shelves/bar are not a finished kitchen."
+      "art_note": "Approved room revision; feet-level geometry integrated. General furniture staging remains provisional.",
+      "furniture_layout": "res://assets/furniture/layouts/g_kitchen_rework_v1.json"
     },
     "u_main_stair": {
       "id": "u_main_stair",
       "name": "Upstairs Landing",
       "floor": 1,
       "role": "passage",
-      "asset": "res://assets/rooms/room-grand-hall.png",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/u_main_stair_n0_e1_s1_w1_draft_v1.png",
       "walk_regions": [
         [
           16,
-          174,
+          150,
           448,
-          158
-        ],
-        [
-          213,
-          151,
-          55,
-          45
+          188
         ]
       ],
       "obstacles": [
         [
+          74,
+          141,
+          43,
+          17
+        ],
+        [
+          363,
+          141,
+          43,
+          17
+        ],
+        [
+          132,
+          138,
+          28,
+          22
+        ],
+        [
+          317,
+          138,
+          30,
+          22
+        ],
+        [
+          201,
+          137,
+          73,
+          14
+        ],
+        [
           0,
-          299,
-          187,
-          33
+          303,
+          188,
+          41
         ],
         [
           294,
-          299,
+          303,
           186,
-          33
+          41
         ]
       ],
       "portals": [
@@ -548,8 +612,8 @@
           ],
           "target": "g_main_stair",
           "arrival": [
-            374,
-            174
+            322,
+            126
           ],
           "facing": [
             0,
@@ -562,12 +626,12 @@
           "id": "u_main_stair--u_master",
           "at": [
             20,
-            195
+            184
           ],
           "target": "u_master",
           "arrival": [
             431,
-            282
+            300
           ],
           "facing": [
             -1,
@@ -580,12 +644,12 @@
           "id": "u_main_stair--u_study",
           "at": [
             460,
-            195
+            184
           ],
           "target": "u_study",
           "arrival": [
-            48,
-            220
+            52,
+            205
           ],
           "facing": [
             1,
@@ -599,34 +663,89 @@
         240,
         280
       ],
-      "art_note": ""
+      "art_note": "Approved room revision; feet-level geometry integrated. General furniture staging remains provisional.",
+      "furniture_layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json"
     },
     "u_master": {
       "id": "u_master",
       "name": "Main Bedroom",
       "floor": 1,
       "role": "room",
-      "asset": "res://assets/rooms/room-guest-bedroom-alternate.png",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/u_master_n0_e1_s0_w0_draft_v1.png",
       "walk_regions": [
         [
           16,
-          176,
+          120,
           448,
-          156
+          218
         ]
       ],
       "obstacles": [
         [
-          0,
+          307,
+          135,
           142,
-          114,
-          54
+          75
         ],
         [
-          318,
-          145,
-          146,
-          48
+          416,
+          186,
+          50,
+          33
+        ],
+        [
+          276,
+          174,
+          43,
+          26
+        ],
+        [
+          227,
+          105,
+          63,
+          18
+        ],
+        [
+          110,
+          112,
+          82,
+          17
+        ],
+        [
+          26,
+          157,
+          62,
+          46
+        ],
+        [
+          67,
+          164,
+          36,
+          20
+        ],
+        [
+          10,
+          251,
+          33,
+          18
+        ],
+        [
+          130,
+          222,
+          58,
+          32
+        ],
+        [
+          235,
+          264,
+          66,
+          22
+        ],
+        [
+          189,
+          241,
+          50,
+          28
         ]
       ],
       "portals": [
@@ -634,12 +753,12 @@
           "id": "u_main_stair--u_master",
           "at": [
             460,
-            279
+            302
           ],
           "target": "u_main_stair",
           "arrival": [
             49,
-            211
+            201
           ],
           "facing": [
             1,
@@ -653,46 +772,59 @@
         240,
         280
       ],
-      "art_note": ""
+      "art_note": "Approved room revision; feet-level geometry integrated. General furniture staging remains provisional.",
+      "furniture_layout": "res://assets/furniture/layouts/u_master_rework_v1.json"
     },
     "u_study": {
       "id": "u_study",
       "name": "Study",
       "floor": 1,
       "role": "room",
-      "asset": "res://assets/rooms/room-library-alternate.png",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v2.png",
       "walk_regions": [
         [
           16,
-          126,
+          118,
           448,
-          206
-        ],
-        [
-          405,
-          109,
-          39,
-          45
+          220
         ]
       ],
       "obstacles": [
         [
-          43,
-          139,
+          37,
+          113,
+          74,
+          22
+        ],
+        [
+          98,
           147,
-          63
+          103,
+          50
         ],
         [
-          0,
-          285,
-          193,
-          47
+          131,
+          191,
+          33,
+          13
         ],
         [
-          284,
-          285,
-          196,
-          47
+          173,
+          201,
+          203,
+          87
+        ],
+        [
+          377,
+          158,
+          63,
+          27
+        ],
+        [
+          424,
+          175,
+          34,
+          16
         ]
       ],
       "portals": [
@@ -700,12 +832,12 @@
           "id": "u_main_stair--u_study",
           "at": [
             20,
-            203
+            185
           ],
           "target": "u_main_stair",
           "arrival": [
             431,
-            212
+            201
           ],
           "facing": [
             -1,
@@ -719,54 +851,93 @@
         240,
         280
       ],
-      "art_note": ""
+      "art_note": "Approved room revision; feet-level geometry integrated. General furniture staging remains provisional.",
+      "furniture_layout": "res://assets/furniture/layouts/u_study_rework_v2.json"
     },
     "b_store": {
       "id": "b_store",
       "name": "Basement Storage",
       "floor": -1,
       "role": "room",
-      "asset": "res://assets/rooms/room-torchlit-stone-alternate.png",
+      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/b_store_n1_e0_s0_w0_draft_v1.png",
       "walk_regions": [
         [
           16,
-          174,
+          151,
           448,
-          158
+          187
         ],
         [
-          388,
-          126,
-          63,
-          65
+          395,
+          102,
+          51,
+          70
         ]
       ],
-      "obstacles": [],
+      "obstacles": [
+        [
+          0,
+          165,
+          78,
+          45
+        ],
+        [
+          0,
+          226,
+          121,
+          108
+        ],
+        [
+          414,
+          202,
+          66,
+          111
+        ],
+        [
+          438,
+          158,
+          41,
+          40
+        ],
+        [
+          96,
+          140,
+          85,
+          18
+        ],
+        [
+          224,
+          140,
+          84,
+          18
+        ]
+      ],
       "portals": [
         {
           "id": "g_kitchen--b_store",
           "at": [
-            421,
+            418,
             140
           ],
           "target": "g_kitchen",
           "arrival": [
             240,
-            285
+            286
           ],
           "facing": [
             0,
             -1
           ],
           "kind": "stairs",
-          "passage_note": "Kitchen south threshold leads through an offscreen descending stair. Basement return is the rear doorway; matching stair artwork is still required."
+          "passage_note": "Kitchen south threshold descends an offscreen service stair to the basement north doorway."
         }
       ],
       "spawn": [
         240,
         280
       ],
-      "art_note": ""
+      "art_note": "Approved room revision; feet-level geometry integrated. General furniture staging remains provisional.",
+      "furniture_layout": "res://assets/furniture/layouts/b_store_rework_v1.json"
     }
   },
   "deferred_rooms": {

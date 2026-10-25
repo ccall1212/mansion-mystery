@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "status": "proposed_targets_pending_visual_calibration",
+  "character_reference": "res://assets/characters/rendering.json",
+  "reference_adult_height": 80,
+  "coordinate_size": [
+    480,
+    320
+  ],
+  "measurement_basis": "Projected background-local units at the fixed mansion camera; not physical inches or source-image pixels.",
+  "tolerance_fraction": 0.15,
+  "profiles": {
+    "chair_standard": {
+      "furniture_type": "chair",
+      "seat_above_floor": 22,
+      "seat_width": 26,
+      "seat_depth": 16,
+      "overall_width": 32,
+      "overall_height": 46,
+      "footrest_above_floor": null,
+      "pose_class": "seated_standard"
+    },
+    "armchair_standard": {
+      "furniture_type": "armchair",
+      "seat_above_floor": 22,
+      "seat_width": 26,
+      "seat_depth": 18,
+      "overall_width": 44,
+      "overall_height": 50,
+      "footrest_above_floor": null,
+      "pose_class": "seated_standard"
+    },
+    "bar_stool_standard": {
+      "furniture_type": "bar_stool",
+      "seat_above_floor": 32,
+      "seat_width": 22,
+      "seat_depth": 14,
+      "overall_width": 26,
+      "overall_height": 36,
+      "footrest_above_floor": 12,
+      "pose_class": "seated_bar_stool"
+    },
+    "bench_standard": {
+      "furniture_type": "bench",
+      "seat_above_floor": 22,
+      "seat_width": 26,
+      "seat_depth": 16,
+      "overall_width": 72,
+      "overall_height": 28,
+      "footrest_above_floor": null,
+      "pose_class": "seated_standard"
+    },
+    "sofa_standard": {
+      "furniture_type": "sofa",
+      "seat_above_floor": 22,
+      "seat_width": 26,
+      "seat_depth": 18,
+      "overall_width": 88,
+      "overall_height": 50,
+      "footrest_above_floor": null,
+      "pose_class": "seated_standard"
+    },
+    "stool_standard": {
+      "furniture_type": "stool",
+      "seat_above_floor": 22,
+      "seat_width": 24,
+      "seat_depth": 16,
+      "overall_width": 26,
+      "overall_height": 28,
+      "footrest_above_floor": null,
+      "pose_class": "seated_standard"
+    }
+  },
+  "instance_measurement_contract": {
+    "size_profile_id": "Profile key above; independent of orientation ID.",
+    "size_review": "unmeasured, needs_art_revision, fit_pending or approved",
+    "size_measurements": {
+      "floor_reference": "Local [x,y] floor point directly below the seat center, not an arbitrary front leg or approach anchor.",
+      "seat_contact": "Local [x,y] pelvis contact at the seat surface; match the interaction anchor.",
+      "seat_width": "Visible usable width, excluding chair arms.",
+      "seat_depth": "Projected usable depth; side/front views require visual calibration.",
+      "footrest_contact": "Local [x,y] or null; required for stool foot alignment."
+    }
+  },
+  "rules": [
+    "All orientations share a profile; projection changes the silhouette, not intended physical size.",
+    "Measure seat rise as floor_reference.y minus seat_contact.y. Do not infer it from full artwork bounds.",
+    "Targets are initial art-direction estimates, not proof of existing furniture or pose fit.",
+    "Do not stretch actors or independently normalize seated images to standing height.",
+    "Do not resize annotation rectangles to pretend baked furniture has changed.",
+    "Zoom and source resolution changes scale the whole scene uniformly.",
+    "Unknown or incompatible contacts remain unavailable for automatic staging until calibrated."
+  ]
+}

@@ -1,5 +1,10 @@
 # Mansion environment art guide
 
+For all new rooms, follow [Furniture size standard](FURNITURE_SIZE_STANDARD.md)
+and `assets/furniture/size-standards.json`. Use the current 80-unit shared adult
+reference, superseding the historical 48-unit comparison below. Seat dimensions
+are shared across rooms; existing painted seats require calibration, not actor resizing.
+
 Current room-specific user feedback and doorway targets: [ROOM_ART_REWORK.md](ROOM_ART_REWORK.md).
 All source backgrounds now have separate cardinal doorway counts in
 `assets/rooms/doorway-catalog.json`; those provisional visual labels do not create routes.

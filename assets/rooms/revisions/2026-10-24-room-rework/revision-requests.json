@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-24",
+  "reason": "User requested purposeful furniture in the middle/lower bar and study instead of vast empty floor and misplaced rug.",
+  "jobs": [
+    {
+      "id": "future_bar",
+      "path": "assets/rooms/revisions/2026-10-24-room-rework/future_bar_n0_e1_s1_w0_draft_v2.png",
+      "prompt": "Edit this supplied bar draft. Preserve the exact pixel-art rendering, fixed elevated three-quarter view, 3:2 canvas, architecture, lighting, top-left bar counter, FOUR clearly separated north-facing bar stools and existing EAST doorway and SOUTH centered threshold. Do not add any other door. Keep the back window clear.\nThe user finds the middle/lower floor too empty. Furnish that area as a real social space: add one substantial round dark-wood pub/card table in the middle-right/lower-center of the room, with FOUR separate adult-sized upholstered wooden chairs arranged around it, facing the table, with distinguishable seats/backs/legs and usable gaps. A restrained decanter/glasses grouping can sit on the tabletop. Ground this group on a modest fitted rectangular patterned rug, aligned with the table rather than floating elsewhere. The furniture group must occupy a meaningful portion of the formerly empty middle/lower floor, not a tiny token object. Preserve an open aisle behind all four bar stools so people can mount/dismount, and a readable route from the east door around the table to the south exit. Preserve the existing left conversation chairs. Avoid cramming furniture, fused legs, blocked doors, imaginary exits or a vast unused foreground. No people, labels, UI or text. One opaque 1536x1024 review draft; do not change anything else.",
+      "source": "assets/rooms/revisions/2026-10-24-room-rework/future_bar_n0_e1_s1_w0_draft_v1.png",
+      "status": "draft_pending_user_review"
+    },
+    {
+      "id": "u_study",
+      "path": "assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v2.png",
+      "prompt": "Edit the supplied study draft, retaining its cohesive illustrated pixel-art rendering, fixed elevated three-quarter orthographic cutaway, exact 3:2 canvas, period materials and lighting. Preserve exactly ONE doorway on WEST/left wall; no north, east or south openings. Keep back bookshelves, fireplace and clear wall window. The user dislikes the misplaced isolated circular rug and the vast unused bottom floor.\nRecompose the room into TWO functional zones with adult-scale distinct furniture. Keep a writing desk and its separate desk chair in the left/back half, leaving the west doorway approach open. In the formerly empty middle/lower area, add a substantial rectangular wooden discussion/document table with FOUR clearly separate padded wooden chairs facing its edges, with usable seating gaps and believable legs/backs. Place a properly fitted RECTANGULAR rug underneath this table and its chairs, aligned to the furniture. REMOVE the old isolated round rug. The conversation/document area should occupy the lower-middle floor with enough space for characters to approach all sides; no tiny token table in a giant empty hall. The existing right reading chair and side table may be repositioned into a coherent small reading corner, clear of the new group and bookshelf approach. A few writing papers and a closed book can rest on the new table; no readable text, baked evidence, faces or people. Make this a furnished private study, not a library warehouse or a dining room; keep a distinct writing desk and research/conversation table. Preserve a readable path from the single west doorway around both furniture zones. No giant empty foreground, no foreground wall hiding furniture, no fused objects. Output one opaque 1536x1024 draft.",
+      "source": "assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v1.png",
+      "status": "draft_pending_user_review"
+    }
+  ]
+}

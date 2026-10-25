@@ -56,3 +56,11 @@ captures come from `tools/capture_compact_mansion.gd`; the review builder is
 A future small map near the top of the screen should highlight the current room,
 show the current floor and main-room count, using the same active room graph.
 It is documented in GAME_DESIGN_BRAINSTORM.md and has not been implemented yet.
+
+## Approved room integration — 2026-10-24
+The main game now uses eight approved room revisions plus the unchanged foyer (nine spaces, seven functional rooms). Future bar remains outside the active mansion. tools/reworked_mansion_geometry.py supplies new feet-level walk regions/obstacles and eight reciprocal connections. Main staircase rises straight to its north door and upstairs arrival is from the south facing up. Library uses east/south doors; its south door reaches the dining east door via an explicit turning passage. The foyer south-to-stair-hall south vestibule and kitchen-to-basement stair also remain offscreen connections. These are not a geometrically measured seamless floor plan.
+
+Layout identity is fixed-manor-compact-2: old saves remain on disk but are rejected because their positions/geometry may be invalid. Library floor clue moved to [202,279]; the bust moved to [292,220]. Case story and solution are unchanged. Main Char fit selection resolves approved revised-library contacts; general procedural furniture staging and other room pose masks remain pending. Nine native overview screenshots are in test-results/compact-mansion/index.html.
+
+
+Door destination labels: every active portal now displays its target room name continuously, including Up/Down for stairs, with a dark backing and edge-clamped text. The foyer north door explicitly says Front door / Locked. Labels are shared rendering; no per-room label art is baked into backgrounds.

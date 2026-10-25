@@ -1,0 +1,50 @@
+{
+  "pose_id": "standing_look_down_west",
+  "variant_id": "neutral",
+  "actor_facing": "west",
+  "posture": "standing",
+  "activity": "look_down",
+  "expression": "neutral",
+  "gesture": "arms_relaxed_at_sides",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/look-down-01/char_standing_look_down_west_neutral.png",
+  "source_sha256": "259ae57208b010d77561338af487386d11cc97123f5ede6c5bacec993a33b045",
+  "export": "assets/characters/poses/char/exports/west/char_standing_look_down_west_neutral.png",
+  "export_sha256": "259ae57208b010d77561338af487386d11cc97123f5ede6c5bacec993a33b045",
+  "canvas": [
+    944,
+    1666
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "approved",
+  "approval_evidence": {
+    "date": "2026-10-25",
+    "quote": "Approved",
+    "scope": "West-facing looking-down artwork only; runtime fit pending."
+  },
+  "runtime_integrated": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "landmark_record": "assets/characters/poses/char/metadata/look-down-01/char_standing_look_down_west_neutral.json",
+  "tool": "built_in_imagegen",
+  "prompt": "Independently draw west-facing Char looking down at implied floor object, arms relaxed at sides, calm neutral inspection; preserve approved east identity, costume asymmetry and pixel-art rendering; complete character on actual alpha transparency.",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-25",
+      "source": "user",
+      "quote": "Approved"
+    },
+    "scope": "West-facing looking-down artwork only; runtime fit pending.",
+    "files": [
+      {
+        "path": "assets/characters/poses/char/exports/west/char_standing_look_down_west_neutral.png",
+        "sha256": "259ae57208b010d77561338af487386d11cc97123f5ede6c5bacec993a33b045"
+      }
+    ]
+  }
+}

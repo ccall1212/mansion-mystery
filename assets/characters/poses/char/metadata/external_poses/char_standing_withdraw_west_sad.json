@@ -1,0 +1,34 @@
+{
+  "pose_id": "standing_withdraw_west",
+  "variant_id": "sad",
+  "actor_facing": "west",
+  "posture": "standing",
+  "activity": "withdraw",
+  "expression": "sad",
+  "gesture": "hands_together_below_waist",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_withdraw_west_sad.png",
+  "source_sha256": "690bd09cf855fe2148ee518a7bfe80069c52c537709bd30b99e9c55ef901f3c6",
+  "export": "assets/characters/poses/char/exports/west/char_standing_withdraw_west_sad.png",
+  "export_sha256": "690bd09cf855fe2148ee518a7bfe80069c52c537709bd30b99e9c55ef901f3c6",
+  "canvas": [
+    944,
+    1665
+  ],
+  "mode": "RGB",
+  "alpha_extrema": null,
+  "transparency_status": "requires_transparent_reexport",
+  "approval": "user_supplied_added_to_project",
+  "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+  "runtime_integrated": false,
+  "live_test_supported": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "intended_uses": [
+    "sad_reaction",
+    "withdrawn_reaction"
+  ],
+  "notes": "Original bytes preserved. South/east/west batch; north omitted under selected-direction policy. Expression does not assign guilt or personality. West source has baked checkerboard; true transparent reexport required before runtime use.",
+  "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_withdraw_west_sad.json",
+  "superseded_by": "assets/characters/poses/char/metadata/external_poses/revision-02/char_standing_withdraw_west_sad.json"
+}

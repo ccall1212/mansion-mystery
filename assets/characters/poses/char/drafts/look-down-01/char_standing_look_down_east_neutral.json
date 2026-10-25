@@ -1,0 +1,21 @@
+{
+  "status": "approved",
+  "tool": "built_in_imagegen",
+  "path": "assets/characters/poses/char/drafts/look-down-01/char_standing_look_down_east_neutral.png",
+  "sha256": "e74d3a77ef9c23039dd8c5a6efb253605447d389615d0a7b641b81876db400c0",
+  "canvas": [
+    944,
+    1665
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "prompt": "Generate east-facing Char looking down toward floor, arms relaxed at sides, neutral attentive expression; preserve supplied identity/costume/pixel-art style; complete character on transparent background.",
+  "runtime_integrated": false,
+  "approval_evidence": {
+    "date": "2026-10-25",
+    "quote": "Approved, move on",
+    "scope": "East-facing looking-down artwork only; runtime fit pending."
+  }
+}

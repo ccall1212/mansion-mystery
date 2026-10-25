@@ -1,5 +1,10 @@
 {
   "object_placements": {
+    "foyer-lens": [
+      "g_foyer",
+      120,
+      221
+    ],
     "foyer-knife": [
       "g_library",
       244,
@@ -52,7 +57,7 @@
     ]
   },
   "schema_version": 1,
-  "id": "fixed-manor-compact-2",
+  "id": "fixed-manor-compact-3",
   "start_room": "g_foyer",
   "rooms": {
     "g_foyer": {
@@ -60,103 +65,161 @@
       "name": "Foyer",
       "floor": 0,
       "role": "room",
-      "asset": "res://assets/foyer/foyer-background.png",
+      "asset": "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_foyer_n1_e1_s1_w1_draft_v2.png",
       "walk_regions": [
         [
           16,
-          160,
+          174,
           448,
-          171
+          164
+        ],
+        [
+          110,
+          160,
+          260,
+          40
         ]
       ],
       "obstacles": [
         [
           0,
           316,
-          209,
-          44
+          207,
+          28
         ],
         [
           273,
           316,
           207,
-          44
+          28
         ],
         [
           166,
           155,
           148,
-          24
-        ],
-        [
-          68,
-          162,
-          28,
-          20
-        ],
-        [
-          17,
-          160,
-          49,
           18
         ],
         [
-          396,
-          174,
-          57,
-          23
+          29,
+          150,
+          69,
+          18
         ],
         [
-          339,
-          184,
-          14,
-          8
+          378,
+          155,
+          42,
+          20
         ],
         [
-          354,
-          237,
-          24,
-          10
+          422,
+          167,
+          28,
+          15
+        ],
+        [
+          72,
+          220,
+          93,
+          56
+        ],
+        [
+          22,
+          231,
+          38,
+          20
+        ],
+        [
+          315,
+          240,
+          120,
+          31
         ]
       ],
       "portals": [
         {
+          "id": "g_foyer--g_library",
+          "at": [
+            20,
+            190
+          ],
+          "target": "g_library",
+          "arrival": [
+            437,
+            211
+          ],
+          "facing": [
+            -1,
+            0
+          ],
+          "kind": "door",
+          "passage_note": "",
+          "side": "west"
+        },
+        {
           "id": "g_foyer--g_main_stair",
+          "at": [
+            460,
+            190
+          ],
+          "target": "g_main_stair",
+          "arrival": [
+            52,
+            227
+          ],
+          "facing": [
+            1,
+            0
+          ],
+          "kind": "door",
+          "passage_note": "",
+          "side": "east"
+        },
+        {
+          "id": "g_foyer--g_dining",
           "at": [
             240,
             326
           ],
-          "target": "g_main_stair",
+          "target": "g_dining",
           "arrival": [
-            240,
-            295
+            211,
+            152
           ],
           "facing": [
             0,
-            -1
+            1
           ],
           "kind": "door",
-          "passage_note": "Bent entrance vestibule joins the two south thresholds; locked front door remains north."
+          "passage_note": "",
+          "side": "south"
         }
       ],
       "spawn": [
         240,
         280
       ],
-      "art_note": ""
+      "art_note": "User-approved opposite-door artwork. New furniture contacts require independent fit review.",
+      "furniture_layout": "res://assets/furniture/layouts/g_foyer_opposite_v2.json",
+      "hide_reading_stand": true,
+      "automatic_doorways": true,
+      "map_grid": [
+        1,
+        0
+      ]
     },
     "g_main_stair": {
       "id": "g_main_stair",
       "name": "Main Stair Hall",
       "floor": 0,
       "role": "passage",
-      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/g_main_stair_n1_e0_s1_w1_draft_v1.png",
+      "asset": "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_main_stair_n1_e0_s0_w1_draft_v2.png",
       "walk_regions": [
         [
           16,
           185,
           448,
-          153
+          127
         ],
         [
           266,
@@ -189,44 +252,33 @@
           104,
           11,
           131
+        ],
+        [
+          0,
+          312,
+          480,
+          32
         ]
       ],
       "portals": [
         {
           "id": "g_foyer--g_main_stair",
           "at": [
-            240,
-            326
-          ],
-          "target": "g_foyer",
-          "arrival": [
-            240,
-            299
-          ],
-          "facing": [
-            0,
-            -1
-          ],
-          "kind": "door",
-          "passage_note": "Bent entrance vestibule joins the two south thresholds; locked front door remains north."
-        },
-        {
-          "id": "g_main_stair--g_library",
-          "at": [
             20,
             224
           ],
-          "target": "g_library",
+          "target": "g_foyer",
           "arrival": [
-            437,
-            211
+            430,
+            190
           ],
           "facing": [
             -1,
             0
           ],
           "kind": "door",
-          "passage_note": ""
+          "passage_note": "",
+          "side": "west"
         },
         {
           "id": "g_main_stair--u_main_stair",
@@ -244,15 +296,21 @@
             -1
           ],
           "kind": "stairs",
-          "passage_note": ""
+          "passage_note": "",
+          "side": "north"
         }
       ],
       "spawn": [
         240,
         280
       ],
-      "art_note": "Approved room revision; feet-level geometry integrated. General furniture staging remains provisional.",
-      "furniture_layout": "res://assets/furniture/layouts/g_main_stair_rework_v1.json"
+      "art_note": "User-approved opposite-door artwork. New furniture contacts require independent fit review.",
+      "furniture_layout": "res://assets/furniture/layouts/g_main_stair_opposite_v2.json",
+      "automatic_doorways": true,
+      "map_grid": [
+        2,
+        0
+      ]
     },
     "g_library": {
       "id": "g_library",
@@ -326,40 +384,42 @@
       ],
       "portals": [
         {
-          "id": "g_main_stair--g_library",
+          "id": "g_foyer--g_library",
           "at": [
             460,
             188
           ],
-          "target": "g_main_stair",
+          "target": "g_foyer",
           "arrival": [
-            52,
-            227
+            50,
+            190
           ],
           "facing": [
             1,
             0
           ],
           "kind": "door",
-          "passage_note": ""
+          "passage_note": "",
+          "side": "east"
         },
         {
-          "id": "g_library--g_dining",
+          "id": "g_library--g_kitchen",
           "at": [
             277,
             326
           ],
-          "target": "g_dining",
+          "target": "g_kitchen",
           "arrival": [
-            430,
-            210
+            327,
+            156
           ],
           "facing": [
-            -1,
-            0
+            0,
+            1
           ],
           "kind": "door",
-          "passage_note": "Short turning passage joins library south to dining east; this is not a straight shared wall."
+          "passage_note": "",
+          "side": "south"
         }
       ],
       "spawn": [
@@ -367,20 +427,31 @@
         280
       ],
       "art_note": "Approved room revision; feet-level geometry integrated. General furniture staging remains provisional.",
-      "furniture_layout": "res://assets/furniture/layouts/g_library_rework_v3.json"
+      "furniture_layout": "res://assets/furniture/layouts/g_library_rework_v3.json",
+      "automatic_doorways": true,
+      "map_grid": [
+        0,
+        0
+      ]
     },
     "g_dining": {
       "id": "g_dining",
       "name": "Dining Room",
       "floor": 0,
       "role": "room",
-      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/g_dining_n0_e1_s0_w1_draft_v1.png",
+      "asset": "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_dining_n1_e0_s0_w1_draft_v2.png",
       "walk_regions": [
         [
           16,
           132,
           448,
           206
+        ],
+        [
+          190,
+          104,
+          43,
+          50
         ]
       ],
       "obstacles": [
@@ -391,10 +462,10 @@
           80
         ],
         [
-          186,
-          111,
-          109,
-          19
+          263,
+          115,
+          78,
+          16
         ],
         [
           329,
@@ -405,22 +476,23 @@
       ],
       "portals": [
         {
-          "id": "g_library--g_dining",
+          "id": "g_foyer--g_dining",
           "at": [
-            460,
-            190
+            211,
+            120
           ],
-          "target": "g_library",
+          "target": "g_foyer",
           "arrival": [
-            277,
-            292
+            240,
+            294
           ],
           "facing": [
             0,
             -1
           ],
           "kind": "door",
-          "passage_note": "Short turning passage joins library south to dining east; this is not a straight shared wall."
+          "passage_note": "",
+          "side": "north"
         },
         {
           "id": "g_dining--g_kitchen",
@@ -438,28 +510,40 @@
             0
           ],
           "kind": "door",
-          "passage_note": ""
+          "passage_note": "",
+          "side": "west"
         }
       ],
       "spawn": [
         240,
         280
       ],
-      "art_note": "Approved room revision; feet-level geometry integrated. General furniture staging remains provisional.",
-      "furniture_layout": "res://assets/furniture/layouts/g_dining_rework_v1.json"
+      "art_note": "User-approved opposite-door artwork. New furniture contacts require independent fit review.",
+      "furniture_layout": "res://assets/furniture/layouts/g_dining_opposite_v2.json",
+      "automatic_doorways": true,
+      "map_grid": [
+        1,
+        1
+      ]
     },
     "g_kitchen": {
       "id": "g_kitchen",
       "name": "Kitchen",
       "floor": 0,
       "role": "room",
-      "asset": "res://assets/rooms/revisions/2026-10-24-room-rework/g_kitchen_n0_e1_s1_w0_draft_v1.png",
+      "asset": "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_kitchen_n1_e1_s1_w0_draft_v2.png",
       "walk_regions": [
         [
           16,
           134,
           448,
           204
+        ],
+        [
+          307,
+          100,
+          40,
+          60
         ]
       ],
       "obstacles": [
@@ -482,9 +566,9 @@
           23
         ],
         [
-          334,
+          355,
           119,
-          87,
+          66,
           18
         ],
         [
@@ -502,6 +586,25 @@
       ],
       "portals": [
         {
+          "id": "g_library--g_kitchen",
+          "at": [
+            327,
+            116
+          ],
+          "target": "g_library",
+          "arrival": [
+            277,
+            292
+          ],
+          "facing": [
+            0,
+            -1
+          ],
+          "kind": "door",
+          "passage_note": "",
+          "side": "north"
+        },
+        {
           "id": "g_dining--g_kitchen",
           "at": [
             460,
@@ -517,7 +620,8 @@
             0
           ],
           "kind": "door",
-          "passage_note": ""
+          "passage_note": "",
+          "side": "east"
         },
         {
           "id": "g_kitchen--b_store",
@@ -535,15 +639,21 @@
             1
           ],
           "kind": "stairs",
-          "passage_note": "Kitchen south threshold descends an offscreen service stair to the basement north doorway."
+          "passage_note": "",
+          "side": "south"
         }
       ],
       "spawn": [
         240,
         280
       ],
-      "art_note": "Approved room revision; feet-level geometry integrated. General furniture staging remains provisional.",
-      "furniture_layout": "res://assets/furniture/layouts/g_kitchen_rework_v1.json"
+      "art_note": "User-approved opposite-door artwork. New furniture contacts require independent fit review.",
+      "furniture_layout": "res://assets/furniture/layouts/g_kitchen_opposite_v2.json",
+      "automatic_doorways": true,
+      "map_grid": [
+        0,
+        1
+      ]
     },
     "u_main_stair": {
       "id": "u_main_stair",
@@ -620,7 +730,8 @@
             1
           ],
           "kind": "stairs",
-          "passage_note": ""
+          "passage_note": "",
+          "side": "south"
         },
         {
           "id": "u_main_stair--u_master",
@@ -638,7 +749,8 @@
             0
           ],
           "kind": "door",
-          "passage_note": ""
+          "passage_note": "",
+          "side": "west"
         },
         {
           "id": "u_main_stair--u_study",
@@ -656,7 +768,8 @@
             0
           ],
           "kind": "door",
-          "passage_note": ""
+          "passage_note": "",
+          "side": "east"
         }
       ],
       "spawn": [
@@ -664,7 +777,12 @@
         280
       ],
       "art_note": "Approved room revision; feet-level geometry integrated. General furniture staging remains provisional.",
-      "furniture_layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json"
+      "furniture_layout": "res://assets/furniture/layouts/u_main_stair_rework_v1.json",
+      "automatic_doorways": true,
+      "map_grid": [
+        2,
+        0
+      ]
     },
     "u_master": {
       "id": "u_master",
@@ -765,7 +883,8 @@
             0
           ],
           "kind": "door",
-          "passage_note": ""
+          "passage_note": "",
+          "side": "east"
         }
       ],
       "spawn": [
@@ -773,7 +892,12 @@
         280
       ],
       "art_note": "Approved room revision; feet-level geometry integrated. General furniture staging remains provisional.",
-      "furniture_layout": "res://assets/furniture/layouts/u_master_rework_v1.json"
+      "furniture_layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "automatic_doorways": true,
+      "map_grid": [
+        1,
+        0
+      ]
     },
     "u_study": {
       "id": "u_study",
@@ -844,7 +968,8 @@
             0
           ],
           "kind": "door",
-          "passage_note": ""
+          "passage_note": "",
+          "side": "west"
         }
       ],
       "spawn": [
@@ -852,7 +977,12 @@
         280
       ],
       "art_note": "Approved room revision; feet-level geometry integrated. General furniture staging remains provisional.",
-      "furniture_layout": "res://assets/furniture/layouts/u_study_rework_v2.json"
+      "furniture_layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "automatic_doorways": true,
+      "map_grid": [
+        3,
+        0
+      ]
     },
     "b_store": {
       "id": "b_store",
@@ -929,7 +1059,8 @@
             -1
           ],
           "kind": "stairs",
-          "passage_note": "Kitchen south threshold descends an offscreen service stair to the basement north doorway."
+          "passage_note": "",
+          "side": "north"
         }
       ],
       "spawn": [
@@ -937,7 +1068,12 @@
         280
       ],
       "art_note": "Approved room revision; feet-level geometry integrated. General furniture staging remains provisional.",
-      "furniture_layout": "res://assets/furniture/layouts/b_store_rework_v1.json"
+      "furniture_layout": "res://assets/furniture/layouts/b_store_rework_v1.json",
+      "automatic_doorways": true,
+      "map_grid": [
+        0,
+        1
+      ]
     }
   },
   "deferred_rooms": {
@@ -978,5 +1114,5 @@
       "asset": "res://assets/rooms/room-torchlit-stone.png"
     }
   },
-  "description": "Compact first mansion: four ground-floor rooms, two upstairs, one basement; stair hall and upper landing are circulation. Unique active backgrounds; two passage art gaps remain."
+  "description": "Compact first mansion: four ground-floor rooms, two upstairs, one basement; stair hall and upper landing are circulation. Opposite-side doors, automatic crossing, and a ground-floor loop."
 }

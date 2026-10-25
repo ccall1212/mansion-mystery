@@ -14,9 +14,9 @@ parts = ['''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="vie
 <h1>Compact mansion — room and connection review</h1>
 <p><b>Seven main rooms:</b> four ground-floor, two upstairs, one basement. Two circulation screens bring the playable total to nine. Every active background is unique. Unused room assets and furniture tags are retained for expansion.</p>
 <p>These are actual current-engine overview captures. Door markers identify active routes. Painted openings without markers are not active exits. This is a compact traversal layout, not a finished architectural floor plan.</p>
-<h2>Routes</h2><p>Foyer ↔ Main Stair Hall ↔ Library ↔ Dining Room ↔ Kitchen ↔ Basement Storage<br>Main Stair Hall ↔ Upstairs Landing ↔ Bedroom / Study</p>
-<p class="gap">Eight approved room revisions are now integrated with updated collision and reciprocal door/stair endpoints. The foyer remains unchanged and the bar is reserved for future expansion. The library south-to-dining east link is a turning passage; the foyer vestibule and basement service stair also run offscreen.</p>
-<p>Future top-of-screen map: current floor, highlighted current room and main-room count, generated from this same room graph. Not implemented yet; TAB remains the directory.</p>''']
+<h2>Routes</h2><p>Library / Foyer / Main Stair Hall; Foyer / Dining / Kitchen / Library loop; Kitchen / Basement Storage<br>Main Stair Hall / Upstairs Landing / Bedroom or Study</p>
+<p class="gap">Compact-3: fuller four-door foyer, locked north front entrance, opposite-side arrivals throughout. Walking toward a doorway crosses automatically. All 18 directed crossings have passed physics traversal. New furniture tags remain provisional. The bar remains deferred.</p>
+<p>Top-right map shows the current floor, highlighted room and main-room count from this same graph. TAB opens the directory.</p>''']
 for floor, name in [(0,'Ground floor'),(1,'Upstairs'),(-1,'Basement')]:
     active = [(key,room) for key,room in rooms.items() if room['floor'] == floor]
     count = sum(room['role'] == 'room' for _,room in active)
@@ -58,6 +58,6 @@ parts.append('</ul><h2>All background doorway labels, including inactive variant
 for entry in door_catalog.values():
     count=entry['door_counts']
     parts.append(f'<tr><td>{esc(entry["background_id"])}</td><td>{entry["door_count"]}</td><td>{count["north"]}</td><td>{count["east"]}</td><td>{count["south"]}</td><td>{count["west"]}</td><td>{len(entry["stair_flights"])}</td></tr>')
-parts.append('</table><p><a href="../../assets/rooms/doorway-catalog.json">Machine-readable doorway catalog</a> · <a href="../../docs/ROOM_ART_REWORK.md">Full rework brief</a></p><p>Older mansion saves are retained but do not load into layout compact-2. Start a fresh case; F5 saves it explicitly.</p></html>')
+parts.append('</table><p><a href="../../assets/rooms/doorway-catalog.json">Machine-readable doorway catalog</a> · <a href="../../docs/ROOM_ART_REWORK.md">Full rework brief</a></p><p>Older mansion saves are retained but do not load into layout compact-3. Start a fresh case; F5 saves it explicitly.</p></html>')
 (OUT/'index.html').write_text('\n'.join(parts),encoding='utf-8')
 print(OUT/'index.html')

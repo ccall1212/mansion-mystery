@@ -1,0 +1,35 @@
+{
+  "pose_id": "standing_look_up_east",
+  "variant_id": "neutral",
+  "actor_facing": "east",
+  "posture": "standing",
+  "activity": "look_up",
+  "expression": "neutral",
+  "gesture": "arms_relaxed_at_sides",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_look_up_east_neutral.png",
+  "source_sha256": "03e3793ffd26722095828c97c4a51e6f1f9b5284af557b1f50ca69c3869bccdb",
+  "export": "assets/characters/poses/char/exports/east/char_standing_look_up_east_neutral.png",
+  "export_sha256": "03e3793ffd26722095828c97c4a51e6f1f9b5284af557b1f50ca69c3869bccdb",
+  "canvas": [
+    944,
+    1666
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "user_supplied_added_to_project",
+  "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+  "runtime_integrated": false,
+  "live_test_supported": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "intended_uses": [
+    "observe_above_eye_level"
+  ],
+  "notes": "Original bytes preserved. Target height and gaze alignment require scene calibration. Visible expressions include smiles; neutral names the action variant, not a verified expression match.",
+  "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_look_up_east_neutral.json"
+}

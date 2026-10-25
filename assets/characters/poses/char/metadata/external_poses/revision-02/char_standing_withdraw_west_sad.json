@@ -1,0 +1,42 @@
+{
+  "pose_id": "standing_withdraw_west",
+  "variant_id": "sad",
+  "actor_facing": "west",
+  "posture": "standing",
+  "activity": "withdraw",
+  "expression": "sad",
+  "gesture": "hands_together_below_waist",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/external_poses/revision-02/char_standing_withdraw_west_sad.png",
+  "source_sha256": "83c8ade5c13f001ff5fb289b4137ed9f893f2c4724261047ad6c4b066b26cfb9",
+  "export": "assets/characters/poses/char/exports/west/revision-02/char_standing_withdraw_west_sad.png",
+  "export_sha256": "83c8ade5c13f001ff5fb289b4137ed9f893f2c4724261047ad6c4b066b26cfb9",
+  "canvas": [
+    944,
+    1666
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "user_supplied_added_to_project",
+  "approval_scope": "User supplied external directional artwork for import; measured runtime fit pending.",
+  "runtime_integrated": false,
+  "live_test_supported": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "intended_uses": [
+    "sad_reaction",
+    "withdrawn_reaction"
+  ],
+  "notes": "Original bytes preserved. Expression does not assign guilt or personality.",
+  "landmark_record": "assets/characters/poses/char/metadata/external_poses/revision-02/char_standing_withdraw_west_sad.json",
+  "supersedes": {
+    "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_withdraw_west_sad.png",
+    "source_sha256": "690bd09cf855fe2148ee518a7bfe80069c52c537709bd30b99e9c55ef901f3c6",
+    "reason": "User identified third attachment as corrected west-facing sad replacement."
+  },
+  "superseded_by": "assets/characters/poses/char/metadata/external_poses/revision-03/char_standing_withdraw_west_sad.json"
+}

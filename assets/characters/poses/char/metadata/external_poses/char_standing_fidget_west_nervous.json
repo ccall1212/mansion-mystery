@@ -1,0 +1,31 @@
+{
+  "pose_id": "standing_fidget_west",
+  "variant_id": "nervous",
+  "actor_facing": "west",
+  "posture": "standing",
+  "activity": "fidget",
+  "expression": "nervous",
+  "gesture": "hands_fidgeting",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_fidget_west_nervous.png",
+  "source_sha256": "7c3feee7c890004d28075bdc9ac7caefa3da36895346b0c5a6268d896be74d5b",
+  "export": "assets/characters/poses/char/exports/west/char_standing_fidget_west_nervous.png",
+  "export_sha256": "7c3feee7c890004d28075bdc9ac7caefa3da36895346b0c5a6268d896be74d5b",
+  "canvas": [
+    944,
+    1666
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "approval": "user_supplied_added_to_project",
+  "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+  "runtime_integrated": false,
+  "live_test_supported": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "notes": "Original bytes preserved. Nervousness is an optional reaction, not a permanent personality or guilt assignment. Source density and feet landmarks require calibration.",
+  "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_fidget_west_nervous.json"
+}

@@ -1,0 +1,27 @@
+{
+  "pose_id": "seated_idle_north",
+  "variant_id": "neutral",
+  "actor_facing": "north",
+  "posture": "seated",
+  "activity": "idle",
+  "source_master": "assets/characters/poses/char/masters/external_poses/char_seated_idle_north_neutral.png",
+  "source_sha256": "bb3fcadd90c78b7383221aba0b15178540eb63b16d281634c26354c74b82be19",
+  "export": "assets/characters/poses/char/exports/north/char_seated_idle_north_neutral.png",
+  "export_sha256": "bb3fcadd90c78b7383221aba0b15178540eb63b16d281634c26354c74b82be19",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "approval": "user_supplied_added_to_project",
+  "approval_scope": "Import requested; fit and source-scale calibration pending.",
+  "runtime_integrated": false,
+  "live_test_supported": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "notes": "Preserved original image bytes. New source density and seat/feet landmarks must be measured before common-scale furniture fitting."
+}

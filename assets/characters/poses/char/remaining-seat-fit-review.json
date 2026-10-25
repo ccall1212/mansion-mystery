@@ -1,0 +1,1583 @@
+{
+  "schema_version": 1,
+  "status": "pending_visual_review",
+  "scope": "Dining, kitchen and both upstairs rooms; existing approved sprites only. No runtime staging or new artwork.",
+  "coordinate_space": "background_local",
+  "shared_adult_height": 80,
+  "standing_reference_height": 1673,
+  "samples": [
+    {
+      "id": "g_dining_chair_nw__seat",
+      "room_id": "g_dining",
+      "label": "Dining Room / chair nw",
+      "contact_id": "g_dining::g_dining_chair_nw::seat",
+      "actor_facing": "south",
+      "pose_id": "seated_idle_south",
+      "asset": "assets/characters/poses/char/exports/south/char_seated_idle_south_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_south.json",
+      "contact": [
+        209.5,
+        139.12
+      ],
+      "foreground_polygons": [
+        [
+          [
+            165,
+            138
+          ],
+          [
+            313,
+            138
+          ],
+          [
+            316,
+            188
+          ],
+          [
+            165,
+            188
+          ]
+        ]
+      ],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_dining_n1_e0_s0_w1_draft_v2.png",
+      "layout": "res://assets/furniture/layouts/g_dining_opposite_v2.json",
+      "background_sha256": "41b47c32a0f6bf73476b1ad78224e6cb19fd6381e6f0ce812f05a4e4e544bd98",
+      "contact_source": {
+        "instance_id": "g_dining_chair_nw",
+        "anchor_id": "seat"
+      },
+      "status": "preview_candidate",
+      "notes": "Unchanged approved sprite; shared scale. Pose-fit, clearance and overlap remain review candidates.",
+      "asset_sha256": "400d065f084d5353230078cd7f2a5b1860027702bee116533892e925573a23e2",
+      "estimated_feet_background_local": [
+        211.652,
+        169.15
+      ],
+      "captures": {
+        "raw": {
+          "path": "test-results/char-remaining-seat-fit/g_dining_chair_nw__seat-raw.png",
+          "sha256": "adfcd283869b1238314014c06de18c6c64a483a5caadc3e885c40fb564c884af"
+        },
+        "masked": {
+          "path": "test-results/char-remaining-seat-fit/g_dining_chair_nw__seat-masked.png",
+          "sha256": "4d2140ade11480226444d75fb632e34650a8f69ba21721df22590c8eb1a36fe7"
+        }
+      },
+      "captures_status": "current_native_capture",
+      "mask_edit": {
+        "method": "visual_drag_editor",
+        "status": "pending_fit_review",
+        "shared_furniture_mask": true
+      }
+    },
+    {
+      "id": "g_dining_chair_ne__seat",
+      "room_id": "g_dining",
+      "label": "Dining Room / chair ne",
+      "contact_id": "g_dining::g_dining_chair_ne::seat",
+      "actor_facing": "south",
+      "pose_id": "seated_idle_south",
+      "asset": "assets/characters/poses/char/exports/south/char_seated_idle_south_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_south.json",
+      "contact": [
+        274,
+        140.12
+      ],
+      "foreground_polygons": [
+        [
+          [
+            165,
+            138
+          ],
+          [
+            313,
+            138
+          ],
+          [
+            316,
+            188
+          ],
+          [
+            165,
+            188
+          ]
+        ]
+      ],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_dining_n1_e0_s0_w1_draft_v2.png",
+      "layout": "res://assets/furniture/layouts/g_dining_opposite_v2.json",
+      "background_sha256": "41b47c32a0f6bf73476b1ad78224e6cb19fd6381e6f0ce812f05a4e4e544bd98",
+      "contact_source": {
+        "instance_id": "g_dining_chair_ne",
+        "anchor_id": "seat"
+      },
+      "status": "preview_candidate",
+      "notes": "Unchanged approved sprite; shared scale. Pose-fit, clearance and overlap remain review candidates.",
+      "asset_sha256": "400d065f084d5353230078cd7f2a5b1860027702bee116533892e925573a23e2",
+      "estimated_feet_background_local": [
+        276.152,
+        170.15
+      ],
+      "captures": {
+        "raw": {
+          "path": "test-results/char-remaining-seat-fit/g_dining_chair_ne__seat-raw.png",
+          "sha256": "2fb338a2a77c4ce01c5e76f01e206e0c8dac9dcebcd08649f2b8bd36bf081218"
+        },
+        "masked": {
+          "path": "test-results/char-remaining-seat-fit/g_dining_chair_ne__seat-masked.png",
+          "sha256": "4aa6826629ed29d654945e76445599831bc5edaa2b52c973983fe43ff8280295"
+        }
+      },
+      "captures_status": "current_native_capture",
+      "mask_edit": {
+        "method": "visual_drag_editor",
+        "status": "pending_fit_review",
+        "shared_furniture_mask": true
+      }
+    },
+    {
+      "id": "g_dining_chair_sw__seat",
+      "room_id": "g_dining",
+      "label": "Dining Room / chair sw",
+      "contact_id": "g_dining::g_dining_chair_sw::seat",
+      "actor_facing": "north",
+      "pose_id": "seated_idle_north",
+      "asset": "assets/characters/poses/char/exports/north/char_seated_idle_north_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_north.json",
+      "contact": [
+        206.0,
+        207.0
+      ],
+      "foreground_polygons": [],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_dining_n1_e0_s0_w1_draft_v2.png",
+      "layout": "res://assets/furniture/layouts/g_dining_opposite_v2.json",
+      "background_sha256": "41b47c32a0f6bf73476b1ad78224e6cb19fd6381e6f0ce812f05a4e4e544bd98",
+      "contact_source": {
+        "instance_id": "g_dining_chair_sw",
+        "anchor_id": "seat"
+      },
+      "status": "missing_seated_north_artwork",
+      "notes": "Unchanged approved sprite; shared scale. Pose-fit, clearance and overlap remain review candidates."
+    },
+    {
+      "id": "g_dining_chair_se__seat",
+      "room_id": "g_dining",
+      "label": "Dining Room / chair se",
+      "contact_id": "g_dining::g_dining_chair_se::seat",
+      "actor_facing": "north",
+      "pose_id": "seated_idle_north",
+      "asset": "assets/characters/poses/char/exports/north/char_seated_idle_north_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_north.json",
+      "contact": [
+        274.0,
+        207.0
+      ],
+      "foreground_polygons": [],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_dining_n1_e0_s0_w1_draft_v2.png",
+      "layout": "res://assets/furniture/layouts/g_dining_opposite_v2.json",
+      "background_sha256": "41b47c32a0f6bf73476b1ad78224e6cb19fd6381e6f0ce812f05a4e4e544bd98",
+      "contact_source": {
+        "instance_id": "g_dining_chair_se",
+        "anchor_id": "seat"
+      },
+      "status": "missing_seated_north_artwork",
+      "notes": "Unchanged approved sprite; shared scale. Pose-fit, clearance and overlap remain review candidates."
+    },
+    {
+      "id": "g_dining_chair_west__seat",
+      "room_id": "g_dining",
+      "label": "Dining Room / chair west",
+      "contact_id": "g_dining::g_dining_chair_west::seat",
+      "actor_facing": "east",
+      "pose_id": "seated_idle_east",
+      "asset": "assets/characters/poses/char/exports/east/char_seated_idle_east_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_east.json",
+      "contact": [
+        157,
+        169
+      ],
+      "foreground_polygons": [
+        [
+          [
+            171.82,
+            168.02
+          ],
+          [
+            313,
+            138
+          ],
+          [
+            316,
+            188
+          ],
+          [
+            163.68,
+            182.58
+          ]
+        ],
+        [
+          [
+            164.23,
+            169.89
+          ],
+          [
+            165.41,
+            198.07
+          ],
+          [
+            171.42,
+            197.27
+          ],
+          [
+            170.09,
+            170.69
+          ]
+        ],
+        [
+          [
+            143.64,
+            178.31
+          ],
+          [
+            158.07,
+            178.44
+          ],
+          [
+            150.32,
+            198.47
+          ],
+          [
+            138.18,
+            197.4
+          ]
+        ]
+      ],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_dining_n1_e0_s0_w1_draft_v2.png",
+      "layout": "res://assets/furniture/layouts/g_dining_opposite_v2.json",
+      "background_sha256": "41b47c32a0f6bf73476b1ad78224e6cb19fd6381e6f0ce812f05a4e4e544bd98",
+      "contact_source": {
+        "instance_id": "g_dining_chair_west",
+        "anchor_id": "seat"
+      },
+      "status": "preview_candidate",
+      "notes": "Revised after user reported off-seat placement: seat raised onto painted cushion/surface; narrow furniture-side/leg masks added. Shared character scale and artwork unchanged. Review masks on/off.",
+      "asset_sha256": "9ec557fba8c95c55400ad8522e1267ca300c7f52476d6cb05ec53d20ed930ac9",
+      "estimated_feet_background_local": [
+        175.458,
+        197.882
+      ],
+      "captures": {
+        "raw": {
+          "path": "test-results/char-remaining-seat-fit/g_dining_chair_west__seat-raw.png",
+          "sha256": "4f6cedc45b74afc1cab13798512337077d3891011c3a0367ce47915e99e2db84"
+        },
+        "masked": {
+          "path": "test-results/char-remaining-seat-fit/g_dining_chair_west__seat-masked.png",
+          "sha256": "d42ca317287a8b68a18ddb90662f1862effc99b8129f9faf6dbc4db4b3ea3f69"
+        }
+      },
+      "revision": "seat_alignment_v2",
+      "revision_reason": "User: hanging off dining chair sides; sitting on ground by kitchen stool; same problem on bed-foot bench.",
+      "previous_contact": [
+        154.5,
+        178.96
+      ],
+      "captures_status": "current_native_capture",
+      "mask_edit": {
+        "method": "visual_drag_editor",
+        "status": "pending_fit_review",
+        "shared_furniture_mask": true
+      }
+    },
+    {
+      "id": "g_dining_chair_east__seat",
+      "room_id": "g_dining",
+      "label": "Dining Room / chair east",
+      "contact_id": "g_dining::g_dining_chair_east::seat",
+      "actor_facing": "west",
+      "pose_id": "seated_idle_west",
+      "asset": "assets/characters/poses/char/exports/west/char_seated_idle_west_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_west.json",
+      "contact": [
+        323,
+        169
+      ],
+      "foreground_polygons": [
+        [
+          [
+            165,
+            138
+          ],
+          [
+            314.45,
+            169.22
+          ],
+          [
+            316,
+            188
+          ],
+          [
+            165,
+            188
+          ]
+        ],
+        [
+          [
+            333.15,
+            170.69
+          ],
+          [
+            336.62,
+            169.76
+          ],
+          [
+            339.69,
+            193.93
+          ],
+          [
+            333,
+            200
+          ],
+          [
+            331,
+            197
+          ]
+        ],
+        [
+          [
+            308.59,
+            178.97
+          ],
+          [
+            308.44,
+            196.07
+          ],
+          [
+            315.92,
+            196.2
+          ],
+          [
+            314.33,
+            178.17
+          ]
+        ]
+      ],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_dining_n1_e0_s0_w1_draft_v2.png",
+      "layout": "res://assets/furniture/layouts/g_dining_opposite_v2.json",
+      "background_sha256": "41b47c32a0f6bf73476b1ad78224e6cb19fd6381e6f0ce812f05a4e4e544bd98",
+      "contact_source": {
+        "instance_id": "g_dining_chair_east",
+        "anchor_id": "seat"
+      },
+      "status": "preview_candidate",
+      "notes": "Revised after user reported off-seat placement: seat raised onto painted cushion/surface; narrow furniture-side/leg masks added. Shared character scale and artwork unchanged. Review masks on/off.",
+      "asset_sha256": "903f10ddcdd454ab6aaa83a3ef134f91459b9db7b9705f703ff2d437f9160be2",
+      "estimated_feet_background_local": [
+        307.268,
+        196.209
+      ],
+      "captures": {
+        "raw": {
+          "path": "test-results/char-remaining-seat-fit/g_dining_chair_east__seat-raw.png",
+          "sha256": "901d0064308b22c726d5edcc96e600d1f6cb4d85c4a4db73191af55376834179"
+        },
+        "masked": {
+          "path": "test-results/char-remaining-seat-fit/g_dining_chair_east__seat-masked.png",
+          "sha256": "9ee20f892ab9a80419c6d86203f7aa097db7ffede2194f38f7b1fb7fd8b5a83b"
+        }
+      },
+      "revision": "seat_alignment_v2",
+      "revision_reason": "User: hanging off dining chair sides; sitting on ground by kitchen stool; same problem on bed-foot bench.",
+      "previous_contact": [
+        329.0,
+        178.96
+      ],
+      "captures_status": "current_native_capture",
+      "mask_edit": {
+        "method": "visual_drag_editor",
+        "status": "pending_fit_review",
+        "shared_furniture_mask": true
+      }
+    },
+    {
+      "id": "g_kitchen_work_stool__seat",
+      "room_id": "g_kitchen",
+      "label": "Kitchen / work stool",
+      "contact_id": "g_kitchen::g_kitchen_work_stool::seat",
+      "actor_facing": "east",
+      "pose_id": "seated_idle_east",
+      "asset": "assets/characters/poses/char/exports/east/char_seated_idle_east_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_east.json",
+      "contact": [
+        66,
+        168
+      ],
+      "foreground_polygons": [
+        [
+          [
+            82.85,
+            166.52
+          ],
+          [
+            85.21,
+            201.4
+          ],
+          [
+            94.02,
+            201.27
+          ],
+          [
+            91.72,
+            166.15
+          ]
+        ],
+        [
+          [
+            91,
+            136.56
+          ],
+          [
+            77.31,
+            163.44
+          ],
+          [
+            77.31,
+            166.15
+          ],
+          [
+            121.94,
+            168.25
+          ],
+          [
+            121.82,
+            137.06
+          ]
+        ]
+      ],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_kitchen_n1_e1_s1_w0_draft_v2.png",
+      "layout": "res://assets/furniture/layouts/g_kitchen_opposite_v2.json",
+      "background_sha256": "40b73b534bdfdd7c735d1ba3997f955f544f3c337bfd0965ed19369e7d4a9639",
+      "contact_source": {
+        "instance_id": "g_kitchen_work_stool",
+        "anchor_id": "seat"
+      },
+      "status": "preview_candidate",
+      "notes": "Revised after user reported off-seat placement: seat raised onto painted cushion/surface; narrow furniture-side/leg masks added. Shared character scale and artwork unchanged. Review masks on/off.",
+      "asset_sha256": "9ec557fba8c95c55400ad8522e1267ca300c7f52476d6cb05ec53d20ed930ac9",
+      "estimated_feet_background_local": [
+        84.458,
+        196.882
+      ],
+      "captures": {
+        "raw": {
+          "path": "test-results/char-remaining-seat-fit/g_kitchen_work_stool__seat-raw.png",
+          "sha256": "3377d08cf777d5955bbf99fd4bedf3ebf7a2c38239d79fe0c92e4972386b84c5"
+        },
+        "masked": {
+          "path": "test-results/char-remaining-seat-fit/g_kitchen_work_stool__seat-masked.png",
+          "sha256": "5a5bbc3682a560bd2542c36f20660f63450d498014a72e4237eaf9890c27eaaf"
+        }
+      },
+      "revision": "seat_alignment_v2",
+      "revision_reason": "User: hanging off dining chair sides; sitting on ground by kitchen stool; same problem on bed-foot bench.",
+      "previous_contact": [
+        65.0,
+        192.9
+      ],
+      "captures_status": "current_native_capture",
+      "mask_edit": {
+        "method": "visual_drag_editor",
+        "status": "pending_fit_review",
+        "shared_furniture_mask": true
+      }
+    },
+    {
+      "id": "u_master_canopy_bed__sit_north",
+      "room_id": "u_master",
+      "label": "Main Bedroom / canopy bed",
+      "contact_id": "u_master::u_master_canopy_bed::sit_north",
+      "actor_facing": "north",
+      "pose_id": "seated_idle_north",
+      "asset": "assets/characters/poses/char/exports/north/char_seated_idle_north_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_north.json",
+      "contact": [
+        378.0,
+        12.0
+      ],
+      "foreground_polygons": [],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-room-rework/u_master_n0_e1_s0_w0_draft_v1.png",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "background_sha256": "6643e28efdffd09833cf5c124dc4fe573709969f3557fdea9f69735aef4ae7f1",
+      "contact_source": {
+        "instance_id": "u_master_canopy_bed",
+        "anchor_id": "sit_north"
+      },
+      "status": "disabled_contact",
+      "notes": "Unchanged approved sprite; shared scale. Pose-fit, clearance and overlap remain review candidates."
+    },
+    {
+      "id": "u_master_canopy_bed__sit_south",
+      "room_id": "u_master",
+      "label": "Main Bedroom / canopy bed",
+      "contact_id": "u_master::u_master_canopy_bed::sit_south",
+      "actor_facing": "south",
+      "pose_id": "seated_idle_south",
+      "asset": "assets/characters/poses/char/exports/south/char_seated_idle_south_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_south.json",
+      "contact": [
+        378.0,
+        186.0
+      ],
+      "foreground_polygons": [],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-room-rework/u_master_n0_e1_s0_w0_draft_v1.png",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "background_sha256": "6643e28efdffd09833cf5c124dc4fe573709969f3557fdea9f69735aef4ae7f1",
+      "contact_source": {
+        "instance_id": "u_master_canopy_bed",
+        "anchor_id": "sit_south"
+      },
+      "status": "disabled_contact",
+      "notes": "Unchanged approved sprite; shared scale. Pose-fit, clearance and overlap remain review candidates.",
+      "asset_sha256": "400d065f084d5353230078cd7f2a5b1860027702bee116533892e925573a23e2"
+    },
+    {
+      "id": "u_master_bed_foot_bench__seat",
+      "room_id": "u_master",
+      "label": "Main Bedroom / bed foot bench",
+      "contact_id": "u_master::u_master_bed_foot_bench::seat",
+      "actor_facing": "west",
+      "pose_id": "seated_idle_west",
+      "asset": "assets/characters/poses/char/exports/west/char_seated_idle_west_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_west.json",
+      "contact": [
+        298,
+        138
+      ],
+      "foreground_polygons": [
+        [
+          [
+            290.23,
+            150.41
+          ],
+          [
+            313.53,
+            147.33
+          ],
+          [
+            319,
+            155
+          ],
+          [
+            319,
+            173
+          ],
+          [
+            315,
+            176
+          ],
+          [
+            291.71,
+            174.57
+          ],
+          [
+            291.34,
+            158.92
+          ]
+        ]
+      ],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-room-rework/u_master_n0_e1_s0_w0_draft_v1.png",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "background_sha256": "6643e28efdffd09833cf5c124dc4fe573709969f3557fdea9f69735aef4ae7f1",
+      "contact_source": {
+        "instance_id": "u_master_bed_foot_bench",
+        "anchor_id": "seat"
+      },
+      "status": "preview_candidate",
+      "notes": "Revised after user reported off-seat placement: seat raised onto painted cushion/surface; narrow furniture-side/leg masks added. Shared character scale and artwork unchanged. Review masks on/off.",
+      "asset_sha256": "903f10ddcdd454ab6aaa83a3ef134f91459b9db7b9705f703ff2d437f9160be2",
+      "estimated_feet_background_local": [
+        282.268,
+        165.209
+      ],
+      "captures": {
+        "raw": {
+          "path": "test-results/char-remaining-seat-fit/u_master_bed_foot_bench__seat-raw.png",
+          "sha256": "0a79269a7d9a25d388cc47213a8989901880f12faa24adde201ff32707393ae7"
+        },
+        "masked": {
+          "path": "test-results/char-remaining-seat-fit/u_master_bed_foot_bench__seat-masked.png",
+          "sha256": "0cf1fd772f0c7b0ab72c965c6beba46bcc23b014a1b202a1703c607af8e4c185"
+        }
+      },
+      "revision": "seat_alignment_v2",
+      "revision_reason": "User: hanging off dining chair sides; sitting on ground by kitchen stool; same problem on bed-foot bench.",
+      "previous_contact": [
+        297.5,
+        153.58
+      ],
+      "captures_status": "current_native_capture",
+      "mask_edit": {
+        "method": "visual_drag_editor",
+        "status": "pending_fit_review",
+        "shared_furniture_mask": true
+      }
+    },
+    {
+      "id": "u_master_window_bench__seat",
+      "room_id": "u_master",
+      "label": "Main Bedroom / window bench",
+      "contact_id": "u_master::u_master_window_bench::seat",
+      "actor_facing": "south",
+      "pose_id": "seated_idle_south",
+      "asset": "assets/characters/poses/char/exports/south/char_seated_idle_south_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_south.json",
+      "contact": [
+        258.5,
+        66.22
+      ],
+      "foreground_polygons": [],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-room-rework/u_master_n0_e1_s0_w0_draft_v1.png",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "background_sha256": "6643e28efdffd09833cf5c124dc4fe573709969f3557fdea9f69735aef4ae7f1",
+      "contact_source": {
+        "instance_id": "u_master_window_bench",
+        "anchor_id": "seat"
+      },
+      "status": "preview_candidate",
+      "notes": "Moved up six units onto the window sill. Existing artwork and common scale unchanged; revised fit awaits review.",
+      "asset_sha256": "400d065f084d5353230078cd7f2a5b1860027702bee116533892e925573a23e2",
+      "estimated_feet_background_local": [
+        260.652,
+        96.25
+      ],
+      "captures": {
+        "raw": {
+          "path": "test-results/char-remaining-seat-fit/u_master_window_bench__seat-raw.png",
+          "sha256": "6b2c643c1d4a1e245612cb8aca0bf55f86827c1156db2afbde5f5dc25b0b89dd"
+        },
+        "masked": {
+          "path": "test-results/char-remaining-seat-fit/u_master_window_bench__seat-masked.png",
+          "sha256": "8b6b777c8a87012d9344dd321a62c43ef924fe60109efcbf5651143a69f046d5"
+        }
+      },
+      "previous_contact": [
+        258.5,
+        81.22
+      ],
+      "revision": "upstairs_fit_v2",
+      "captures_status": "current_native_capture",
+      "mask_edit": {
+        "method": "visual_drag_editor",
+        "status": "pending_fit_review",
+        "shared_furniture_mask": true
+      }
+    },
+    {
+      "id": "u_master_vanity__seated_work",
+      "room_id": "u_master",
+      "label": "Main Bedroom / vanity",
+      "contact_id": "u_master::u_master_vanity::seated_work",
+      "actor_facing": "west",
+      "pose_id": "seated_idle_west",
+      "asset": "assets/characters/poses/char/exports/west/char_seated_idle_west_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_west.json",
+      "contact": [
+        57.0,
+        146.85
+      ],
+      "foreground_polygons": [],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-room-rework/u_master_n0_e1_s0_w0_draft_v1.png",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "background_sha256": "6643e28efdffd09833cf5c124dc4fe573709969f3557fdea9f69735aef4ae7f1",
+      "contact_source": {
+        "instance_id": "u_master_vanity",
+        "anchor_id": "seated_work"
+      },
+      "status": "disabled_contact",
+      "notes": "Unchanged approved sprite; shared scale. Pose-fit, clearance and overlap remain review candidates.",
+      "asset_sha256": "903f10ddcdd454ab6aaa83a3ef134f91459b9db7b9705f703ff2d437f9160be2"
+    },
+    {
+      "id": "u_master_vanity_bench__seat",
+      "room_id": "u_master",
+      "label": "Main Bedroom / vanity bench",
+      "contact_id": "u_master::u_master_vanity_bench::seat",
+      "actor_facing": "west",
+      "pose_id": "seated_idle_west",
+      "asset": "assets/characters/poses/char/exports/west/char_seated_idle_west_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_west.json",
+      "contact": [
+        85.0,
+        143.04
+      ],
+      "foreground_polygons": [],
+      "approval": "excluded_by_user",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-room-rework/u_master_n0_e1_s0_w0_draft_v1.png",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "background_sha256": "6643e28efdffd09833cf5c124dc4fe573709969f3557fdea9f69735aef4ae7f1",
+      "contact_source": {
+        "instance_id": "u_master_vanity_bench",
+        "anchor_id": "seat"
+      },
+      "status": "disabled_contact",
+      "notes": "West-facing seating blocked by the adjacent dresser. Disabled; no substitute direction approved.",
+      "asset_sha256": "903f10ddcdd454ab6aaa83a3ef134f91459b9db7b9705f703ff2d437f9160be2",
+      "estimated_feet_background_local": [
+        69.268,
+        170.249
+      ],
+      "captures": {
+        "raw": {
+          "path": "test-results/char-remaining-seat-fit/u_master_vanity_bench__seat-raw.png",
+          "sha256": "8feec5dfd762e1ea912420c3056b1912210dee6e88915acecd30397ef56799ca"
+        },
+        "masked": {
+          "path": "test-results/char-remaining-seat-fit/u_master_vanity_bench__seat-masked.png",
+          "sha256": "3e5961b228525f826ea006c8754f803536b991422a197f471466ac694be19543"
+        }
+      },
+      "disabled_reason": "West-facing seating blocked by the adjacent dresser. Disabled; no substitute direction approved."
+    },
+    {
+      "id": "u_master_west_bench__seat",
+      "room_id": "u_master",
+      "label": "Main Bedroom / west bench",
+      "contact_id": "u_master::u_master_west_bench::seat",
+      "actor_facing": "east",
+      "pose_id": "seated_idle_east",
+      "asset": "assets/characters/poses/char/exports/east/char_seated_idle_east_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_east.json",
+      "contact": [
+        21.5,
+        205.76
+      ],
+      "foreground_polygons": [
+        [
+          [
+            6.69,
+            202.76
+          ],
+          [
+            16.03,
+            201.56
+          ],
+          [
+            14.02,
+            234.95
+          ],
+          [
+            4.56,
+            232.01
+          ]
+        ],
+        [
+          [
+            15.9,
+            216.45
+          ],
+          [
+            31.93,
+            220.64
+          ],
+          [
+            27.88,
+            237.03
+          ],
+          [
+            13.7,
+            236.05
+          ]
+        ]
+      ],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-room-rework/u_master_n0_e1_s0_w0_draft_v1.png",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "background_sha256": "6643e28efdffd09833cf5c124dc4fe573709969f3557fdea9f69735aef4ae7f1",
+      "contact_source": {
+        "instance_id": "u_master_west_bench",
+        "anchor_id": "seat"
+      },
+      "status": "preview_candidate",
+      "notes": "Moved left five and up twelve units onto the bench cushion. Existing artwork and common scale unchanged; revised fit awaits review.",
+      "asset_sha256": "9ec557fba8c95c55400ad8522e1267ca300c7f52476d6cb05ec53d20ed930ac9",
+      "estimated_feet_background_local": [
+        39.958,
+        234.642
+      ],
+      "captures": {
+        "raw": {
+          "path": "test-results/char-remaining-seat-fit/u_master_west_bench__seat-raw.png",
+          "sha256": "df43e011310a9fc2ebde70de6fe3703536fbb2ea39e834785abe39100bae83b2"
+        },
+        "masked": {
+          "path": "test-results/char-remaining-seat-fit/u_master_west_bench__seat-masked.png",
+          "sha256": "78158d3e62719f1954db68b83d79b7e00cd894f75b67dea1e6e14884bc107b7a"
+        }
+      },
+      "previous_contact": [
+        26.5,
+        227.76
+      ],
+      "revision": "upstairs_fit_v2",
+      "captures_status": "current_native_capture",
+      "mask_edit": {
+        "method": "visual_drag_editor",
+        "status": "pending_fit_review",
+        "shared_furniture_mask": true
+      }
+    },
+    {
+      "id": "u_master_reading_armchair_west__seat",
+      "room_id": "u_master",
+      "label": "Main Bedroom / reading armchair west",
+      "contact_id": "u_master::u_master_reading_armchair_west::seat",
+      "actor_facing": "east",
+      "pose_id": "seated_idle_east",
+      "asset": "assets/characters/poses/char/exports/east/char_seated_idle_east_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_east.json",
+      "contact": [
+        159,
+        202.82
+      ],
+      "foreground_polygons": [
+        [
+          [
+            146.05,
+            200.63
+          ],
+          [
+            161.4,
+            207.98
+          ],
+          [
+            158.88,
+            234.69
+          ],
+          [
+            144.32,
+            233.35
+          ]
+        ],
+        [
+          [
+            142.6,
+            197.72
+          ],
+          [
+            160.22,
+            205.44
+          ],
+          [
+            161.67,
+            210.65
+          ],
+          [
+            162.87,
+            213.59
+          ],
+          [
+            164.61,
+            216.26
+          ],
+          [
+            167.01,
+            235.49
+          ],
+          [
+            142.17,
+            230.15
+          ]
+        ]
+      ],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-room-rework/u_master_n0_e1_s0_w0_draft_v1.png",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "background_sha256": "6643e28efdffd09833cf5c124dc4fe573709969f3557fdea9f69735aef4ae7f1",
+      "contact_source": {
+        "instance_id": "u_master_reading_armchair_west",
+        "anchor_id": "seat"
+      },
+      "status": "preview_candidate",
+      "notes": "Unchanged approved sprite; shared scale. Pose-fit, clearance and overlap remain review candidates.",
+      "asset_sha256": "9ec557fba8c95c55400ad8522e1267ca300c7f52476d6cb05ec53d20ed930ac9",
+      "estimated_feet_background_local": [
+        177.458,
+        231.702
+      ],
+      "captures": {
+        "raw": {
+          "path": "test-results/char-remaining-seat-fit/u_master_reading_armchair_west__seat-raw.png",
+          "sha256": "843ee275e9df884c71fb0b32c8bfb29bcad59b9da71c652ea64299ebaf5b9216"
+        },
+        "masked": {
+          "path": "test-results/char-remaining-seat-fit/u_master_reading_armchair_west__seat-masked.png",
+          "sha256": "1b617436d39b4c93670f76e403cf106a67a4ae95097ea65dde4428f0defea8e2"
+        }
+      },
+      "captures_status": "current_native_capture",
+      "mask_edit": {
+        "method": "visual_drag_editor",
+        "status": "pending_fit_review",
+        "shared_furniture_mask": true
+      }
+    },
+    {
+      "id": "u_master_reading_armchair_east__seat",
+      "room_id": "u_master",
+      "label": "Main Bedroom / reading armchair east",
+      "contact_id": "u_master::u_master_reading_armchair_east::seat",
+      "actor_facing": "west",
+      "pose_id": "seated_idle_west",
+      "asset": "assets/characters/poses/char/exports/west/char_seated_idle_west_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_west.json",
+      "contact": [
+        268.0,
+        236.54
+      ],
+      "foreground_polygons": [],
+      "approval": "excluded_by_user",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-room-rework/u_master_n0_e1_s0_w0_draft_v1.png",
+      "layout": "res://assets/furniture/layouts/u_master_rework_v1.json",
+      "background_sha256": "6643e28efdffd09833cf5c124dc4fe573709969f3557fdea9f69735aef4ae7f1",
+      "contact_source": {
+        "instance_id": "u_master_reading_armchair_east",
+        "anchor_id": "seat"
+      },
+      "status": "disabled_contact",
+      "notes": "User excluded this angled chair from seating for every character; incompatible with current poses.",
+      "asset_sha256": "903f10ddcdd454ab6aaa83a3ef134f91459b9db7b9705f703ff2d437f9160be2",
+      "estimated_feet_background_local": [
+        252.268,
+        263.749
+      ],
+      "captures": {
+        "raw": {
+          "path": "test-results/char-remaining-seat-fit/u_master_reading_armchair_east__seat-raw.png",
+          "sha256": "1232a4c9a1e725ba106a4f0c74451d49b423b25993a9453efc0d594dd0cad148"
+        },
+        "masked": {
+          "path": "test-results/char-remaining-seat-fit/u_master_reading_armchair_east__seat-masked.png",
+          "sha256": "4558edaa3e0304c9a40544605044e26c19980cc6ab381147f7c396aef745a590"
+        }
+      },
+      "disabled_reason": "User excluded this angled chair from seating for every character; incompatible with current poses."
+    },
+    {
+      "id": "u_study_writing_desk__seated_work",
+      "room_id": "u_study",
+      "label": "Study / writing desk",
+      "contact_id": "u_study::u_study_writing_desk::seated_work",
+      "actor_facing": "south",
+      "pose_id": "seated_idle_south",
+      "asset": "assets/characters/poses/char/exports/south/char_seated_idle_south_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_south.json",
+      "contact": [
+        149.5,
+        146.0
+      ],
+      "foreground_polygons": [],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v2.png",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "background_sha256": "2d31d03a3f60efda956427321eedbc70d0361b69488eb47ac73fc87cedf41c00",
+      "contact_source": {
+        "instance_id": "u_study_writing_desk",
+        "anchor_id": "seated_work"
+      },
+      "status": "disabled_contact",
+      "notes": "Unchanged approved sprite; shared scale. Pose-fit, clearance and overlap remain review candidates.",
+      "asset_sha256": "400d065f084d5353230078cd7f2a5b1860027702bee116533892e925573a23e2"
+    },
+    {
+      "id": "u_study_desk_chair__seat",
+      "room_id": "u_study",
+      "label": "Study / desk chair",
+      "contact_id": "u_study::u_study_desk_chair::seat",
+      "actor_facing": "north",
+      "pose_id": "seated_idle_north",
+      "asset": "assets/characters/poses/char/exports/north/char_seated_idle_north_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_north.json",
+      "contact": [
+        147.5,
+        157.9
+      ],
+      "foreground_polygons": [],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v2.png",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "background_sha256": "2d31d03a3f60efda956427321eedbc70d0361b69488eb47ac73fc87cedf41c00",
+      "contact_source": {
+        "instance_id": "u_study_desk_chair",
+        "anchor_id": "seat"
+      },
+      "status": "missing_seated_north_artwork",
+      "notes": "Unchanged approved sprite; shared scale. Pose-fit, clearance and overlap remain review candidates."
+    },
+    {
+      "id": "u_study_chair_north__seat",
+      "room_id": "u_study",
+      "label": "Study / chair north",
+      "contact_id": "u_study::u_study_chair_north::seat",
+      "actor_facing": "south",
+      "pose_id": "seated_idle_south",
+      "asset": "assets/characters/poses/char/exports/south/char_seated_idle_south_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_south.json",
+      "contact": [
+        260,
+        182.5
+      ],
+      "foreground_polygons": [
+        [
+          [
+            202,
+            181
+          ],
+          [
+            336,
+            181
+          ],
+          [
+            340,
+            219
+          ],
+          [
+            338,
+            226
+          ],
+          [
+            198,
+            226
+          ],
+          [
+            198,
+            201
+          ]
+        ]
+      ],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v2.png",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "background_sha256": "2d31d03a3f60efda956427321eedbc70d0361b69488eb47ac73fc87cedf41c00",
+      "contact_source": {
+        "instance_id": "u_study_chair_north",
+        "anchor_id": "seat"
+      },
+      "status": "preview_candidate",
+      "notes": "Moved down six units into the chair and toward the table. Existing artwork and common scale unchanged; revised fit awaits review.",
+      "asset_sha256": "400d065f084d5353230078cd7f2a5b1860027702bee116533892e925573a23e2",
+      "estimated_feet_background_local": [
+        262.152,
+        212.53
+      ],
+      "captures": {
+        "raw": {
+          "path": "test-results/char-remaining-seat-fit/u_study_chair_north__seat-raw.png",
+          "sha256": "fa5af509b35cb75eb2ab5b6fe8673d0420241a4a39888a5edf232beeb9faab4f"
+        },
+        "masked": {
+          "path": "test-results/char-remaining-seat-fit/u_study_chair_north__seat-masked.png",
+          "sha256": "01d1788d0840d6bd3c29291942494ca4e46d403f8305c80628f889e3f29c0ca5"
+        }
+      },
+      "previous_contact": [
+        260.0,
+        171.5
+      ],
+      "revision": "upstairs_fit_v2",
+      "captures_status": "current_native_capture",
+      "mask_edit": {
+        "method": "visual_drag_editor",
+        "status": "pending_fit_review",
+        "shared_furniture_mask": true
+      }
+    },
+    {
+      "id": "u_study_chair_south__seat",
+      "room_id": "u_study",
+      "label": "Study / chair south",
+      "contact_id": "u_study::u_study_chair_south::seat",
+      "actor_facing": "north",
+      "pose_id": "seated_idle_north",
+      "asset": "assets/characters/poses/char/exports/north/char_seated_idle_north_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_north.json",
+      "contact": [
+        264.5,
+        245.0
+      ],
+      "foreground_polygons": [],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v2.png",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "background_sha256": "2d31d03a3f60efda956427321eedbc70d0361b69488eb47ac73fc87cedf41c00",
+      "contact_source": {
+        "instance_id": "u_study_chair_south",
+        "anchor_id": "seat"
+      },
+      "status": "missing_seated_north_artwork",
+      "notes": "Unchanged approved sprite; shared scale. Pose-fit, clearance and overlap remain review candidates."
+    },
+    {
+      "id": "u_study_chair_west__seat",
+      "room_id": "u_study",
+      "label": "Study / chair west",
+      "contact_id": "u_study::u_study_chair_west::seat",
+      "actor_facing": "east",
+      "pose_id": "seated_idle_east",
+      "asset": "assets/characters/poses/char/exports/east/char_seated_idle_east_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_east.json",
+      "contact": [
+        188.5,
+        208.44
+      ],
+      "foreground_polygons": [
+        [
+          [
+            202,
+            181
+          ],
+          [
+            336,
+            181
+          ],
+          [
+            340,
+            219
+          ],
+          [
+            338,
+            226
+          ],
+          [
+            198,
+            226
+          ],
+          [
+            198,
+            201
+          ]
+        ],
+        [
+          [
+            183.82,
+            215.3
+          ],
+          [
+            193.8,
+            216.54
+          ],
+          [
+            195.28,
+            226.52
+          ],
+          [
+            203.32,
+            226.09
+          ],
+          [
+            207.6,
+            226.49
+          ],
+          [
+            207.6,
+            238.51
+          ],
+          [
+            201.6,
+            238.64
+          ],
+          [
+            202.12,
+            239.71
+          ],
+          [
+            182.62,
+            239.31
+          ],
+          [
+            181.3,
+            239.18
+          ],
+          [
+            171.69,
+            236.51
+          ],
+          [
+            175.93,
+            208.89
+          ]
+        ]
+      ],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v2.png",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "background_sha256": "2d31d03a3f60efda956427321eedbc70d0361b69488eb47ac73fc87cedf41c00",
+      "contact_source": {
+        "instance_id": "u_study_chair_west",
+        "anchor_id": "seat"
+      },
+      "status": "preview_candidate",
+      "notes": "Moved up five and toward the table three units; table mask retraced. Existing artwork and common scale unchanged; revised fit awaits review.",
+      "asset_sha256": "9ec557fba8c95c55400ad8522e1267ca300c7f52476d6cb05ec53d20ed930ac9",
+      "estimated_feet_background_local": [
+        206.958,
+        237.322
+      ],
+      "captures": {
+        "raw": {
+          "path": "test-results/char-remaining-seat-fit/u_study_chair_west__seat-raw.png",
+          "sha256": "f3087bd1a3b304229bbdc1cc631f11c39bc69d92720be5da0d81473cc0486af4"
+        },
+        "masked": {
+          "path": "test-results/char-remaining-seat-fit/u_study_chair_west__seat-masked.png",
+          "sha256": "c8b4f904e388e0d7693c0f81e4fecc52ecde7a0ea52f3e24ca08d2a6261f39bb"
+        }
+      },
+      "previous_contact": [
+        185.5,
+        216.44
+      ],
+      "revision": "upstairs_fit_v2",
+      "captures_status": "current_native_capture",
+      "mask_edit": {
+        "method": "visual_drag_editor",
+        "status": "pending_fit_review",
+        "shared_furniture_mask": true
+      }
+    },
+    {
+      "id": "u_study_chair_east__seat",
+      "room_id": "u_study",
+      "label": "Study / chair east",
+      "contact_id": "u_study::u_study_chair_east::seat",
+      "actor_facing": "west",
+      "pose_id": "seated_idle_west",
+      "asset": "assets/characters/poses/char/exports/west/char_seated_idle_west_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_west.json",
+      "contact": [
+        356.5,
+        213.44
+      ],
+      "foreground_polygons": [
+        [
+          [
+            202,
+            181
+          ],
+          [
+            340.21,
+            181.35
+          ],
+          [
+            344.88,
+            229.56
+          ],
+          [
+            339.67,
+            230.9
+          ],
+          [
+            198,
+            226
+          ],
+          [
+            198,
+            201
+          ]
+        ],
+        [
+          [
+            366.87,
+            212.88
+          ],
+          [
+            361.69,
+            215.22
+          ],
+          [
+            352.45,
+            215.59
+          ],
+          [
+            350.35,
+            216.45
+          ],
+          [
+            350.6,
+            219.17
+          ],
+          [
+            351.21,
+            220.65
+          ],
+          [
+            352.69,
+            220.89
+          ],
+          [
+            353.18,
+            222.25
+          ],
+          [
+            352.08,
+            223.36
+          ],
+          [
+            351.21,
+            224.59
+          ],
+          [
+            351.34,
+            226.69
+          ],
+          [
+            354.17,
+            227.55
+          ],
+          [
+            356.51,
+            222
+          ],
+          [
+            355.4,
+            219.41
+          ],
+          [
+            366.62,
+            218.06
+          ],
+          [
+            367.12,
+            213.37
+          ]
+        ],
+        [
+          [
+            371.92,
+            191.92
+          ],
+          [
+            364.4,
+            226.32
+          ],
+          [
+            367.73,
+            227.06
+          ],
+          [
+            374.76,
+            193.03
+          ],
+          [
+            372.05,
+            192.17
+          ]
+        ],
+        [
+          [
+            364.39,
+            225.33
+          ],
+          [
+            340.84,
+            227.43
+          ],
+          [
+            339.98,
+            240.99
+          ],
+          [
+            369.33,
+            241.97
+          ],
+          [
+            379.43,
+            211.03
+          ]
+        ],
+        [
+          [
+            341.72,
+            230.76
+          ],
+          [
+            341.1,
+            243.21
+          ],
+          [
+            341.35,
+            252.08
+          ],
+          [
+            334.94,
+            253.07
+          ],
+          [
+            335.68,
+            245.43
+          ],
+          [
+            335.06,
+            230.63
+          ],
+          [
+            341.6,
+            230.51
+          ]
+        ]
+      ],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v2.png",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "background_sha256": "2d31d03a3f60efda956427321eedbc70d0361b69488eb47ac73fc87cedf41c00",
+      "contact_source": {
+        "instance_id": "u_study_chair_east",
+        "anchor_id": "seat"
+      },
+      "status": "preview_candidate",
+      "notes": "Moved up five and toward the table three units; table mask retraced. Existing artwork and common scale unchanged; revised fit awaits review.",
+      "asset_sha256": "903f10ddcdd454ab6aaa83a3ef134f91459b9db7b9705f703ff2d437f9160be2",
+      "estimated_feet_background_local": [
+        340.768,
+        240.649
+      ],
+      "captures": {
+        "raw": {
+          "path": "test-results/char-remaining-seat-fit/u_study_chair_east__seat-raw.png",
+          "sha256": "387dcc222fea68da45abac0bcec6e22de70a394b890ebb8ab7935c1104be22b6"
+        },
+        "masked": {
+          "path": "test-results/char-remaining-seat-fit/u_study_chair_east__seat-masked.png",
+          "sha256": "324b1e70a33e67a80e64a39d22c22dda442ee4a7df54399dd2e62d705e6609d9"
+        }
+      },
+      "previous_contact": [
+        359.5,
+        216.44
+      ],
+      "revision": "upstairs_fit_v2",
+      "captures_status": "current_native_capture",
+      "mask_edit": {
+        "method": "visual_drag_editor",
+        "status": "pending_fit_review",
+        "shared_furniture_mask": true
+      }
+    },
+    {
+      "id": "u_study_reading_armchair__seat",
+      "room_id": "u_study",
+      "label": "Study / reading armchair",
+      "contact_id": "u_study::u_study_reading_armchair::seat",
+      "actor_facing": "west",
+      "pose_id": "seated_idle_west",
+      "asset": "assets/characters/poses/char/exports/west/char_seated_idle_west_neutral.png",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_west.json",
+      "contact": [
+        408.5,
+        127.02
+      ],
+      "foreground_polygons": [
+        [
+          [
+            420.45,
+            124.37
+          ],
+          [
+            408.01,
+            133.18
+          ],
+          [
+            407.48,
+            152.68
+          ],
+          [
+            423.12,
+            154.29
+          ]
+        ]
+      ],
+      "approval": "pending",
+      "runtime_enabled": false,
+      "background": "res://assets/rooms/revisions/2026-10-24-room-rework/u_study_n0_e0_s0_w1_draft_v2.png",
+      "layout": "res://assets/furniture/layouts/u_study_rework_v2.json",
+      "background_sha256": "2d31d03a3f60efda956427321eedbc70d0361b69488eb47ac73fc87cedf41c00",
+      "contact_source": {
+        "instance_id": "u_study_reading_armchair",
+        "anchor_id": "seat"
+      },
+      "status": "preview_candidate",
+      "notes": "Moved up six units into the armchair. Existing artwork and common scale unchanged; revised fit awaits review.",
+      "asset_sha256": "903f10ddcdd454ab6aaa83a3ef134f91459b9db7b9705f703ff2d437f9160be2",
+      "estimated_feet_background_local": [
+        392.768,
+        154.229
+      ],
+      "captures": {
+        "raw": {
+          "path": "test-results/char-remaining-seat-fit/u_study_reading_armchair__seat-raw.png",
+          "sha256": "3f8bc7deaac983c5118e5b3fbc9fa915ad1610b01a761744decc78d7daf9ae1c"
+        },
+        "masked": {
+          "path": "test-results/char-remaining-seat-fit/u_study_reading_armchair__seat-masked.png",
+          "sha256": "723d20f80152df3edf3f33a3e189f791e02aadc10d3b75560547d5c2bc8c3074"
+        }
+      },
+      "previous_contact": [
+        408.5,
+        134.02
+      ],
+      "revision": "upstairs_fit_v2",
+      "captures_status": "current_native_capture",
+      "mask_edit": {
+        "method": "visual_drag_editor",
+        "status": "pending_fit_review",
+        "shared_furniture_mask": true
+      }
+    }
+  ],
+  "latest_revision": {
+    "date": "2026-10-24",
+    "scope": "Six upstairs fit adjustments and two disabled seat options",
+    "status": "pending_visual_review",
+    "artwork_changed": false
+  },
+  "manual_adjustment_completion": {
+    "date": "2026-10-24",
+    "source": "user",
+    "quote": "All done",
+    "scope": "User completed manual seat and mask adjustments; 13 shared contacts verified and native screenshots refreshed. No new artwork or runtime staging approval inferred.",
+    "contact_snapshot_sha256": "8126a53ff62666a29e8ba458063312f2c75c42146cef04141520138508768ca1"
+  }
+}

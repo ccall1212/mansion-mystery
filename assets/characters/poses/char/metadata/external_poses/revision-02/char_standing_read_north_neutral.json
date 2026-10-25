@@ -1,0 +1,37 @@
+{
+  "pose_id": "standing_read_north",
+  "variant_id": "neutral",
+  "actor_facing": "north",
+  "posture": "standing",
+  "activity": "read",
+  "props": [
+    "open_book"
+  ],
+  "source_master": "assets/characters/poses/char/masters/external_poses/revision-02/char_standing_read_north_neutral.png",
+  "source_sha256": "2fa74f22e4a3f4539500907de531ace4a8fe93d1a1b5c8a5d286c917c648a4ce",
+  "export": "assets/characters/poses/char/exports/north/revision-02/char_standing_read_north_neutral.png",
+  "export_sha256": "2fa74f22e4a3f4539500907de531ace4a8fe93d1a1b5c8a5d286c917c648a4ce",
+  "canvas": [
+    944,
+    1665
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "approval": "user_supplied_added_to_project",
+  "approval_scope": "Import requested by standing external-image handoff instruction; runtime fit pending.",
+  "runtime_integrated": false,
+  "live_test_supported": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "transparency_status": "alpha_present",
+  "notes": "Original bytes preserved. User supplied replacement; runtime scale/contact calibration remains pending.",
+  "landmark_record": "assets/characters/poses/char/metadata/external_poses/revision-02/char_standing_read_north_neutral.json",
+  "supersedes": {
+    "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_read_north_neutral.png",
+    "source_sha256": "1172790952308493a0bff449457cbb2e03193ec4058bbdd130153108a38dcd38",
+    "reason": "User explicitly identified supplied replacement."
+  }
+}

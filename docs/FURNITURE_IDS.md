@@ -253,3 +253,49 @@ substitute for visual review.
 Nine selected room revisions now have 126 fresh object tags in layouts/*_rework_v*.json, registered by exact background path. Original layouts remain unchanged. The catalog has 88 orientation IDs including stool_north/east/south/west for low work stools, distinct from bar_stool. Tall bar stools target future_bar_bar_counter; table chairs identify their table. Desk seated contacts are disabled where a separate chair tag supplies the seat. All new staging flags remain false. See [tagged screenshots and contacts](../test-results/reworked-furniture/index.html). Source art approval does not certify these manually estimated contact points. The bar remains a future room concept; active routes and masks are unchanged.
 
 Regenerate using python tools/tag_reworked_rooms.py --apply (preserves existing layout calibration), configured Godot --path . --script tools/reworked_furniture_preview.gd, then python tools/build_reworked_furniture_review.py. Exact per-contact Char coverage is assets/furniture/reworked-room-pose-contacts.json. North-facing seated art and tall-stool-specific pose fit are gaps. The canopy bed retains east-west body axis/head-east metadata, but all contacts are disabled pending mattress/pelvis calibration.
+
+## Reusable furniture calibration — 2026-10-24
+
+User requirement: use the same furniture fits for future characters; do not manually
+repeat chair-coordinate calibration for every roster member. Furniture layouts own
+instance-local contact/approach points, actor facing, posture, clearance and shared
+foreground masks. Characters own their artwork, stature ratio and pose landmarks
+(seat, feet, knees or pelvis). Resolve the furniture anchor, align the required
+landmark, then derive floor feet for depth sorting using the shared standing-reference
+scale. Never normalize seated sprites to standing height or resize each PNG.
+
+Char is the reference actor used to calibrate furniture, not the owner of a chair's
+geometry. `g_foyer_opposite_v2.json` seat anchors now contain `fit_review` records
+with `shared_across_characters`, pose family, direction and mask coordinate space.
+The anchors remain provisional and disabled for automatic placement until reviewed.
+Char's `foyer-fit-review.json` stores evidence, hashes and references back to those
+anchors; it is not an independent authoritative seat-coordinate table.
+
+Future compatible characters reuse an approved anchor/mask through their own pose
+landmarks and stature ratios. Run a visual compatibility check; author a per-character
+exception only for a demonstrated build, garment, prop or anatomy mismatch, with a
+reason and approval. Do not clone the entire room fit configuration per character.
+The selector must reject missing pose directions or incompatible postures rather
+than silently mirror or stretch artwork. Seating needs furniture-aware occupancy
+and collision: seated feet may overlap the furniture's standing-walk obstacle.
+
+Current limitation: the existing library live-test adapter still reads legacy
+Char-scoped fit records. Generic cross-roster staging/mask selection is not yet
+implemented. Preserve those approved records during a future migration to shared
+furniture metadata; documentation alone does not make every character compatible.
+Foyer preview command: configured Godot --path . --script tools/char_foyer_fit_preview.gd;
+then python tools/build_char_foyer_fit_review.py. Both foyer candidates use the
+unchanged approved seated south sprite, with no foreground mask. Visual fit approval
+and runtime clearance remain pending. Only the two requested first foyer seats were
+previewed; the complete cast and other furniture were not recalibrated.
+
+## Visual foreground mask editor
+Run `python tools/foreground_mask_editor.py` using the project Python environment. Open http://127.0.0.1:8766/tools/mask-editor/index.html. This edits pending current seating candidates only; approved/disabled contacts are excluded. Select a seat, drag gold polygon vertices, Shift-click an edge to add a vertex, right-click to remove a vertex, or use Add mask and Finish polygon. Undo and Char/mask/outline toggles are available; zoom centers on the seat. Save updates both the shared furniture anchor fit_review mask and its review sample. It preserves artwork, seat contact, scale and staging flags. Changes remain pending review.
+
+Coordinates are background-local 480x320; masks redraw the background in front of Char. Save rejects crossing polygons, invalid coordinates and stale source files. Existing static screenshot galleries need native recapturing after edits; the editor shows the saved mask immediately. Use Move up / Move down with a 1- or 5-unit step to adjust the shared seat height. Save position + masks persists the instance-relative anchor contact and updates the review sample and estimated feet. Undo covers both mask and seat edits. The camera stays centered at the loaded seat so vertical movement remains visible when zoomed. Closing the server ends saving; rerun the command to resume. The local server binds only 127.0.0.1 and accepts same-origin JSON saves to known pending contacts.
+
+Verification: isolated temporary-file tests passed polygon validation, shared mask persistence, capture invalidation and stale-save rejection. Browser loaded all 13 editable seat candidates and room/character canvas. Drag/undo/reload were exercised without saving test edits into production files.
+
+Position-control verification: browser up changes seat Y by -1; Undo restores the original Y and clears dirty state. Isolated temporary-file checks verify relative-anchor/contact persistence, feet recalculation and invalid-coordinate rejection. Production seat positions were unchanged by testing.
+
+Mask editor save-switch fix: revision checks now hash the selected sample, its anchor and relevant background/instance metadata instead of entire JSON files. Saving seat A no longer invalidates cached seat B. Changes to the same seat still reject stale writes. A one-shot startup recovery flag can preserve a known open pre-fix draft without reloading; it is guarded against changes after server startup and consumed on save. Verified sequential A/B saves, same-seat stale rejection, and recovery consumption in temporary fixtures. The user’s open chair-ne draft was saved successfully before refreshing the editor.

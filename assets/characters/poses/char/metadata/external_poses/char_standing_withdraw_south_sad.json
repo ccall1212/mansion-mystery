@@ -1,0 +1,36 @@
+{
+  "pose_id": "standing_withdraw_south",
+  "variant_id": "sad",
+  "actor_facing": "south",
+  "posture": "standing",
+  "activity": "withdraw",
+  "expression": "sad",
+  "gesture": "hands_together_below_waist",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_withdraw_south_sad.png",
+  "source_sha256": "a107347b22f490ffc9c246a1657a59390deeb6479e0285857d87fd48627d5879",
+  "export": "assets/characters/poses/char/exports/south/char_standing_withdraw_south_sad.png",
+  "export_sha256": "a107347b22f490ffc9c246a1657a59390deeb6479e0285857d87fd48627d5879",
+  "canvas": [
+    944,
+    1666
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "user_supplied_added_to_project",
+  "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+  "runtime_integrated": false,
+  "live_test_supported": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "intended_uses": [
+    "sad_reaction",
+    "withdrawn_reaction"
+  ],
+  "notes": "Original bytes preserved. South/east/west batch; north omitted under selected-direction policy. Expression does not assign guilt or personality.",
+  "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_withdraw_south_sad.json"
+}

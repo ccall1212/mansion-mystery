@@ -118,3 +118,22 @@ proposal; overlays need a separately implemented registered-head rendering path.
 Char's seven samples must not be regenerated or re-exported by a resume task.
 
 Open and directly link each relevant new/updated index.html for user review; do not silently leave a gallery on disk. All directional PNG names include character, posture/action, canonical direction and variant.
+
+## Current user sequence — 2026-10-24
+Foyer visual fits are approved. Review the 15 dining/kitchen/upstairs seat comparisons and four missing seated-north contacts, then complete Char’s directional actions, book poses, personality gestures, emotions and reveal reactions. Complete other character pose sets before randomized NPC staging. See [the current batch checklist](CHAR_NEXT_POSE_BATCHES.md); this supersedes earlier staging-first recommendations. No new artwork or staging was implemented in the seat comparison task.
+
+## User-selected external batch sequence
+Use [the sequential directional batch template](DIRECTIONAL_POSE_BATCH_PROMPT.md) for future pose families and characters: north → explicit approval → east → approval → south → approval → west → final review. Individual transparent PNGs only. This replaces the earlier suggestion to deliver all four without intermediate approvals. First finish any missing direction separately; never regenerate completed directions merely to fill a batch.
+
+## Directional scope refinement — north only when useful
+User questioned producing every north-facing emotion and identified curious as a
+secondary pose for paintings, windows and bookshelves. Keep existing north assets.
+Prioritize neutral, confident, reading, sitting and environment-facing curiosity
+for north; future emotions and conversation gestures default to south/east/west
+unless a concrete target, partner or scene requires north. Personality assignment
+does not by itself require a four-way duplicate. This supersedes blanket N/E/S/W
+requirements in earlier prompt examples. Use the sequential approval template only
+for selected directions, preserving an approval stop after every image.
+Curious hand-to-chin may be reused for quiet observation, but it does not supply
+look-up, reading, reaching or a specific gaze direction automatically. Keep actor
+facing, target height and action distinct; runtime pose selection remains deferred.

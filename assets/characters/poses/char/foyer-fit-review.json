@@ -1,0 +1,132 @@
+{
+  "schema_version": 1,
+  "status": "visual_fits_approved_runtime_deferred",
+  "background": "res://assets/rooms/revisions/2026-10-24-opposite-doors/g_foyer_n1_e1_s1_w1_draft_v2.png",
+  "background_sha256": "b2be21b6d31382a2c8052e831bdbe8e9f7152d8e45330084a1a891fc3b5c4250",
+  "layout": "res://assets/furniture/layouts/g_foyer_opposite_v2.json",
+  "coordinate_space": "background_local",
+  "shared_adult_height": 80,
+  "standing_reference_height": 1673,
+  "scope": "Two isolated previews, not live placement approval. Existing approved PNGs and library fits unchanged.",
+  "samples": [
+    {
+      "id": "reading_armchair",
+      "label": "Foyer reading armchair",
+      "contact_id": "g_foyer::g_foyer_reading_armchair::seat",
+      "actor_facing": "south",
+      "pose_id": "seated_idle_south",
+      "asset": "assets/characters/poses/char/exports/south/char_seated_idle_south_neutral.png",
+      "asset_sha256": "400d065f084d5353230078cd7f2a5b1860027702bee116533892e925573a23e2",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_south.json",
+      "contact": [
+        399,
+        128
+      ],
+      "foreground_polygons": [],
+      "approval": "approved",
+      "runtime_enabled": false,
+      "review_notes": "Candidate seat landmark; unchanged approved south-facing sprite at shared scale. No mask applied; check arms, seat, skirt and shoes.",
+      "contact_source": {
+        "layout": "res://assets/furniture/layouts/g_foyer_opposite_v2.json",
+        "instance_id": "g_foyer_reading_armchair",
+        "anchor_id": "seat"
+      },
+      "estimated_feet_background_local": [
+        401.152,
+        158.03
+      ],
+      "clearance_status": "Not runtime tested; seated occupant needs furniture-aware collision/occupancy, not ordinary standing walkability.",
+      "captures": {
+        "raw": {
+          "path": "test-results/char-foyer-fit/reading_armchair-raw.png",
+          "sha256": "beb6c40b0709c5137bf43e7120f235fa4ab480ded8b766277f6afa124887e996"
+        }
+      },
+      "fit_approval_record": {
+        "date": "2026-10-24",
+        "source": "user",
+        "quote": "1 is approved",
+        "scope": "Two foyer visual seat fits only. Shared cross-character runtime staging deferred.",
+        "files": [
+          {
+            "path": "test-results/char-foyer-fit/reading_armchair-raw.png",
+            "sha256": "beb6c40b0709c5137bf43e7120f235fa4ab480ded8b766277f6afa124887e996"
+          },
+          {
+            "path": "test-results/char-foyer-fit/bench-raw.png",
+            "sha256": "4c221068d8c8db93a986d5aecb272f882368aa364e44799256dc58f358a292f1"
+          }
+        ],
+        "background_sha256": "b2be21b6d31382a2c8052e831bdbe8e9f7152d8e45330084a1a891fc3b5c4250"
+      }
+    },
+    {
+      "id": "bench",
+      "label": "Foyer upholstered bench",
+      "contact_id": "g_foyer::g_foyer_bench::seat",
+      "actor_facing": "south",
+      "pose_id": "seated_idle_south",
+      "asset": "assets/characters/poses/char/exports/south/char_seated_idle_south_neutral.png",
+      "asset_sha256": "400d065f084d5353230078cd7f2a5b1860027702bee116533892e925573a23e2",
+      "landmark_record": "assets/characters/poses/char/prompts/alignment_01/seated_idle_south.json",
+      "contact": [
+        375,
+        211
+      ],
+      "foreground_polygons": [],
+      "approval": "approved",
+      "runtime_enabled": false,
+      "review_notes": "Candidate seat landmark; unchanged approved south-facing sprite at shared scale. No mask applied; check arms, seat, skirt and shoes.",
+      "contact_source": {
+        "layout": "res://assets/furniture/layouts/g_foyer_opposite_v2.json",
+        "instance_id": "g_foyer_bench",
+        "anchor_id": "seat"
+      },
+      "estimated_feet_background_local": [
+        377.152,
+        241.03
+      ],
+      "clearance_status": "Not runtime tested; seated occupant needs furniture-aware collision/occupancy, not ordinary standing walkability.",
+      "captures": {
+        "raw": {
+          "path": "test-results/char-foyer-fit/bench-raw.png",
+          "sha256": "4c221068d8c8db93a986d5aecb272f882368aa364e44799256dc58f358a292f1"
+        }
+      },
+      "fit_approval_record": {
+        "date": "2026-10-24",
+        "source": "user",
+        "quote": "1 is approved",
+        "scope": "Two foyer visual seat fits only. Shared cross-character runtime staging deferred.",
+        "files": [
+          {
+            "path": "test-results/char-foyer-fit/reading_armchair-raw.png",
+            "sha256": "beb6c40b0709c5137bf43e7120f235fa4ab480ded8b766277f6afa124887e996"
+          },
+          {
+            "path": "test-results/char-foyer-fit/bench-raw.png",
+            "sha256": "4c221068d8c8db93a986d5aecb272f882368aa364e44799256dc58f358a292f1"
+          }
+        ],
+        "background_sha256": "b2be21b6d31382a2c8052e831bdbe8e9f7152d8e45330084a1a891fc3b5c4250"
+      }
+    }
+  ],
+  "fit_approval": {
+    "date": "2026-10-24",
+    "source": "user",
+    "quote": "1 is approved",
+    "scope": "Two foyer visual seat fits only. Shared cross-character runtime staging deferred.",
+    "files": [
+      {
+        "path": "test-results/char-foyer-fit/reading_armchair-raw.png",
+        "sha256": "beb6c40b0709c5137bf43e7120f235fa4ab480ded8b766277f6afa124887e996"
+      },
+      {
+        "path": "test-results/char-foyer-fit/bench-raw.png",
+        "sha256": "4c221068d8c8db93a986d5aecb272f882368aa364e44799256dc58f358a292f1"
+      }
+    ],
+    "background_sha256": "b2be21b6d31382a2c8052e831bdbe8e9f7152d8e45330084a1a891fc3b5c4250"
+  }
+}

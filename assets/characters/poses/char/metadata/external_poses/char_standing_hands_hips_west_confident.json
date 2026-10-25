@@ -1,0 +1,32 @@
+{
+  "pose_id": "standing_hands_hips_west",
+  "variant_id": "confident",
+  "actor_facing": "west",
+  "posture": "standing",
+  "activity": "hands_hips",
+  "expression": "confident",
+  "gesture": "hands_on_hips",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_hands_hips_west_confident.png",
+  "source_sha256": "c6423c2400ce109676e79142e1281f1c70e2fd38e73b3e79845e9447a10de805",
+  "export": "assets/characters/poses/char/exports/west/char_standing_hands_hips_west_confident.png",
+  "export_sha256": "c6423c2400ce109676e79142e1281f1c70e2fd38e73b3e79845e9447a10de805",
+  "canvas": [
+    944,
+    1666
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "user_supplied_added_to_project",
+  "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+  "runtime_integrated": false,
+  "live_test_supported": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "notes": "Original bytes preserved. Confidence is a pose variant, not a permanent personality assignment. Source scale and feet landmarks need calibration.",
+  "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_hands_hips_west_confident.json"
+}

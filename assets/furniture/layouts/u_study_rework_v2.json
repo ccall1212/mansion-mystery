@@ -604,7 +604,7 @@
           "enabled": true,
           "contact": [
             0.0,
-            -9.5
+            1.5
           ],
           "approach": [
             0.0,
@@ -624,7 +624,47 @@
             24,
             16
           ],
-          "status": "provisional"
+          "status": "provisional",
+          "fit_review": {
+            "status": "manual_mask_pending_visual_review",
+            "shared_across_characters": true,
+            "pose_family": "seated_idle",
+            "actor_facing": "south",
+            "contact_landmark": "seat",
+            "foreground_polygons": [
+              [
+                [
+                  202,
+                  181
+                ],
+                [
+                  336,
+                  181
+                ],
+                [
+                  340,
+                  219
+                ],
+                [
+                  338,
+                  226
+                ],
+                [
+                  198,
+                  226
+                ],
+                [
+                  198,
+                  201
+                ]
+              ]
+            ],
+            "mask_coordinate_space": "background_local",
+            "reference_character": "char",
+            "review_config": "assets/characters/poses/char/remaining-seat-fit-review.json",
+            "runtime_enabled": false,
+            "revision": "upstairs_fit_v2"
+          }
         }
       ],
       "target_instance_id": "u_study_document_table",
@@ -717,8 +757,8 @@
           "id": "seat",
           "enabled": true,
           "contact": [
-            0.0,
-            -23.56
+            3.0,
+            -31.56
           ],
           "approach": [
             25.65,
@@ -738,7 +778,97 @@
             24,
             16
           ],
-          "status": "provisional"
+          "status": "provisional",
+          "fit_review": {
+            "status": "manual_mask_pending_visual_review",
+            "shared_across_characters": true,
+            "pose_family": "seated_idle",
+            "actor_facing": "east",
+            "contact_landmark": "seat",
+            "foreground_polygons": [
+              [
+                [
+                  202,
+                  181
+                ],
+                [
+                  336,
+                  181
+                ],
+                [
+                  340,
+                  219
+                ],
+                [
+                  338,
+                  226
+                ],
+                [
+                  198,
+                  226
+                ],
+                [
+                  198,
+                  201
+                ]
+              ],
+              [
+                [
+                  183.82,
+                  215.3
+                ],
+                [
+                  193.8,
+                  216.54
+                ],
+                [
+                  195.28,
+                  226.52
+                ],
+                [
+                  203.32,
+                  226.09
+                ],
+                [
+                  207.6,
+                  226.49
+                ],
+                [
+                  207.6,
+                  238.51
+                ],
+                [
+                  201.6,
+                  238.64
+                ],
+                [
+                  202.12,
+                  239.71
+                ],
+                [
+                  182.62,
+                  239.31
+                ],
+                [
+                  181.3,
+                  239.18
+                ],
+                [
+                  171.69,
+                  236.51
+                ],
+                [
+                  175.93,
+                  208.89
+                ]
+              ]
+            ],
+            "mask_coordinate_space": "background_local",
+            "reference_character": "char",
+            "review_config": "assets/characters/poses/char/remaining-seat-fit-review.json",
+            "runtime_enabled": false,
+            "revision": "upstairs_fit_v2"
+          }
         }
       ],
       "target_instance_id": "u_study_document_table",
@@ -774,8 +904,8 @@
           "id": "seat",
           "enabled": true,
           "contact": [
-            0.0,
-            -23.56
+            -3.0,
+            -26.56
           ],
           "approach": [
             -29.45,
@@ -795,7 +925,187 @@
             24,
             16
           ],
-          "status": "provisional"
+          "status": "provisional",
+          "fit_review": {
+            "status": "manual_mask_pending_visual_review",
+            "shared_across_characters": true,
+            "pose_family": "seated_idle",
+            "actor_facing": "west",
+            "contact_landmark": "seat",
+            "foreground_polygons": [
+              [
+                [
+                  202,
+                  181
+                ],
+                [
+                  340.21,
+                  181.35
+                ],
+                [
+                  344.88,
+                  229.56
+                ],
+                [
+                  339.67,
+                  230.9
+                ],
+                [
+                  198,
+                  226
+                ],
+                [
+                  198,
+                  201
+                ]
+              ],
+              [
+                [
+                  366.87,
+                  212.88
+                ],
+                [
+                  361.69,
+                  215.22
+                ],
+                [
+                  352.45,
+                  215.59
+                ],
+                [
+                  350.35,
+                  216.45
+                ],
+                [
+                  350.6,
+                  219.17
+                ],
+                [
+                  351.21,
+                  220.65
+                ],
+                [
+                  352.69,
+                  220.89
+                ],
+                [
+                  353.18,
+                  222.25
+                ],
+                [
+                  352.08,
+                  223.36
+                ],
+                [
+                  351.21,
+                  224.59
+                ],
+                [
+                  351.34,
+                  226.69
+                ],
+                [
+                  354.17,
+                  227.55
+                ],
+                [
+                  356.51,
+                  222
+                ],
+                [
+                  355.4,
+                  219.41
+                ],
+                [
+                  366.62,
+                  218.06
+                ],
+                [
+                  367.12,
+                  213.37
+                ]
+              ],
+              [
+                [
+                  371.92,
+                  191.92
+                ],
+                [
+                  364.4,
+                  226.32
+                ],
+                [
+                  367.73,
+                  227.06
+                ],
+                [
+                  374.76,
+                  193.03
+                ],
+                [
+                  372.05,
+                  192.17
+                ]
+              ],
+              [
+                [
+                  364.39,
+                  225.33
+                ],
+                [
+                  340.84,
+                  227.43
+                ],
+                [
+                  339.98,
+                  240.99
+                ],
+                [
+                  369.33,
+                  241.97
+                ],
+                [
+                  379.43,
+                  211.03
+                ]
+              ],
+              [
+                [
+                  341.72,
+                  230.76
+                ],
+                [
+                  341.1,
+                  243.21
+                ],
+                [
+                  341.35,
+                  252.08
+                ],
+                [
+                  334.94,
+                  253.07
+                ],
+                [
+                  335.68,
+                  245.43
+                ],
+                [
+                  335.06,
+                  230.63
+                ],
+                [
+                  341.6,
+                  230.51
+                ]
+              ]
+            ],
+            "mask_coordinate_space": "background_local",
+            "reference_character": "char",
+            "review_config": "assets/characters/poses/char/remaining-seat-fit-review.json",
+            "runtime_enabled": false,
+            "revision": "upstairs_fit_v2"
+          }
         }
       ],
       "target_instance_id": "u_study_document_table",
@@ -832,7 +1142,7 @@
           "enabled": true,
           "contact": [
             0.0,
-            -26.98
+            -33.98
           ],
           "approach": [
             -51.75,
@@ -852,7 +1162,39 @@
             24,
             16
           ],
-          "status": "provisional"
+          "status": "provisional",
+          "fit_review": {
+            "status": "manual_mask_pending_visual_review",
+            "shared_across_characters": true,
+            "pose_family": "seated_idle",
+            "actor_facing": "west",
+            "contact_landmark": "seat",
+            "foreground_polygons": [
+              [
+                [
+                  420.45,
+                  124.37
+                ],
+                [
+                  408.01,
+                  133.18
+                ],
+                [
+                  407.48,
+                  152.68
+                ],
+                [
+                  423.12,
+                  154.29
+                ]
+              ]
+            ],
+            "mask_coordinate_space": "background_local",
+            "reference_character": "char",
+            "review_config": "assets/characters/poses/char/remaining-seat-fit-review.json",
+            "runtime_enabled": false,
+            "revision": "upstairs_fit_v2"
+          }
         }
       ],
       "target_instance_id": "",

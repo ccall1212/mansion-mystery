@@ -362,3 +362,60 @@ Library fit review correction: user approved the red armchair, reading-table and
 User approved the green-chair correction with 'Looks great, continue', completing visual approval of all four fits. An isolated inherited playable scene (src/characters/char_library_live.tscn) loads the approved library, places one Char, and cycles four exact approved seat contacts/masks. It uses the shared PoseNPC contact renderer, current player movement and collision. No PNG changes, normal mansion route changes, save migration or new pose art. F8 cycles seats, F7 focuses Char, Z changes view, F6 shows annotations, F10 returns to normal game. Case start/save/load are disabled; visible east/south doors have no test travel while reciprocal mansion connections remain unresolved.
 
 Run configured Godot --path . --script tools/char_library_live_preview.gd; python tools/build_char_library_live_review.py; python tools/open_char_library_live.py. Native checks cover all four placements, 20 additional cycles, one global/visible Char, and actual movement stopping at the desk. Screenshots: test-results/char-library-live/index.html. Full furniture depth and navigation/occupancy across all rooms remain future integration. The raw project PNG load path is authoring-only and packaged distribution remains unvalidated.
+
+## Reusable furniture calibration — 2026-10-24
+
+User requirement: use the same furniture fits for future characters; do not manually
+repeat chair-coordinate calibration for every roster member. Furniture layouts own
+instance-local contact/approach points, actor facing, posture, clearance and shared
+foreground masks. Characters own their artwork, stature ratio and pose landmarks
+(seat, feet, knees or pelvis). Resolve the furniture anchor, align the required
+landmark, then derive floor feet for depth sorting using the shared standing-reference
+scale. Never normalize seated sprites to standing height or resize each PNG.
+
+Char is the reference actor used to calibrate furniture, not the owner of a chair's
+geometry. `g_foyer_opposite_v2.json` seat anchors now contain `fit_review` records
+with `shared_across_characters`, pose family, direction and mask coordinate space.
+The anchors remain provisional and disabled for automatic placement until reviewed.
+Char's `foyer-fit-review.json` stores evidence, hashes and references back to those
+anchors; it is not an independent authoritative seat-coordinate table.
+
+Future compatible characters reuse an approved anchor/mask through their own pose
+landmarks and stature ratios. Run a visual compatibility check; author a per-character
+exception only for a demonstrated build, garment, prop or anatomy mismatch, with a
+reason and approval. Do not clone the entire room fit configuration per character.
+The selector must reject missing pose directions or incompatible postures rather
+than silently mirror or stretch artwork. Seating needs furniture-aware occupancy
+and collision: seated feet may overlap the furniture's standing-walk obstacle.
+
+Current limitation: the existing library live-test adapter still reads legacy
+Char-scoped fit records. Generic cross-roster staging/mask selection is not yet
+implemented. Preserve those approved records during a future migration to shared
+furniture metadata; documentation alone does not make every character compatible.
+Foyer preview command: configured Godot --path . --script tools/char_foyer_fit_preview.gd;
+then python tools/build_char_foyer_fit_review.py. Both foyer candidates use the
+unchanged approved seated south sprite, with no foreground mask. Visual fit approval
+and runtime clearance remain pending. Only the two requested first foyer seats were
+previewed; the complete cast and other furniture were not recalibrated.
+
+## Current user sequence — 2026-10-24
+Foyer visual fits are approved. Review the 15 dining/kitchen/upstairs seat comparisons and four missing seated-north contacts, then complete Char’s directional actions, book poses, personality gestures, emotions and reveal reactions. Complete other character pose sets before randomized NPC staging. See [the current batch checklist](CHAR_NEXT_POSE_BATCHES.md); this supersedes earlier staging-first recommendations. No new artwork or staging was implemented in the seat comparison task.
+
+## External image handoff
+The user supplies each externally generated pose: add it immediately with character/action/direction/variant naming, preserve the original bytes and record its hash/dimensions/transparency, then return one next pose prompt. Do not require a separate import confirmation. Import is distinct from source-scale/contact calibration and runtime furniture fit; keep unmeasured poses out of live staging. Char seated north was added under masters/external_poses and exports/north with metadata/external_poses.
+
+## User-selected external batch sequence
+Use [the sequential directional batch template](DIRECTIONAL_POSE_BATCH_PROMPT.md) for future pose families and characters: north → explicit approval → east → approval → south → approval → west → final review. Individual transparent PNGs only. This replaces the earlier suggestion to deliver all four without intermediate approvals. First finish any missing direction separately; never regenerate completed directions merely to fill a batch.
+
+## Directional scope refinement — north only when useful
+User questioned producing every north-facing emotion and identified curious as a
+secondary pose for paintings, windows and bookshelves. Keep existing north assets.
+Prioritize neutral, confident, reading, sitting and environment-facing curiosity
+for north; future emotions and conversation gestures default to south/east/west
+unless a concrete target, partner or scene requires north. Personality assignment
+does not by itself require a four-way duplicate. This supersedes blanket N/E/S/W
+requirements in earlier prompt examples. Use the sequential approval template only
+for selected directions, preserving an approval stop after every image.
+Curious hand-to-chin may be reused for quiet observation, but it does not supply
+look-up, reading, reaching or a specific gaze direction automatically. Keep actor
+facing, target height and action distinct; runtime pose selection remains deferred.

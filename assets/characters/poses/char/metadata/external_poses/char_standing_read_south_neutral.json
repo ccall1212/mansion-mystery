@@ -1,0 +1,31 @@
+{
+  "pose_id": "standing_read_south",
+  "variant_id": "neutral",
+  "actor_facing": "south",
+  "posture": "standing",
+  "activity": "read",
+  "props": [
+    "open_book"
+  ],
+  "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_read_south_neutral.png",
+  "source_sha256": "755bf6bc00d73ba46cab9a2316f87783ac10ab2f1fa360b4ca3960e68dc8e9bd",
+  "export": "assets/characters/poses/char/exports/south/char_standing_read_south_neutral.png",
+  "export_sha256": "755bf6bc00d73ba46cab9a2316f87783ac10ab2f1fa360b4ca3960e68dc8e9bd",
+  "canvas": [
+    944,
+    1665
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "approval": "user_supplied_added_to_project",
+  "approval_scope": "Import requested by standing external-image handoff instruction; runtime fit pending.",
+  "runtime_integrated": false,
+  "live_test_supported": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "notes": "Original bytes preserved. Calibrate standing source density and feet landmarks before runtime use. Reading gaze remains a visual review item; no image modification performed.",
+  "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_read_south_neutral.json"
+}

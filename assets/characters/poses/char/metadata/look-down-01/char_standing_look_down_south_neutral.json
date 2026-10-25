@@ -1,0 +1,48 @@
+{
+  "pose_id": "standing_look_down_south",
+  "variant_id": "neutral",
+  "actor_facing": "south",
+  "posture": "standing",
+  "activity": "look_down",
+  "expression": "neutral",
+  "gesture": "arms_relaxed_at_sides",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/look-down-01/char_standing_look_down_south_neutral.png",
+  "source_sha256": "e319454704bee827b018c4c4ce07cf6911365fba3d0c9cc6ccb3362fc775e950",
+  "export": "assets/characters/poses/char/exports/south/char_standing_look_down_south_neutral.png",
+  "export_sha256": "e319454704bee827b018c4c4ce07cf6911365fba3d0c9cc6ccb3362fc775e950",
+  "canvas": [
+    944,
+    1666
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "approved",
+  "approval_evidence": {
+    "date": "2026-10-25",
+    "quote": "Approved, move on.",
+    "scope": "South-facing looking-down artwork only; runtime fit pending."
+  },
+  "runtime_integrated": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "landmark_record": "assets/characters/poses/char/metadata/look-down-01/char_standing_look_down_south_neutral.json",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-25",
+      "source": "user",
+      "quote": "Approved, move on."
+    },
+    "scope": "South-facing looking-down artwork only; runtime fit pending.",
+    "files": [
+      {
+        "path": "assets/characters/poses/char/exports/south/char_standing_look_down_south_neutral.png",
+        "sha256": "e319454704bee827b018c4c4ce07cf6911365fba3d0c9cc6ccb3362fc775e950"
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "pose_id": "standing_think_south",
+  "variant_id": "curious",
+  "actor_facing": "south",
+  "posture": "standing",
+  "activity": "think",
+  "expression": "curious",
+  "gesture": "hand_to_chin",
+  "props": [],
+  "source_master": "assets/characters/poses/char/masters/external_poses/char_standing_think_south_curious.png",
+  "source_sha256": "f2889657368d14a25ba8630b9f4e104d82a514101c3bade50e3f70f77af23e61",
+  "export": "assets/characters/poses/char/exports/south/char_standing_think_south_curious.png",
+  "export_sha256": "f2889657368d14a25ba8630b9f4e104d82a514101c3bade50e3f70f77af23e61",
+  "canvas": [
+    944,
+    1665
+  ],
+  "mode": "RGBA",
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "user_supplied_added_to_project",
+  "approval_scope": "User supplied external directional batch for import; measured runtime fit pending.",
+  "runtime_integrated": false,
+  "live_test_supported": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "intended_uses": [
+    "thoughtful_reaction",
+    "secondary_observe_painting",
+    "secondary_observe_window",
+    "secondary_observe_bookshelf"
+  ],
+  "notes": "Original bytes preserved. Thoughtful observation variant only; does not replace targeted look-up, reaching or reading artwork. Object interaction and gaze matching remain pending.",
+  "landmark_record": "assets/characters/poses/char/metadata/external_poses/char_standing_think_south_curious.json"
+}

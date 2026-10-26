@@ -878,3 +878,19 @@ warm hands, lying, high and low inspection, seated talk, look out).
 3. **Furniture and activity last:** reading, seated, kneeling, peek, drink, write and the rest.
    Match the room activities seen in the original (napping, searching drawers, kneeling at a safe,
    hiding, soaking in a tub, playing a piano).
+
+## Rest and sleep poses — 2026-10-25
+
+The original's guests constantly lie on beds and divans, nap in chairs, lounge on sofas and
+rest in corners, so Char gets a rest-and-sleep set. Approved artwork (runtime fit pending):
+lying awake, lying asleep and sofa nap, all **north-south with the head north**, plus a
+south-facing wall rest. The seated nap poses are tracked separately in
+`assets/characters/poses/char/batches/seated-nap-01.json`.
+
+Measured at the standing scale, the lying figures are about 47 x 70 world pixels. That fits the
+north-south bed footprint (78 x 120) but not the only bed in the current build, the east-west canopy
+bed (`bed_east_west_head_east`, 120 x 72), so **east-west, head-east versions of the lying poses
+are still needed**. Hair and skirt spread are the main bulk and the revised prompts ask for a
+more compact silhouette. The lying poses are recorded in the manifest and metadata only; the
+directional index has no lying group yet. A sofa facing north or south would need an east-west
+sofa-nap version. See `assets/characters/poses/char/prompts/rest-sleep-01.md`.

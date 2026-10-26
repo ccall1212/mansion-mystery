@@ -1,0 +1,47 @@
+{
+  "pose_id": "lying_sleep_north_south_head_north",
+  "variant_id": "peaceful",
+  "actor_facing": null,
+  "posture": "lying",
+  "activity": "sleep",
+  "expression": "asleep",
+  "gesture": "asleep_hands_on_stomach",
+  "props": [],
+  "body_axis": "north_south",
+  "head_direction": "north",
+  "source_master": "assets/characters/poses/char/masters/lying-sleep-01/char_lying_sleep_north_south_head_north_peaceful.png",
+  "source_sha256": "779618de152a1b75a510eb85b2480143be6ce8f29b20e07f8b070f0b1be81f2c",
+  "export": "assets/characters/poses/char/exports/lying/char_lying_sleep_north_south_head_north_peaceful.png",
+  "export_sha256": "779618de152a1b75a510eb85b2480143be6ce8f29b20e07f8b070f0b1be81f2c",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "approved",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-25",
+      "source": "user",
+      "quote": "Approve all four drafts (lying awake, lying sleep, sofa nap, wall lean) as art; I'll generate east-west versions separately."
+    },
+    "scope": "North-south, head-north sleeping artwork only, for north-south beds. East-west head-east version needed separately for the current canopy bed. Runtime fit pending.",
+    "files": [
+      {
+        "path": "assets/characters/poses/char/exports/lying/char_lying_sleep_north_south_head_north_peaceful.png",
+        "sha256": "779618de152a1b75a510eb85b2480143be6ce8f29b20e07f8b070f0b1be81f2c"
+      }
+    ]
+  },
+  "runtime_integrated": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "landmark_record": "assets/characters/poses/char/metadata/lying-sleep-01/char_lying_sleep_north_south_head_north_peaceful.json",
+  "intended_use": "Guest asleep on a bed; sleeping is a separate action from lying idle.",
+  "notes": "Generated from prompts/rest-sleep-01.md. Canvas differs from the 944x1665 standing canvas; scale and contact fit are unverified."
+}

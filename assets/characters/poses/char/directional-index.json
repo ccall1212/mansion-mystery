@@ -64,7 +64,8 @@
       "standing_cry_south",
       "standing_accuse_south",
       "standing_threaten_south",
-      "standing_shrug_south"
+      "standing_shrug_south",
+      "standing_lean_south"
     ],
     "west": [
       "standing_idle_west",
@@ -2533,6 +2534,51 @@
       "landmark_record": "assets/characters/poses/char/metadata/shrug-01/char_standing_shrug_south_resigned.json",
       "intended_use": "Culprit reveal: resigned, matter-of-fact confession; not an ordinary guilt indicator. Reuse with a neutral face for innocents is a later, separate decision.",
       "notes": "Generated from prompts/shrug-01.md. User approved after review: face leans slightly toward sad at small size; accepted as is."
+    },
+    {
+      "pose_id": "standing_lean_south",
+      "variant_id": "resting",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "lean",
+      "expression": "tired_patient",
+      "gesture": "back_against_wall_arms_loosely_crossed_weight_on_one_leg",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/wall-rest-01/char_standing_lean_south_resting.png",
+      "source_sha256": "b0e50c3ca37dc0a211569a6c9c7a7d84788e0dd209a880e2c522859671340aab",
+      "export": "assets/characters/poses/char/exports/south/char_standing_lean_south_resting.png",
+      "export_sha256": "b0e50c3ca37dc0a211569a6c9c7a7d84788e0dd209a880e2c522859671340aab",
+      "canvas": [
+        944,
+        1665
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "approved",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "Approve all four drafts (lying awake, lying sleep, sofa nap, wall lean) as art; I'll generate east-west versions separately."
+        },
+        "scope": "South-facing wall-resting artwork only; wall contact calibration and runtime fit pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/south/char_standing_lean_south_resting.png",
+            "sha256": "b0e50c3ca37dc0a211569a6c9c7a7d84788e0dd209a880e2c522859671340aab"
+          }
+        ]
+      },
+      "runtime_integrated": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "landmark_record": "assets/characters/poses/char/metadata/wall-rest-01/char_standing_lean_south_resting.json",
+      "intended_use": "Guest resting against a wall or in a corner; not a guilt indicator.",
+      "notes": "Generated from prompts/rest-sleep-01.md. Canvas differs from the 944x1665 standing canvas; scale and contact fit are unverified."
     }
   ],
   "future_folder_template": "assets/characters/poses/{character_slug}/exports/{actor_facing}/{character_slug}_{pose_id}_{variant_id}.png",

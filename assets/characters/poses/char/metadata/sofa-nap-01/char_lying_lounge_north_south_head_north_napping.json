@@ -1,0 +1,47 @@
+{
+  "pose_id": "lying_lounge_north_south_head_north",
+  "variant_id": "napping",
+  "actor_facing": null,
+  "posture": "lying",
+  "activity": "lounge",
+  "expression": "content_asleep",
+  "gesture": "half_reclined_knees_bent_one_arm_on_stomach_other_up",
+  "props": [],
+  "body_axis": "north_south",
+  "head_direction": "north",
+  "source_master": "assets/characters/poses/char/masters/sofa-nap-01/char_lying_lounge_north_south_head_north_napping.png",
+  "source_sha256": "bfe073e466d887a7557af47f5a70ecf735c60f5e8bd6c97dad6cc3f663df45a0",
+  "export": "assets/characters/poses/char/exports/lying/char_lying_lounge_north_south_head_north_napping.png",
+  "export_sha256": "bfe073e466d887a7557af47f5a70ecf735c60f5e8bd6c97dad6cc3f663df45a0",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "approved",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-25",
+      "source": "user",
+      "quote": "Approve all four drafts (lying awake, lying sleep, sofa nap, wall lean) as art; I'll generate east-west versions separately."
+    },
+    "scope": "Sofa-napping artwork, north-south axis, head north only. Sofa lying contacts do not exist yet, and sofas facing north or south would need an east-west version. Runtime fit pending.",
+    "files": [
+      {
+        "path": "assets/characters/poses/char/exports/lying/char_lying_lounge_north_south_head_north_napping.png",
+        "sha256": "bfe073e466d887a7557af47f5a70ecf735c60f5e8bd6c97dad6cc3f663df45a0"
+      }
+    ]
+  },
+  "runtime_integrated": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "landmark_record": "assets/characters/poses/char/metadata/sofa-nap-01/char_lying_lounge_north_south_head_north_napping.json",
+  "intended_use": "Guest lounging or napping on a sofa; not a guilt indicator.",
+  "notes": "Generated from prompts/rest-sleep-01.md. Canvas differs from the 944x1665 standing canvas; scale and contact fit are unverified."
+}

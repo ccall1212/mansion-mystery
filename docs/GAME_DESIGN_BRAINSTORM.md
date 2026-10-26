@@ -765,6 +765,8 @@ Selected on 2026-10-25: triumphant evil laugh, remorseful crying after an uninte
 
 Additional approved south-facing confrontation pose (2026-10-25): furious threat, with a forward stance, clenched fists and full shout. This expands the selected reveal/confrontation artwork to four variants. Runtime fit and story selection remain pending.
 
+Additional approved south-facing reveal pose (2026-10-25): resigned shrug, with both palms up and a flat, tired expression, for a matter-of-fact confession. This brings the selected reveal/confrontation artwork to five variants. It is a culprit-reveal pose, not an ordinary guilt indicator; reuse with a neutral face for innocents is a later decision. Runtime fit and story selection remain pending.
+
 ## Design decisions — 2026-10-25 (cast size, accusation, danger clock)
 
 Recorded from a design discussion with the user, using the observations in

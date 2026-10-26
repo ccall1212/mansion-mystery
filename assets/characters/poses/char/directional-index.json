@@ -63,7 +63,8 @@
       "standing_laugh_south",
       "standing_cry_south",
       "standing_accuse_south",
-      "standing_threaten_south"
+      "standing_threaten_south",
+      "standing_shrug_south"
     ],
     "west": [
       "standing_idle_west",
@@ -2487,6 +2488,51 @@
       "landmark_record": "assets/characters/poses/char/metadata/murderer-reveal-01/char_standing_threaten_south_furious.json",
       "intended_use": "Explicit story-established threat/confrontation; not an ordinary guilt indicator.",
       "notes": "User approved presented tight framing; runtime anchor and silhouette fit remain pending."
+    },
+    {
+      "pose_id": "standing_shrug_south",
+      "variant_id": "resigned",
+      "actor_facing": "south",
+      "posture": "standing",
+      "activity": "shrug",
+      "expression": "resigned",
+      "gesture": "both_palms_up_shoulders_raised",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/shrug-01/char_standing_shrug_south_resigned.png",
+      "source_sha256": "1fe543459ca44a458c1eb416f9b8aa60bfd5ecb45a05d85917a307655f12cb8f",
+      "export": "assets/characters/poses/char/exports/south/char_standing_shrug_south_resigned.png",
+      "export_sha256": "1fe543459ca44a458c1eb416f9b8aa60bfd5ecb45a05d85917a307655f12cb8f",
+      "canvas": [
+        944,
+        1665
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "approval": "approved",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "Approve."
+        },
+        "scope": "South-facing resigned shrug (both palms up, flat tired expression) culprit-reveal artwork only; runtime fit pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/south/char_standing_shrug_south_resigned.png",
+            "sha256": "1fe543459ca44a458c1eb416f9b8aa60bfd5ecb45a05d85917a307655f12cb8f"
+          }
+        ]
+      },
+      "runtime_integrated": false,
+      "contact_calibration": "pending",
+      "standing_reference_height": null,
+      "landmark_record": "assets/characters/poses/char/metadata/shrug-01/char_standing_shrug_south_resigned.json",
+      "intended_use": "Culprit reveal: resigned, matter-of-fact confession; not an ordinary guilt indicator. Reuse with a neutral face for innocents is a later, separate decision.",
+      "notes": "Generated from prompts/shrug-01.md. User approved after review: face leans slightly toward sad at small size; accepted as is."
     }
   ],
   "future_folder_template": "assets/characters/poses/{character_slug}/exports/{actor_facing}/{character_slug}_{pose_id}_{variant_id}.png",

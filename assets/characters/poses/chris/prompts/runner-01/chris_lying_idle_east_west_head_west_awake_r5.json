@@ -1,0 +1,19 @@
+{
+  "queue_id": "chris-lying_idle_east_west_head_west-awake",
+  "prompt": "Edit image1 (Chris head-left lying awake) to match these precise user changes. 1) Cross his extended legs naturally at the ANKLES: one lower leg rests lightly over the other, boots visibly overlap in a relaxed crossed-ankle pose; keep both legs extended, not bent up at knee or seated. 2) Move his free anatomical LEFT forearm, currently beside his torso, across his STOMACH; palm rests gently flat over abdomen/waistcoat above waistband. Other hand stays behind his head. 3) Make him a bit MORE WORRIED and deep in thought, like Char's expression in image2: inner brows raised and subtly drawn together, blue eyes open gazing upward, small closed mouth with gently downturned corners. No smile, no tears, no exaggerated fear or anger. Image2 is expression reference ONLY, never copy female identity/outfit/hair. Keep exact Chris identity and clothes, gray cap ON, beard, red shirt/charcoal waistcoat/black trousers/boots, head LEFT and feet RIGHT, elevated south three-quarter view, richly shaded outlined anime style. One complete man, both boots and bent elbow comfortably inside canvas; expand transparent margins slightly if needed. Preserve all other costume details and anatomical-left watch chain. Actual transparent PNG cutout: empty transparency outside opaque character, no surrounding colored haze, cast shadow, floor, bed, pillow or furniture. Required result: crossed ankles + free hand on stomach + worried thoughtful face.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/drafts/runner-01/chris_lying_idle_east_west_head_west_awake.png",
+      "sha256": "e08b19e8e8367ce88719a4eedbbd930a702012414c60e59b32f1e81a6275b5f6"
+    },
+    {
+      "path": "assets/characters/poses/char/exports/lying/char_lying_idle_east_west_head_west_awake.png",
+      "sha256": "bde82830452eba7b537b46bd3b00c05bdee223d88d96f9a864cc8ad67ad71c28"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "draft_destination": "assets/characters/poses/chris/drafts/runner-01/chris_lying_idle_east_west_head_west_awake_r5.png",
+  "status": "generated",
+  "prepared": "2026-10-26T20:38:56.105903+00:00"
+}

@@ -1,0 +1,19 @@
+{
+  "queue_id": "chris-seated_read_west-neutral",
+  "prompt": "Create ONE full-body transparent PNG game sprite of CHRIS seated reading an open burgundy hardcover book in both hands. Reference1 is approved CHRIS identity/costume. Reference2 is Char's MATCHING seated reading pose: directly match its camera elevation, seated posture, body direction, pelvis height, book position and bent legs. Replace Char with Chris, no feminine costume or anatomy. Preserve Chris adult male proportions, approved large blue anime eyes/full brown beard and moustache, gray tweed flat cap KEPT ON, red collared rolled-sleeve shirt with cream neckline, charcoal textured brass-button waistcoat, gold chain on his OWN anatomical LEFT waist with natural occlusion, black trousers and laceup boots. Richly shaded outlined anime game rendering. Legs uncrossed, both boots planted, no chair drawn. Head bowed naturally reading pages. Calm neutral expression. Keep full cap/book/both boots inside comfortable margins, consistent head drawing scale, no enlarging seated body to standing height. Clean isolated sprite with actual PNG transparency, alpha0 outside crisp silhouette, fully opaque character interior. No halo/aura/vignette/background/shadow/floor/text/extra character/mirroring. WEST: whole torso, hips, parallel thighs, knees and boots aligned to screen LEFT like Char reference2, near shoulder dominant and far shoulder receding, nose points LEFT, eyes down at book ahead of chest on screen LEFT. Both uncrossed thighs extend left from hips, knees bend down to planted boots pointing LEFT. Do not present broad front-facing chest or turn head to viewer. Chain stays anatomical LEFT side and may be hidden on far side. Independently redraw, not mirrored east.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+    },
+    {
+      "path": "assets/characters/poses/char/exports/west/char_seated_read_west_neutral.png",
+      "sha256": "b77cde07bf60fc4542502c9905fe9be9b2fd15e173a3c19aa55850aebeb4f268"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "draft_destination": "assets/characters/poses/chris/west/chris_seated_read_west_neutral.png",
+  "status": "generated",
+  "prepared": "2026-10-26T19:26:42.540033+00:00"
+}

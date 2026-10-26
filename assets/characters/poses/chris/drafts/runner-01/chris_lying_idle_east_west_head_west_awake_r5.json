@@ -1,0 +1,86 @@
+{
+  "queue_id": "chris-lying_idle_east_west_head_west-awake",
+  "pose_id": "lying_idle_east_west_head_west",
+  "variant_id": "awake",
+  "direction": null,
+  "tier": 3,
+  "status": "approved",
+  "approval": "pending_user_review",
+  "tool": "built-in image_gen",
+  "prompt": "Edit image1 (Chris head-left lying awake) to match these precise user changes. 1) Cross his extended legs naturally at the ANKLES: one lower leg rests lightly over the other, boots visibly overlap in a relaxed crossed-ankle pose; keep both legs extended, not bent up at knee or seated. 2) Move his free anatomical LEFT forearm, currently beside his torso, across his STOMACH; palm rests gently flat over abdomen/waistcoat above waistband. Other hand stays behind his head. 3) Make him a bit MORE WORRIED and deep in thought, like Char's expression in image2: inner brows raised and subtly drawn together, blue eyes open gazing upward, small closed mouth with gently downturned corners. No smile, no tears, no exaggerated fear or anger. Image2 is expression reference ONLY, never copy female identity/outfit/hair. Keep exact Chris identity and clothes, gray cap ON, beard, red shirt/charcoal waistcoat/black trousers/boots, head LEFT and feet RIGHT, elevated south three-quarter view, richly shaded outlined anime style. One complete man, both boots and bent elbow comfortably inside canvas; expand transparent margins slightly if needed. Preserve all other costume details and anatomical-left watch chain. Actual transparent PNG cutout: empty transparency outside opaque character, no surrounding colored haze, cast shadow, floor, bed, pillow or furniture. Required result: crossed ankles + free hand on stomach + worried thoughtful face.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/drafts/runner-01/chris_lying_idle_east_west_head_west_awake.png",
+      "sha256": "e08b19e8e8367ce88719a4eedbbd930a702012414c60e59b32f1e81a6275b5f6"
+    },
+    {
+      "path": "assets/characters/poses/char/exports/lying/char_lying_idle_east_west_head_west_awake.png",
+      "sha256": "bde82830452eba7b537b46bd3b00c05bdee223d88d96f9a864cc8ad67ad71c28"
+    }
+  ],
+  "path": "assets/characters/poses/chris/drafts/runner-01/chris_lying_idle_east_west_head_west_awake_r5.png",
+  "sha256": "bce7c7d6f6a2061bbf4c4e1b3a37994bbda6b093614d8eade2d6f3da3035c739",
+  "checks": {
+    "format": "PNG",
+    "canvas": [
+      1536,
+      1024
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "solid_bounds": [
+      10,
+      96,
+      1506,
+      902
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "occupied_height": 806,
+    "standing_height_ratio": null,
+    "standing_height_within_four_percent": null,
+    "canvas_within_one_percent_of_reference": false,
+    "solid_pixels_clear_of_edges": true,
+    "alpha_present": true,
+    "maximum_alpha_255": false,
+    "opaque_fraction": 0.2954,
+    "warnings": [
+      "Native canvas differs; source pixels preserved. Common export canvas/pivot alignment remains pending; stature checked separately."
+    ],
+    "technical_pass": false,
+    "errors": [
+      "maximum_alpha_255"
+    ]
+  },
+  "runtime_integrated": false,
+  "created": "2026-10-26T20:40:38.477016+00:00",
+  "visual_qa": {
+    "inspected": true,
+    "note": "User-directed r5: legs overlap/cross at ankles, free forearm and hand rest across stomach, worried inner-raised brows and small downturned mouth guided by Char. Opposite hand behind head, head left boots right. Halo persists and supporting elbow remains very close to left canvas edge; not export ready. Pending user artwork review.",
+    "user_approval": "pending",
+    "date": "2026-10-26T20:40:38.757621+00:00"
+  },
+  "notes": "User-directed r5: legs overlap/cross at ankles, free forearm and hand rest across stomach, worried inner-raised brows and small downturned mouth guided by Char. Opposite hand behind head, head left boots right. Halo persists and supporting elbow remains very close to left canvas edge; not export ready. Pending user artwork review. Furniture and runtime fit unverified.",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-26",
+      "source": "user_chat",
+      "quote": "I love it, can you also do the same thing with chris_lying_idle_east_west_head_east_awake_r3.png"
+    },
+    "scope": "Head-west awake r5 artwork only: crossed ankles, free arm over stomach and worried face. Halo and tight elbow margin still need cleanup; no export/runtime approval.",
+    "files": [
+      {
+        "path": "assets/characters/poses/chris/drafts/runner-01/chris_lying_idle_east_west_head_west_awake_r5.png",
+        "sha256": "bce7c7d6f6a2061bbf4c4e1b3a37994bbda6b093614d8eade2d6f3da3035c739"
+      }
+    ],
+    "retention": "Keep approved artwork and required metadata."
+  }
+}

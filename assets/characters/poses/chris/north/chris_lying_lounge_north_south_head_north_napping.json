@@ -1,0 +1,66 @@
+{
+  "queue_id": "chris-lying_lounge_north_south_head_north-napping",
+  "pose_id": "lying_lounge_north_south_head_north",
+  "variant_id": "napping",
+  "direction": null,
+  "tier": 3,
+  "status": "needs_help",
+  "approval": "pending_user_review",
+  "tool": "built-in image_gen",
+  "prompt": "Create ONE full-body isolated transparent PNG sprite of CHRIS lying on his BACK, body axis north-south, HEAD at TOP (north), BOTH BOOTS toward BOTTOM/viewer (south). Elevated three-quarter game camera from SOUTH looking along body, foreshortened reclining anatomy, not standing upright. Portrait1024x1536, generous empty margins beyond head, elbows and boots. Use reference only for Chris identity: adult male, full brown beard/moustache, large blue anime eyes, gray tweed flat cap ON, red rolled-sleeve collared shirt/cream neckline, charcoal textured brass-button waistcoat, gold chain on own anatomical LEFT waist (screen RIGHT), black trousers and full adult black laceup boots. Same richly shaded outlined anime game art, natural adult anatomy with two equal-length legs and matching full-length boots in perspective, ankles gently crossed without twisting. One hand behind head, free forearm and palm resting OVER STOMACH. Head level as if on invisible pillow. Render only the man with opaque interior and EMPTY alpha0 immediately outside silhouette, no surroundings, lighting effects or cast shadow. No bed/pillow/furniture/floor/text. Change body to HALF-RECLINED sofa nap: upper back/head raised as if propped by invisible armrest, torso diagonal backward, BOTH knees gently bent and drawn up slightly together to one side. One arm relaxed along body/imaginary armrest, other hand over stomach. Eyes CLOSED, relaxed brows and small content neutral closed mouth. Keep head toward top and feet toward viewer with elevated camera; foreshortened body clearly reclining, not seated upright. No sofa/armrest actually drawn.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+    }
+  ],
+  "path": "assets/characters/poses/chris/north/chris_lying_lounge_north_south_head_north_napping.png",
+  "sha256": "a200e637b9c98bf364897a53b5eebf684a144d8aca1f100bfd4016338e9942df",
+  "checks": {
+    "format": "PNG",
+    "canvas": [
+      1024,
+      1536
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "solid_bounds": [
+      86,
+      17,
+      939,
+      1485
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "occupied_height": 1468,
+    "standing_height_ratio": null,
+    "standing_height_within_four_percent": null,
+    "canvas_within_one_percent_of_reference": false,
+    "solid_pixels_clear_of_edges": true,
+    "alpha_present": true,
+    "maximum_alpha_255": false,
+    "opaque_fraction": 0.407,
+    "warnings": [
+      "Native canvas differs; source pixels preserved. Common export canvas/pivot alignment remains pending; stature checked separately."
+    ],
+    "technical_pass": false,
+    "errors": [
+      "maximum_alpha_255"
+    ]
+  },
+  "runtime_integrated": false,
+  "created": "2026-10-26T22:00:37.766932+00:00",
+  "visual_qa": {
+    "inspected": true,
+    "note": "Sofa-nap draft: head north feet toward viewer, half-reclined bent knees, one hand behind head and other on stomach, eyes closed/content face. No sofa drawn. User posture/limb review and actual sofa fit pending. Broad halo/maxalpha254 persists; not export ready.",
+    "user_approval": "pending",
+    "date": "2026-10-26T22:00:38.057898+00:00"
+  },
+  "notes": "Sofa-nap draft: head north feet toward viewer, half-reclined bent knees, one hand behind head and other on stomach, eyes closed/content face. No sofa drawn. User posture/limb review and actual sofa fit pending. Broad halo/maxalpha254 persists; not export ready. Furniture and runtime fit unverified."
+}

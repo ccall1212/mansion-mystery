@@ -1,0 +1,43 @@
+{
+  "character_id": "likeness-user",
+  "pose_id": "standing_idle_south",
+  "variant_id": "neutral",
+  "costume_variant": "red_shirt_charcoal_vest_black_trousers",
+  "revision": "anime_v2",
+  "path": "assets/characters/poses/chris/drafts/model-review-01/chris_standing_idle_south_neutral_red_shirt_anime_v2.png",
+  "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc",
+  "canvas": [
+    948,
+    1659
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "approval": "approved",
+  "runtime_integrated": false,
+  "tool": "built-in image_gen",
+  "edit_request": "More anime-like face similar to Char while preserving Chris identity and costume.",
+  "references": [
+    "assets/characters/poses/char/masters/likeness-review-02/char-likeness-v2.png"
+  ],
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-26",
+      "source": "user",
+      "quote": "Alright, I approve the previous one, not this last one"
+    },
+    "scope": "Chris canonical appearance and south-facing standing idle artwork, anime v2 with larger blue eyes, red shirt, charcoal waistcoat, black trousers and boots, gray cap. Does not approve smaller-eyed v3 or other poses; runtime fit remains unverified.",
+    "files": [
+      {
+        "path": "assets/characters/poses/chris/drafts/model-review-01/chris_standing_idle_south_neutral_red_shirt_anime_v2.png",
+        "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+      }
+    ],
+    "retention": {
+      "keep": "Approved canonical model and metadata; retain existing variants pending dependency-aware cleanup."
+    }
+  },
+  "source_retention_note": "User identified four obsolete model drafts for removal on 2026-10-26. Earlier pre-anime costume source removed; approved v2 image and approval hash unchanged."
+}

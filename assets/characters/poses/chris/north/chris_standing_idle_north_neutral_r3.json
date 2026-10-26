@@ -1,0 +1,84 @@
+{
+  "queue_id": "chris-standing_idle_north-neutral",
+  "pose_id": "standing_idle_north",
+  "variant_id": "neutral",
+  "direction": "north",
+  "tier": 1,
+  "status": "approved",
+  "approval": "approved",
+  "tool": "built-in image_gen",
+  "prompt": "Create ONE corrected NORTH/BACK-view standing idle Chris, using reference 1 as approved identity/costume and reference 2 as previous rear-view pose TO CORRECT. Main correction: BOTH HANDS must be in FRONT TROUSER POCKETS, NOT rear pockets. In the back view his LEFT forearm bends FORWARD around the left side of his waist toward his abdomen; LEFT HAND disappears around the front of the hip, hidden from camera. Left wrist must NOT bend backwards or enter the visible rear welt pocket. Same natural forward reach for right hand. BOTH REAR WELT POCKETS remain empty, unobstructed, visible on buttocks; no fingers/thumbs at rear pocket openings. Arms rest along sides, elbows a little back/out only as anatomically natural when hands are in front pockets. Do not put hands on hips, into back pockets, behind back, or point thumbs backwards. View is true NORTH showing back of cap, head, red shirt, charcoal waistcoat back and black trousers, no eyes/front face. Preserve Chris's male adult build, same anatomy and cap/rolled sleeves/clothing/back waistcoat strap detail/black lace boots. Gray tweed flat cap stays ON. Red rolled-sleeve shirt, charcoal waistcoat, black trousers/boots. Soft outlined richly shaded anime/cartoon game rendering matching approved model, not realism. Correct common drawing scale too: tall portrait framing about944x1665, character cap crown to boot soles around1564 pixels, centered with only25-40 pixel top/bottom margins. No shrinking to1500pixel height, no cropping. Whole figure and shoes comfortably inside alpha-transparent margins. Actual transparent PNG, no furniture/background/floor/shadow/glow/text/labels/border/extra figures. One corrected image intended chris_standing_idle_north_neutral_r3.png.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+    },
+    {
+      "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_idle_north_neutral_r2.png",
+      "sha256": "ce31c844e428b259693ffa713f1d4d22cef31782db9ca24c216d37dbca2f3bde"
+    }
+  ],
+  "path": "assets/characters/poses/chris/north/chris_standing_idle_north_neutral_r3.png",
+  "sha256": "0b85dfd21f7cb7f080f58421b4e24ade58e07ad620aa1b1c60f8f1eec4aa9e97",
+  "checks": {
+    "format": "PNG",
+    "canvas": [
+      984,
+      1599
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "solid_bounds": [
+      202,
+      42,
+      822,
+      1558
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "occupied_height": 1516,
+    "standing_height_ratio": 0.9693,
+    "standing_height_within_four_percent": true,
+    "canvas_within_one_percent_of_reference": false,
+    "solid_pixels_clear_of_edges": true,
+    "alpha_present": true,
+    "maximum_alpha_255": true,
+    "opaque_fraction": 0.3244,
+    "warnings": [
+      "Native canvas differs; source pixels preserved. Common export canvas/pivot alignment remains pending; stature checked separately."
+    ],
+    "technical_pass": true,
+    "errors": []
+  },
+  "runtime_integrated": false,
+  "created": "2026-10-26T16:30:36.722423+00:00",
+  "visual_qa": {
+    "inspected": true,
+    "note": "User-guided r3 inspected: visible rear welt pockets remain empty; wrists/hands disappear around outer hips toward front pocket positions. True rear view, cap and costume retained. Hand direction awaits user review; no claim of approval.",
+    "user_approval": "pending",
+    "date": "2026-10-26T16:30:37.019642+00:00"
+  },
+  "notes": "User-guided r3 inspected: visible rear welt pockets remain empty; wrists/hands disappear around outer hips toward front pocket positions. True rear view, cap and costume retained. Hand direction awaits user review; no claim of approval. Furniture and runtime fit unverified.",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-26",
+      "source": "user_chat",
+      "quote": "Approved continue."
+    },
+    "scope": "Revised north idle r3 artwork only; runtime fit and integration remain unverified.",
+    "files": [
+      {
+        "path": "assets/characters/poses/chris/north/chris_standing_idle_north_neutral_r3.png",
+        "sha256": "0b85dfd21f7cb7f080f58421b4e24ade58e07ad620aa1b1c60f8f1eec4aa9e97"
+      }
+    ],
+    "retention": "Keep approved candidate and necessary production metadata."
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "queue_id": "chris-standing_deny_west-defensive",
+  "prompt": "Create ONE complete transparent PNG sprite of CHRIS in WEST-facing outward-hand DENIAL. Reference1 is the approved Chris identity/costume/style. Reference2 is a gesture/expression reference ONLY: both open palms facing outward, fingers spread, wrists straight, elbows bent, hands raised around chest/shoulder level, apprehensive earnest expression as if saying 'No, it wasn't me.' Translate gesture into Chris's full-body anime/cartoon game art. Whole body faces screen LEFT, including head, chest, hips, knees and both boot toes, in a three-quarter SIDE view from the same elevated game camera. Both palms face the implied interlocutor to screen LEFT; near hand seen obliquely, far hand naturally separated and partly foreshortened. Do not keep body frontal while only turning head. Tilt upper torso back slightly, brows raised and drawn together in concern, mouth slightly open in protest. BOTH HANDS fully visible and anatomically correct, separated from his face and torso; moderate natural gesture, no hand at neck, no hand on hip, no smile, no rage. Preserve adult Chris with blue anime eyes, full brown beard and moustache, gray tweed flat cap KEPT ON, red collared rolled-sleeve shirt, cream undershirt neckline, charcoal textured waistcoat with brass buttons and gold watch chain on his own LEFT waist (near/far visibility follows natural anatomy), black trousers and black lace-up boots. Same approved softly shaded anime face and richly shaded outlined rendering. Full standing drawing scale about1564px occupied height on comparable portrait canvas to reference1 (948x1659). Comfortable transparent margins around all fingertips, cap and both boots. Actual alpha transparency. No background, floor shadow, furniture, lettering, watermark, props, borders or extra character. Do not copy photograph identity, clothing or backdrop. Draw independently; do not mirror.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+    },
+    {
+      "source": "user_attachment",
+      "filename": "codex-clipboard-703fe3dc-c77b-4836-856c-661c1abe3533.png",
+      "sha256": "009a94f599f18b3550f5701a984c2c8dfb31b956242047c28acc560ec965a995"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "draft_destination": "assets/characters/poses/chris/west/chris_standing_deny_west_defensive_r2.png",
+  "status": "generated",
+  "prepared": "2026-10-26T17:18:45.788533+00:00"
+}

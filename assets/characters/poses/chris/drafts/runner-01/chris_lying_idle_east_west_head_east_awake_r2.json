@@ -1,0 +1,59 @@
+{
+  "queue_id": "chris-lying_idle_east_west_head_east-awake",
+  "pose_id": "lying_idle_east_west_head_east",
+  "variant_id": "awake",
+  "direction": null,
+  "tier": 3,
+  "status": "needs_help",
+  "approval": "pending_user_review",
+  "tool": "built-in image_gen",
+  "prompt": "Generate ONE transparent PNG cutout game character CHRIS, same adult anime identity and full costume as reference. Lying awake FLAT ON BACK on an invisible bed: body axis east-west, HEAD at RIGHT/EAST, feet at LEFT/WEST. Elevated three-quarter camera from SOUTH. One arm bent behind head, other hand loosely on abdomen, legs together extended with relaxed knees, both BLACK lace-up boots visible. Eyes OPEN gazing upward, thoughtful neutral closed mouth, relaxed brows. Gray tweed flat cap ON, brown beard/moustache, larger BLUE anime eyes, red rolled-sleeve collared shirt and cream undershirt neckline, charcoal textured waistcoat brass buttons and gold chain on his anatomical LEFT waist, black tailored trousers. Match approved softly shaded anime face and richly shaded outlined game art. COMPACT silhouette with full body entirely inside generous transparent margins, landscape canvas1536x1024. No stretching, no cropping. CRITICAL: Actual PNG alpha transparency, ZERO backdrop outside character. No black/gray background, no gradients, no colored halo or bloom, no cast shadow, floor, bed, pillow, furniture, text or props. Exactly ONE complete lying character, no other elements.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+    }
+  ],
+  "path": "assets/characters/poses/chris/drafts/runner-01/chris_lying_idle_east_west_head_east_awake_r2.png",
+  "sha256": "4e674a604c5fef3ae36bdb5db2f86ed8757def98b13d1704cbf5f17d786bad62",
+  "checks": {
+    "format": "PNG",
+    "canvas": [
+      1536,
+      1024
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "solid_bounds": [
+      32,
+      40,
+      1528,
+      951
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "occupied_height": 911,
+    "standing_height_ratio": null,
+    "standing_height_within_four_percent": null,
+    "canvas_within_one_percent_of_reference": false,
+    "solid_pixels_clear_of_edges": true,
+    "alpha_present": true,
+    "maximum_alpha_255": false,
+    "opaque_fraction": 0.2945,
+    "warnings": [
+      "Native canvas differs; source pixels preserved. Common export canvas/pivot alignment remains pending; stature checked separately."
+    ],
+    "technical_pass": false,
+    "errors": [
+      "maximum_alpha_255"
+    ]
+  },
+  "runtime_integrated": false,
+  "created": "2026-10-26T18:35:50.050208+00:00"
+}

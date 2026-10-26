@@ -1,0 +1,77 @@
+{
+  "queue_id": "chris-lying_idle_east_west_head_east-awake",
+  "pose_id": "lying_idle_east_west_head_east",
+  "variant_id": "awake",
+  "direction": null,
+  "tier": 3,
+  "status": "needs_help",
+  "approval": "pending_user_review",
+  "tool": "built-in image_gen",
+  "prompt": "Edit IMAGE1: chris head-EAST lying-awake r3. IMAGE2 approved head-WEST revision supplies only the requested crossed-ankle pose and worried expression; DO NOT mirror or flip image2. Keep IMAGE1 orientation HEAD at RIGHT (EAST), BOOTS at LEFT (WEST), same elevated three-quarter camera from SOUTH. Changes: (1) extended legs crossed naturally at ANKLES, one lower leg lightly resting over other, both boots visible overlapping gently, legs remain extended. (2) Free forearm and palm rest across STOMACH above waistband, relaxed fingers lying flat on abdomen, not beside thigh. Keep opposite arm bent behind head. (3) Worried deep-in-thought face matching image2: inner brow ends raised and subtly knit, blue eyes open gazing upward, small closed gently downturned mouth, no smile/tears/exaggerated fear. Preserve image1 Chris identity, full beard/moustache, gray tweed cap ON, red rolled-sleeve collared shirt/cream neckline, charcoal textured waistcoat brass buttons, gold chain on his OWN anatomical LEFT waist, black trousers and black laceup boots. Keep independent anatomical asymmetry correct, not a mirrored costume. Full complete reclining man in1536x1024 landscape with comfortable empty margin beyond supporting elbow and both boots. Same richly shaded outlined anime rendering. Exactly ONE character only. Actual PNG alpha transparency outside opaque figure, clean cutout without colored haze, backdrop, floor, shadow, bed, pillow or furniture. Main requirement: match approved crossed ankles + stomach arm + worried face while preserving HEAD-RIGHT orientation of image1.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/drafts/runner-01/chris_lying_idle_east_west_head_east_awake_r3.png",
+      "sha256": "c728171dc342e38b814021ff1b9e0871777631a7d2ae844b1308aae53faf01be"
+    },
+    {
+      "path": "assets/characters/poses/chris/drafts/runner-01/chris_lying_idle_east_west_head_west_awake_r5.png",
+      "sha256": "bce7c7d6f6a2061bbf4c4e1b3a37994bbda6b093614d8eade2d6f3da3035c739"
+    }
+  ],
+  "path": "assets/characters/poses/chris/drafts/runner-01/chris_lying_idle_east_west_head_east_awake_r4.png",
+  "sha256": "886caca03888f61e8967dff38d46173daace209b713a192eb57c61c66ecf072e",
+  "checks": {
+    "format": "PNG",
+    "canvas": [
+      1536,
+      1024
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "solid_bounds": [
+      21,
+      38,
+      1529,
+      981
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "occupied_height": 943,
+    "standing_height_ratio": null,
+    "standing_height_within_four_percent": null,
+    "canvas_within_one_percent_of_reference": false,
+    "solid_pixels_clear_of_edges": true,
+    "alpha_present": true,
+    "maximum_alpha_255": false,
+    "opaque_fraction": 0.2937,
+    "warnings": [
+      "Native canvas differs; source pixels preserved. Common export canvas/pivot alignment remains pending; stature checked separately."
+    ],
+    "technical_pass": false,
+    "errors": [
+      "maximum_alpha_255"
+    ]
+  },
+  "runtime_integrated": false,
+  "created": "2026-10-26T20:45:00.900719+00:00",
+  "visual_qa": {
+    "inspected": true,
+    "note": "User selected first head-east result r4 over ankle revision r5 because r5 made left leg look too short. Restore r4 worried expression and stomach hand. Halo cleanup and margin checks remain pending; not export ready.",
+    "user_approval": "pending",
+    "date": "2026-10-26"
+  },
+  "notes": "User selected first head-east result r4 over ankle revision r5 because r5 made left leg look too short. Restore r4 worried expression and stomach hand. Halo cleanup and margin checks remain pending; not export ready.",
+  "user_selection": {
+    "date": "2026-10-26",
+    "quote": "I liked the one above first, it looks like his left leg is a lot shorter than his right",
+    "selected_path": "assets/characters/poses/chris/drafts/runner-01/chris_lying_idle_east_west_head_east_awake_r4.png",
+    "rejected_path": "assets/characters/poses/chris/drafts/runner-01/chris_lying_idle_east_west_head_east_awake_r5.png",
+    "scope": "Prefer r4 body proportions; r5 leg edit rejected. Technical cleanup still pending."
+  }
+}

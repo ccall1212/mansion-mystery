@@ -1,0 +1,82 @@
+{
+  "queue_id": "chris-standing_reach_table_east-neutral",
+  "pose_id": "standing_reach_table_east",
+  "variant_id": "neutral",
+  "direction": "east",
+  "tier": 3,
+  "status": "approved",
+  "approval": "pending_user_review",
+  "tool": "built-in image_gen",
+  "prompt": "Create ONE full-body transparent PNG game sprite of CHRIS standing and reaching gently at TABLE HEIGHT, matching Char reference2 pose/camera/direction. Reference1 is his approved identity ONLY: adult male proportions, large blue anime eyes, full brown beard/moustache, gray tweed flat cap ON, red rolled-sleeve collared shirt/cream neckline, charcoal textured brass-button waistcoat, gold watch chain on HIS anatomical LEFT waist with natural occlusion, black tailored trousers and black laceup boots. Richly shaded outlined anime game art. One arm reaches forward from bent elbow at about WAIST height, hand palm DOWN and fingers relaxed/naturally curved as if about to touch a small object on a table that is NOT drawn. Other arm hangs relaxed at side. Gaze down toward reaching fingertips, chin slightly lowered, calm focused neutral mouth and brows. Torso mostly upright with only slight forward lean, both feet planted. No crouching, pointing, overhead reach or dramatic lunge. Keep same canonical head drawing scale, about1564px occupied standing height within4percent, portrait canvas near948x1659, entire cap and both boots in comfortable transparent margins. Exactly ONE character, no sheet/duplicates. Actual transparent PNG alpha0 outside and fully opaque character; no halo/glow/vignette/background, furniture/table/objects, floor/shadow/text. Independently draw, no mirroring. EAST: entire torso/hips/knees/boot toes face screen RIGHT in side three-quarter view like Char reference2. Reach hand extends RIGHT at waist level, face looks down right at hand. Near shoulder dominant and far shoulder receding, no front-facing chest or eye contact. Anatomical-left chain on far side naturally hidden.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+    },
+    {
+      "path": "assets/characters/poses/char/exports/east/char_standing_reach_table_east_neutral.png",
+      "sha256": "cc4e9a18216027502e9b0348f658384185fe4be469a36caca9eeb4680a7d6980"
+    }
+  ],
+  "path": "assets/characters/poses/chris/east/chris_standing_reach_table_east_neutral.png",
+  "sha256": "e39a9612c54c9d68fc8fcdec83fa8bb815bfa953a0e7e1c4a81476dc41bada71",
+  "checks": {
+    "format": "PNG",
+    "canvas": [
+      949,
+      1658
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "solid_bounds": [
+      131,
+      48,
+      914,
+      1605
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "occupied_height": 1557,
+    "standing_height_ratio": 0.9955,
+    "standing_height_within_four_percent": true,
+    "canvas_within_one_percent_of_reference": true,
+    "solid_pixels_clear_of_edges": true,
+    "alpha_present": true,
+    "maximum_alpha_255": true,
+    "opaque_fraction": 0.3277,
+    "warnings": [],
+    "technical_pass": true,
+    "errors": []
+  },
+  "runtime_integrated": false,
+  "created": "2026-10-26T20:08:41.189034+00:00",
+  "visual_qa": {
+    "inspected": true,
+    "note": "East restrained waist-height reach, palm down curved fingers, eyes toward reaching hand and opposite arm relaxed. Torso and boot toes right; chain naturally occluded. Complete cap/boots. Actual table contact/export scale pending.",
+    "user_approval": "pending",
+    "date": "2026-10-26T20:08:41.437729+00:00"
+  },
+  "notes": "East restrained waist-height reach, palm down curved fingers, eyes toward reaching hand and opposite arm relaxed. Torso and boot toes right; chain naturally occluded. Complete cap/boots. Actual table contact/export scale pending. Furniture and runtime fit unverified.",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-26",
+      "source": "user_chat",
+      "quote": "Good, continue"
+    },
+    "scope": "Latest three standing table-height reach poses, east/south/west. Artwork only; table contact, common export alignment and runtime fit pending.",
+    "files": [
+      {
+        "path": "assets/characters/poses/chris/east/chris_standing_reach_table_east_neutral.png",
+        "sha256": "e39a9612c54c9d68fc8fcdec83fa8bb815bfa953a0e7e1c4a81476dc41bada71"
+      }
+    ],
+    "retention": "Keep approved artwork and required metadata."
+  }
+}

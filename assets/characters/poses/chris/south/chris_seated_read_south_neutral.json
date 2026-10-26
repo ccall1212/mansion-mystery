@@ -1,0 +1,68 @@
+{
+  "queue_id": "chris-seated_read_south-neutral",
+  "pose_id": "seated_read_south",
+  "variant_id": "neutral",
+  "direction": "south",
+  "tier": 3,
+  "status": "draft",
+  "approval": "pending_user_review",
+  "tool": "built-in image_gen",
+  "prompt": "Create ONE full-body transparent PNG game sprite of CHRIS seated reading an open burgundy hardcover book in both hands. Reference1 is approved CHRIS identity/costume. Reference2 is Char's MATCHING seated reading pose: directly match its camera elevation, seated posture, body direction, pelvis height, book position and bent legs. Replace Char with Chris, no feminine costume or anatomy. Preserve Chris adult male proportions, approved large blue anime eyes/full brown beard and moustache, gray tweed flat cap KEPT ON, red collared rolled-sleeve shirt with cream neckline, charcoal textured brass-button waistcoat, gold chain on his OWN anatomical LEFT waist with natural occlusion, black trousers and laceup boots. Richly shaded outlined anime game rendering. Legs uncrossed, both boots planted, no chair drawn. Head bowed naturally reading pages. Calm neutral expression. Keep full cap/book/both boots inside comfortable margins, consistent head drawing scale, no enlarging seated body to standing height. Clean isolated sprite with actual PNG transparency, alpha0 outside crisp silhouette, fully opaque character interior. No halo/aura/vignette/background/shadow/floor/text/extra character/mirroring. SOUTH: body squarely toward viewer like Char reference2, shoulders/hips facing forward, parallel thighs toward viewer, knees near together and both boot toes toward viewer. Open book centered above lap held at chest/waist level, eyes look down at pages, no eye contact. Chain on anatomical LEFT waist (screen RIGHT) if visible around book. No crossed legs.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+    },
+    {
+      "path": "assets/characters/poses/char/exports/south/char_seated_read_south_neutral.png",
+      "sha256": "d8d993ef7fa3c0e459dd23350d9e24e1b0c325998f336db25637d182d15f4c14"
+    }
+  ],
+  "path": "assets/characters/poses/chris/south/chris_seated_read_south_neutral.png",
+  "sha256": "05fc51a6bc0eacadeb168bef098ad52e79d24bd36565c240dcd11b30f52d8937",
+  "checks": {
+    "format": "PNG",
+    "canvas": [
+      1080,
+      1456
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "solid_bounds": [
+      208,
+      25,
+      899,
+      1418
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "occupied_height": 1393,
+    "standing_height_ratio": null,
+    "standing_height_within_four_percent": null,
+    "canvas_within_one_percent_of_reference": false,
+    "solid_pixels_clear_of_edges": true,
+    "alpha_present": true,
+    "maximum_alpha_255": true,
+    "opaque_fraction": 0.3526,
+    "warnings": [
+      "Native canvas differs; source pixels preserved. Common export canvas/pivot alignment remains pending; stature checked separately."
+    ],
+    "technical_pass": true,
+    "errors": []
+  },
+  "runtime_integrated": false,
+  "created": "2026-10-26T19:15:34.463165+00:00",
+  "visual_qa": {
+    "inspected": true,
+    "note": "South seated reading: both feet planted, book centered in both hands, gaze down to pages. User review pending, export scale and furniture fit unverified.",
+    "user_approval": "pending",
+    "date": "2026-10-26T19:15:34.738154+00:00"
+  },
+  "notes": "South seated reading: both feet planted, book centered in both hands, gaze down to pages. User review pending, export scale and furniture fit unverified. Furniture and runtime fit unverified."
+}

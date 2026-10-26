@@ -1,0 +1,84 @@
+{
+  "queue_id": "chris-standing_look_down_south-neutral",
+  "pose_id": "standing_look_down_south",
+  "variant_id": "neutral",
+  "direction": "south",
+  "tier": 1,
+  "status": "approved",
+  "approval": "approved",
+  "tool": "built-in image_gen",
+  "prompt": "Create ONE separate full-body transparent PNG game character pose of CHRIS, standing_look_down_south, variant neutral.\nREFERENCE 1 is Chris's USER-APPROVED canonical model: preserve this exact identity, male adult body proportions, common head scale and drawing scale. REFERENCE 2 is Char's SAME-POSE composition/expression reference ONLY. Do not copy her face, feminine body, outfit, hair, jewelry or hand gesture where the male override differs.\nIDENTITY LOCK: expressive larger blue anime eyes exactly like approved Chris v2, simplified softly shaded nose/face, full brown beard and connected moustache, brown brows, gray tweed flat cap KEPT ON. No cap removal or head scratching. RED collared shirt with rolled sleeves and small cream undershirt at throat, CHARCOAL textured waistcoat with brass buttons, gold watch chain on his anatomical LEFT waist (screen-right in south view), black tailored trousers and BLACK lace-up boots. Preserve asymmetric pocket/chain construction across directions with natural occlusion, never move it to another anatomical side to make it visible. Same richly shaded outlined anime/cartoon game rendering with deliberate crisp detail, no photoreal skin or tiny chibi anatomy.\nPOSE: Attentive downward inspection; upright, hands relaxed.\nEXPRESSION: neutral. Communicate it through eyes/brows/mouth and posture where visible. Suspicious does not mean furious. Nervous is anxious uncertainty, not crying or terror. Neutral has relaxed brows and a small closed-mouth friendly expression where face is visible.\nFACING: whole body faces toward viewer (SOUTH). Head/chest/hips/knees/boots agree. North must show actual back, no over-shoulder face. Elevated three-quarter mansion camera showing a little crown and shoulder tops. Independently draw this direction; NEVER mirror/flip another pose.\nSCALE/FRAMING: reference 1 has native 948x1659 canvas and occupied standing height 1564 pixels. Keep that SAME character drawing scale and comparable portrait canvas. Reference 2's native canvas [944, 1666] supplies pose composition, not stature. Full standing figure about 1564 pixels tall, within 4 percent, comfortably inside transparent margins on all sides; no cropping. Do not resize a seated/kneeling pose to standing height. Both shoes visible.\nOUTPUT: exactly ONE complete character with actual PNG alpha transparency (empty outside silhouette), complete arms/hands/legs/hat/boots, clean margins and gaps. No furniture, chair, floor, scenery, shadow, glow, text, labels, borders, grid or extra character. Any book is allowed only when required by the named action. Return only this image; draft production, not approval.\n",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+    },
+    {
+      "path": "assets/characters/poses/char/exports/south/char_standing_look_down_south_neutral.png",
+      "sha256": "e319454704bee827b018c4c4ce07cf6911365fba3d0c9cc6ccb3362fc775e950"
+    }
+  ],
+  "path": "assets/characters/poses/chris/south/chris_standing_look_down_south_neutral.png",
+  "sha256": "f53e7679487bf9066f5de844a79b7be765d69b7af3c223815a2e403156cad5c4",
+  "checks": {
+    "format": "PNG",
+    "canvas": [
+      984,
+      1599
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "solid_bounds": [
+      199,
+      24,
+      785,
+      1542
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "occupied_height": 1518,
+    "standing_height_ratio": 0.9706,
+    "standing_height_within_four_percent": true,
+    "canvas_within_one_percent_of_reference": false,
+    "solid_pixels_clear_of_edges": true,
+    "alpha_present": true,
+    "maximum_alpha_255": true,
+    "opaque_fraction": 0.335,
+    "warnings": [
+      "Native canvas differs; source pixels preserved. Common export canvas/pivot alignment remains pending; stature checked separately."
+    ],
+    "technical_pass": true,
+    "errors": []
+  },
+  "runtime_integrated": false,
+  "created": "2026-10-26T17:00:15.656871+00:00",
+  "visual_qa": {
+    "inspected": true,
+    "note": "South inspection pose with lowered chin and gaze, relaxed hanging hands, upright shoulders. Complete cap and boots; pending user art review.",
+    "user_approval": "approved",
+    "date": "2026-10-26T17:00:15.924161+00:00"
+  },
+  "notes": "South inspection pose with lowered chin and gaze, relaxed hanging hands, upright shoulders. Complete cap and boots; pending user art review. Furniture and runtime fit unverified.",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-26",
+      "source": "user_chat",
+      "quote": "Everything looks fine to me, but do what you need to do and continue"
+    },
+    "scope": "Current pose candidate displayed in review gallery; excludes superseded revisions and earlier alternate identity models. Artwork approval only; export alignment, cleanup and runtime fit remain separate.",
+    "files": [
+      {
+        "path": "assets/characters/poses/chris/south/chris_standing_look_down_south_neutral.png",
+        "sha256": "f53e7679487bf9066f5de844a79b7be765d69b7af3c223815a2e403156cad5c4"
+      }
+    ],
+    "retention": "Keep approved artwork and required production metadata."
+  }
+}

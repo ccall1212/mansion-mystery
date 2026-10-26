@@ -1,0 +1,15 @@
+{
+  "queue_id": "chris-standing_fidget_west-nervous",
+  "prompt": "Create ONE full-body transparent PNG of the SAME adult male anime game character Chris from the attached approved identity reference, but nervously BITING HIS THUMBNAIL, whole body facing WEST / screen LEFT in a three-quarter SIDE view. Both boot toes point LEFT. Make a clearly VERTICAL upright THUMB entering between front teeth. The raised hand is a loose FIST with ALL FOUR FINGERS curled together BELOW his mouth; the thumb rises from SIDE OF PALM beside the curled fingers to his lips. Mouth touches the BROAD thumbnail, not index finger. Hand viewed obliquely from thumb side so thumbnail is visible. Opposite forearm rests across stomach supporting the raised elbow. Worried brows, eyes looking left and slightly away with anxious uncertainty, no tears. Preserve cap KEPT ON, full brown beard and connected moustache, larger blue anime eyes, red collared rolled-sleeve shirt with cream undershirt neckline, charcoal textured waistcoat brass buttons and gold chain on HIS LEFT waist, black trousers and black lace-up boots. Same adult proportions and richly shaded outlined anime/cartoon rendering. Full cap and both boots with comfortable margins, approximate1564px occupied standing height on portrait canvas similar948x1659. Actual PNG alpha transparency, no floor shadow/background/text/furniture/props. Independently draw, do not mirror. Do not draw an extended index finger or fingertips pinching lips. The key visible action is the tip of the UPRIGHT THUMB touching teeth with the knuckles underneath.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "draft_destination": "assets/characters/poses/chris/west/chris_standing_fidget_west_nervous_r3.png",
+  "status": "generated",
+  "prepared": "2026-10-26T17:57:11.720311+00:00"
+}

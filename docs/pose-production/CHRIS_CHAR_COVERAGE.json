@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-26",
+  "count_basis": "One current pose_id/variant_id including canonical imported base. Exclude superseded changes_requested artwork and alternate revisions. Generated draft/needs_help coverage does not imply approval, technical readiness or runtime integration.",
+  "catalog_entries": 100,
+  "char_existing_catalog_pose_count": 81,
+  "char_existing_export_files": 78,
+  "char_catalog_draft_sources": 3,
+  "chris_current_generated_pose_count": 81,
+  "exact_matching_pose_count": 80,
+  "char_only": [
+    [
+      "standing_cry_south",
+      "remorseful"
+    ]
+  ],
+  "chris_only": [
+    [
+      "crouching_cry_south",
+      "remorseful"
+    ]
+  ],
+  "intentional_replacement": "Char standing_cry_south/remorseful is replaced by user-approved Chris crouching_cry_south/remorseful. Superseded Chris standing cry excluded.",
+  "chris_status_counts": {
+    "imported": 1,
+    "approved": 58,
+    "changes_requested": 1,
+    "draft": 17,
+    "needs_help": 5,
+    "queued": 19
+  },
+  "optional_catalog_missing_for_both": [
+    [
+      "kneeling_inspect_east",
+      "neutral"
+    ],
+    [
+      "kneeling_inspect_north",
+      "neutral"
+    ],
+    [
+      "seated_talk_east",
+      "friendly"
+    ],
+    [
+      "seated_talk_south",
+      "friendly"
+    ],
+    [
+      "seated_talk_west",
+      "friendly"
+    ],
+    [
+      "seated_write_south",
+      "neutral"
+    ],
+    [
+      "seated_write_west",
+      "neutral"
+    ],
+    [
+      "standing_drink_north",
+      "neutral"
+    ],
+    [
+      "standing_inspect_east",
+      "neutral"
+    ],
+    [
+      "standing_inspect_north",
+      "neutral"
+    ],
+    [
+      "standing_inspect_south",
+      "neutral"
+    ],
+    [
+      "standing_inspect_west",
+      "neutral"
+    ],
+    [
+      "standing_look_out_north",
+      "neutral"
+    ],
+    [
+      "standing_peek_east",
+      "neutral"
+    ],
+    [
+      "standing_peek_north",
+      "neutral"
+    ],
+    [
+      "standing_peek_south",
+      "neutral"
+    ],
+    [
+      "standing_peek_west",
+      "neutral"
+    ],
+    [
+      "standing_warm_hands_east",
+      "neutral"
+    ],
+    [
+      "standing_warm_hands_north",
+      "neutral"
+    ]
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "queue_id": "chris-seated_read_north-neutral",
+  "pose_id": "seated_read_north",
+  "variant_id": "neutral",
+  "direction": "north",
+  "tier": 3,
+  "status": "draft",
+  "approval": "pending_user_review",
+  "tool": "built-in image_gen",
+  "prompt": "Create ONE full-body transparent PNG game sprite of CHRIS seated reading an open burgundy hardcover book in both hands. Reference1 is approved CHRIS identity/costume. Reference2 is Char's MATCHING seated reading pose: directly match its camera elevation, seated posture, body direction, pelvis height, book position and bent legs. Replace Char with Chris, no feminine costume or anatomy. Preserve Chris adult male proportions, approved large blue anime eyes/full brown beard and moustache, gray tweed flat cap KEPT ON, red collared rolled-sleeve shirt with cream neckline, charcoal textured brass-button waistcoat, gold chain on his OWN anatomical LEFT waist with natural occlusion, black trousers and laceup boots. Richly shaded outlined anime game rendering. Legs uncrossed, both boots planted, no chair drawn. Head bowed naturally reading pages. Calm neutral expression. Keep full cap/book/both boots inside comfortable margins, consistent head drawing scale, no enlarging seated body to standing height. Clean isolated sprite with actual PNG transparency, alpha0 outside crisp silhouette, fully opaque character interior. No halo/aura/vignette/background/shadow/floor/text/extra character/mirroring. NORTH: entire body faces AWAY from viewer like Char reference2, actual back of cap, neck, waistcoat and pelvis visible. View slightly from rear-left so open book ahead of his chest is visible to screen right, as in reference2. No face or eye visible, no over-shoulder glance. Bent parallel thighs extend away and slightly right in this rear three-quarter projection, boot heels on implied floor. Back waistcoat plain charcoal fabric with natural seams; no gold chain on back.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+    },
+    {
+      "path": "assets/characters/poses/char/exports/north/char_seated_read_north_neutral.png",
+      "sha256": "42c25c2615468ad863816f52ea5b55eab8fcd16ab22b459750e2fdb5c5ffc5df"
+    }
+  ],
+  "path": "assets/characters/poses/chris/drafts/runner-01/chris_seated_read_north_neutral.png",
+  "sha256": "a9541982366ae7e463d53d9ea629ebe109aeec6d3568d5bf6f0bc23fcd9a3d6e",
+  "checks": {
+    "format": "PNG",
+    "canvas": [
+      1080,
+      1456
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "solid_bounds": [
+      163,
+      60,
+      1062,
+      1366
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "occupied_height": 1306,
+    "standing_height_ratio": null,
+    "standing_height_within_four_percent": null,
+    "canvas_within_one_percent_of_reference": false,
+    "solid_pixels_clear_of_edges": true,
+    "alpha_present": true,
+    "maximum_alpha_255": true,
+    "opaque_fraction": 0.3525,
+    "warnings": [
+      "Native canvas differs; source pixels preserved. Common export canvas/pivot alignment remains pending; stature checked separately."
+    ],
+    "technical_pass": true,
+    "errors": []
+  },
+  "runtime_integrated": false,
+  "created": "2026-10-26T19:13:37.845945+00:00",
+  "visual_qa": {
+    "inspected": true,
+    "note": "Back-facing seated reading matched to Char rear three-quarter reference, book ahead to right, no eye contact, both boots visible. Export scale and furniture fit unverified.",
+    "user_approval": "pending",
+    "date": "2026-10-26T19:13:38.110502+00:00"
+  },
+  "notes": "Back-facing seated reading matched to Char rear three-quarter reference, book ahead to right, no eye contact, both boots visible. Export scale and furniture fit unverified. Furniture and runtime fit unverified."
+}

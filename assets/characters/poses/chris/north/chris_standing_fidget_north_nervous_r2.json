@@ -1,0 +1,80 @@
+{
+  "queue_id": "chris-standing_fidget_north-nervous",
+  "pose_id": "standing_fidget_north",
+  "variant_id": "nervous",
+  "direction": "north",
+  "tier": 2,
+  "status": "approved",
+  "approval": "approved",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: precise-object-edit. Edit this transparent full-body Chris north/back-view nervous game sprite. Make ONLY ONE tiny costume correction: REMOVE the two round dark buttons directly BELOW the two rear trouser welt-pocket openings. Keep plain clean horizontal rear welt pockets with NO BUTTONS underneath, matching approved costume. Fill those two tiny areas with matching black trouser fabric shading. Preserve EVERYTHING ELSE exactly: pose, hand at mouth, opposite supporting forearm, back of cap, beard silhouette, red rolled-sleeve shirt, charcoal vest with rear adjustment strap and buckle, trousers, boots, proportions, occupied height and canvas dimensions. Do not redraw or restyle character, move limbs, crop, change scale or add anything. Retain original true PNG alpha transparency and transparent margins. One complete character, no text, floor shadow or backdrop.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_fidget_north_nervous.png",
+      "sha256": "bcd81728af42310fc4a9297cc63b45713f5322ec4fdfe5ac3820b00fe8e56786"
+    }
+  ],
+  "path": "assets/characters/poses/chris/north/chris_standing_fidget_north_nervous_r2.png",
+  "sha256": "024d01be7d3731be1819b22cb6e214cf9c027db1d7e3e75b4b955e25e676cd17",
+  "checks": {
+    "format": "PNG",
+    "canvas": [
+      976,
+      1611
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "solid_bounds": [
+      202,
+      43,
+      804,
+      1555
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "occupied_height": 1512,
+    "standing_height_ratio": 0.9668,
+    "standing_height_within_four_percent": true,
+    "canvas_within_one_percent_of_reference": false,
+    "solid_pixels_clear_of_edges": true,
+    "alpha_present": true,
+    "maximum_alpha_255": true,
+    "opaque_fraction": 0.2911,
+    "warnings": [
+      "Native canvas differs; source pixels preserved. Common export canvas/pivot alignment remains pending; stature checked separately."
+    ],
+    "technical_pass": true,
+    "errors": []
+  },
+  "runtime_integrated": false,
+  "created": "2026-10-26T18:00:29.496372+00:00",
+  "visual_qa": {
+    "inspected": true,
+    "note": "Corrected north nervous back view: rear welt pockets plain with invented buttons removed; mouth hand and opposite supporting forearm naturally partly occluded. Full cap and boots; pending user art approval.",
+    "user_approval": "approved",
+    "date": "2026-10-26T18:00:29.765695+00:00"
+  },
+  "notes": "Corrected north nervous back view: rear welt pockets plain with invented buttons removed; mouth hand and opposite supporting forearm naturally partly occluded. Full cap and boots; pending user art approval. Furniture and runtime fit unverified.",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-26",
+      "source": "user_chat",
+      "quote": "Looks great, approved, continue"
+    },
+    "scope": "Current six reviewed hands-behind-back and nervous pose candidates, exact latest revisions only. Artwork approval; export alignment and runtime fit remain pending.",
+    "files": [
+      {
+        "path": "assets/characters/poses/chris/north/chris_standing_fidget_north_nervous_r2.png",
+        "sha256": "024d01be7d3731be1819b22cb6e214cf9c027db1d7e3e75b4b955e25e676cd17"
+      }
+    ],
+    "retention": "Keep approved art and required production metadata."
+  }
+}

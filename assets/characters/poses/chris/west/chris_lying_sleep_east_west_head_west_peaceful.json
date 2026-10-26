@@ -1,0 +1,66 @@
+{
+  "queue_id": "chris-lying_sleep_east_west_head_west-peaceful",
+  "pose_id": "lying_sleep_east_west_head_west",
+  "variant_id": "peaceful",
+  "direction": null,
+  "tier": 3,
+  "status": "needs_help",
+  "approval": "pending_user_review",
+  "tool": "built-in image_gen",
+  "prompt": "Edit this EXACT approved lying Chris image into peaceful SLEEP. Preserve his exact identity, cap ON, costume, full adult leg lengths and boot sizes, crossed-leg arrangement, hand over stomach, other arm behind head, camera angle, canvas and head/feet direction. Change only eyes CLOSED, eyebrows relaxed without worry, mouth relaxed slightly parted, all facial tension released. No sad or worried expression. Keep full body and both boots inside margins; don't shorten feet or distort ankles. Same shaded outlined anime rendering. Actual transparent PNG cutout with only the opaque character; empty transparency around and between silhouette, no colored lighting haze, cast shadow, bed, pillow, furniture, floor or text. ONE character only. Do not mirror. Head stays LEFT (west), feet RIGHT. Eyebrows must be smooth RELAXED arcs, inner ends NOT raised or knitted, cheeks/jaw slack and mouth only slightly parted; peaceful dozing.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/west/chris_lying_idle_east_west_head_west_awake.png",
+      "sha256": "e0f85322c5230288dd148a228263e4a91ec4b7a4a560f4cdb302300751142c3e"
+    }
+  ],
+  "path": "assets/characters/poses/chris/west/chris_lying_sleep_east_west_head_west_peaceful.png",
+  "sha256": "65db1b319992b47f599e4f83bb776d4324c33bced03e37af45fffd46a56db501",
+  "checks": {
+    "format": "PNG",
+    "canvas": [
+      1536,
+      1024
+    ],
+    "alpha_extrema": [
+      0,
+      254
+    ],
+    "solid_bounds": [
+      9,
+      96,
+      1507,
+      904
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "occupied_height": 808,
+    "standing_height_ratio": null,
+    "standing_height_within_four_percent": null,
+    "canvas_within_one_percent_of_reference": false,
+    "solid_pixels_clear_of_edges": true,
+    "alpha_present": true,
+    "maximum_alpha_255": false,
+    "opaque_fraction": 0.2961,
+    "warnings": [
+      "Native canvas differs; source pixels preserved. Common export canvas/pivot alignment remains pending; stature checked separately."
+    ],
+    "technical_pass": false,
+    "errors": [
+      "maximum_alpha_255"
+    ]
+  },
+  "runtime_integrated": false,
+  "created": "2026-10-26T21:53:31.702165+00:00",
+  "visual_qa": {
+    "inspected": true,
+    "note": "Head-west sleeping derivative preserves selected awake body/legs, hand over stomach and other behind head. Eyes closed/parted relaxed mouth; brow softness needs user review. Broad halo persists/maxalpha254; not export ready.",
+    "user_approval": "pending",
+    "date": "2026-10-26T21:53:31.972289+00:00"
+  },
+  "notes": "Head-west sleeping derivative preserves selected awake body/legs, hand over stomach and other behind head. Eyes closed/parted relaxed mouth; brow softness needs user review. Broad halo persists/maxalpha254; not export ready. Furniture and runtime fit unverified."
+}

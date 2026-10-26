@@ -1,0 +1,19 @@
+{
+  "queue_id": "chris-standing_reach_table_west-neutral",
+  "prompt": "Create ONE full-body transparent PNG game sprite of CHRIS standing and reaching gently at TABLE HEIGHT, matching Char reference2 pose/camera/direction. Reference1 is his approved identity ONLY: adult male proportions, large blue anime eyes, full brown beard/moustache, gray tweed flat cap ON, red rolled-sleeve collared shirt/cream neckline, charcoal textured brass-button waistcoat, gold watch chain on HIS anatomical LEFT waist with natural occlusion, black tailored trousers and black laceup boots. Richly shaded outlined anime game art. One arm reaches forward from bent elbow at about WAIST height, hand palm DOWN and fingers relaxed/naturally curved as if about to touch a small object on a table that is NOT drawn. Other arm hangs relaxed at side. Gaze down toward reaching fingertips, chin slightly lowered, calm focused neutral mouth and brows. Torso mostly upright with only slight forward lean, both feet planted. No crouching, pointing, overhead reach or dramatic lunge. Keep same canonical head drawing scale, about1564px occupied standing height within4percent, portrait canvas near948x1659, entire cap and both boots in comfortable transparent margins. Exactly ONE character, no sheet/duplicates. Actual transparent PNG alpha0 outside and fully opaque character; no halo/glow/vignette/background, furniture/table/objects, floor/shadow/text. Independently draw, no mirroring. WEST: entire torso/hips/knees/boot toes face screen LEFT in side three-quarter view like Char reference2. Reach hand extends LEFT at waist level, face looks down left at hand. Near shoulder dominant, far shoulder receding, no front-facing chest or eye contact. Chain own LEFT waist on near side if visible.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+    },
+    {
+      "path": "assets/characters/poses/char/exports/west/char_standing_reach_table_west_neutral.png",
+      "sha256": "18b47e7c90e02fb73e8013c90c3eb5f3a6e50fbad4eda168243bc9ca79436b35"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "draft_destination": "assets/characters/poses/chris/west/chris_standing_reach_table_west_neutral.png",
+  "status": "generated",
+  "prepared": "2026-10-26T20:10:08.610835+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "queue_id": "chris-standing_fidget_south-nervous",
+  "prompt": "Create ONE revised full-body transparent PNG of Chris in nervous stance. Reference 1 is his approved identity/costume; reference 2 is the previous nervous draft to EDIT; reference 3 is BODY LANGUAGE ONLY, never copy the photographed man's face, hair, clothes, watch, age, or photographic rendering. Change the nervous draft's arm pose to closely follow the photo: ONE FOREARM FOLDED ACROSS LOWER CHEST/UPPER ABDOMEN, hand tucked under/supporting the OTHER ELBOW; the supported arm bends UP with a loosely curled hand at his lips, lightly biting one fingernail/knuckle. No hand on hip. Shoulders slightly drawn inward, eyes glance sideways, brows mildly tense with natural restrained anxious uncertainty, mouth mostly hidden by hand. Face and chest remain mainly SOUTH toward viewer, head may turn slightly to the side like photo; NOT a full profile. Preserve Chris's approved larger blue anime eyes, brown full beard/moustache, gray tweed cap kept ON, red rolled-sleeve shirt, small cream undershirt, charcoal waistcoat with brass buttons and gold chain on anatomical LEFT, black trousers and black lace-up boots. Keep same male adult build and proportions, common head size, approx1564px standing height and comparable tall canvas with generous transparent margins. Keep richly shaded outlined anime/cartoon art, not realistic skin. Complete figure with cap and shoes inside frame; natural hands, no extra fingers/limbs. Actual PNG alpha transparency, no photo wall/furniture/background, shadow, glow, text, labels or border. Save intended name chris_standing_fidget_south_nervous_r2.png. This overrides earlier hand-on-hip nervous template; use supported-elbow stance from user's photo. Only one revised draft.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+    },
+    {
+      "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_fidget_south_nervous.png",
+      "sha256": "26ea1036116d9418b5a315b1fecf0b58ad3efe035bf2d4808b7c8b1c2d8bc895"
+    },
+    {
+      "source": "user_attachment",
+      "filename": "codex-clipboard-33c5fb37-1112-4e5f-b0e1-436eca92d2fe.png",
+      "sha256": "dda5f536bfa0f52b3e813a499dd3134080e0751eab0b1ba7d80d8cfe2e4f6296"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "draft_destination": "assets/characters/poses/chris/south/chris_standing_fidget_south_nervous_r2.png",
+  "status": "generated",
+  "prepared": "2026-10-26T16:13:52.056595+00:00"
+}

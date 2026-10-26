@@ -1,0 +1,15 @@
+{
+  "queue_id": "chris-seated_read_north-neutral",
+  "prompt": "Edit this existing game sprite with ONE precise correction: the OPEN BOOK is backwards. Keep the character identity, clothing, seated body, hands location, camera, framing, scale and all other pixels/composition as close as possible. The character faces away from camera reading ahead. Correct physical book geometry: BOTH cream inner page spreads must face BACK toward the reader and the camera looking over the reader's shoulder. The center crease between pages is visible to us; two facing paper pages with cream margins and subtle unreadable lines form a coherent shallow V. Burgundy covers lie BEHIND the paper pages on the far side, facing away toward the front of the character; only thin burgundy cover edges may show around the pages. NO broad burgundy exterior cover facing camera, NO decorative exterior spine facing the reader. Adjust fingers minimally so hands grip the outer edges naturally without blocking both pages. Keep same book location/size. The reader looks into visible open inner pages, not at the cover. Preserve actual alpha transparency with empty transparent outside silhouette and opaque character. No glow, halo, background, floor or furniture. One complete character only.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/drafts/runner-01/chris_seated_read_north_neutral.png",
+      "sha256": "a9541982366ae7e463d53d9ea629ebe109aeec6d3568d5bf6f0bc23fcd9a3d6e"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "draft_destination": "assets/characters/poses/chris/north/chris_seated_read_north_neutral_r2.png",
+  "status": "generated",
+  "prepared": "2026-10-26T19:15:59.461392+00:00"
+}

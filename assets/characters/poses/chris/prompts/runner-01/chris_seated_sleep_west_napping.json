@@ -1,0 +1,19 @@
+{
+  "queue_id": "chris-seated_sleep_west-napping",
+  "prompt": "Create ONE transparent PNG game sprite: CHRIS napping seated. Image1 is Chris seated IDENTITY AND LOWER-BODY target: preserve his hips, bent legs, pelvis height, boot placement, camera angle, head size and character proportions. Image2 Char napping in matching direction is head/arms/mood reference only, not female identity or outfit. Change Chris upper body: head tipped softly toward one shoulder with chin a little lowered, eyes fully CLOSED, relaxed eyebrows/mouth, shoulders slightly slumped, both hands loosely folded in lap. Peaceful natural dozing, not sadness or crying. Preserve full brown beard/moustache, gray tweed flat cap ON, red rolled-sleeve collared shirt/cream neckline, charcoal textured waistcoat/brass buttons, chain on own anatomical LEFT waist with natural occlusion, black trousers and laceup boots. Legs uncrossed, both feet planted. Match existing lower-body geometry; do not turn to face viewer. Same richly shaded outlined anime rendering. One complete character, full cap and both boots inside transparent margins. Actual alpha transparency, fully opaque character and EMPTY alpha0 outside silhouette; REMOVE any inherited background glow. Flat diffuse lighting, no halo/aura/vignette, no background, no furniture/chair/floor/shadow, no props/book/text. Independently draw, no mirroring. Facing WEST screen LEFT. Torso/pelvis/thighs/knees/boot toes point LEFT as in Chris target, near shoulder dominant and far shoulder recedes. Head leans gently down toward near shoulder, eyes closed. Keep thighs extending left from hips and both boots planted left.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/west/chris_seated_idle_west_neutral_r2.png",
+      "sha256": "07eeda86ec1097111bd6fead94f8f8464ba9f2584b3111f6b30cbd66c90fab97"
+    },
+    {
+      "path": "assets/characters/poses/char/drafts/seated-nap-01/char_seated_sleep_west_napping.png",
+      "sha256": "edb53330cd69080248298c8398dd2c55bee4b60734f169e6268a3405753b8be9"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "draft_destination": "assets/characters/poses/chris/west/chris_seated_sleep_west_napping.png",
+  "status": "generated",
+  "prepared": "2026-10-26T19:32:01.845473+00:00"
+}

@@ -1,0 +1,80 @@
+{
+  "queue_id": "chris-standing_hold_book_north-neutral",
+  "pose_id": "standing_hold_book_north",
+  "variant_id": "neutral",
+  "direction": "north",
+  "tier": 3,
+  "status": "approved",
+  "approval": "pending_user_review",
+  "tool": "built-in image_gen",
+  "prompt": "Edit this SINGLE back-facing Chris sprite. Keep exact identity, gray cap, brown hair, red rolled-sleeve shirt, charcoal textured waistcoat back, black trousers and boots, same standing height and scale. Change arms ONLY: remove hands from pockets and bend both elbows in front of his torso holding ONE closed burgundy hardcover book vertically against his abdomen. The book is mostly OCCLUDED by his back/torso because we view him from behind. A narrow part of the closed book and hand may peek past his screen-left side. No face, eye or front torso visible; do not turn him around. Exactly ONE full-body figure, rear view only, centered. NOT a front/back model sheet, no duplicate, no side-by-side. Full cap and both boots with comfortable margin, around1564px occupied height on portrait canvas near948x1659. Keep existing waistcoat back adjustment strap and buckle; no rear watch chain or buttons on trouser pockets. Clean actual PNG alpha transparency, opaque character interior, no halo/shadow/floor/furniture/text/background. Keep his standing shape and proportions unchanged except arm pose.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/north/chris_standing_idle_north_neutral_r3.png",
+      "sha256": "0b85dfd21f7cb7f080f58421b4e24ade58e07ad620aa1b1c60f8f1eec4aa9e97"
+    }
+  ],
+  "path": "assets/characters/poses/chris/north/chris_standing_hold_book_north_neutral_r2.png",
+  "sha256": "0bdb51d675199b398549abed894ad45eea64039f6c7d254f57d1bdf82802f6b1",
+  "checks": {
+    "format": "PNG",
+    "canvas": [
+      985,
+      1597
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "solid_bounds": [
+      218,
+      41,
+      824,
+      1560
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "occupied_height": 1519,
+    "standing_height_ratio": 0.9712,
+    "standing_height_within_four_percent": true,
+    "canvas_within_one_percent_of_reference": false,
+    "solid_pixels_clear_of_edges": true,
+    "alpha_present": true,
+    "maximum_alpha_255": true,
+    "opaque_fraction": 0.3164,
+    "warnings": [
+      "Native canvas differs; source pixels preserved. Common export canvas/pivot alignment remains pending; stature checked separately."
+    ],
+    "technical_pass": true,
+    "errors": []
+  },
+  "runtime_integrated": false,
+  "created": "2026-10-26T19:44:33.658436+00:00",
+  "visual_qa": {
+    "inspected": true,
+    "note": "Corrected single rear figure, elbows bent ahead holding mostly occluded closed book visible at left edge. Approved north idle proportions and adjustment strap retained. Pending user artwork approval; runtime fit unverified.",
+    "user_approval": "pending",
+    "date": "2026-10-26T19:44:33.927911+00:00"
+  },
+  "notes": "Corrected single rear figure, elbows bent ahead holding mostly occluded closed book visible at left edge. Approved north idle proportions and adjustment strap retained. Pending user artwork approval; runtime fit unverified. Furniture and runtime fit unverified.",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-26",
+      "source": "user_chat",
+      "quote": "This is great. Continue"
+    },
+    "scope": "Latest four standing closed-book poses: east r2, north r2, south and west. Artwork only; export alignment and runtime fit remain pending.",
+    "files": [
+      {
+        "path": "assets/characters/poses/chris/north/chris_standing_hold_book_north_neutral_r2.png",
+        "sha256": "0bdb51d675199b398549abed894ad45eea64039f6c7d254f57d1bdf82802f6b1"
+      }
+    ],
+    "retention": "Keep approved artwork and necessary production metadata."
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "queue_id": "chris-standing_shrug_south-resigned",
+  "prompt": "Use case: identity-preserve. Revise image1, Chris's south-facing shrug game sprite. Image2 is approved Chris IDENTITY/costume only, do not copy its smile. Make this a BLEAK, DEFEATED, RESIGNED murderer-reveal pose: he has been found out and has utterly given up. Quiet emotional emptiness and loss of purpose. Remove EVERY trace of smile or amused warmth: lips closed, flat or slightly downturned and slack, no exposed teeth, no smirk. Eyes half-lidded and dull, gaze lowered slightly past viewer, inner eyebrows subtly raised with exhausted hopelessness, head lowered and tilted a little. Shoulders rounded forward and sagging. Keep only a small exhausted shrug: elbows close to torso, forearms low near waist, palms turned up loosely, wrists and fingers limp. Hands should be substantially LOWER and CLOSER to body than in image1. No cheerful expansive gesture, no broad theatrical shrug, no crying, no anger. It should read 'You found me out. I have nothing left.' through posture and expression, with NO TEXT in image. Preserve Chris's adult anime face, blue eyes, full brown beard/connected moustache, gray tweed flat cap KEPT ON, red rolled-sleeve shirt, cream undershirt neckline, charcoal textured waistcoat, brass buttons, gold chain on HIS LEFT waist, black trousers and black lace-up boots. Same richly shaded crisp outlined anime/cartoon game art, full figure south facing, elevated three-quarter game camera. Preserve standing drawing scale about1564px tall with full cap and boots and comfortable margins on a comparable portrait canvas. Real PNG alpha transparency. No furniture, scenery, floor shadow, text, symbols, weapons or additional objects. ONE complete character only.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_shrug_south_resigned.png",
+      "sha256": "93bbda17fc5757cec43af71f738b5faa73ad6742731d728087b27ba9dfb71ee5"
+    },
+    {
+      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "draft_destination": "assets/characters/poses/chris/south/chris_standing_shrug_south_resigned_r2.png",
+  "status": "generated",
+  "prepared": "2026-10-26T17:05:46.831268+00:00",
+  "revision_evidence": {
+    "date": "2026-10-26",
+    "source": "user_chat",
+    "quote": "This one needs to be more I have nothing left to live for and I guess I've been found out"
+  }
+}

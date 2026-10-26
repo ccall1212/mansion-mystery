@@ -1,0 +1,86 @@
+{
+  "queue_id": "chris-standing_read_north-neutral",
+  "pose_id": "standing_read_north",
+  "variant_id": "neutral",
+  "direction": "north",
+  "tier": 3,
+  "status": "approved",
+  "approval": "pending_user_review",
+  "tool": "built-in image_gen",
+  "prompt": "Create ONE full-body transparent PNG sprite of CHRIS STANDING READING an OPEN burgundy hardcover book, held in BOTH hands in front of lower chest. Image1 approved Chris is identity/proportions/costume; image2 matching Char standing reading is camera/body direction/book position only. Preserve adult male proportions, exact approved large blue anime eyes, full brown beard and moustache, gray tweed flat cap KEPT ON, red rolled-sleeve collared shirt/cream neckline, charcoal textured brass-button waistcoat, gold chain on HIS anatomical LEFT waist with natural occlusion, black trousers and black laceup boots. Richly shaded outlined anime game art. Stand naturally on BOTH feet, torso mostly upright, elbows bent comfortably, head/chin lowered and eyes focused on inner pages, calm relaxed neutral closed mouth. Fingers naturally support book outer edges; both inner pages face READER, burgundy covers face AWAY from reader. No backwards book. Full standing height around1564px within4percent, portrait canvas near948x1659, canonical head drawing scale, complete cap/hands/book/both boots comfortably inside margins. Exactly ONE character, independently drawn not mirrored. Actual PNG alpha0 outside crisp silhouette and opaque interior; no halo/glow/vignette/background/floor/shadow/furniture/text/labels. NORTH: body entirely AWAY from viewer, actual back cap/neck/waistcoat/trouser seat and boot heels. Head bowed in front, NO face or eye visible, no over-shoulder glance. Book ahead of chest, largely occluded by torso; a visible portion of OPEN CREAM INNER PAGES may peek beside his screen-left shoulder like Char2. Both inner pages point BACK toward reader and over-shoulder camera; NO broad decorated outer cover or exterior spine facing reader/camera. Burgundy covers only thin edges BEHIND the visible pages. Keep back adjustment strap/buckle, no rear watch chain, no buttons on rear trouser pockets. ONLY ONE rear-view figure, no front/back sheet.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+    },
+    {
+      "path": "assets/characters/poses/char/exports/north/char_standing_read_north_neutral.png",
+      "sha256": "2fa74f22e4a3f4539500907de531ace4a8fe93d1a1b5c8a5d286c917c648a4ce"
+    }
+  ],
+  "path": "assets/characters/poses/chris/north/chris_standing_read_north_neutral.png",
+  "sha256": "6d9c632cec2403450c5c9df7b051229284f484cad0f7154082771ce4b267c10e",
+  "checks": {
+    "format": "PNG",
+    "canvas": [
+      1015,
+      1550
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "solid_bounds": [
+      241,
+      22,
+      797,
+      1523
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "occupied_height": 1501,
+    "standing_height_ratio": 0.9597,
+    "standing_height_within_four_percent": false,
+    "canvas_within_one_percent_of_reference": false,
+    "solid_pixels_clear_of_edges": true,
+    "alpha_present": true,
+    "maximum_alpha_255": true,
+    "opaque_fraction": 0.3089,
+    "warnings": [
+      "Native canvas differs; source pixels preserved. Common export canvas/pivot alignment remains pending; stature checked separately."
+    ],
+    "technical_pass": false,
+    "errors": [
+      "standing_height"
+    ]
+  },
+  "runtime_integrated": false,
+  "created": "2026-10-26T20:16:46.637776+00:00",
+  "visual_qa": {
+    "inspected": true,
+    "note": "North actual back, bowed head, open cream pages peek above left shoulder facing reader and camera correctly. Full cap/heels. Height1501px is4.03percent below1564 reference, about1px below automatic4percent threshold; retained for visual review, export scale adjustment pending. Not technically cleared for export.",
+    "user_approval": "pending",
+    "date": "2026-10-26T20:20:19.664190+00:00"
+  },
+  "notes": "North actual back, bowed head, open cream pages peek above left shoulder facing reader and camera correctly. Full cap/heels. Height1501px is4.03percent below1564 reference, about1px below automatic4percent threshold; retained for visual review, export scale adjustment pending. Not technically cleared for export. Furniture and runtime fit unverified.",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-26",
+      "source": "user_chat",
+      "quote": "Good Continue"
+    },
+    "scope": "Latest four standing reading artworks. North height1501px borderline scale flag accepted for artwork only; export alignment and runtime fit remain pending.",
+    "files": [
+      {
+        "path": "assets/characters/poses/chris/north/chris_standing_read_north_neutral.png",
+        "sha256": "6d9c632cec2403450c5c9df7b051229284f484cad0f7154082771ce4b267c10e"
+      }
+    ],
+    "retention": "Keep approved art and necessary metadata."
+  }
+}

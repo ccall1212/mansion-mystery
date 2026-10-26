@@ -616,3 +616,97 @@ project's own text channel (the custom DOSBox-X build's `mcp_server` option, sam
   replaced about 6 calls per room. A whole game fit in roughly 10-15 calls.
 - Suggestion for `server.py`: add a `walk_to(col, row)` tool built on the same BFS idea, plus
   a `question_nearest` tool. `original_move` already provides the verification loop.
+
+---
+
+## 19. The accusation matrix, and corrections to floor and stalking claims (games 8-14)
+
+Seven more games, run with the text-channel helper (section 18.7). This section answers the
+question "what happens when you accuse with the wrong room, person or item?" and **overrides**
+earlier statements about floors, assembling and the death scene where they disagree.
+
+### 19.1 Accusation outcomes (all observed)
+
+| Case | Result | Seen in |
+| --- | --- | --- |
+| Accuse before assembling | Refused: you have not gathered all the suspects yet. Nothing is lost. | Game 9 |
+| Assemble with the weapon not yet found | Refused: you have not even found the murder weapon. | Game 9 |
+| Assemble with the weapon identified but **not carried** | Refused: you do not have the murder weapon with you. | Game 10 |
+| Assemble with the weapon carried, **any room** | Allowed; the suspects gather and the door locks. The room does not need to be the murder room. | Games 2, 5, 10 |
+| **Right person**, right room, weapon carried | **Win:** confession, closure text, move count and rank. | Games 3, 4, 5, 12 |
+| **Right person, wrong room**, weapon carried | The culprit confesses **and names the true room**. The game then ends (quit or restart). | Game 2 |
+| **Wrong person, right room**, weapon carried | The **real culprit** stands up angrily: "you've got the right room, but I used the <weapon> to kill <victim>." Game over. | Game 14 |
+| **Wrong person, wrong room**, weapon carried | "Very slipshod": it names the **true culprit** and the **true room** ("not in the <room> you chose"). Game over. | Game 10 |
+| Wrong or no item | **Cannot be reached.** You can only pick up the true weapon (and the glass). Taking any other object with the glass is refused: "it's not the murder weapon, so there's not much point in taking it". Carrying the weapon also blocks taking anything else. | Games 10, 11 |
+
+Conclusions:
+
+- **Assembling is gated by the weapon, not the room.** "Assemble any time" is not how the original
+  works: you must be **carrying the true weapon**. The room only matters at the accusation.
+- **A wrong accusation always ends the game**, and every ending tells you the answer. Losing is
+  informative, which suits a teaching game.
+- The original has **no "wrong item" case** because it never lets you hold one.
+- A lucky guess works: game 12 was a win from a one-in-six accusation (304 moves, "Professional").
+
+### 19.2 Floors: bloodstains need a staring guest (corrects 8, 17.5 and 18.5)
+
+- **The murder room's floor only shows bloodstains while a guest is staring at the floor in it.**
+  In game 14 the sewing room was the murder room, and `ex floor` there said "nothing unusual" twice
+  when nobody stared. It printed the red bloodstain message the third time, when Harriet stared.
+  All nine bloodstain messages I have seen (games 1, 3, 4, 5, 8, 10, 11, 12, 14) came with a staring
+  guest present.
+- **Two clean-floor wordings.** With **no** staring guest the answer is "I can't see anything
+  unusual about the floor. But then I am rather nearsighted." With a staring guest in an **innocent**
+  room it is the shorter "There's nothing unusual about the floor." So the game answers about
+  *what the staring guest sees*, which also explains "I can't see what <guest> is looking at from
+  all the way over here" when you are too far.
+- **Staring guests also appear in innocent rooms (decoys).** Updated tally: a staring guest was in
+  the murder room in about 9 of 19 sightings.
+- **Practical consequence:** you cannot find the murder room by checking every floor once. You
+  must find a staring guest (keep circulating, since they roam) and examine that room's floor from
+  beside them. Other routes to the room were a wrong-room accusation, which reveals it but ends the
+  game, and a death scene.
+
+### 19.3 Secret passage, now clearer (corrects 10 and 17.4)
+
+- **Entrance:** in the room directly below the narrow room, press UP in the top row at one particular
+  column. It prints **"You have stepped through a secret panel in the wall."** Columns seen (text
+  grid, 2 columns per step): 7 in a first-house game, 9 and 5 in second-house games. Probing each
+  column once found it in four to five presses, so the column is random per game.
+- **The panel closes behind you.** You cannot step back out where you came in.
+- **Inside the second house:** "a secret corridor which spans the length and breadth of the house".
+  In game 14 the **magnifying glass lay in that corridor**, and a suspect was standing in it.
+  In the first house the same space is a "secret passageway" and held an obsidian obelisk.
+- **Exit:** at one cell of the corridor (column 5 in game 14), UP drops you into a **blind
+  passage** ("a blind corridor in the secret passageway") where your marker vanishes. About five UP
+  presses brought me out in the **sewing room's west edge** in both second-house games.
+  In the first house it came out at the upper staircase (game 2).
+- Moves inside the passage still count.
+
+### 19.4 Danger messages and the two death scenes (extends 18.2)
+
+- Seen in order: "The murderer has grown suspicious of your investigation!", then "The murderer
+  is now stalking you!". In game 13 both appeared **without** me having identified or carried the
+  weapon, soon after I went upstairs and entered the secret panel. So **weapon pickup is not
+  required** to start them.
+- **Death scene A (not carrying the weapon):** the murderer locks the door, states the room and
+  the weapon, and says goodbye. (Games 1, 6, 7, 8, 9.)
+- **Death scene B (carrying the weapon):** "In a flash, <murderer> locks the door behind you,
+  **grabs the weapon from your hands**, and coshes you over the head." No confession. (Game 11.)
+- **Trigger, as far as I can tell:** you walk into a room that the murderer is standing in while the
+  stalking phase is active. Deaths happened while entering, not while idle. In games 3, 4 and 5
+  (wins) I either never met the murderer in a room or finished first.
+- Game 9's death came after I had questioned the murderer and **before** I had identified any
+  weapon, so identification is not the trigger. I cannot separate "questioned them" from "time
+  passed".
+
+### 19.5 Smaller items
+
+- **The front stoop:** leaving by the front door puts you outside ("You are standing on the front
+  stoop. It is storming heavily out here.") and you can walk back in.
+- **Ranks:** "Professional Sleuth" now seen at both 304 and 323 moves, "Master Sleuth" at 233,
+  "Bumbling Sleuth" at 549.
+- **Carrying limit:** the glass and the weapon can both be carried. While carrying the weapon, taking
+  anything else is refused.
+- **The glass is not always in an ordinary room.** It was in a visible room in most games but in
+  the secret corridor in game 14.

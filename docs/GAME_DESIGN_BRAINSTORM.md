@@ -764,3 +764,65 @@ is agreed. No gameplay implementation or new art was requested by this brief.
 Selected on 2026-10-25: triumphant evil laugh, remorseful crying after an unintended killing, and defiant pointing accusation (revised from refusal). All three south-facing artwork variants are approved; the remorseful version is full sobbing with both hands wiping tears. Reuse ordinary surprised, nervous, sad and defensive poses for other reveal moments. These variants are selected only after the story establishes the murderer and response; they do not assign permanent personalities or imply guilt during ordinary interaction. Artwork approval is separate from runtime fit and reveal logic.
 
 Additional approved south-facing confrontation pose (2026-10-25): furious threat, with a forward stance, clenched fists and full shout. This expands the selected reveal/confrontation artwork to four variants. Runtime fit and story selection remain pending.
+
+## Design decisions — 2026-10-25 (cast size, accusation, danger clock)
+
+Recorded from a design discussion with the user, using the observations in
+[the combined original-game research](ORIGINAL_GAME_ANALYSIS.md). These are
+**decisions about direction**. Nothing here is implemented, and implementing it still
+needs a focused brief.
+
+### Decided
+
+| Topic | Decision |
+| --- | --- |
+| Cast size | Cases use **6-8 suspects** (some cases may differ), drawn from a pool of **about 10 characters** from the existing drafts. The player can **name and choose** who is in the game, or **randomize**. |
+| House size | The playable house should become **somewhat larger** than the current compact 7-room scope to suit 6-8 suspects. The earlier "start small" rule still applies to the first generated slice. |
+| Accusation | **Original style.** The player may **assemble the suspects at any time**, with no prerequisites, and may be wrong. Being wrong has consequences. |
+| Checklist | **Remove** the requirements checklist and the F4 "remaining leads" board so the player has to remember and deduce. |
+| Danger clock | **Turn-based with visible phases.** A turn is a room change or an action (question, examine, collect), not a single step. A later brief must set the thresholds. |
+
+### Implications and proposals (not yet decided)
+
+- **Alibi structure at larger sizes.** With N suspects there are N-1 innocents. Proposed split:
+  mutual pairs for as many as possible, plus 0-2 solo innocents (and optionally a trio) for
+  variety. Examples: 6 suspects = two pairs + one solo; 7 = three pairs; 8 = three pairs + one
+  solo. The culprit names someone who does not return the claim. A decoy where two people name
+  the same partner in different rooms is a harder-difficulty option. A solver check should
+  confirm exactly one unreciprocated claim.
+- **House scale.** Rough original density was about 0.55 guests per room. For 6-8 suspects
+  that suggests roughly 10-12 rooms (halls included as walkable spaces). Reuse the existing
+  18-background art and the deferred rooms before commissioning new rooms.
+- **Cast selection.** Selected characters need a roster screen (pick, rename or randomize),
+  stable ids, and a separate victim slot. The original's "personalized" mode used seven names
+  (six suspects and one victim); here the victim comes from the same pool. Character looks stay
+  separate from case roles, as already decided.
+- **Assemble anytime (updated after live testing, games 8-14).** The original does **not** let you
+  assemble with no prerequisites. It requires **carrying the true murder weapon** (any room is
+  fine); accusing before assembling is refused harmlessly. The original also never lets you hold a
+  wrong item, so the "wrong item" case does not exist there. Outcomes once assembled: right
+  person and room wins; right person in the wrong room confesses the true room and ends the game;
+  wrong person in the right room makes the real culprit stand up and correct you; wrong person in the
+  wrong room names the true culprit and room. A wrong accusation always ends the game and tells the
+  player the answer. See section 19 of
+  [the observations log](../Claude%20observations/ORIGINAL_GAMEPLAY_OBSERVATIONS.md).
+  **Decision needed:** keep the weapon requirement for assembling, or let the remake assemble anytime
+  and make evidence matter only at the accusation?
+- **Victim.** Every case always has exactly one victim, who is part of the selected cast and is not
+  one of the suspects. The original's personalized mode asks for seven names for this reason (six
+  suspects and one victim).
+- **Accusation consequences.** Proposal: wrong person is a loss that reveals the solution; right
+  person in the wrong room confesses the true room and also fails. A loss that teaches is part
+  of the original's feel.
+- **Stains and the magnifying glass (open).** Two options:
+  1. **Blood is visible as soon as the glass is used**, as in the original.
+  2. **Staged reveal:** without the glass the stain reads as ambiguous (water, tea, wine);
+     the glass shows which stains are blood. Proposal for option 2: keep the murder-room
+     stain visible without the glass, let the glass confirm blood on both the floor and the weapon,
+     and place one or two harmless stains elsewhere. That gives floor-staring guests a believable
+     reason to be wrong and gives the glass a real job. A reliable blood trace must always exist
+     in the murder room, so the case stays solvable.
+- **Turn clock phases (proposal).** Calm, then "grown suspicious" at a randomized threshold, then
+  stalking once the weapon is identified or carried, then an ambush in a room where the player is alone
+  with the murderer (door locks, solution revealed, loss). Every phase needs a visible cue. A
+  real-time timer could remain a hard-mode option; see the countdown section above.

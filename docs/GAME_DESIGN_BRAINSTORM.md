@@ -1,8 +1,35 @@
 # Mansion mystery gameplay brainstorm and future features
 
+The [combined original-game research](ORIGINAL_GAME_ANALYSIS.md) is the shared entry point for Claude's seven-game notes and Codex's observations. This document keeps the detailed remake proposals; source findings and unresolved conflicts are reconciled there.
+
 Recorded 2026-10-23 from the user's gameplay design brief and prior project decisions.
 This is the primary record of future gameplay intent for subsequent sessions.
 Recording a requirement here does not authorize its implementation or mean it exists.
+
+## Original-game lessons — research update 2026-10-25
+
+The user clarified that studying the original should supply ideas for this game;
+building an automatic winner is not the goal. The evidence, caveats and draft
+responses are in [Dialogue and case randomization research](DIALOGUE_RANDOMIZATION_DESIGN.md#research-purpose-and-design-lessons--2026-10-25).
+
+**Proposed priorities, not new implementation authorization:**
+
+1. Give the current three speakers persistent claims, varied voice, short recaps
+   and recoverable refusals before adding more characters or a large generator.
+2. Present present-day activity separately from historical testimony. Use the
+   furniture/pose pipeline to make rooms inhabited; avoid extra pose production
+   for every delivery phrase. A curious character can inspect shelves or a window
+   while facing north, while conversations use suitable conversational facings.
+3. Keep the foyer magnifier easy to obtain, distinguish visual hints from verified
+   evidence, and let the notebook compare who/where/when claims without naming the
+   liar for the player. Telegraph danger and the consequences of a final gathering.
+
+These proposals preserve the user's investigation order: collect the glass first;
+identify evidence; leave the weapon until murderer and murder room are established.
+Do not infer guilt from anger, being alone, a floor-inspection pose or a present
+room. Do not require weapon and crime room to differ: our latest recorded run
+placed both clues in the study. Exact original mood and stalking rules remain
+unknown and need not be copied to achieve fair, expressive investigation.
 
 ## Latest scope decisions — compact house and future map
 

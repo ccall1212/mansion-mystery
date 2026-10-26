@@ -1,8 +1,93 @@
 # Dialogue and case randomization research
 
+The [combined original-game research](ORIGINAL_GAME_ANALYSIS.md) is the shared entry point for Claude's seven-game notes and Codex's observations. This document keeps the detailed remake proposals; source findings and unresolved conflicts are reconciled there.
+
 2026-10-25. Static audit of all 33 files in the user's original-game archive,
 plus the current remake controllers and prior brainstorm. This document records
 findings and an implementation proposal; it does not add randomized cases to the game.
+
+## Later live checks — 2026-10-25
+
+The automated surveys described in [Original game evidence](ORIGINAL_GAME_ANALYSIS.md)
+now corroborate the delivery/core/commentary shape, refusal/repeat responses,
+stable historical companion/room claims across repeated answers, and changes in
+current guest location/activity. Three comparison surveys captured 60 responses;
+a separate glass-first survey captured 16 more and identified weapon/room evidence.
+These observations strengthen the assembly model below without recovering the
+original RNG, personality assignments or exact dialogue-selection algorithm.
+Claude's seven-game handoff reports paired-alibi solutions and terminal outcomes;
+our research objective remains learning for the remake, not automatic solution verification. Keep a solo claim, hostile delivery and present-room
+activity separate from proof of guilt.
+
+## Research purpose and design lessons — 2026-10-25
+
+The user's objective is to learn from the original and bring ideas to the remake,
+not to build an automatic winner. Automation is an observation tool. Prefer a
+small experiment that answers a design question over another broad case sweep.
+Winning is useful only if an ending or accusation mechanic needs verification.
+
+Across the four saved surveys, 67 of 76 replies contained a parseable solo/shared
+alibi; the other nine were manually checked refusals. Within each of 15 observed
+speaker/case combinations, every parsed answer kept the same partner and room.
+This sample does not estimate the game's general probabilities or prove which
+personality bank is active. A focused follow-up added six asks: five preserved
+the same claim and one refusal was followed immediately by a successful answer.
+
+The focused study first collected the glass. The visible guest/player positions
+were unchanged at baseline, four seconds and eight seconds of passive waiting,
+and after six questions plus a search. After leaving and returning, another named
+guest occupied the same piano position and had the same room-specific activity.
+Screenshots verified the different occupants despite identical marker positions.
+This establishes an observed occupancy change, not its timing trigger or travel
+path; it does not prove the game is universally turn-based. Search returned no
+object in this one attempt, so no guilt or inventory rule follows from it.
+
+| Lesson | Evidence and limit | Proposed use in the remake |
+| --- | --- | --- |
+| Remember testimony independently of tone | 72 answered claims across 16 speaker/case combinations stayed consistent; ten other asks refused. Limited sample, not a recovered algorithm. | Store the partner/room/time claim once. Select wording and reactions around it. The clue book retains the last learned claim when a later ask refuses. |
+| Personality is broader than a delivery phrase | A single guest could answer normally, hiss a refusal, then answer again. Exact original profile assignments are unknown. | Separate persistent temperament from temporary irritation, fear, cooperation and conversational context. Do not reroll a whole personality on every click. |
+| Repeats should serve the player | Full first accounts were followed by shorter restatements and varied irritation. | Offer a concise recap and an explicit new-evidence topic. Avoid making the player reread a long speech or spam a button until the RNG cooperates. |
+| Rooms supply reusable activities | Different occupants used the same piano position/activity after a revisit. Actual movement between them was not seen. | Choose a compatible furniture anchor/activity, then an eligible character pose. Implement navigable journeys rather than copying an unseen room-refresh teleport. |
+| Current whereabouts are not the historical alibi | Guests described other rooms in their statements; repeat encounters retained that account. | Clearly distinguish where a person is now, where they claim to have been, and what the player independently observed. |
+| Gestures are leads, not proof | Claude reports both true and false floor-staring leads; our glass-first run found a positive floor clue. No measured false-lead rate. | Looking down/kneeling can motivate inspection, but only inspection adds the crime-room fact. Give innocent inspection activities an authored reason. |
+| The tool changes what inspection can establish | Glass-first investigation yielded explicit weapon and floor evidence. | Keep the existing accessible foyer glass while testing the mystery. Prefer clear stages of observation and forensic interpretation over hunting randomly for a mandatory tool. |
+| Weapon and crime room need independent bindings | In our glass-first transcript the weapon and floor clue were both in the study, unlike Claude's four cases where the rooms differed. No event screenshot was captured for those two messages. | Allow either co-location or separation when the authored timeline supports it; do not require them to differ based on a small sample. |
+| Tension needs understandable feedback | Suspicion warnings occurred in the first surveys without weapon pickup. User/historical guidance says premature pickup escalates danger; the rate change was not measured here. | Preserve the user's cautious order, but make escalating attention legible. Decide explicitly what advances danger, and avoid silently spending a timer while notes/dialogue are open. |
+| A final gathering changes the interaction contract | Claude reports that assembly blocks further questioning. Not independently repeated here. | Signal the commitment clearly and let the player review notes beforehand. A premature gathering should not be an accidental parser trap. |
+
+These are proposals and research conclusions, not newly implemented features or
+additional art requests. Keep the current compact house and approved pose scope.
+A north-facing activity can use neutral/reading/sitting/inspection as appropriate;
+conversation delivery does not require a north-facing version of every emotion.
+Curious inspection remains useful for windows, pictures and shelves without
+becoming an automatic clue or guilt indicator.
+
+### Concrete next dialogue authoring exercise
+
+Use the existing Silent Library case rather than inventing a generator first.
+Char's current authored account contains these fixed propositions: Chris entered
+the library at 11:40 carrying the kitchen knife; Char went for the household ledger;
+on returning she found Adrian gone and the rug moved; Justin was serving tea in
+the dining room. Keep all of them in each full account. Voice labels below are
+unassigned examples, not permanent personality assignments or approved dialogue.
+
+**Cooperative draft:** “At 11:40, Chris came into the library carrying the kitchen
+knife. I left to fetch the household ledger. When I came back, Adrian was gone
+and the rug had shifted. Justin was serving tea in the dining room.”
+
+**Anxious draft:** “I keep going over it. It was 11:40 when Chris entered the library
+with the kitchen knife. I went to fetch the household ledger. When I returned,
+Adrian was gone. The rug had moved. Justin was serving tea in the dining room.”
+
+**Targeted repeat, carrying-the-knife topic:** “Chris entered the library with the
+kitchen knife at 11:40. That is what I saw.” This intentionally repeats only the
+requested fact; the other learned facts remain in the notebook.
+
+**Temporary refusal draft:** “Please give me a moment to collect myself.” This
+adds no claim and must not erase testimony or permanently remove a required lead.
+The recovery route remains a design decision, not an arbitrary probability copied
+from the original. Review equivalent accounts and follow-ups for the three current
+speakers before changing the live case or introducing randomized assignments.
 
 ## Findings and confidence
 

@@ -1,5 +1,7 @@
 # Original SLEUTH 4.45 — live gameplay observations
 
+**Combined research:** [Original Sleuth: combined research and remake ideas](<../docs/ORIGINAL_GAME_ANALYSIS.md>) reconciles this source log with Codex's surveys, static audit and design suggestions. Keep this file as the detailed chronological source; later sections correct earlier ones.
+
 Written 2026-10-25 for hand-off to Codex. Source: two live playthroughs of the original
 DOS game (SLEUTH0.EXE, "Basic Sleuth" mode) under the existing DOSBox-X build, plus the
 shipped data/doc files and this repo's `docs/ORIGINAL_GAME_ANALYSIS.md` and
@@ -13,9 +15,9 @@ Conventions:
 - Original dialogue is paraphrased or reduced to templates. Per `AGENTS.md`, the original
   text stays out of the repo. Nothing here modifies the game, executable or reference copy.
 
-Four games were played. Games 1-2 are covered in sections 1-16. **Games 3-4 (both won) were
-added later and are in section 17, which also corrects a few earlier statements.** Where
-sections 1-16 and section 17 disagree, section 17 wins.
+Seven games were played. Games 1-2 are covered in sections 1-16. **Games 3-4 (both won) were
+added later and are in section 17, which also corrects a few earlier statements.** Games 5-7
+are in section 18. Where an earlier section and a later one disagree, **the later section wins**.
 
 ---
 
@@ -522,3 +524,92 @@ Other observations:
 6. What do `KNOCK` and `SEARCH <person>` do when it matters?
 7. Is the pool of carryables fixed per room? Repeated across games: bottle opener (kitchen), Beethoven
    bust, fern, mirror, mug, cold cream, candelabra. So pools of three seem plausible.
+
+---
+
+## 18. Games 5-7 (one win, two losses) and the death scene
+
+All three were in the second house. They used a much faster text-based driver (section 18.7).
+
+### 18.1 Results
+
+| Game | Estate and victim | Culprit | Weapon | Murder room | Glass found in | Result |
+| --- | --- | --- | --- | --- | --- | --- |
+| 5 | Seton, Harriet | John | silver teapot (parlor) | butler's bedroom | dining hall | **Won: "549 moves", rank "Bumbling Sleuth"** |
+| 6 | Shore, Vanessa | Margaret | marble bookend (butler's bedroom) | parlor | dining hall | Killed |
+| 7 | Seton, William | Margaret | brass pot (kitchen) | ballroom | parlor | Killed |
+
+In games 6 and 7 the murderer's death speech told me the room and weapon, so those rows are exact.
+
+### 18.2 The death scene (resolves the open question in 17.8)
+
+- **What happens.** You enter a room, and the murderer is already there. The text says the murderer
+  **quietly locks the door behind you**, then **announces where and with what they killed the victim**
+  ("I killed <victim> in the <room> with the <weapon>... now I intend to dispose of you") and
+  says goodbye. The next prompt is **"Do you want to quit or to restart?"**. Seen in games 6
+  (vault) and 7 (ballroom); game 1's lost message was almost certainly the same.
+- **A loss reveals the full solution** (room, weapon and culprit), which is a handy fact for a
+  game designer: losing teaches you what you missed.
+- **Trigger, observed.** In both deaths I had **just identified the murder weapon** with the glass
+  (red "traces of blood" message). I was killed about 35-45 moves later, on entering a room
+  that was empty except for the murderer (ballroom, vault). In game 7 I had questioned the
+  murderer a few minutes earlier.
+- **Game 5 (survived).** After I *picked up* the weapon, the line **"The murderer is now stalking
+  you!"** appeared on several hall and room screens. I walked about 80 more moves, mostly through
+  rooms with other guests, and reached the accusation room alive.
+- **Working hypothesis (inferred, not proven):** identifying or carrying the weapon starts the
+  stalking phase. After that, the murderer wanders and kills if you walk into a room where they
+  are waiting alone with you. The earlier "grown suspicious" warning (games 1 and 2) looks like
+  an *earlier* stage of the same system. Games 3-4 had neither message and no stalking.
+- **Practical rule for players:** after finding the weapon, **go directly to the murder room**,
+  prefer routes through busy rooms, and accuse. Do not keep examining other items.
+
+### 18.3 The alibi pattern again
+
+| Game | Claims seen | Culprit tell |
+| --- | --- | --- |
+| 5 | Daryl and Margaret name each other (bedroom); William and Carlotta name each other (kitchen); Vanessa alone (sewing room) | **John**, the only one left; a clean win |
+| 6 | Daryl names Carlotta (kitchen); **Margaret names Carlotta (dining hall)**; William and John name each other (ballroom); Harriet alone (dining hall) | **Margaret** (confirmed by the death speech) |
+| 7 | Daryl names Vanessa (sewing room); **Margaret names Vanessa (butler's room)**; John names Harriet (kitchen); Carlotta alone (butler's room) | **Margaret** (confirmed by the death speech) |
+
+A new, cheaper tell: **two different people claim the same partner in different rooms.** One of
+them is the culprit. You can see this *without questioning the partner*. Which of the two is
+lying still needs the partner's own statement (or the process of elimination).
+
+### 18.4 Scoring
+
+Rank ladder so far: **Master Sleuth (233 moves), Professional Sleuth (323), Bumbling Sleuth (549).**
+At least four rank titles exist; the cut-offs are unknown. Game 5's number is inflated because my
+helper re-walked long routes and I visited most rooms twice. The game's "moves" count did not match
+my own tally of keys, so I still cannot say exactly what is counted.
+
+### 18.5 Floors and the staring clue, updated
+
+- Game 5: Vanessa stared at the floor in the **butler's bedroom** and that was the murder room.
+  Margaret stared in the bathroom; that floor was clean.
+- Game 6: Harriet (kitchen) and William (ballroom) stared; neither floor was the murder room.
+- Game 7: nobody stared at any point, and the murder room was the ballroom.
+- **Running tally: staring guest in the murder room in 4 of 11 sightings.** It is a hint, not a rule.
+
+### 18.6 Carryables seen in the second house
+
+Weapons found: silver teapot, marble bookend, brass pot. Innocent items include a jewel-encrusted
+mirror, papier-mâché mask, brass piggy bank, steel needlepoint frame, soap tray, jar of preserves,
+iron, tuba, brandy snifter, backgammon set, shampoo bottle, electric drill, silver serving platter,
+reading lamp and toy train. **The weapon is usually an ordinary household object**, and its room
+changes every game. The glass was in the dining hall twice and the parlor once.
+
+### 18.7 Tooling note: why this was faster
+
+Games 1-4 used keystrokes plus screenshots. Games 5-7 read the DOS text page directly through the
+project's own text channel (the custom DOSBox-X build's `mcp_server` option, same as
+`tools/dos-game-mcp/server.py`).
+
+- The 80x25 text page shows walls as block glyphs, the player as character code 2, and everything
+  else as text. One horizontal step is **2 text columns**; one vertical step is 1 row.
+- With the map as text, a breadth-first search plus a **position check after every key** takes me
+  room to room in about a second. It also catches dropped keys without screenshots.
+- A single "walk to this cell, read the room text, ask the nearest guest, examine the item" call
+  replaced about 6 calls per room. A whole game fit in roughly 10-15 calls.
+- Suggestion for `server.py`: add a `walk_to(col, row)` tool built on the same BFS idea, plus
+  a `question_nearest` tool. `original_move` already provides the verification loop.

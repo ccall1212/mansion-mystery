@@ -1,5 +1,15 @@
 # Prioritized development plan
 
+Original research direction (2026-10-25): the user wants ideas for the remake,
+not an automatic-win system. The existing MCP adapter is an observation tool.
+The latest focused study checked waiting, repeated refusal/recovery and room
+revisits after collecting the glass; it did not pick up a weapon, gather or accuse.
+Next authoring work: review equivalent full accounts, concise recaps and temporary
+refusals for The Silent Library's existing facts. Then use small targeted studies
+only for unresolved design questions. See DIALOGUE_RANDOMIZATION_DESIGN.md for
+prioritized lessons and original draft lines. No new runtime features are delivered
+by this research, and building an automatic solver is not a milestone.
+
 Dialogue research update (2026-10-25): [the full original-data audit and proposed
 randomization design](DIALOGUE_RANDOMIZATION_DESIGN.md) separates identities,
 personalities, case roles, timelines, knowledge and claims. Proposed next dialogue

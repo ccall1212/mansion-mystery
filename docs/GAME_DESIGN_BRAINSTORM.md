@@ -889,8 +889,8 @@ south-facing wall rest. The seated nap poses are tracked separately in
 
 Measured at the standing scale, the lying figures are about 47 x 70 world pixels. That fits the
 north-south bed footprint (78 x 120) but not the only bed in the current build, the east-west canopy
-bed (`bed_east_west_head_east`, 120 x 72), so **east-west, head-east versions of the lying poses
-are still needed**. Hair and skirt spread are the main bulk and the revised prompts ask for a
+bed (`bed_east_west_head_east`, 120 x 72), so east-west, head-east versions of the lying poses (awake and asleep) were made and approved
+(about 71 x 34 world pixels), with runtime fit still pending. Hair and skirt spread are the main bulk and the revised prompts ask for a
 more compact silhouette. The lying poses are recorded in the manifest and metadata only; the
 directional index has no lying group yet. A sofa facing north or south would need an east-west
 sofa-nap version. See `assets/characters/poses/char/prompts/rest-sleep-01.md`.

@@ -1,0 +1,47 @@
+{
+  "pose_id": "lying_idle_east_west_head_east",
+  "variant_id": "awake",
+  "actor_facing": null,
+  "posture": "lying",
+  "activity": "idle",
+  "expression": "thoughtful",
+  "gesture": "awake_on_back_one_hand_on_stomach",
+  "props": [],
+  "body_axis": "east_west",
+  "head_direction": "east",
+  "source_master": "assets/characters/poses/char/masters/lying-east-west-01/char_lying_idle_east_west_head_east_awake.png",
+  "source_sha256": "5060dbdb8c04a51f2a05d914e578dfb0046a872145cf523111aceb593d65a58e",
+  "export": "assets/characters/poses/char/exports/lying/char_lying_idle_east_west_head_east_awake.png",
+  "export_sha256": "5060dbdb8c04a51f2a05d914e578dfb0046a872145cf523111aceb593d65a58e",
+  "canvas": [
+    1536,
+    1024
+  ],
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "approved",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-25",
+      "source": "user",
+      "quote": "I think its good enough. Go ahead."
+    },
+    "scope": "East-west, head-east lying artwork only, for the east-west canopy bed (bed_east_west_head_east). Body axis slants about 12 degrees upward to the right from the camera angle. Runtime fit and bed contact calibration pending.",
+    "files": [
+      {
+        "path": "assets/characters/poses/char/exports/lying/char_lying_idle_east_west_head_east_awake.png",
+        "sha256": "5060dbdb8c04a51f2a05d914e578dfb0046a872145cf523111aceb593d65a58e"
+      }
+    ]
+  },
+  "runtime_integrated": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "landmark_record": "assets/characters/poses/char/metadata/lying-east-west-01/char_lying_idle_east_west_head_east_awake.json",
+  "intended_use": "Guest lying awake on the east-west canopy bed; not a guilt indicator.",
+  "notes": "Revision of the north-south drafts after the bed-size review (prompts/rest-sleep-01.md). About 71 x 34 world px at the standing scale against a 120 x 72 bed footprint; canvas 1536x1024."
+}

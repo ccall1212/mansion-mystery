@@ -1,0 +1,111 @@
+{
+  "queue_id": "chris-standing_withdraw_south-sad",
+  "pose_id": "standing_withdraw_south",
+  "variant_id": "sad",
+  "direction": "south",
+  "tier": 2,
+  "status": "approved",
+  "approval": "approved",
+  "tool": "built-in image_gen",
+  "prompt": "Create ONE separate full-body transparent PNG game character pose of CHRIS, standing_withdraw_south, variant sad.\nREFERENCE 1 is Chris's USER-APPROVED canonical model: preserve this exact identity, male adult body proportions, common head scale and drawing scale. REFERENCE 2 is Char's SAME-POSE composition/expression reference ONLY. Do not copy her face, feminine body, outfit, hair, jewelry or hand gesture where the male override differs.\nIDENTITY LOCK: expressive larger blue anime eyes exactly like approved Chris v2, simplified softly shaded nose/face, full brown beard and connected moustache, brown brows, gray tweed flat cap KEPT ON. No cap removal or head scratching. RED collared shirt with rolled sleeves and small cream undershirt at throat, CHARCOAL textured waistcoat with brass buttons, gold watch chain on his anatomical LEFT waist (screen-right in south view), black tailored trousers and BLACK lace-up boots. Preserve asymmetric pocket/chain construction across directions with natural occlusion, never move it to another anatomical side to make it visible. Same richly shaded outlined anime/cartoon game rendering with deliberate crisp detail, no photoreal skin or tiny chibi anatomy.\nPOSE: Head down, hands in pockets, shoulders slumped.\nEXPRESSION: sad. Communicate it through eyes/brows/mouth and posture where visible. Suspicious does not mean furious. Nervous is anxious uncertainty, not crying or terror. Neutral has relaxed brows and a small closed-mouth friendly expression where face is visible.\nFACING: whole body faces toward viewer (SOUTH). Head/chest/hips/knees/boots agree. North must show actual back, no over-shoulder face. Elevated three-quarter mansion camera showing a little crown and shoulder tops. Independently draw this direction; NEVER mirror/flip another pose.\nSCALE/FRAMING: reference 1 has native 948x1659 canvas and occupied standing height 1564 pixels. Keep that SAME character drawing scale and comparable portrait canvas. Reference 2's native canvas [944, 1666] supplies pose composition, not stature. Full standing figure about 1564 pixels tall, within 4 percent, comfortably inside transparent margins on all sides; no cropping. Do not resize a seated/kneeling pose to standing height. Both shoes visible.\nOUTPUT: exactly ONE complete character with actual PNG alpha transparency (empty outside silhouette), complete arms/hands/legs/hat/boots, clean margins and gaps. No furniture, chair, floor, scenery, shadow, glow, text, labels, borders, grid or extra character. Any book is allowed only when required by the named action. Return only this image; draft production, not approval.\n",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+    },
+    {
+      "path": "assets/characters/poses/char/exports/south/char_standing_withdraw_south_sad.png",
+      "sha256": "a107347b22f490ffc9c246a1657a59390deeb6479e0285857d87fd48627d5879"
+    }
+  ],
+  "path": "assets/characters/poses/chris/masters/runner-01/chris_standing_withdraw_south_sad.png",
+  "sha256": "f5f36b2f6b76f2f5d1f3b2d63c455516bdec60e903eaec4f34f58d16718552be",
+  "checks": {
+    "format": "PNG",
+    "canvas": [
+      976,
+      1612
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "solid_bounds": [
+      199,
+      26,
+      813,
+      1553
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "occupied_height": 1527,
+    "standing_height_ratio": 0.9763,
+    "standing_height_within_four_percent": true,
+    "canvas_within_one_percent_of_reference": false,
+    "solid_pixels_clear_of_edges": true,
+    "alpha_present": true,
+    "maximum_alpha_255": true,
+    "opaque_fraction": 0.3462,
+    "warnings": [
+      "Native canvas differs; source pixels preserved. Common export canvas/pivot alignment remains pending; stature checked separately."
+    ],
+    "technical_pass": true,
+    "errors": []
+  },
+  "runtime_integrated": false,
+  "created": "2026-10-26T18:21:46.486015+00:00",
+  "visual_qa": {
+    "inspected": true,
+    "user_approval": "approved",
+    "date": "2026-10-26T22:44:50.870929+00:00",
+    "note": "Explicit current-version approval reconciled."
+  },
+  "notes": "Artwork approved; original pixels preserved. Shared canvas/pivot alignment and furniture/runtime fit remain unverified.",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-26",
+      "source": "user_chat",
+      "quote": "Yes, approve all 17 current versions"
+    },
+    "scope": "Exact current Chris artwork; byte-identical organization/export copies authorized. Furniture fit and common canvas/pivot alignment remain unverified.",
+    "files": [
+      {
+        "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_withdraw_south_sad.png",
+        "sha256": "f5f36b2f6b76f2f5d1f3b2d63c455516bdec60e903eaec4f34f58d16718552be"
+      },
+      {
+        "path": "assets/characters/poses/chris/masters/runner-01/chris_standing_withdraw_south_sad.png",
+        "sha256": "f5f36b2f6b76f2f5d1f3b2d63c455516bdec60e903eaec4f34f58d16718552be"
+      },
+      {
+        "path": "assets/characters/poses/chris/exports/south/chris_standing_withdraw_south_sad.png",
+        "sha256": "f5f36b2f6b76f2f5d1f3b2d63c455516bdec60e903eaec4f34f58d16718552be"
+      }
+    ],
+    "retention": "Keep exact approved artwork and required production metadata; runtime fit remains unverified."
+  },
+  "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_withdraw_south_sad.png",
+  "source_sha256": "f5f36b2f6b76f2f5d1f3b2d63c455516bdec60e903eaec4f34f58d16718552be",
+  "export": "assets/characters/poses/chris/exports/south/chris_standing_withdraw_south_sad.png",
+  "export_sha256": "f5f36b2f6b76f2f5d1f3b2d63c455516bdec60e903eaec4f34f58d16718552be",
+  "landmark_record": "assets/characters/poses/chris/metadata/runner-01/chris_standing_withdraw_south_sad.json",
+  "actor_facing": "south",
+  "posture": "standing",
+  "activity": "withdraw",
+  "props": [],
+  "canvas": [
+    976,
+    1612
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "contact_calibration": "pending"
+}

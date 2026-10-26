@@ -1,0 +1,3014 @@
+{
+  "schema_version": 1,
+  "authoring_only": true,
+  "status": "confirmed_for_draft_production",
+  "prepared": "2026-10-26T15:58:23.482543+00:00",
+  "source": "Claude observations/CODEX_POSE_PRODUCTION_RUNNER_PROMPT.md",
+  "counts_by_tier": {
+    "1": 26,
+    "2": 18,
+    "3": 37,
+    "4": 19
+  },
+  "unique_images_per_character": 100,
+  "core_images_per_character": 81,
+  "tier4_images_per_character": 19,
+  "aliases": [
+    {
+      "pose_id": "standing_listen_north",
+      "reuse_from": "standing_idle_north",
+      "variant_id": "neutral",
+      "new_image": false
+    },
+    {
+      "pose_id": "standing_listen_east",
+      "reuse_from": "standing_idle_east",
+      "variant_id": "neutral",
+      "new_image": false
+    },
+    {
+      "pose_id": "standing_listen_south",
+      "reuse_from": "standing_idle_south",
+      "variant_id": "neutral",
+      "new_image": false
+    },
+    {
+      "pose_id": "standing_listen_west",
+      "reuse_from": "standing_idle_west",
+      "variant_id": "neutral",
+      "new_image": false
+    }
+  ],
+  "exclusions": [
+    "Chris hat removal and head scratch",
+    "Walking animations",
+    "Unspecified extra north-facing emotions",
+    "Generic extra standing reaches beyond explicit table and kneeling reach"
+  ],
+  "characters": [
+    {
+      "character_id": "likeness-photo01",
+      "review_number": "01",
+      "name": "Char",
+      "slug": "char",
+      "template_proposal": "female",
+      "height_ratio": 1,
+      "target_images": 100,
+      "proposed_order": 9,
+      "production_eligibility": "approved_base",
+      "new_pose_approval": "not_requested",
+      "pool_membership": "pending_final_pool_selection",
+      "identity_reference": {
+        "source": "res://assets/characters/review-v6/sources/selected-party-hm.png",
+        "crop_grid": [
+          3,
+          2,
+          1
+        ],
+        "caption": "Selected Party I",
+        "panel_crop": [
+          0.2,
+          0,
+          0.68,
+          0.99
+        ]
+      }
+    },
+    {
+      "character_id": "likeness-first-A",
+      "review_number": "02",
+      "name": "Justin",
+      "slug": "justin",
+      "template_proposal": "male",
+      "height_ratio": 1,
+      "target_images": 100,
+      "proposed_order": 3,
+      "production_eligibility": "needs_base_approval_or_selection",
+      "new_pose_approval": "not_requested",
+      "pool_membership": "pending_final_pool_selection",
+      "identity_reference": {
+        "source": "res://assets/characters/review-v6/sources/selected-party-hm.png",
+        "crop_grid": [
+          3,
+          2,
+          5
+        ],
+        "caption": "Selected Party M",
+        "panel_crop": [
+          0.2,
+          0,
+          0.68,
+          0.99
+        ]
+      }
+    },
+    {
+      "character_id": "likeness-first-B",
+      "review_number": "03",
+      "name": "Danny",
+      "slug": "danny",
+      "template_proposal": "male",
+      "height_ratio": 1,
+      "target_images": 100,
+      "proposed_order": 4,
+      "production_eligibility": "needs_base_approval_or_selection",
+      "new_pose_approval": "not_requested",
+      "pool_membership": "pending_final_pool_selection",
+      "identity_reference": {
+        "source": "res://assets/characters/review-v5/masters/photo-03-f-scruff-v5.png",
+        "crop_grid": [
+          3,
+          2,
+          1
+        ],
+        "caption": "First B",
+        "panel_crop": [
+          0.16,
+          0,
+          0.7,
+          0.99
+        ]
+      }
+    },
+    {
+      "character_id": "likeness-first-C",
+      "review_number": "04",
+      "name": "Gage",
+      "slug": "gage",
+      "template_proposal": "male",
+      "height_ratio": 1,
+      "target_images": 100,
+      "proposed_order": 5,
+      "production_eligibility": "needs_base_approval_or_selection",
+      "new_pose_approval": "not_requested",
+      "pool_membership": "pending_final_pool_selection",
+      "identity_reference": {
+        "source": "res://assets/characters/review-v5/masters/photo-03-f-scruff-v5.png",
+        "crop_grid": [
+          3,
+          2,
+          2
+        ],
+        "caption": "First C",
+        "panel_crop": [
+          0.16,
+          0,
+          0.7,
+          0.99
+        ]
+      }
+    },
+    {
+      "character_id": "likeness-first-D",
+      "review_number": "05",
+      "name": "Robbie",
+      "slug": "robbie",
+      "template_proposal": "male",
+      "height_ratio": 1,
+      "target_images": 100,
+      "proposed_order": 6,
+      "production_eligibility": "needs_base_approval_or_selection",
+      "new_pose_approval": "not_requested",
+      "pool_membership": "pending_final_pool_selection",
+      "identity_reference": {
+        "source": "res://assets/characters/review-v6/sources/selected-party-ag.png",
+        "crop_rect": [
+          768,
+          0,
+          384,
+          512
+        ],
+        "caption": "Selected Party C"
+      }
+    },
+    {
+      "character_id": "likeness-user",
+      "review_number": "06",
+      "name": "Chris",
+      "slug": "chris",
+      "template_proposal": "male",
+      "height_ratio": 1,
+      "target_images": 100,
+      "proposed_order": 1,
+      "production_eligibility": "approved_base",
+      "new_pose_approval": "not_requested",
+      "pool_membership": "pending_final_pool_selection",
+      "identity_reference": {
+        "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+        "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc",
+        "reviewed_candidate": "assets/characters/poses/chris/drafts/model-review-01/chris_standing_idle_south_neutral_red_shirt_anime_v2.png",
+        "revision": "anime_v2",
+        "description": "Larger expressive blue anime eyes, full brown beard and moustache, gray flat cap, red rolled-sleeve shirt, charcoal waistcoat, gold buttons and watch chain, black trousers and boots."
+      }
+    },
+    {
+      "character_id": "likeness-first-F",
+      "review_number": "07",
+      "name": "Kwinn",
+      "slug": "kwinn",
+      "template_proposal": "male",
+      "height_ratio": 1,
+      "target_images": 100,
+      "proposed_order": 2,
+      "production_eligibility": "needs_base_approval_or_selection",
+      "new_pose_approval": "not_requested",
+      "pool_membership": "pending_final_pool_selection",
+      "identity_reference": {
+        "source": "res://assets/characters/review-v6/sources/selected-party-hm.png",
+        "crop_grid": [
+          3,
+          2,
+          3
+        ],
+        "caption": "Selected Party K",
+        "panel_crop": [
+          0.2,
+          0,
+          0.68,
+          0.99
+        ]
+      }
+    },
+    {
+      "character_id": "likeness-party-A",
+      "review_number": "08",
+      "name": "Chloe",
+      "slug": "chloe",
+      "template_proposal": "female",
+      "height_ratio": 1,
+      "target_images": 100,
+      "proposed_order": 11,
+      "production_eligibility": "needs_base_approval_or_selection",
+      "new_pose_approval": "not_requested",
+      "pool_membership": "pending_final_pool_selection",
+      "identity_reference": {
+        "source": "res://assets/characters/review-v3/masters/photo-04-upper-five-v3.png",
+        "crop_rect": [
+          160,
+          10,
+          408,
+          488
+        ],
+        "caption": "Party A"
+      }
+    },
+    {
+      "character_id": "likeness-party-B",
+      "review_number": "09",
+      "name": "Matt",
+      "slug": "matt",
+      "template_proposal": "male",
+      "height_ratio": 1,
+      "target_images": 100,
+      "proposed_order": 7,
+      "production_eligibility": "needs_base_approval_or_selection",
+      "new_pose_approval": "not_requested",
+      "pool_membership": "pending_final_pool_selection",
+      "identity_reference": {
+        "source": "res://assets/characters/review-v3/masters/photo-04-upper-five-v3.png",
+        "crop_rect": [
+          568,
+          10,
+          401,
+          488
+        ],
+        "caption": "Party B"
+      }
+    },
+    {
+      "character_id": "likeness-party-E",
+      "review_number": "10",
+      "name": "Camille",
+      "slug": "camille",
+      "template_proposal": "female",
+      "height_ratio": 1,
+      "target_images": 100,
+      "proposed_order": 12,
+      "production_eligibility": "needs_base_approval_or_selection",
+      "new_pose_approval": "not_requested",
+      "pool_membership": "pending_final_pool_selection",
+      "identity_reference": {
+        "source": "res://assets/characters/review-v3/masters/photo-04-upper-five-v3.png",
+        "crop_rect": [
+          768,
+          502,
+          418,
+          490
+        ],
+        "caption": "Party E"
+      }
+    },
+    {
+      "character_id": "likeness-party-H",
+      "review_number": "11",
+      "name": "Carolyn",
+      "slug": "carolyn",
+      "template_proposal": "female",
+      "height_ratio": 1,
+      "target_images": 100,
+      "proposed_order": 13,
+      "production_eligibility": "needs_base_approval_or_selection",
+      "new_pose_approval": "not_requested",
+      "pool_membership": "pending_final_pool_selection",
+      "identity_reference": {
+        "source": "res://assets/characters/review-v5/masters/photo-04-k-cheek-scruff-v5.png",
+        "crop_grid": [
+          3,
+          2,
+          0
+        ],
+        "caption": "Party H",
+        "panel_crop": [
+          0.2,
+          0,
+          0.68,
+          0.99
+        ]
+      }
+    },
+    {
+      "character_id": "likeness-party-J",
+      "review_number": "12",
+      "name": "Isabelle",
+      "slug": "isabelle",
+      "template_proposal": "female",
+      "height_ratio": 1,
+      "target_images": 100,
+      "proposed_order": 14,
+      "production_eligibility": "needs_base_approval_or_selection",
+      "new_pose_approval": "not_requested",
+      "pool_membership": "pending_final_pool_selection",
+      "identity_reference": {
+        "source": "res://assets/characters/review-v5/masters/photo-04-k-cheek-scruff-v5.png",
+        "crop_grid": [
+          3,
+          2,
+          2
+        ],
+        "caption": "Party J",
+        "panel_crop": [
+          0.2,
+          0,
+          0.68,
+          0.99
+        ]
+      }
+    },
+    {
+      "character_id": "likeness-party-L",
+      "review_number": "13",
+      "name": "Sarah Jo",
+      "slug": "sarah-jo",
+      "template_proposal": "female",
+      "height_ratio": 1,
+      "target_images": 100,
+      "proposed_order": 10,
+      "production_eligibility": "approved_base",
+      "new_pose_approval": "not_requested",
+      "pool_membership": "pending_final_pool_selection",
+      "identity_reference": {
+        "source": "res://assets/characters/review-v7/masters/sarah-jo-short-hair-proportions-v7.png",
+        "transparent": true,
+        "caption": "Very short cropped hair"
+      }
+    },
+    {
+      "character_id": "existing-protagonist",
+      "review_number": "14",
+      "name": "Current protagonist",
+      "slug": null,
+      "template_proposal": "unassigned",
+      "height_ratio": 1,
+      "target_images": 100,
+      "proposed_order": null,
+      "production_eligibility": "needs_base_approval_or_selection",
+      "new_pose_approval": "not_requested",
+      "pool_membership": "pending_final_pool_selection",
+      "identity_reference": {
+        "source": "res://assets/characters/references/protagonist-front.png",
+        "transparent": true,
+        "caption": "Current investigator"
+      }
+    },
+    {
+      "character_id": "existing-eleanor",
+      "review_number": "15",
+      "name": "Eleanor / revised design",
+      "slug": null,
+      "template_proposal": "unassigned",
+      "height_ratio": 1,
+      "target_images": 100,
+      "proposed_order": null,
+      "production_eligibility": "needs_base_approval_or_selection",
+      "new_pose_approval": "not_requested",
+      "pool_membership": "pending_final_pool_selection",
+      "identity_reference": {
+        "source": "res://assets/characters/review-v2/masters/eleanor-proportion-v2.png",
+        "transparent": true,
+        "caption": "Larger-head revision"
+      }
+    },
+    {
+      "character_id": "likeness-new-left",
+      "review_number": "20",
+      "name": "Jessica",
+      "slug": "jessica",
+      "template_proposal": "female",
+      "height_ratio": 0.85,
+      "target_images": 100,
+      "proposed_order": 15,
+      "production_eligibility": "needs_base_approval_or_selection",
+      "new_pose_approval": "not_requested",
+      "pool_membership": "pending_final_pool_selection",
+      "identity_reference": {
+        "source": "res://assets/characters/review-v8/masters/jessica-cartoon-v8.png",
+        "transparent": true,
+        "caption": "Cartoon face revision"
+      }
+    },
+    {
+      "character_id": "likeness-new-right",
+      "review_number": "21",
+      "name": "John",
+      "slug": "john",
+      "template_proposal": "male",
+      "height_ratio": 1,
+      "target_images": 100,
+      "proposed_order": 8,
+      "production_eligibility": "needs_base_approval_or_selection",
+      "new_pose_approval": "not_requested",
+      "pool_membership": "pending_final_pool_selection",
+      "identity_reference": {
+        "source": "res://assets/characters/review-v8/masters/john-cartoon-v8.png",
+        "transparent": true,
+        "caption": "Cartoon face revision"
+      }
+    }
+  ],
+  "entries": [
+    {
+      "pose_id": "standing_idle_north",
+      "posture": "standing",
+      "activity": "idle",
+      "variant_id": "neutral",
+      "directions": [
+        "north"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/north/char_standing_idle_north_neutral.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        1045,
+        1844
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Hands in trouser pockets; relaxed planted stance.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_idle_east",
+      "posture": "standing",
+      "activity": "idle",
+      "variant_id": "neutral",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/east/char_standing_idle_east_neutral.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        1045,
+        1844
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Hands in trouser pockets; relaxed planted stance.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_idle_south",
+      "posture": "standing",
+      "activity": "idle",
+      "variant_id": "neutral",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_idle_south_neutral.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        1045,
+        1844
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Hands in trouser pockets; relaxed planted stance.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_idle_west",
+      "posture": "standing",
+      "activity": "idle",
+      "variant_id": "neutral",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/west/char_standing_idle_west_neutral.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        1045,
+        1844
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Hands in trouser pockets; relaxed planted stance.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_talk_north",
+      "posture": "standing",
+      "activity": "talk",
+      "variant_id": "friendly",
+      "directions": [
+        "north"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/north/char_standing_talk_north_friendly.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "One hand gestures openly, other in pocket or on hip.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_talk_east",
+      "posture": "standing",
+      "activity": "talk",
+      "variant_id": "friendly",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/east/char_standing_talk_east_friendly.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "One hand gestures openly, other in pocket or on hip.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_talk_south",
+      "posture": "standing",
+      "activity": "talk",
+      "variant_id": "friendly",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_talk_south_friendly.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "One hand gestures openly, other in pocket or on hip.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_talk_west",
+      "posture": "standing",
+      "activity": "talk",
+      "variant_id": "friendly",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/west/char_standing_talk_west_friendly.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "One hand gestures openly, other in pocket or on hip.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_look_down_east",
+      "posture": "standing",
+      "activity": "look_down",
+      "variant_id": "neutral",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/east/char_standing_look_down_east_neutral.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Attentive downward inspection; upright, hands relaxed.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_look_down_south",
+      "posture": "standing",
+      "activity": "look_down",
+      "variant_id": "neutral",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_look_down_south_neutral.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Attentive downward inspection; upright, hands relaxed.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_look_down_west",
+      "posture": "standing",
+      "activity": "look_down",
+      "variant_id": "neutral",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/west/char_standing_look_down_west_neutral.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Attentive downward inspection; upright, hands relaxed.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_cross_arms_north",
+      "posture": "standing",
+      "activity": "cross_arms",
+      "variant_id": "suspicious",
+      "directions": [
+        "north"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/north/char_standing_cross_arms_north_suspicious.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Arms folded, feet apart; skeptical expression.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_cross_arms_east",
+      "posture": "standing",
+      "activity": "cross_arms",
+      "variant_id": "suspicious",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/east/char_standing_cross_arms_east_suspicious.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Arms folded, feet apart; skeptical expression.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_cross_arms_south",
+      "posture": "standing",
+      "activity": "cross_arms",
+      "variant_id": "suspicious",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_cross_arms_south_suspicious.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Arms folded, feet apart; skeptical expression.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_cross_arms_west",
+      "posture": "standing",
+      "activity": "cross_arms",
+      "variant_id": "suspicious",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/west/char_standing_cross_arms_west_suspicious.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Arms folded, feet apart; skeptical expression.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_deny_east",
+      "posture": "standing",
+      "activity": "deny",
+      "variant_id": "defensive",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/east/char_standing_deny_east_defensive.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Both hands raised at chest height, palms outward toward interlocutor, fingers naturally spread; uneasy earnest denial, elbows bent and slight backward lean. No hand at neck or on hip.",
+      "planned_source_missing": false,
+      "revision_evidence": {
+        "date": "2026-10-26",
+        "source": "user_chat",
+        "quote": "I'm not satisfied with the deny poses, I feel like it should be more like a hand outward denial"
+      }
+    },
+    {
+      "pose_id": "standing_deny_south",
+      "posture": "standing",
+      "activity": "deny",
+      "variant_id": "defensive",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_deny_south_defensive.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Both hands raised at chest height, palms outward toward interlocutor, fingers naturally spread; uneasy earnest denial, elbows bent and slight backward lean. No hand at neck or on hip.",
+      "planned_source_missing": false,
+      "revision_evidence": {
+        "date": "2026-10-26",
+        "source": "user_chat",
+        "quote": "I'm not satisfied with the deny poses, I feel like it should be more like a hand outward denial"
+      }
+    },
+    {
+      "pose_id": "standing_deny_west",
+      "posture": "standing",
+      "activity": "deny",
+      "variant_id": "defensive",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/west/char_standing_deny_west_defensive.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Both hands raised at chest height, palms outward toward interlocutor, fingers naturally spread; uneasy earnest denial, elbows bent and slight backward lean. No hand at neck or on hip.",
+      "planned_source_missing": false,
+      "revision_evidence": {
+        "date": "2026-10-26",
+        "source": "user_chat",
+        "quote": "I'm not satisfied with the deny poses, I feel like it should be more like a hand outward denial"
+      }
+    },
+    {
+      "pose_id": "standing_startle_east",
+      "posture": "standing",
+      "activity": "startle",
+      "variant_id": "surprised",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/east/char_standing_startle_east_surprised.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Step back with hands raised, no hand on heart.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_startle_south",
+      "posture": "standing",
+      "activity": "startle",
+      "variant_id": "surprised",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_startle_south_surprised.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Step back with hands raised, no hand on heart.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_startle_west",
+      "posture": "standing",
+      "activity": "startle",
+      "variant_id": "surprised",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/west/char_standing_startle_west_surprised.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Step back with hands raised, no hand on heart.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_accuse_south",
+      "posture": "standing",
+      "activity": "accuse",
+      "variant_id": "defiant",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/murderer-reveal/char_standing_accuse_south_defiant.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Point accusingly and defiantly.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_cry_south",
+      "posture": "standing",
+      "activity": "cry",
+      "variant_id": "remorseful",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/murderer-reveal/char_standing_cry_south_remorseful.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Remorseful sobbing with one hand covering or rubbing face.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_laugh_south",
+      "posture": "standing",
+      "activity": "laugh",
+      "variant_id": "evil",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/murderer-reveal/char_standing_laugh_south_evil.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Triumphant laugh, head back, one hand on lapel or hip.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_threaten_south",
+      "posture": "standing",
+      "activity": "threaten",
+      "variant_id": "furious",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/murderer-reveal/char_standing_threaten_south_furious.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Furious threat, clenched fist, step forward.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_shrug_south",
+      "posture": "standing",
+      "activity": "shrug",
+      "variant_id": "resigned",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 1,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/murderer-reveal/char_standing_shrug_south_resigned.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Palms up, shoulders raised, tired resignation.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_fidget_north",
+      "posture": "standing",
+      "activity": "fidget",
+      "variant_id": "nervous",
+      "directions": [
+        "north"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 2,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/north/char_standing_fidget_north_nervous.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "One forearm across torso supporting opposite elbow, opposite hand at mouth lightly biting fingernail, sidelong glance. User photo-guided revision, no hand on hip. Preserve this arm arrangement in the requested direction with natural occlusion.",
+      "planned_source_missing": false,
+      "revision_evidence": {
+        "date": "2026-10-26",
+        "source": "user_chat",
+        "quote": "Maybe adjust the nervous one to look similar to this",
+        "interpretation": "Carry the approved south photo-guided arm arrangement across remaining directions."
+      }
+    },
+    {
+      "pose_id": "standing_fidget_east",
+      "posture": "standing",
+      "activity": "fidget",
+      "variant_id": "nervous",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 2,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/east/char_standing_fidget_east_nervous.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "One forearm across torso supporting opposite elbow, opposite hand at mouth lightly biting fingernail, sidelong glance. User photo-guided revision, no hand on hip. Preserve this arm arrangement in the requested direction with natural occlusion.",
+      "planned_source_missing": false,
+      "revision_evidence": {
+        "date": "2026-10-26",
+        "source": "user_chat",
+        "quote": "Maybe adjust the nervous one to look similar to this",
+        "interpretation": "Carry the approved south photo-guided arm arrangement across remaining directions."
+      }
+    },
+    {
+      "pose_id": "standing_fidget_south",
+      "posture": "standing",
+      "activity": "fidget",
+      "variant_id": "nervous",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 2,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_fidget_south_nervous.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "One forearm across torso supporting opposite elbow, opposite hand at mouth lightly biting fingernail, sidelong glance. User photo-guided revision, no hand on hip.",
+      "planned_source_missing": false,
+      "revision_evidence": {
+        "date": "2026-10-26",
+        "source": "user",
+        "quote": "Maybe adjust the nervous one to look similar to this"
+      }
+    },
+    {
+      "pose_id": "standing_fidget_west",
+      "posture": "standing",
+      "activity": "fidget",
+      "variant_id": "nervous",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 2,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/west/char_standing_fidget_west_nervous.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Nervously biting the tip or nail of his THUMB, other fingers loosely curled below chin. Opposite forearm crosses torso supporting raised elbow; cap stays on. Anxious gaze, no hand on hip.",
+      "planned_source_missing": false,
+      "revision_evidence": {
+        "date": "2026-10-26",
+        "source": "user_chat",
+        "quote": "Maybe have some of them biting their thumb instead",
+        "scope": "West Chris nervous gesture variation; retain existing approved south and current east fingernail versions."
+      }
+    },
+    {
+      "pose_id": "standing_hands_hips_north",
+      "posture": "standing",
+      "activity": "hands_hips",
+      "variant_id": "confident",
+      "directions": [
+        "north"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 2,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/north/char_standing_hands_hips_north_confident.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Hands on hips, wide stance, chest out.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_hands_hips_east",
+      "posture": "standing",
+      "activity": "hands_hips",
+      "variant_id": "confident",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 2,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/east/char_standing_hands_hips_east_confident.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Hands on hips, wide stance, chest out.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_hands_hips_south",
+      "posture": "standing",
+      "activity": "hands_hips",
+      "variant_id": "confident",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 2,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_hands_hips_south_confident.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Hands on hips, wide stance, chest out.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_hands_hips_west",
+      "posture": "standing",
+      "activity": "hands_hips",
+      "variant_id": "confident",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 2,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/west/char_standing_hands_hips_west_confident.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Hands on hips, wide stance, chest out.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_think_north",
+      "posture": "standing",
+      "activity": "think",
+      "variant_id": "curious",
+      "directions": [
+        "north"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 2,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/north/char_standing_think_north_curious.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Stroke chin or jaw, other arm across body.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_think_east",
+      "posture": "standing",
+      "activity": "think",
+      "variant_id": "curious",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 2,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/east/char_standing_think_east_curious.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Stroke chin or jaw, other arm across body.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_think_south",
+      "posture": "standing",
+      "activity": "think",
+      "variant_id": "curious",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 2,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_think_south_curious.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Stroke chin or jaw, other arm across body.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_think_west",
+      "posture": "standing",
+      "activity": "think",
+      "variant_id": "curious",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 2,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/west/char_standing_think_west_curious.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Stroke chin or jaw, other arm across body.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_withdraw_east",
+      "posture": "standing",
+      "activity": "withdraw",
+      "variant_id": "sad",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 2,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/east/char_standing_withdraw_east_sad.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Head down, hands in pockets, shoulders slumped.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_withdraw_south",
+      "posture": "standing",
+      "activity": "withdraw",
+      "variant_id": "sad",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 2,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_withdraw_south_sad.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Head down, hands in pockets, shoulders slumped.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_withdraw_west",
+      "posture": "standing",
+      "activity": "withdraw",
+      "variant_id": "sad",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 2,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/west/char_standing_withdraw_west_sad.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Head down, hands in pockets, shoulders slumped.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_clasp_hands_east",
+      "posture": "standing",
+      "activity": "clasp_hands",
+      "variant_id": "friendly",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 2,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/east/char_standing_clasp_hands_east_friendly.png",
+      "source_char_status": "reference_only_export",
+      "canvas": [
+        1045,
+        1844
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Hands clasped behind back, relaxed and cheerful.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_clasp_hands_south",
+      "posture": "standing",
+      "activity": "clasp_hands",
+      "variant_id": "friendly",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 2,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_clasp_hands_south_friendly.png",
+      "source_char_status": "reference_only_export",
+      "canvas": [
+        1045,
+        1844
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Hands clasped behind back, relaxed and cheerful.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_clasp_hands_west",
+      "posture": "standing",
+      "activity": "clasp_hands",
+      "variant_id": "friendly",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 2,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/west/char_standing_clasp_hands_west_friendly.png",
+      "source_char_status": "reference_only_export",
+      "canvas": [
+        1045,
+        1844
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Hands clasped behind back, relaxed and cheerful.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "seated_idle_north",
+      "posture": "seated",
+      "activity": "idle",
+      "variant_id": "neutral",
+      "directions": [
+        "north"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/north/char_seated_idle_north_neutral.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Legs crossed, arms resting; establish seat contact.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "seated_idle_east",
+      "posture": "seated",
+      "activity": "idle",
+      "variant_id": "neutral",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/east/char_seated_idle_east_neutral.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        1045,
+        1844
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Legs crossed, arms resting; establish seat contact.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "seated_idle_south",
+      "posture": "seated",
+      "activity": "idle",
+      "variant_id": "neutral",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/south/char_seated_idle_south_neutral.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        1045,
+        1844
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Legs crossed, arms resting; establish seat contact.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "seated_idle_west",
+      "posture": "seated",
+      "activity": "idle",
+      "variant_id": "neutral",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/west/char_seated_idle_west_neutral.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        1045,
+        1844
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Legs crossed, arms resting; establish seat contact.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "seated_read_north",
+      "posture": "seated",
+      "activity": "read",
+      "variant_id": "neutral",
+      "directions": [
+        "north"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/north/char_seated_read_north_neutral.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        1080,
+        1456
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Crossed legs, reading open book; preserve seated-idle contact.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "seated_read_east",
+      "posture": "seated",
+      "activity": "read",
+      "variant_id": "neutral",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/east/char_seated_read_east_neutral.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        1080,
+        1456
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Crossed legs, reading open book; preserve seated-idle contact.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "seated_read_south",
+      "posture": "seated",
+      "activity": "read",
+      "variant_id": "neutral",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/south/char_seated_read_south_neutral.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        1080,
+        1456
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Crossed legs, reading open book; preserve seated-idle contact.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "seated_read_west",
+      "posture": "seated",
+      "activity": "read",
+      "variant_id": "neutral",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/west/char_seated_read_west_neutral.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        1080,
+        1456
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Crossed legs, reading open book; preserve seated-idle contact.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_hold_book_north",
+      "posture": "standing",
+      "activity": "hold_book",
+      "variant_id": "neutral",
+      "directions": [
+        "north"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/north/char_standing_hold_book_north_neutral.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Hold closed book, independently authored facing.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_hold_book_east",
+      "posture": "standing",
+      "activity": "hold_book",
+      "variant_id": "neutral",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/east/char_standing_hold_book_east_neutral.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Hold closed book, independently authored facing.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_hold_book_south",
+      "posture": "standing",
+      "activity": "hold_book",
+      "variant_id": "neutral",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_hold_book_south_neutral.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Hold closed book, independently authored facing.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_hold_book_west",
+      "posture": "standing",
+      "activity": "hold_book",
+      "variant_id": "neutral",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/west/char_standing_hold_book_west_neutral.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Hold closed book, independently authored facing.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_read_north",
+      "posture": "standing",
+      "activity": "read",
+      "variant_id": "neutral",
+      "directions": [
+        "north"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/north/char_standing_read_north_neutral.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Read open book with appropriate gaze and grip.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_read_east",
+      "posture": "standing",
+      "activity": "read",
+      "variant_id": "neutral",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/east/char_standing_read_east_neutral.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Read open book with appropriate gaze and grip.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_read_south",
+      "posture": "standing",
+      "activity": "read",
+      "variant_id": "neutral",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_read_south_neutral.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Read open book with appropriate gaze and grip.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_read_west",
+      "posture": "standing",
+      "activity": "read",
+      "variant_id": "neutral",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/west/char_standing_read_west_neutral.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Read open book with appropriate gaze and grip.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_look_up_north",
+      "posture": "standing",
+      "activity": "look_up",
+      "variant_id": "neutral",
+      "directions": [
+        "north"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/north/char_standing_look_up_north_neutral.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Attentive upward gaze.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_look_up_east",
+      "posture": "standing",
+      "activity": "look_up",
+      "variant_id": "neutral",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/east/char_standing_look_up_east_neutral.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Attentive upward gaze.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_look_up_south",
+      "posture": "standing",
+      "activity": "look_up",
+      "variant_id": "neutral",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_look_up_south_neutral.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Attentive upward gaze.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_look_up_west",
+      "posture": "standing",
+      "activity": "look_up",
+      "variant_id": "neutral",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/west/char_standing_look_up_west_neutral.png",
+      "source_char_status": "user_supplied_added_to_project_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Attentive upward gaze.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_reach_table_east",
+      "posture": "standing",
+      "activity": "reach_table",
+      "variant_id": "neutral",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/east/char_standing_reach_table_east_neutral.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Reach at table height, not overhead.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_reach_table_south",
+      "posture": "standing",
+      "activity": "reach_table",
+      "variant_id": "neutral",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_reach_table_south_neutral.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Reach at table height, not overhead.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_reach_table_west",
+      "posture": "standing",
+      "activity": "reach_table",
+      "variant_id": "neutral",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/west/char_standing_reach_table_west_neutral.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Reach at table height, not overhead.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "kneeling_reach_east",
+      "posture": "kneeling",
+      "activity": "reach",
+      "variant_id": "neutral",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/east/char_kneeling_reach_east_neutral.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        1383,
+        1137
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Kneel and reach naturally; male clothing and visible legs.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "kneeling_reach_south",
+      "posture": "kneeling",
+      "activity": "reach",
+      "variant_id": "neutral",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/south/char_kneeling_reach_south_neutral.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        1383,
+        1137
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Kneel and reach naturally; male clothing and visible legs.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "kneeling_reach_west",
+      "posture": "kneeling",
+      "activity": "reach",
+      "variant_id": "neutral",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/west/char_kneeling_reach_west_neutral.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        1383,
+        1137
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Kneel and reach naturally; male clothing and visible legs.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "standing_lean_south",
+      "posture": "standing",
+      "activity": "lean",
+      "variant_id": "resting",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_lean_south_resting.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Shoulder on invisible wall, ankles crossed, hands in pockets.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "seated_sleep_east",
+      "posture": "seated",
+      "activity": "sleep",
+      "variant_id": "napping",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/drafts/seated-nap-01/char_seated_sleep_east_napping.png",
+      "source_char_status": "approved_candidate",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Arms folded, head tilted, legs extended with ankles crossed.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "seated_sleep_south",
+      "posture": "seated",
+      "activity": "sleep",
+      "variant_id": "napping",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/drafts/seated-nap-01/char_seated_sleep_south_napping.png",
+      "source_char_status": "approved_candidate",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Arms folded, head tilted, legs extended with ankles crossed.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "seated_sleep_west",
+      "posture": "seated",
+      "activity": "sleep",
+      "variant_id": "napping",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/drafts/seated-nap-01/char_seated_sleep_west_napping.png",
+      "source_char_status": "pending_review_candidate",
+      "canvas": [
+        944,
+        1666
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Arms folded, head tilted, legs extended with ankles crossed.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "lying_idle_north_south_head_north",
+      "posture": "lying",
+      "activity": "idle",
+      "variant_id": "awake",
+      "directions": [],
+      "body_axis": "north_south",
+      "head_direction": "north",
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/lying/char_lying_idle_north_south_head_north_awake.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "One arm behind head, free forearm and hand resting over stomach; compact hair; cap stays on.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "lying_sleep_north_south_head_north",
+      "posture": "lying",
+      "activity": "sleep",
+      "variant_id": "peaceful",
+      "directions": [],
+      "body_axis": "north_south",
+      "head_direction": "north",
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/lying/char_lying_sleep_north_south_head_north_peaceful.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Arms on chest or draped, sleeping, relaxed limbs; cap stays on.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "lying_idle_east_west_head_east",
+      "posture": "lying",
+      "activity": "idle",
+      "variant_id": "awake",
+      "directions": [],
+      "body_axis": "east_west",
+      "head_direction": "east",
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/lying/char_lying_idle_east_west_head_east_awake.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "One arm behind head, free forearm and hand resting over stomach; compact hair; cap stays on.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "lying_sleep_east_west_head_east",
+      "posture": "lying",
+      "activity": "sleep",
+      "variant_id": "peaceful",
+      "directions": [],
+      "body_axis": "east_west",
+      "head_direction": "east",
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/lying/char_lying_sleep_east_west_head_east_peaceful.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Arms on chest or draped, sleeping, relaxed limbs; cap stays on.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "lying_idle_east_west_head_west",
+      "posture": "lying",
+      "activity": "idle",
+      "variant_id": "awake",
+      "directions": [],
+      "body_axis": "east_west",
+      "head_direction": "west",
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/lying/char_lying_idle_east_west_head_west_awake.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "One arm behind head, free forearm and hand resting over stomach; compact hair; cap stays on.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "lying_sleep_east_west_head_west",
+      "posture": "lying",
+      "activity": "sleep",
+      "variant_id": "peaceful",
+      "directions": [],
+      "body_axis": "east_west",
+      "head_direction": "west",
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/lying/char_lying_sleep_east_west_head_west_peaceful.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Arms on chest or draped, sleeping, relaxed limbs; cap stays on.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "lying_lounge_north_south_head_north",
+      "posture": "lying",
+      "activity": "lounge",
+      "variant_id": "napping",
+      "directions": [],
+      "body_axis": "north_south",
+      "head_direction": "north",
+      "tier": 3,
+      "reuse_from": null,
+      "source_char_asset": "assets/characters/poses/char/exports/lying/char_lying_lounge_north_south_head_north_napping.png",
+      "source_char_status": "approved_export",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Half-reclined sofa nap, relaxed bent legs; no sofa drawn; cap stays on.",
+      "planned_source_missing": false
+    },
+    {
+      "pose_id": "kneeling_inspect_east",
+      "posture": "kneeling",
+      "activity": "inspect",
+      "variant_id": "neutral",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 4,
+      "reuse_from": null,
+      "source_char_asset": null,
+      "source_char_status": "not_generated",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Same action with male body and own clothing; preserve contacts.",
+      "planned_source_missing": true,
+      "source_contacts": [
+        "u_bath::washroom_placeholder_upper_brazier_01::kneel",
+        "u_bath::washroom_placeholder_lower_brazier_01::kneel"
+      ],
+      "generation_hold": "Char same-pose source missing; define and review geometry before this tier."
+    },
+    {
+      "pose_id": "kneeling_inspect_north",
+      "posture": "kneeling",
+      "activity": "inspect",
+      "variant_id": "neutral",
+      "directions": [
+        "north"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 4,
+      "reuse_from": null,
+      "source_char_asset": null,
+      "source_char_status": "not_generated",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Same action with male body and own clothing; preserve contacts.",
+      "planned_source_missing": true,
+      "source_contacts": [
+        "g_dining::dining_fireplace_01::kneel",
+        "u_master::master_bedroom_fireplace_01::kneel",
+        "u_guest::guest_fireplace_01::kneel",
+        "u_study::study_archive_fireplace_01::kneel",
+        "b_archive::study_archive_fireplace_01::kneel"
+      ],
+      "generation_hold": "Char same-pose source missing; define and review geometry before this tier."
+    },
+    {
+      "pose_id": "seated_talk_east",
+      "posture": "seated",
+      "activity": "talk",
+      "variant_id": "friendly",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 4,
+      "reuse_from": null,
+      "source_char_asset": null,
+      "source_char_status": "not_generated",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Same action with male body and own clothing; preserve contacts.",
+      "planned_source_missing": true,
+      "source_contacts": [
+        "g_dining::dining_west_sofa_01::seat_left",
+        "g_dining::dining_west_sofa_01::seat_right",
+        "g_kitchen::kitchen_upper_chair_01::seat",
+        "g_kitchen::kitchen_lower_chair_01::seat",
+        "u_service_stair::upper_service_west_bench_01::seat",
+        "u_guest::guest_bed_01::sit_east"
+      ],
+      "generation_hold": "Char same-pose source missing; define and review geometry before this tier."
+    },
+    {
+      "pose_id": "seated_talk_south",
+      "posture": "seated",
+      "activity": "talk",
+      "variant_id": "friendly",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 4,
+      "reuse_from": null,
+      "source_char_asset": null,
+      "source_char_status": "not_generated",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Same action with male body and own clothing; preserve contacts.",
+      "planned_source_missing": true,
+      "source_contacts": [
+        "g_main_stair::main_stair_bench_01::seat",
+        "g_library::library_armchair_01::seat",
+        "u_main_stair::upper_gallery_west_bench_01::seat",
+        "u_main_stair::upper_gallery_east_bench_01::seat",
+        "u_master::master_bedroom_window_bench_01::seat",
+        "u_guest::guest_bedroom_back_chair_01::seat",
+        "u_bath::washroom_placeholder_bench_01::seat",
+        "b_main_stair::basement_stone_bench_01::seat",
+        "b_utility::basement_stone_bench_01::seat"
+      ],
+      "generation_hold": "Char same-pose source missing; define and review geometry before this tier."
+    },
+    {
+      "pose_id": "seated_talk_west",
+      "posture": "seated",
+      "activity": "talk",
+      "variant_id": "friendly",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 4,
+      "reuse_from": null,
+      "source_char_asset": null,
+      "source_char_status": "not_generated",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Same action with male body and own clothing; preserve contacts.",
+      "planned_source_missing": true,
+      "source_contacts": [
+        "g_foyer::foyer_armchair_01::seat",
+        "g_dining::dining_east_sofa_01::seat_left",
+        "g_dining::dining_east_sofa_01::seat_right",
+        "u_service_stair::upper_service_east_bench_01::seat",
+        "u_master::master_bedroom_bed_01::sit_west",
+        "u_master::master_bedroom_bedside_bench_01::seat",
+        "u_master::master_bedroom_vanity_chair_01::seat",
+        "u_guest::guest_armchair_01::seat",
+        "u_study::study_archive_armchair_01::seat",
+        "b_archive::study_archive_armchair_01::seat"
+      ],
+      "generation_hold": "Char same-pose source missing; define and review geometry before this tier."
+    },
+    {
+      "pose_id": "seated_write_south",
+      "posture": "seated",
+      "activity": "write",
+      "variant_id": "neutral",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 4,
+      "reuse_from": null,
+      "source_char_asset": null,
+      "source_char_status": "not_generated",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Same action with male body and own clothing; preserve contacts.",
+      "planned_source_missing": true,
+      "source_contacts": [
+        "g_library::library_desk_01::seated_work",
+        "u_study::study_archive_desk_01::seated_work",
+        "b_archive::study_archive_desk_01::seated_work"
+      ],
+      "generation_hold": "Char same-pose source missing; define and review geometry before this tier."
+    },
+    {
+      "pose_id": "seated_write_west",
+      "posture": "seated",
+      "activity": "write",
+      "variant_id": "neutral",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 4,
+      "reuse_from": null,
+      "source_char_asset": null,
+      "source_char_status": "not_generated",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Same action with male body and own clothing; preserve contacts.",
+      "planned_source_missing": true,
+      "source_contacts": [
+        "u_master::master_bedroom_vanity_01::seated_work",
+        "u_master::master_bedroom_vanity_chair_01::seat"
+      ],
+      "generation_hold": "Char same-pose source missing; define and review geometry before this tier."
+    },
+    {
+      "pose_id": "standing_drink_north",
+      "posture": "standing",
+      "activity": "drink",
+      "variant_id": "neutral",
+      "directions": [
+        "north"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 4,
+      "reuse_from": null,
+      "source_char_asset": null,
+      "source_char_status": "not_generated",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Same action with male body and own clothing; preserve contacts.",
+      "planned_source_missing": true,
+      "source_contacts": [
+        "g_kitchen::kitchen_counter_01::use"
+      ],
+      "generation_hold": "Char same-pose source missing; define and review geometry before this tier."
+    },
+    {
+      "pose_id": "standing_inspect_east",
+      "posture": "standing",
+      "activity": "inspect",
+      "variant_id": "neutral",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 4,
+      "reuse_from": null,
+      "source_char_asset": null,
+      "source_char_status": "not_generated",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Same action with male body and own clothing; preserve contacts.",
+      "planned_source_missing": true,
+      "source_contacts": [
+        "g_foyer::foyer_window_01::view_from_west",
+        "g_foyer::foyer_west_window_01::view_from_west",
+        "g_foyer::foyer_clock_01::view_from_west",
+        "g_foyer::foyer_portrait_01::view_from_west",
+        "g_main_stair::main_stair_window_01::view_from_west",
+        "g_library::library_window_01::view_from_west",
+        "g_library::library_east_door_01::inside",
+        "g_dining::dining_portrait_01::view_from_west",
+        "g_dining::dining_window_01::view_from_west",
+        "g_dining::dining_east_door_01::inside",
+        "g_kitchen::kitchen_portrait_01::view_from_west",
+        "g_kitchen::kitchen_window_01::view_from_west",
+        "g_kitchen::kitchen_east_door_01::inside",
+        "g_service_stair::service_stair_window_01::view_from_west",
+        "g_service_stair::service_stair_east_door_01::inside",
+        "u_main_stair::upper_gallery_west_window_01::view_from_west",
+        "u_main_stair::upper_gallery_east_window_01::view_from_west",
+        "u_main_stair::upper_gallery_east_door_01::inside",
+        "u_service_stair::upper_service_east_door_01::inside",
+        "u_service_stair::upper_service_window_01::view_from_west",
+        "u_master::master_bedroom_nightstand_01::inspect",
+        "u_master::master_bedroom_window_01::view_from_west",
+        "u_master::master_bedroom_east_door_01::inside",
+        "u_guest::guest_window_01::view_from_west",
+        "u_guest::guest_bedroom_side_table_01::use",
+        "u_guest::guest_bedroom_east_door_01::inside",
+        "u_study::study_archive_side_table_01::use",
+        "u_bath::washroom_placeholder_west_window_01::view_from_west",
+        "u_bath::washroom_placeholder_east_window_01::view_from_west",
+        "u_bath::washroom_placeholder_portrait_01::view_from_west",
+        "u_bath::washroom_placeholder_upper_brazier_01::stand",
+        "u_bath::washroom_placeholder_lower_brazier_01::stand",
+        "u_bath::washroom_placeholder_east_door_01::inside",
+        "b_main_stair::basement_stone_crate_01::inspect",
+        "b_archive::study_archive_side_table_01::use",
+        "b_utility::basement_stone_crate_01::inspect"
+      ],
+      "generation_hold": "Char same-pose source missing; define and review geometry before this tier."
+    },
+    {
+      "pose_id": "standing_inspect_north",
+      "posture": "standing",
+      "activity": "inspect",
+      "variant_id": "neutral",
+      "directions": [
+        "north"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 4,
+      "reuse_from": null,
+      "source_char_asset": null,
+      "source_char_status": "not_generated",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Same action with male body and own clothing; preserve contacts.",
+      "planned_source_missing": true,
+      "source_contacts": [
+        "g_foyer::foyer_window_01::look_out",
+        "g_foyer::foyer_reading_stand_01::use",
+        "g_foyer::foyer_front_door_01::inside",
+        "g_foyer::foyer_west_window_01::look_out",
+        "g_foyer::foyer_clock_01::inspect",
+        "g_foyer::foyer_console_01::inspect",
+        "g_foyer::foyer_portrait_01::inspect",
+        "g_main_stair::main_stair_window_01::look_out",
+        "g_main_stair::main_stair_upper_door_01::inside",
+        "g_library::library_desk_01::standing_work",
+        "g_library::library_bookshelf_01::inspect",
+        "g_library::library_foreground_cabinet_01::inspect",
+        "g_library::library_window_01::look_out",
+        "g_library::library_side_table_01::use",
+        "g_dining::dining_cabinet_01::inspect",
+        "g_dining::dining_fireplace_01::stand",
+        "g_dining::dining_portrait_01::inspect",
+        "g_dining::dining_window_01::look_out",
+        "g_kitchen::kitchen_back_cabinet_01::inspect",
+        "g_kitchen::kitchen_portrait_01::inspect",
+        "g_kitchen::kitchen_window_01::look_out",
+        "g_service_stair::service_stair_shelves_01::inspect",
+        "g_service_stair::service_stair_window_01::look_out",
+        "u_main_stair::upper_gallery_west_statue_01::inspect",
+        "u_main_stair::upper_gallery_east_statue_01::inspect",
+        "u_main_stair::upper_gallery_west_window_01::look_out",
+        "u_main_stair::upper_gallery_east_window_01::look_out",
+        "u_main_stair::upper_gallery_north_door_01::inside",
+        "u_service_stair::upper_service_west_statue_01::inspect",
+        "u_service_stair::upper_service_east_statue_01::inspect",
+        "u_service_stair::upper_service_north_door_01::inside",
+        "u_service_stair::upper_service_window_01::look_out",
+        "u_master::master_bedroom_fireplace_01::stand",
+        "u_master::master_bedroom_window_01::look_out",
+        "u_guest::guest_fireplace_01::stand",
+        "u_guest::guest_window_01::look_out",
+        "u_guest::guest_bedroom_cabinet_01::inspect",
+        "u_study::study_archive_back_shelves_01::inspect",
+        "u_study::study_archive_desk_01::standing_work",
+        "u_study::study_archive_foreground_shelves_01::inspect",
+        "u_study::study_archive_fireplace_01::stand",
+        "u_study::study_archive_north_door_01::inside",
+        "u_bath::washroom_placeholder_west_window_01::look_out",
+        "u_bath::washroom_placeholder_east_window_01::look_out",
+        "u_bath::washroom_placeholder_portrait_01::inspect",
+        "b_main_stair::basement_stone_north_arch_01::inside",
+        "b_service_stair::basement_storage_front_barrel_01::inspect",
+        "b_service_stair::basement_storage_back_barrel_01::inspect",
+        "b_service_stair::basement_storage_west_crate_01::inspect",
+        "b_service_stair::basement_storage_back_crates_01::inspect",
+        "b_service_stair::basement_storage_east_crate_01::inspect",
+        "b_service_stair::basement_storage_west_rack_01::inspect",
+        "b_service_stair::basement_storage_east_rack_01::inspect",
+        "b_service_stair::basement_storage_north_arch_01::inside",
+        "b_wine::basement_storage_front_barrel_01::inspect",
+        "b_wine::basement_storage_back_barrel_01::inspect",
+        "b_wine::basement_storage_west_crate_01::inspect",
+        "b_wine::basement_storage_back_crates_01::inspect",
+        "b_wine::basement_storage_east_crate_01::inspect",
+        "b_wine::basement_storage_west_rack_01::inspect",
+        "b_wine::basement_storage_east_rack_01::inspect",
+        "b_wine::basement_storage_north_arch_01::inside",
+        "b_archive::study_archive_back_shelves_01::inspect",
+        "b_archive::study_archive_desk_01::standing_work",
+        "b_archive::study_archive_foreground_shelves_01::inspect",
+        "b_archive::study_archive_fireplace_01::stand",
+        "b_archive::study_archive_north_door_01::inside",
+        "b_utility::basement_stone_north_arch_01::inside",
+        "b_store::basement_storage_front_barrel_01::inspect",
+        "b_store::basement_storage_back_barrel_01::inspect",
+        "b_store::basement_storage_west_crate_01::inspect",
+        "b_store::basement_storage_back_crates_01::inspect",
+        "b_store::basement_storage_east_crate_01::inspect",
+        "b_store::basement_storage_west_rack_01::inspect",
+        "b_store::basement_storage_east_rack_01::inspect",
+        "b_store::basement_storage_north_arch_01::inside"
+      ],
+      "generation_hold": "Char same-pose source missing; define and review geometry before this tier."
+    },
+    {
+      "pose_id": "standing_inspect_south",
+      "posture": "standing",
+      "activity": "inspect",
+      "variant_id": "neutral",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 4,
+      "reuse_from": null,
+      "source_char_asset": null,
+      "source_char_status": "not_generated",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Same action with male body and own clothing; preserve contacts.",
+      "planned_source_missing": true,
+      "source_contacts": [
+        "g_dining::dining_south_threshold_01::inside",
+        "g_kitchen::kitchen_south_threshold_01::inside",
+        "u_main_stair::upper_gallery_south_threshold_01::inside",
+        "u_guest::guest_bedroom_south_threshold_01::inside",
+        "u_study::study_archive_south_threshold_01::inside",
+        "b_archive::study_archive_south_threshold_01::inside"
+      ],
+      "generation_hold": "Char same-pose source missing; define and review geometry before this tier."
+    },
+    {
+      "pose_id": "standing_inspect_west",
+      "posture": "standing",
+      "activity": "inspect",
+      "variant_id": "neutral",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 4,
+      "reuse_from": null,
+      "source_char_asset": null,
+      "source_char_status": "not_generated",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Same action with male body and own clothing; preserve contacts.",
+      "planned_source_missing": true,
+      "source_contacts": [
+        "g_foyer::foyer_window_01::view_from_east",
+        "g_foyer::foyer_west_window_01::view_from_east",
+        "g_foyer::foyer_clock_01::view_from_east",
+        "g_foyer::foyer_portrait_01::view_from_east",
+        "g_main_stair::main_stair_window_01::view_from_east",
+        "g_main_stair::main_stair_west_door_01::inside",
+        "g_library::library_west_shelves_01::inspect",
+        "g_library::library_window_01::view_from_east",
+        "g_library::library_west_door_01::inside",
+        "g_dining::dining_side_table_01::use",
+        "g_dining::dining_portrait_01::view_from_east",
+        "g_dining::dining_window_01::view_from_east",
+        "g_dining::dining_west_door_01::inside",
+        "g_kitchen::kitchen_side_table_01::use",
+        "g_kitchen::kitchen_portrait_01::view_from_east",
+        "g_kitchen::kitchen_window_01::view_from_east",
+        "g_kitchen::kitchen_west_door_01::inside",
+        "g_service_stair::service_stair_window_01::view_from_east",
+        "g_service_stair::service_stair_west_door_01::inside",
+        "u_main_stair::upper_gallery_west_window_01::view_from_east",
+        "u_main_stair::upper_gallery_east_window_01::view_from_east",
+        "u_main_stair::upper_gallery_west_door_01::inside",
+        "u_service_stair::upper_service_west_door_01::inside",
+        "u_service_stair::upper_service_window_01::view_from_east",
+        "u_master::master_bedroom_vanity_01::standing_work",
+        "u_master::master_bedroom_mirror_01::inspect",
+        "u_master::master_bedroom_window_01::view_from_east",
+        "u_master::master_bedroom_west_door_01::inside",
+        "u_guest::guest_window_01::view_from_east",
+        "u_guest::guest_bedroom_nightstand_01::inspect",
+        "u_guest::guest_bedroom_west_door_01::inside",
+        "u_study::study_archive_west_door_01::inside",
+        "u_bath::washroom_placeholder_west_window_01::view_from_east",
+        "u_bath::washroom_placeholder_east_window_01::view_from_east",
+        "u_bath::washroom_placeholder_portrait_01::view_from_east",
+        "u_bath::washroom_placeholder_west_door_01::inside",
+        "b_main_stair::basement_stone_west_door_01::inside",
+        "b_service_stair::basement_storage_west_door_01::inside",
+        "b_wine::basement_storage_west_door_01::inside",
+        "b_archive::study_archive_west_door_01::inside",
+        "b_utility::basement_stone_west_door_01::inside",
+        "b_store::basement_storage_west_door_01::inside"
+      ],
+      "generation_hold": "Char same-pose source missing; define and review geometry before this tier."
+    },
+    {
+      "pose_id": "standing_look_out_north",
+      "posture": "standing",
+      "activity": "look_out",
+      "variant_id": "neutral",
+      "directions": [
+        "north"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 4,
+      "reuse_from": null,
+      "source_char_asset": null,
+      "source_char_status": "not_generated",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Same action with male body and own clothing; preserve contacts.",
+      "planned_source_missing": true,
+      "source_contacts": [
+        "g_foyer::foyer_window_01::look_out",
+        "g_foyer::foyer_west_window_01::look_out",
+        "g_main_stair::main_stair_window_01::look_out",
+        "g_library::library_window_01::look_out",
+        "g_dining::dining_window_01::look_out",
+        "g_kitchen::kitchen_window_01::look_out",
+        "g_service_stair::service_stair_window_01::look_out",
+        "u_main_stair::upper_gallery_west_window_01::look_out",
+        "u_main_stair::upper_gallery_east_window_01::look_out",
+        "u_service_stair::upper_service_window_01::look_out",
+        "u_master::master_bedroom_window_01::look_out",
+        "u_guest::guest_window_01::look_out",
+        "u_bath::washroom_placeholder_west_window_01::look_out",
+        "u_bath::washroom_placeholder_east_window_01::look_out"
+      ],
+      "generation_hold": "Char same-pose source missing; define and review geometry before this tier."
+    },
+    {
+      "pose_id": "standing_peek_east",
+      "posture": "standing",
+      "activity": "peek",
+      "variant_id": "neutral",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 4,
+      "reuse_from": null,
+      "source_char_asset": null,
+      "source_char_status": "not_generated",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Same action with male body and own clothing; preserve contacts.",
+      "planned_source_missing": true,
+      "source_contacts": [
+        "g_library::library_east_door_01::inside",
+        "g_dining::dining_east_door_01::inside",
+        "g_kitchen::kitchen_east_door_01::inside",
+        "g_service_stair::service_stair_east_door_01::inside",
+        "u_main_stair::upper_gallery_east_door_01::inside",
+        "u_service_stair::upper_service_east_door_01::inside",
+        "u_master::master_bedroom_east_door_01::inside",
+        "u_guest::guest_bedroom_east_door_01::inside",
+        "u_bath::washroom_placeholder_east_door_01::inside"
+      ],
+      "generation_hold": "Char same-pose source missing; define and review geometry before this tier."
+    },
+    {
+      "pose_id": "standing_peek_north",
+      "posture": "standing",
+      "activity": "peek",
+      "variant_id": "neutral",
+      "directions": [
+        "north"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 4,
+      "reuse_from": null,
+      "source_char_asset": null,
+      "source_char_status": "not_generated",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Same action with male body and own clothing; preserve contacts.",
+      "planned_source_missing": true,
+      "source_contacts": [
+        "g_foyer::foyer_front_door_01::inside",
+        "g_main_stair::main_stair_upper_door_01::inside",
+        "u_main_stair::upper_gallery_north_door_01::inside",
+        "u_service_stair::upper_service_north_door_01::inside",
+        "u_study::study_archive_north_door_01::inside",
+        "b_main_stair::basement_stone_north_arch_01::inside",
+        "b_service_stair::basement_storage_north_arch_01::inside",
+        "b_wine::basement_storage_north_arch_01::inside",
+        "b_archive::study_archive_north_door_01::inside",
+        "b_utility::basement_stone_north_arch_01::inside",
+        "b_store::basement_storage_north_arch_01::inside"
+      ],
+      "generation_hold": "Char same-pose source missing; define and review geometry before this tier."
+    },
+    {
+      "pose_id": "standing_peek_south",
+      "posture": "standing",
+      "activity": "peek",
+      "variant_id": "neutral",
+      "directions": [
+        "south"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 4,
+      "reuse_from": null,
+      "source_char_asset": null,
+      "source_char_status": "not_generated",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Same action with male body and own clothing; preserve contacts.",
+      "planned_source_missing": true,
+      "source_contacts": [
+        "g_dining::dining_south_threshold_01::inside",
+        "g_kitchen::kitchen_south_threshold_01::inside",
+        "u_main_stair::upper_gallery_south_threshold_01::inside",
+        "u_guest::guest_bedroom_south_threshold_01::inside",
+        "u_study::study_archive_south_threshold_01::inside",
+        "b_archive::study_archive_south_threshold_01::inside"
+      ],
+      "generation_hold": "Char same-pose source missing; define and review geometry before this tier."
+    },
+    {
+      "pose_id": "standing_peek_west",
+      "posture": "standing",
+      "activity": "peek",
+      "variant_id": "neutral",
+      "directions": [
+        "west"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 4,
+      "reuse_from": null,
+      "source_char_asset": null,
+      "source_char_status": "not_generated",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Same action with male body and own clothing; preserve contacts.",
+      "planned_source_missing": true,
+      "source_contacts": [
+        "g_main_stair::main_stair_west_door_01::inside",
+        "g_library::library_west_door_01::inside",
+        "g_dining::dining_west_door_01::inside",
+        "g_kitchen::kitchen_west_door_01::inside",
+        "g_service_stair::service_stair_west_door_01::inside",
+        "u_main_stair::upper_gallery_west_door_01::inside",
+        "u_service_stair::upper_service_west_door_01::inside",
+        "u_master::master_bedroom_west_door_01::inside",
+        "u_guest::guest_bedroom_west_door_01::inside",
+        "u_study::study_archive_west_door_01::inside",
+        "u_bath::washroom_placeholder_west_door_01::inside",
+        "b_main_stair::basement_stone_west_door_01::inside",
+        "b_service_stair::basement_storage_west_door_01::inside",
+        "b_wine::basement_storage_west_door_01::inside",
+        "b_archive::study_archive_west_door_01::inside",
+        "b_utility::basement_stone_west_door_01::inside",
+        "b_store::basement_storage_west_door_01::inside"
+      ],
+      "generation_hold": "Char same-pose source missing; define and review geometry before this tier."
+    },
+    {
+      "pose_id": "standing_warm_hands_east",
+      "posture": "standing",
+      "activity": "warm_hands",
+      "variant_id": "neutral",
+      "directions": [
+        "east"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 4,
+      "reuse_from": null,
+      "source_char_asset": null,
+      "source_char_status": "not_generated",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Same action with male body and own clothing; preserve contacts.",
+      "planned_source_missing": true,
+      "source_contacts": [
+        "u_bath::washroom_placeholder_upper_brazier_01::stand",
+        "u_bath::washroom_placeholder_lower_brazier_01::stand"
+      ],
+      "generation_hold": "Char same-pose source missing; define and review geometry before this tier."
+    },
+    {
+      "pose_id": "standing_warm_hands_north",
+      "posture": "standing",
+      "activity": "warm_hands",
+      "variant_id": "neutral",
+      "directions": [
+        "north"
+      ],
+      "body_axis": null,
+      "head_direction": null,
+      "tier": 4,
+      "reuse_from": null,
+      "source_char_asset": null,
+      "source_char_status": "not_generated",
+      "canvas": [
+        944,
+        1665
+      ],
+      "female_template": "Use Char's matching action and gesture; preserve character identity.",
+      "male_template": "Same action with male body and own clothing; preserve contacts.",
+      "planned_source_missing": true,
+      "source_contacts": [
+        "g_dining::dining_fireplace_01::stand",
+        "u_master::master_bedroom_fireplace_01::stand",
+        "u_guest::guest_fireplace_01::stand",
+        "u_study::study_archive_fireplace_01::stand",
+        "b_archive::study_archive_fireplace_01::stand"
+      ],
+      "generation_hold": "Char same-pose source missing; define and review geometry before this tier."
+    }
+  ],
+  "caps": {
+    "unreviewed_per_character": 24,
+    "unreviewed_global": 60
+  },
+  "confirmation_pending": [],
+  "canonical_chris_already_confirmed": true,
+  "notes": [
+    "17 cataloged designs are not a finalized ten-character playable pool.",
+    "Char's 78 exports include legacy user-supplied and reference-only approval states; preserve those states, not blanket approval.",
+    "Legacy flattened Char exports sometimes differ from the old index; exact replacement metadata hashes resolve them. Historical revision export subpaths may be absent; no source records were rewritten.",
+    "Chris's earlier unapproved-look exception is obsolete; anime v2 is explicitly approved.",
+    "Runtime adult stature is 80 world units; historical 64-unit prose is superseded.",
+    "Canvas size is not stature. Chris's approved native 948x1659 is not to be stretched to Char's canvas.",
+    "An approved alpha maximum of 254 exists in lying references; do not modify approved bytes to force 255. New draft checks must report exact alpha and limitations."
+  ],
+  "user_confirmation": {
+    "date": "2026-10-26",
+    "source": "user",
+    "quote": "Approved. Continue",
+    "scope": "100-image catalog, Chris-first proposed order, 24 per-character and 60 global unreviewed caps; drafts only."
+  }
+}

@@ -1,0 +1,19 @@
+{
+ "queue_id": "chris-kneeling_reach_west-neutral",
+ "prompt": "Create ONE separate full-body transparent PNG game character pose of CHRIS, kneeling_reach_west, variant neutral.\nREFERENCE 1 is Chris's USER-APPROVED canonical model: preserve this exact identity, male adult body proportions, common head scale and drawing scale. REFERENCE 2 is Char's SAME-POSE composition/expression reference ONLY. Do not copy her face, feminine body, outfit, hair, jewelry or hand gesture where the male override differs.\nIDENTITY LOCK: expressive larger blue anime eyes exactly like approved Chris v2, simplified softly shaded nose/face, full brown beard and connected moustache, brown brows, gray tweed flat cap KEPT ON. No cap removal or head scratching. RED collared shirt with rolled sleeves and small cream undershirt at throat, CHARCOAL textured waistcoat with brass buttons, gold watch chain on his anatomical LEFT waist (screen-right in south view), black tailored trousers and BLACK lace-up boots. Preserve asymmetric pocket/chain construction across directions with natural occlusion, never move it to another anatomical side to make it visible. Same richly shaded outlined anime/cartoon game rendering with deliberate crisp detail, no photoreal skin or tiny chibi anatomy.\nPOSE: Kneel and reach naturally; male clothing and visible legs.\nEXPRESSION: neutral. Communicate it through eyes/brows/mouth and posture where visible. Suspicious does not mean furious. Nervous is anxious uncertainty, not crying or terror. Neutral has relaxed brows and a small closed-mouth friendly expression where face is visible.\nFACING: whole body faces screen LEFT (WEST). Head/chest/hips/knees/boots agree. North must show actual back, no over-shoulder face. Elevated three-quarter mansion camera showing a little crown and shoulder tops. Independently draw this direction; NEVER mirror/flip another pose.\nSCALE/FRAMING: Match reference1 adult head and anatomy drawing scale. Reference2 provides kneeling geometry; natural shorter silhouette, complete hands knees and boots, comfortable margins. No stretching to standing height.\nOUTPUT: exactly ONE complete character with actual PNG alpha transparency (empty outside silhouette), complete arms/hands/legs/hat/boots, clean margins and gaps. No furniture, chair, floor, scenery, shadow, glow, text, labels, borders, grid or extra character. Any book is allowed only when required by the named action. Return only this image; draft production, not approval.\n\nWEST: kneeling body oriented LEFT, nose, chest and boot toes LEFT. Look DOWN toward reaching fingertips and implied floor object. One knee down, opposite knee raised, other hand bracing thigh. No drawn object or floor.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  },
+  {
+   "path": "assets/characters/poses/char/exports/west/char_kneeling_reach_west_neutral.png",
+   "sha256": "d0d4d6ed1201d06ff0f53cf52a96e2cad3a26e835af5f6eb13f65c7416271800"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/drafts/runner-01/chris_kneeling_reach_west_neutral.png",
+ "status": "generated",
+ "prepared": "2026-10-26T18:27:33.262825+00:00"
+}

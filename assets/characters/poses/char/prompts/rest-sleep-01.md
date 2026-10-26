@@ -135,3 +135,33 @@ drafts for north-south beds. Head-west versions can wait for a bed that needs th
 Sofas in the older layouts face different ways. A sofa facing north or south has an east-west
 long axis, and one facing east or west has a north-south long axis. The sofa nap draft is
 north-south; an east-west version may be needed depending on which sofa a room uses.
+
+---
+
+## Head-west versions (2026-10-25)
+
+For beds with `east_west` axis and head west (`bed_east_west_head_west`). Match the approved
+head-east images. Do not mirror: redraw so her own left and right details stay correct.
+
+### 1c. Lying awake, east to west, head west
+
+> Create one transparent PNG of **Char lying awake on her back, deep in thought**, body axis
+> **east to west**, **head toward the left (west)**, feet toward the right, seen from the game's
+> elevated three-quarter camera from the south. Same body pose, mood, size, compact silhouette and
+> 1536x1024 transparent landscape canvas as the approved head-east image
+> `char_lying_idle_east_west_head_east_awake.png`. Hair gathered close along the head and
+> shoulders, skirt draped straight over the legs with modest flare, one hand on her stomach, eyes
+> open with a faint thoughtful frown. **This must not be a mirrored copy.** Redraw it independently
+> so her own left and right details stay correct: headband bow, earrings, brooch and sash bow.
+> Keep a margin on every side. Save as `char_lying_idle_east_west_head_west_awake.png`. Stop after
+> this one image.
+
+### 2c. Sleeping, east to west, head west
+
+> Same view, size, compact hair and skirt, and approach as 1c, matching the approved
+> `char_lying_sleep_east_west_head_east_peaceful.png`, but asleep: eyes closed, face relaxed, lips
+> slightly parted, hands loosely together on her stomach. Redraw rather than mirror. Save as
+> `char_lying_sleep_east_west_head_west_peaceful.png`. Stop after this one image.
+
+Check on review: the head end should again be the higher end of the slight diagonal, and the bow,
+earrings and sash should sit on the correct sides of her body.

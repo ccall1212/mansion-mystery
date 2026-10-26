@@ -4,7 +4,7 @@
   "runtime_loaded": false,
   "character_id": "likeness-photo01",
   "name": "Char",
-  "status": "approved_alignment_assets_plus_user_supplied_pose_pending_fit",
+  "status": "artwork_approved_export_library_runtime_fit_pending",
   "plan": "docs/CHARACTER_DIRECTIONAL_PIPELINE_PLAN.md",
   "production_manifest": "assets/characters/poses/char/production-manifest.json",
   "direction_groups": {
@@ -13,12 +13,12 @@
       "seated_idle_north",
       "standing_hold_book_north",
       "seated_read_north",
-      "standing_read_north",
       "standing_talk_north",
       "standing_fidget_north",
       "standing_cross_arms_north",
       "standing_hands_hips_north",
       "standing_think_north",
+      "standing_read_north",
       "standing_look_up_north"
     ],
     "east": [
@@ -39,7 +39,8 @@
       "standing_clasp_hands_east",
       "standing_look_down_east",
       "standing_reach_table_east",
-      "kneeling_reach_east"
+      "kneeling_reach_east",
+      "seated_sleep_east"
     ],
     "south": [
       "standing_idle_south",
@@ -49,23 +50,19 @@
       "seated_read_south",
       "standing_talk_south",
       "standing_fidget_south",
-      "standing_cross_arms_south",
       "standing_hands_hips_south",
       "standing_think_south",
       "standing_startle_south",
       "standing_withdraw_south",
       "standing_deny_south",
+      "standing_cross_arms_south",
       "standing_look_up_south",
       "standing_clasp_hands_south",
       "standing_look_down_south",
       "standing_reach_table_south",
       "kneeling_reach_south",
-      "standing_laugh_south",
-      "standing_cry_south",
-      "standing_accuse_south",
-      "standing_threaten_south",
-      "standing_shrug_south",
-      "standing_lean_south"
+      "standing_lean_south",
+      "seated_sleep_south"
     ],
     "west": [
       "standing_idle_west",
@@ -75,17 +72,18 @@
       "seated_read_west",
       "standing_talk_west",
       "standing_fidget_west",
-      "standing_cross_arms_west",
       "standing_hands_hips_west",
       "standing_think_west",
       "standing_startle_west",
-      "standing_withdraw_west",
       "standing_deny_west",
+      "standing_cross_arms_west",
+      "standing_withdraw_west",
       "standing_look_up_west",
       "standing_clasp_hands_west",
       "standing_look_down_west",
       "standing_reach_table_west",
-      "kneeling_reach_west"
+      "kneeling_reach_west",
+      "seated_sleep_west"
     ]
   },
   "assets": [
@@ -1532,7 +1530,7 @@
       "props": [],
       "source_master": "assets/characters/poses/char/masters/external_poses/revision-02/char_standing_cross_arms_south_suspicious.png",
       "source_sha256": "a11f51673be22529b087ef5b15361b229211bf862bdcd7b2d31e1b48c21f5a17",
-      "export": "assets/characters/poses/char/exports/south/revision-02/char_standing_cross_arms_south_suspicious.png",
+      "export": "assets/characters/poses/char/exports/south/char_standing_cross_arms_south_suspicious.png",
       "export_sha256": "a11f51673be22529b087ef5b15361b229211bf862bdcd7b2d31e1b48c21f5a17",
       "canvas": [
         944,
@@ -1569,7 +1567,7 @@
       "props": [],
       "source_master": "assets/characters/poses/char/masters/external_poses/revision-02/char_standing_cross_arms_west_suspicious.png",
       "source_sha256": "3f83f901272ec04ecdfdd24c25159093671745b0a2845a58bac943d52c8373e0",
-      "export": "assets/characters/poses/char/exports/west/revision-02/char_standing_cross_arms_west_suspicious.png",
+      "export": "assets/characters/poses/char/exports/west/char_standing_cross_arms_west_suspicious.png",
       "export_sha256": "3f83f901272ec04ecdfdd24c25159093671745b0a2845a58bac943d52c8373e0",
       "canvas": [
         944,
@@ -1606,7 +1604,7 @@
       ],
       "source_master": "assets/characters/poses/char/masters/external_poses/revision-02/char_standing_read_north_neutral.png",
       "source_sha256": "2fa74f22e4a3f4539500907de531ace4a8fe93d1a1b5c8a5d286c917c648a4ce",
-      "export": "assets/characters/poses/char/exports/north/revision-02/char_standing_read_north_neutral.png",
+      "export": "assets/characters/poses/char/exports/north/char_standing_read_north_neutral.png",
       "export_sha256": "2fa74f22e4a3f4539500907de531ace4a8fe93d1a1b5c8a5d286c917c648a4ce",
       "canvas": [
         944,
@@ -1643,7 +1641,7 @@
       "props": [],
       "source_master": "assets/characters/poses/char/masters/external_poses/revision-03/char_standing_withdraw_west_sad.png",
       "source_sha256": "a71812bcc0cc64f97d0b0fb0a4b4d3a485936e45a7ead3de9f23bbb8e6f519aa",
-      "export": "assets/characters/poses/char/exports/west/revision-03/char_standing_withdraw_west_sad.png",
+      "export": "assets/characters/poses/char/exports/west/char_standing_withdraw_west_sad.png",
       "export_sha256": "a71812bcc0cc64f97d0b0fb0a4b4d3a485936e45a7ead3de9f23bbb8e6f519aa",
       "canvas": [
         944,
@@ -2324,7 +2322,7 @@
       "props": [],
       "source_master": "assets/characters/poses/char/masters/murderer-reveal-01/char_standing_laugh_south_evil.png",
       "source_sha256": "d7d6acc3360f1023b03a264488a6ae31878823fbe335d9098604ffc62ff26bcd",
-      "export": "assets/characters/poses/char/exports/south/char_standing_laugh_south_evil.png",
+      "export": "assets/characters/poses/char/exports/murderer-reveal/char_standing_laugh_south_evil.png",
       "export_sha256": "d7d6acc3360f1023b03a264488a6ae31878823fbe335d9098604ffc62ff26bcd",
       "canvas": [
         944,
@@ -2346,7 +2344,7 @@
         "scope": "South-facing evil-laugh murderer reveal artwork only; runtime fit pending.",
         "files": [
           {
-            "path": "assets/characters/poses/char/exports/south/char_standing_laugh_south_evil.png",
+            "path": "assets/characters/poses/char/exports/murderer-reveal/char_standing_laugh_south_evil.png",
             "sha256": "d7d6acc3360f1023b03a264488a6ae31878823fbe335d9098604ffc62ff26bcd"
           }
         ]
@@ -2368,7 +2366,7 @@
       "props": [],
       "source_master": "assets/characters/poses/char/masters/murderer-reveal-01/char_standing_cry_south_remorseful.png",
       "source_sha256": "0cfa9173c7074885c719e331df8fe42572245ffb63378c83321b9d18ffcb4128",
-      "export": "assets/characters/poses/char/exports/south/char_standing_cry_south_remorseful.png",
+      "export": "assets/characters/poses/char/exports/murderer-reveal/char_standing_cry_south_remorseful.png",
       "export_sha256": "0cfa9173c7074885c719e331df8fe42572245ffb63378c83321b9d18ffcb4128",
       "canvas": [
         944,
@@ -2390,7 +2388,7 @@
         "scope": "South-facing sobbing revision v2 murderer reveal artwork only; runtime fit pending.",
         "files": [
           {
-            "path": "assets/characters/poses/char/exports/south/char_standing_cry_south_remorseful.png",
+            "path": "assets/characters/poses/char/exports/murderer-reveal/char_standing_cry_south_remorseful.png",
             "sha256": "0cfa9173c7074885c719e331df8fe42572245ffb63378c83321b9d18ffcb4128"
           }
         ]
@@ -2412,7 +2410,7 @@
       "props": [],
       "source_master": "assets/characters/poses/char/masters/murderer-reveal-01/char_standing_accuse_south_defiant.png",
       "source_sha256": "015fb164aa4a93291d33ff8d83b01cac66a4aa2074c274da4996dfba9f7734ca",
-      "export": "assets/characters/poses/char/exports/south/char_standing_accuse_south_defiant.png",
+      "export": "assets/characters/poses/char/exports/murderer-reveal/char_standing_accuse_south_defiant.png",
       "export_sha256": "015fb164aa4a93291d33ff8d83b01cac66a4aa2074c274da4996dfba9f7734ca",
       "canvas": [
         944,
@@ -2434,7 +2432,7 @@
         "scope": "South-facing defiant pointing accusation murderer reveal artwork only; runtime fit pending.",
         "files": [
           {
-            "path": "assets/characters/poses/char/exports/south/char_standing_accuse_south_defiant.png",
+            "path": "assets/characters/poses/char/exports/murderer-reveal/char_standing_accuse_south_defiant.png",
             "sha256": "015fb164aa4a93291d33ff8d83b01cac66a4aa2074c274da4996dfba9f7734ca"
           }
         ]
@@ -2456,7 +2454,7 @@
       "props": [],
       "source_master": "assets/characters/poses/char/masters/murderer-reveal-01/char_standing_threaten_south_furious.png",
       "source_sha256": "e14dda8a515f46a03cbfaed851c8df23135a1ef6c142362435e5419ae43260b7",
-      "export": "assets/characters/poses/char/exports/south/char_standing_threaten_south_furious.png",
+      "export": "assets/characters/poses/char/exports/murderer-reveal/char_standing_threaten_south_furious.png",
       "export_sha256": "e14dda8a515f46a03cbfaed851c8df23135a1ef6c142362435e5419ae43260b7",
       "canvas": [
         944,
@@ -2478,7 +2476,7 @@
         "scope": "South-facing furious threat artwork; user approved intensity and presented image. Runtime fit pending.",
         "files": [
           {
-            "path": "assets/characters/poses/char/exports/south/char_standing_threaten_south_furious.png",
+            "path": "assets/characters/poses/char/exports/murderer-reveal/char_standing_threaten_south_furious.png",
             "sha256": "e14dda8a515f46a03cbfaed851c8df23135a1ef6c142362435e5419ae43260b7"
           }
         ]
@@ -2501,7 +2499,7 @@
       "props": [],
       "source_master": "assets/characters/poses/char/masters/shrug-01/char_standing_shrug_south_resigned.png",
       "source_sha256": "1fe543459ca44a458c1eb416f9b8aa60bfd5ecb45a05d85917a307655f12cb8f",
-      "export": "assets/characters/poses/char/exports/south/char_standing_shrug_south_resigned.png",
+      "export": "assets/characters/poses/char/exports/murderer-reveal/char_standing_shrug_south_resigned.png",
       "export_sha256": "1fe543459ca44a458c1eb416f9b8aa60bfd5ecb45a05d85917a307655f12cb8f",
       "canvas": [
         944,
@@ -2523,7 +2521,7 @@
         "scope": "South-facing resigned shrug (both palms up, flat tired expression) culprit-reveal artwork only; runtime fit pending.",
         "files": [
           {
-            "path": "assets/characters/poses/char/exports/south/char_standing_shrug_south_resigned.png",
+            "path": "assets/characters/poses/char/exports/murderer-reveal/char_standing_shrug_south_resigned.png",
             "sha256": "1fe543459ca44a458c1eb416f9b8aa60bfd5ecb45a05d85917a307655f12cb8f"
           }
         ]
@@ -2579,6 +2577,457 @@
       "landmark_record": "assets/characters/poses/char/metadata/wall-rest-01/char_standing_lean_south_resting.json",
       "intended_use": "Guest resting against a wall or in a corner; not a guilt indicator.",
       "notes": "Generated from prompts/rest-sleep-01.md. Canvas differs from the 944x1665 standing canvas; scale and contact fit are unverified."
+    },
+    {
+      "pose_id": "seated_sleep_east",
+      "variant_id": "napping",
+      "actor_facing": "east",
+      "posture": "seated",
+      "activity": "sleep",
+      "expression": "asleep",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/seated-nap-01/char_seated_sleep_east_napping.png",
+      "source_sha256": "6a3d41eb5a9427628346cd0d532bd20ad63136fe0ddc3bc40a86e3bd769c4faf",
+      "export": "assets/characters/poses/char/exports/east/char_seated_sleep_east_napping.png",
+      "export_sha256": "6a3d41eb5a9427628346cd0d532bd20ad63136fe0ddc3bc40a86e3bd769c4faf",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "landmark_record": "assets/characters/poses/char/metadata/seated-nap-01/char_seated_sleep_east_napping.json",
+      "canvas": [
+        944,
+        1665
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "contact_calibration": "pending",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "Good continue"
+        },
+        "scope": "Existing Char seated-nap artwork only; byte-identical organization/export copies. Chair contact and runtime fit remain unverified.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/drafts/seated-nap-01/char_seated_sleep_east_napping.png",
+            "sha256": "6a3d41eb5a9427628346cd0d532bd20ad63136fe0ddc3bc40a86e3bd769c4faf"
+          },
+          {
+            "path": "assets/characters/poses/char/masters/seated-nap-01/char_seated_sleep_east_napping.png",
+            "sha256": "6a3d41eb5a9427628346cd0d532bd20ad63136fe0ddc3bc40a86e3bd769c4faf"
+          },
+          {
+            "path": "assets/characters/poses/char/exports/east/char_seated_sleep_east_napping.png",
+            "sha256": "6a3d41eb5a9427628346cd0d532bd20ad63136fe0ddc3bc40a86e3bd769c4faf"
+          }
+        ],
+        "retention": "Keep exact approved artwork and required production metadata; runtime fit remains unverified."
+      }
+    },
+    {
+      "pose_id": "lying_idle_east_west_head_east",
+      "variant_id": "awake",
+      "actor_facing": null,
+      "posture": "lying",
+      "activity": "idle",
+      "expression": "thoughtful",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/lying-east-west-01/char_lying_idle_east_west_head_east_awake.png",
+      "source_sha256": "5060dbdb8c04a51f2a05d914e578dfb0046a872145cf523111aceb593d65a58e",
+      "export": "assets/characters/poses/char/exports/lying/char_lying_idle_east_west_head_east_awake.png",
+      "export_sha256": "5060dbdb8c04a51f2a05d914e578dfb0046a872145cf523111aceb593d65a58e",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "landmark_record": "assets/characters/poses/char/metadata/lying-east-west-01/char_lying_idle_east_west_head_east_awake.json",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparency_status": "alpha_present",
+      "body_axis": "east_west",
+      "head_direction": "east",
+      "contact_calibration": "pending",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "I think its good enough. Go ahead."
+        },
+        "scope": "East-west, head-east lying artwork only, for the east-west canopy bed (bed_east_west_head_east). Body axis slants about 12 degrees upward to the right from the camera angle. Runtime fit and bed contact calibration pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/lying/char_lying_idle_east_west_head_east_awake.png",
+            "sha256": "5060dbdb8c04a51f2a05d914e578dfb0046a872145cf523111aceb593d65a58e"
+          }
+        ]
+      }
+    },
+    {
+      "pose_id": "lying_idle_east_west_head_west",
+      "variant_id": "awake",
+      "actor_facing": null,
+      "posture": "lying",
+      "activity": "idle",
+      "expression": "thoughtful",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/lying-head-west-01/char_lying_idle_east_west_head_west_awake.png",
+      "source_sha256": "bde82830452eba7b537b46bd3b00c05bdee223d88d96f9a864cc8ad67ad71c28",
+      "export": "assets/characters/poses/char/exports/lying/char_lying_idle_east_west_head_west_awake.png",
+      "export_sha256": "bde82830452eba7b537b46bd3b00c05bdee223d88d96f9a864cc8ad67ad71c28",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "landmark_record": "assets/characters/poses/char/metadata/lying-head-west-01/char_lying_idle_east_west_head_west_awake.json",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparency_status": "alpha_present",
+      "body_axis": "east_west",
+      "head_direction": "west",
+      "contact_calibration": "pending",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "Approved."
+        },
+        "scope": "East-west, head-west lying artwork only, for beds like bed_east_west_head_west. Redrawn, not mirrored; the body axis slants about 13 degrees with the head end higher. Runtime fit and bed contact calibration pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/lying/char_lying_idle_east_west_head_west_awake.png",
+            "sha256": "bde82830452eba7b537b46bd3b00c05bdee223d88d96f9a864cc8ad67ad71c28"
+          }
+        ]
+      }
+    },
+    {
+      "pose_id": "lying_idle_north_south_head_north",
+      "variant_id": "awake",
+      "actor_facing": null,
+      "posture": "lying",
+      "activity": "idle",
+      "expression": "thoughtful",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/lying-awake-01/char_lying_idle_north_south_head_north_awake.png",
+      "source_sha256": "0523c7a94cccd78314ecc06dd8f46a5205b2a04a27b944c45f8e9e4957ade78b",
+      "export": "assets/characters/poses/char/exports/lying/char_lying_idle_north_south_head_north_awake.png",
+      "export_sha256": "0523c7a94cccd78314ecc06dd8f46a5205b2a04a27b944c45f8e9e4957ade78b",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "landmark_record": "assets/characters/poses/char/metadata/lying-awake-01/char_lying_idle_north_south_head_north_awake.json",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparency_status": "alpha_present",
+      "body_axis": "north_south",
+      "head_direction": "north",
+      "contact_calibration": "pending",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "Approve all four drafts (lying awake, lying sleep, sofa nap, wall lean) as art; I'll generate east-west versions separately."
+        },
+        "scope": "North-south, head-north lying awake artwork only, for north-south beds. The current canopy bed is east-west, so an east-west head-east version is needed separately. Runtime fit pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/lying/char_lying_idle_north_south_head_north_awake.png",
+            "sha256": "0523c7a94cccd78314ecc06dd8f46a5205b2a04a27b944c45f8e9e4957ade78b"
+          }
+        ]
+      }
+    },
+    {
+      "pose_id": "lying_lounge_north_south_head_north",
+      "variant_id": "napping",
+      "actor_facing": null,
+      "posture": "lying",
+      "activity": "lounge",
+      "expression": "content_asleep",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/sofa-nap-01/char_lying_lounge_north_south_head_north_napping.png",
+      "source_sha256": "bfe073e466d887a7557af47f5a70ecf735c60f5e8bd6c97dad6cc3f663df45a0",
+      "export": "assets/characters/poses/char/exports/lying/char_lying_lounge_north_south_head_north_napping.png",
+      "export_sha256": "bfe073e466d887a7557af47f5a70ecf735c60f5e8bd6c97dad6cc3f663df45a0",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "landmark_record": "assets/characters/poses/char/metadata/sofa-nap-01/char_lying_lounge_north_south_head_north_napping.json",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparency_status": "alpha_present",
+      "body_axis": "north_south",
+      "head_direction": "north",
+      "contact_calibration": "pending",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "Approve all four drafts (lying awake, lying sleep, sofa nap, wall lean) as art; I'll generate east-west versions separately."
+        },
+        "scope": "Sofa-napping artwork, north-south axis, head north only. Sofa lying contacts do not exist yet, and sofas facing north or south would need an east-west version. Runtime fit pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/lying/char_lying_lounge_north_south_head_north_napping.png",
+            "sha256": "bfe073e466d887a7557af47f5a70ecf735c60f5e8bd6c97dad6cc3f663df45a0"
+          }
+        ]
+      }
+    },
+    {
+      "pose_id": "lying_sleep_east_west_head_east",
+      "variant_id": "peaceful",
+      "actor_facing": null,
+      "posture": "lying",
+      "activity": "sleep",
+      "expression": "asleep",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/lying-east-west-01/char_lying_sleep_east_west_head_east_peaceful.png",
+      "source_sha256": "b75378e7c8da0db23c1e183d6a07b3fb779814f4413c1786cccd0d097e43366c",
+      "export": "assets/characters/poses/char/exports/lying/char_lying_sleep_east_west_head_east_peaceful.png",
+      "export_sha256": "b75378e7c8da0db23c1e183d6a07b3fb779814f4413c1786cccd0d097e43366c",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "landmark_record": "assets/characters/poses/char/metadata/lying-east-west-01/char_lying_sleep_east_west_head_east_peaceful.json",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparency_status": "alpha_present",
+      "body_axis": "east_west",
+      "head_direction": "east",
+      "contact_calibration": "pending",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "I think its good enough. Go ahead."
+        },
+        "scope": "East-west, head-east lying artwork only, for the east-west canopy bed (bed_east_west_head_east). Body axis slants about 12 degrees upward to the right from the camera angle. Runtime fit and bed contact calibration pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/lying/char_lying_sleep_east_west_head_east_peaceful.png",
+            "sha256": "b75378e7c8da0db23c1e183d6a07b3fb779814f4413c1786cccd0d097e43366c"
+          }
+        ]
+      }
+    },
+    {
+      "pose_id": "lying_sleep_east_west_head_west",
+      "variant_id": "peaceful",
+      "actor_facing": null,
+      "posture": "lying",
+      "activity": "sleep",
+      "expression": "asleep",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/lying-head-west-01/char_lying_sleep_east_west_head_west_peaceful.png",
+      "source_sha256": "9f918e9cc07de975edf43d2fa21a796d13e0a9ae7d93f5dfac725821bc057846",
+      "export": "assets/characters/poses/char/exports/lying/char_lying_sleep_east_west_head_west_peaceful.png",
+      "export_sha256": "9f918e9cc07de975edf43d2fa21a796d13e0a9ae7d93f5dfac725821bc057846",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "landmark_record": "assets/characters/poses/char/metadata/lying-head-west-01/char_lying_sleep_east_west_head_west_peaceful.json",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparency_status": "alpha_present",
+      "body_axis": "east_west",
+      "head_direction": "west",
+      "contact_calibration": "pending",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "Approved."
+        },
+        "scope": "East-west, head-west lying artwork only, for beds like bed_east_west_head_west. Redrawn, not mirrored; the body axis slants about 13 degrees with the head end higher. Runtime fit and bed contact calibration pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/lying/char_lying_sleep_east_west_head_west_peaceful.png",
+            "sha256": "9f918e9cc07de975edf43d2fa21a796d13e0a9ae7d93f5dfac725821bc057846"
+          }
+        ]
+      }
+    },
+    {
+      "pose_id": "lying_sleep_north_south_head_north",
+      "variant_id": "peaceful",
+      "actor_facing": null,
+      "posture": "lying",
+      "activity": "sleep",
+      "expression": "asleep",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/lying-sleep-01/char_lying_sleep_north_south_head_north_peaceful.png",
+      "source_sha256": "779618de152a1b75a510eb85b2480143be6ce8f29b20e07f8b070f0b1be81f2c",
+      "export": "assets/characters/poses/char/exports/lying/char_lying_sleep_north_south_head_north_peaceful.png",
+      "export_sha256": "779618de152a1b75a510eb85b2480143be6ce8f29b20e07f8b070f0b1be81f2c",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "landmark_record": "assets/characters/poses/char/metadata/lying-sleep-01/char_lying_sleep_north_south_head_north_peaceful.json",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "transparency_status": "alpha_present",
+      "body_axis": "north_south",
+      "head_direction": "north",
+      "contact_calibration": "pending",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "Approve all four drafts (lying awake, lying sleep, sofa nap, wall lean) as art; I'll generate east-west versions separately."
+        },
+        "scope": "North-south, head-north sleeping artwork only, for north-south beds. East-west head-east version needed separately for the current canopy bed. Runtime fit pending.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/exports/lying/char_lying_sleep_north_south_head_north_peaceful.png",
+            "sha256": "779618de152a1b75a510eb85b2480143be6ce8f29b20e07f8b070f0b1be81f2c"
+          }
+        ]
+      }
+    },
+    {
+      "pose_id": "seated_sleep_south",
+      "variant_id": "napping",
+      "actor_facing": "south",
+      "posture": "seated",
+      "activity": "sleep",
+      "expression": "asleep",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/seated-nap-01/char_seated_sleep_south_napping.png",
+      "source_sha256": "560ea57252ab48c4b5b7d4061de955d510f1f811c9593fe4e25e7dc9e306810f",
+      "export": "assets/characters/poses/char/exports/south/char_seated_sleep_south_napping.png",
+      "export_sha256": "560ea57252ab48c4b5b7d4061de955d510f1f811c9593fe4e25e7dc9e306810f",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "landmark_record": "assets/characters/poses/char/metadata/seated-nap-01/char_seated_sleep_south_napping.json",
+      "canvas": [
+        944,
+        1666
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "contact_calibration": "pending",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-25",
+          "source": "user",
+          "quote": "Approved, Continue."
+        },
+        "scope": "Existing Char seated-nap artwork only; byte-identical organization/export copies. Chair contact and runtime fit remain unverified.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/drafts/seated-nap-01/char_seated_sleep_south_napping.png",
+            "sha256": "560ea57252ab48c4b5b7d4061de955d510f1f811c9593fe4e25e7dc9e306810f"
+          },
+          {
+            "path": "assets/characters/poses/char/masters/seated-nap-01/char_seated_sleep_south_napping.png",
+            "sha256": "560ea57252ab48c4b5b7d4061de955d510f1f811c9593fe4e25e7dc9e306810f"
+          },
+          {
+            "path": "assets/characters/poses/char/exports/south/char_seated_sleep_south_napping.png",
+            "sha256": "560ea57252ab48c4b5b7d4061de955d510f1f811c9593fe4e25e7dc9e306810f"
+          }
+        ],
+        "retention": "Keep exact approved artwork and required production metadata; runtime fit remains unverified."
+      }
+    },
+    {
+      "pose_id": "seated_sleep_west",
+      "variant_id": "napping",
+      "actor_facing": "west",
+      "posture": "seated",
+      "activity": "sleep",
+      "expression": "asleep",
+      "props": [],
+      "source_master": "assets/characters/poses/char/masters/seated-nap-01/char_seated_sleep_west_napping.png",
+      "source_sha256": "edb53330cd69080248298c8398dd2c55bee4b60734f169e6268a3405753b8be9",
+      "export": "assets/characters/poses/char/exports/west/char_seated_sleep_west_napping.png",
+      "export_sha256": "edb53330cd69080248298c8398dd2c55bee4b60734f169e6268a3405753b8be9",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "landmark_record": "assets/characters/poses/char/metadata/seated-nap-01/char_seated_sleep_west_napping.json",
+      "canvas": [
+        944,
+        1666
+      ],
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "transparency_status": "alpha_present",
+      "contact_calibration": "pending",
+      "image_approval": {
+        "status": "approved",
+        "evidence": {
+          "date": "2026-10-26",
+          "source": "user_chat",
+          "quote": "Yes, approve Char\u2019s existing west nap"
+        },
+        "scope": "Existing Char seated-nap artwork only; byte-identical organization/export copies. Chair contact and runtime fit remain unverified.",
+        "files": [
+          {
+            "path": "assets/characters/poses/char/drafts/seated-nap-01/char_seated_sleep_west_napping.png",
+            "sha256": "edb53330cd69080248298c8398dd2c55bee4b60734f169e6268a3405753b8be9"
+          },
+          {
+            "path": "assets/characters/poses/char/masters/seated-nap-01/char_seated_sleep_west_napping.png",
+            "sha256": "edb53330cd69080248298c8398dd2c55bee4b60734f169e6268a3405753b8be9"
+          },
+          {
+            "path": "assets/characters/poses/char/exports/west/char_seated_sleep_west_napping.png",
+            "sha256": "edb53330cd69080248298c8398dd2c55bee4b60734f169e6268a3405753b8be9"
+          }
+        ],
+        "retention": "Keep exact approved artwork and required production metadata; runtime fit remains unverified."
+      }
     }
   ],
   "future_folder_template": "assets/characters/poses/{character_slug}/exports/{actor_facing}/{character_slug}_{pose_id}_{variant_id}.png",
@@ -2596,5 +3045,24 @@
   "organization_note": "User-authorized relocation into directional export folders completed; approved bytes/hashes preserved. Further changes require explicit scope.",
   "runtime_test_consumer": "src/characters/char_pose_session.gd; opt-in F7 only",
   "general_runtime_selector_implemented": false,
-  "runtime_stature_policy": "Use assets/characters/rendering.json shared adult height; per-asset logical_standing_height is the original alignment-review snapshot, not individual runtime sizing."
+  "runtime_stature_policy": "Use assets/characters/rendering.json shared adult height; per-asset logical_standing_height is the original alignment-review snapshot, not individual runtime sizing.",
+  "special_groups": {
+    "murderer_reveal": [
+      "standing_laugh_south",
+      "standing_cry_south",
+      "standing_accuse_south",
+      "standing_threaten_south",
+      "standing_shrug_south"
+    ],
+    "lying": [
+      "lying_idle_east_west_head_east",
+      "lying_idle_east_west_head_west",
+      "lying_idle_north_south_head_north",
+      "lying_lounge_north_south_head_north",
+      "lying_sleep_east_west_head_east",
+      "lying_sleep_east_west_head_west",
+      "lying_sleep_north_south_head_north"
+    ]
+  },
+  "reveal_folder_template": "assets/characters/poses/char/exports/murderer-reveal/char_{pose_id}_{variant_id}.png"
 }

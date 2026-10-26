@@ -1,0 +1,107 @@
+{
+  "queue_id": "chris-seated_idle_north-neutral",
+  "pose_id": "seated_idle_north",
+  "variant_id": "neutral",
+  "direction": "north",
+  "tier": 3,
+  "status": "approved",
+  "approval": "approved",
+  "tool": "built-in image_gen",
+  "prompt": "Create ONE separate full-body transparent PNG game character pose of CHRIS, seated_idle_north, variant neutral.\nREFERENCE 1 is Chris's USER-APPROVED canonical model: preserve this exact identity, male adult body proportions, common head scale and drawing scale. Use only reference1 for identity and style.\nIDENTITY LOCK: expressive larger blue anime eyes exactly like approved Chris v2, simplified softly shaded nose/face, full brown beard and connected moustache, brown brows, gray tweed flat cap KEPT ON. No cap removal or head scratching. RED collared shirt with rolled sleeves and small cream undershirt at throat, CHARCOAL textured waistcoat with brass buttons, gold watch chain on his anatomical LEFT waist (screen-right in south view), black tailored trousers and BLACK lace-up boots. Preserve asymmetric pocket/chain construction across directions with natural occlusion, never move it to another anatomical side to make it visible. Same richly shaded outlined anime/cartoon game rendering with deliberate crisp detail, no photoreal skin or tiny chibi anatomy.\nPOSE: Legs crossed, arms resting; establish seat contact.\nEXPRESSION: neutral. Communicate it through eyes/brows/mouth and posture where visible. Suspicious does not mean furious. Nervous is anxious uncertainty, not crying or terror. Neutral has relaxed brows and a small closed-mouth friendly expression where face is visible.\nFACING: whole body faces AWAY from viewer (NORTH), showing his BACK. Head/chest/hips/knees/boots agree. North must show actual back, no over-shoulder face. Elevated three-quarter mansion camera showing a little crown and shoulder tops. Independently draw this direction; NEVER mirror/flip another pose.\nSCALE/FRAMING: Adult character SEATED in invisible chair, knees comfortably crossed, same head/anatomy drawing scale as approved reference. Whole character cap to boots, comfortable margins. Do not stretch to standing height.\nOUTPUT: exactly ONE complete character with actual PNG alpha transparency (empty outside silhouette), complete arms/hands/legs/hat/boots, clean margins and gaps. No furniture, chair, floor, scenery, shadow, glow, text, labels, borders, grid or extra character. Any book is allowed only when required by the named action. Return only this image; draft production, not approval.\n\nCLEAN isolated game sprite, flat diffuse character lighting, actual alpha0 outside silhouette and alpha255 interior. No halo, aura, gradient, vignette, backdrop, cast shadow or floor. NORTH back view: heels toward viewer, no front eyes, waistcoat back strap and plain rear welt pockets with no buttons. Chair not drawn.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+    }
+  ],
+  "path": "assets/characters/poses/chris/masters/runner-01/chris_seated_idle_north_neutral.png",
+  "sha256": "cdb69508f1effc294c9ee74c2d29997dd348fae8c1b47328e5c483987c4c06b4",
+  "checks": {
+    "format": "PNG",
+    "canvas": [
+      1067,
+      1475
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "solid_bounds": [
+      93,
+      29,
+      999,
+      1406
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "occupied_height": 1377,
+    "standing_height_ratio": null,
+    "standing_height_within_four_percent": null,
+    "canvas_within_one_percent_of_reference": false,
+    "solid_pixels_clear_of_edges": true,
+    "alpha_present": true,
+    "maximum_alpha_255": true,
+    "opaque_fraction": 0.3339,
+    "warnings": [
+      "Native canvas differs; source pixels preserved. Common export canvas/pivot alignment remains pending; stature checked separately."
+    ],
+    "technical_pass": true,
+    "errors": []
+  },
+  "runtime_integrated": false,
+  "created": "2026-10-26T18:48:56.701520+00:00",
+  "visual_qa": {
+    "inspected": true,
+    "user_approval": "approved",
+    "date": "2026-10-26T22:44:50.870929+00:00",
+    "note": "Explicit current-version approval reconciled."
+  },
+  "notes": "Artwork approved; original pixels preserved. Shared canvas/pivot alignment and furniture/runtime fit remain unverified.",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-26",
+      "source": "user_chat",
+      "quote": "Yes, approve all 17 current versions"
+    },
+    "scope": "Exact current Chris artwork; byte-identical organization/export copies authorized. Furniture fit and common canvas/pivot alignment remain unverified.",
+    "files": [
+      {
+        "path": "assets/characters/poses/chris/drafts/runner-01/chris_seated_idle_north_neutral.png",
+        "sha256": "cdb69508f1effc294c9ee74c2d29997dd348fae8c1b47328e5c483987c4c06b4"
+      },
+      {
+        "path": "assets/characters/poses/chris/masters/runner-01/chris_seated_idle_north_neutral.png",
+        "sha256": "cdb69508f1effc294c9ee74c2d29997dd348fae8c1b47328e5c483987c4c06b4"
+      },
+      {
+        "path": "assets/characters/poses/chris/exports/north/chris_seated_idle_north_neutral.png",
+        "sha256": "cdb69508f1effc294c9ee74c2d29997dd348fae8c1b47328e5c483987c4c06b4"
+      }
+    ],
+    "retention": "Keep exact approved artwork and required production metadata; runtime fit remains unverified."
+  },
+  "source_master": "assets/characters/poses/chris/masters/runner-01/chris_seated_idle_north_neutral.png",
+  "source_sha256": "cdb69508f1effc294c9ee74c2d29997dd348fae8c1b47328e5c483987c4c06b4",
+  "export": "assets/characters/poses/chris/exports/north/chris_seated_idle_north_neutral.png",
+  "export_sha256": "cdb69508f1effc294c9ee74c2d29997dd348fae8c1b47328e5c483987c4c06b4",
+  "landmark_record": "assets/characters/poses/chris/metadata/runner-01/chris_seated_idle_north_neutral.json",
+  "actor_facing": "north",
+  "posture": "seated",
+  "activity": "idle",
+  "props": [],
+  "canvas": [
+    1067,
+    1475
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "contact_calibration": "pending"
+}

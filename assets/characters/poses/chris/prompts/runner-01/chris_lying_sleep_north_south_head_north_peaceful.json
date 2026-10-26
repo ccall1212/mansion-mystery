@@ -1,0 +1,15 @@
+{
+ "queue_id": "chris-lying_sleep_north_south_head_north-peaceful",
+ "prompt": "Create ONE full-body isolated transparent PNG sprite of CHRIS lying on his BACK, body axis north-south, HEAD at TOP (north), BOTH BOOTS toward BOTTOM/viewer (south). Elevated three-quarter game camera from SOUTH looking along body, foreshortened reclining anatomy, not standing upright. Portrait1024x1536, generous empty margins beyond head, elbows and boots. Use reference only for Chris identity: adult male, full brown beard/moustache, large blue anime eyes, gray tweed flat cap ON, red rolled-sleeve collared shirt/cream neckline, charcoal textured brass-button waistcoat, gold chain on own anatomical LEFT waist (screen RIGHT), black trousers and full adult black laceup boots. Same richly shaded outlined anime game art, natural adult anatomy with two equal-length legs and matching full-length boots in perspective, ankles gently crossed without twisting. One hand behind head, free forearm and palm resting OVER STOMACH. Head level as if on invisible pillow. Render only the man with opaque interior and EMPTY alpha0 immediately outside silhouette, no surroundings, lighting effects or cast shadow. No bed/pillow/furniture/floor/text. ASLEEP, both eyes CLOSED, smooth relaxed brows with no worried crease, loose peaceful mouth slightly parted. Both hands loosely together over stomach instead of arm behind head. Legs relaxed, slight bend to one side. No smile/frown/tension.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/drafts/runner-01/chris_lying_sleep_north_south_head_north_peaceful.png",
+ "status": "generated",
+ "prepared": "2026-10-26T21:55:42.892956+00:00"
+}

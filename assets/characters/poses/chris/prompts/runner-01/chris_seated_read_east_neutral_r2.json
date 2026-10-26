@@ -1,0 +1,19 @@
+{
+ "queue_id": "chris-seated_read_east-neutral",
+ "prompt": "Create ONE full body transparent PNG sprite of CHRIS seated reading facing EAST (screen RIGHT). Reference1 approved Chris supplies identity and costume ONLY. Reference2 Char seated reading EAST supplies EXACT sideward body orientation, chair-height pelvis, parallel uncrossed thighs projecting RIGHT, knees and both feet pointing RIGHT, camera elevation, book placement and downward gaze. Replace Char with Chris, keep entire torso and pelvis aligned toward RIGHT, near shoulder dominant, far shoulder receding; no broad front-facing chest, no face toward viewer. BOTH boots planted on implied floor, knees together, NOT crossed legs. Open burgundy hardcover book held in both hands raised above lap, chin and blue eyes down toward pages, calm attentive neutral closed mouth. Adult male, full brown beard and moustache, approved large blue anime eyes, gray tweed flat cap ON, red rolled-sleeve collared shirt with cream neckline, charcoal textured waistcoat/brass buttons, gold chain on his own LEFT waist only with natural occlusion, black trousers and black laceup boots. Match approved Chris identity, proportions and richly shaded outlined anime rendering. Keep full cap, book, fingers and both boots comfortably inside margins. Compact seated silhouette with consistent head drawing scale. No chair or furniture, no floor or cast shadow, no writing or labels. Actual transparent PNG empty alpha0 background and opaque character interior. Flat diffuse character lighting ONLY, no glow, aura, halo, gradient backdrop or vignette. One character only, no mirroring.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  },
+  {
+   "path": "assets/characters/poses/char/exports/east/char_seated_read_east_neutral.png",
+   "sha256": "72e36162890ff475878dcb59734450303ad4aa40a831f094f2dcb1893741a32e"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/exports/east/chris_seated_read_east_neutral.png",
+ "status": "generated",
+ "prepared": "2026-10-26T19:06:44.664823+00:00"
+}

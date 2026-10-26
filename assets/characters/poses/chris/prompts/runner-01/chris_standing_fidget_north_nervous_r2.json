@@ -1,0 +1,15 @@
+{
+ "queue_id": "chris-standing_fidget_north-nervous",
+ "prompt": "Use case: precise-object-edit. Edit this transparent full-body Chris north/back-view nervous game sprite. Make ONLY ONE tiny costume correction: REMOVE the two round dark buttons directly BELOW the two rear trouser welt-pocket openings. Keep plain clean horizontal rear welt pockets with NO BUTTONS underneath, matching approved costume. Fill those two tiny areas with matching black trouser fabric shading. Preserve EVERYTHING ELSE exactly: pose, hand at mouth, opposite supporting forearm, back of cap, beard silhouette, red rolled-sleeve shirt, charcoal vest with rear adjustment strap and buckle, trousers, boots, proportions, occupied height and canvas dimensions. Do not redraw or restyle character, move limbs, crop, change scale or add anything. Retain original true PNG alpha transparency and transparent margins. One complete character, no text, floor shadow or backdrop.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_fidget_north_nervous.png",
+   "sha256": "bcd81728af42310fc4a9297cc63b45713f5322ec4fdfe5ac3820b00fe8e56786"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/exports/north/chris_standing_fidget_north_nervous.png",
+ "status": "generated",
+ "prepared": "2026-10-26T17:58:54.505888+00:00"
+}

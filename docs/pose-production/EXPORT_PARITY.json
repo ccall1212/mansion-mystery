@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-26T22:44:50.870929+00:00",
+  "counts": {
+    "char": {
+      "east": 19,
+      "lying": 7,
+      "murderer-reveal": 5,
+      "north": 11,
+      "south": 20,
+      "west": 19
+    },
+    "chris": {
+      "east": 19,
+      "lying": 7,
+      "murderer-reveal": 5,
+      "north": 11,
+      "south": 20,
+      "west": 19
+    }
+  },
+  "total_each": 81,
+  "same_pose_slots": true,
+  "intentional_substitution": "Char standing remorseful cry corresponds to Chris approved crouching remorseful cry.",
+  "lying_alpha_review": "All five original Chris lying PNGs composited cleanly; hidden alpha-zero RGB haze is not a visible background. No pixels modified.",
+  "runtime_fit": "pending; artwork/library parity is not runtime validation",
+  "index_hash_validation": "81 existing export paths and exact recorded hashes verified for each character; 81 valid image links in each asset browser and Chris production review.",
+  "char_flattened_path_reconciliation": "Four stale revision paths reconciled. West sad canonical export restored from the index-selected revision03 master; previous revision02 bytes remain preserved in its master."
+}

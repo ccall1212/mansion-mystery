@@ -1,0 +1,111 @@
+{
+ "queue_id": "chris-seated_idle_east-neutral",
+ "pose_id": "seated_idle_east",
+ "variant_id": "neutral",
+ "direction": "east",
+ "tier": 3,
+ "status": "approved",
+ "approval": "approved",
+ "tool": "built-in image_gen",
+ "prompt": "Create ONE transparent PNG game sprite: CHRIS seated idle facing EAST, screen RIGHT. Image1 is approved Chris IDENTITY and costume only. Image2 is Char seated EAST: use it directly for the seated body direction, camera elevation, pelvis height, parallel thighs extending toward screen RIGHT, knees and planted feet direction, upright torso and hands resting together in lap. Replace Char with Chris. Crucial correction: rotate Chris's ENTIRE torso, shoulders, pelvis and legs to the RIGHT like reference2; do not retain the front-facing broad chest of image1. Near side shoulder dominant, far shoulder receding, nose points RIGHT. Both thighs project right from hips, both lower legs descend beneath the knees, both boots planted and toes pointing RIGHT; legs NOT crossed. Same elevated three-quarter side view as Char, no looking at viewer. Chris adult male proportions, approved blue anime eyes, full brown beard/moustache, gray tweed flat cap ON, red collared rolled-sleeve shirt/cream undershirt, charcoal textured brass-button waistcoat, gold watch chain on HIS anatomical LEFT waist with natural occlusion, black trousers and laceup boots. Hands relaxed together on lap. Calm neutral small closed mouth. Keep canonical head drawing scale, do not enlarge seated figure to standing height. Full cap and both boots inside generous transparent margins. Richly shaded outlined anime game art matching Chris. Actual PNG alpha0 outside crisp silhouette, opaque character interior, no halo or glow. No chair, furniture, background, shadows, floor, text or collage. Independently draw, no mirroring.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  },
+  {
+   "path": "assets/characters/poses/char/exports/east/char_seated_idle_east_neutral.png",
+   "sha256": "9ec557fba8c95c55400ad8522e1267ca300c7f52476d6cb05ec53d20ed930ac9"
+  }
+ ],
+ "path": "assets/characters/poses/chris/east/chris_seated_idle_east_neutral_r3.png",
+ "sha256": "700c3dbe42be1e852b0c7f16f0d4fbbb596fd16a44f17645a3652dab3e7a9382",
+ "checks": {
+  "format": "PNG",
+  "canvas": [
+   1024,
+   1536
+  ],
+  "alpha_extrema": [
+   0,
+   254
+  ],
+  "solid_bounds": [
+   170,
+   112,
+   1012,
+   1450
+  ],
+  "corner_alpha": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "occupied_height": 1338,
+  "standing_height_ratio": null,
+  "standing_height_within_four_percent": null,
+  "canvas_within_one_percent_of_reference": false,
+  "solid_pixels_clear_of_edges": true,
+  "alpha_present": true,
+  "maximum_alpha_255": false,
+  "opaque_fraction": 0.2862,
+  "warnings": [
+   "Native canvas differs; source pixels preserved. Common export canvas/pivot alignment remains pending; stature checked separately."
+  ],
+  "technical_pass": false,
+  "errors": [
+   "maximum_alpha_255"
+  ]
+ },
+ "runtime_integrated": false,
+ "created": "2026-10-26T19:02:02.972606+00:00",
+ "visual_qa": {
+  "inspected": true,
+  "note": "Direction revised using Char east reference: parallel thighs and planted boots toward right, uncrossed legs. Colored background halo remains; needs cleanup, not export ready. Furniture fit and scale unverified.",
+  "user_approval": "pending",
+  "date": "2026-10-26T19:02:03.220433+00:00"
+ },
+ "notes": "Direction revised using Char east reference: parallel thighs and planted boots toward right, uncrossed legs. Colored background halo remains; needs cleanup, not export ready. Furniture fit and scale unverified. Furniture and runtime fit unverified.",
+ "actor_facing": "east",
+ "posture": "seated",
+ "activity": "idle",
+ "props": [],
+ "source_master": "assets/characters/poses/chris/masters/runner-01/chris_seated_idle_east_neutral_r3.png",
+ "source_sha256": "700c3dbe42be1e852b0c7f16f0d4fbbb596fd16a44f17645a3652dab3e7a9382",
+ "export": "assets/characters/poses/chris/exports/east/chris_seated_idle_east_neutral.png",
+ "export_sha256": "700c3dbe42be1e852b0c7f16f0d4fbbb596fd16a44f17645a3652dab3e7a9382",
+ "canvas": [
+  1024,
+  1536
+ ],
+ "alpha_extrema": [
+  0,
+  254
+ ],
+ "transparency_status": "alpha_present",
+ "contact_calibration": "pending",
+ "landmark_record": "assets/characters/poses/chris/metadata/runner-01/chris_seated_idle_east_neutral_r3.json",
+ "prompt_record": "assets/characters/poses/chris/prompts/runner-01/chris_seated_idle_east_neutral_r3.json",
+ "export_note": "Byte-identical copy of the master with the canonical filename (revision suffix removed). Common export canvas/pivot alignment and furniture contact calibration remain pending.",
+ "image_approval": {
+  "status": "approved",
+  "evidence": {
+   "date": "2026-10-26",
+   "source": "user_chat",
+   "quote": "Yes, that looks good. Probably need to fix the book one too"
+  },
+  "scope": "Revised east r3 and west r2 seated idle artwork only. East halo cleanup remains required. Export scale, furniture fit and runtime integration unverified.",
+  "files": [
+   {
+    "path": "assets/characters/poses/chris/masters/runner-01/chris_seated_idle_east_neutral_r3.png",
+    "sha256": "700c3dbe42be1e852b0c7f16f0d4fbbb596fd16a44f17645a3652dab3e7a9382"
+   },
+   {
+    "path": "assets/characters/poses/chris/exports/east/chris_seated_idle_east_neutral.png",
+    "sha256": "700c3dbe42be1e852b0c7f16f0d4fbbb596fd16a44f17645a3652dab3e7a9382"
+   }
+  ],
+  "retention": "Keep approved artwork and necessary production metadata."
+ }
+}

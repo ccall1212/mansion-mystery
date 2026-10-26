@@ -1,0 +1,109 @@
+{
+ "queue_id": "chris-standing_lean_south-resting",
+ "pose_id": "standing_lean_south",
+ "variant_id": "resting",
+ "direction": "south",
+ "tier": 3,
+ "status": "approved",
+ "approval": "approved",
+ "tool": "built-in image_gen",
+ "prompt": "One complete CHRIS sprite, richly shaded outlined anime game art. Reference1 approved Chris identity: adult male proportions, large blue anime eyes, full brown beard/moustache, brown brows, gray tweed flat cap ON, red rolled-sleeve collared shirt/cream neckline, charcoal textured waistcoat brass buttons, gold chain on HIS anatomical LEFT waist, black trousers and black laceup boots. Reference2 Char supplies pose/camera/direction ONLY, no female identity/outfit. About1564px occupied standing height within4percent on portrait canvas near948x1659. Keep canonical head scale and full cap and both boots in comfortable transparent margins. Actual PNG alpha0 outside silhouette and opaque interior; no halo/glow/background/shadow/floor/furniture/text. Exactly ONE figure, no model sheet or duplicate, no mirroring. Standing facing SOUTH toward viewer, resting back and one shoulder against an INVISIBLE wall. Shoulder and upper back lean gently back, weight on one straight leg, other ankle crossed loosely in front, both hands tucked naturally into FRONT trouser pockets with correct forward entry wrists. Head slightly tilted back, tired patient half-lowered eyes and relaxed closed mouth. No slumping in despair, no smile broad enough to read happy. Match Char's wall-rest composition, preserving male template hands in pockets. No wall is drawn.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  },
+  {
+   "path": "assets/characters/poses/char/exports/south/char_standing_lean_south_resting.png",
+   "sha256": "b0e50c3ca37dc0a211569a6c9c7a7d84788e0dd209a880e2c522859671340aab"
+  }
+ ],
+ "path": "assets/characters/poses/chris/south/chris_standing_lean_south_resting.png",
+ "sha256": "9cc9dc504f16b716e8f578ff1f05dceacbe1d29ed7ea45449a953c939eacdd9d",
+ "checks": {
+  "format": "PNG",
+  "canvas": [
+   985,
+   1596
+  ],
+  "alpha_extrema": [
+   0,
+   255
+  ],
+  "solid_bounds": [
+   222,
+   13,
+   795,
+   1566
+  ],
+  "corner_alpha": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "occupied_height": 1553,
+  "standing_height_ratio": 0.993,
+  "standing_height_within_four_percent": true,
+  "canvas_within_one_percent_of_reference": false,
+  "solid_pixels_clear_of_edges": true,
+  "alpha_present": true,
+  "maximum_alpha_255": true,
+  "opaque_fraction": 0.3047,
+  "warnings": [
+   "Native canvas differs; source pixels preserved. Common export canvas/pivot alignment remains pending; stature checked separately."
+  ],
+  "technical_pass": true,
+  "errors": []
+ },
+ "runtime_integrated": false,
+ "created": "2026-10-26T19:52:31.599546+00:00",
+ "visual_qa": {
+  "inspected": true,
+  "note": "South wall-resting pose: shoulder/back lean, crossed ankles and hands naturally in front pockets, tired half-lowered eyes. Full cap and both boots. Actual wall contact/pivot alignment unverified; artwork approval pending.",
+  "user_approval": "pending",
+  "date": "2026-10-26T19:52:31.867240+00:00"
+ },
+ "notes": "South wall-resting pose: shoulder/back lean, crossed ankles and hands naturally in front pockets, tired half-lowered eyes. Full cap and both boots. Actual wall contact/pivot alignment unverified; artwork approval pending. Furniture and runtime fit unverified.",
+ "actor_facing": "south",
+ "posture": "standing",
+ "activity": "lean",
+ "props": [],
+ "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_lean_south_resting.png",
+ "source_sha256": "9cc9dc504f16b716e8f578ff1f05dceacbe1d29ed7ea45449a953c939eacdd9d",
+ "export": "assets/characters/poses/chris/exports/south/chris_standing_lean_south_resting.png",
+ "export_sha256": "9cc9dc504f16b716e8f578ff1f05dceacbe1d29ed7ea45449a953c939eacdd9d",
+ "canvas": [
+  985,
+  1596
+ ],
+ "alpha_extrema": [
+  0,
+  255
+ ],
+ "transparency_status": "alpha_present",
+ "contact_calibration": "pending",
+ "landmark_record": "assets/characters/poses/chris/metadata/runner-01/chris_standing_lean_south_resting.json",
+ "prompt_record": "assets/characters/poses/chris/prompts/runner-01/chris_standing_lean_south_resting.json",
+ "export_note": "Byte-identical copy of the master with the canonical filename (revision suffix removed). Common export canvas/pivot alignment and furniture contact calibration remain pending.",
+ "image_approval": {
+  "status": "approved",
+  "evidence": {
+   "date": "2026-10-26",
+   "source": "user_chat",
+   "quote": "Looks great! Are we almost finished with Chris' poses?"
+  },
+  "scope": "Latest south wall-resting and four upward-looking pose candidates. Artwork only; wall contact, export alignment and runtime fit pending.",
+  "files": [
+   {
+    "path": "assets/characters/poses/chris/masters/runner-01/chris_standing_lean_south_resting.png",
+    "sha256": "9cc9dc504f16b716e8f578ff1f05dceacbe1d29ed7ea45449a953c939eacdd9d"
+   },
+   {
+    "path": "assets/characters/poses/chris/exports/south/chris_standing_lean_south_resting.png",
+    "sha256": "9cc9dc504f16b716e8f578ff1f05dceacbe1d29ed7ea45449a953c939eacdd9d"
+   }
+  ],
+  "retention": "Keep approved artwork and required metadata."
+ }
+}

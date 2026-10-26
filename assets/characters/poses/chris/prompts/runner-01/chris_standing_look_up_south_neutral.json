@@ -1,0 +1,19 @@
+{
+ "queue_id": "chris-standing_look_up_south-neutral",
+ "prompt": "One complete CHRIS sprite, richly shaded outlined anime game art. Reference1 approved Chris identity: adult male proportions, large blue anime eyes, full brown beard/moustache, brown brows, gray tweed flat cap ON, red rolled-sleeve collared shirt/cream neckline, charcoal textured waistcoat brass buttons, gold chain on HIS anatomical LEFT waist, black trousers and black laceup boots. Reference2 Char supplies pose/camera/direction ONLY, no female identity/outfit. About1564px occupied standing height within4percent on portrait canvas near948x1659. Keep canonical head scale and full cap and both boots in comfortable transparent margins. Actual PNG alpha0 outside silhouette and opaque interior; no halo/glow/background/shadow/floor/furniture/text. Exactly ONE figure, no model sheet or duplicate, no mirroring. Stand naturally with both feet planted, both arms hanging relaxed at sides, palms loosely inward, looking UP attentively. Match Char's corresponding upward gaze/body orientation. Relaxed eyebrows, calm focused closed mouth, no broad excited grin, no reaching or pointing. Toward viewer SOUTH: shoulders/hips/boot toes squarely forward. Tilt head back naturally and lift both blue eyes to high above viewer. No sideward body turn.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  },
+  {
+   "path": "assets/characters/poses/char/exports/south/char_standing_look_up_south_neutral.png",
+   "sha256": "aa6a305029cd8a56260d4ae829579cef28392f482633b9e6de8d89583bdad489"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/exports/south/chris_standing_look_up_south_neutral.png",
+ "status": "generated",
+ "prepared": "2026-10-26T19:55:23.075932+00:00"
+}

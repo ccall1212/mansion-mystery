@@ -9,7 +9,7 @@
   "props": [],
   "source_master": "assets/characters/poses/char/masters/murderer-reveal-01/char_standing_threaten_south_furious.png",
   "source_sha256": "e14dda8a515f46a03cbfaed851c8df23135a1ef6c142362435e5419ae43260b7",
-  "export": "assets/characters/poses/char/exports/south/char_standing_threaten_south_furious.png",
+  "export": "assets/characters/poses/char/exports/murderer-reveal/char_standing_threaten_south_furious.png",
   "export_sha256": "e14dda8a515f46a03cbfaed851c8df23135a1ef6c142362435e5419ae43260b7",
   "canvas": [
     944,
@@ -31,7 +31,7 @@
     "scope": "South-facing furious threat artwork; user approved intensity and presented image. Runtime fit pending.",
     "files": [
       {
-        "path": "assets/characters/poses/char/exports/south/char_standing_threaten_south_furious.png",
+        "path": "assets/characters/poses/char/exports/murderer-reveal/char_standing_threaten_south_furious.png",
         "sha256": "e14dda8a515f46a03cbfaed851c8df23135a1ef6c142362435e5419ae43260b7"
       }
     ]

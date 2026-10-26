@@ -1,0 +1,23 @@
+{
+  "queue_id": "chris-crouching_cry_south-remorseful",
+  "prompt": "Use case: stylized-concept. Create ONE transparent PNG game sprite of CHRIS in a SOUTH-FACING DEEP CROUCH, devastated and sobbing. Image 1 is his APPROVED IDENTITY and costume; image 2 is BODY-POSE REFERENCE ONLY. Translate that side-view photograph into a frontal south-facing pose toward the viewer, viewed from the game's elevated three-quarter camera. Both knees and chest face the viewer; do not draw side-facing. He squats very low on bent legs, heels close under hips, torso folded forward over thighs, elbows braced on knees. BOTH hands clutch the sides of his head / temples in despair, fingers spread beside the cap. Keep gray tweed flat cap ON. Head bowed between hands; leave enough of his brow, nose, cheeks and beard visible to read profound grief. Eyes squeezed shut, raised inner brows and pinched anguished forehead, abundant tear trails down both cheeks, mouth drawn down and open in a pained sob. Shoulders hunched and collapsed with guilt. He should look absolutely heartbroken, overwhelmed by remorse. Preserve exact brown beard/moustache, brown hair, adult male proportions, larger anime facial structure, red rolled-sleeve collared shirt, cream undershirt neckline, charcoal textured waistcoat with brass buttons, anatomical LEFT gold watch chain, black trousers and black lace-up boots from image 1. Same richly shaded outlined anime/cartoon rendering, no photographic skin. Both boots fully visible at bottom, natural hand anatomy, complete silhouette. Keep head and body drawing scale comparable to identity reference; crouched figure naturally occupies LESS HEIGHT than standing, never stretch the crouch to standing height. Comfortable transparent margins around every extremity. Actual PNG alpha background. NO wall, furniture, floor, floor shadow, setting, lettering, watermark, caption, border or photo elements. One original independently drawn full character only. This is a crouching replacement for the previous standing remorseful draft.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+    },
+    {
+      "source": "user_attachment",
+      "filename": "codex-clipboard-6b6d60ad-a546-4e64-bc57-672b0411a199.png",
+      "sha256": "5cb9481e82110ac49f9840aa9663fd2bf1da5a6cc08b626133bbcb80dc3b197d"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "revision_evidence": {
+    "date": "2026-10-26",
+    "source": "user_chat",
+    "quote": "The sobbing, maybe you could make it like this but facing south"
+  },
+  "status": "generated"
+}

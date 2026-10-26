@@ -1,0 +1,15 @@
+{
+ "queue_id": "chris-seated_idle_north-neutral",
+ "prompt": "Create ONE separate full-body transparent PNG game character pose of CHRIS, seated_idle_north, variant neutral.\nREFERENCE 1 is Chris's USER-APPROVED canonical model: preserve this exact identity, male adult body proportions, common head scale and drawing scale. Use only reference1 for identity and style.\nIDENTITY LOCK: expressive larger blue anime eyes exactly like approved Chris v2, simplified softly shaded nose/face, full brown beard and connected moustache, brown brows, gray tweed flat cap KEPT ON. No cap removal or head scratching. RED collared shirt with rolled sleeves and small cream undershirt at throat, CHARCOAL textured waistcoat with brass buttons, gold watch chain on his anatomical LEFT waist (screen-right in south view), black tailored trousers and BLACK lace-up boots. Preserve asymmetric pocket/chain construction across directions with natural occlusion, never move it to another anatomical side to make it visible. Same richly shaded outlined anime/cartoon game rendering with deliberate crisp detail, no photoreal skin or tiny chibi anatomy.\nPOSE: Legs crossed, arms resting; establish seat contact.\nEXPRESSION: neutral. Communicate it through eyes/brows/mouth and posture where visible. Suspicious does not mean furious. Nervous is anxious uncertainty, not crying or terror. Neutral has relaxed brows and a small closed-mouth friendly expression where face is visible.\nFACING: whole body faces AWAY from viewer (NORTH), showing his BACK. Head/chest/hips/knees/boots agree. North must show actual back, no over-shoulder face. Elevated three-quarter mansion camera showing a little crown and shoulder tops. Independently draw this direction; NEVER mirror/flip another pose.\nSCALE/FRAMING: Adult character SEATED in invisible chair, knees comfortably crossed, same head/anatomy drawing scale as approved reference. Whole character cap to boots, comfortable margins. Do not stretch to standing height.\nOUTPUT: exactly ONE complete character with actual PNG alpha transparency (empty outside silhouette), complete arms/hands/legs/hat/boots, clean margins and gaps. No furniture, chair, floor, scenery, shadow, glow, text, labels, borders, grid or extra character. Any book is allowed only when required by the named action. Return only this image; draft production, not approval.\n\nCLEAN isolated game sprite, flat diffuse character lighting, actual alpha0 outside silhouette and alpha255 interior. No halo, aura, gradient, vignette, backdrop, cast shadow or floor. NORTH back view: heels toward viewer, no front eyes, waistcoat back strap and plain rear welt pockets with no buttons. Chair not drawn.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/drafts/runner-01/chris_seated_idle_north_neutral.png",
+ "status": "generated",
+ "prepared": "2026-10-26T18:46:29.892727+00:00"
+}

@@ -1,0 +1,47 @@
+{
+  "pose_id": "lying_sleep_east_west_head_west",
+  "variant_id": "peaceful",
+  "actor_facing": null,
+  "posture": "lying",
+  "activity": "sleep",
+  "expression": "asleep",
+  "gesture": "asleep_hands_on_stomach",
+  "props": [],
+  "body_axis": "east_west",
+  "head_direction": "west",
+  "source_master": "assets/characters/poses/char/masters/lying-head-west-01/char_lying_sleep_east_west_head_west_peaceful.png",
+  "source_sha256": "9f918e9cc07de975edf43d2fa21a796d13e0a9ae7d93f5dfac725821bc057846",
+  "export": "assets/characters/poses/char/exports/lying/char_lying_sleep_east_west_head_west_peaceful.png",
+  "export_sha256": "9f918e9cc07de975edf43d2fa21a796d13e0a9ae7d93f5dfac725821bc057846",
+  "canvas": [
+    1536,
+    1024
+  ],
+  "alpha_extrema": [
+    0,
+    254
+  ],
+  "transparency_status": "alpha_present",
+  "approval": "approved",
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-25",
+      "source": "user",
+      "quote": "Approved."
+    },
+    "scope": "East-west, head-west lying artwork only, for beds like bed_east_west_head_west. Redrawn, not mirrored; the body axis slants about 13 degrees with the head end higher. Runtime fit and bed contact calibration pending.",
+    "files": [
+      {
+        "path": "assets/characters/poses/char/exports/lying/char_lying_sleep_east_west_head_west_peaceful.png",
+        "sha256": "9f918e9cc07de975edf43d2fa21a796d13e0a9ae7d93f5dfac725821bc057846"
+      }
+    ]
+  },
+  "runtime_integrated": false,
+  "contact_calibration": "pending",
+  "standing_reference_height": null,
+  "landmark_record": "assets/characters/poses/char/metadata/lying-head-west-01/char_lying_sleep_east_west_head_west_peaceful.json",
+  "intended_use": "Guest asleep on an east-west bed with the head west; sleeping is a separate action from lying idle.",
+  "notes": "Generated from prompts/rest-sleep-01.md (head-west section). About 72 x 36 world px at the standing scale; canvas 1536x1024."
+}

@@ -1,0 +1,51 @@
+{
+  "pose_id": "seated_sleep_south",
+  "variant_id": "napping",
+  "actor_facing": "south",
+  "posture": "seated",
+  "activity": "sleep",
+  "expression": "asleep",
+  "props": [],
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-25",
+      "source": "user",
+      "quote": "Approved, Continue."
+    },
+    "scope": "Existing Char seated-nap artwork only; byte-identical organization/export copies. Chair contact and runtime fit remain unverified.",
+    "files": [
+      {
+        "path": "assets/characters/poses/char/drafts/seated-nap-01/char_seated_sleep_south_napping.png",
+        "sha256": "560ea57252ab48c4b5b7d4061de955d510f1f811c9593fe4e25e7dc9e306810f"
+      },
+      {
+        "path": "assets/characters/poses/char/masters/seated-nap-01/char_seated_sleep_south_napping.png",
+        "sha256": "560ea57252ab48c4b5b7d4061de955d510f1f811c9593fe4e25e7dc9e306810f"
+      },
+      {
+        "path": "assets/characters/poses/char/exports/south/char_seated_sleep_south_napping.png",
+        "sha256": "560ea57252ab48c4b5b7d4061de955d510f1f811c9593fe4e25e7dc9e306810f"
+      }
+    ],
+    "retention": "Keep exact approved artwork and required production metadata; runtime fit remains unverified."
+  },
+  "source_master": "assets/characters/poses/char/masters/seated-nap-01/char_seated_sleep_south_napping.png",
+  "source_sha256": "560ea57252ab48c4b5b7d4061de955d510f1f811c9593fe4e25e7dc9e306810f",
+  "export": "assets/characters/poses/char/exports/south/char_seated_sleep_south_napping.png",
+  "export_sha256": "560ea57252ab48c4b5b7d4061de955d510f1f811c9593fe4e25e7dc9e306810f",
+  "approval": "approved",
+  "runtime_integrated": false,
+  "contact_calibration": "pending",
+  "landmark_record": "assets/characters/poses/char/metadata/seated-nap-01/char_seated_sleep_south_napping.json",
+  "canvas": [
+    944,
+    1666
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "notes": "unverified; canvas and lower-body redraw differ from idle"
+}

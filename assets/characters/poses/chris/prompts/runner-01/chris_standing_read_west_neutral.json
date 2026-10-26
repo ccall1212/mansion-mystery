@@ -1,0 +1,19 @@
+{
+ "queue_id": "chris-standing_read_west-neutral",
+ "prompt": "Create ONE full-body transparent PNG sprite of CHRIS STANDING READING an OPEN burgundy hardcover book, held in BOTH hands in front of lower chest. Image1 approved Chris is identity/proportions/costume; image2 matching Char standing reading is camera/body direction/book position only. Preserve adult male proportions, exact approved large blue anime eyes, full brown beard and moustache, gray tweed flat cap KEPT ON, red rolled-sleeve collared shirt/cream neckline, charcoal textured brass-button waistcoat, gold chain on HIS anatomical LEFT waist with natural occlusion, black trousers and black laceup boots. Richly shaded outlined anime game art. Stand naturally on BOTH feet, torso mostly upright, elbows bent comfortably, head/chin lowered and eyes focused on inner pages, calm relaxed neutral closed mouth. Fingers naturally support book outer edges; both inner pages face READER, burgundy covers face AWAY from reader. No backwards book. Full standing height around1564px within4percent, portrait canvas near948x1659, canonical head drawing scale, complete cap/hands/book/both boots comfortably inside margins. Exactly ONE character, independently drawn not mirrored. Actual PNG alpha0 outside crisp silhouette and opaque interior; no halo/glow/vignette/background/floor/shadow/furniture/text/labels. WEST side three-quarter: head/chest/hips/boots point screen LEFT like Char2, near shoulder dominant far receding, book ahead LEFT. No front-facing torso/viewer gaze. Gold chain stays anatomical-left near waist if visible. Camera sees outer cover naturally while reader sees pages.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  },
+  {
+   "path": "assets/characters/poses/char/exports/west/char_standing_read_west_neutral.png",
+   "sha256": "85aabd6bdf9815b38afbc35427d607349a03812f5d618928d431bede736c5654"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/exports/west/chris_standing_read_west_neutral.png",
+ "status": "generated",
+ "prepared": "2026-10-26T20:18:33.125605+00:00"
+}

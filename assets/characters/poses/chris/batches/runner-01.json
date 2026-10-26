@@ -1,0 +1,621 @@
+{
+ "batch": "runner-01",
+ "character": "chris",
+ "summary": {
+  "imported": 1,
+  "approved": 58,
+  "skipped": 1,
+  "draft": 17,
+  "needs_help": 5,
+  "queued": 19
+ },
+ "note": "Production scope for Chris poses. queue.json is the live queue; approvals are recorded in metadata/<batch> and production-manifest.json. Drafts live in drafts/runner-01; approved poses are in exports/ and masters/.",
+ "jobs": [
+  {
+   "queue_id": "chris-standing_idle_south-neutral",
+   "status": "imported",
+   "path": "assets/characters/poses/chris/exports/south/chris_standing_idle_south_neutral.png",
+   "artwork_status": "imported"
+  },
+  {
+   "queue_id": "chris-standing_cross_arms_south-suspicious",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/south/chris_standing_cross_arms_south_suspicious.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_fidget_south-nervous",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/south/chris_standing_fidget_south_nervous.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_idle_east-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/east/chris_standing_idle_east_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_idle_west-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/west/chris_standing_idle_west_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_idle_north-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/north/chris_standing_idle_north_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_accuse_south-defiant",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/murderer-reveal/chris_standing_accuse_south_defiant.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_cross_arms_east-suspicious",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/east/chris_standing_cross_arms_east_suspicious.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_cross_arms_north-suspicious",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/north/chris_standing_cross_arms_north_suspicious.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_cross_arms_west-suspicious",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/west/chris_standing_cross_arms_west_suspicious.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_cry_south-remorseful",
+   "status": "skipped",
+   "path": null,
+   "artwork_status": "skipped"
+  },
+  {
+   "queue_id": "chris-crouching_cry_south-remorseful",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/murderer-reveal/chris_crouching_cry_south_remorseful.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_deny_east-defensive",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/east/chris_standing_deny_east_defensive.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_deny_south-defensive",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/south/chris_standing_deny_south_defensive.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_deny_west-defensive",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/west/chris_standing_deny_west_defensive.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_laugh_south-evil",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/murderer-reveal/chris_standing_laugh_south_evil.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_look_down_east-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/east/chris_standing_look_down_east_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_look_down_south-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/south/chris_standing_look_down_south_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_look_down_west-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/west/chris_standing_look_down_west_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_shrug_south-resigned",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/murderer-reveal/chris_standing_shrug_south_resigned.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_startle_east-surprised",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/east/chris_standing_startle_east_surprised.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_startle_south-surprised",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/south/chris_standing_startle_south_surprised.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_startle_west-surprised",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/west/chris_standing_startle_west_surprised.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_talk_east-friendly",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/east/chris_standing_talk_east_friendly.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_talk_north-friendly",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/north/chris_standing_talk_north_friendly.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_talk_south-friendly",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/south/chris_standing_talk_south_friendly.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_talk_west-friendly",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/west/chris_standing_talk_west_friendly.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_threaten_south-furious",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/murderer-reveal/chris_standing_threaten_south_furious.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_clasp_hands_east-friendly",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/east/chris_standing_clasp_hands_east_friendly.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_clasp_hands_south-friendly",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/south/chris_standing_clasp_hands_south_friendly.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_clasp_hands_west-friendly",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/west/chris_standing_clasp_hands_west_friendly.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_fidget_east-nervous",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/east/chris_standing_fidget_east_nervous.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_fidget_north-nervous",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/north/chris_standing_fidget_north_nervous.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_fidget_west-nervous",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/west/chris_standing_fidget_west_nervous.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_hands_hips_east-confident",
+   "status": "draft",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_hands_hips_east_confident.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-standing_hands_hips_north-confident",
+   "status": "draft",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_hands_hips_north_confident.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-standing_hands_hips_south-confident",
+   "status": "draft",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_hands_hips_south_confident.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-standing_hands_hips_west-confident",
+   "status": "draft",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_hands_hips_west_confident.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-standing_think_east-curious",
+   "status": "draft",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_think_east_curious.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-standing_think_north-curious",
+   "status": "draft",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_think_north_curious.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-standing_think_south-curious",
+   "status": "draft",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_think_south_curious.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-standing_think_west-curious",
+   "status": "draft",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_think_west_curious.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-standing_withdraw_east-sad",
+   "status": "draft",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_withdraw_east_sad.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-standing_withdraw_south-sad",
+   "status": "draft",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_withdraw_south_sad.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-standing_withdraw_west-sad",
+   "status": "draft",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_withdraw_west_sad.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-kneeling_reach_east-neutral",
+   "status": "draft",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_kneeling_reach_east_neutral.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-kneeling_reach_south-neutral",
+   "status": "draft",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_kneeling_reach_south_neutral_r2.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-kneeling_reach_west-neutral",
+   "status": "draft",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_kneeling_reach_west_neutral.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-lying_idle_east_west_head_east-awake",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/lying/chris_lying_idle_east_west_head_east_awake.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-lying_idle_east_west_head_west-awake",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/lying/chris_lying_idle_east_west_head_west_awake.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-lying_idle_north_south_head_north-awake",
+   "status": "needs_help",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_lying_idle_north_south_head_north_awake.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-lying_lounge_north_south_head_north-napping",
+   "status": "needs_help",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_lying_lounge_north_south_head_north_napping.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-lying_sleep_east_west_head_east-peaceful",
+   "status": "needs_help",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_lying_sleep_east_west_head_east_peaceful.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-lying_sleep_east_west_head_west-peaceful",
+   "status": "needs_help",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_lying_sleep_east_west_head_west_peaceful.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-lying_sleep_north_south_head_north-peaceful",
+   "status": "needs_help",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_lying_sleep_north_south_head_north_peaceful.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-seated_idle_east-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/east/chris_seated_idle_east_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-seated_idle_north-neutral",
+   "status": "draft",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_seated_idle_north_neutral.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-seated_idle_south-neutral",
+   "status": "draft",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_seated_idle_south_neutral.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-seated_idle_west-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/west/chris_seated_idle_west_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-seated_read_east-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/east/chris_seated_read_east_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-seated_read_north-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/north/chris_seated_read_north_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-seated_read_south-neutral",
+   "status": "draft",
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_seated_read_south_neutral.png",
+   "artwork_status": "pending_review"
+  },
+  {
+   "queue_id": "chris-seated_read_west-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/west/chris_seated_read_west_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-seated_sleep_east-napping",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/east/chris_seated_sleep_east_napping.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-seated_sleep_south-napping",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/south/chris_seated_sleep_south_napping.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-seated_sleep_west-napping",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/west/chris_seated_sleep_west_napping.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_hold_book_east-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/east/chris_standing_hold_book_east_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_hold_book_north-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/north/chris_standing_hold_book_north_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_hold_book_south-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/south/chris_standing_hold_book_south_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_hold_book_west-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/west/chris_standing_hold_book_west_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_lean_south-resting",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/south/chris_standing_lean_south_resting.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_look_up_east-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/east/chris_standing_look_up_east_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_look_up_north-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/north/chris_standing_look_up_north_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_look_up_south-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/south/chris_standing_look_up_south_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_look_up_west-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/west/chris_standing_look_up_west_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_reach_table_east-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/east/chris_standing_reach_table_east_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_reach_table_south-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/south/chris_standing_reach_table_south_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_reach_table_west-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/west/chris_standing_reach_table_west_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_read_east-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/east/chris_standing_read_east_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_read_north-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/north/chris_standing_read_north_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_read_south-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/south/chris_standing_read_south_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-standing_read_west-neutral",
+   "status": "approved",
+   "path": "assets/characters/poses/chris/exports/west/chris_standing_read_west_neutral.png",
+   "artwork_status": "approved"
+  },
+  {
+   "queue_id": "chris-kneeling_inspect_east-neutral",
+   "status": "queued",
+   "path": null,
+   "artwork_status": "queued"
+  },
+  {
+   "queue_id": "chris-kneeling_inspect_north-neutral",
+   "status": "queued",
+   "path": null,
+   "artwork_status": "queued"
+  },
+  {
+   "queue_id": "chris-seated_talk_east-friendly",
+   "status": "queued",
+   "path": null,
+   "artwork_status": "queued"
+  },
+  {
+   "queue_id": "chris-seated_talk_south-friendly",
+   "status": "queued",
+   "path": null,
+   "artwork_status": "queued"
+  },
+  {
+   "queue_id": "chris-seated_talk_west-friendly",
+   "status": "queued",
+   "path": null,
+   "artwork_status": "queued"
+  },
+  {
+   "queue_id": "chris-seated_write_south-neutral",
+   "status": "queued",
+   "path": null,
+   "artwork_status": "queued"
+  },
+  {
+   "queue_id": "chris-seated_write_west-neutral",
+   "status": "queued",
+   "path": null,
+   "artwork_status": "queued"
+  },
+  {
+   "queue_id": "chris-standing_drink_north-neutral",
+   "status": "queued",
+   "path": null,
+   "artwork_status": "queued"
+  },
+  {
+   "queue_id": "chris-standing_inspect_east-neutral",
+   "status": "queued",
+   "path": null,
+   "artwork_status": "queued"
+  },
+  {
+   "queue_id": "chris-standing_inspect_north-neutral",
+   "status": "queued",
+   "path": null,
+   "artwork_status": "queued"
+  },
+  {
+   "queue_id": "chris-standing_inspect_south-neutral",
+   "status": "queued",
+   "path": null,
+   "artwork_status": "queued"
+  },
+  {
+   "queue_id": "chris-standing_inspect_west-neutral",
+   "status": "queued",
+   "path": null,
+   "artwork_status": "queued"
+  },
+  {
+   "queue_id": "chris-standing_look_out_north-neutral",
+   "status": "queued",
+   "path": null,
+   "artwork_status": "queued"
+  },
+  {
+   "queue_id": "chris-standing_peek_east-neutral",
+   "status": "queued",
+   "path": null,
+   "artwork_status": "queued"
+  },
+  {
+   "queue_id": "chris-standing_peek_north-neutral",
+   "status": "queued",
+   "path": null,
+   "artwork_status": "queued"
+  },
+  {
+   "queue_id": "chris-standing_peek_south-neutral",
+   "status": "queued",
+   "path": null,
+   "artwork_status": "queued"
+  },
+  {
+   "queue_id": "chris-standing_peek_west-neutral",
+   "status": "queued",
+   "path": null,
+   "artwork_status": "queued"
+  },
+  {
+   "queue_id": "chris-standing_warm_hands_east-neutral",
+   "status": "queued",
+   "path": null,
+   "artwork_status": "queued"
+  },
+  {
+   "queue_id": "chris-standing_warm_hands_north-neutral",
+   "status": "queued",
+   "path": null,
+   "artwork_status": "queued"
+  }
+ ]
+}

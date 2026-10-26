@@ -9,7 +9,7 @@
   ],
   "source_master": "assets/characters/poses/char/masters/external_poses/revision-02/char_standing_read_north_neutral.png",
   "source_sha256": "2fa74f22e4a3f4539500907de531ace4a8fe93d1a1b5c8a5d286c917c648a4ce",
-  "export": "assets/characters/poses/char/exports/north/revision-02/char_standing_read_north_neutral.png",
+  "export": "assets/characters/poses/char/exports/north/char_standing_read_north_neutral.png",
   "export_sha256": "2fa74f22e4a3f4539500907de531ace4a8fe93d1a1b5c8a5d286c917c648a4ce",
   "canvas": [
     944,

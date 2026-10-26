@@ -1,0 +1,19 @@
+{
+ "queue_id": "chris-standing_clasp_hands_west-friendly",
+ "prompt": "Create ONE separate full-body transparent PNG game character pose of CHRIS, standing_clasp_hands_west, variant friendly.\nREFERENCE 1 is Chris's USER-APPROVED canonical model: preserve this exact identity, male adult body proportions, common head scale and drawing scale. REFERENCE 2 is Char's SAME-POSE composition/expression reference ONLY. Do not copy her face, feminine body, outfit, hair, jewelry or hand gesture where the male override differs.\nIDENTITY LOCK: expressive larger blue anime eyes exactly like approved Chris v2, simplified softly shaded nose/face, full brown beard and connected moustache, brown brows, gray tweed flat cap KEPT ON. No cap removal or head scratching. RED collared shirt with rolled sleeves and small cream undershirt at throat, CHARCOAL textured waistcoat with brass buttons, gold watch chain on his anatomical LEFT waist (screen-right in south view), black tailored trousers and BLACK lace-up boots. Preserve asymmetric pocket/chain construction across directions with natural occlusion, never move it to another anatomical side to make it visible. Same richly shaded outlined anime/cartoon game rendering with deliberate crisp detail, no photoreal skin or tiny chibi anatomy.\nPOSE: Hands clasped behind back, relaxed and cheerful.\nEXPRESSION: friendly. Communicate it through eyes/brows/mouth and posture where visible. Suspicious does not mean furious. Nervous is anxious uncertainty, not crying or terror. Neutral has relaxed brows and a small closed-mouth friendly expression where face is visible.\nFACING: whole body faces screen LEFT (WEST). Head/chest/hips/knees/boots agree. North must show actual back, no over-shoulder face. Elevated three-quarter mansion camera showing a little crown and shoulder tops. Independently draw this direction; NEVER mirror/flip another pose.\nSCALE/FRAMING: reference 1 has native 948x1659 canvas and occupied standing height 1564 pixels. Keep that SAME character drawing scale and comparable portrait canvas. Reference 2's native canvas [1045, 1844] supplies pose composition, not stature. Full standing figure about 1564 pixels tall, within 4 percent, comfortably inside transparent margins on all sides; no cropping. Do not resize a seated/kneeling pose to standing height. Both shoes visible.\nOUTPUT: exactly ONE complete character with actual PNG alpha transparency (empty outside silhouette), complete arms/hands/legs/hat/boots, clean margins and gaps. No furniture, chair, floor, scenery, shadow, glow, text, labels, borders, grid or extra character. Any book is allowed only when required by the named action. Return only this image; draft production, not approval.\n\nWhole body in LEFT-facing three-quarter SIDE view: nose, chest front, hips, knees and both boot toes point LEFT. Hands clasped BEHIND lower back, naturally occluded at far hip, not in front as Char reference. Near shoulder overlaps far shoulder. No mirrored copy.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  },
+  {
+   "path": "assets/characters/poses/char/exports/west/char_standing_clasp_hands_west_friendly.png",
+   "sha256": "08c6437b2f3b07548dc804d3c6873b48102f6f827111ade50f596798ac6f80f6"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/exports/west/chris_standing_clasp_hands_west_friendly.png",
+ "status": "generated",
+ "prepared": "2026-10-26T17:48:15.966453+00:00"
+}

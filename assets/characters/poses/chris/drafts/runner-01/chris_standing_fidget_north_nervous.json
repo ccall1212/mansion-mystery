@@ -1,0 +1,68 @@
+{
+  "queue_id": "chris-standing_fidget_north-nervous",
+  "pose_id": "standing_fidget_north",
+  "variant_id": "nervous",
+  "direction": "north",
+  "tier": 2,
+  "status": "draft",
+  "approval": "pending_user_review",
+  "tool": "built-in image_gen",
+  "prompt": "Create ONE separate full-body transparent PNG game character pose of CHRIS, standing_fidget_north, variant nervous.\nREFERENCE 1 is Chris's USER-APPROVED canonical model: preserve this exact identity, male adult body proportions, common head scale and drawing scale. REFERENCE2 is Chris's approved SOUTH nervous gesture reference. Independently redraw its arm arrangement facing NORTH, true back view, no visible front-facing eyes. Opposite forearm supports raised elbow across FRONT of torso, hand at mouth naturally hidden forward, elbows/forearms may project along silhouette.\nIDENTITY LOCK: expressive larger blue anime eyes exactly like approved Chris v2, simplified softly shaded nose/face, full brown beard and connected moustache, brown brows, gray tweed flat cap KEPT ON. No cap removal or head scratching. RED collared shirt with rolled sleeves and small cream undershirt at throat, CHARCOAL textured waistcoat with brass buttons, gold watch chain on his anatomical LEFT waist (screen-right in south view), black tailored trousers and BLACK lace-up boots. Preserve asymmetric pocket/chain construction across directions with natural occlusion, never move it to another anatomical side to make it visible. Same richly shaded outlined anime/cartoon game rendering with deliberate crisp detail, no photoreal skin or tiny chibi anatomy.\nPOSE: One forearm across torso supporting opposite elbow, opposite hand at mouth lightly biting fingernail, sidelong glance. User photo-guided revision, no hand on hip. Preserve this arm arrangement in the requested direction with natural occlusion.\nEXPRESSION: nervous. Communicate it through eyes/brows/mouth and posture where visible. Suspicious does not mean furious. Nervous is anxious uncertainty, not crying or terror. Neutral has relaxed brows and a small closed-mouth friendly expression where face is visible.\nFACING: whole body faces AWAY from viewer (NORTH), showing his BACK. Head/chest/hips/knees/boots agree. North must show actual back, no over-shoulder face. Elevated three-quarter mansion camera showing a little crown and shoulder tops. Independently draw this direction; NEVER mirror/flip another pose.\nSCALE/FRAMING: reference 1 has native 948x1659 canvas and occupied standing height 1564 pixels. Keep that SAME character drawing scale and comparable portrait canvas. Reference 2's native canvas [944, 1666] supplies pose composition, not stature. Full standing figure about 1564 pixels tall, within 4 percent, comfortably inside transparent margins on all sides; no cropping. Do not resize a seated/kneeling pose to standing height. Both shoes visible.\nOUTPUT: exactly ONE complete character with actual PNG alpha transparency (empty outside silhouette), complete arms/hands/legs/hat/boots, clean margins and gaps. No furniture, chair, floor, scenery, shadow, glow, text, labels, borders, grid or extra character. Any book is allowed only when required by the named action. Return only this image; draft production, not approval.\n",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+    },
+    {
+      "path": "assets/characters/poses/chris/south/chris_standing_fidget_south_nervous_r2.png",
+      "sha256": "cc400b46e635a9f80b89906b3583bf02314bb37986f29bc35674def8f5bd1369"
+    }
+  ],
+  "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_fidget_north_nervous.png",
+  "sha256": "bcd81728af42310fc4a9297cc63b45713f5322ec4fdfe5ac3820b00fe8e56786",
+  "checks": {
+    "format": "PNG",
+    "canvas": [
+      976,
+      1611
+    ],
+    "alpha_extrema": [
+      0,
+      255
+    ],
+    "solid_bounds": [
+      201,
+      44,
+      802,
+      1555
+    ],
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "occupied_height": 1511,
+    "standing_height_ratio": 0.9661,
+    "standing_height_within_four_percent": true,
+    "canvas_within_one_percent_of_reference": false,
+    "solid_pixels_clear_of_edges": true,
+    "alpha_present": true,
+    "maximum_alpha_255": true,
+    "opaque_fraction": 0.2908,
+    "warnings": [
+      "Native canvas differs; source pixels preserved. Common export canvas/pivot alignment remains pending; stature checked separately."
+    ],
+    "technical_pass": true,
+    "errors": []
+  },
+  "runtime_integrated": false,
+  "created": "2026-10-26T17:53:45.781277+00:00",
+  "visual_qa": {
+    "inspected": true,
+    "note": "North back view with hand at mouth and opposite forearm supporting elbow across front; no visible front-facing eyes. Full cap and boots. Rear-pocket buttons differ from idle reference and need user costume review.",
+    "user_approval": "pending",
+    "date": "2026-10-26T17:53:46.047883+00:00"
+  },
+  "notes": "North back view with hand at mouth and opposite forearm supporting elbow across front; no visible front-facing eyes. Full cap and boots. Rear-pocket buttons differ from idle reference and need user costume review. Furniture and runtime fit unverified."
+}

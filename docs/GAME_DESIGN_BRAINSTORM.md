@@ -894,3 +894,5 @@ bed (`bed_east_west_head_east`, 120 x 72), so east-west, head-east versions of t
 more compact silhouette. The lying poses are recorded in the manifest and metadata only; the
 directional index has no lying group yet. A sofa facing north or south would need an east-west
 sofa-nap version. See `assets/characters/poses/char/prompts/rest-sleep-01.md`.
+
+Head-west east-west lying poses (awake and asleep, about 72 x 36 world pixels) were also made and approved on 2026-10-25, redrawn rather than mirrored, so both east-west bed variants are covered. Runtime fit and bed contacts remain pending.

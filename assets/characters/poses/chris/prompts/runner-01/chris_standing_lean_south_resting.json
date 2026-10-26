@@ -1,0 +1,19 @@
+{
+ "queue_id": "chris-standing_lean_south-resting",
+ "prompt": "One complete CHRIS sprite, richly shaded outlined anime game art. Reference1 approved Chris identity: adult male proportions, large blue anime eyes, full brown beard/moustache, brown brows, gray tweed flat cap ON, red rolled-sleeve collared shirt/cream neckline, charcoal textured waistcoat brass buttons, gold chain on HIS anatomical LEFT waist, black trousers and black laceup boots. Reference2 Char supplies pose/camera/direction ONLY, no female identity/outfit. About1564px occupied standing height within4percent on portrait canvas near948x1659. Keep canonical head scale and full cap and both boots in comfortable transparent margins. Actual PNG alpha0 outside silhouette and opaque interior; no halo/glow/background/shadow/floor/furniture/text. Exactly ONE figure, no model sheet or duplicate, no mirroring. Standing facing SOUTH toward viewer, resting back and one shoulder against an INVISIBLE wall. Shoulder and upper back lean gently back, weight on one straight leg, other ankle crossed loosely in front, both hands tucked naturally into FRONT trouser pockets with correct forward entry wrists. Head slightly tilted back, tired patient half-lowered eyes and relaxed closed mouth. No slumping in despair, no smile broad enough to read happy. Match Char's wall-rest composition, preserving male template hands in pockets. No wall is drawn.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  },
+  {
+   "path": "assets/characters/poses/char/exports/south/char_standing_lean_south_resting.png",
+   "sha256": "b0e50c3ca37dc0a211569a6c9c7a7d84788e0dd209a880e2c522859671340aab"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/exports/south/chris_standing_lean_south_resting.png",
+ "status": "generated",
+ "prepared": "2026-10-26T19:51:12.737460+00:00"
+}

@@ -1,0 +1,19 @@
+{
+ "queue_id": "chris-standing_look_up_north-neutral",
+ "prompt": "One complete CHRIS sprite, richly shaded outlined anime game art. Reference1 approved Chris identity: adult male proportions, large blue anime eyes, full brown beard/moustache, brown brows, gray tweed flat cap ON, red rolled-sleeve collared shirt/cream neckline, charcoal textured waistcoat brass buttons, gold chain on HIS anatomical LEFT waist, black trousers and black laceup boots. Reference2 Char supplies pose/camera/direction ONLY, no female identity/outfit. About1564px occupied standing height within4percent on portrait canvas near948x1659. Keep canonical head scale and full cap and both boots in comfortable transparent margins. Actual PNG alpha0 outside silhouette and opaque interior; no halo/glow/background/shadow/floor/furniture/text. Exactly ONE figure, no model sheet or duplicate, no mirroring. Stand naturally with both feet planted, both arms hanging relaxed at sides, palms loosely inward, looking UP attentively. Match Char's corresponding upward gaze/body orientation. Relaxed eyebrows, calm focused closed mouth, no broad excited grin, no reaching or pointing. Away from viewer NORTH: show back of cap, neck, shoulders, waistcoat and trousers, boot heels. Head lifted to look high ahead, but no face/eyes revealed, no turning back. Keep waistcoat back strap and buckle; no rear watch chain or trouser pocket buttons.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  },
+  {
+   "path": "assets/characters/poses/char/exports/north/char_standing_look_up_north_neutral.png",
+   "sha256": "4b14ec3a13e6b77c5777fde67e555f4c50fa80753f6e7882c7fc173a7f5364f1"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/exports/north/chris_standing_look_up_north_neutral.png",
+ "status": "generated",
+ "prepared": "2026-10-26T19:53:58.748489+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "queue_id": "chris-lying_idle_east_west_head_east-awake",
+  "prompt": "BACKGROUND EXTRACTION ONLY. Remove ALL backdrop from this illustration and return a clean transparent PNG cutout of the complete lying man. Every pixel outside his body, boots, hat, hands and clothes must be completely TRANSPARENT alpha0, including ALL black, gray, beige and red colored haze/halo/glow. No shadow, no colored fringe cloud, no gradients. Character interior must be fully opaque alpha255. Preserve character pixels and drawing as closely as possible: same lying pose, head on right, boots on left, hand behind head, eyes open, identity, cap, red shirt, waistcoat, trousers, boots, canvas dimensions1536x1024. Do not add a new background. True cutout with empty alpha background. One complete character only.",
+  "references": [
+    {
+      "path": "assets/characters/poses/chris/drafts/runner-01/chris_lying_idle_east_west_head_east_awake_r2.png",
+      "sha256": "4e674a604c5fef3ae36bdb5db2f86ed8757def98b13d1704cbf5f17d786bad62"
+    }
+  ],
+  "tool": "built-in image_gen",
+  "transparent_background": true,
+  "draft_destination": "assets/characters/poses/chris/drafts/runner-01/chris_lying_idle_east_west_head_east_awake_r3.png",
+  "status": "generated",
+  "prepared": "2026-10-26T18:35:50.797679+00:00"
+}

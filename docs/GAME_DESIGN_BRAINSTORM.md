@@ -778,9 +778,12 @@ needs a focused brief.
 | --- | --- |
 | Cast size | Cases use **6-8 suspects** (some cases may differ), drawn from a pool of **about 10 characters** from the existing drafts. The player can **name and choose** who is in the game, or **randomize**. |
 | House size | The playable house should become **somewhat larger** than the current compact 7-room scope to suit 6-8 suspects. The earlier "start small" rule still applies to the first generated slice. |
-| Accusation | **Original style.** The player may assemble and accuse whenever allowed and may be wrong, with consequences. The original requires carrying the true weapon to assemble; keeping that rule is still undecided (see below). |
+| Accusation | **Original style.** The player may assemble and accuse whenever allowed and may be wrong, with consequences. **Assembling requires carrying the true murder weapon** (decided 2026-10-25, "for now"), as in the original; accusing is only possible after assembling. |
 | Checklist | **Remove** the requirements checklist and the F4 "remaining leads" board so the player has to remember and deduce. |
 | Danger clock | **Turn-based with visible phases.** A turn is a room change or an action (question, examine, collect), not a single step. A later brief must set the thresholds. |
+| Glass placement | **Randomized** among rooms. On **Easy and Medium** it can never be in the secret room, so it is always reachable. On **Hard** it may be in the secret room, as in the original. |
+| Independence | Culprit, murder room, weapon item and glass location are chosen **independently at random**. The weapon and murder room may rarely coincide by chance. A validator rejects unsolvable combinations. |
+| Finding the murder room | **Easy and Medium:** the murder room always holds a trace that the lens confirms; floor-staring guests are hints, and some stare at harmless stains. **Hard:** original style, where bloodstains appear only while a guest is staring at that floor. |
 
 ### Implications and proposals (not yet decided)
 
@@ -806,8 +809,8 @@ needs a focused brief.
   wrong room names the true culprit and room. A wrong accusation always ends the game and tells the
   player the answer. See section 19 of
   [the observations log](../Claude%20observations/ORIGINAL_GAMEPLAY_OBSERVATIONS.md).
-  **Decision needed:** keep the weapon requirement for assembling, or let the remake assemble anytime
-  and make evidence matter only at the accusation?
+  **Decided 2026-10-25 ("for now"):** keep the weapon requirement for assembling. Letting the remake
+  assemble anytime, with evidence mattering only at the accusation, can be revisited later.
 - **Victim.** Every case always has exactly one victim, who is part of the selected cast and is not
   one of the suspects. The original's personalized mode asks for seven names for this reason (six
   suspects and one victim).
@@ -826,3 +829,50 @@ needs a focused brief.
   stalking (in the original it also began without any weapon pickup, so make the trigger explicit), then an ambush in a room where the player is alone
   with the murderer (door locks, solution revealed, loss). Every phase needs a visible cue. A
   real-time timer could remain a hard-mode option; see the countdown section above.
+
+## Personality set — decided 2026-10-25
+
+Decided with the user while reviewing Char's existing poses. A personality **chooses which
+existing emotion poses appear** in three situations; it does not require its own art. This
+refines section 3 above. The twelve candidates there are consolidated into eight.
+
+### Decisions
+
+| Topic | Decision |
+| --- | --- |
+| Starting set | **Eight personalities** built only from poses Char already has: warm, nervous, proud, guarded, hot-tempered, curious, fragile, calm. |
+| Assignment | **Random per case**, with a **manual override** when the player names and chooses the cast. Stable for the whole case. Appearance and guilt stay independent of personality. |
+| New pose | Add **one south-facing "resigned shrug" confession pose** for Char. The original's culprits sometimes confess casually, and none of the four approved reveal poses covers that. |
+| Dropped as personalities | "Deceptive" has no visible tell, so it is a **case role**. "Forgetful" and "gossipy" are **voice only** (dialogue), with no pose of their own. |
+
+### Mapping (proposal for review, not final art direction)
+
+| Personality | Ordinary talk | Accused (innocent) | Exposed (culprit) |
+| --- | --- | --- | --- |
+| Warm | friendly clasp or talk | hurt denial | remorseful cry |
+| Nervous | fidget | startle, then denial | cry |
+| Proud | hands on hips | furious or defiant | triumphant laugh or defiant point |
+| Guarded | crossed arms | defensive | defiant point |
+| Hot-tempered | crossed arms, sharp talk | furious | furious threat |
+| Curious | hand to chin, look up or down | startle (confused) | quiet admission |
+| Fragile | withdraw (sad) | hurt | remorseful cry |
+| Calm | neutral idle | composed denial | neutral confession or resigned shrug |
+
+### Char's current coverage (from her exports)
+
+Char has 22 pose families. Standing, seated and kneeling bases exist in east, south and west for
+nearly all of them; **north** exists only for idle, talk, cross arms, fidget, hands on hips, think,
+look up, read, hold book and seated idle/read. The four reveal poses are south-only. Everything in the
+personality table above is already covered at least in south, east and west, except the new resigned
+shrug. Remaining Char work is that pose plus the furniture and activity batch (peek, drink, write,
+warm hands, lying, high and low inspection, seated talk, look out).
+
+### Pose priority for the other characters (proposal)
+
+1. **Every character, first:** standing idle (four directions), friendly talk, look down (the
+   floor-staring clue), crossed arms, defensive denial, startle, and the four reveal poses plus the
+   resigned shrug (south).
+2. **Personality gestures next:** fidget, hands on hips, hand to chin, withdraw, clasp hands.
+3. **Furniture and activity last:** reading, seated, kneeling, peek, drink, write and the rest.
+   Match the room activities seen in the original (napping, searching drawers, kneeling at a safe,
+   hiding, soaking in a tub, playing a piano).

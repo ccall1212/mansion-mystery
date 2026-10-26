@@ -458,9 +458,12 @@ Seen in games 2 and 3 and now understood better:
 - **Section 7 (glass):** the glass was in the pantry (game 4), dining room (game 2), sewing room
   (game 3) and guest room (game 1). It sits in the room's carryable slot and is always visible
   in the text ("A magnifying glass is lying on the floor.").
-- **Weapon vs murder room:** never the same room in four games. Weapon rooms: unknown (game 1),
-  conservatory, master bedroom (house 2), bathroom. Murder rooms: kitchen, study, vault, guest
-  room.
+- **Weapon vs murder room:** the weapon's room changes every game and the murder room changes every
+  game, and in all seven of my games they were different rooms. Codex saw both in the study once,
+  so the same room can come up as a coincidence now and then (once or twice in a row is plausible).
+  Do not treat "different rooms" as a rule, and do not rely on "same room" either. Weapon rooms in
+  games 1-4: unknown (game 1), conservatory, master bedroom (house 2), bathroom. Murder rooms:
+  kitchen, study, vault, guest room.
 - **Floor-staring guests (section 8):** a guest staring at the floor was in the murder room in
   games 1, 3 and 4 (second sighting) and **not** in game 2 (three sightings) or game 4's first
   sighting (bathroom). A single guest can stare in several rooms during a game (David in game 4

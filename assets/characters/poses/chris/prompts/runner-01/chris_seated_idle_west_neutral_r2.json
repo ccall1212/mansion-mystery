@@ -1,19 +1,19 @@
 {
-  "queue_id": "chris-seated_idle_west-neutral",
-  "prompt": "Create ONE transparent PNG game sprite: CHRIS seated idle facing WEST, screen LEFT. Image1 is approved Chris IDENTITY and costume only. Image2 is Char seated WEST: use it directly for the seated body direction, camera elevation, pelvis height, parallel thighs extending toward screen LEFT, knees and planted feet direction, upright torso and hands resting together in lap. Replace Char with Chris. Crucial correction: rotate Chris's ENTIRE torso, shoulders, pelvis and legs to the LEFT like reference2; do not retain the front-facing broad chest of image1. Near side shoulder dominant, far shoulder receding, nose points LEFT. Both thighs project right from hips, both lower legs descend beneath the knees, both boots planted and toes pointing LEFT; legs NOT crossed. Same elevated three-quarter side view as Char, no looking at viewer. Chris adult male proportions, approved blue anime eyes, full brown beard/moustache, gray tweed flat cap ON, red collared rolled-sleeve shirt/cream undershirt, charcoal textured brass-button waistcoat, gold watch chain on HIS anatomical LEFT waist with natural occlusion, black trousers and laceup boots. Hands relaxed together on lap. Calm neutral small closed mouth. Keep canonical head drawing scale, do not enlarge seated figure to standing height. Full cap and both boots inside generous transparent margins. Richly shaded outlined anime game art matching Chris. Actual PNG alpha0 outside crisp silhouette, opaque character interior, no halo or glow. No chair, furniture, background, shadows, floor, text or collage. Independently draw, no mirroring.\nClean cutout only. Transparent empty background without any vignette or rim light. The anatomical LEFT waist chain must be hidden on far side if occluded in this west view. No mirror.",
-  "references": [
-    {
-      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
-      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
-    },
-    {
-      "path": "assets/characters/poses/char/exports/west/char_seated_idle_west_neutral.png",
-      "sha256": "903f10ddcdd454ab6aaa83a3ef134f91459b9db7b9705f703ff2d437f9160be2"
-    }
-  ],
-  "tool": "built-in image_gen",
-  "transparent_background": true,
-  "draft_destination": "assets/characters/poses/chris/west/chris_seated_idle_west_neutral_r2.png",
-  "status": "generated",
-  "prepared": "2026-10-26T19:02:03.938194+00:00"
+ "queue_id": "chris-seated_idle_west-neutral",
+ "prompt": "Create ONE transparent PNG game sprite: CHRIS seated idle facing WEST, screen LEFT. Image1 is approved Chris IDENTITY and costume only. Image2 is Char seated WEST: use it directly for the seated body direction, camera elevation, pelvis height, parallel thighs extending toward screen LEFT, knees and planted feet direction, upright torso and hands resting together in lap. Replace Char with Chris. Crucial correction: rotate Chris's ENTIRE torso, shoulders, pelvis and legs to the LEFT like reference2; do not retain the front-facing broad chest of image1. Near side shoulder dominant, far shoulder receding, nose points LEFT. Both thighs project right from hips, both lower legs descend beneath the knees, both boots planted and toes pointing LEFT; legs NOT crossed. Same elevated three-quarter side view as Char, no looking at viewer. Chris adult male proportions, approved blue anime eyes, full brown beard/moustache, gray tweed flat cap ON, red collared rolled-sleeve shirt/cream undershirt, charcoal textured brass-button waistcoat, gold watch chain on HIS anatomical LEFT waist with natural occlusion, black trousers and laceup boots. Hands relaxed together on lap. Calm neutral small closed mouth. Keep canonical head drawing scale, do not enlarge seated figure to standing height. Full cap and both boots inside generous transparent margins. Richly shaded outlined anime game art matching Chris. Actual PNG alpha0 outside crisp silhouette, opaque character interior, no halo or glow. No chair, furniture, background, shadows, floor, text or collage. Independently draw, no mirroring.\nClean cutout only. Transparent empty background without any vignette or rim light. The anatomical LEFT waist chain must be hidden on far side if occluded in this west view. No mirror.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  },
+  {
+   "path": "assets/characters/poses/char/exports/west/char_seated_idle_west_neutral.png",
+   "sha256": "903f10ddcdd454ab6aaa83a3ef134f91459b9db7b9705f703ff2d437f9160be2"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/exports/west/chris_seated_idle_west_neutral.png",
+ "status": "generated",
+ "prepared": "2026-10-26T19:02:03.938194+00:00"
 }

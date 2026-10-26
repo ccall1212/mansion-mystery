@@ -1,0 +1,51 @@
+{
+  "pose_id": "seated_sleep_east",
+  "variant_id": "napping",
+  "actor_facing": "east",
+  "posture": "seated",
+  "activity": "sleep",
+  "expression": "asleep",
+  "props": [],
+  "image_approval": {
+    "status": "approved",
+    "evidence": {
+      "date": "2026-10-25",
+      "source": "user",
+      "quote": "Good continue"
+    },
+    "scope": "Existing Char seated-nap artwork only; byte-identical organization/export copies. Chair contact and runtime fit remain unverified.",
+    "files": [
+      {
+        "path": "assets/characters/poses/char/drafts/seated-nap-01/char_seated_sleep_east_napping.png",
+        "sha256": "6a3d41eb5a9427628346cd0d532bd20ad63136fe0ddc3bc40a86e3bd769c4faf"
+      },
+      {
+        "path": "assets/characters/poses/char/masters/seated-nap-01/char_seated_sleep_east_napping.png",
+        "sha256": "6a3d41eb5a9427628346cd0d532bd20ad63136fe0ddc3bc40a86e3bd769c4faf"
+      },
+      {
+        "path": "assets/characters/poses/char/exports/east/char_seated_sleep_east_napping.png",
+        "sha256": "6a3d41eb5a9427628346cd0d532bd20ad63136fe0ddc3bc40a86e3bd769c4faf"
+      }
+    ],
+    "retention": "Keep exact approved artwork and required production metadata; runtime fit remains unverified."
+  },
+  "source_master": "assets/characters/poses/char/masters/seated-nap-01/char_seated_sleep_east_napping.png",
+  "source_sha256": "6a3d41eb5a9427628346cd0d532bd20ad63136fe0ddc3bc40a86e3bd769c4faf",
+  "export": "assets/characters/poses/char/exports/east/char_seated_sleep_east_napping.png",
+  "export_sha256": "6a3d41eb5a9427628346cd0d532bd20ad63136fe0ddc3bc40a86e3bd769c4faf",
+  "approval": "approved",
+  "runtime_integrated": false,
+  "contact_calibration": "pending",
+  "landmark_record": "assets/characters/poses/char/metadata/seated-nap-01/char_seated_sleep_east_napping.json",
+  "canvas": [
+    944,
+    1665
+  ],
+  "alpha_extrema": [
+    0,
+    255
+  ],
+  "transparency_status": "alpha_present",
+  "notes": "unverified; canvas and lower-body redraw differ from idle"
+}

@@ -1,10 +1,10 @@
 # Pose production status
 
-Updated 2026-10-26T22:19:40.326599+00:00. Branch: `art/pose-production`.
+Updated 2026-10-26T22:45:52.785979+00:00. Branch: `art/pose-production`.
 
 Catalog confirmed by user: “Approved. Continue”. 100 poses per character; Chris first.
 
-Chris queue: {'imported': 1, 'approved': 58, 'skipped': 1, 'draft': 17, 'needs_help': 5, 'queued': 19}. Unreviewed Chris backlog: 22/24, including 0 earlier model alternatives. Global cap: 60.
+Chris queue: {'imported': 1, 'approved': 80, 'skipped': 1, 'queued': 19}. Unreviewed Chris backlog: 0/24, including 0 earlier model alternatives. Global cap: 60.
 
 Canonical identity: approved larger-eyed anime v2, gray cap, red shirt, charcoal vest, black trousers and boots.
 

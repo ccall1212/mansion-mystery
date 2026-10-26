@@ -1,0 +1,109 @@
+{
+ "queue_id": "chris-standing_look_up_north-neutral",
+ "pose_id": "standing_look_up_north",
+ "variant_id": "neutral",
+ "direction": "north",
+ "tier": 3,
+ "status": "approved",
+ "approval": "approved",
+ "tool": "built-in image_gen",
+ "prompt": "One complete CHRIS sprite, richly shaded outlined anime game art. Reference1 approved Chris identity: adult male proportions, large blue anime eyes, full brown beard/moustache, brown brows, gray tweed flat cap ON, red rolled-sleeve collared shirt/cream neckline, charcoal textured waistcoat brass buttons, gold chain on HIS anatomical LEFT waist, black trousers and black laceup boots. Reference2 Char supplies pose/camera/direction ONLY, no female identity/outfit. About1564px occupied standing height within4percent on portrait canvas near948x1659. Keep canonical head scale and full cap and both boots in comfortable transparent margins. Actual PNG alpha0 outside silhouette and opaque interior; no halo/glow/background/shadow/floor/furniture/text. Exactly ONE figure, no model sheet or duplicate, no mirroring. Stand naturally with both feet planted, both arms hanging relaxed at sides, palms loosely inward, looking UP attentively. Match Char's corresponding upward gaze/body orientation. Relaxed eyebrows, calm focused closed mouth, no broad excited grin, no reaching or pointing. Away from viewer NORTH: show back of cap, neck, shoulders, waistcoat and trousers, boot heels. Head lifted to look high ahead, but no face/eyes revealed, no turning back. Keep waistcoat back strap and buckle; no rear watch chain or trouser pocket buttons.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  },
+  {
+   "path": "assets/characters/poses/char/exports/north/char_standing_look_up_north_neutral.png",
+   "sha256": "4b14ec3a13e6b77c5777fde67e555f4c50fa80753f6e7882c7fc173a7f5364f1"
+  }
+ ],
+ "path": "assets/characters/poses/chris/north/chris_standing_look_up_north_neutral.png",
+ "sha256": "bc098b6b62cc17a8890a585749c73c36c467f6b4810868bb0d7e24197c85c7a2",
+ "checks": {
+  "format": "PNG",
+  "canvas": [
+   985,
+   1596
+  ],
+  "alpha_extrema": [
+   0,
+   255
+  ],
+  "solid_bounds": [
+   220,
+   29,
+   810,
+   1555
+  ],
+  "corner_alpha": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "occupied_height": 1526,
+  "standing_height_ratio": 0.9757,
+  "standing_height_within_four_percent": true,
+  "canvas_within_one_percent_of_reference": false,
+  "solid_pixels_clear_of_edges": true,
+  "alpha_present": true,
+  "maximum_alpha_255": true,
+  "opaque_fraction": 0.3349,
+  "warnings": [
+   "Native canvas differs; source pixels preserved. Common export canvas/pivot alignment remains pending; stature checked separately."
+  ],
+  "technical_pass": true,
+  "errors": []
+ },
+ "runtime_integrated": false,
+ "created": "2026-10-26T19:55:22.549400+00:00",
+ "visual_qa": {
+  "inspected": true,
+  "note": "Rear-facing upward inspection: back visible, chin lifted with no eye/front face shown; arms relaxed, back strap and buckle retained, no rear chain. Full cap and boot heels. Pending artwork approval and runtime fit.",
+  "user_approval": "pending",
+  "date": "2026-10-26T19:55:22.794274+00:00"
+ },
+ "notes": "Rear-facing upward inspection: back visible, chin lifted with no eye/front face shown; arms relaxed, back strap and buckle retained, no rear chain. Full cap and boot heels. Pending artwork approval and runtime fit. Furniture and runtime fit unverified.",
+ "actor_facing": "north",
+ "posture": "standing",
+ "activity": "look_up",
+ "props": [],
+ "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_look_up_north_neutral.png",
+ "source_sha256": "bc098b6b62cc17a8890a585749c73c36c467f6b4810868bb0d7e24197c85c7a2",
+ "export": "assets/characters/poses/chris/exports/north/chris_standing_look_up_north_neutral.png",
+ "export_sha256": "bc098b6b62cc17a8890a585749c73c36c467f6b4810868bb0d7e24197c85c7a2",
+ "canvas": [
+  985,
+  1596
+ ],
+ "alpha_extrema": [
+  0,
+  255
+ ],
+ "transparency_status": "alpha_present",
+ "contact_calibration": "pending",
+ "landmark_record": "assets/characters/poses/chris/metadata/runner-01/chris_standing_look_up_north_neutral.json",
+ "prompt_record": "assets/characters/poses/chris/prompts/runner-01/chris_standing_look_up_north_neutral.json",
+ "export_note": "Byte-identical copy of the master with the canonical filename (revision suffix removed). Common export canvas/pivot alignment and furniture contact calibration remain pending.",
+ "image_approval": {
+  "status": "approved",
+  "evidence": {
+   "date": "2026-10-26",
+   "source": "user_chat",
+   "quote": "Looks great! Are we almost finished with Chris' poses?"
+  },
+  "scope": "Latest south wall-resting and four upward-looking pose candidates. Artwork only; wall contact, export alignment and runtime fit pending.",
+  "files": [
+   {
+    "path": "assets/characters/poses/chris/masters/runner-01/chris_standing_look_up_north_neutral.png",
+    "sha256": "bc098b6b62cc17a8890a585749c73c36c467f6b4810868bb0d7e24197c85c7a2"
+   },
+   {
+    "path": "assets/characters/poses/chris/exports/north/chris_standing_look_up_north_neutral.png",
+    "sha256": "bc098b6b62cc17a8890a585749c73c36c467f6b4810868bb0d7e24197c85c7a2"
+   }
+  ],
+  "retention": "Keep approved artwork and required metadata."
+ }
+}

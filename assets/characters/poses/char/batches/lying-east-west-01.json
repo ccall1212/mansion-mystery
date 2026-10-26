@@ -1,0 +1,42 @@
+{
+  "batch_id": "lying-east-west-01",
+  "status": "pending_review",
+  "jobs": [
+    {
+      "variant": "awake",
+      "path": "assets/characters/poses/char/drafts/lying-east-west-01/char_lying_idle_east_west_head_east_awake.png",
+      "sha256": "5060dbdb8c04a51f2a05d914e578dfb0046a872145cf523111aceb593d65a58e",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "artwork_status": "approved",
+      "approval_evidence": {
+        "date": "2026-10-25",
+        "source": "user",
+        "quote": "Approved go on"
+      }
+    },
+    {
+      "variant": "peaceful",
+      "path": "assets/characters/poses/char/drafts/lying-east-west-01/char_lying_sleep_east_west_head_east_peaceful.png",
+      "sha256": "b75378e7c8da0db23c1e183d6a07b3fb779814f4413c1786cccd0d097e43366c",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "artwork_status": "pending_review",
+      "approval_evidence": null
+    }
+  ],
+  "furniture_fit": "unverified",
+  "runtime_integration": false
+}

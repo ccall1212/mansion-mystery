@@ -1,15 +1,15 @@
 {
-  "queue_id": "chris-lying_sleep_east_west_head_east-peaceful",
-  "prompt": "Edit this EXACT approved lying Chris image into peaceful SLEEP. Preserve his exact identity, cap ON, costume, full adult leg lengths and boot sizes, crossed-leg arrangement, hand over stomach, other arm behind head, camera angle, canvas and head/feet direction. Change only eyes CLOSED, eyebrows relaxed without worry, mouth relaxed slightly parted, all facial tension released. No sad or worried expression. Keep full body and both boots inside margins; don't shorten feet or distort ankles. Same shaded outlined anime rendering. Actual transparent PNG cutout with only the opaque character; empty transparency around and between silhouette, no colored lighting haze, cast shadow, bed, pillow, furniture, floor or text. ONE character only. Do not mirror. Head stays RIGHT (east), feet LEFT.",
-  "references": [
-    {
-      "path": "assets/characters/poses/chris/east/chris_lying_idle_east_west_head_east_awake.png",
-      "sha256": "2b0976be6e5c1aadaa48a142780a239c73536355e12b5299976504d6c5b1115c"
-    }
-  ],
-  "tool": "built-in image_gen",
-  "transparent_background": true,
-  "draft_destination": "assets/characters/poses/chris/east/chris_lying_sleep_east_west_head_east_peaceful.png",
-  "status": "generated",
-  "prepared": "2026-10-26T21:49:38.010783+00:00"
+ "queue_id": "chris-lying_sleep_east_west_head_east-peaceful",
+ "prompt": "Edit this EXACT approved lying Chris image into peaceful SLEEP. Preserve his exact identity, cap ON, costume, full adult leg lengths and boot sizes, crossed-leg arrangement, hand over stomach, other arm behind head, camera angle, canvas and head/feet direction. Change only eyes CLOSED, eyebrows relaxed without worry, mouth relaxed slightly parted, all facial tension released. No sad or worried expression. Keep full body and both boots inside margins; don't shorten feet or distort ankles. Same shaded outlined anime rendering. Actual transparent PNG cutout with only the opaque character; empty transparency around and between silhouette, no colored lighting haze, cast shadow, bed, pillow, furniture, floor or text. ONE character only. Do not mirror. Head stays RIGHT (east), feet LEFT.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/exports/lying/chris_lying_idle_east_west_head_east_awake.png",
+   "sha256": "2b0976be6e5c1aadaa48a142780a239c73536355e12b5299976504d6c5b1115c"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/drafts/runner-01/chris_lying_sleep_east_west_head_east_peaceful.png",
+ "status": "generated",
+ "prepared": "2026-10-26T21:49:38.010783+00:00"
 }

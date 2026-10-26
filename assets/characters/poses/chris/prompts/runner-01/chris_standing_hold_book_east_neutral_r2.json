@@ -1,15 +1,15 @@
 {
-  "queue_id": "chris-standing_hold_book_east-neutral",
-  "prompt": "Edit ONLY the watch chain on this single east-facing Chris sprite. Remove the gold hanging chain and its pocket attachment from the visible near waistcoat panel, restoring continuous matching charcoal tweed fabric and existing pocket flap beneath it. His chain belongs on HIS anatomical LEFT waist, the far side hidden behind the CLOSED book in this east view, so no chain should be visible here. Preserve EVERYTHING ELSE: exact character identity, cap and face, pose, both hands holding closed burgundy book, outfit, buttons, trousers, boots, standing height, canvas, margins and transparent background. No other design changes. Full opaque character with clean alpha transparency outside; no shadow, floor, glow, background or extra character.",
-  "references": [
-    {
-      "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_hold_book_east_neutral.png",
-      "sha256": "650fd4a21fecf3c291293ed5931c7fefe691bf51c31a4e74ebcc232a3686b2d8"
-    }
-  ],
-  "tool": "built-in image_gen",
-  "transparent_background": true,
-  "draft_destination": "assets/characters/poses/chris/east/chris_standing_hold_book_east_neutral_r2.png",
-  "status": "generated",
-  "prepared": "2026-10-26T19:47:46.245477+00:00"
+ "queue_id": "chris-standing_hold_book_east-neutral",
+ "prompt": "Edit ONLY the watch chain on this single east-facing Chris sprite. Remove the gold hanging chain and its pocket attachment from the visible near waistcoat panel, restoring continuous matching charcoal tweed fabric and existing pocket flap beneath it. His chain belongs on HIS anatomical LEFT waist, the far side hidden behind the CLOSED book in this east view, so no chain should be visible here. Preserve EVERYTHING ELSE: exact character identity, cap and face, pose, both hands holding closed burgundy book, outfit, buttons, trousers, boots, standing height, canvas, margins and transparent background. No other design changes. Full opaque character with clean alpha transparency outside; no shadow, floor, glow, background or extra character.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_hold_book_east_neutral.png",
+   "sha256": "650fd4a21fecf3c291293ed5931c7fefe691bf51c31a4e74ebcc232a3686b2d8"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/exports/east/chris_standing_hold_book_east_neutral.png",
+ "status": "generated",
+ "prepared": "2026-10-26T19:47:46.245477+00:00"
 }

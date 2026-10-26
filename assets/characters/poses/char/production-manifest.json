@@ -4880,7 +4880,7 @@
       "props": [],
       "source_master": "assets/characters/poses/char/masters/murderer-reveal-01/char_standing_laugh_south_evil.png",
       "source_sha256": "d7d6acc3360f1023b03a264488a6ae31878823fbe335d9098604ffc62ff26bcd",
-      "export": "assets/characters/poses/char/exports/south/char_standing_laugh_south_evil.png",
+      "export": "assets/characters/poses/char/exports/murderer-reveal/char_standing_laugh_south_evil.png",
       "export_sha256": "d7d6acc3360f1023b03a264488a6ae31878823fbe335d9098604ffc62ff26bcd",
       "canvas": [
         944,
@@ -4902,7 +4902,7 @@
         "scope": "South-facing evil-laugh murderer reveal artwork only; runtime fit pending.",
         "files": [
           {
-            "path": "assets/characters/poses/char/exports/south/char_standing_laugh_south_evil.png",
+            "path": "assets/characters/poses/char/exports/murderer-reveal/char_standing_laugh_south_evil.png",
             "sha256": "d7d6acc3360f1023b03a264488a6ae31878823fbe335d9098604ffc62ff26bcd"
           }
         ]
@@ -4924,7 +4924,7 @@
       "props": [],
       "source_master": "assets/characters/poses/char/masters/murderer-reveal-01/char_standing_cry_south_remorseful.png",
       "source_sha256": "0cfa9173c7074885c719e331df8fe42572245ffb63378c83321b9d18ffcb4128",
-      "export": "assets/characters/poses/char/exports/south/char_standing_cry_south_remorseful.png",
+      "export": "assets/characters/poses/char/exports/murderer-reveal/char_standing_cry_south_remorseful.png",
       "export_sha256": "0cfa9173c7074885c719e331df8fe42572245ffb63378c83321b9d18ffcb4128",
       "canvas": [
         944,
@@ -4946,7 +4946,7 @@
         "scope": "South-facing sobbing revision v2 murderer reveal artwork only; runtime fit pending.",
         "files": [
           {
-            "path": "assets/characters/poses/char/exports/south/char_standing_cry_south_remorseful.png",
+            "path": "assets/characters/poses/char/exports/murderer-reveal/char_standing_cry_south_remorseful.png",
             "sha256": "0cfa9173c7074885c719e331df8fe42572245ffb63378c83321b9d18ffcb4128"
           }
         ]
@@ -4968,7 +4968,7 @@
       "props": [],
       "source_master": "assets/characters/poses/char/masters/murderer-reveal-01/char_standing_accuse_south_defiant.png",
       "source_sha256": "015fb164aa4a93291d33ff8d83b01cac66a4aa2074c274da4996dfba9f7734ca",
-      "export": "assets/characters/poses/char/exports/south/char_standing_accuse_south_defiant.png",
+      "export": "assets/characters/poses/char/exports/murderer-reveal/char_standing_accuse_south_defiant.png",
       "export_sha256": "015fb164aa4a93291d33ff8d83b01cac66a4aa2074c274da4996dfba9f7734ca",
       "canvas": [
         944,
@@ -4990,7 +4990,7 @@
         "scope": "South-facing defiant pointing accusation murderer reveal artwork only; runtime fit pending.",
         "files": [
           {
-            "path": "assets/characters/poses/char/exports/south/char_standing_accuse_south_defiant.png",
+            "path": "assets/characters/poses/char/exports/murderer-reveal/char_standing_accuse_south_defiant.png",
             "sha256": "015fb164aa4a93291d33ff8d83b01cac66a4aa2074c274da4996dfba9f7734ca"
           }
         ]
@@ -5012,7 +5012,7 @@
       "props": [],
       "source_master": "assets/characters/poses/char/masters/murderer-reveal-01/char_standing_threaten_south_furious.png",
       "source_sha256": "e14dda8a515f46a03cbfaed851c8df23135a1ef6c142362435e5419ae43260b7",
-      "export": "assets/characters/poses/char/exports/south/char_standing_threaten_south_furious.png",
+      "export": "assets/characters/poses/char/exports/murderer-reveal/char_standing_threaten_south_furious.png",
       "export_sha256": "e14dda8a515f46a03cbfaed851c8df23135a1ef6c142362435e5419ae43260b7",
       "canvas": [
         944,
@@ -5034,7 +5034,7 @@
         "scope": "South-facing furious threat artwork; user approved intensity and presented image. Runtime fit pending.",
         "files": [
           {
-            "path": "assets/characters/poses/char/exports/south/char_standing_threaten_south_furious.png",
+            "path": "assets/characters/poses/char/exports/murderer-reveal/char_standing_threaten_south_furious.png",
             "sha256": "e14dda8a515f46a03cbfaed851c8df23135a1ef6c142362435e5419ae43260b7"
           }
         ]
@@ -5057,7 +5057,7 @@
       "props": [],
       "source_master": "assets/characters/poses/char/masters/shrug-01/char_standing_shrug_south_resigned.png",
       "source_sha256": "1fe543459ca44a458c1eb416f9b8aa60bfd5ecb45a05d85917a307655f12cb8f",
-      "export": "assets/characters/poses/char/exports/south/char_standing_shrug_south_resigned.png",
+      "export": "assets/characters/poses/char/exports/murderer-reveal/char_standing_shrug_south_resigned.png",
       "export_sha256": "1fe543459ca44a458c1eb416f9b8aa60bfd5ecb45a05d85917a307655f12cb8f",
       "canvas": [
         944,
@@ -5079,7 +5079,7 @@
         "scope": "South-facing resigned shrug (both palms up, flat tired expression) culprit-reveal artwork only; runtime fit pending.",
         "files": [
           {
-            "path": "assets/characters/poses/char/exports/south/char_standing_shrug_south_resigned.png",
+            "path": "assets/characters/poses/char/exports/murderer-reveal/char_standing_shrug_south_resigned.png",
             "sha256": "1fe543459ca44a458c1eb416f9b8aa60bfd5ecb45a05d85917a307655f12cb8f"
           }
         ]

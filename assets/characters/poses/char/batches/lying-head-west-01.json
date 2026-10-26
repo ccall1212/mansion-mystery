@@ -1,0 +1,42 @@
+{
+  "batch_id": "lying-head-west-01",
+  "status": "pending_review",
+  "jobs": [
+    {
+      "variant": "awake",
+      "path": "assets/characters/poses/char/drafts/lying-head-west-01/char_lying_idle_east_west_head_west_awake.png",
+      "sha256": "bde82830452eba7b537b46bd3b00c05bdee223d88d96f9a864cc8ad67ad71c28",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "artwork_status": "approved",
+      "approval_evidence": {
+        "date": "2026-10-25",
+        "source": "user",
+        "quote": "good continue"
+      }
+    },
+    {
+      "variant": "peaceful",
+      "path": "assets/characters/poses/char/drafts/lying-head-west-01/char_lying_sleep_east_west_head_west_peaceful.png",
+      "sha256": "9f918e9cc07de975edf43d2fa21a796d13e0a9ae7d93f5dfac725821bc057846",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "alpha_extrema": [
+        0,
+        254
+      ],
+      "artwork_status": "pending_review",
+      "approval_evidence": null
+    }
+  ],
+  "furniture_fit": "unverified",
+  "runtime_integration": false
+}

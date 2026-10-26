@@ -9,7 +9,7 @@
   "props": [],
   "source_master": "assets/characters/poses/char/masters/external_poses/revision-03/char_standing_withdraw_west_sad.png",
   "source_sha256": "a71812bcc0cc64f97d0b0fb0a4b4d3a485936e45a7ead3de9f23bbb8e6f519aa",
-  "export": "assets/characters/poses/char/exports/west/revision-03/char_standing_withdraw_west_sad.png",
+  "export": "assets/characters/poses/char/exports/west/char_standing_withdraw_west_sad.png",
   "export_sha256": "a71812bcc0cc64f97d0b0fb0a4b4d3a485936e45a7ead3de9f23bbb8e6f519aa",
   "canvas": [
     944,

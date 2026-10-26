@@ -1,19 +1,19 @@
 {
-  "queue_id": "chris-seated_sleep_east-napping",
-  "prompt": "Create one clean transparent PNG cutout of CHRIS napping seated facing EAST screen RIGHT. Reference1 is his approved identity and costume. Reference2 Char east nap is the seated pose and direction, head tilt and relaxed hands reference. Replace Char with adult male Chris: blue eyes CLOSED, full brown beard/moustache, gray tweed flat cap on, red collared rolled-sleeve shirt cream neckline, charcoal textured brass-button waistcoat gold chain on anatomical LEFT waist, black trousers and black lace-up boots. Entire torso, hips, uncrossed thighs, knees and boot toes point RIGHT, side three-quarter view matching Char. Both boots planted. Hands loosely folded in lap, shoulders gently slumped, head tipped to one shoulder with chin down, peaceful sleep. Adult proportions and consistent head drawing scale. Richly shaded outlined anime game art, flat diffuse character lighting. Full cap and both boots in margins. Completely empty transparent background. No glow, aura, color spill, halo, gradient, floor shadow, chair, furniture, props or text. Opaque character interior and crisp transparent exterior. Do not mirror.",
-  "references": [
-    {
-      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
-      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
-    },
-    {
-      "path": "assets/characters/poses/char/drafts/seated-nap-01/char_seated_sleep_east_napping.png",
-      "sha256": "6a3d41eb5a9427628346cd0d532bd20ad63136fe0ddc3bc40a86e3bd769c4faf"
-    }
-  ],
-  "tool": "built-in image_gen",
-  "transparent_background": true,
-  "draft_destination": "assets/characters/poses/chris/east/chris_seated_sleep_east_napping_r3.png",
-  "status": "generated",
-  "prepared": "2026-10-26T19:35:26.217796+00:00"
+ "queue_id": "chris-seated_sleep_east-napping",
+ "prompt": "Create one clean transparent PNG cutout of CHRIS napping seated facing EAST screen RIGHT. Reference1 is his approved identity and costume. Reference2 Char east nap is the seated pose and direction, head tilt and relaxed hands reference. Replace Char with adult male Chris: blue eyes CLOSED, full brown beard/moustache, gray tweed flat cap on, red collared rolled-sleeve shirt cream neckline, charcoal textured brass-button waistcoat gold chain on anatomical LEFT waist, black trousers and black lace-up boots. Entire torso, hips, uncrossed thighs, knees and boot toes point RIGHT, side three-quarter view matching Char. Both boots planted. Hands loosely folded in lap, shoulders gently slumped, head tipped to one shoulder with chin down, peaceful sleep. Adult proportions and consistent head drawing scale. Richly shaded outlined anime game art, flat diffuse character lighting. Full cap and both boots in margins. Completely empty transparent background. No glow, aura, color spill, halo, gradient, floor shadow, chair, furniture, props or text. Opaque character interior and crisp transparent exterior. Do not mirror.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  },
+  {
+   "path": "assets/characters/poses/char/drafts/seated-nap-01/char_seated_sleep_east_napping.png",
+   "sha256": "6a3d41eb5a9427628346cd0d532bd20ad63136fe0ddc3bc40a86e3bd769c4faf"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/exports/east/chris_seated_sleep_east_napping.png",
+ "status": "generated",
+ "prepared": "2026-10-26T19:35:26.217796+00:00"
 }

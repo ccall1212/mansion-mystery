@@ -64,3 +64,6 @@ User requested Chris-only images and removal of changes-requested work unless la
 
 
 Chris current selections organized into north14, west21, east21 and south25 in character-root directional folders. Lying poses use head direction. Image bytes/hashes and approval states preserved; original approved south idle export retained with a byte-identical south library copy. Runner destinations and review paths follow this layout.
+
+
+2026-10-26 parity reconciliation: user approved the five current lying originals, all 17 other pending Chris versions, and Char west seated nap. Approval preflight and exact hashes verified before byte-identical master/export copies. Both characters now have 81 exports: E19 W19 N11 S20 murderer-reveal5 lying7. IMPORTANT correction: raw image preview displayed hidden RGB haze, but actual alpha compositing over blue is clean for all five lying originals. Peak alpha254 is near opaque and must not alone fail transparency checks. No original PNG pixels changed; the generated removal attempt was unnecessary and not selected. Index browsers now include Laying. Runtime fit remains unverified.

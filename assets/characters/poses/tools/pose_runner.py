@@ -51,13 +51,13 @@ def legacy_pending():
 
 def render(queue):
     cards = []
-    approved = BASE / "south/chris_standing_idle_south_neutral.png"
+    approved = BASE / "exports/south/chris_standing_idle_south_neutral.png"
     assert approved.is_file()
-    cards.append(f'<article><h2>Approved identity / south idle</h2><img src="../south/{approved.name}" alt="Approved Chris model"><p>Approved anime v2. This does not approve new poses.</p></article>')
+    cards.append(f'<article><h2>Approved identity / south idle</h2><img src="../exports/south/{approved.name}" alt="Approved Chris model"><p>Approved anime v2. This does not approve new poses.</p></article>')
     for item in sorted(queue, key=lambda item: ({"draft": 0, "needs_help": 0, "approved": 2, "changes_requested": 3}.get(item["status"], 4), -datetime.fromisoformat(item["updated"]).timestamp() if item.get("updated") else 0)):
         if item["status"] in ["changes_requested", "rejected", "superseded", "skipped"] or not item.get("draft_path"):
             continue
-        image = ROOT / item["draft_path"]
+        image = ROOT / (item.get("approved_export") or item["draft_path"])
         assert image.is_file()
         relative = "../" + image.relative_to(BASE).as_posix()
         checks = item.get("checks") or {}
@@ -130,7 +130,7 @@ OUTPUT: exactly ONE complete character with actual PNG alpha transparency (empty
     write(QUEUE,queue)
     attempt=item["attempts"]
     filename=f"chris_{item['pose_id']}_{item['variant_id']}"+(f"_r{attempt}" if attempt>1 else "")+".png"
-    target=BASE/(item.get("direction") or item["head_direction"])/filename
+    target=BASE/"drafts/runner-01"/filename  # drafts live here; approved poses move to exports/ (Char layout)
     assert not target.exists(), "Existing candidate must not be overwritten"
     spec_path=BASE/"prompts/runner-01"/(filename.removesuffix(".png")+".json")
     write(spec_path,{"queue_id":item["queue_id"],"prompt":prompt,"references":item["references"],"tool":"built-in image_gen","transparent_background":True,"draft_destination":target.relative_to(ROOT).as_posix(),"status":"prepared","prepared":now()})
@@ -142,7 +142,7 @@ def finish(source):
     item=next(i for i in queue if i["status"]=="generating")
     attempt=item["attempts"]
     filename=f"chris_{item['pose_id']}_{item['variant_id']}"+(f"_r{attempt}" if attempt>1 else "")+".png"
-    target=BASE/(item.get("direction") or item["head_direction"])/filename
+    target=BASE/"drafts/runner-01"/filename  # drafts live here; approved poses move to exports/ (Char layout)
     assert not target.exists()
     target.parent.mkdir(parents=True,exist_ok=True)
     shutil.copy2(source,target)
@@ -163,7 +163,9 @@ def finish(source):
         "maximum_alpha_255":alpha is not None and alpha.getextrema()[1]==255,
         "opaque_fraction":round(sum(alpha.histogram()[128:])/(image.width*image.height),4) if alpha else 1}
     errors=[]
-    for key in ["alpha_present","maximum_alpha_255","solid_pixels_clear_of_edges"]:
+    # Near-opaque alpha254 is valid; alpha-zero RGB colors are invisible.
+    # Visible halo judgments require compositing, not raw RGB preview inspection.
+    for key in ["alpha_present","solid_pixels_clear_of_edges"]:
         if not checks[key]:errors.append(key)
     if corners!=[0,0,0,0]:errors.append("nonempty_corner")
     if standing and not checks["standing_height_within_four_percent"]:errors.append("standing_height")

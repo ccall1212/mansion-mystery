@@ -1,19 +1,19 @@
 {
-  "queue_id": "chris-seated_read_south-neutral",
-  "prompt": "Create ONE full-body transparent PNG game sprite of CHRIS seated reading an open burgundy hardcover book in both hands. Reference1 is approved CHRIS identity/costume. Reference2 is Char's MATCHING seated reading pose: directly match its camera elevation, seated posture, body direction, pelvis height, book position and bent legs. Replace Char with Chris, no feminine costume or anatomy. Preserve Chris adult male proportions, approved large blue anime eyes/full brown beard and moustache, gray tweed flat cap KEPT ON, red collared rolled-sleeve shirt with cream neckline, charcoal textured brass-button waistcoat, gold chain on his OWN anatomical LEFT waist with natural occlusion, black trousers and laceup boots. Richly shaded outlined anime game rendering. Legs uncrossed, both boots planted, no chair drawn. Head bowed naturally reading pages. Calm neutral expression. Keep full cap/book/both boots inside comfortable margins, consistent head drawing scale, no enlarging seated body to standing height. Clean isolated sprite with actual PNG transparency, alpha0 outside crisp silhouette, fully opaque character interior. No halo/aura/vignette/background/shadow/floor/text/extra character/mirroring. SOUTH: body squarely toward viewer like Char reference2, shoulders/hips facing forward, parallel thighs toward viewer, knees near together and both boot toes toward viewer. Open book centered above lap held at chest/waist level, eyes look down at pages, no eye contact. Chain on anatomical LEFT waist (screen RIGHT) if visible around book. No crossed legs.",
-  "references": [
-    {
-      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
-      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
-    },
-    {
-      "path": "assets/characters/poses/char/exports/south/char_seated_read_south_neutral.png",
-      "sha256": "d8d993ef7fa3c0e459dd23350d9e24e1b0c325998f336db25637d182d15f4c14"
-    }
-  ],
-  "tool": "built-in image_gen",
-  "transparent_background": true,
-  "draft_destination": "assets/characters/poses/chris/south/chris_seated_read_south_neutral.png",
-  "status": "generated",
-  "prepared": "2026-10-26T19:13:38.371691+00:00"
+ "queue_id": "chris-seated_read_south-neutral",
+ "prompt": "Create ONE full-body transparent PNG game sprite of CHRIS seated reading an open burgundy hardcover book in both hands. Reference1 is approved CHRIS identity/costume. Reference2 is Char's MATCHING seated reading pose: directly match its camera elevation, seated posture, body direction, pelvis height, book position and bent legs. Replace Char with Chris, no feminine costume or anatomy. Preserve Chris adult male proportions, approved large blue anime eyes/full brown beard and moustache, gray tweed flat cap KEPT ON, red collared rolled-sleeve shirt with cream neckline, charcoal textured brass-button waistcoat, gold chain on his OWN anatomical LEFT waist with natural occlusion, black trousers and laceup boots. Richly shaded outlined anime game rendering. Legs uncrossed, both boots planted, no chair drawn. Head bowed naturally reading pages. Calm neutral expression. Keep full cap/book/both boots inside comfortable margins, consistent head drawing scale, no enlarging seated body to standing height. Clean isolated sprite with actual PNG transparency, alpha0 outside crisp silhouette, fully opaque character interior. No halo/aura/vignette/background/shadow/floor/text/extra character/mirroring. SOUTH: body squarely toward viewer like Char reference2, shoulders/hips facing forward, parallel thighs toward viewer, knees near together and both boot toes toward viewer. Open book centered above lap held at chest/waist level, eyes look down at pages, no eye contact. Chain on anatomical LEFT waist (screen RIGHT) if visible around book. No crossed legs.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  },
+  {
+   "path": "assets/characters/poses/char/exports/south/char_seated_read_south_neutral.png",
+   "sha256": "d8d993ef7fa3c0e459dd23350d9e24e1b0c325998f336db25637d182d15f4c14"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/drafts/runner-01/chris_seated_read_south_neutral.png",
+ "status": "generated",
+ "prepared": "2026-10-26T19:13:38.371691+00:00"
 }

@@ -1,19 +1,19 @@
 {
-  "queue_id": "chris-standing_idle_north-neutral",
-  "prompt": "Create ONE corrected NORTH/BACK-view standing idle Chris, using reference 1 as approved identity/costume and reference 2 as previous rear-view pose TO CORRECT. Main correction: BOTH HANDS must be in FRONT TROUSER POCKETS, NOT rear pockets. In the back view his LEFT forearm bends FORWARD around the left side of his waist toward his abdomen; LEFT HAND disappears around the front of the hip, hidden from camera. Left wrist must NOT bend backwards or enter the visible rear welt pocket. Same natural forward reach for right hand. BOTH REAR WELT POCKETS remain empty, unobstructed, visible on buttocks; no fingers/thumbs at rear pocket openings. Arms rest along sides, elbows a little back/out only as anatomically natural when hands are in front pockets. Do not put hands on hips, into back pockets, behind back, or point thumbs backwards. View is true NORTH showing back of cap, head, red shirt, charcoal waistcoat back and black trousers, no eyes/front face. Preserve Chris's male adult build, same anatomy and cap/rolled sleeves/clothing/back waistcoat strap detail/black lace boots. Gray tweed flat cap stays ON. Red rolled-sleeve shirt, charcoal waistcoat, black trousers/boots. Soft outlined richly shaded anime/cartoon game rendering matching approved model, not realism. Correct common drawing scale too: tall portrait framing about944x1665, character cap crown to boot soles around1564 pixels, centered with only25-40 pixel top/bottom margins. No shrinking to1500pixel height, no cropping. Whole figure and shoes comfortably inside alpha-transparent margins. Actual transparent PNG, no furniture/background/floor/shadow/glow/text/labels/border/extra figures. One corrected image intended chris_standing_idle_north_neutral_r3.png.",
-  "references": [
-    {
-      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
-      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
-    },
-    {
-      "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_idle_north_neutral_r2.png",
-      "sha256": "ce31c844e428b259693ffa713f1d4d22cef31782db9ca24c216d37dbca2f3bde"
-    }
-  ],
-  "tool": "built-in image_gen",
-  "transparent_background": true,
-  "draft_destination": "assets/characters/poses/chris/north/chris_standing_idle_north_neutral_r3.png",
-  "status": "generated",
-  "prepared": "2026-10-26T16:28:53.560809+00:00"
+ "queue_id": "chris-standing_idle_north-neutral",
+ "prompt": "Create ONE corrected NORTH/BACK-view standing idle Chris, using reference 1 as approved identity/costume and reference 2 as previous rear-view pose TO CORRECT. Main correction: BOTH HANDS must be in FRONT TROUSER POCKETS, NOT rear pockets. In the back view his LEFT forearm bends FORWARD around the left side of his waist toward his abdomen; LEFT HAND disappears around the front of the hip, hidden from camera. Left wrist must NOT bend backwards or enter the visible rear welt pocket. Same natural forward reach for right hand. BOTH REAR WELT POCKETS remain empty, unobstructed, visible on buttocks; no fingers/thumbs at rear pocket openings. Arms rest along sides, elbows a little back/out only as anatomically natural when hands are in front pockets. Do not put hands on hips, into back pockets, behind back, or point thumbs backwards. View is true NORTH showing back of cap, head, red shirt, charcoal waistcoat back and black trousers, no eyes/front face. Preserve Chris's male adult build, same anatomy and cap/rolled sleeves/clothing/back waistcoat strap detail/black lace boots. Gray tweed flat cap stays ON. Red rolled-sleeve shirt, charcoal waistcoat, black trousers/boots. Soft outlined richly shaded anime/cartoon game rendering matching approved model, not realism. Correct common drawing scale too: tall portrait framing about944x1665, character cap crown to boot soles around1564 pixels, centered with only25-40 pixel top/bottom margins. No shrinking to1500pixel height, no cropping. Whole figure and shoes comfortably inside alpha-transparent margins. Actual transparent PNG, no furniture/background/floor/shadow/glow/text/labels/border/extra figures. One corrected image intended chris_standing_idle_north_neutral_r3.png.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  },
+  {
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_standing_idle_north_neutral_r2.png",
+   "sha256": "ce31c844e428b259693ffa713f1d4d22cef31782db9ca24c216d37dbca2f3bde"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/exports/north/chris_standing_idle_north_neutral.png",
+ "status": "generated",
+ "prepared": "2026-10-26T16:28:53.560809+00:00"
 }

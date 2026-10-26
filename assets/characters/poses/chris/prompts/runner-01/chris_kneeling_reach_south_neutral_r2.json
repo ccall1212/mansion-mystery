@@ -1,15 +1,15 @@
 {
-  "queue_id": "chris-kneeling_reach_south-neutral",
-  "prompt": "Precisely edit this Chris SOUTH kneeling reach transparent sprite: change ONLY head and gaze. Lower his chin, tilt cap and head DOWN naturally, blue eyes look DOWN toward his extended fingertips and implied object on floor. Calm focused inspection, relaxed brows, CLOSED neutral mouth without smiling at viewer. Keep same approved anime face brown beard and gray cap ON. Preserve entire body pose, hands, red shirt, charcoal vest, gold chain, black trousers, boots, dimensions and true alpha margins. One complete character with no floor/shadow/objects/text. Do not make eye contact with viewer. Head and neck anatomy must remain natural.",
-  "references": [
-    {
-      "path": "assets/characters/poses/chris/drafts/runner-01/chris_kneeling_reach_south_neutral.png",
-      "sha256": "d8ed89512768b82f414cd5f4d576b0dce25b05c1a51fe6927954863730328eba"
-    }
-  ],
-  "tool": "built-in image_gen",
-  "transparent_background": true,
-  "draft_destination": "assets/characters/poses/chris/south/chris_kneeling_reach_south_neutral_r2.png",
-  "status": "generated",
-  "prepared": "2026-10-26T18:30:05.436711+00:00"
+ "queue_id": "chris-kneeling_reach_south-neutral",
+ "prompt": "Precisely edit this Chris SOUTH kneeling reach transparent sprite: change ONLY head and gaze. Lower his chin, tilt cap and head DOWN naturally, blue eyes look DOWN toward his extended fingertips and implied object on floor. Calm focused inspection, relaxed brows, CLOSED neutral mouth without smiling at viewer. Keep same approved anime face brown beard and gray cap ON. Preserve entire body pose, hands, red shirt, charcoal vest, gold chain, black trousers, boots, dimensions and true alpha margins. One complete character with no floor/shadow/objects/text. Do not make eye contact with viewer. Head and neck anatomy must remain natural.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_kneeling_reach_south_neutral.png",
+   "sha256": "d8ed89512768b82f414cd5f4d576b0dce25b05c1a51fe6927954863730328eba"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/drafts/runner-01/chris_kneeling_reach_south_neutral_r2.png",
+ "status": "generated",
+ "prepared": "2026-10-26T18:30:05.436711+00:00"
 }

@@ -1,0 +1,112 @@
+{
+ "queue_id": "chris-standing_deny_east-defensive",
+ "pose_id": "standing_deny_east",
+ "variant_id": "defensive",
+ "direction": "east",
+ "tier": 1,
+ "status": "approved",
+ "approval": "approved",
+ "tool": "built-in image_gen",
+ "prompt": "Create ONE complete transparent PNG sprite of CHRIS in EAST-facing outward-hand DENIAL. Reference1 is the approved Chris identity/costume/style. Reference2 is a gesture/expression reference ONLY: both open palms facing outward, fingers spread, wrists straight, elbows bent, hands raised around chest/shoulder level, apprehensive earnest expression as if saying 'No, it wasn't me.' Translate gesture into Chris's full-body anime/cartoon game art. Whole body faces screen RIGHT, including head, chest, hips, knees and both boot toes, in a three-quarter SIDE view from the same elevated game camera. Both palms face the implied interlocutor to screen RIGHT; near hand seen obliquely, far hand naturally separated and partly foreshortened. Do not keep body frontal while only turning head. Tilt upper torso back slightly, brows raised and drawn together in concern, mouth slightly open in protest. BOTH HANDS fully visible and anatomically correct, separated from his face and torso; moderate natural gesture, no hand at neck, no hand on hip, no smile, no rage. Preserve adult Chris with blue anime eyes, full brown beard and moustache, gray tweed flat cap KEPT ON, red collared rolled-sleeve shirt, cream undershirt neckline, charcoal textured waistcoat with brass buttons and gold watch chain on his own LEFT waist (near/far visibility follows natural anatomy), black trousers and black lace-up boots. Same approved softly shaded anime face and richly shaded outlined rendering. Full standing drawing scale about1564px occupied height on comparable portrait canvas to reference1 (948x1659). Comfortable transparent margins around all fingertips, cap and both boots. Actual alpha transparency. No background, floor shadow, furniture, lettering, watermark, props, borders or extra character. Do not copy photograph identity, clothing or backdrop. Draw independently; do not mirror.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  },
+  {
+   "source": "user_attachment",
+   "filename": "codex-clipboard-703fe3dc-c77b-4836-856c-661c1abe3533.png",
+   "sha256": "009a94f599f18b3550f5701a984c2c8dfb31b956242047c28acc560ec965a995"
+  }
+ ],
+ "path": "assets/characters/poses/chris/east/chris_standing_deny_east_defensive_r2.png",
+ "sha256": "14ebd50b68dd107fbe60b75ee41c21a6612d5dc8b681f846fee2cd5035ca8f98",
+ "checks": {
+  "format": "PNG",
+  "canvas": [
+   989,
+   1591
+  ],
+  "alpha_extrema": [
+   0,
+   255
+  ],
+  "solid_bounds": [
+   205,
+   16,
+   917,
+   1565
+  ],
+  "corner_alpha": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "occupied_height": 1549,
+  "standing_height_ratio": 0.9904,
+  "standing_height_within_four_percent": true,
+  "canvas_within_one_percent_of_reference": false,
+  "solid_pixels_clear_of_edges": true,
+  "alpha_present": true,
+  "maximum_alpha_255": true,
+  "opaque_fraction": 0.3235,
+  "warnings": [
+   "Native canvas differs; source pixels preserved. Common export canvas/pivot alignment remains pending; stature checked separately."
+  ],
+  "technical_pass": false,
+  "errors": [
+   "nonempty_corner"
+  ]
+ },
+ "runtime_integrated": false,
+ "created": "2026-10-26T17:18:44.757649+00:00",
+ "visual_qa": {
+  "inspected": true,
+  "note": "Revised east three-quarter denial: both open palms outward, fingers spread, torso leans back slightly and anxious protesting face. Full cap and boots retained; pending approval.",
+  "user_approval": "approved",
+  "date": "2026-10-26T17:18:45.013888+00:00"
+ },
+ "notes": "User approved revised outward-palm denial artwork. Export alignment and runtime fit remain pending. East corner alpha=1 cleanup flag remains; source pixels unchanged.",
+ "actor_facing": "east",
+ "posture": "standing",
+ "activity": "deny",
+ "props": [],
+ "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_deny_east_defensive_r2.png",
+ "source_sha256": "14ebd50b68dd107fbe60b75ee41c21a6612d5dc8b681f846fee2cd5035ca8f98",
+ "export": "assets/characters/poses/chris/exports/east/chris_standing_deny_east_defensive.png",
+ "export_sha256": "14ebd50b68dd107fbe60b75ee41c21a6612d5dc8b681f846fee2cd5035ca8f98",
+ "canvas": [
+  989,
+  1591
+ ],
+ "alpha_extrema": [
+  0,
+  255
+ ],
+ "transparency_status": "alpha_present",
+ "contact_calibration": "pending",
+ "landmark_record": "assets/characters/poses/chris/metadata/runner-01/chris_standing_deny_east_defensive_r2.json",
+ "prompt_record": "assets/characters/poses/chris/prompts/runner-01/chris_standing_deny_east_defensive_r2.json",
+ "export_note": "Byte-identical copy of the master with the canonical filename (revision suffix removed). Common export canvas/pivot alignment and furniture contact calibration remain pending.",
+ "image_approval": {
+  "status": "approved",
+  "evidence": {
+   "date": "2026-10-26",
+   "source": "user_chat",
+   "quote": "Perfect, All approved"
+  },
+  "scope": "Revised outward-open-palm denial artwork in south, east and west; exact current candidate only. Export cleanup, alignment and runtime fit remain separate.",
+  "files": [
+   {
+    "path": "assets/characters/poses/chris/masters/runner-01/chris_standing_deny_east_defensive_r2.png",
+    "sha256": "14ebd50b68dd107fbe60b75ee41c21a6612d5dc8b681f846fee2cd5035ca8f98"
+   },
+   {
+    "path": "assets/characters/poses/chris/exports/east/chris_standing_deny_east_defensive.png",
+    "sha256": "14ebd50b68dd107fbe60b75ee41c21a6612d5dc8b681f846fee2cd5035ca8f98"
+   }
+  ],
+  "retention": "Keep approved artwork and necessary production metadata."
+ }
+}

@@ -1,19 +1,19 @@
 {
-  "queue_id": "chris-standing_read_south-neutral",
-  "prompt": "Create ONE full-body transparent PNG sprite of CHRIS STANDING READING an OPEN burgundy hardcover book, held in BOTH hands in front of lower chest. Image1 approved Chris is identity/proportions/costume; image2 matching Char standing reading is camera/body direction/book position only. Preserve adult male proportions, exact approved large blue anime eyes, full brown beard and moustache, gray tweed flat cap KEPT ON, red rolled-sleeve collared shirt/cream neckline, charcoal textured brass-button waistcoat, gold chain on HIS anatomical LEFT waist with natural occlusion, black trousers and black laceup boots. Richly shaded outlined anime game art. Stand naturally on BOTH feet, torso mostly upright, elbows bent comfortably, head/chin lowered and eyes focused on inner pages, calm relaxed neutral closed mouth. Fingers naturally support book outer edges; both inner pages face READER, burgundy covers face AWAY from reader. No backwards book. Full standing height around1564px within4percent, portrait canvas near948x1659, canonical head drawing scale, complete cap/hands/book/both boots comfortably inside margins. Exactly ONE character, independently drawn not mirrored. Actual PNG alpha0 outside crisp silhouette and opaque interior; no halo/glow/vignette/background/floor/shadow/furniture/text/labels. SOUTH: torso and pelvis forward toward viewer, both boots planted toward viewer. Open book centered in both hands above abdomen, head and blue eyes down toward pages. Camera sees burgundy outer covers facing viewer, reader sees inner pages. Chain at anatomical-left waist screen RIGHT if not obscured.",
-  "references": [
-    {
-      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
-      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
-    },
-    {
-      "path": "assets/characters/poses/char/exports/south/char_standing_read_south_neutral.png",
-      "sha256": "755bf6bc00d73ba46cab9a2316f87783ac10ab2f1fa360b4ca3960e68dc8e9bd"
-    }
-  ],
-  "tool": "built-in image_gen",
-  "transparent_background": true,
-  "draft_destination": "assets/characters/poses/chris/south/chris_standing_read_south_neutral.png",
-  "status": "generated",
-  "prepared": "2026-10-26T20:16:47.172614+00:00"
+ "queue_id": "chris-standing_read_south-neutral",
+ "prompt": "Create ONE full-body transparent PNG sprite of CHRIS STANDING READING an OPEN burgundy hardcover book, held in BOTH hands in front of lower chest. Image1 approved Chris is identity/proportions/costume; image2 matching Char standing reading is camera/body direction/book position only. Preserve adult male proportions, exact approved large blue anime eyes, full brown beard and moustache, gray tweed flat cap KEPT ON, red rolled-sleeve collared shirt/cream neckline, charcoal textured brass-button waistcoat, gold chain on HIS anatomical LEFT waist with natural occlusion, black trousers and black laceup boots. Richly shaded outlined anime game art. Stand naturally on BOTH feet, torso mostly upright, elbows bent comfortably, head/chin lowered and eyes focused on inner pages, calm relaxed neutral closed mouth. Fingers naturally support book outer edges; both inner pages face READER, burgundy covers face AWAY from reader. No backwards book. Full standing height around1564px within4percent, portrait canvas near948x1659, canonical head drawing scale, complete cap/hands/book/both boots comfortably inside margins. Exactly ONE character, independently drawn not mirrored. Actual PNG alpha0 outside crisp silhouette and opaque interior; no halo/glow/vignette/background/floor/shadow/furniture/text/labels. SOUTH: torso and pelvis forward toward viewer, both boots planted toward viewer. Open book centered in both hands above abdomen, head and blue eyes down toward pages. Camera sees burgundy outer covers facing viewer, reader sees inner pages. Chain at anatomical-left waist screen RIGHT if not obscured.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  },
+  {
+   "path": "assets/characters/poses/char/exports/south/char_standing_read_south_neutral.png",
+   "sha256": "755bf6bc00d73ba46cab9a2316f87783ac10ab2f1fa360b4ca3960e68dc8e9bd"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/exports/south/chris_standing_read_south_neutral.png",
+ "status": "generated",
+ "prepared": "2026-10-26T20:16:47.172614+00:00"
 }

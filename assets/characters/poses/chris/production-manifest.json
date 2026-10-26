@@ -2,7 +2,7 @@
   "schema_version": 1,
   "character_id": "likeness-user",
   "name": "Chris",
-  "status": "canonical_model_approved_pose_library_incomplete",
+  "status": "current_81_pose_library_artwork_approved_runtime_fit_pending",
   "canonical_reference": {
     "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
     "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc",
@@ -20,6 +20,876 @@
         948,
         1659
       ],
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "seated_read_north",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/north/chris_seated_read_north_neutral.png",
+      "sha256": "79e1f21a087ec61bf62100906197c63a20b64563385a7ed3be304ea2f6fdb5d1",
+      "canvas": [
+        1080,
+        1456
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_seated_read_north_neutral_r2.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_seated_read_north_neutral_r2.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_cross_arms_north",
+      "variant_id": "suspicious",
+      "path": "assets/characters/poses/chris/exports/north/chris_standing_cross_arms_north_suspicious.png",
+      "sha256": "c4c55935e5b76c556415a3bc14da8c37af24c1ee6767694612287aaf2350789d",
+      "canvas": [
+        986,
+        1596
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_cross_arms_north_suspicious.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_cross_arms_north_suspicious.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_fidget_north",
+      "variant_id": "nervous",
+      "path": "assets/characters/poses/chris/exports/north/chris_standing_fidget_north_nervous.png",
+      "sha256": "024d01be7d3731be1819b22cb6e214cf9c027db1d7e3e75b4b955e25e676cd17",
+      "canvas": [
+        976,
+        1611
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_fidget_north_nervous_r2.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_fidget_north_nervous_r2.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_hold_book_north",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/north/chris_standing_hold_book_north_neutral.png",
+      "sha256": "0bdb51d675199b398549abed894ad45eea64039f6c7d254f57d1bdf82802f6b1",
+      "canvas": [
+        985,
+        1597
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_hold_book_north_neutral_r2.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_hold_book_north_neutral_r2.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_idle_north",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/north/chris_standing_idle_north_neutral.png",
+      "sha256": "0b85dfd21f7cb7f080f58421b4e24ade58e07ad620aa1b1c60f8f1eec4aa9e97",
+      "canvas": [
+        984,
+        1599
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_idle_north_neutral_r3.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_idle_north_neutral_r3.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_look_up_north",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/north/chris_standing_look_up_north_neutral.png",
+      "sha256": "bc098b6b62cc17a8890a585749c73c36c467f6b4810868bb0d7e24197c85c7a2",
+      "canvas": [
+        985,
+        1596
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_look_up_north_neutral.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_look_up_north_neutral.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_read_north",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/north/chris_standing_read_north_neutral.png",
+      "sha256": "6d9c632cec2403450c5c9df7b051229284f484cad0f7154082771ce4b267c10e",
+      "canvas": [
+        1015,
+        1550
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_read_north_neutral.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_read_north_neutral.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_talk_north",
+      "variant_id": "friendly",
+      "path": "assets/characters/poses/chris/exports/north/chris_standing_talk_north_friendly.png",
+      "sha256": "b719ab2388443e5e593c948d2d88f6b5532cf4dee3cff92515a746a2ae05f9d7",
+      "canvas": [
+        984,
+        1599
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_talk_north_friendly_r2.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_talk_north_friendly_r2.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "lying_idle_east_west_head_east",
+      "variant_id": "awake",
+      "path": "assets/characters/poses/chris/exports/lying/chris_lying_idle_east_west_head_east_awake.png",
+      "sha256": "2b0976be6e5c1aadaa48a142780a239c73536355e12b5299976504d6c5b1115c",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "source_master": "assets/characters/poses/chris/masters/lying-approved-01/chris_lying_idle_east_west_head_east_awake.png",
+      "metadata": "assets/characters/poses/chris/metadata/lying-approved-01/chris_lying_idle_east_west_head_east_awake.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "seated_idle_east",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/east/chris_seated_idle_east_neutral.png",
+      "sha256": "700c3dbe42be1e852b0c7f16f0d4fbbb596fd16a44f17645a3652dab3e7a9382",
+      "canvas": [
+        1024,
+        1536
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_seated_idle_east_neutral_r3.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_seated_idle_east_neutral_r3.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "seated_read_east",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/east/chris_seated_read_east_neutral.png",
+      "sha256": "43a2930216bd1eb9177a87a111935d69583aafc99ec4a824e00cb044f7dd8592",
+      "canvas": [
+        1080,
+        1456
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_seated_read_east_neutral_r2.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_seated_read_east_neutral_r2.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "seated_sleep_east",
+      "variant_id": "napping",
+      "path": "assets/characters/poses/chris/exports/east/chris_seated_sleep_east_napping.png",
+      "sha256": "7846110608f460698872bdae5d11eae71686e311b6dcdc0d70637c7b567385b0",
+      "canvas": [
+        944,
+        1666
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_seated_sleep_east_napping_r3.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_seated_sleep_east_napping_r3.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_clasp_hands_east",
+      "variant_id": "friendly",
+      "path": "assets/characters/poses/chris/exports/east/chris_standing_clasp_hands_east_friendly.png",
+      "sha256": "bcbfec857d42be40650dae4f66cb6af6c6d9eb0d807691abe7f93e8860a5b0c7",
+      "canvas": [
+        976,
+        1611
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_clasp_hands_east_friendly.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_clasp_hands_east_friendly.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_cross_arms_east",
+      "variant_id": "suspicious",
+      "path": "assets/characters/poses/chris/exports/east/chris_standing_cross_arms_east_suspicious.png",
+      "sha256": "5e5fa37b723ba039052e8f72195528817507c5d47af90ed32ab2c3bb73724678",
+      "canvas": [
+        976,
+        1611
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_cross_arms_east_suspicious.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_cross_arms_east_suspicious.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_deny_east",
+      "variant_id": "defensive",
+      "path": "assets/characters/poses/chris/exports/east/chris_standing_deny_east_defensive.png",
+      "sha256": "14ebd50b68dd107fbe60b75ee41c21a6612d5dc8b681f846fee2cd5035ca8f98",
+      "canvas": [
+        989,
+        1591
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_deny_east_defensive_r2.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_deny_east_defensive_r2.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_fidget_east",
+      "variant_id": "nervous",
+      "path": "assets/characters/poses/chris/exports/east/chris_standing_fidget_east_nervous.png",
+      "sha256": "0bf8f9b509066beda53982b3245e2ff5bdc2f7aafcf2a1def3acc3a9c0ce7dbd",
+      "canvas": [
+        957,
+        1644
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_fidget_east_nervous.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_fidget_east_nervous.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_hold_book_east",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/east/chris_standing_hold_book_east_neutral.png",
+      "sha256": "f78d235edfe1c6d6954b117477b899f216216e7741f0daa9a7208f28118a93d0",
+      "canvas": [
+        985,
+        1597
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_hold_book_east_neutral_r2.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_hold_book_east_neutral_r2.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_idle_east",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/east/chris_standing_idle_east_neutral.png",
+      "sha256": "0414b2e3c764592a55c6a99dfc273d875d622ff3e66e1c4fdf05d13aa55839d4",
+      "canvas": [
+        977,
+        1610
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_idle_east_neutral.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_idle_east_neutral.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_look_down_east",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/east/chris_standing_look_down_east_neutral.png",
+      "sha256": "f9fe75db6aac6e1128982337901d9163fcb36c52a8687f4d5601588a31e9e95a",
+      "canvas": [
+        980,
+        1605
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_look_down_east_neutral_r2.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_look_down_east_neutral_r2.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_look_up_east",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/east/chris_standing_look_up_east_neutral.png",
+      "sha256": "4a7ddfe8e3c56ee2cafc3e4fad96ff2cec3227cbeb40fd783d6969d9afe6ced5",
+      "canvas": [
+        948,
+        1659
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_look_up_east_neutral.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_look_up_east_neutral.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_reach_table_east",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/east/chris_standing_reach_table_east_neutral.png",
+      "sha256": "e39a9612c54c9d68fc8fcdec83fa8bb815bfa953a0e7e1c4a81476dc41bada71",
+      "canvas": [
+        949,
+        1658
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_reach_table_east_neutral.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_reach_table_east_neutral.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_read_east",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/east/chris_standing_read_east_neutral.png",
+      "sha256": "a1cc30ed1c39d6058247acc4fa17e1d5ae3a9baf5c426eb06889334cdcefd793",
+      "canvas": [
+        1015,
+        1549
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_read_east_neutral.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_read_east_neutral.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_startle_east",
+      "variant_id": "surprised",
+      "path": "assets/characters/poses/chris/exports/east/chris_standing_startle_east_surprised.png",
+      "sha256": "9e30a013ba0cb8ebd58b8808851b195c21068e421f8b24ad1ecfaa45f0eca516",
+      "canvas": [
+        978,
+        1608
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_startle_east_surprised.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_startle_east_surprised.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_talk_east",
+      "variant_id": "friendly",
+      "path": "assets/characters/poses/chris/exports/east/chris_standing_talk_east_friendly.png",
+      "sha256": "cf14a319b77971adda342cd9092eafa468ecfba6d445a16b2a0695d295a408f1",
+      "canvas": [
+        984,
+        1599
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_talk_east_friendly.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_talk_east_friendly.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "crouching_cry_south",
+      "variant_id": "remorseful",
+      "path": "assets/characters/poses/chris/exports/murderer-reveal/chris_crouching_cry_south_remorseful.png",
+      "sha256": "573b90f87765d334099eb3b646fcc31373ad73ec80ac7a6c2fd274be641c4c74",
+      "canvas": [
+        1222,
+        1287
+      ],
+      "source_master": "assets/characters/poses/chris/masters/murderer-reveal-01/chris_crouching_cry_south_remorseful.png",
+      "metadata": "assets/characters/poses/chris/metadata/murderer-reveal-01/chris_crouching_cry_south_remorseful.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "seated_sleep_south",
+      "variant_id": "napping",
+      "path": "assets/characters/poses/chris/exports/south/chris_seated_sleep_south_napping.png",
+      "sha256": "19cb93384353bd30c4812c93604c0cf6ca042032bc7accbb5cb51aeb286ff6a7",
+      "canvas": [
+        948,
+        1659
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_seated_sleep_south_napping.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_seated_sleep_south_napping.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_accuse_south",
+      "variant_id": "defiant",
+      "path": "assets/characters/poses/chris/exports/murderer-reveal/chris_standing_accuse_south_defiant.png",
+      "sha256": "3162d9994dbc057494dfcb733788c3afc2166647b6a543d4abf83282c7ca6dc0",
+      "canvas": [
+        985,
+        1596
+      ],
+      "source_master": "assets/characters/poses/chris/masters/murderer-reveal-01/chris_standing_accuse_south_defiant.png",
+      "metadata": "assets/characters/poses/chris/metadata/murderer-reveal-01/chris_standing_accuse_south_defiant.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_clasp_hands_south",
+      "variant_id": "friendly",
+      "path": "assets/characters/poses/chris/exports/south/chris_standing_clasp_hands_south_friendly.png",
+      "sha256": "9656f324e80b98326975a665615bd9216fbf6f7b3feacb4b97d89f4d6b521741",
+      "canvas": [
+        985,
+        1596
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_clasp_hands_south_friendly.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_clasp_hands_south_friendly.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_cross_arms_south",
+      "variant_id": "suspicious",
+      "path": "assets/characters/poses/chris/exports/south/chris_standing_cross_arms_south_suspicious.png",
+      "sha256": "e790c7d30f8da21d7529df2fb0dcb202f13927770e8b04524d8c8d5214ecaee4",
+      "canvas": [
+        978,
+        1608
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_cross_arms_south_suspicious.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_cross_arms_south_suspicious.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_deny_south",
+      "variant_id": "defensive",
+      "path": "assets/characters/poses/chris/exports/south/chris_standing_deny_south_defensive.png",
+      "sha256": "fc8f389a8f5a16f145982b0a4b2196151b0f0afc49902bfb586adab6e9449092",
+      "canvas": [
+        977,
+        1610
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_deny_south_defensive_r3.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_deny_south_defensive_r3.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_fidget_south",
+      "variant_id": "nervous",
+      "path": "assets/characters/poses/chris/exports/south/chris_standing_fidget_south_nervous.png",
+      "sha256": "cc400b46e635a9f80b89906b3583bf02314bb37986f29bc35674def8f5bd1369",
+      "canvas": [
+        969,
+        1624
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_fidget_south_nervous_r2.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_fidget_south_nervous_r2.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_hold_book_south",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/south/chris_standing_hold_book_south_neutral.png",
+      "sha256": "c2425e34769a74932ec2085728917a7c32010c9c4d43f165fc71d20d1f29c10f",
+      "canvas": [
+        989,
+        1590
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_hold_book_south_neutral.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_hold_book_south_neutral.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_laugh_south",
+      "variant_id": "evil",
+      "path": "assets/characters/poses/chris/exports/murderer-reveal/chris_standing_laugh_south_evil.png",
+      "sha256": "47f51771ec3f976e0dbe0f0a93c5f6374da96c7e8197c6b02470105d73e1ba5a",
+      "canvas": [
+        977,
+        1610
+      ],
+      "source_master": "assets/characters/poses/chris/masters/murderer-reveal-01/chris_standing_laugh_south_evil.png",
+      "metadata": "assets/characters/poses/chris/metadata/murderer-reveal-01/chris_standing_laugh_south_evil.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_lean_south",
+      "variant_id": "resting",
+      "path": "assets/characters/poses/chris/exports/south/chris_standing_lean_south_resting.png",
+      "sha256": "9cc9dc504f16b716e8f578ff1f05dceacbe1d29ed7ea45449a953c939eacdd9d",
+      "canvas": [
+        985,
+        1596
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_lean_south_resting.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_lean_south_resting.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_look_down_south",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/south/chris_standing_look_down_south_neutral.png",
+      "sha256": "f53e7679487bf9066f5de844a79b7be765d69b7af3c223815a2e403156cad5c4",
+      "canvas": [
+        984,
+        1599
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_look_down_south_neutral.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_look_down_south_neutral.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_look_up_south",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/south/chris_standing_look_up_south_neutral.png",
+      "sha256": "0670422b76c5a4281f55251567d058c3684171accf6c0b28f8cb2c922a4764bd",
+      "canvas": [
+        985,
+        1596
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_look_up_south_neutral.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_look_up_south_neutral.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_reach_table_south",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/south/chris_standing_reach_table_south_neutral.png",
+      "sha256": "8afe506df297668747c0d6b2212e55276274a0e9f610a0161efe93209d5ee1b7",
+      "canvas": [
+        985,
+        1596
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_reach_table_south_neutral.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_reach_table_south_neutral.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_read_south",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/south/chris_standing_read_south_neutral.png",
+      "sha256": "98bd7c1ab0af480ecca438190763684d1b4d229ee59c842caa4a0b7cca0f7489",
+      "canvas": [
+        986,
+        1596
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_read_south_neutral.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_read_south_neutral.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_shrug_south",
+      "variant_id": "resigned",
+      "path": "assets/characters/poses/chris/exports/murderer-reveal/chris_standing_shrug_south_resigned.png",
+      "sha256": "e642cfb8661648849782da00c46f5e9156c733f5715fab25cfe5076d8fb98c5c",
+      "canvas": [
+        979,
+        1606
+      ],
+      "source_master": "assets/characters/poses/chris/masters/murderer-reveal-01/chris_standing_shrug_south_resigned_r2.png",
+      "metadata": "assets/characters/poses/chris/metadata/murderer-reveal-01/chris_standing_shrug_south_resigned_r2.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_startle_south",
+      "variant_id": "surprised",
+      "path": "assets/characters/poses/chris/exports/south/chris_standing_startle_south_surprised.png",
+      "sha256": "dbd1396137a8edba9bd9c5d99b1d86c12a196ebfc465a37bbe02038348952b88",
+      "canvas": [
+        984,
+        1598
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_startle_south_surprised.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_startle_south_surprised.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_talk_south",
+      "variant_id": "friendly",
+      "path": "assets/characters/poses/chris/exports/south/chris_standing_talk_south_friendly.png",
+      "sha256": "d762903ae81eb99ee0aaae9b7f485f814c3543d38ddd62eeb80c7dbfaf12593b",
+      "canvas": [
+        984,
+        1599
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_talk_south_friendly.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_talk_south_friendly.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_threaten_south",
+      "variant_id": "furious",
+      "path": "assets/characters/poses/chris/exports/murderer-reveal/chris_standing_threaten_south_furious.png",
+      "sha256": "1b955308018fd0947a6488ce0e3eceea5f4e88f1ecfa4559343851cce836ffd8",
+      "canvas": [
+        980,
+        1605
+      ],
+      "source_master": "assets/characters/poses/chris/masters/murderer-reveal-01/chris_standing_threaten_south_furious.png",
+      "metadata": "assets/characters/poses/chris/metadata/murderer-reveal-01/chris_standing_threaten_south_furious.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "lying_idle_east_west_head_west",
+      "variant_id": "awake",
+      "path": "assets/characters/poses/chris/exports/lying/chris_lying_idle_east_west_head_west_awake.png",
+      "sha256": "e0f85322c5230288dd148a228263e4a91ec4b7a4a560f4cdb302300751142c3e",
+      "canvas": [
+        1536,
+        1024
+      ],
+      "source_master": "assets/characters/poses/chris/masters/lying-approved-01/chris_lying_idle_east_west_head_west_awake.png",
+      "metadata": "assets/characters/poses/chris/metadata/lying-approved-01/chris_lying_idle_east_west_head_west_awake.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "seated_idle_west",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/west/chris_seated_idle_west_neutral.png",
+      "sha256": "07eeda86ec1097111bd6fead94f8f8464ba9f2584b3111f6b30cbd66c90fab97",
+      "canvas": [
+        944,
+        1665
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_seated_idle_west_neutral_r2.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_seated_idle_west_neutral_r2.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "seated_read_west",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/west/chris_seated_read_west_neutral.png",
+      "sha256": "117728c614489b2e6b3f703918b96f6939ef980abd362d2040f5e57bba39effb",
+      "canvas": [
+        1080,
+        1456
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_seated_read_west_neutral.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_seated_read_west_neutral.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "seated_sleep_west",
+      "variant_id": "napping",
+      "path": "assets/characters/poses/chris/exports/west/chris_seated_sleep_west_napping.png",
+      "sha256": "b6d36211fe1233796bda2b6f8d49decc6f02c5618ed53a39e441c8816fbadb42",
+      "canvas": [
+        944,
+        1666
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_seated_sleep_west_napping.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_seated_sleep_west_napping.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_clasp_hands_west",
+      "variant_id": "friendly",
+      "path": "assets/characters/poses/chris/exports/west/chris_standing_clasp_hands_west_friendly.png",
+      "sha256": "264b244624319ba59cf6c0dabf0c8301ac1f6f27d97b327e4e5f754c9c0d9080",
+      "canvas": [
+        977,
+        1610
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_clasp_hands_west_friendly.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_clasp_hands_west_friendly.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_cross_arms_west",
+      "variant_id": "suspicious",
+      "path": "assets/characters/poses/chris/exports/west/chris_standing_cross_arms_west_suspicious.png",
+      "sha256": "cbd87df96fb8a27f9dcc6774f77e747fef59a13a8d0635caa1fd6096486f3dab",
+      "canvas": [
+        986,
+        1596
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_cross_arms_west_suspicious_r2.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_cross_arms_west_suspicious_r2.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_deny_west",
+      "variant_id": "defensive",
+      "path": "assets/characters/poses/chris/exports/west/chris_standing_deny_west_defensive.png",
+      "sha256": "7f027a1054b35f22b85db9b822db1755cb022b8b1f6dba68206ef168f9d10926",
+      "canvas": [
+        971,
+        1620
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_deny_west_defensive_r2.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_deny_west_defensive_r2.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_fidget_west",
+      "variant_id": "nervous",
+      "path": "assets/characters/poses/chris/exports/west/chris_standing_fidget_west_nervous.png",
+      "sha256": "00c99a0e585ac61d71864edb4b08f12293bfbc841f330c9195f1a3363a008d52",
+      "canvas": [
+        986,
+        1596
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_fidget_west_nervous_r3.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_fidget_west_nervous_r3.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_hold_book_west",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/west/chris_standing_hold_book_west_neutral.png",
+      "sha256": "fdd37c658b4abd29d383c3f7ad849759b8f1d019780cf91acc66c54d2303d3bd",
+      "canvas": [
+        985,
+        1596
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_hold_book_west_neutral.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_hold_book_west_neutral.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_idle_west",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/west/chris_standing_idle_west_neutral.png",
+      "sha256": "a19ac1bc7ea33b1b434571445b96f8a5a5c8db23370d51b24d19b09de5b354a2",
+      "canvas": [
+        985,
+        1597
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_idle_west_neutral.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_idle_west_neutral.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_look_down_west",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/west/chris_standing_look_down_west_neutral.png",
+      "sha256": "391223c97b1bf98cab2e513b7726117340ee45b694911ce6075125e604477c3d",
+      "canvas": [
+        985,
+        1596
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_look_down_west_neutral.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_look_down_west_neutral.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_look_up_west",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/west/chris_standing_look_up_west_neutral.png",
+      "sha256": "257b406a9c7a1f7c6c70470dee8fe8a692103d2a333a854f4e3d67f204a1ee8e",
+      "canvas": [
+        985,
+        1597
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_look_up_west_neutral.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_look_up_west_neutral.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_reach_table_west",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/west/chris_standing_reach_table_west_neutral.png",
+      "sha256": "537f8fd30569115d35aafec2baaf3424bd035d365e599067400cbf791a7b28db",
+      "canvas": [
+        985,
+        1596
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_reach_table_west_neutral.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_reach_table_west_neutral.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_read_west",
+      "variant_id": "neutral",
+      "path": "assets/characters/poses/chris/exports/west/chris_standing_read_west_neutral.png",
+      "sha256": "9590277b99ffbc8f06da1d07f20c1bdf1620794c1537988c2457bc4127e38117",
+      "canvas": [
+        1015,
+        1550
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_read_west_neutral.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_read_west_neutral.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_startle_west",
+      "variant_id": "surprised",
+      "path": "assets/characters/poses/chris/exports/west/chris_standing_startle_west_surprised.png",
+      "sha256": "5c301ea5140702579cff1e52b25edb3b00bd826b224b3bf525217eb8947b6336",
+      "canvas": [
+        976,
+        1612
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_startle_west_surprised_r2.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_startle_west_surprised_r2.json",
+      "approval": "approved",
+      "runtime_integrated": false,
+      "runtime_fit": "unverified"
+    },
+    {
+      "pose_id": "standing_talk_west",
+      "variant_id": "friendly",
+      "path": "assets/characters/poses/chris/exports/west/chris_standing_talk_west_friendly.png",
+      "sha256": "1a65f77031b0d75880911b310161be07cfb4aef1494b737d361513f4ced0c53d",
+      "canvas": [
+        973,
+        1617
+      ],
+      "source_master": "assets/characters/poses/chris/masters/runner-01/chris_standing_talk_west_friendly.png",
+      "metadata": "assets/characters/poses/chris/metadata/runner-01/chris_standing_talk_west_friendly.json",
       "approval": "approved",
       "runtime_integrated": false,
       "runtime_fit": "unverified"
@@ -51,5 +921,17 @@
       "keep": "Approved canonical model and metadata; retain existing variants pending dependency-aware cleanup."
     }
   },
-  "production_note": "Use this approved model for future Chris poses. Earlier selected-hat-pair is historical identity reference; smaller-eyed anime v3 is rejected. Other poses require generation and review."
+  "production_note": "Use this approved model for future Chris poses. Earlier selected-hat-pair is historical identity reference; smaller-eyed anime v3 is rejected. Other poses require generation and review. Layout now mirrors Char; Chris is the example for men and Char for women.",
+  "export_layout": "Same as Char: exports/{north,east,south,west,lying}/chris_<pose_id>_<variant>.png (approved only, byte-identical to the master), masters/<batch>, metadata/<batch>, drafts/<batch>, prompts/<batch>. Revision suffixes (_r2) are dropped in exports. Moved 2026-10-26; approved bytes and hashes unchanged.",
+  "directional_index": "assets/characters/poses/chris/directional-index.json",
+  "export_counts": {
+    "east": 19,
+    "west": 19,
+    "north": 11,
+    "south": 20,
+    "murderer-reveal": 5,
+    "lying": 7
+  },
+  "coverage_report": "docs/pose-production/EXPORT_PARITY.json",
+  "optional_catalog_unmade": 19
 }

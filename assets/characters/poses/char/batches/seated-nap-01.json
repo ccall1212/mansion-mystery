@@ -1,6 +1,6 @@
 {
   "batch_id": "seated-nap-01",
-  "status": "pending_review",
+  "status": "artwork_approved_runtime_fit_pending",
   "jobs": [
     {
       "direction": "east",
@@ -20,7 +20,9 @@
         "date": "2026-10-25",
         "source": "user",
         "quote": "Good continue"
-      }
+      },
+      "export": "assets/characters/poses/char/exports/east/char_seated_sleep_east_napping.png",
+      "metadata": "assets/characters/poses/char/metadata/seated-nap-01/char_seated_sleep_east_napping.json"
     },
     {
       "direction": "south",
@@ -40,7 +42,9 @@
         "date": "2026-10-25",
         "source": "user",
         "quote": "Approved, Continue."
-      }
+      },
+      "export": "assets/characters/poses/char/exports/south/char_seated_sleep_south_napping.png",
+      "metadata": "assets/characters/poses/char/metadata/seated-nap-01/char_seated_sleep_south_napping.json"
     },
     {
       "direction": "west",
@@ -54,9 +58,15 @@
         0,
         255
       ],
-      "artwork_status": "pending_review",
+      "artwork_status": "approved",
       "chair_fit": "unverified; canvas and lower-body redraw differ from idle",
-      "approval_evidence": null
+      "approval_evidence": {
+        "date": "2026-10-26",
+        "source": "user_chat",
+        "quote": "Yes, approve Char\u2019s existing west nap"
+      },
+      "export": "assets/characters/poses/char/exports/west/char_seated_sleep_west_napping.png",
+      "metadata": "assets/characters/poses/char/metadata/seated-nap-01/char_seated_sleep_west_napping.json"
     }
   ],
   "remaining": [],

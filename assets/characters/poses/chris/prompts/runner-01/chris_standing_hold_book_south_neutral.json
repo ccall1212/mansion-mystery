@@ -1,19 +1,19 @@
 {
-  "queue_id": "chris-standing_hold_book_south-neutral",
-  "prompt": "Create ONE full-body transparent PNG game sprite of CHRIS standing naturally holding a CLOSED burgundy hardcover book vertically against his lower chest and abdomen with BOTH hands, matching Char's reference pose. Image1 is approved Chris identity, proportions and costume; image2 Char is composition/hand placement/direction ONLY. Preserve Chris adult male proportions and exact approved large blue anime eyes/full brown beard and connected moustache, brown brows, gray tweed flat cap KEPT ON, red rolled-sleeve collared shirt with cream undershirt neckline, charcoal textured waistcoat/brass buttons, gold chain only on his own anatomical LEFT waist, black tailored trousers and black lace-up boots. Same richly shaded outlined anime game art. Relaxed brows and small closed-mouth friendly neutral expression where visible. Book firmly CLOSED with burgundy covers around a cream page block; fingers naturally gripping outer edges, one hand supporting base, no extra digits or arms. Full standing figure about1564px occupied height within4percent on portrait canvas similar948x1659, canonical head drawing scale, feet planted, comfortable transparent margins around cap and both boots. Actual PNG alpha0 exterior and opaque character interior. No chair, furniture, floor, cast shadow, colored halo, glow, backdrop, text or labels. One character only, independently draw each direction without mirroring. SOUTH: body squarely toward viewer, both shoulders and pelvis face forward, both boots planted toward viewer. Closed book vertical centered against abdomen, one hand holds side and opposite hand supports base like Char2. Chain at anatomical LEFT waist (screen RIGHT) only when not occluded.",
-  "references": [
-    {
-      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
-      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
-    },
-    {
-      "path": "assets/characters/poses/char/exports/south/char_standing_hold_book_south_neutral.png",
-      "sha256": "3d406523ccb87a8a99bef9921576d32034e4356862773592b988fd747a5d2e06"
-    }
-  ],
-  "tool": "built-in image_gen",
-  "transparent_background": true,
-  "draft_destination": "assets/characters/poses/chris/south/chris_standing_hold_book_south_neutral.png",
-  "status": "generated",
-  "prepared": "2026-10-26T19:44:34.190566+00:00"
+ "queue_id": "chris-standing_hold_book_south-neutral",
+ "prompt": "Create ONE full-body transparent PNG game sprite of CHRIS standing naturally holding a CLOSED burgundy hardcover book vertically against his lower chest and abdomen with BOTH hands, matching Char's reference pose. Image1 is approved Chris identity, proportions and costume; image2 Char is composition/hand placement/direction ONLY. Preserve Chris adult male proportions and exact approved large blue anime eyes/full brown beard and connected moustache, brown brows, gray tweed flat cap KEPT ON, red rolled-sleeve collared shirt with cream undershirt neckline, charcoal textured waistcoat/brass buttons, gold chain only on his own anatomical LEFT waist, black tailored trousers and black lace-up boots. Same richly shaded outlined anime game art. Relaxed brows and small closed-mouth friendly neutral expression where visible. Book firmly CLOSED with burgundy covers around a cream page block; fingers naturally gripping outer edges, one hand supporting base, no extra digits or arms. Full standing figure about1564px occupied height within4percent on portrait canvas similar948x1659, canonical head drawing scale, feet planted, comfortable transparent margins around cap and both boots. Actual PNG alpha0 exterior and opaque character interior. No chair, furniture, floor, cast shadow, colored halo, glow, backdrop, text or labels. One character only, independently draw each direction without mirroring. SOUTH: body squarely toward viewer, both shoulders and pelvis face forward, both boots planted toward viewer. Closed book vertical centered against abdomen, one hand holds side and opposite hand supports base like Char2. Chain at anatomical LEFT waist (screen RIGHT) only when not occluded.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  },
+  {
+   "path": "assets/characters/poses/char/exports/south/char_standing_hold_book_south_neutral.png",
+   "sha256": "3d406523ccb87a8a99bef9921576d32034e4356862773592b988fd747a5d2e06"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/exports/south/chris_standing_hold_book_south_neutral.png",
+ "status": "generated",
+ "prepared": "2026-10-26T19:44:34.190566+00:00"
 }

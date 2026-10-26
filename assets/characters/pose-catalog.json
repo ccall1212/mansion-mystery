@@ -935,7 +935,7 @@
       "head_direction": null,
       "tier": 1,
       "reuse_from": null,
-      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_accuse_south_defiant.png",
+      "source_char_asset": "assets/characters/poses/char/exports/murderer-reveal/char_standing_accuse_south_defiant.png",
       "source_char_status": "approved_export",
       "canvas": [
         944,
@@ -957,7 +957,7 @@
       "head_direction": null,
       "tier": 1,
       "reuse_from": null,
-      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_cry_south_remorseful.png",
+      "source_char_asset": "assets/characters/poses/char/exports/murderer-reveal/char_standing_cry_south_remorseful.png",
       "source_char_status": "approved_export",
       "canvas": [
         944,
@@ -979,7 +979,7 @@
       "head_direction": null,
       "tier": 1,
       "reuse_from": null,
-      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_laugh_south_evil.png",
+      "source_char_asset": "assets/characters/poses/char/exports/murderer-reveal/char_standing_laugh_south_evil.png",
       "source_char_status": "approved_export",
       "canvas": [
         944,
@@ -1001,7 +1001,7 @@
       "head_direction": null,
       "tier": 1,
       "reuse_from": null,
-      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_threaten_south_furious.png",
+      "source_char_asset": "assets/characters/poses/char/exports/murderer-reveal/char_standing_threaten_south_furious.png",
       "source_char_status": "approved_export",
       "canvas": [
         944,
@@ -1023,7 +1023,7 @@
       "head_direction": null,
       "tier": 1,
       "reuse_from": null,
-      "source_char_asset": "assets/characters/poses/char/exports/south/char_standing_shrug_south_resigned.png",
+      "source_char_asset": "assets/characters/poses/char/exports/murderer-reveal/char_standing_shrug_south_resigned.png",
       "source_char_status": "approved_export",
       "canvas": [
         944,

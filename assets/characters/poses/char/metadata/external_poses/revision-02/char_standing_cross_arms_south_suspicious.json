@@ -9,7 +9,7 @@
   "props": [],
   "source_master": "assets/characters/poses/char/masters/external_poses/revision-02/char_standing_cross_arms_south_suspicious.png",
   "source_sha256": "a11f51673be22529b087ef5b15361b229211bf862bdcd7b2d31e1b48c21f5a17",
-  "export": "assets/characters/poses/char/exports/south/revision-02/char_standing_cross_arms_south_suspicious.png",
+  "export": "assets/characters/poses/char/exports/south/char_standing_cross_arms_south_suspicious.png",
   "export_sha256": "a11f51673be22529b087ef5b15361b229211bf862bdcd7b2d31e1b48c21f5a17",
   "canvas": [
     944,

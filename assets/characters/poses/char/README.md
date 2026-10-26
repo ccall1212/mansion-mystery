@@ -4,6 +4,8 @@ Open [index.html](index.html) to browse approved poses by direction, or
 [the alignment review](review/alignment_01/index.html) for comparison/chair contexts.
 
 - `exports/north`, `east`, `south`, `west`: approved directional PNGs.
+- `exports/murderer-reveal`: the five murderer reveal poses (accuse, cry, laugh, shrug, threaten); they are
+  south-facing but kept out of `exports/south` (moved 2026-10-26, bytes and hashes unchanged).
 - Filenames: `char_<posture>_<action>_<direction>_<variant>.png`, including neutral.
 - `masters/likeness-review-02`: approved identity design. `masters/alignment_01`:
   unchanged native pose sources; export padding and contact metadata are separate.

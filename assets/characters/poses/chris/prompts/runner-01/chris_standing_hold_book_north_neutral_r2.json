@@ -1,15 +1,15 @@
 {
-  "queue_id": "chris-standing_hold_book_north-neutral",
-  "prompt": "Edit this SINGLE back-facing Chris sprite. Keep exact identity, gray cap, brown hair, red rolled-sleeve shirt, charcoal textured waistcoat back, black trousers and boots, same standing height and scale. Change arms ONLY: remove hands from pockets and bend both elbows in front of his torso holding ONE closed burgundy hardcover book vertically against his abdomen. The book is mostly OCCLUDED by his back/torso because we view him from behind. A narrow part of the closed book and hand may peek past his screen-left side. No face, eye or front torso visible; do not turn him around. Exactly ONE full-body figure, rear view only, centered. NOT a front/back model sheet, no duplicate, no side-by-side. Full cap and both boots with comfortable margin, around1564px occupied height on portrait canvas near948x1659. Keep existing waistcoat back adjustment strap and buckle; no rear watch chain or buttons on trouser pockets. Clean actual PNG alpha transparency, opaque character interior, no halo/shadow/floor/furniture/text/background. Keep his standing shape and proportions unchanged except arm pose.",
-  "references": [
-    {
-      "path": "assets/characters/poses/chris/north/chris_standing_idle_north_neutral_r3.png",
-      "sha256": "0b85dfd21f7cb7f080f58421b4e24ade58e07ad620aa1b1c60f8f1eec4aa9e97"
-    }
-  ],
-  "tool": "built-in image_gen",
-  "transparent_background": true,
-  "draft_destination": "assets/characters/poses/chris/north/chris_standing_hold_book_north_neutral_r2.png",
-  "status": "generated",
-  "prepared": "2026-10-26T19:42:42.192001+00:00"
+ "queue_id": "chris-standing_hold_book_north-neutral",
+ "prompt": "Edit this SINGLE back-facing Chris sprite. Keep exact identity, gray cap, brown hair, red rolled-sleeve shirt, charcoal textured waistcoat back, black trousers and boots, same standing height and scale. Change arms ONLY: remove hands from pockets and bend both elbows in front of his torso holding ONE closed burgundy hardcover book vertically against his abdomen. The book is mostly OCCLUDED by his back/torso because we view him from behind. A narrow part of the closed book and hand may peek past his screen-left side. No face, eye or front torso visible; do not turn him around. Exactly ONE full-body figure, rear view only, centered. NOT a front/back model sheet, no duplicate, no side-by-side. Full cap and both boots with comfortable margin, around1564px occupied height on portrait canvas near948x1659. Keep existing waistcoat back adjustment strap and buckle; no rear watch chain or buttons on trouser pockets. Clean actual PNG alpha transparency, opaque character interior, no halo/shadow/floor/furniture/text/background. Keep his standing shape and proportions unchanged except arm pose.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/exports/north/chris_standing_idle_north_neutral.png",
+   "sha256": "0b85dfd21f7cb7f080f58421b4e24ade58e07ad620aa1b1c60f8f1eec4aa9e97"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/exports/north/chris_standing_hold_book_north_neutral.png",
+ "status": "generated",
+ "prepared": "2026-10-26T19:42:42.192001+00:00"
 }

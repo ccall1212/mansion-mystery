@@ -1,19 +1,19 @@
 {
-  "queue_id": "chris-seated_sleep_south-napping",
-  "prompt": "Create ONE transparent PNG game sprite: CHRIS napping seated. Image1 is Chris seated IDENTITY AND LOWER-BODY target: preserve his hips, bent legs, pelvis height, boot placement, camera angle, head size and character proportions. Image2 Char napping in matching direction is head/arms/mood reference only, not female identity or outfit. Change Chris upper body: head tipped softly toward one shoulder with chin a little lowered, eyes fully CLOSED, relaxed eyebrows/mouth, shoulders slightly slumped, both hands loosely folded in lap. Peaceful natural dozing, not sadness or crying. Preserve full brown beard/moustache, gray tweed flat cap ON, red rolled-sleeve collared shirt/cream neckline, charcoal textured waistcoat/brass buttons, chain on own anatomical LEFT waist with natural occlusion, black trousers and laceup boots. Retain Chris south target's crossed-leg configuration exactly, including elevated crossed boot and lower planted boot. Match existing lower-body geometry; do not turn to face viewer. Same richly shaded outlined anime rendering. One complete character, full cap and both boots inside transparent margins. Actual alpha transparency, fully opaque character and EMPTY alpha0 outside silhouette; REMOVE any inherited background glow. Flat diffuse lighting, no halo/aura/vignette, no background, no furniture/chair/floor/shadow, no props/book/text. Independently draw, no mirroring. Facing SOUTH toward viewer. Shoulders and pelvis squarely forward, original crossed knees and boot directions as in Chris target. Head tilted gently to one shoulder, eyes closed, head bowed a little. Keep original seated pelvis/legs and feet positions.",
-  "references": [
-    {
-      "path": "assets/characters/poses/chris/south/chris_seated_idle_south_neutral.png",
-      "sha256": "eaf5fac2fedcb4a54961dc1786bda573b4df746b34dce48ecf6f451a800c9a42"
-    },
-    {
-      "path": "assets/characters/poses/char/drafts/seated-nap-01/char_seated_sleep_south_napping.png",
-      "sha256": "560ea57252ab48c4b5b7d4061de955d510f1f811c9593fe4e25e7dc9e306810f"
-    }
-  ],
-  "tool": "built-in image_gen",
-  "transparent_background": true,
-  "draft_destination": "assets/characters/poses/chris/south/chris_seated_sleep_south_napping.png",
-  "status": "generated",
-  "prepared": "2026-10-26T19:30:43.279073+00:00"
+ "queue_id": "chris-seated_sleep_south-napping",
+ "prompt": "Create ONE transparent PNG game sprite: CHRIS napping seated. Image1 is Chris seated IDENTITY AND LOWER-BODY target: preserve his hips, bent legs, pelvis height, boot placement, camera angle, head size and character proportions. Image2 Char napping in matching direction is head/arms/mood reference only, not female identity or outfit. Change Chris upper body: head tipped softly toward one shoulder with chin a little lowered, eyes fully CLOSED, relaxed eyebrows/mouth, shoulders slightly slumped, both hands loosely folded in lap. Peaceful natural dozing, not sadness or crying. Preserve full brown beard/moustache, gray tweed flat cap ON, red rolled-sleeve collared shirt/cream neckline, charcoal textured waistcoat/brass buttons, chain on own anatomical LEFT waist with natural occlusion, black trousers and laceup boots. Retain Chris south target's crossed-leg configuration exactly, including elevated crossed boot and lower planted boot. Match existing lower-body geometry; do not turn to face viewer. Same richly shaded outlined anime rendering. One complete character, full cap and both boots inside transparent margins. Actual alpha transparency, fully opaque character and EMPTY alpha0 outside silhouette; REMOVE any inherited background glow. Flat diffuse lighting, no halo/aura/vignette, no background, no furniture/chair/floor/shadow, no props/book/text. Independently draw, no mirroring. Facing SOUTH toward viewer. Shoulders and pelvis squarely forward, original crossed knees and boot directions as in Chris target. Head tilted gently to one shoulder, eyes closed, head bowed a little. Keep original seated pelvis/legs and feet positions.",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/drafts/runner-01/chris_seated_idle_south_neutral.png",
+   "sha256": "eaf5fac2fedcb4a54961dc1786bda573b4df746b34dce48ecf6f451a800c9a42"
+  },
+  {
+   "path": "assets/characters/poses/char/drafts/seated-nap-01/char_seated_sleep_south_napping.png",
+   "sha256": "560ea57252ab48c4b5b7d4061de955d510f1f811c9593fe4e25e7dc9e306810f"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/exports/south/chris_seated_sleep_south_napping.png",
+ "status": "generated",
+ "prepared": "2026-10-26T19:30:43.279073+00:00"
 }

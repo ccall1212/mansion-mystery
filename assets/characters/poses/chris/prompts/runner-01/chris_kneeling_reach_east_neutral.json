@@ -1,19 +1,19 @@
 {
-  "queue_id": "chris-kneeling_reach_east-neutral",
-  "prompt": "Create ONE separate full-body transparent PNG game character pose of CHRIS, kneeling_reach_east, variant neutral.\nREFERENCE 1 is Chris's USER-APPROVED canonical model: preserve this exact identity, male adult body proportions, common head scale and drawing scale. REFERENCE 2 is Char's SAME-POSE composition/expression reference ONLY. Do not copy her face, feminine body, outfit, hair, jewelry or hand gesture where the male override differs.\nIDENTITY LOCK: expressive larger blue anime eyes exactly like approved Chris v2, simplified softly shaded nose/face, full brown beard and connected moustache, brown brows, gray tweed flat cap KEPT ON. No cap removal or head scratching. RED collared shirt with rolled sleeves and small cream undershirt at throat, CHARCOAL textured waistcoat with brass buttons, gold watch chain on his anatomical LEFT waist (screen-right in south view), black tailored trousers and BLACK lace-up boots. Preserve asymmetric pocket/chain construction across directions with natural occlusion, never move it to another anatomical side to make it visible. Same richly shaded outlined anime/cartoon game rendering with deliberate crisp detail, no photoreal skin or tiny chibi anatomy.\nPOSE: Kneel and reach naturally; male clothing and visible legs.\nEXPRESSION: neutral. Communicate it through eyes/brows/mouth and posture where visible. Suspicious does not mean furious. Nervous is anxious uncertainty, not crying or terror. Neutral has relaxed brows and a small closed-mouth friendly expression where face is visible.\nFACING: whole body faces screen RIGHT (EAST). Head/chest/hips/knees/boots agree. North must show actual back, no over-shoulder face. Elevated three-quarter mansion camera showing a little crown and shoulder tops. Independently draw this direction; NEVER mirror/flip another pose.\nSCALE/FRAMING: Match reference1 head and adult anatomy drawing scale; reference2 supplies kneeling body geometry. Kneeling silhouette naturally shorter than standing. Keep all limbs and boots inside comfortable transparent margins. No resizing kneeling figure to standing height.\nOUTPUT: exactly ONE complete character with actual PNG alpha transparency (empty outside silhouette), complete arms/hands/legs/hat/boots, clean margins and gaps. No furniture, chair, floor, scenery, shadow, glow, text, labels, borders, grid or extra character. Any book is allowed only when required by the named action. Return only this image; draft production, not approval.\n",
-  "references": [
-    {
-      "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
-      "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
-    },
-    {
-      "path": "assets/characters/poses/char/exports/east/char_kneeling_reach_east_neutral.png",
-      "sha256": "300ef57c9d8955c3d2dfbf35113de05263966d633783932757667231774c4f69"
-    }
-  ],
-  "tool": "built-in image_gen",
-  "transparent_background": true,
-  "draft_destination": "assets/characters/poses/chris/east/chris_kneeling_reach_east_neutral.png",
-  "status": "generated",
-  "prepared": "2026-10-26T18:23:54.224592+00:00"
+ "queue_id": "chris-kneeling_reach_east-neutral",
+ "prompt": "Create ONE separate full-body transparent PNG game character pose of CHRIS, kneeling_reach_east, variant neutral.\nREFERENCE 1 is Chris's USER-APPROVED canonical model: preserve this exact identity, male adult body proportions, common head scale and drawing scale. REFERENCE 2 is Char's SAME-POSE composition/expression reference ONLY. Do not copy her face, feminine body, outfit, hair, jewelry or hand gesture where the male override differs.\nIDENTITY LOCK: expressive larger blue anime eyes exactly like approved Chris v2, simplified softly shaded nose/face, full brown beard and connected moustache, brown brows, gray tweed flat cap KEPT ON. No cap removal or head scratching. RED collared shirt with rolled sleeves and small cream undershirt at throat, CHARCOAL textured waistcoat with brass buttons, gold watch chain on his anatomical LEFT waist (screen-right in south view), black tailored trousers and BLACK lace-up boots. Preserve asymmetric pocket/chain construction across directions with natural occlusion, never move it to another anatomical side to make it visible. Same richly shaded outlined anime/cartoon game rendering with deliberate crisp detail, no photoreal skin or tiny chibi anatomy.\nPOSE: Kneel and reach naturally; male clothing and visible legs.\nEXPRESSION: neutral. Communicate it through eyes/brows/mouth and posture where visible. Suspicious does not mean furious. Nervous is anxious uncertainty, not crying or terror. Neutral has relaxed brows and a small closed-mouth friendly expression where face is visible.\nFACING: whole body faces screen RIGHT (EAST). Head/chest/hips/knees/boots agree. North must show actual back, no over-shoulder face. Elevated three-quarter mansion camera showing a little crown and shoulder tops. Independently draw this direction; NEVER mirror/flip another pose.\nSCALE/FRAMING: Match reference1 head and adult anatomy drawing scale; reference2 supplies kneeling body geometry. Kneeling silhouette naturally shorter than standing. Keep all limbs and boots inside comfortable transparent margins. No resizing kneeling figure to standing height.\nOUTPUT: exactly ONE complete character with actual PNG alpha transparency (empty outside silhouette), complete arms/hands/legs/hat/boots, clean margins and gaps. No furniture, chair, floor, scenery, shadow, glow, text, labels, borders, grid or extra character. Any book is allowed only when required by the named action. Return only this image; draft production, not approval.\n",
+ "references": [
+  {
+   "path": "assets/characters/poses/chris/masters/model-review-01/chris-model-v2.png",
+   "sha256": "c7cb308f4e516a2e2e0870063db7868b19feee8d78821938079d765fddf892dc"
+  },
+  {
+   "path": "assets/characters/poses/char/exports/east/char_kneeling_reach_east_neutral.png",
+   "sha256": "300ef57c9d8955c3d2dfbf35113de05263966d633783932757667231774c4f69"
+  }
+ ],
+ "tool": "built-in image_gen",
+ "transparent_background": true,
+ "draft_destination": "assets/characters/poses/chris/drafts/runner-01/chris_kneeling_reach_east_neutral.png",
+ "status": "generated",
+ "prepared": "2026-10-26T18:23:54.224592+00:00"
 }

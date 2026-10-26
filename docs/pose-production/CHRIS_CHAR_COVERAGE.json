@@ -1,10 +1,10 @@
 {
   "date": "2026-10-26",
-  "count_basis": "One current pose_id/variant_id including canonical imported base. Exclude superseded changes_requested artwork and alternate revisions. Generated draft/needs_help coverage does not imply approval, technical readiness or runtime integration.",
+  "count_basis": "81 current artwork-approved, byte-preserved export files each; furniture/runtime fit and common canvas/pivot alignment remain pending.",
   "catalog_entries": 100,
   "char_existing_catalog_pose_count": 81,
-  "char_existing_export_files": 78,
-  "char_catalog_draft_sources": 3,
+  "char_existing_export_files": 81,
+  "char_catalog_draft_sources": 0,
   "chris_current_generated_pose_count": 81,
   "exact_matching_pose_count": 80,
   "char_only": [
@@ -22,10 +22,8 @@
   "intentional_replacement": "Char standing_cry_south/remorseful is replaced by user-approved Chris crouching_cry_south/remorseful. Superseded Chris standing cry excluded.",
   "chris_status_counts": {
     "imported": 1,
-    "approved": 58,
-    "changes_requested": 1,
-    "draft": 17,
-    "needs_help": 5,
+    "approved": 80,
+    "skipped": 1,
     "queued": 19
   },
   "optional_catalog_missing_for_both": [
@@ -105,5 +103,7 @@
       "standing_warm_hands_north",
       "neutral"
     ]
-  ]
+  ],
+  "chris_existing_export_files": 81,
+  "export_parity_report": "docs/pose-production/EXPORT_PARITY.json"
 }
